@@ -1,0 +1,8 @@
+# Netlify 배포 설정 (정적 사이트, 빌드 단계 없음)
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
