@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>우리동네 청년혜택 · 연수구</title>
+<style>
+  :root{
+    --bg:#0e1116; --card:#171c24; --line:#262d39; --txt:#e7ecf3; --sub:#9aa6b8;
+    --accent:#3d8bff; --accent2:#19c37d; --warn:#ff6b6b; --gold:#ffcc4d;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:var(--bg);color:var(--txt);line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:480px;margin:0 auto;padding:16px 14px 60px}
+  header{padding:8px 2px 14px}
+  .loc{display:inline-flex;align-items:center;gap:5px;background:#1d2530;border:1px solid var(--line);color:var(--sub);font-size:12px;padding:5px 10px;border-radius:999px}
+  h1{font-size:23px;font-weight:800;margin:12px 0 4px;letter-spacing:-.5px}
+  h1 b{color:var(--accent)}
+  .lede{color:var(--sub);font-size:13.5px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-top:16px}
+  .panel h2{font-size:14px;color:var(--sub);font-weight:600;margin-bottom:12px}
+  .agewrap{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .agewrap input{width:88px;background:#0e1319;border:1px solid var(--line);color:var(--txt);font-size:20px;font-weight:700;text-align:center;border-radius:10px;padding:10px}
+  .agewrap label{font-size:14px;color:var(--sub)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{background:#0e1319;border:1px solid var(--line);color:var(--sub);font-size:13px;padding:8px 13px;border-radius:999px;cursor:pointer;user-select:none;transition:.15s}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+  .result-banner{margin-top:18px;background:linear-gradient(135deg,#10351f,#0f2235);border:1px solid #1f6b46;border-radius:16px;padding:18px;text-align:center}
+  .result-banner .big{font-size:34px;font-weight:900;color:var(--gold);letter-spacing:-1px}
+  .result-banner .cap{font-size:13px;color:#bfe9cf;margin-top:2px}
+  .result-banner .cnt{font-size:13px;color:#bfe9cf;margin-top:8px}
+  .share{margin-top:12px;display:inline-block;background:#fee500;color:#191600;font-weight:700;font-size:13px;padding:9px 18px;border-radius:10px;border:none;cursor:pointer}
+  .sec-title{margin:22px 4px 10px;font-size:13px;color:var(--sub);font-weight:600;display:flex;justify-content:space-between}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px;margin-bottom:10px;position:relative;overflow:hidden}
+  .card.elig{border-color:#2f6b4a}
+  .card.elig:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent2)}
+  .card.locked{opacity:.5}
+  .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+  .ctitle{font-size:15.5px;font-weight:700}
+  .cat{font-size:11px;color:var(--sub);background:#0e1319;border:1px solid var(--line);padding:3px 8px;border-radius:6px;white-space:nowrap}
+  .amt{color:var(--gold);font-weight:700;font-size:14px;margin:8px 0 6px}
+  .meta{font-size:12.5px;color:var(--sub);margin-top:3px}
+  .meta b{color:var(--txt);font-weight:600}
+  .badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
+  .badge{font-size:11px;padding:3px 8px;border-radius:6px;font-weight:600}
+  .dday{background:#3a1d1d;color:#ffb3b3;border:1px solid #5e2a2a}
+  .dday.open{background:#13301f;color:#8fe6b4;border:1px solid #2f6b4a}
+  .reason{background:#2a1f0e;color:var(--gold);border:1px solid #5e4a1f}
+  .reason.no{background:#241a1a;color:#d99;border:1px solid #4a2a2a}
+  a.src{color:var(--accent);font-size:12px;text-decoration:none;margin-top:9px;display:inline-block}
+  .foot{margin-top:24px;font-size:11px;color:#5d6678;line-height:1.6;text-align:center}
+  .hidden{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="loc">📍 인천광역시 연수구</span>
+    <h1>나만 모르고 놓친 <b>청년 혜택</b>, 다 모았어요</h1>
+    <p class="lede">옆 동네는 받는데 나만 몰랐던 우리 구 청년 지원금. 나이·상황만 넣으면 받을 수 있는 것만 골라드려요.</p>
+  </header>
+
+  <div class="panel">
+    <h2>내 정보</h2>
+    <div class="agewrap">
+      <input id="age" type="number" min="15" max="50" value="27" />
+      <label>세 · 연수구 거주</label>
+    </div>
+    <h2>내 상황 (해당하는 것 선택)</h2>
+    <div class="chips" id="chips">
+      <span class="chip" data-tag="무주택">🏠 무주택·자취</span>
+      <span class="chip on" data-tag="구직중">🔍 구직중</span>
+      <span class="chip" data-tag="재직중">💼 재직중</span>
+      <span class="chip" data-tag="독립">🚪 부모와 별거</span>
+    </div>
+  </div>
+
+  <div class="result-banner" id="banner">
+    <div class="big" id="total">—</div>
+    <div class="cap">내가 받을 수 있는 최대 금액</div>
+    <div class="cnt" id="cnt"></div>
+    <button class="share" onclick="share()">💬 카톡으로 친구에게 공유</button>
+  </div>
+
+  <div class="sec-title"><span>✅ 받을 수 있어요</span><span id="eligcnt"></span></div>
+  <div id="eligible"></div>
+
+  <div class="sec-title"><span>🔒 조건이 안 맞아요</span></div>
+  <div id="locked"></div>
+
+  <p class="foot">
+    실제 공개정보 기반 프로토타입(2026-06-08 스냅샷) · 데모용이며 금액·기간은 변동될 수 있어요.<br/>
+    신청 전 인천청년포털·연수구청 등 공식 출처로 꼭 확인하세요.
+  </p>
+</div>
+
+<script>
+const DATA = {
+  benefits: [
+    {id:"rent",title:"인천형 청년월세 지원사업",category:"주거",amount:2400000,amount_label:"월 최대 20만원 (연 최대 240만원)",age_min:19,age_max:39,need:["무주택"],apply_end:"2026-05-29",how:"복지로/인천청년포털 또는 행정복지센터",contact:"연수구 일자리정책과 032-749-7834",source:"https://youth.incheon.go.kr/dwelling/monthly.jsp"},
+    {id:"dream",title:"드림체크카드 (구직활동비)",category:"일자리",amount:3000000,amount_label:"월 50만원 × 6개월 = 최대 300만원",age_min:18,age_max:39,need:["구직중"],apply_end:"2026-12-31",how:"인천청년포털 온라인 신청",contact:"인천청년포털",source:"https://youth.incheon.go.kr/job/dream.jsp"},
+    {id:"interview",title:"청년 면접수당",category:"일자리",amount:100000,amount_label:"면접 1회 5만원 × 최대 2회 = 10만원",age_min:18,age_max:39,need:["구직중"],apply_end:"2026-12-31",how:"관할 구청 일자리정책과",contact:"연수구 일자리정책과 032-749-7834",source:"https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoDetail.do?poly_seq=277"},
+    {id:"account",title:"드림For 청년통장 (자산형성)",category:"자산형성",amount:5400000,amount_label:"3년간 시 지원 540만원 (최대 1,080만 자산)",age_min:18,age_max:39,need:["재직중"],apply_end:"2026-05-15",how:"인천청년포털 온라인 신청",contact:"인천테크노파크",source:"https://youth.incheon.go.kr/financial/dreamfor.jsp"},
+    {id:"welfare",title:"인천 재직청년 복지포인트",category:"복지",amount:500000,amount_label:"연 복지포인트 (재직 청년)",age_min:18,age_max:39,need:["재직중"],apply_end:"2026-12-31",how:"인천테크노파크 신청",contact:"인천테크노파크",source:"https://www.itp.or.kr/intro.asp?tmid=428"},
+    {id:"mind",title:"청년 마음건강 지원 (심리상담)",category:"마음건강",amount:0,amount_label:"전문 심리상담 회기 지원 (현물)",age_min:19,age_max:39,need:[],apply_end:"2026-12-31",how:"복지로/연수구 보건소",contact:"연수구 청년정책 담당",source:"https://www.bokjiro.go.kr/"}
+  ]
+};
+
+const TODAY = new Date("2026-06-08");
+let selected = new Set(["구직중"]);
+
+document.getElementById("chips").addEventListener("click", e=>{
+  const c = e.target.closest(".chip"); if(!c) return;
+  const t = c.dataset.tag;
+  if(selected.has(t)){selected.delete(t);c.classList.remove("on");}
+  else {selected.add(t);c.classList.add("on");}
+  render();
+});
+document.getElementById("age").addEventListener("input", render);
+
+function dday(end){
+  const d = Math.ceil((new Date(end)-TODAY)/(1000*60*60*24));
+  return d;
+}
+function won(n){ return n>=10000 ? (n/10000).toLocaleString()+"만원" : n.toLocaleString()+"원"; }
+
+function evaluate(b, age){
+  const ageOk = age>=b.age_min && age<=b.age_max;
+  const needOk = b.need.length===0 || b.need.every(n=>selected.has(n));
+  return {ageOk, needOk, eligible: ageOk && needOk};
+}
+
+function render(){
+  const age = parseInt(document.getElementById("age").value)||0;
+  const elig=[], locked=[]; let total=0;
+  DATA.benefits.forEach(b=>{
+    const ev = evaluate(b, age);
+    if(ev.eligible){ elig.push(b); total += b.amount; }
+    else locked.push({b,ev});
+  });
+
+  document.getElementById("total").textContent = total>0 ? "최대 "+won(total) : "0원";
+  document.getElementById("cnt").textContent = "해당 혜택 "+elig.length+"건 · 연수구 청년 기준";
+  document.getElementById("eligcnt").textContent = elig.length+"건";
+
+  document.getElementById("eligible").innerHTML = elig.map(b=>{
+    const d = dday(b.apply_end);
+    const dlabel = d>=0 ? "신청 D-"+d : "마감";
+    return `<div class="card elig">
+      <div class="ctop"><span class="ctitle">${b.title}</span><span class="cat">${b.category}</span></div>
+      <div class="amt">💰 ${b.amount_label}</div>
+      <div class="meta"><b>신청</b> ${b.how}</div>
+      <div class="meta"><b>문의</b> ${b.contact}</div>
+      <div class="badges">
+        <span class="badge ${d>=0?'dday open':'dday'}">${dlabel}</span>
+        <span class="badge reason">✓ ${age}세·내 상황 충족</span>
+      </div>
+      <a class="src" href="${b.source}" target="_blank">공식 출처 확인 →</a>
+    </div>`;
+  }).join("") || `<div class="card"><div class="meta">조건을 선택하면 받을 수 있는 혜택이 표시돼요.</div></div>`;
+
+  document.getElementById("locked").innerHTML = locked.map(({b,ev})=>{
+    let why = !ev.ageOk ? `만 ${b.age_min}~${b.age_max}세 대상` : `'${b.need.join(", ")}' 조건 필요`;
+    return `<div class="card locked">
+      <div class="ctop"><span class="ctitle">${b.title}</span><span class="cat">${b.category}</span></div>
+      <div class="amt">💰 ${b.amount_label}</div>
+      <div class="badges"><span class="badge reason no">✗ ${why}</span></div>
+    </div>`;
+  }).join("");
+}
+
+function share(){
+  const t = document.getElementById("total").textContent;
+  const msg = `[연수구 청년혜택] 나 ${t} 받을 수 있대! 너도 확인해봐 👉`;
+  if(navigator.share){ navigator.share({title:"우리동네 청년혜택", text:msg}); }
+  else { navigator.clipboard?.writeText(msg); alert("공유 문구가 복사됐어요!\n\n"+msg); }
+}
+
+render();
+</script>
+</body>
+</html>
