@@ -23,11 +23,31 @@ python3 -m http.server 8000              # http://localhost:8000/youth-benefits-
   - 청년월세 / 드림체크카드 / 면접수당 / 드림For청년통장 / 재직청년 복지포인트 / 마음건강
 - 출처: 인천청년포털·연수구청·복지로 공개 페이지
 
-## 수집 자동화 (핵심 해자)
-- `scraper/scrape.py` — 공고 수집 → LLM 구조화 → JSON 파이프라인의 골격
-- **현실**: 정부/지자체 사이트는 직접 크롤이 **HTTP 403으로 차단**됨(이번 데모에서 실제로 막힘).
-  실서비스는 ① 공식 오픈API(data.go.kr·온통청년) ② 제휴 ③ 합법적 수집+캐싱 조합 필요.
-  → 진짜 승부처는 기술이 아니라 **데이터 수집·최신화**임을 그대로 보여줌.
+## 공식 API 연동 (온통청년 청년정책 OpenAPI)
+- `scraper/fetch_youth_api.mjs` — **한국고용정보원_온통청년_청년정책API**(data.go.kr/data/15143273) 연동.
+  - `GET https://www.youthcenter.go.kr/go/ythip/getPlcy`
+  - 인천(zipCd 28) 수집 → 코드단에서 **연수구·청년 연령** 필터 → 표준 스키마 정규화 → `data/yeonsu_youth_live.json` 저장
+  - 정규화: 카테고리 매핑, 금액 텍스트→숫자(`parseAmount`), 취업상태→상황태그(`deriveNeed`), 신청기간→마감일(`parseEnd`)
+- 앱은 `live.json`(API) → `yeonsu_youth.json`(검증 시드) → 임베드 순으로 자동 폴백.
+
+### 켜는 데 필요한 2가지
+1. **인증키**: data.go.kr에서 위 API 활용신청 후 발급 → `export YOUTH_API_KEY="발급키"`
+2. **네트워크 허용**: 실행 환경의 아웃바운드 정책이 `www.youthcenter.go.kr` 를 허용해야 함
+   - ⚠️ 현재 Claude Code 원격 샌드박스는 **allowlist 정책**이라 정부 도메인이 **403**으로 막힘
+     (npmjs/github만 열림). → 네트워크 허용된 환경에서 실행 필요.
+
+### 실행 / 검증
+```
+# 실데이터 수집 (키+네트워크 필요)
+YOUTH_API_KEY=xxxx node scraper/fetch_youth_api.mjs
+# 네트워크/키 없이 정규화 로직만 검증 (10/10 통과 확인됨)
+node scraper/fetch_youth_api.mjs --selftest
+```
+
+## 수집 자동화 — 현실 체크 (핵심 해자)
+- `scraper/scrape.py` — 직접 크롤 파이프라인 골격. **정부사이트는 크롤이 HTTP 403 차단**(데모에서 실측).
+- 그래서 정공법은 **공식 오픈API**(위 온통청년) + 제휴. 단, **연 1회성 지자체 고유 비복지 혜택**은
+  API에도 안 잡히는 게 많아 → 결국 **공고 수집·구조화·최신화 운영력**이 진짜 해자.
 
 ## 확장 로드맵
 1. 지역 확장: 연수구 → 인천 10개 군·구 → 전국 229개 (수집 파이프라인 일반화)

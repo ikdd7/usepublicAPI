@@ -89,7 +89,7 @@
   <div id="locked"></div>
 
   <p class="foot">
-    실제 공개정보 기반 프로토타입(2026-06-08 스냅샷) · 데모용이며 금액·기간은 변동될 수 있어요.<br/>
+    <span id="srcTag">데이터: 검증 시드(2026-06-08 스냅샷)</span> · 데모용이며 금액·기간은 변동될 수 있어요.<br/>
     신청 전 인천청년포털·연수구청 등 공식 출처로 꼭 확인하세요.
   </p>
 </div>
@@ -176,7 +176,38 @@ function share(){
   else { navigator.clipboard?.writeText(msg); alert("공유 문구가 복사됐어요!\n\n"+msg); }
 }
 
-render();
+// 다양한 스키마(임베드/시드/온통청년 live)를 런타임 스키마로 통일
+function toRuntime(b){
+  return {
+    id: b.id, title: b.title, category: b.category,
+    amount: b.amount ?? b.amount_max_won ?? 0,
+    amount_label: b.amount_label || "상세 참조",
+    age_min: b.age_min ?? 18, age_max: b.age_max ?? 39,
+    need: b.need || b.tags || [],
+    apply_end: b.apply_end || null,
+    how: b.how || b.apply_how || "공식 페이지 참조",
+    contact: b.contact || "", source: b.source || "#"
+  };
+}
+// live(API) -> seed(검증) -> embedded 순으로 로드. file://에선 fetch 실패하므로 embedded 사용.
+async function loadData(){
+  for(const url of ["data/yeonsu_youth_live.json","data/yeonsu_youth.json"]){
+    try{
+      const r = await fetch(url, {cache:"no-store"});
+      if(r.ok){ const j = await r.json();
+        if(j.benefits?.length){
+          DATA.benefits = j.benefits.map(toRuntime);
+          const tag = document.getElementById("srcTag");
+          if(tag) tag.textContent = (j.meta?.source ? "데이터: "+j.meta.source : "데이터: "+url)
+            + (j.meta?.snapshot_date ? " · "+j.meta.snapshot_date : "");
+          return;
+        }
+      }
+    }catch(e){ /* file:// 또는 미존재 -> 다음/embedded */ }
+  }
+}
+
+(async ()=>{ await loadData(); render(); })();
 </script>
 </body>
 </html>
