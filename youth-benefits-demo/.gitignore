@@ -1,5 +1,8 @@
 node_modules/
 package-lock.json
+package.json
 shot.mjs
 shot2.mjs
-package.json
+.env
+*.env
+data/yeonsu_youth_live.json

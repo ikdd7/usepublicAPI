@@ -132,8 +132,11 @@ async function fetchPage(key, pageNum, pageSize = 100) {
 }
 
 async function run() {
-  const key = process.env.YOUTH_API_KEY;
+  let key = process.env.YOUTH_API_KEY;
   if (!key) { console.error("✗ YOUTH_API_KEY 환경변수가 없습니다. (data.go.kr 발급 필요)"); process.exit(1); }
+  // data.go.kr은 인코딩/디코딩 키 2종 제공. URLSearchParams가 한 번 인코딩하므로
+  // 인코딩키(%2F,%3D 포함)가 들어오면 디코딩해서 이중 인코딩을 방지한다.
+  if (/%[0-9A-Fa-f]{2}/.test(key)) key = decodeURIComponent(key);
   console.log("== 온통청년 청년정책 API 수집 시작 ==");
   let page = 1, all = [], total = Infinity;
   while ((page - 1) * 100 < total && page <= 30) {
