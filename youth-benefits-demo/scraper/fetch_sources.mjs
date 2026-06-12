@@ -15,6 +15,7 @@ import { writeFileSync } from "node:fs";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { dirname, join } from "node:path";
 import { parseAmount, fetchPage as fetchYouthPage, normalize as normalizeYouth, matchRegion, matchAge } from "./fetch_youth_api.mjs";
+import { harvestCandidates } from "./boards.mjs";
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dir, "..", "data", "yeonsu_youth_live.json");
@@ -229,6 +230,27 @@ async function srcYouthcenter(key) {
     .map((p) => ({ ...normalizeYouth(p), region: SIDO, support_type: supportTypeOf(p.plcySprtCn || ""), raw: clip(`${p.plcyNm} ${p.plcySprtCn}`, 300), _src: "온통청년" }));
 }
 
+/* ---------- E. 구청 공고게시판 (boards.mjs) ---------- */
+// 결과공개·정산·현황 등 비신청성 글은 제외
+const NOT_BENEFIT = /결과\s*공개|정산\s*(현황|결과)|심의\s*결과|선정\s*(결과|자)|발표|명단|현황$/;
+async function srcBoards() {
+  const cands = await harvestCandidates();
+  const out = [];
+  for (const c of cands) {
+    if (NOT_BENEFIT.test(c.title)) continue;
+    const [age_min, age_max] = parseAgeRange(c.title);
+    out.push({
+      id: "bd-" + Buffer.from(c.url || c.title).toString("hex").slice(0, 12),
+      title: clip(c.title, 70), category: "구청공고", region: c.region,
+      amount: parseAmount(c.title), amount_label: "공고 확인 필요",
+      age_min, age_max, need: needFromText(c.title), support_type: supportTypeOf(c.title),
+      apply_end: null, how: "구청 공고 확인", contact: c.region,
+      source: c.url || c.board, raw: c.title, _src: "구청공고",
+    });
+  }
+  return out;
+}
+
 /* ---------- 머지 + 중복제거 ---------- */
 export function dedupe(items) {
   const seen = new Map();
@@ -353,6 +375,7 @@ async function run() {
     dkey && ["B.복지로(중앙)", () => srcBokjiroCentral(dkey)],
     dkey && ["C.보조금24", () => srcGov24(dkey)],
     ykey && ["D.온통청년", () => srcYouthcenter(ykey)],
+    ["E.구청공고", () => srcBoards()],
   ].filter(Boolean);
 
   const collected = [], counts = {};

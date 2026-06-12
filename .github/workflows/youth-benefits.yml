@@ -42,12 +42,6 @@ jobs:
             node scraper/fetch_sources.mjs || echo "::warning::API 수집 실패 → 시드로 폴백"
           fi
           echo "---- data dir ----"; ls -la data/
-      - name: 구청 공고게시판 수집 가능성 진단
-        working-directory: youth-benefits-demo
-        run: node scraper/probe_boards.mjs || true
-      - name: 소스E 구청공고 발견 진단(LLM 미사용)
-        working-directory: youth-benefits-demo
-        run: node scraper/boards.mjs --discover || true
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
