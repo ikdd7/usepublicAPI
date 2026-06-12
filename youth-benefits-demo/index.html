@@ -27,6 +27,8 @@
   .summary .sb-title{font-size:12px;color:#8fb6ff;font-weight:700;margin-bottom:6px}
   #summaryText{font-size:13.5px;color:#dfe7f2;line-height:1.6}
   .csum{font-size:12.5px;color:#a9b6c8;margin:2px 0 4px}
+  .exp{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--sub);margin:8px 2px 2px;cursor:pointer}
+  .badge.exp-b{background:#3a1d1d;color:#ffb3b3;border:1px solid #5e2a2a}
   .chips{display:flex;flex-wrap:wrap;gap:8px}
   .grp{font-size:11.5px;color:#6b7689;margin:10px 2px 6px;font-weight:600}
   .chip{background:#0e1319;border:1px solid var(--line);color:var(--sub);font-size:13px;padding:8px 13px;border-radius:999px;cursor:pointer;user-select:none;transition:.15s}
@@ -102,7 +104,10 @@
   </div>
 
   <div class="panel">
-    <h2>보기 필터 (선택 없으면 전체)</h2>
+    <h2>보기 필터 (선택 없으면 일반 지원)</h2>
+    <div class="grp">성격별 — 생활밀착·특수 지원은 여기서 (예: 음식물처리기·장애인·자격증)</div>
+    <div class="chips" id="topicChips"></div>
+    <label class="exp"><input type="checkbox" id="showExpired"/> 마감된 공고도 보기</label>
     <div class="grp">분야</div>
     <div class="chips" id="catChips"></div>
     <div class="grp">지원 형태</div>
@@ -150,6 +155,8 @@ const TODAY = new Date();
 let selected = new Set();             // 내 상황(자격 매칭, AND). 비면 전체
 let selCats = new Set();              // 분야 보기 필터(비면 전체)
 let selTypes = new Set();             // 지원형태 보기 필터(비면 전체)
+let selTopics = new Set();            // 성격별(주제) 필터(비면=특수/자동 제외한 일반)
+let showExpired = false;              // 마감된 공고 표시 여부
 let selRegion = "인천광역시 연수구";   // 선택 지역
 let PAGE_SUMMARY = "";
 
@@ -174,6 +181,14 @@ document.getElementById("catChips").addEventListener("click", e=>{
   else {selCats.add(t);c.classList.add("on");}
   render();
 });
+document.getElementById("topicChips").addEventListener("click", e=>{
+  const c = e.target.closest(".chip"); if(!c) return;
+  const t = c.dataset.topic;
+  if(selTopics.has(t)){selTopics.delete(t);c.classList.remove("on");}
+  else {selTopics.add(t);c.classList.add("on");}
+  render();
+});
+document.getElementById("showExpired").addEventListener("change", e=>{ showExpired = e.target.checked; render(); });
 document.getElementById("age").addEventListener("input", render);
 document.getElementById("region").addEventListener("change", e=>{
   selRegion = e.target.value;
@@ -208,16 +223,65 @@ function buildCatChips(){
     cats.map(c=>`<span class="chip" data-cat="${c}">${c}</span>`).join("");
   selCats.clear();
 }
-const visible = b =>
-  regionMatch(b) &&
-  (selCats.size===0 || selCats.has(b.category)) &&
-  (selTypes.size===0 || selTypes.has(b.support_type||"서비스"));
+function visible(b){
+  if(!regionMatch(b)) return false;
+  if(!showExpired && b.expired) return false;                       // 마감 기본 숨김
+  if(selCats.size && !selCats.has(b.category)) return false;
+  if(selTypes.size && !selTypes.has(b.support_type||"서비스")) return false;
+  if(selTopics.size){                                                // 성격별 선택 → 그 주제만(특수 포함)
+    if(!(b.topics||[]).some(t=>selTopics.has(t))) return false;
+  } else if(b.special){                                              // 미선택 기본화면 → 특수/자동 제외
+    return false;
+  }
+  return true;
+}
 
 function dday(end){
   const d = Math.ceil((new Date(end)-TODAY)/(1000*60*60*24));
   return d;
 }
 function won(n){ return n>=10000 ? (n/10000).toLocaleString()+"만원" : n.toLocaleString()+"원"; }
+
+// ── 성격별(주제) 태깅: 생활밀착 등 실생활 정보를 전면에, 특수/자동은 기본 숨김 ──
+const TOPIC_RULES = [
+  ["🏠 생활밀착", /음식물|처리기|감량기|종량제|봉투|보일러|단열|창호|집수리|주택개량|정화조|세탁|방역|환경개선|냉난방|가전|기저귀|상수도|하수도/],
+  ["☀️ 에너지·태양광", /태양광|에너지|친환경|탄소|전기차|충전|신재생/],
+  ["📜 자격증·시험", /자격증|응시료|시험료|면허|검정|어학|토익/],
+  ["🧑‍🍳 소상공인", /소상공인|자영업|점포|창업|상인/],
+  ["🏠 주거", /월세|전세|임차|보증금|임대주택|주거/],
+  ["👶 육아·출산", /출산|임신|육아|보육|영유아|난임|산모|아동/],
+  ["♿ 장애인", /장애/],
+  ["🧓 어르신", /노인|어르신|고령|경로/],
+];
+function deriveTopics(b){
+  const blob = `${b.title} ${b.category} ${b.amount_label} ${(b.need||[]).join(" ")} ${b.summary||""}`;
+  const t = []; for(const [name,re] of TOPIC_RULES) if(re.test(blob)) t.push(name); return t;
+}
+// 특수대상/자동지원 = 기본 화면 제외(성격별 선택 시에만 노출)
+function isSpecial(b){
+  const blob = `${b.title} ${b.amount_label} ${b.summary||""} ${(b.need||[]).join(" ")}`;
+  if(/자동\s*지급|별도\s*신청\s*(없이|불필요)|일괄\s*지급|소급\s*적용|직권/.test(blob)) return true;
+  if(/장애인|국가유공자|보훈|북한이탈|다문화|결혼이민|보호종료|자립준비/.test(blob)) return true;
+  return false;
+}
+// 마감일 판정: apply_end 우선, 없으면 제목/요약의 날짜범위 끝값
+function deriveExpiry(b){
+  let end = b.apply_end || null;
+  if(!end){
+    const blob = `${b.title} ${b.amount_label} ${b.summary||""}`;
+    const ds = blob.match(/20\d{2}\s*[.\-/년]\s*\d{1,2}\s*[.\-/월]\s*\d{1,2}/g);
+    if(ds&&ds.length){ const last=ds[ds.length-1].replace(/[^0-9]/g,""); if(last.length>=8) end=`${last.slice(0,4)}-${last.slice(4,6)}-${last.slice(6,8)}`; }
+  }
+  if(!end) return {expired:false, end:null};
+  return {expired:(new Date(end)-TODAY)/86400000 < 0, end};
+}
+function buildTopicChips(){
+  const all = new Set(); DATA.benefits.forEach(b=>(b.topics||[]).forEach(t=>all.add(t)));
+  // TOPIC_RULES 순서 유지
+  const ordered = TOPIC_RULES.map(r=>r[0]).filter(n=>all.has(n));
+  document.getElementById("topicChips").innerHTML =
+    ordered.map(t=>`<span class="chip" data-topic="${t}">${t}</span>`).join("") || `<span class="grp" style="margin:0">표시할 주제 없음</span>`;
+}
 
 function evaluate(b, age){
   const ageOk = age>=b.age_min && age<=b.age_max;
@@ -235,8 +299,18 @@ function render(){
     else locked.push({b,ev});
   });
 
+  // 생활밀착 먼저 → 마감 임박 순 → 금액 큰 순
+  elig.sort((a,b)=>{
+    const la=(a.topics||[]).includes("🏠 생활밀착")?0:1, lb=(b.topics||[]).includes("🏠 생활밀착")?0:1;
+    if(la!==lb) return la-lb;
+    const da=a.apply_end?dday(a.apply_end):9999, db=b.apply_end?dday(b.apply_end):9999;
+    const na=da<0?99999:da, nb=db<0?99999:db;
+    if(na!==nb) return na-nb;
+    return (b.amount||0)-(a.amount||0);
+  });
+
   document.getElementById("total").textContent = total>0 ? "최대 "+won(total) : "0원";
-  document.getElementById("cnt").textContent = "해당 혜택 "+elig.length+"건 · 연수구 청년 기준";
+  document.getElementById("cnt").textContent = "해당 혜택 "+elig.length+"건 · "+selRegion;
   document.getElementById("eligcnt").textContent = elig.length+"건";
 
   document.getElementById("eligible").innerHTML = elig.map(b=>{
@@ -275,7 +349,7 @@ function share(){
 
 // 다양한 스키마(임베드/시드/온통청년 live)를 런타임 스키마로 통일
 function toRuntime(b){
-  return {
+  const r = {
     id: b.id, title: b.title, category: b.category,
     amount: b.amount ?? b.amount_max_won ?? 0,
     amount_label: b.amount_label || "상세 참조",
@@ -288,6 +362,10 @@ function toRuntime(b){
     how: b.how || b.apply_how || "공식 페이지 참조",
     contact: b.contact || "", source: b.source || "#"
   };
+  r.topics = deriveTopics(r);
+  r.special = isSpecial(r);
+  const ex = deriveExpiry(r); r.expired = ex.expired; r.apply_end = r.apply_end || ex.end;
+  return r;
 }
 // live(API) -> seed(검증) -> embedded 순으로 로드. file://에선 fetch 실패하므로 embedded 사용.
 async function loadData(){
@@ -320,6 +398,7 @@ async function loadData(){
   sb.classList.remove("hidden");
   buildRegionSelect();
   buildCatChips();
+  buildTopicChips();
   render();
 })();
 </script>
