@@ -1,0 +1,27 @@
+name: 게시판 API 역설계 (일회성 진단)
+
+# Playwright 설치가 무거워 일일 파이프라인과 분리. 이 파일/스크립트 변경 push 시에만 실행.
+on:
+  workflow_dispatch: {}
+  push:
+    branches: ["claude/niche-market-structure-cQHsO"]
+    paths:
+      - "youth-benefits-demo/scraper/probe_api.mjs"
+      - ".github/workflows/api-probe.yml"
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Playwright 설치
+        working-directory: youth-benefits-demo
+        run: |
+          npm i playwright@1.49.1
+          npx playwright install --with-deps chromium
+      - name: 연수구 게시판 API 캡처
+        working-directory: youth-benefits-demo
+        run: node scraper/probe_api.mjs || true
