@@ -59,3 +59,5 @@ sources/
 - `LINK` 유형 API는 data.go.kr 키가 아닌 **기관 포털 키** 필요 (신청 전 유형 확인)
 
 > ✅ 2026-06-12: data.go.kr 1순위 3개 API 활용신청 완료 — 멀티소스 실데이터 전환 트리거
+
+> ✅ 2026-06-12: Gemini API 연동(GEMINI_API_KEY) — LLM 보강 활성화 트리거
