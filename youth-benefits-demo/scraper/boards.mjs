@@ -23,8 +23,9 @@ const OUT = join(__dir, "..", "data", "boards_live.json");
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
 const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
 
-// 전국 확장 지점: { region, boards:[게시판 .asp URL] } 추가하면 됨
-// (헤드리스 40개 스캔으로 '지원공고 보유' 확인된 연수구 게시판들)
+// 전국 확장 지점: { region, boards:[게시판 URL] } 추가하면 됨.
+// 헤드리스 일괄 스캔(probe_api.mjs)으로 '지원공고 보유' 확인된 게시판을 구별 큐레이션.
+// (남동·계양·미추홀구는 사이트 구조상 자동발견 실패 → 추후 개별 보정 필요)
 const REGISTRY = [
   { region: "인천광역시 연수구", boards: [
     "https://www.yeonsu.go.kr/main/part/youth/notice.asp",     // 청년정책(청년월세 등) ★
@@ -32,6 +33,28 @@ const REGISTRY = [
     "https://www.yeonsu.go.kr/main/part/food/food_notice.asp", // 식품
     "https://www.yeonsu.go.kr/main/part/property/public.asp",  // 공동주택
     "https://www.yeonsu.go.kr/main/part/clean/notice.asp",     // 환경(음식물처리기 등)
+  ] },
+  { region: "인천광역시 부평구", boards: [
+    "https://www.icbp.go.kr/main/civil/property/youth.jsp",          // 청년
+    "https://www.icbp.go.kr/main/participation/news/incheon.jsp",    // 새소식
+  ] },
+  { region: "인천광역시 서구", boards: [
+    "https://www.seo.incheon.kr/open_content/main/community/news/notice.jsp",
+    "https://www.seo.incheon.kr/open_content/main/community/news/company.jsp",
+    "https://www.seo.incheon.kr/open_content/main/community/news/other.jsp",
+  ] },
+  { region: "인천광역시 강화군", boards: [
+    "https://www.ganghwa.go.kr/open_content/main/part/job/aid.jsp",        // 일자리 지원
+    "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp",
+    "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/announce.jsp",
+  ] },
+  { region: "인천광역시 옹진군", boards: [
+    "https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp", // 소상공인
+    "https://www.ongjin.go.kr/open_content/main/community/board/notice.jsp",
+    "https://www.ongjin.go.kr/open_content/main/community/board/announce.jsp",
+  ] },
+  { region: "인천광역시 동구", boards: [
+    "https://www.icdonggu.go.kr/main/community/budget/notice.jsp",
   ] },
 ];
 
