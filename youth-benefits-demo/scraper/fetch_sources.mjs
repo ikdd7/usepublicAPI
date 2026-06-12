@@ -261,7 +261,8 @@ async function callGemini(key, system, user, json, maxTokens) {
     generationConfig: {
       temperature: 0,
       maxOutputTokens: maxTokens,
-      thinkingConfig: { thinkingBudget: 0 }, // 2.5-flash thinking 끄기(출력잘림 방지)
+      // 2.5 계열만 thinking 끄기(출력잘림 방지). 2.0/lite 등은 미지원이라 제외
+      ...(GEMINI_MODEL.includes("2.5") ? { thinkingConfig: { thinkingBudget: 0 } } : {}),
       ...(json ? { responseMimeType: "application/json" } : {}),
     },
   };
@@ -309,7 +310,7 @@ async function enrichWithLLM(items) {
 - tags 는 다음에서만 고른다(해당 자격이 필요한 경우만, 없으면 []): ${CONTROLLED_TAGS.join(", ")}
 - support_type 은 다음 중 하나: ${SUPPORT_TYPES.join(", ")}
 - summary 는 45자 이내 한 줄, 핵심 자격과 금액 위주. 추측 금지, 입력 근거만.`;
-  const SZ = 16;
+  const SZ = 24; // 호출 수 최소화(96→4콜)로 무료 분당한도 회피
   for (let i = 0; i < cap.length; i += SZ) {
     const batch = cap.slice(i, i + SZ).map((b) => ({ id: b.id, title: b.title, desc: b.raw || b.amount_label }));
     try {
