@@ -164,31 +164,24 @@ export function mapBokjiro(srcName, p, region) {
 }
 
 /* ---------- C. 보조금24 (전국+지역 혼합) ---------- */
-async function srcGov24(key) {
+async function srcGov24(key, cap = 200) {
   const base = "https://api.odcloud.kr/api/gov24/v3/serviceList";
   const picked = [];
-  const food = [];           // [진단] 음식물처리기/감량기 전국 매칭
-  let page = 1, total = Infinity, sampled = false, scanned = 0;
-  while ((page - 1) * 500 < total && page <= 60) {   // 전수 스캔
+  let page = 1, total = Infinity, sampled = false;
+  while ((page - 1) * 500 < total && page <= 60) {   // 전수 스캔(최대 30k)
     const j = JSON.parse(await getText(`${base}?serviceKey=${encodeURIComponent(key)}&page=${page}&perPage=500`));
     total = j.totalCount ?? 0;
     const data = j.data || [];
-    scanned += data.length;
     if (!sampled && data[0]) { console.log("  [C:원시샘플]", clip(JSON.stringify(data[0]), 200)); sampled = true; }
     for (const it of data) {
-      const nm = `${it["서비스명"] || ""} ${it["지원내용"] || ""} ${it["서비스목적요약"] || ""}`;
-      if (/음식물.{0,8}(처리기|감량기)|음식물류.{0,8}감량|소형감량기/.test(nm))
-        food.push(`${clip(it["서비스명"], 40)} <${it["소관기관명"] || ""}·${it["부서명"] || ""}>`);
-      const org = `${it["소관기관명"] || ""}${it["부서명"] || ""}`;
-      const region = regionOfOrg(org);
+      const region = regionOfOrg(`${it["소관기관명"] || ""}${it["부서명"] || ""}`);
       if (region) picked.push(mapGov24(it, region));
     }
     if (!data.length) break;
     page++;
   }
-  console.log(`  [C:전수진단] totalCount=${total}, 스캔 ${scanned}건 / 인천·전국 채택 ${picked.length}건 / 음식물처리기류 ${food.length}건`);
-  food.slice(0, 20).forEach((f) => console.log(`     · ${f}`));
-  return picked.slice(0, 200);
+  console.log(`  [C] 전수 ${total}건 중 인천·전국 ${picked.length}건 (cap ${cap})`);
+  return picked.slice(0, cap);
 }
 // 소관기관명 → 지역 (인천 군구/시 또는 전국). 타 시도면 제외(null)
 function regionOfOrg(org = "") {
