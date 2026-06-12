@@ -33,6 +33,7 @@ jobs:
         env:
           YOUTH_API_KEY: ${{ secrets.YOUTH_API_KEY }}
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -z "$DATA_GO_KR_KEY" ] && [ -z "$YOUTH_API_KEY" ]; then
