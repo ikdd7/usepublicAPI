@@ -58,6 +58,23 @@ export function supportTypeOf(text = "", hint = "") {
 }
 export const isYouthText = (t = "") => /청년|만\s*(1[89]|[23]\d)\s*세/.test(t);
 
+// 텍스트에서 대상 연령 범위 추출 → [min,max]. 미상이면 전연령 [0,120].
+const clampAge = (a) => Math.min(120, Math.max(0, parseInt(a) || 0));
+export function parseAgeRange(text = "") {
+  const t = text.replace(/\s/g, "");
+  let m;
+  if ((m = t.match(/만?(\d{1,3})세?[~∼\-–—](\d{1,3})세/))) return [clampAge(m[1]), clampAge(m[2])];
+  if ((m = t.match(/(\d{1,3})세이상/))) return [clampAge(m[1]), 120];
+  if ((m = t.match(/(\d{1,3})세(?:이하|미만)/))) return [0, clampAge(m[1])];
+  if (/영유아|미취학/.test(text)) return [0, 5];
+  if (/아동/.test(text)) return [0, 18];
+  if (/청소년/.test(text)) return [9, 24];
+  if (/대학생|대학원생/.test(text)) return [18, 29];
+  if (/청년/.test(text)) return [19, 39];
+  if (/노인|어르신|고령/.test(text)) return [65, 120];
+  return [0, 120]; // 전연령
+}
+
 export function xmlList(xml, itemTag) {
   const items = [];
   const re = new RegExp(`<${itemTag}>([\\s\\S]*?)</${itemTag}>`, "g");
@@ -89,9 +106,9 @@ async function srcBokjiroLocal(key) {
         + `&ctpvNm=${encodeURIComponent(SIDO)}&sggNm=${encodeURIComponent(sgg)}`;
       const xml = await getText(u);
       if (!sampled) { console.log("  [A:원시샘플]", clip(xml, 400)); sampled = true; }
-      const items = xmlList(xml, "servList").filter((p) => isYouthText(`${p.servNm} ${p.servDgst}`));
+      const items = xmlList(xml, "servList");
       out.push(...items.map((p) => mapBokjiro("복지로(지자체)", p, `${SIDO} ${sgg}`)));
-      console.log(`    · ${sgg}: 청년 ${items.length}건`);
+      console.log(`    · ${sgg}: ${items.length}건`);
     } catch (e) { console.log(`    · ${sgg}: ${clip(e.message, 60)}`); }
   }
   return out;
@@ -112,13 +129,21 @@ async function srcBokjiroCentral(key) {
     } catch (e) { console.log(`  [B] ${b.split("/").pop()}: ${clip(e.message, 70)}`); }
   }
   if (!base) throw new Error("모든 엔드포인트 실패");
-  const youth = all.filter((p) => isYouthText(`${p.servNm} ${p.servDgst} ${p.lifeNmArray || ""}`));
-  youth.sort((a, b) => (+b.inqNum || 0) - (+a.inqNum || 0));
-  return youth.slice(0, 30).map((p) => mapBokjiro("복지로(중앙)", p, NATIONWIDE));
+  for (let page = 2; page <= 3; page++) {
+    try {
+      const xml = await getText(`${base}?serviceKey=${encodeURIComponent(key)}&callTp=L&pageNo=${page}&numOfRows=100&srchKeyCode=003`);
+      const items = xmlList(xml, "servList");
+      if (!items.length) break;
+      all.push(...items);
+    } catch { break; }
+  }
+  all.sort((a, b) => (+b.inqNum || 0) - (+a.inqNum || 0)); // 조회순(인기순)
+  return all.slice(0, 60).map((p) => mapBokjiro("복지로(중앙)", p, NATIONWIDE));
 }
 
 export function mapBokjiro(srcName, p, region) {
   const blob = `${p.servNm || ""} ${p.servDgst || ""} ${p.aplyMtdNm || ""}`;
+  const [age_min, age_max] = parseAgeRange(blob);
   return {
     id: `bj-${p.servId || Math.random().toString(36).slice(2, 8)}`,
     title: clip(p.servNm, 60) || "이름 없음",
@@ -126,7 +151,7 @@ export function mapBokjiro(srcName, p, region) {
     region: region || NATIONWIDE,
     amount: parseAmount(p.servDgst || ""),
     amount_label: clip(p.servDgst, 80) || "상세 참조",
-    age_min: AGE.min, age_max: AGE.max,
+    age_min, age_max,
     need: needFromText(blob),
     support_type: supportTypeOf(blob, p.srvPvsnNm || ""),
     apply_end: null,
@@ -150,15 +175,13 @@ async function srcGov24(key) {
     if (!sampled && data[0]) { console.log("  [C:원시샘플]", clip(JSON.stringify(data[0]), 300)); sampled = true; }
     for (const it of data) {
       const org = `${it["소관기관명"] || ""}${it["부서명"] || ""}`;
-      const blob = `${it["서비스명"] || ""} ${it["지원대상"] || ""} ${it["서비스목적요약"] || ""} ${it["선정기준"] || ""}`;
-      if (!isYouthText(blob)) continue;
-      const region = regionOfOrg(org);
+      const region = regionOfOrg(org); // 인천/전국만, 타지역 제외
       if (region) picked.push(mapGov24(it, region));
     }
     if (!data.length) break;
     page++;
   }
-  return picked.slice(0, 60);
+  return picked.slice(0, 150);
 }
 // 소관기관명 → 지역 (인천 군구/시 또는 전국). 타 시도면 제외(null)
 function regionOfOrg(org = "") {
@@ -169,6 +192,7 @@ function regionOfOrg(org = "") {
 }
 export function mapGov24(it, region) {
   const sprt = it["지원내용"] || it["서비스목적요약"] || "";
+  const [age_min, age_max] = parseAgeRange(`${it["지원대상"] || ""} ${it["선정기준"] || ""} ${it["서비스명"] || ""}`);
   return {
     id: `g24-${it["서비스ID"] || Math.random().toString(36).slice(2, 8)}`,
     title: clip(it["서비스명"], 60) || "이름 없음",
@@ -176,7 +200,7 @@ export function mapGov24(it, region) {
     region: region || NATIONWIDE,
     amount: parseAmount(sprt),
     amount_label: clip(sprt, 80) || "상세 참조",
-    age_min: AGE.min, age_max: AGE.max,
+    age_min, age_max,
     need: needFromText(`${it["서비스명"]} ${it["지원대상"]} ${it["선정기준"] || ""} ${sprt}`),
     support_type: supportTypeOf(sprt, it["지원유형"] || ""),
     apply_end: null,
@@ -267,7 +291,7 @@ async function makeOverview(items, key, region) {
   const top = items.filter((b) => b.region === region || b.region === SIDO || b.region === NATIONWIDE);
   const brief = top.slice(0, 40).map((b) => `${b.title}(${b.category})`).join(", ");
   const sys = "너는 복지정보 큐레이터다. 사용자가 첫 화면에서 읽을 2~3문장 한국어 요약을 쓴다. 과장/추측 없이 담백하게.";
-  const user = `지역: ${region}. 청년 대상 혜택 목록(${top.length}건): ${brief}.\n이 지역 청년이 알아두면 좋은 핵심을 2~3문장으로 요약.`;
+  const user = `지역: ${region}. 복지·지원 혜택 목록(${top.length}건): ${brief}.\n이 지역 주민이 알아두면 좋은 핵심(주요 분야·대상)을 2~3문장으로 요약.`;
   try { return clip(await callClaude(key, sys, user, 400), 400); }
   catch (e) { console.log(`  [LLM] 총평 실패: ${clip(e.message, 80)}`); return null; }
 }
@@ -294,6 +318,10 @@ async function run() {
   }
 
   let merged = dedupe(collected);
+  // 지역 우선(연수→인천→전국) + 금액 큰 순 정렬 후 상한
+  const rank = (b) => b.region === `${SIDO} 연수구` ? 0 : (b.region || "").startsWith(SIDO) ? 1 : b.region === NATIONWIDE ? 2 : 3;
+  merged.sort((a, b) => rank(a) - rank(b) || (b.amount || 0) - (a.amount || 0));
+  if (merged.length > 400) merged = merged.slice(0, 400);
   console.log(`\n합계 ${collected.length} → 중복제거 ${merged.length}건`);
   if (merged.length < 4) { console.log("⚠️ 수집량 부족 → 시드 유지"); process.exit(0); }
 
@@ -303,16 +331,16 @@ async function run() {
     summary = await makeOverview(merged, akey, `${SIDO} 연수구`);
   } else console.log("ℹ️ ANTHROPIC_API_KEY 없음 → 규칙기반 태그 유지(LLM 생략)");
   if (!summary) {
-    const top = [...new Set(merged.map((b) => b.category))].slice(0, 3).join("·");
+    const top = [...new Set(merged.map((b) => b.category))].slice(0, 4).join("·");
     const maxAmt = Math.max(0, ...merged.map((b) => b.amount));
-    summary = `${SIDO} 청년이 받을 수 있는 혜택 ${merged.length}건을 모았어요. 주요 분야는 ${top}이며, 최대 ${(maxAmt/10000).toLocaleString()}만원까지 지원됩니다. 나이와 상황을 입력하면 내게 맞는 것만 골라드려요.`;
+    summary = `${SIDO}에서 받을 수 있는 복지·지원 혜택 ${merged.length}건을 모았어요. 주요 분야는 ${top}이며, 최대 ${(maxAmt/10000).toLocaleString()}만원까지 지원됩니다. 나이와 상황(가구·소득·자격)을 입력하면 내게 맞는 것만 골라드려요.`;
   }
 
   const regions = [...new Set(merged.map((b) => b.region))].sort();
   const out = {
     meta: {
       region: `${SIDO} 연수구`, regions,
-      personas: [`청년(만 ${AGE.min}~${AGE.max}세)`],
+      personas: ["전 연령·맞춤"],
       snapshot_date: new Date().toISOString().slice(0, 10),
       source: "복지로(지자체·중앙)+보조금24" + (ykey ? "+온통청년" : "") + (akey ? " · AI 보강" : ""),
       counts, summary, llm: !!akey,
@@ -346,6 +374,11 @@ function selftest() {
     ["isYouth", isYouthText("만 25세 청년") && !isYouthText("어르신")],
     ["parseJsonLoose 코드펜스", JSON.stringify(parseJsonLoose('```json\n[{"id":1}]\n```')) === '[{"id":1}]'],
     ["dedupe 지역분리", dedupe([a, { ...a, region: "인천광역시 남동구" }]).length === 2],
+    ["나이 범위(만19~34세)", JSON.stringify(parseAgeRange("만 19~34세 청년")) === "[19,34]"],
+    ["나이 이상(65세이상)", JSON.stringify(parseAgeRange("65세 이상 어르신")) === "[65,120]"],
+    ["나이 키워드(영유아)", JSON.stringify(parseAgeRange("영유아 보육료")) === "[0,5]"],
+    ["나이 미상=전연령", JSON.stringify(parseAgeRange("저소득 가구 지원")) === "[0,120]"],
+    ["복지로 나이반영(청년)", a.age_min === 19 && a.age_max === 39],
   ];
   let ok = 0;
   for (const [n, p] of checks) { console.log(`${p ? "✓" : "✗ FAIL"}  ${n}`); if (p) ok++; }

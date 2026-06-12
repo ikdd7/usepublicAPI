@@ -61,9 +61,9 @@
 <body>
 <div class="wrap">
   <header>
-    <span class="loc">📍 인천광역시 연수구</span>
-    <h1>나만 모르고 놓친 <b>청년 혜택</b>, 다 모았어요</h1>
-    <p class="lede">옆 동네는 받는데 나만 몰랐던 우리 구 청년 지원금. 나이·상황만 넣으면 받을 수 있는 것만 골라드려요.</p>
+    <span class="loc" id="locTag">📍 인천광역시 연수구</span>
+    <h1>나만 몰랐던 <b>우리동네 복지·지원</b>, 다 모았어요</h1>
+    <p class="lede">옆 동네는 받는데 나만 몰랐던 복지·지원금. 나이·지역·상황만 넣으면 받을 수 있는 것만 골라드려요.</p>
   </header>
 
   <div id="summaryBox" class="summary hidden">
@@ -82,7 +82,7 @@
     <div id="chips">
       <div class="grp">신분</div>
       <div class="chips">
-        <span class="chip on" data-tag="구직중">🔍 구직중</span>
+        <span class="chip" data-tag="구직중">🔍 구직중</span>
         <span class="chip" data-tag="재직중">💼 재직중</span>
         <span class="chip" data-tag="학생">🎓 학생</span>
         <span class="chip" data-tag="자영업·창업">🏪 자영업·창업</span>
@@ -147,7 +147,7 @@ const DATA = {
 };
 
 const TODAY = new Date();
-let selected = new Set(["구직중"]);   // 내 상황(자격 매칭, AND)
+let selected = new Set();             // 내 상황(자격 매칭, AND). 비면 전체
 let selCats = new Set();              // 분야 보기 필터(비면 전체)
 let selTypes = new Set();             // 지원형태 보기 필터(비면 전체)
 let selRegion = "인천광역시 연수구";   // 선택 지역
@@ -175,7 +175,11 @@ document.getElementById("catChips").addEventListener("click", e=>{
   render();
 });
 document.getElementById("age").addEventListener("input", render);
-document.getElementById("region").addEventListener("change", e=>{ selRegion = e.target.value; render(); });
+document.getElementById("region").addEventListener("change", e=>{
+  selRegion = e.target.value;
+  document.getElementById("locTag").textContent = "📍 "+selRegion;
+  render();
+});
 
 // 지역 셀렉트: 인천 10개 군·구 고정(데이터 0건이어도 선택 가능) + 데이터의 추가 시군구
 const INCHEON_GU = ["중구","동구","미추홀구","연수구","남동구","부평구","계양구","서구","강화군","옹진구"]
@@ -217,7 +221,8 @@ function won(n){ return n>=10000 ? (n/10000).toLocaleString()+"만원" : n.toLoc
 
 function evaluate(b, age){
   const ageOk = age>=b.age_min && age<=b.age_max;
-  const needOk = b.need.length===0 || b.need.every(n=>selected.has(n));
+  // 상황 미선택 = 전체 보기(자격조건 무시). 선택 시 = 내가 가진 조건으로 자격 충족 판정
+  const needOk = selected.size===0 || b.need.length===0 || b.need.every(n=>selected.has(n));
   return {ageOk, needOk, eligible: ageOk && needOk};
 }
 
