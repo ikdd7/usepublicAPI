@@ -116,7 +116,7 @@ export function matchAge(p) {
 }
 
 /* ---------- API 호출 ---------- */
-async function fetchPage(key, pageNum, pageSize = 100) {
+export async function fetchPage(key, pageNum, pageSize = 100) {
   const u = new URL(API);
   u.search = new URLSearchParams({
     apiKeyNm: key, rtnType: "json", pageNum: `${pageNum}`, pageSize: `${pageSize}`,
@@ -195,5 +195,10 @@ function selftest() {
   process.exit(ok === checks.length ? 0 : 1);
 }
 
-if (process.argv.includes("--selftest")) selftest();
-else run().catch((e) => { console.error("✗ 수집 실패:", e.message); process.exit(1); });
+// 직접 실행할 때만 동작 (다른 모듈에서 import 시 자동 실행 방지)
+import { pathToFileURL } from "node:url";
+const isMain = process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (isMain) {
+  if (process.argv.includes("--selftest")) selftest();
+  else run().catch((e) => { console.error("✗ 수집 실패:", e.message); process.exit(1); });
+}

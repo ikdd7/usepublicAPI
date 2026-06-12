@@ -106,7 +106,7 @@ const DATA = {
   ]
 };
 
-const TODAY = new Date("2026-06-08");
+const TODAY = new Date();
 let selected = new Set(["구직중"]);
 
 document.getElementById("chips").addEventListener("click", e=>{
@@ -144,15 +144,15 @@ function render(){
   document.getElementById("eligcnt").textContent = elig.length+"건";
 
   document.getElementById("eligible").innerHTML = elig.map(b=>{
-    const d = dday(b.apply_end);
-    const dlabel = d>=0 ? "신청 D-"+d : "마감";
+    const d = b.apply_end ? dday(b.apply_end) : null;
+    const dlabel = d===null ? "상시·공고 확인" : (d>=0 ? "신청 D-"+d : "마감");
     return `<div class="card elig">
       <div class="ctop"><span class="ctitle">${b.title}</span><span class="cat">${b.category}</span></div>
       <div class="amt">💰 ${b.amount_label}</div>
       <div class="meta"><b>신청</b> ${b.how}</div>
       <div class="meta"><b>문의</b> ${b.contact}</div>
       <div class="badges">
-        <span class="badge ${d>=0?'dday open':'dday'}">${dlabel}</span>
+        <span class="badge ${d===null||d>=0?'dday open':'dday'}">${dlabel}</span>
         <span class="badge reason">✓ ${age}세·내 상황 충족</span>
       </div>
       <a class="src" href="${b.source}" target="_blank">공식 출처 확인 →</a>

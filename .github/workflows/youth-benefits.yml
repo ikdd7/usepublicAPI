@@ -26,15 +26,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: 온통청년 API 실데이터 수집
+      - name: 공공API 실데이터 수집 (복지로·보조금24·온통청년)
         working-directory: youth-benefits-demo
         env:
           YOUTH_API_KEY: ${{ secrets.YOUTH_API_KEY }}
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
         run: |
-          if [ -z "$YOUTH_API_KEY" ]; then
-            echo "::warning::YOUTH_API_KEY 시크릿이 없어 검증 시드로 배포합니다."
+          if [ -z "$DATA_GO_KR_KEY" ] && [ -z "$YOUTH_API_KEY" ]; then
+            echo "::warning::API 키 시크릿이 없어 검증 시드로 배포합니다."
           else
-            node scraper/fetch_youth_api.mjs || echo "::warning::API 수집 실패 → 시드로 폴백"
+            node scraper/fetch_sources.mjs || echo "::warning::API 수집 실패 → 시드로 폴백"
           fi
           echo "---- data dir ----"; ls -la data/
       - uses: actions/configure-pages@v5
