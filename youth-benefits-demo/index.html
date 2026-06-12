@@ -22,6 +22,11 @@
   .agewrap{display:flex;align-items:center;gap:10px;margin-bottom:14px}
   .agewrap input{width:88px;background:#0e1319;border:1px solid var(--line);color:var(--txt);font-size:20px;font-weight:700;text-align:center;border-radius:10px;padding:10px}
   .agewrap label{font-size:14px;color:var(--sub)}
+  .agewrap select{flex:1;background:#0e1319;border:1px solid var(--line);color:var(--txt);font-size:14px;border-radius:10px;padding:11px 10px}
+  .summary{background:linear-gradient(135deg,#15233a,#1a1f2b);border:1px solid #2a3a55;border-radius:16px;padding:15px 16px;margin-top:16px}
+  .summary .sb-title{font-size:12px;color:#8fb6ff;font-weight:700;margin-bottom:6px}
+  #summaryText{font-size:13.5px;color:#dfe7f2;line-height:1.6}
+  .csum{font-size:12.5px;color:#a9b6c8;margin:2px 0 4px}
   .chips{display:flex;flex-wrap:wrap;gap:8px}
   .grp{font-size:11.5px;color:#6b7689;margin:10px 2px 6px;font-weight:600}
   .chip{background:#0e1319;border:1px solid var(--line);color:var(--sub);font-size:13px;padding:8px 13px;border-radius:999px;cursor:pointer;user-select:none;transition:.15s}
@@ -61,11 +66,17 @@
     <p class="lede">옆 동네는 받는데 나만 몰랐던 우리 구 청년 지원금. 나이·상황만 넣으면 받을 수 있는 것만 골라드려요.</p>
   </header>
 
+  <div id="summaryBox" class="summary hidden">
+    <div class="sb-title">📌 이 지역 한눈에</div>
+    <div id="summaryText"></div>
+  </div>
+
   <div class="panel">
     <h2>내 정보</h2>
     <div class="agewrap">
       <input id="age" type="number" min="15" max="50" value="27" />
-      <label>세 · 연수구 거주</label>
+      <label>세</label>
+      <select id="region"></select>
     </div>
     <h2>내 상황 (해당하는 것 모두 선택 — 정확할수록 맞춤 추천)</h2>
     <div id="chips">
@@ -139,6 +150,8 @@ const TODAY = new Date();
 let selected = new Set(["구직중"]);   // 내 상황(자격 매칭, AND)
 let selCats = new Set();              // 분야 보기 필터(비면 전체)
 let selTypes = new Set();             // 지원형태 보기 필터(비면 전체)
+let selRegion = "인천광역시 연수구";   // 선택 지역
+let PAGE_SUMMARY = "";
 
 document.getElementById("chips").addEventListener("click", e=>{
   const c = e.target.closest(".chip"); if(!c) return;
@@ -162,6 +175,25 @@ document.getElementById("catChips").addEventListener("click", e=>{
   render();
 });
 document.getElementById("age").addEventListener("input", render);
+document.getElementById("region").addEventListener("change", e=>{ selRegion = e.target.value; render(); });
+
+// 지역 셀렉트 옵션 구성 (데이터의 region 중 시·군구 단위만, 가나다순)
+function buildRegionSelect(){
+  const sel = document.getElementById("region");
+  let regions = [...new Set(DATA.benefits.map(b=>b.region).filter(Boolean))];
+  const districts = regions.filter(r=>r.split(" ").length>=2).sort();
+  const opts = districts.length ? districts : ["인천광역시 연수구"];
+  if(!opts.includes(selRegion)) selRegion = opts[0];
+  sel.innerHTML = opts.map(r=>`<option value="${r}"${r===selRegion?" selected":""}>${r}</option>`).join("");
+}
+// 지역 매칭: 선택 지역 + 시단위(인천광역시) + 전국 은 모두 표시
+function regionMatch(b){
+  if(!b.region) return true;
+  if(b.region===selRegion || b.region==="전국") return true;
+  const sido = selRegion.split(" ")[0];
+  if(b.region===sido) return true;
+  return false;
+}
 
 // 데이터에 실제 존재하는 분야로 칩 동적 생성
 function buildCatChips(){
@@ -171,6 +203,7 @@ function buildCatChips(){
   selCats.clear();
 }
 const visible = b =>
+  regionMatch(b) &&
   (selCats.size===0 || selCats.has(b.category)) &&
   (selTypes.size===0 || selTypes.has(b.support_type||"서비스"));
 
@@ -204,6 +237,7 @@ function render(){
     const dlabel = d===null ? "상시·공고 확인" : (d>=0 ? "신청 D-"+d : "마감");
     return `<div class="card elig">
       <div class="ctop"><span class="ctitle">${b.title}</span><span class="cat">${b.category} · ${b.support_type||"서비스"}</span></div>
+      ${b.summary?`<div class="csum">🤖 ${b.summary}</div>`:""}
       <div class="amt">💰 ${b.amount_label}</div>
       <div class="meta"><b>신청</b> ${b.how}</div>
       <div class="meta"><b>문의</b> ${b.contact}</div>
@@ -240,6 +274,8 @@ function toRuntime(b){
     amount_label: b.amount_label || "상세 참조",
     age_min: b.age_min ?? 18, age_max: b.age_max ?? 39,
     need: b.need || b.tags || [],
+    region: b.region || "인천광역시 연수구",
+    summary: b.summary || "",
     support_type: b.support_type || ((b.amount ?? b.amount_max_won ?? 0) > 0 ? "현금" : "서비스"),
     apply_end: b.apply_end || null,
     how: b.how || b.apply_how || "공식 페이지 참조",
@@ -254,10 +290,11 @@ async function loadData(){
       if(r.ok){ const j = await r.json();
         if(j.benefits?.length){
           DATA.benefits = j.benefits.map(toRuntime);
+          PAGE_SUMMARY = j.meta?.summary || "";
           const tag = document.getElementById("srcTag");
           if(tag) tag.textContent = (j.meta?.source ? "데이터: "+j.meta.source : "데이터: "+url)
             + (j.meta?.snapshot_date ? " · "+j.meta.snapshot_date : "");
-          return;
+          return true;
         }
       }
     }catch(e){ /* file:// 또는 미존재 -> 다음/embedded */ }
@@ -265,8 +302,16 @@ async function loadData(){
 }
 
 (async ()=>{
-  await loadData();
-  DATA.benefits = DATA.benefits.map(toRuntime); // 임베드/시드/라이브 모두 동일 스키마로
+  const used = await loadData();
+  if(!used) DATA.benefits = DATA.benefits.map(toRuntime); // 임베드 폴백만 변환(라이브/시드는 loadData에서 변환됨)
+  if(!PAGE_SUMMARY){
+    const n=DATA.benefits.length, mx=Math.max(0,...DATA.benefits.map(b=>b.amount||0));
+    PAGE_SUMMARY=`나이·상황을 입력하면 ${n}건의 청년 혜택 중 내게 맞는 것만 골라 최대 수령액까지 합산해드려요. 최대 ${(mx/10000).toLocaleString()}만원 규모의 지원이 포함돼 있어요.`;
+  }
+  const sb=document.getElementById("summaryBox");
+  document.getElementById("summaryText").textContent=PAGE_SUMMARY;
+  sb.classList.remove("hidden");
+  buildRegionSelect();
   buildCatChips();
   render();
 })();

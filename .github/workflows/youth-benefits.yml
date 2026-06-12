@@ -33,6 +33,7 @@ jobs:
         env:
           YOUTH_API_KEY: ${{ secrets.YOUTH_API_KEY }}
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -z "$DATA_GO_KR_KEY" ] && [ -z "$YOUTH_API_KEY" ]; then
             echo "::warning::API 키 시크릿이 없어 검증 시드로 배포합니다."
