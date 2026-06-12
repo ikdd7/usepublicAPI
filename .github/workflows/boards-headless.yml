@@ -1,0 +1,40 @@
+name: 구청공고 헤드리스 수집 (JS 게시판)
+
+# Playwright가 무거워 메인 파이프라인과 분리. 결과(boards_headless.json)를 커밋하면
+# 메인 수집(youth-benefits)이 다음 실행 때 합류시킨다.
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "30 20 * * *"   # 매일 05:30 KST (메인 06:00 전에 갱신)
+  push:
+    branches: ["claude/niche-market-structure-cQHsO"]
+    paths:
+      - "youth-benefits-demo/scraper/boards_headless.mjs"
+      - ".github/workflows/boards-headless.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Playwright 설치
+        working-directory: youth-benefits-demo
+        run: |
+          npm i playwright@1.49.1
+          npx playwright install --with-deps chromium
+      - name: JS 게시판 헤드리스 수집
+        working-directory: youth-benefits-demo
+        run: node scraper/boards_headless.mjs || true
+      - name: 결과 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add youth-benefits-demo/data/boards_headless.json
+          git diff --staged --quiet || git commit -m "data: 구청공고 헤드리스 수집 갱신 [skip ci]"
+          git push

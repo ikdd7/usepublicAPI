@@ -11,7 +11,7 @@
  * 실행:      DATA_GO_KR_KEY=.. node scraper/fetch_sources.mjs
  * 셀프테스트: node scraper/fetch_sources.mjs --selftest
  */
-import { writeFileSync } from "node:fs";
+import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { dirname, join } from "node:path";
 import { parseAmount, fetchPage as fetchYouthPage, normalize as normalizeYouth, matchRegion, matchAge } from "./fetch_youth_api.mjs";
@@ -251,6 +251,16 @@ async function srcBoards() {
   return out;
 }
 
+/* ---------- F. 구청공고(헤드리스, 별도 워크플로가 커밋한 파일) ---------- */
+function srcHeadless() {
+  const f = join(__dir, "..", "data", "boards_headless.json");
+  if (!existsSync(f)) return [];
+  try {
+    const j = JSON.parse(readFileSync(f, "utf-8"));
+    return (j.benefits || []).map((b) => ({ ...b, raw: b.title, _src: "구청공고" }));
+  } catch { return []; }
+}
+
 /* ---------- 머지 + 중복제거 ---------- */
 export function dedupe(items) {
   const seen = new Map();
@@ -376,6 +386,7 @@ async function run() {
     dkey && ["C.보조금24", () => srcGov24(dkey)],
     ykey && ["D.온통청년", () => srcYouthcenter(ykey)],
     ["E.구청공고", () => srcBoards()],
+    ["F.구청공고(헤드리스파일)", () => srcHeadless()],
   ].filter(Boolean);
 
   const collected = [], counts = {};
