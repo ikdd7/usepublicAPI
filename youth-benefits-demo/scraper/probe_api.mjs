@@ -1,59 +1,84 @@
 #!/usr/bin/env node
 /**
- * 연수구 게시판 "넓게" 발견 (헤드리스)
+ * 인천 10개 군·구 게시판 일괄 발견 (헤드리스, 범용)
  * ------------------------------------------------------------------
- * 메인+전체메뉴의 모든 .asp 링크를 훑어, 각 페이지가 '글 목록 게시판'인지
- * (지원/모집/공고성 글 링크가 있는지) 판정해 등록 후보를 출력한다.
- * 출력된 URL을 boards.mjs REGISTRY에 추가하면 수집 범위가 넓어짐.
+ * 각 구청 홈을 띄워 전체메뉴를 펼치고, 게시판으로 보이는 내부 링크를
+ * 방문해 '지원공고 보유' 여부를 판정 → 구별 등록용 URL 목록을 출력.
+ * 사이트 구조(.asp/.do/bbs 등)가 달라도 동작하도록 휴리스틱 일반화.
  */
 import { chromium } from "playwright";
 
-const HOME = "https://www.yeonsu.go.kr/";
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
 const KW = /지원|보조금|지원금|모집|신청|지급|바우처|선착순|수당|장려금|구입비|설치비|교부/;
+const BOARDISH = /(공고|공지|지원|모집|알림|소식|사업|게시|복지|보조)/;
+const HREF_BOARD = /(bbs|board|notice|gosi|\.asp|\.do|selectBoardList|artcl|nttList|list\.do|cop\/bbs)/i;
 const clip = (s, n) => (s ? `${s}`.replace(/\s+/g, " ").trim().slice(0, n) : "");
 
+const SITES = [
+  { region: "인천광역시 중구", home: "https://www.icjg.go.kr/" },
+  { region: "인천광역시 동구", home: "https://www.icdonggu.go.kr/" },
+  { region: "인천광역시 미추홀구", home: "https://www.michuhol.go.kr/" },
+  { region: "인천광역시 연수구", home: "https://www.yeonsu.go.kr/" },
+  { region: "인천광역시 남동구", home: "https://www.namdong.go.kr/" },
+  { region: "인천광역시 부평구", home: "https://www.icbp.go.kr/" },
+  { region: "인천광역시 계양구", home: "https://www.gyeyang.go.kr/" },
+  { region: "인천광역시 서구", home: "https://www.seo.incheon.kr/" },
+  { region: "인천광역시 강화군", home: "https://www.ganghwa.go.kr/" },
+  { region: "인천광역시 옹진군", home: "https://www.ongjin.go.kr/" },
+];
+
 const browser = await chromium.launch({ args: ["--no-sandbox"] });
-const page = await browser.newContext({ userAgent: UA, locale: "ko-KR" }).then((c) => c.newPage());
+const results = {};
 
-console.log("== 연수구 게시판 넓게 발견 ==");
-await page.goto(HOME, { waitUntil: "networkidle", timeout: 30000 }).catch((e) => console.log("home:", e.message));
-
-// 전체메뉴 열기 시도 (있으면 더 많은 링크 노출)
-for (const sel of ["#allmenu", ".allmenu", "[href*='allmenu']", ".btn_all", "#gnbAll"]) {
-  try { await page.click(sel, { timeout: 1500 }); await page.waitForTimeout(500); } catch {}
-}
-
-// .asp 게시판류 링크 수집
-let urls = await page.$$eval("a", (as) =>
-  as.map((a) => a.href).filter((h) => /\.asp(\?|$)/.test(h) && /yeonsu\.go\.kr\/main\/part\//.test(h)));
-urls = [...new Set(urls)].slice(0, 40);
-console.log(`.asp 게시판 후보 ${urls.length}개 점검...\n`);
-
-const boards = [];
-for (const u of urls) {
+for (const { region, home } of SITES) {
+  console.log(`\n##### ${region} (${home}) #####`);
+  const ctx = await browser.newContext({ userAgent: UA, locale: "ko-KR" });
+  const page = await ctx.newPage();
+  const found = [];
   try {
-    await page.goto(u, { waitUntil: "domcontentloaded", timeout: 20000 });
-    await page.waitForTimeout(800);
-    const info = await page.evaluate((kwSrc) => {
-      const KW = new RegExp(kwSrc);
-      const as = [...document.querySelectorAll("a")];
-      const posts = as.filter((a) => {
-        const t = (a.textContent || "").trim();
-        const link = (a.getAttribute("href") || "") + (a.getAttribute("onclick") || "");
-        return t.length > 6 && /(view|seq=|idx=|no=|num=|nttSn|articleNo|bIdx|\d{3,})/i.test(link);
-      });
-      const supports = posts.filter((a) => KW.test((a.textContent || "")));
-      return { posts: posts.length, supports: supports.length, sample: supports.slice(0, 2).map((a) => (a.textContent || "").trim().slice(0, 40)), title: document.title };
-    }, KW.source);
-    if (info.posts >= 3) boards.push({ u, ...info });
-    console.log(`[글 ${String(info.posts).padStart(3)} / 지원 ${String(info.supports).padStart(2)}] ${u}`);
-    if (info.sample.length) info.sample.forEach((s) => console.log(`        · ${s}`));
-  } catch (e) { console.log(`[err] ${u} :: ${clip(e.message, 50)}`); }
+    await page.goto(home, { waitUntil: "domcontentloaded", timeout: 25000 });
+    await page.waitForTimeout(1200);
+    for (const sel of ["#allmenu", ".allmenu", "[class*=all][class*=menu]", ".btn_total", ".total_menu", "[href*='allmenu']"]) {
+      try { await page.click(sel, { timeout: 1000 }); await page.waitForTimeout(400); } catch {}
+    }
+    const host = new URL(home).host;
+    let cands = await page.$$eval("a", (as, h) => as
+      .filter((a) => { try { return new URL(a.href).host === h; } catch { return false; } })
+      .map((a) => ({ t: (a.textContent || "").trim(), u: a.href })), host);
+    // 게시판스러운 링크만
+    cands = cands.filter((c) => c.t && (HREF_BOARD.test(c.u) || BOARDISH.test(c.t)));
+    const seen = new Set();
+    cands = cands.filter((c) => { const k = c.u.split("#")[0]; if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 18);
+
+    for (const c of cands) {
+      try {
+        await page.goto(c.u, { waitUntil: "domcontentloaded", timeout: 15000 });
+        await page.waitForTimeout(500);
+        const info = await page.evaluate((kwSrc) => {
+          const KW = new RegExp(kwSrc);
+          const as = [...document.querySelectorAll("a")];
+          const posts = as.filter((a) => {
+            const t = (a.textContent || "").trim();
+            const link = (a.getAttribute("href") || "") + (a.getAttribute("onclick") || "");
+            return t.length > 6 && /(view|seq=|idx=|no=|num=|nttSn|articleNo|bIdx|bbsIdx|\d{3,})/i.test(link);
+          });
+          return { posts: posts.length, supports: posts.filter((a) => KW.test(a.textContent || "")).length,
+            sample: posts.filter((a) => KW.test(a.textContent || "")).slice(0, 2).map((a) => (a.textContent || "").trim().slice(0, 38)) };
+        }, KW.source);
+        if (info.supports > 0) { found.push({ u: c.u, ...info }); console.log(`  ✓[지원 ${info.supports}] ${c.u}`); info.sample.forEach((s) => console.log(`       · ${s}`)); }
+      } catch {}
+    }
+  } catch (e) { console.log(`  ✗ 홈 접속 실패: ${clip(e.message, 50)}`); }
+  found.sort((a, b) => b.supports - a.supports);
+  results[region] = found.slice(0, 6).map((f) => f.u);
+  await ctx.close();
 }
 
-boards.sort((a, b) => b.supports - a.supports);
-console.log(`\n== 등록 추천(지원글 있는 게시판) ==`);
-boards.filter((b) => b.supports > 0).forEach((b) => console.log(`"${b.u}",   // ${clip(b.title, 24)} (지원 ${b.supports})`));
-console.log(`\n총 게시판 ${boards.length}개, 지원글 보유 ${boards.filter((b) => b.supports > 0).length}개`);
+console.log(`\n\n================ REGISTRY 등록용 ================`);
+for (const [region, urls] of Object.entries(results)) {
+  if (!urls.length) { console.log(`  // ${region}: (지원공고 게시판 미발견)`); continue; }
+  console.log(`  { region: "${region}", boards: [`);
+  urls.forEach((u) => console.log(`    "${u}",`));
+  console.log(`  ] },`);
+}
 await browser.close();
