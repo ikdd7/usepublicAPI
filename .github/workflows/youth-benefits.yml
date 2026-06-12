@@ -1,0 +1,50 @@
+name: 청년혜택 실데이터 수집 & 배포
+
+# 자동 실행 안 함(수동 + 매일 스케줄만). Secret/Pages 설정 전엔 아무 일도 안 일어남.
+on:
+  workflow_dispatch: {}            # 액션 탭에서 'Run workflow' 버튼으로 수동 실행
+  schedule:
+    - cron: "0 21 * * *"          # 매일 06:00 KST(=21:00 UTC) 자동 갱신
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: 온통청년 API 실데이터 수집
+        working-directory: youth-benefits-demo
+        env:
+          YOUTH_API_KEY: ${{ secrets.YOUTH_API_KEY }}
+        run: |
+          if [ -z "$YOUTH_API_KEY" ]; then
+            echo "::warning::YOUTH_API_KEY 시크릿이 없어 검증 시드로 배포합니다."
+          else
+            node scraper/fetch_youth_api.mjs || echo "::warning::API 수집 실패 → 시드로 폴백"
+          fi
+          echo "---- data dir ----"; ls -la data/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: youth-benefits-demo
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
