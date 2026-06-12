@@ -169,7 +169,11 @@ async function srcGov24(key, cap = 200) {
   const picked = [];
   let page = 1, total = Infinity, sampled = false;
   while ((page - 1) * 500 < total && page <= 60) {   // 전수 스캔(최대 30k)
-    const j = JSON.parse(await getText(`${base}?serviceKey=${encodeURIComponent(key)}&page=${page}&perPage=500`));
+    let j = null;
+    for (let t = 0; t < 3 && !j; t++) {   // odcloud 일시 오류(400 UNKNOWN) 재시도
+      try { j = JSON.parse(await getText(`${base}?serviceKey=${encodeURIComponent(key)}&page=${page}&perPage=500`)); }
+      catch (e) { if (t === 2) throw e; await sleep(2500); }
+    }
     total = j.totalCount ?? 0;
     const data = j.data || [];
     if (!sampled && data[0]) { console.log("  [C:원시샘플]", clip(JSON.stringify(data[0]), 200)); sampled = true; }
@@ -243,24 +247,35 @@ const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 export const hasLLMKey = () => !!(process.env.GEMINI_API_KEY || process.env.ANTHROPIC_API_KEY);
 export const llmProvider = () => (process.env.GEMINI_API_KEY ? `Gemini(${GEMINI_MODEL})` : process.env.ANTHROPIC_API_KEY ? "Claude" : null);
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function withTimeout(fn, ms = 60000) {
   const ctrl = new AbortController();
   const to = setTimeout(() => ctrl.abort(), ms);
   try { return await fn(ctrl.signal); } finally { clearTimeout(to); }
 }
 async function callGemini(key, system, user, json, maxTokens) {
-  return withTimeout(async (signal) => {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
-    const body = {
-      system_instruction: { parts: [{ text: system }] },
-      contents: [{ role: "user", parts: [{ text: user }] }],
-      generationConfig: { temperature: 0, maxOutputTokens: maxTokens, ...(json ? { responseMimeType: "application/json" } : {}) },
-    };
-    const res = await fetch(url, { method: "POST", headers: { "x-goog-api-key": key, "content-type": "application/json" }, body: JSON.stringify(body), signal });
-    if (!res.ok) throw new Error(`Gemini HTTP ${res.status} :: ${clip(await res.text(), 160)}`);
-    const j = await res.json();
-    return (j.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join("");
-  });
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
+  const body = {
+    system_instruction: { parts: [{ text: system }] },
+    contents: [{ role: "user", parts: [{ text: user }] }],
+    generationConfig: {
+      temperature: 0,
+      maxOutputTokens: maxTokens,
+      thinkingConfig: { thinkingBudget: 0 }, // 2.5-flash thinking 끄기(출력잘림 방지)
+      ...(json ? { responseMimeType: "application/json" } : {}),
+    },
+  };
+  // 429(쿼터) 재시도: 8s, 16s, 32s 백오프
+  for (let attempt = 0; ; attempt++) {
+    const res = await withTimeout((signal) => fetch(url, { method: "POST", headers: { "x-goog-api-key": key, "content-type": "application/json" }, body: JSON.stringify(body), signal }));
+    if (res.ok) {
+      const j = await res.json();
+      return (j.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join("");
+    }
+    const txt = await res.text();
+    if (res.status === 429 && attempt < 3) { await sleep(8000 * 2 ** attempt); continue; }
+    throw new Error(`Gemini HTTP ${res.status} :: ${clip(txt, 160)}`);
+  }
 }
 async function callClaude(key, system, user, maxTokens) {
   return withTimeout(async (signal) => {
@@ -294,13 +309,14 @@ async function enrichWithLLM(items) {
 - tags 는 다음에서만 고른다(해당 자격이 필요한 경우만, 없으면 []): ${CONTROLLED_TAGS.join(", ")}
 - support_type 은 다음 중 하나: ${SUPPORT_TYPES.join(", ")}
 - summary 는 45자 이내 한 줄, 핵심 자격과 금액 위주. 추측 금지, 입력 근거만.`;
-  for (let i = 0; i < cap.length; i += 12) {
-    const batch = cap.slice(i, i + 12).map((b) => ({ id: b.id, title: b.title, desc: b.raw || b.amount_label }));
+  const SZ = 16;
+  for (let i = 0; i < cap.length; i += SZ) {
+    const batch = cap.slice(i, i + SZ).map((b) => ({ id: b.id, title: b.title, desc: b.raw || b.amount_label }));
     try {
-      const txt = await callLLM(sys, JSON.stringify(batch), { json: true, maxTokens: 2048 });
+      const txt = await callLLM(sys, JSON.stringify(batch), { json: true, maxTokens: 4096 });
       const arr = parseJsonLoose(txt);
       const byId = new Map(arr.map((x) => [x.id, x]));
-      for (const b of cap.slice(i, i + 12)) {
+      for (const b of cap.slice(i, i + SZ)) {
         const e = byId.get(b.id);
         if (!e) continue;
         if (Array.isArray(e.tags)) b.need = e.tags.filter((t) => CONTROLLED_TAGS.includes(t));
@@ -310,6 +326,7 @@ async function enrichWithLLM(items) {
       }
       console.log(`  [LLM] ${i + batch.length}/${cap.length} 보강`);
     } catch (e) { console.log(`  [LLM] 배치 ${i} 실패(규칙기반 유지): ${clip(e.message, 90)}`); }
+    await sleep(5000); // 무료 분당한도 회피용 간격
   }
   return items;
 }
