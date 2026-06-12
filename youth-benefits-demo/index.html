@@ -115,6 +115,7 @@
     <div class="grp">성격별 — 생활밀착·특수 지원은 여기서 (예: 음식물처리기·장애인·자격증)</div>
     <div class="chips" id="topicChips"></div>
     <label class="exp"><input type="checkbox" id="showExpired"/> 마감된 공고도 보기</label>
+    <label class="exp"><input type="checkbox" id="showAll"/> 공지·특수·자동지원까지 모두 보기</label>
     <div class="grp">분야</div>
     <div class="chips" id="catChips"></div>
     <div class="grp">지원 형태</div>
@@ -164,6 +165,7 @@ let selCats = new Set();              // 분야 보기 필터(비면 전체)
 let selTypes = new Set();             // 지원형태 보기 필터(비면 전체)
 let selTopics = new Set();            // 성격별(주제) 필터(비면=특수/자동 제외한 일반)
 let showExpired = false;              // 마감된 공고 표시 여부
+let showAll = false;                  // 공지·특수·자동지원까지 모두 표시
 let selRegion = "인천광역시 연수구";   // 선택 지역
 let PAGE_SUMMARY = "";
 
@@ -196,6 +198,7 @@ document.getElementById("topicChips").addEventListener("click", e=>{
   render();
 });
 document.getElementById("showExpired").addEventListener("change", e=>{ showExpired = e.target.checked; render(); });
+document.getElementById("showAll").addEventListener("change", e=>{ showAll = e.target.checked; render(); });
 document.getElementById("age").addEventListener("input", render);
 document.getElementById("region").addEventListener("change", e=>{
   selRegion = e.target.value;
@@ -235,9 +238,10 @@ function visible(b){
   if(!showExpired && b.expired) return false;                       // 마감 기본 숨김
   if(selCats.size && !selCats.has(b.category)) return false;
   if(selTypes.size && !selTypes.has(b.support_type||"서비스")) return false;
-  if(selTopics.size){                                                // 성격별 선택 → 그 주제만(특수 포함)
+  if(showAll){ /* 전체 보기: 특수/노이즈 숨김 해제 */ }
+  else if(selTopics.size){                                            // 성격별 선택 → 그 주제만(특수 포함)
     if(!(b.topics||[]).some(t=>selTopics.has(t))) return false;
-  } else if(b.special){                                              // 미선택 기본화면 → 특수/자동 제외
+  } else if(b.special){                                              // 미선택 기본화면 → 특수/노이즈/자동 제외
     return false;
   }
   return true;
@@ -271,6 +275,9 @@ function isSpecial(b){
   if(/장애인|국가유공자|보훈|북한이탈|다문화|결혼이민|보호종료|자립준비/.test(blob)) return true;
   return false;
 }
+// 노이즈(신청형 혜택이 아닌 공지·결과·행정성) = 기본 숨김 (LLM 없이도 동작)
+const NOISE_RE = /결과\s*(발표|공개|안내|보고)|선정\s*결과|선정자|합격자|최종\s*선정|낙찰|입찰\s*공고|계약\s*(체결|현황)|간담회|설명회|공청회|토론회|워크숍|위원\s*(공개)?모집|위원회\s*(구성|위촉|개최)|회의\s*(결과|개최|록)|조례|규정\s*(개정|제정|안)|보도자료|포토\s*뉴스|카드\s*뉴스|채용\s*공고|임용|인사발령|정산\s*(현황|결과)|운영\s*결과|추진\s*실적|실태조사|의견\s*수렴|고시\s*제?\s*\d|공람|열람|입법예고/;
+function isNoise(b){ return NOISE_RE.test(`${b.title}`); }
 // 마감일 판정: apply_end 우선, 없으면 제목/요약의 날짜범위 끝값
 function deriveExpiry(b){
   let end = b.apply_end || null;
@@ -370,8 +377,8 @@ function toRuntime(b){
     contact: b.contact || "", source: b.source || "#"
   };
   r.topics = deriveTopics(r);
-  // LLM 분류 우선: show===false(노이즈/공지) 또는 special(자동·특수)이면 기본 숨김
-  r.special = isSpecial(r) || b.special===true || b.show===false;
+  // LLM 분류 우선 + 규칙기반 폴백: 노이즈/특수/자동/노출가치없음 → 기본 숨김
+  r.special = isSpecial(r) || isNoise(r) || b.special===true || b.show===false;
   const ex = deriveExpiry(r); r.expired = ex.expired; r.apply_end = r.apply_end || ex.end;
   return r;
 }
