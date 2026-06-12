@@ -243,7 +243,7 @@ export function dedupe(items) {
 }
 
 /* ---------- LLM 보강 (Gemini 우선 / Anthropic 폴백, 선택) ---------- */
-const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
 export const hasLLMKey = () => !!(process.env.GEMINI_API_KEY || process.env.ANTHROPIC_API_KEY);
 export const llmProvider = () => (process.env.GEMINI_API_KEY ? `Gemini(${GEMINI_MODEL})` : process.env.ANTHROPIC_API_KEY ? "Claude" : null);
 
