@@ -61,3 +61,5 @@ sources/
 > ✅ 2026-06-12: data.go.kr 1순위 3개 API 활용신청 완료 — 멀티소스 실데이터 전환 트리거
 
 > ✅ 2026-06-12: Gemini API 연동(GEMINI_API_KEY) — LLM 보강 활성화 트리거
+
+> 재시도: Gemini 키 주입 확인
