@@ -24,12 +24,14 @@ const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
 const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
 
 // 전국 확장 지점: { region, boards:[게시판 .asp URL] } 추가하면 됨
-// (헤드리스 캡처로 발견한 연수구 서버렌더 게시판들)
+// (헤드리스 40개 스캔으로 '지원공고 보유' 확인된 연수구 게시판들)
 const REGISTRY = [
   { region: "인천광역시 연수구", boards: [
-    "https://www.yeonsu.go.kr/main/part/clean/notice.asp",     // 환경정보알림(음식물처리기 등)
+    "https://www.yeonsu.go.kr/main/part/youth/notice.asp",     // 청년정책(청년월세 등) ★
+    "https://www.yeonsu.go.kr/main/part/economy/store.asp",    // 소상공인 지원 ★
     "https://www.yeonsu.go.kr/main/part/food/food_notice.asp", // 식품
     "https://www.yeonsu.go.kr/main/part/property/public.asp",  // 공동주택
+    "https://www.yeonsu.go.kr/main/part/clean/notice.asp",     // 환경(음식물처리기 등)
   ] },
 ];
 
