@@ -1,8 +1,9 @@
 {
   "meta": {
-    "source": "구청공고(헤드리스)",
+    "source": "구청공고(헤드리스·AI보강)",
     "snapshot_date": "2026-06-12",
-    "count": 38
+    "count": 38,
+    "llm": 0
   },
   "benefits": [
     {
@@ -119,24 +120,6 @@
     },
     {
       "id": "bh-68747470733a",
-      "title": "2026년 저소득층 외국어교육 지원사업 서구지역 수강생 추가모집 안내",
-      "category": "구청공고",
-      "region": "인천광역시 서구",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [
-        "저소득"
-      ],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 서구 [구청공고]",
-      "source": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30159&bcd=notice"
-    },
-    {
-      "id": "bh-68747470733a",
       "title": "심폐소생술 등 응급처치 교육 신청 안내(6.24.)",
       "category": "구청공고",
       "region": "인천광역시 서구",
@@ -166,6 +149,24 @@
       "how": "구청 공고 확인",
       "contact": "인천광역시 서구 [구청공고]",
       "source": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30061&bcd=notice"
+    },
+    {
+      "id": "bh-68747470733a",
+      "title": "(민간분양) '엘리프 고덕 센트럴하이(Aab-13BL)' 장애인 특별공급 기관추천자 신청 접수 알림",
+      "category": "구청공고",
+      "region": "인천광역시 서구",
+      "amount": 0,
+      "amount_label": "공고 확인 필요",
+      "age_min": 0,
+      "age_max": 120,
+      "need": [
+        "장애인"
+      ],
+      "support_type": "서비스",
+      "apply_end": null,
+      "how": "구청 공고 확인",
+      "contact": "인천광역시 서구 [구청공고]",
+      "source": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30191&bcd=notice"
     },
     {
       "id": "bh-68747470733a",
@@ -373,7 +374,7 @@
       "apply_end": null,
       "how": "구청 공고 확인",
       "contact": "인천광역시 강화군 [구청공고]",
-      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=4FA52B7A409C16D9722A29A82221D275?msg_seq=12316&bcd=notice"
+      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=802278F26833DE7C0F7EE6DF2A743838?msg_seq=12316&bcd=notice"
     },
     {
       "id": "bh-68747470733a",
@@ -391,7 +392,7 @@
       "apply_end": null,
       "how": "구청 공고 확인",
       "contact": "인천광역시 강화군 [구청공고]",
-      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=4FA52B7A409C16D9722A29A82221D275?msg_seq=12315&bcd=notice"
+      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=802278F26833DE7C0F7EE6DF2A743838?msg_seq=12315&bcd=notice"
     },
     {
       "id": "bh-68747470733a",
@@ -407,7 +408,7 @@
       "apply_end": null,
       "how": "구청 공고 확인",
       "contact": "인천광역시 강화군 [구청공고]",
-      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=4FA52B7A409C16D9722A29A82221D275?msg_seq=12311&bcd=notice"
+      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=802278F26833DE7C0F7EE6DF2A743838?msg_seq=12311&bcd=notice"
     },
     {
       "id": "bh-68747470733a",
