@@ -3,6 +3,9 @@ name: 청년혜택 실데이터 수집 & 배포
 # 자동 실행 안 함(수동 + 매일 스케줄만). Secret/Pages 설정 전엔 아무 일도 안 일어남.
 on:
   workflow_dispatch: {}            # 액션 탭에서 'Run workflow' 버튼으로 수동 실행
+  push:
+    branches: ["claude/niche-market-structure-cQHsO"]   # 기본 브랜치 push 시 자동 배포
+    paths: ["youth-benefits-demo/**", ".github/workflows/youth-benefits.yml"]
   schedule:
     - cron: "0 21 * * *"          # 매일 06:00 KST(=21:00 UTC) 자동 갱신
 
