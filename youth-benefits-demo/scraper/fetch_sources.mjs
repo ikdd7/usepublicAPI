@@ -27,6 +27,8 @@ const NATIONWIDE = "전국";
 
 const CONTROLLED_TAGS = ["구직중","재직중","학생","자영업·창업","1인가구","신혼","임신·출산","육아","한부모","장애인","저소득","무주택"];
 const SUPPORT_TYPES = ["현금","바우처","대출","현물","서비스"];
+const CATS = ["주거","일자리","교육","복지","건강","금융","문화","환경·생활","육아","농업","기타"];
+const CACHE_FILE = join(__dir, "..", "data", "llm_cache.json");
 
 /* ---------- 공통 유틸 ---------- */
 const decodeKey = (k) => (/%[0-9A-Fa-f]{2}/.test(k) ? decodeURIComponent(k) : k);
@@ -335,32 +337,49 @@ function parseJsonLoose(s) {
   const a = body.indexOf("["), b = body.lastIndexOf("]");
   return JSON.parse(a >= 0 ? body.slice(a, b + 1) : body);
 }
-async function enrichWithLLM(items) {
-  const cap = items.slice(0, 96);
-  const sys = `너는 한국 복지·정책 분류 엔진이다. 입력 항목들을 분석해 JSON 배열로만 답한다.
-각 원소: {"id": 입력id, "tags": [...], "support_type": "...", "summary": "..."}
-- tags 는 다음에서만 고른다(해당 자격이 필요한 경우만, 없으면 []): ${CONTROLLED_TAGS.join(", ")}
+// ── LLM 분류 (새 공고만 + 캐시) ──
+function loadCache() { try { return existsSync(CACHE_FILE) ? JSON.parse(readFileSync(CACHE_FILE, "utf-8")) : {}; } catch { return {}; } }
+function applyClass(b, c) {
+  if (c.category && CATS.includes(c.category)) b.category = c.category;
+  if (Array.isArray(c.tags)) b.need = c.tags.filter((t) => CONTROLLED_TAGS.includes(t));
+  if (SUPPORT_TYPES.includes(c.support_type)) b.support_type = c.support_type;
+  if (c.summary) b.summary = clip(c.summary, 60);
+  b.show = c.show !== false;
+  if (c.special) b.special = true;
+  b.llm = true;
+}
+async function classifyWithLLM(items) {
+  const cache = loadCache();
+  for (const b of items) if (cache[b.id]) applyClass(b, cache[b.id]);   // 기존 캐시 적용(무료)
+  let added = 0, dirty = false;
+  if (hasLLMKey()) {
+    const todo = items.filter((b) => !cache[b.id]).slice(0, 120);        // 새 공고만, 상한
+    const sys = `너는 한국 복지·지원 공고 분류기다. 각 항목을 분석해 JSON 배열로만 답한다.
+각 원소: {"id":입력id,"category":"...","tags":[...],"support_type":"...","summary":"...","show":true/false,"special":true/false}
+- category 는 다음 중 하나: ${CATS.join(", ")}
+- tags 는 자격조건이 꼭 필요한 경우만(없으면 []): ${CONTROLLED_TAGS.join(", ")}
 - support_type 은 다음 중 하나: ${SUPPORT_TYPES.join(", ")}
-- summary 는 45자 이내 한 줄, 핵심 자격과 금액 위주. 추측 금지, 입력 근거만.`;
-  const SZ = 24; // 호출 수 최소화(96→4콜)로 무료 분당한도 회피
-  for (let i = 0; i < cap.length; i += SZ) {
-    const batch = cap.slice(i, i + SZ).map((b) => ({ id: b.id, title: b.title, desc: b.raw || b.amount_label }));
-    try {
-      const txt = await callLLM(sys, JSON.stringify(batch), { json: true, maxTokens: 4096 });
-      const arr = parseJsonLoose(txt);
-      const byId = new Map(arr.map((x) => [x.id, x]));
-      for (const b of cap.slice(i, i + SZ)) {
-        const e = byId.get(b.id);
-        if (!e) continue;
-        if (Array.isArray(e.tags)) b.need = e.tags.filter((t) => CONTROLLED_TAGS.includes(t));
-        if (SUPPORT_TYPES.includes(e.support_type)) b.support_type = e.support_type;
-        if (e.summary) b.summary = clip(e.summary, 60);
-        b.llm = true;
-      }
-      console.log(`  [LLM] ${i + batch.length}/${cap.length} 보강`);
-    } catch (e) { console.log(`  [LLM] 배치 ${i} 실패(규칙기반 유지): ${clip(e.message, 90)}`); }
-    await sleep(5000); // 무료 분당한도 회피용 간격
+- summary: 45자 이내, 대상·금액 핵심. 추측 금지.
+- show: 일반 주민이 신청해 실익 있는 지원이면 true. 단순공지·결과발표·내부행정·입찰·채용공고면 false.
+- special: 자동지급(별도 신청 불필요)이거나 극소수 특수대상(장애인·유공자 등)이면 true.`;
+    const SZ = 20;
+    for (let i = 0; i < todo.length; i += SZ) {
+      const batch = todo.slice(i, i + SZ).map((b) => ({ id: b.id, title: b.title, desc: clip(b.raw || b.amount_label, 120) }));
+      try {
+        const arr = parseJsonLoose(await callLLM(sys, JSON.stringify(batch), { json: true, maxTokens: 4096 }));
+        const byId = new Map(arr.map((x) => [x.id, x]));
+        for (const b of todo.slice(i, i + SZ)) {
+          const e = byId.get(b.id); if (!e) continue;
+          const cls = { category: e.category, tags: e.tags, support_type: e.support_type, summary: clip(e.summary, 60), show: e.show !== false, special: e.special === true };
+          cache[b.id] = cls; applyClass(b, cls); added++; dirty = true;
+        }
+        console.log(`  [LLM분류] ${Math.min(i + SZ, todo.length)}/${todo.length} 신규`);
+      } catch (e) { console.log(`  [LLM분류] 배치 ${i} 실패: ${clip(e.message, 90)}`); }
+      await sleep(5000);
+    }
   }
+  if (dirty) writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
+  console.log(`  [LLM분류] 신규 ${added}건 · 캐시 총 ${Object.keys(cache).length}건`);
   return items;
 }
 async function makeOverview(items, region) {
@@ -409,11 +428,10 @@ async function run() {
   console.log(`\n합계 ${collected.length} → 중복제거 ${merged.length}건`);
   if (merged.length < 4) { console.log("⚠️ 수집량 부족 → 시드 유지"); process.exit(0); }
 
+  console.log(`== LLM 분류(새 공고만+캐시)${useLLM ? " " + llmProvider() : " — 키없음, 캐시만 적용"} ==`);
+  await classifyWithLLM(merged);
   let summary = null;
-  if (useLLM) {
-    console.log(`== LLM 보강 시작 (${llmProvider()}) ==`); await enrichWithLLM(merged);
-    summary = await makeOverview(merged, `${SIDO} 연수구`);
-  } else console.log("ℹ️ LLM 키(GEMINI_API_KEY/ANTHROPIC_API_KEY) 없음 → 규칙기반 유지");
+  if (useLLM) summary = await makeOverview(merged, `${SIDO} 연수구`);
   if (!summary) {
     const top = [...new Set(merged.map((b) => b.category))].slice(0, 4).join("·");
     const maxAmt = Math.max(0, ...merged.map((b) => b.amount));

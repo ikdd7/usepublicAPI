@@ -12,7 +12,7 @@ on:
     - cron: "0 5 * * *"           # 매일 14:00 KST
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -42,6 +42,13 @@ jobs:
             node scraper/fetch_sources.mjs || echo "::warning::API 수집 실패 → 시드로 폴백"
           fi
           echo "---- data dir ----"; ls -la data/
+      - name: LLM 분류 캐시 커밋(신규 분류분 영구 저장)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add youth-benefits-demo/data/llm_cache.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "data: LLM 분류 캐시 갱신 [skip ci]"
+          git push || true
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

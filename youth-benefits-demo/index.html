@@ -363,7 +363,8 @@ function toRuntime(b){
     contact: b.contact || "", source: b.source || "#"
   };
   r.topics = deriveTopics(r);
-  r.special = isSpecial(r);
+  // LLM 분류 우선: show===false(노이즈/공지) 또는 special(자동·특수)이면 기본 숨김
+  r.special = isSpecial(r) || b.special===true || b.show===false;
   const ex = deriveExpiry(r); r.expired = ex.expired; r.apply_end = r.apply_end || ex.end;
   return r;
 }
