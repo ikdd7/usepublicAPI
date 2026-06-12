@@ -57,8 +57,10 @@ export function xmlList(xml, itemTag) {
 
 async function getText(url) {
   const res = await fetch(url, { headers: { Accept: "*/*" } });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return res.text();
+  const body = await res.text();
+  // 에러 시 응답 본문을 함께 남겨 원인(미신청/키오류/파라미터)을 로그에서 즉시 진단
+  if (!res.ok) throw new Error(`HTTP ${res.status} :: ${clip(body, 260)}`);
+  return body;
 }
 
 /* ---------- A. 복지로 지자체복지서비스 ---------- */
