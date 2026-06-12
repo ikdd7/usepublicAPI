@@ -23,11 +23,14 @@ const OUT = join(__dir, "..", "data", "boards_live.json");
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
 const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
 
-// 전국 확장 지점: { region, home } 만 추가하면 됨
+// 전국 확장 지점: { region, boards:[게시판 .asp URL] } 추가하면 됨
+// (헤드리스 캡처로 발견한 연수구 서버렌더 게시판들)
 const REGISTRY = [
-  { region: "인천광역시 연수구", home: "https://www.yeonsu.go.kr/" },
-  { region: "인천광역시 남동구", home: "https://www.namdong.go.kr/" },
-  { region: "인천광역시 미추홀구", home: "https://www.michuhol.go.kr/" },
+  { region: "인천광역시 연수구", boards: [
+    "https://www.yeonsu.go.kr/main/part/clean/notice.asp",     // 환경정보알림(음식물처리기 등)
+    "https://www.yeonsu.go.kr/main/part/food/food_notice.asp", // 식품
+    "https://www.yeonsu.go.kr/main/part/property/public.asp",  // 공동주택
+  ] },
 ];
 
 // 지원사업 신호 키워드 (제목 1차 필터)
@@ -48,15 +51,18 @@ async function get(url, ms = 15000) {
   finally { clearTimeout(to); }
 }
 
-// HTML에서 <a href>+text 추출
+// HTML에서 <a> 추출 (href + onclick + text) — ASP 게시판은 onclick 기반이 많음
 function anchors(html, base) {
   const out = [];
-  const re = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  const re = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
   let m;
   while ((m = re.exec(html))) {
-    const href = abs(m[1], base);
-    const text = clip(m[2].replace(/<[^>]+>/g, ""), 80);
-    if (href && text) out.push({ href, text });
+    const attrs = m[1];
+    const href = (attrs.match(/href=["']([^"']+)["']/i) || [])[1] || "";
+    const onclick = (attrs.match(/onclick=["']([^"']+)["']/i) || [])[1] || "";
+    const text = clip(m[2].replace(/<[^>]+>/g, ""), 90);
+    const absHref = href && !/^javascript:/i.test(href) ? abs(href, base) : null;
+    if (text && (absHref || onclick)) out.push({ href: absHref, onclick, text });
   }
   return out;
 }
@@ -66,30 +72,26 @@ function textOf(html) {
   return clip(html.replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " "), 3000);
 }
 
-/* ---------- 1단계: 지자체별 후보 글 수집 ---------- */
-async function harvestCandidates() {
+/* ---------- 1단계: 지자체별 후보 글 수집 (서버렌더 .asp 게시판 직접) ---------- */
+async function harvestCandidates({ dump = false } = {}) {
   const candidates = [];
-  for (const { region, home } of REGISTRY) {
-    const r = await get(home);
-    if (!r.ok) { console.log(`  ✗ ${region} 홈 ${r.status || r.err}`); continue; }
-    const homeAnchors = anchors(r.body, home);
-    // 게시판 페이지 후보
-    const boards = [...new Set(homeAnchors.filter((a) => BOARD_KW.test(a.href) || BOARD_KW.test(a.text)).map((a) => a.href))].slice(0, 8);
-    // 홈에서 직접 키워드 매칭되는 글도 후보로
-    let found = homeAnchors.filter((a) => KW.test(a.text));
-    // 게시판 페이지 순회
+  for (const { region, boards } of REGISTRY) {
     for (const b of boards) {
-      await sleep(1200);
-      const br = await get(b);
-      if (!br.ok) continue;
-      const posts = anchors(br.body, b).filter((a) => KW.test(a.text) && /view|seq=|idx=|nttsn|articleno|bsnsid|no=|bidx|\d{3,}/i.test(a.href));
-      found.push(...posts);
+      await sleep(1000);
+      const r = await get(b);
+      if (!r.ok) { console.log(`  ✗ ${region} ${b} → ${r.status || r.err}`); continue; }
+      const all = anchors(r.body, b);
+      if (dump) {
+        console.log(`\n  [덤프] ${b} (${(r.body.length / 1024).toFixed(1)}KB, 앵커 ${all.length}개) 샘플:`);
+        all.slice(0, 18).forEach((a) => console.log(`      "${clip(a.text, 40)}" href=${a.href ? a.href.slice(-45) : "-"} onclick=${clip(a.onclick, 45) || "-"}`));
+      }
+      // 글 링크로 보이는 것 + 지원 키워드
+      const posts = all.filter((a) => KW.test(a.text) && (/(view|seq=|idx=|no=|num=|bidx|nttsn|articleno|\d{3,})/i.test(`${a.href}${a.onclick}`)));
+      const seen = new Set();
+      const uniq = posts.filter((a) => { const k = a.text.slice(0, 18); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 10);
+      uniq.forEach((u) => candidates.push({ region, title: u.text, url: u.href, onclick: u.onclick, board: b }));
+      console.log(`  · ${region} ${b.split("/").pop()}: 앵커 ${all.length} → 지원후보 ${uniq.length}`);
     }
-    // 중복 제거 + 캡
-    const seen = new Set();
-    const uniq = found.filter((a) => { const k = a.text.slice(0, 20); if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 12);
-    uniq.forEach((u) => candidates.push({ region, title: u.text, url: u.href }));
-    console.log(`  · ${region}: 게시판 ${boards.length}곳 → 지원 후보 ${uniq.length}건`);
   }
   return candidates;
 }
@@ -135,7 +137,7 @@ async function structure(cand) {
 async function main() {
   const discoverOnly = process.argv.includes("--discover");
   console.log(`== 소스E 구청공고 수집 (${discoverOnly ? "발견전용" : "구조화"}, ${REGISTRY.length}개 지자체) ==`);
-  const cands = await harvestCandidates();
+  const cands = await harvestCandidates({ dump: discoverOnly });
   console.log(`\n총 후보 ${cands.length}건`);
   cands.slice(0, 25).forEach((c) => console.log(`   · [${c.region}] ${c.title}`));
 
