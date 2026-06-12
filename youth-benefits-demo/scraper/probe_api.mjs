@@ -44,8 +44,13 @@ for (const { region, home } of SITES) {
   const page = await ctx.newPage();
   const found = [];
   try {
-    await page.goto(home, { waitUntil: "domcontentloaded", timeout: 25000 });
-    await page.waitForTimeout(1200);
+    let loaded = false;
+    for (let a = 0; a < 2 && !loaded; a++) {
+      try { await page.goto(home, { waitUntil: "load", timeout: 55000 }); loaded = true; }
+      catch (e) { console.log(`  …재시도(${a + 1}) ${clip(e.message, 40)}`); }
+    }
+    if (!loaded) throw new Error("홈 로드 타임아웃(55s×2)");
+    await page.waitForTimeout(1500);
     for (const sel of ["#allmenu", ".allmenu", "[class*=all][class*=menu]", ".btn_total", ".total_menu", "a[href*='allmenu']", ".gnb_all"]) {
       try { await page.click(sel, { timeout: 1000 }); await page.waitForTimeout(400); } catch {}
     }
