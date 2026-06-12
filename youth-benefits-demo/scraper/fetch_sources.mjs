@@ -82,16 +82,27 @@ async function srcBokjiroLocal(key) {
 
 /* ---------- B. 복지로 중앙부처복지서비스 ---------- */
 async function srcBokjiroCentral(key) {
-  const base = "https://apis.data.go.kr/B554287/NationalWelfareInformationsV001/NationalWelfarelistV001";
-  const all = [];
-  for (let page = 1; page <= 8; page++) {
-    const u = `${base}?serviceKey=${encodeURIComponent(key)}&callTp=L&pageNo=${page}&numOfRows=100&srchKeyCode=003`;
-    const xml = await getText(u);
-    if (page === 1) console.log("  [B:원시샘플]", clip(xml, 500));
+  // 문서상 V001 / 구버전 경로가 혼재 → 순차 시도
+  const bases = [
+    "https://apis.data.go.kr/B554287/NationalWelfareInformationsV001/NationalWelfarelistV001",
+    "https://apis.data.go.kr/B554287/NationalWelfareInformations/NationalWelfarelist",
+  ];
+  let base = null, all = [];
+  for (const b of bases) {
+    try {
+      const xml = await getText(`${b}?serviceKey=${encodeURIComponent(key)}&callTp=L&pageNo=1&numOfRows=100&srchKeyCode=003`);
+      console.log("  [B:원시샘플]", clip(xml, 500));
+      all = xmlList(xml, "servList");
+      base = b;
+      break;
+    } catch (e) { console.log(`  [B] ${b.split("/").pop()} 실패: ${clip(e.message, 80)}`); }
+  }
+  if (!base) throw new Error("모든 엔드포인트 실패");
+  for (let page = 2; page <= 8 && all.length % 100 === 0 && all.length > 0; page++) {
+    const xml = await getText(`${base}?serviceKey=${encodeURIComponent(key)}&callTp=L&pageNo=${page}&numOfRows=100&srchKeyCode=003`);
     const items = xmlList(xml, "servList");
     if (!items.length) break;
     all.push(...items);
-    if (items.length < 100) break;
   }
   // 전국 단위 → 청년 관련만, 조회수(inqNum) 상위 30 캡
   const youth = all.filter((p) => isYouthText(`${p.servNm} ${p.servDgst} ${p.lifeNmArray || p.lifeArray || ""}`));
