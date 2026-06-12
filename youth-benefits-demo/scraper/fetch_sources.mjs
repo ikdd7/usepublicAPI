@@ -25,7 +25,8 @@ const SIGUNGU = ["중구", "동구", "미추홀구", "연수구", "남동구", "
 const AGE = { min: 18, max: 39 };
 const NATIONWIDE = "전국";
 
-const CONTROLLED_TAGS = ["구직중","재직중","학생","자영업·창업","1인가구","신혼","임신·출산","육아","한부모","장애인","저소득","무주택"];
+const OCC_TAGS = ["농어업인","예술인","운수종사자","제대군인"]; // 직업군(공고에 실제 등장하는 것만)
+const CONTROLLED_TAGS = ["구직중","재직중","학생","자영업·창업","1인가구","신혼","임신·출산","육아","한부모","장애인","저소득","무주택", ...OCC_TAGS];
 const SUPPORT_TYPES = ["현금","바우처","대출","현물","서비스"];
 const CATS = ["주거","일자리","교육","복지","건강","금융","문화","환경·생활","육아","농업","기타"];
 const CACHE_FILE = join(__dir, "..", "data", "llm_cache.json");
@@ -49,6 +50,11 @@ export function needFromText(text = "") {
   if (/장애인|장애\s*정도/.test(text)) need.add("장애인");
   if (/기초생활|차상위|저소득|중위소득/.test(text)) need.add("저소득");
   if (/무주택/.test(text)) need.add("무주택");
+  // 직업군
+  if (/농업인|어업인|농어업|임업인|귀농|농민/.test(text)) need.add("농어업인");
+  if (/예술인|문화예술인|공연예술/.test(text)) need.add("예술인");
+  if (/운수종사자|화물차주|택시기사|버스기사|배달종사자/.test(text)) need.add("운수종사자");
+  if (/제대군인|의무복무.{0,4}전역/.test(text)) need.add("제대군인");
   return [...need];
 }
 export function supportTypeOf(text = "", hint = "") {
@@ -341,7 +347,10 @@ function parseJsonLoose(s) {
 function loadCache() { try { return existsSync(CACHE_FILE) ? JSON.parse(readFileSync(CACHE_FILE, "utf-8")) : {}; } catch { return {}; } }
 function applyClass(b, c) {
   if (c.category && CATS.includes(c.category)) b.category = c.category;
-  if (Array.isArray(c.tags)) b.need = c.tags.filter((t) => CONTROLLED_TAGS.includes(t));
+  if (Array.isArray(c.tags)) {
+    const occKeep = (b.need || []).filter((t) => OCC_TAGS.includes(t)); // 구버전 캐시가 직업태그 못 지우게 보존
+    b.need = [...new Set([...c.tags.filter((t) => CONTROLLED_TAGS.includes(t)), ...occKeep])];
+  }
   if (SUPPORT_TYPES.includes(c.support_type)) b.support_type = c.support_type;
   if (c.summary) b.summary = clip(c.summary, 60);
   b.show = c.show !== false;
@@ -481,6 +490,9 @@ function selftest() {
     ["나이 키워드(영유아)", JSON.stringify(parseAgeRange("영유아 보육료")) === "[0,5]"],
     ["나이 미상=전연령", JSON.stringify(parseAgeRange("저소득 가구 지원")) === "[0,120]"],
     ["복지로 나이반영(청년)", a.age_min === 19 && a.age_max === 39],
+    ["직업: 농어업인", needFromText("귀농 농업인 영농정착 지원").includes("농어업인")],
+    ["직업: 예술인", needFromText("예술인 창작지원금").includes("예술인")],
+    ["직업: 운수종사자", needFromText("화물차주 유가보조금").includes("운수종사자")],
   ];
   let ok = 0;
   for (const [n, p] of checks) { console.log(`${p ? "✓" : "✗ FAIL"}  ${n}`); if (p) ok++; }
