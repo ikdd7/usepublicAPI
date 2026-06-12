@@ -30,6 +30,8 @@ jobs:
           npx playwright install --with-deps chromium
       - name: JS 게시판 헤드리스 수집
         working-directory: youth-benefits-demo
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scraper/boards_headless.mjs || true
       - name: 결과 커밋
         run: |

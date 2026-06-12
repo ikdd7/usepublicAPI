@@ -84,5 +84,41 @@ for (const { region, boards } of REGISTRY) {
   }
 }
 writeFileSync(OUT, JSON.stringify({ meta: { source: "구청공고(헤드리스)", snapshot_date: new Date().toISOString().slice(0, 10), count: out.length }, benefits: out }, null, 2));
-console.log(`\n✓ 저장: ${OUT} (${out.length}건)`);
+console.log(`\n수집 ${out.length}건 (규칙기반)`);
+
+/* ---------- 제미나이 본문 구조화 (선택) ---------- */
+const gkey = process.env.GEMINI_API_KEY;
+if (gkey && out.length) {
+  const model = process.env.GEMINI_MODEL || "gemini-2.5-flash-lite";
+  async function gemini(system, user) {
+    for (let a = 0; ; a++) {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+        method: "POST", headers: { "x-goog-api-key": gkey, "content-type": "application/json" },
+        body: JSON.stringify({ system_instruction: { parts: [{ text: system }] }, contents: [{ role: "user", parts: [{ text: user }] }],
+          generationConfig: { temperature: 0, maxOutputTokens: 600, responseMimeType: "application/json", ...(model.includes("2.5") ? { thinkingConfig: { thinkingBudget: 0 } } : {}) } }) });
+      if (res.ok) { const j = await res.json(); return (j.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join(""); }
+      const t = await res.text(); if (res.status === 429 && a < 2) { await sleep(8000 * 2 ** a); continue; } throw new Error(`Gemini ${res.status}: ${clip(t, 100)}`);
+    }
+  }
+  const sys = `너는 한국 지자체 공고를 구조화한다. 본문이 '주민이 신청해 돈/현물을 받는 지원사업'이면 JSON, 아니면 {"benefit":false}.
+형식: {"benefit":true,"amount_label":"금액(예 최대 30만원, 미상이면 빈칸)","summary":"45자 이내 핵심(대상·금액)"} 추측 금지.`;
+  const ctx = await browser.newContext({ userAgent: UA, locale: "ko-KR" }); const p = await ctx.newPage();
+  let ok = 0;
+  for (const b of out.slice(0, 40)) {
+    try {
+      await p.goto(b.source, { waitUntil: "domcontentloaded", timeout: 20000 }); await p.waitForTimeout(500);
+      const body = clip(await p.evaluate(() => document.body.innerText), 2500);
+      const o = JSON.parse(await gemini(sys, `[제목] ${b.title}\n[본문] ${body}`));
+      if (o.benefit === false) { b._drop = true; }
+      else { if (o.amount_label) { b.amount_label = clip(o.amount_label, 80) || b.amount_label; b.amount = won(o.amount_label) || b.amount; } if (o.summary) b.summary = clip(o.summary, 60); b.llm = true; ok++; }
+      await sleep(4000);
+    } catch (e) { console.log(`  [LLM] ${clip(b.title, 20)} 스킵: ${clip(e.message, 60)}`); }
+  }
+  await ctx.close();
+  const finalOut = out.filter((b) => !b._drop).map(({ _drop, ...b }) => b);
+  writeFileSync(OUT, JSON.stringify({ meta: { source: "구청공고(헤드리스·AI보강)", snapshot_date: new Date().toISOString().slice(0, 10), count: finalOut.length, llm: ok }, benefits: finalOut }, null, 2));
+  console.log(`✓ AI보강 ${ok}건, 최종 ${finalOut.length}건 → ${OUT}`);
+} else {
+  console.log(`✓ 저장: ${OUT} (${out.length}건, 규칙기반 — GEMINI_API_KEY 없음)`);
+}
 await browser.close();
