@@ -75,6 +75,7 @@
       "id": "worker-welfare-point",
       "title": "인천 재직청년 복지포인트",
       "category": "복지",
+      "support_type": "바우처",
       "amount_max_won": 500000,
       "amount_label": "연 복지포인트 (재직 청년 대상)",
       "age_min": 18,

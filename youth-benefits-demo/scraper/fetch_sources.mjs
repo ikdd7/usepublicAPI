@@ -29,14 +29,37 @@ const AGE = { min: 18, max: 39 };
 const decodeKey = (k) => (/%[0-9A-Fa-f]{2}/.test(k) ? decodeURIComponent(k) : k);
 const clip = (s, n) => (s ? `${s}`.replace(/\s+/g, " ").trim().slice(0, n) : "");
 
-// 어떤 텍스트든 상황태그 추출 (chips: 무주택/구직중/재직중/독립)
+// 어떤 텍스트든 상황태그 추출 — 다차원 맞춤 필터의 핵심
+// (태그 = "이 조건에 해당해야 받을 수 있음"으로 해석되어 프런트에서 AND 매칭)
 export function needFromText(text = "") {
   const need = new Set();
+  // 신분
   const jobless = /미취업|구직|실업|취업준비/.test(text);
   if (jobless) need.add("구직중");
-  if (!jobless && /재직|근로자|직장인|자영업|프리랜서/.test(text)) need.add("재직중");
+  if (!jobless && /재직|근로자|직장인/.test(text)) need.add("재직중");
+  if (/대학생|대학원생|재학생|휴학생/.test(text)) need.add("학생");
+  if (/소상공인|자영업|창업자|예비창업/.test(text)) need.add("자영업·창업");
+  // 가구 상황
+  if (/1인\s*가구/.test(text)) need.add("1인가구");
+  if (/신혼|예비\s*부부/.test(text)) need.add("신혼");
+  if (/임신|임산부|출산|난임/.test(text)) need.add("임신·출산");
+  if (/육아|영유아|보육|양육|돌봄.{0,6}아동/.test(text)) need.add("육아");
+  if (/한부모|조손/.test(text)) need.add("한부모");
+  if (/장애인|장애\s*정도/.test(text)) need.add("장애인");
+  if (/기초생활|차상위|저소득|중위소득\s*\d+\s*%?\s*이하/.test(text)) need.add("저소득");
+  // 주거
   if (/무주택/.test(text)) need.add("무주택");
   return [...need];
+}
+
+// 지원유형 추출 (현금/대출/바우처/현물/서비스) — 표시용 필터
+export function supportTypeOf(text = "", hint = "") {
+  const t = `${hint} ${text}`;
+  if (/대출|융자|이차보전/.test(t)) return "대출";
+  if (/바우처|포인트|이용권|상품권|카드\s*지급|지역화폐/.test(t)) return "바우처";
+  if (/현물|물품|임대주택|주택\s*공급/.test(t)) return "현물";
+  if (/현금|수당|지원금|장려금|급여|비용\s*지원|월\s*\d+|만\s*원/.test(t)) return "현금";
+  return "서비스"; // 상담·교육·프로그램 등
 }
 export const isYouthText = (t = "") => /청년|만\s*(1[89]|[23]\d)\s*세/.test(t);
 
@@ -120,6 +143,7 @@ export function mapBokjiro(srcName, p) {
     amount_label: clip(p.servDgst, 70) || "상세 참조",
     age_min: AGE.min, age_max: AGE.max,
     need: needFromText(blob),
+    support_type: supportTypeOf(blob, p.srvPvsnNm || ""),
     apply_end: null, // 복지로 목록 응답엔 마감일 없음 → '상시·공고 확인'
     how: clip(p.aplyMtdNm, 50) || "복지로/주민센터 문의",
     contact: clip(p.jurOrgNm || p.jurMnofNm || p.bizChrDeptNm, 30) || `${REGION.sido} ${REGION.sigungu}`,
@@ -160,7 +184,8 @@ export function mapGov24(it) {
     amount: parseAmount(sprt),
     amount_label: clip(sprt, 70) || "상세 참조",
     age_min: AGE.min, age_max: AGE.max,
-    need: needFromText(`${it["서비스명"]} ${it["지원대상"]} ${sprt}`),
+    need: needFromText(`${it["서비스명"]} ${it["지원대상"]} ${it["선정기준"] || ""} ${sprt}`),
+    support_type: supportTypeOf(sprt, it["지원유형"] || ""),
     apply_end: null,
     how: clip(it["신청방법"], 50) || "정부24 확인",
     contact: clip(`${it["소관기관명"] || ""} ${it["부서명"] || ""}`, 30),
@@ -263,6 +288,11 @@ function selftest() {
     ["gov24 need 구직중", g.need.includes("구직중")],
     ["청년텍스트 판별", isYouthText("만 25세 청년") && !isYouthText("어르신 지원")],
     ["dedupe 2건+출처병합", dup.length === 2 && dup[0]._src.includes("+")],
+    ["다차원: 한부모+저소득", JSON.stringify(needFromText("저소득 한부모 가정 지원").sort()) === JSON.stringify(["저소득", "한부모"])],
+    ["다차원: 학생+1인가구", needFromText("1인가구 대학생 대상").includes("학생") && needFromText("1인가구 대학생 대상").includes("1인가구")],
+    ["지원유형: 대출", supportTypeOf("저금리 융자 지원") === "대출"],
+    ["지원유형: 바우처", supportTypeOf("문화 이용권 포인트 지급") === "바우처"],
+    ["지원유형: 현금(월세)", a.support_type === "현금"],
   ];
   let ok = 0;
   for (const [name, pass] of checks) { console.log(`${pass ? "✓" : "✗ FAIL"}  ${name}`); if (pass) ok++; }

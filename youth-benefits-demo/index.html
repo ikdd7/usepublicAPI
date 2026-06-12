@@ -23,6 +23,7 @@
   .agewrap input{width:88px;background:#0e1319;border:1px solid var(--line);color:var(--txt);font-size:20px;font-weight:700;text-align:center;border-radius:10px;padding:10px}
   .agewrap label{font-size:14px;color:var(--sub)}
   .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .grp{font-size:11.5px;color:#6b7689;margin:10px 2px 6px;font-weight:600}
   .chip{background:#0e1319;border:1px solid var(--line);color:var(--sub);font-size:13px;padding:8px 13px;border-radius:999px;cursor:pointer;user-select:none;transition:.15s}
   .chip.on{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
   .result-banner{margin-top:18px;background:linear-gradient(135deg,#10351f,#0f2235);border:1px solid #1f6b46;border-radius:16px;padding:18px;text-align:center}
@@ -66,12 +67,40 @@
       <input id="age" type="number" min="15" max="50" value="27" />
       <label>세 · 연수구 거주</label>
     </div>
-    <h2>내 상황 (해당하는 것 선택)</h2>
-    <div class="chips" id="chips">
-      <span class="chip" data-tag="무주택">🏠 무주택·자취</span>
-      <span class="chip on" data-tag="구직중">🔍 구직중</span>
-      <span class="chip" data-tag="재직중">💼 재직중</span>
-      <span class="chip" data-tag="독립">🚪 부모와 별거</span>
+    <h2>내 상황 (해당하는 것 모두 선택 — 정확할수록 맞춤 추천)</h2>
+    <div id="chips">
+      <div class="grp">신분</div>
+      <div class="chips">
+        <span class="chip on" data-tag="구직중">🔍 구직중</span>
+        <span class="chip" data-tag="재직중">💼 재직중</span>
+        <span class="chip" data-tag="학생">🎓 학생</span>
+        <span class="chip" data-tag="자영업·창업">🏪 자영업·창업</span>
+      </div>
+      <div class="grp">가구·조건</div>
+      <div class="chips">
+        <span class="chip" data-tag="1인가구">👤 1인가구</span>
+        <span class="chip" data-tag="신혼">💑 신혼</span>
+        <span class="chip" data-tag="임신·출산">🤰 임신·출산</span>
+        <span class="chip" data-tag="육아">👶 육아</span>
+        <span class="chip" data-tag="한부모">🌗 한부모</span>
+        <span class="chip" data-tag="장애인">♿ 장애인</span>
+        <span class="chip" data-tag="저소득">💸 저소득</span>
+        <span class="chip" data-tag="무주택">🏠 무주택·자취</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>보기 필터 (선택 없으면 전체)</h2>
+    <div class="grp">분야</div>
+    <div class="chips" id="catChips"></div>
+    <div class="grp">지원 형태</div>
+    <div class="chips" id="typeChips">
+      <span class="chip" data-type="현금">💵 현금</span>
+      <span class="chip" data-type="바우처">🎫 바우처·포인트</span>
+      <span class="chip" data-type="대출">🏦 대출</span>
+      <span class="chip" data-type="현물">📦 현물·주거</span>
+      <span class="chip" data-type="서비스">🛠 서비스·프로그램</span>
     </div>
   </div>
 
@@ -107,7 +136,9 @@ const DATA = {
 };
 
 const TODAY = new Date();
-let selected = new Set(["구직중"]);
+let selected = new Set(["구직중"]);   // 내 상황(자격 매칭, AND)
+let selCats = new Set();              // 분야 보기 필터(비면 전체)
+let selTypes = new Set();             // 지원형태 보기 필터(비면 전체)
 
 document.getElementById("chips").addEventListener("click", e=>{
   const c = e.target.closest(".chip"); if(!c) return;
@@ -116,7 +147,32 @@ document.getElementById("chips").addEventListener("click", e=>{
   else {selected.add(t);c.classList.add("on");}
   render();
 });
+document.getElementById("typeChips").addEventListener("click", e=>{
+  const c = e.target.closest(".chip"); if(!c) return;
+  const t = c.dataset.type;
+  if(selTypes.has(t)){selTypes.delete(t);c.classList.remove("on");}
+  else {selTypes.add(t);c.classList.add("on");}
+  render();
+});
+document.getElementById("catChips").addEventListener("click", e=>{
+  const c = e.target.closest(".chip"); if(!c) return;
+  const t = c.dataset.cat;
+  if(selCats.has(t)){selCats.delete(t);c.classList.remove("on");}
+  else {selCats.add(t);c.classList.add("on");}
+  render();
+});
 document.getElementById("age").addEventListener("input", render);
+
+// 데이터에 실제 존재하는 분야로 칩 동적 생성
+function buildCatChips(){
+  const cats = [...new Set(DATA.benefits.map(b=>b.category).filter(Boolean))].slice(0,10);
+  document.getElementById("catChips").innerHTML =
+    cats.map(c=>`<span class="chip" data-cat="${c}">${c}</span>`).join("");
+  selCats.clear();
+}
+const visible = b =>
+  (selCats.size===0 || selCats.has(b.category)) &&
+  (selTypes.size===0 || selTypes.has(b.support_type||"서비스"));
 
 function dday(end){
   const d = Math.ceil((new Date(end)-TODAY)/(1000*60*60*24));
@@ -133,7 +189,7 @@ function evaluate(b, age){
 function render(){
   const age = parseInt(document.getElementById("age").value)||0;
   const elig=[], locked=[]; let total=0;
-  DATA.benefits.forEach(b=>{
+  DATA.benefits.filter(visible).forEach(b=>{
     const ev = evaluate(b, age);
     if(ev.eligible){ elig.push(b); total += b.amount; }
     else locked.push({b,ev});
@@ -147,7 +203,7 @@ function render(){
     const d = b.apply_end ? dday(b.apply_end) : null;
     const dlabel = d===null ? "상시·공고 확인" : (d>=0 ? "신청 D-"+d : "마감");
     return `<div class="card elig">
-      <div class="ctop"><span class="ctitle">${b.title}</span><span class="cat">${b.category}</span></div>
+      <div class="ctop"><span class="ctitle">${b.title}</span><span class="cat">${b.category} · ${b.support_type||"서비스"}</span></div>
       <div class="amt">💰 ${b.amount_label}</div>
       <div class="meta"><b>신청</b> ${b.how}</div>
       <div class="meta"><b>문의</b> ${b.contact}</div>
@@ -184,6 +240,7 @@ function toRuntime(b){
     amount_label: b.amount_label || "상세 참조",
     age_min: b.age_min ?? 18, age_max: b.age_max ?? 39,
     need: b.need || b.tags || [],
+    support_type: b.support_type || ((b.amount ?? b.amount_max_won ?? 0) > 0 ? "현금" : "서비스"),
     apply_end: b.apply_end || null,
     how: b.how || b.apply_how || "공식 페이지 참조",
     contact: b.contact || "", source: b.source || "#"
@@ -207,7 +264,12 @@ async function loadData(){
   }
 }
 
-(async ()=>{ await loadData(); render(); })();
+(async ()=>{
+  await loadData();
+  DATA.benefits = DATA.benefits.map(toRuntime); // 임베드/시드/라이브 모두 동일 스키마로
+  buildCatChips();
+  render();
+})();
 </script>
 </body>
 </html>

@@ -6,8 +6,10 @@ on:
   push:
     branches: ["claude/niche-market-structure-cQHsO"]   # 기본 브랜치 push 시 자동 배포
     paths: ["youth-benefits-demo/**", ".github/workflows/youth-benefits.yml"]
-  schedule:
-    - cron: "0 21 * * *"          # 매일 06:00 KST(=21:00 UTC) 자동 갱신
+  schedule:                        # KST = UTC+9
+    - cron: "0 21 * * *"          # 매일 06:00 KST
+    - cron: "0 1 * * *"           # 매일 10:00 KST
+    - cron: "0 5 * * *"           # 매일 14:00 KST
 
 permissions:
   contents: read
