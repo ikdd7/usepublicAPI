@@ -323,9 +323,6 @@ async function run() {
   merged.sort((a, b) => rank(a) - rank(b) || (b.amount || 0) - (a.amount || 0));
   if (merged.length > 400) merged = merged.slice(0, 400);
   console.log(`\n합계 ${collected.length} → 중복제거 ${merged.length}건`);
-  // [진단] 특정 키워드가 수집에 잡혔는지 확인 (음식물처리기 등 비복지성 지자체 사업)
-  const probe = collected.filter((b) => /음식물|감량기|처리기/.test(`${b.title} ${b.amount_label}`));
-  console.log(`[probe 음식물처리기] 수집 ${probe.length}건:`, probe.slice(0, 8).map((b) => `${b.title}<${b.region}|${b._src}>`));
   if (merged.length < 4) { console.log("⚠️ 수집량 부족 → 시드 유지"); process.exit(0); }
 
   let summary = null;
