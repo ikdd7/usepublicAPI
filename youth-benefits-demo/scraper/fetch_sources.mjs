@@ -180,8 +180,8 @@ async function srcGov24(key, cap = 200) {
     if (!data.length) break;
     page++;
   }
-  console.log(`  [C] 전수 ${total}건 중 인천·전국 ${picked.length}건 (cap ${cap})`);
-  return picked.slice(0, cap);
+  console.log(`  [C] 전수 ${total}건 중 인천·전국 ${picked.length}건`);
+  return picked; // 캡은 run()에서 정책적으로(인천 전부 + 전국 상위) 적용
 }
 // 소관기관명 → 지역 (인천 군구/시 또는 전국). 타 시도면 제외(null)
 function regionOfOrg(org = "") {
@@ -318,10 +318,16 @@ async function run() {
   }
 
   let merged = dedupe(collected);
-  // 지역 우선(연수→인천→전국) + 금액 큰 순 정렬 후 상한
+  // [정책 C] 우리동네 우선: 인천(시·군구) 지역건은 전부 유지, 전국건은 금액순 상위 150만
+  const regional = merged.filter((b) => b.region !== NATIONWIDE);
+  let national = merged.filter((b) => b.region === NATIONWIDE);
+  national.sort((a, b) => (b.amount || 0) - (a.amount || 0));
+  national = national.slice(0, 150);
+  merged = [...regional, ...national];
+  console.log(`  [정책C] 지역건 ${regional.length} 전부 + 전국 상위 ${national.length}`);
+  // 지역 우선(연수→인천→전국) + 금액 큰 순 정렬
   const rank = (b) => b.region === `${SIDO} 연수구` ? 0 : (b.region || "").startsWith(SIDO) ? 1 : b.region === NATIONWIDE ? 2 : 3;
   merged.sort((a, b) => rank(a) - rank(b) || (b.amount || 0) - (a.amount || 0));
-  if (merged.length > 400) merged = merged.slice(0, 400);
   console.log(`\n합계 ${collected.length} → 중복제거 ${merged.length}건`);
   if (merged.length < 4) { console.log("⚠️ 수집량 부족 → 시드 유지"); process.exit(0); }
 
