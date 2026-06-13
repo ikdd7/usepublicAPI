@@ -163,6 +163,14 @@ async function main() {
   const targets = only ? HOMES.filter((h) => h.gu === only) : HOMES;
   console.log(`== 인천 게시판 발견 (${targets.length}개 구·군, 정적 fetch${hasProxy() ? ", 프록시 ON" : ""}) ==`);
   await proxyFetch();
+  // 프록시 자가진단: 실제 나가는 IP/국가 확인(KR이어야 지자체 차단 통과)
+  if (hasProxy()) {
+    try {
+      const r = await get("http://ip-api.com/json/?fields=query,country,countryCode", 9000);
+      if (r.ok) console.log(`  [proxy] 출구 IP: ${clip(r.body, 120)}`);
+      else console.log(`  [proxy] 출구 확인 실패: ${r.status || r.err}`);
+    } catch (e) { console.log(`  [proxy] 출구 확인 오류: ${clip(e.message, 60)}`); }
+  }
   const sites = [];
   for (const t of targets) {
     if (overBudget()) { console.log(`  ⏱ 시간예산(${Math.round(BUDGET_MS/1000)}s) 초과 → ${t.gu} 이후 중단(다음 실행에 누적)`); break; }
