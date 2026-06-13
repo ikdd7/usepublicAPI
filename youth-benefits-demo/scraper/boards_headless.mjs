@@ -51,11 +51,21 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const _pxy = playwrightProxy();
 if (_pxy) console.log(`  [proxy] 헤드리스 프록시 활성: ${_pxy.server}`);
 const browser = await chromium.launch({ args: ["--no-sandbox"], ...(_pxy ? { proxy: _pxy } : {}) });
+// 대역폭 절약(로테이팅 레지덴셜 1GB 대비): 이미지·미디어·폰트·CSS 차단
+async function leanPage(ctx) {
+  const page = await ctx.newPage();
+  await page.route("**/*", (route) => {
+    const t = route.request().resourceType();
+    if (t === "image" || t === "media" || t === "font" || t === "stylesheet") route.abort();
+    else route.continue();
+  });
+  return page;
+}
 const out = [];
 for (const { region, boards } of REGISTRY) {
   for (const url of boards) {
     const ctx = await browser.newContext({ userAgent: UA, locale: "ko-KR" });
-    const page = await ctx.newPage();
+    const page = await leanPage(ctx);
     try {
       await page.goto(url, { waitUntil: "networkidle", timeout: 30000 });
       await page.waitForTimeout(1000);
@@ -105,7 +115,7 @@ if (gkey && out.length) {
   }
   const sys = `너는 한국 지자체 공고를 구조화한다. 본문이 '주민이 신청해 돈/현물을 받는 지원사업'이면 JSON, 아니면 {"benefit":false}.
 형식: {"benefit":true,"amount_label":"금액(예 최대 30만원, 미상이면 빈칸)","summary":"45자 이내 핵심(대상·금액)"} 추측 금지.`;
-  const ctx = await browser.newContext({ userAgent: UA, locale: "ko-KR" }); const p = await ctx.newPage();
+  const ctx = await browser.newContext({ userAgent: UA, locale: "ko-KR" }); const p = await leanPage(ctx);
   let ok = 0;
   for (const b of out.slice(0, 40)) {
     try {
