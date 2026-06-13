@@ -8,10 +8,8 @@
         "https://www.yeonsu.go.kr/main/part/youth/notice.asp",
         "https://www.yeonsu.go.kr/main/part/food/food_notice.asp",
         "https://www.yeonsu.go.kr/main/part/property/public.asp",
-        "https://www.yeonsu.go.kr/#",
         "https://www.yeonsu.go.kr/main/community/notify/notice.asp",
-        "https://www.yeonsu.go.kr/main/yeonsu/management/notice.asp",
-        "https://www.yeonsu.go.kr/#none"
+        "https://www.yeonsu.go.kr/main/yeonsu/management/notice.asp"
       ]
     },
     {
@@ -19,36 +17,34 @@
       "boards": [
         "https://www.yeonsu.go.kr/main/part/youth/notice.asp"
       ]
-    },
-    {
-      "region": "인천광역시 연수구 행정복지센터",
-      "boards": [
-        "https://www.yeonsu.go.kr/#none"
-      ]
     }
   ],
   "detail": [
     {
       "gu": "중구",
-      "fail": true,
+      "region": "인천광역시 중구",
+      "homeOk": false,
       "boards": [],
       "dong": []
     },
     {
       "gu": "동구",
-      "fail": true,
+      "region": "인천광역시 동구",
+      "homeOk": false,
       "boards": [],
       "dong": []
     },
     {
       "gu": "미추홀구",
-      "fail": true,
+      "region": "인천광역시 미추홀구",
+      "homeOk": false,
       "boards": [],
       "dong": []
     },
     {
       "gu": "연수구",
       "region": "인천광역시 연수구",
+      "homeOk": true,
       "boards": [
         {
           "url": "https://www.yeonsu.go.kr/main/part/youth/notice.asp",
@@ -81,16 +77,6 @@
           ]
         },
         {
-          "url": "https://www.yeonsu.go.kr/#",
-          "posts": 64,
-          "supports": 4,
-          "sample": [
-            "2026년 제1,2회 '이어드림' 참가자 모집 안내 인천광역시에서는 계양",
-            "연수구, 특수학급 학생 대상 ‘꿈과 희망의 교실’ 성료 연수구 송도건강생",
-            "육아종합지원센터"
-          ]
-        },
-        {
           "url": "https://www.yeonsu.go.kr/main/community/notify/notice.asp",
           "posts": 151,
           "supports": 46,
@@ -108,76 +94,49 @@
             "2026년 인천광역시 (예비)사회적기업 일자리창출사업 참여기업 모집 알림",
             "'반려동물 동반출입 음식점' 규제특례 신청 조건부 허용 안내"
           ]
-        },
-        {
-          "url": "https://www.yeonsu.go.kr/#none",
-          "posts": 64,
-          "supports": 4,
-          "sample": [
-            "2026년 제1,2회 '이어드림' 참가자 모집 안내 인천광역시에서는 계양",
-            "연수구, 특수학급 학생 대상 ‘꿈과 희망의 교실’ 성료 연수구 송도건강생",
-            "육아종합지원센터"
-          ]
         }
       ],
-      "dong": [
-        {
-          "region": "인천광역시 연수구 우리동",
-          "url": "https://www.yeonsu.go.kr/main/part/youth/notice.asp",
-          "posts": 21,
-          "supports": 9,
-          "sample": [
-            "연수청년자리 6월 청년특강 및 힐링클래스 모집 안내",
-            "2026년 청년월세 지원사업 신청 안내",
-            "연수청년자리 3월 청년특강 및 힐링클래스 모집 안내"
-          ]
-        },
-        {
-          "region": "인천광역시 연수구 행정복지센터",
-          "url": "https://www.yeonsu.go.kr/#none",
-          "posts": 64,
-          "supports": 4,
-          "sample": [
-            "2026년 제1,2회 '이어드림' 참가자 모집 안내 인천광역시에서는 계양",
-            "연수구, 특수학급 학생 대상 ‘꿈과 희망의 교실’ 성료 연수구 송도건강생",
-            "육아종합지원센터"
-          ]
-        }
-      ]
+      "dong": []
     },
     {
       "gu": "남동구",
-      "fail": true,
+      "region": "인천광역시 남동구",
+      "homeOk": false,
       "boards": [],
       "dong": []
     },
     {
       "gu": "부평구",
-      "fail": true,
+      "region": "인천광역시 부평구",
+      "homeOk": false,
       "boards": [],
       "dong": []
     },
     {
       "gu": "계양구",
-      "fail": true,
+      "region": "인천광역시 계양구",
+      "homeOk": false,
       "boards": [],
       "dong": []
     },
     {
       "gu": "서구",
-      "fail": true,
+      "region": "인천광역시 서구",
+      "homeOk": false,
       "boards": [],
       "dong": []
     },
     {
       "gu": "강화군",
-      "fail": true,
+      "region": "인천광역시 강화군",
+      "homeOk": false,
       "boards": [],
       "dong": []
     },
     {
       "gu": "옹진군",
-      "fail": true,
+      "region": "인천광역시 옹진군",
+      "homeOk": false,
       "boards": [],
       "dong": []
     }
