@@ -88,6 +88,47 @@
         "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/adjust.jsp",
         "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/cardnews.jsp"
       ]
+    },
+    {
+      "region": "인천광역시 동구",
+      "boards": [
+        "https://www.icdonggu.go.kr/main/community/budget/notice.jsp",
+        "https://www.icdonggu.go.kr/main/civil/advice/regulate_inform.jsp",
+        "https://www.icdonggu.go.kr/main/community/enter/hwadojin.jsp",
+        "https://www.icdonggu.go.kr/main/community/board.jsp",
+        "https://www.icdonggu.go.kr/main/introduce/active/notice.jsp",
+        "https://www.icdonggu.go.kr/main/area/economy/sme.jsp",
+        "https://www.icdonggu.go.kr/main/area/urban/rental.jsp",
+        "https://www.icdonggu.go.kr/main/area/cfc/participate_notice.jsp",
+        "https://www.icdonggu.go.kr/main/information/news/notice.jsp"
+      ]
+    },
+    {
+      "region": "인천광역시 남동구",
+      "boards": [
+        "https://www.namdong.go.kr/main/news/notice.jsp",
+        "https://www.namdong.go.kr/main/community/square/free.jsp",
+        "https://www.namdong.go.kr/main/news/report.jsp",
+        "https://www.namdong.go.kr/main/news/bulletin.jsp",
+        "https://www.namdong.go.kr/main/news/announce.jsp",
+        "https://www.namdong.go.kr/main/news/contract/order.jsp",
+        "https://www.namdong.go.kr/dong/sub/notice.jsp?dong=guwol1",
+        "https://www.namdong.go.kr/main/community/autonomy/dong_news.jsp",
+        "https://www.namdong.go.kr/main/news/hireannounce.jsp",
+        "https://www.namdong.go.kr/main/news/newsletter.jsp",
+        "https://www.namdong.go.kr/main/administration/budget/participation_notice.jsp"
+      ]
+    },
+    {
+      "region": "인천광역시 옹진군",
+      "boards": [
+        "https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp",
+        "https://www.ongjin.go.kr/open_content/main/community/board/notice.jsp",
+        "https://www.ongjin.go.kr/open_content/main/community/board/announce.jsp",
+        "https://www.ongjin.go.kr/open_content/main/community/board/announce_other.jsp",
+        "https://www.ongjin.go.kr/open_content/main/community/board/report.jsp",
+        "https://www.ongjin.go.kr/open_content/main/community/board/legislative.jsp"
+      ]
     }
   ],
   "detail": [
@@ -212,8 +253,95 @@
     {
       "gu": "동구",
       "region": "인천광역시 동구",
-      "homeOk": false,
-      "boards": [],
+      "homeOk": true,
+      "boards": [
+        {
+          "url": "https://www.icdonggu.go.kr/main/community/budget/notice.jsp",
+          "posts": 24,
+          "supports": 4,
+          "sample": [
+            "인천광역시 주민참여예산 제안사업 공모 및 위원(10기) 모집 홍보",
+            "인천광역시 주민참여예산 제안사업 공모 및 위원(9기) 모집 홍보",
+            "동구 도시재생지원센터"
+          ]
+        },
+        {
+          "url": "https://www.icdonggu.go.kr/main/civil/advice/regulate_inform.jsp",
+          "posts": 15,
+          "supports": 3,
+          "sample": [
+            "인천광역시 동구 행정규제개혁위원회 위원 공개모집 공고",
+            "동구 도시재생지원센터",
+            "동구청소년상담복지 및 학교밖청소년지원센터"
+          ]
+        },
+        {
+          "url": "https://www.icdonggu.go.kr/main/community/enter/hwadojin.jsp",
+          "posts": 11,
+          "supports": 2,
+          "sample": [
+            "동구 도시재생지원센터",
+            "동구청소년상담복지 및 학교밖청소년지원센터"
+          ]
+        },
+        {
+          "url": "https://www.icdonggu.go.kr/main/community/board.jsp",
+          "posts": 24,
+          "supports": 2,
+          "sample": [
+            "동구 도시재생지원센터",
+            "동구청소년상담복지 및 학교밖청소년지원센터"
+          ]
+        },
+        {
+          "url": "https://www.icdonggu.go.kr/main/introduce/active/notice.jsp",
+          "posts": 19,
+          "supports": 2,
+          "sample": [
+            "동구 도시재생지원센터",
+            "동구청소년상담복지 및 학교밖청소년지원센터"
+          ]
+        },
+        {
+          "url": "https://www.icdonggu.go.kr/main/area/economy/sme.jsp",
+          "posts": 23,
+          "supports": 9,
+          "sample": [
+            "2024년 동구 해외무역사절단 참가 모집 안내",
+            "「인천형 특별 경영안정자금」 지원 공고 안내",
+            "2020년 해외전시회 개별참가 지원 안내"
+          ]
+        },
+        {
+          "url": "https://www.icdonggu.go.kr/main/area/urban/rental.jsp",
+          "posts": 10,
+          "supports": 2,
+          "sample": [
+            "동구 도시재생지원센터",
+            "동구청소년상담복지 및 학교밖청소년지원센터"
+          ]
+        },
+        {
+          "url": "https://www.icdonggu.go.kr/main/area/cfc/participate_notice.jsp",
+          "posts": 23,
+          "supports": 3,
+          "sample": [
+            "2020년도 동구 어린이.청소년참여위원회 위원 모집 공고",
+            "동구 도시재생지원센터",
+            "동구청소년상담복지 및 학교밖청소년지원센터"
+          ]
+        },
+        {
+          "url": "https://www.icdonggu.go.kr/main/information/news/notice.jsp",
+          "posts": 24,
+          "supports": 6,
+          "sample": [
+            "(민간분양) '엘리프 고덕 센트럴하이(Aab-13BL)' 장애인 특별공급",
+            "(민간분양) '힐스테이트 고덕엘리스트(A31BL, A34BL, A35BL",
+            "2026년 하반기 일반 공정선거지원단 채용 안내문"
+          ]
+        }
+      ],
       "dong": []
     },
     {
@@ -385,8 +513,119 @@
     {
       "gu": "남동구",
       "region": "인천광역시 남동구",
-      "homeOk": false,
-      "boards": [],
+      "homeOk": true,
+      "boards": [
+        {
+          "url": "https://www.namdong.go.kr/main/news/notice.jsp",
+          "posts": 121,
+          "supports": 25,
+          "sample": [
+            "[공지] 청년 취업특강 2차 'AI 시대 나답게 취업하기' 참여자 모집",
+            "[공지] 65세 미만 장애인 통합돌봄 사업안내",
+            "[공지] 고유가 피해지원금(2차) 지급 이의신청서 서식"
+          ]
+        },
+        {
+          "url": "https://www.namdong.go.kr/main/community/square/free.jsp",
+          "posts": 123,
+          "supports": 19,
+          "sample": [
+            "[모집연장] 제4회 인천전통예술경연대회 참가자 모집 (~5/14)",
+            "제4회 인천 전통예술 경연대회 참가자 모집",
+            "파크골프 언제또 신청할수있을까요?(1)"
+          ]
+        },
+        {
+          "url": "https://www.namdong.go.kr/main/news/report.jsp",
+          "posts": 121,
+          "supports": 16,
+          "sample": [
+            "간석1동 주민자치회, 순수 민간후원으로 고독사 위험군 반찬 지원",
+            "서창건강생활지원센터, 장애인 대상 ‘뇌신경계 재활강좌’ 운영",
+            "(주)엘엔케이종합건설 건축.기술자(신축,보수)를 모집합니다 연 5,000"
+          ]
+        },
+        {
+          "url": "https://www.namdong.go.kr/main/news/bulletin.jsp",
+          "posts": 161,
+          "supports": 14,
+          "sample": [
+            "(주)엘엔케이종합건설 건축.기술자(신축,보수)를 모집합니다 연 5,000",
+            "선한케어복지센터 재가요양보호사 모집(소래풍림아파트) 시 10,320원 마",
+            "주식회사 세미로 제품 출하관리 직원 모집 월 215만원 마감일 : 채용시"
+          ]
+        },
+        {
+          "url": "https://www.namdong.go.kr/main/news/announce.jsp",
+          "posts": 111,
+          "supports": 16,
+          "sample": [
+            "간석3동 26통장 공개모집 선정결과 공고",
+            "논현고잔동 주민자치센터 프로그램 강사 모집 공고",
+            "(주)엘엔케이종합건설 건축.기술자(신축,보수)를 모집합니다 연 5,000"
+          ]
+        },
+        {
+          "url": "https://www.namdong.go.kr/main/news/contract/order.jsp",
+          "posts": 99,
+          "supports": 14,
+          "sample": [
+            "(주)엘엔케이종합건설 건축.기술자(신축,보수)를 모집합니다 연 5,000",
+            "선한케어복지센터 재가요양보호사 모집(소래풍림아파트) 시 10,320원 마",
+            "주식회사 세미로 제품 출하관리 직원 모집 월 215만원 마감일 : 채용시"
+          ]
+        },
+        {
+          "url": "https://www.namdong.go.kr/dong/sub/notice.jsp?dong=guwol1",
+          "posts": 25,
+          "supports": 5,
+          "sample": [
+            "[공지] 2026.03.27.부터 통합돌봄사업이 전면 시행됩니다.",
+            "2026년 시청각장애인용TV 무료 보급 신청 안내",
+            "2026년 인천도시공사(iH) 기존주택 매입임대(일반형) 예비입주자 모집"
+          ]
+        },
+        {
+          "url": "https://www.namdong.go.kr/main/community/autonomy/dong_news.jsp",
+          "posts": 123,
+          "supports": 24,
+          "sample": [
+            "2026년 3분기 구월2동 주민자치센터 프로그램 수강생 모집 안내",
+            "논현고잔동 주민자치센터 프로그램 강사 모집 공고",
+            "구월4동 3분기 주민자치 프로그램 수강생 모집 안내"
+          ]
+        },
+        {
+          "url": "https://www.namdong.go.kr/main/news/hireannounce.jsp",
+          "posts": 111,
+          "supports": 17,
+          "sample": [
+            "2026년 3분기 구월1동 주민자치센터 프로그램(사교댄스) 강사 모집 공",
+            "2026년 제1회 남동구의회 지방임기제공무원(정책지원관, 의장부속실 비서",
+            "간석자유시장 공동배송매니저 모집공고"
+          ]
+        },
+        {
+          "url": "https://www.namdong.go.kr/main/news/newsletter.jsp",
+          "posts": 98,
+          "supports": 14,
+          "sample": [
+            "(주)엘엔케이종합건설 건축.기술자(신축,보수)를 모집합니다 연 5,000",
+            "선한케어복지센터 재가요양보호사 모집(소래풍림아파트) 시 10,320원 마",
+            "주식회사 세미로 제품 출하관리 직원 모집 월 215만원 마감일 : 채용시"
+          ]
+        },
+        {
+          "url": "https://www.namdong.go.kr/main/administration/budget/participation_notice.jsp",
+          "posts": 123,
+          "supports": 15,
+          "sample": [
+            "2025년 주민참여예산 위원모집 및 제안사업 공모 안내",
+            "(주)엘엔케이종합건설 건축.기술자(신축,보수)를 모집합니다 연 5,000",
+            "선한케어복지센터 재가요양보호사 모집(소래풍림아파트) 시 10,320원 마"
+          ]
+        }
+      ],
       "dong": []
     },
     {
@@ -651,8 +890,68 @@
     {
       "gu": "옹진군",
       "region": "인천광역시 옹진군",
-      "homeOk": false,
-      "boards": [],
+      "homeOk": true,
+      "boards": [
+        {
+          "url": "https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp",
+          "posts": 20,
+          "supports": 7,
+          "sample": [
+            "소상공인 경영안정 바우처 지원사업 안내",
+            "2026년 소상공인 고용보험료 지원사업 안내",
+            "「소상공인 부담경감 크레딧 지원사업」 안내"
+          ]
+        },
+        {
+          "url": "https://www.ongjin.go.kr/open_content/main/community/board/notice.jsp",
+          "posts": 20,
+          "supports": 3,
+          "sample": [
+            "2026년 하반기 일반 공정선거지원단 모집 안내",
+            "2026년 옹진군 섬섬옥수 학습택배 학습자 모집 안내",
+            "「고유가 피해지원금」2차 지급 안내"
+          ]
+        },
+        {
+          "url": "https://www.ongjin.go.kr/open_content/main/community/board/announce.jsp",
+          "posts": 30,
+          "supports": 4,
+          "sample": [
+            "2026년 하반기 귀농 농업창업 및 주택구입 지원사업 신청접수 공고",
+            "2026년도 농지이용관리지원사업 기간제근로자 추가채용 합격자 결정 공고",
+            "2026년 등록야영장 안전위생시설 개보수 지원사업 공고"
+          ]
+        },
+        {
+          "url": "https://www.ongjin.go.kr/open_content/main/community/board/announce_other.jsp",
+          "posts": 20,
+          "supports": 5,
+          "sample": [
+            "아이사랑꿈터 직원 공개경쟁채용(옹진군 1호점 지원 인력)",
+            "2025년 옹진군 제1기 실무분과 위원(위촉직) 모집 공고(2차)",
+            "2025년 옹진군 제1기 실무협의체 위원(위촉직) 모집 공고(2차)"
+          ]
+        },
+        {
+          "url": "https://www.ongjin.go.kr/open_content/main/community/board/report.jsp",
+          "posts": 20,
+          "supports": 3,
+          "sample": [
+            "옹진군정신건강복지센터, 백령면 찾아가는 심리지원 서비스 운영",
+            "옹진군, 2026년 하계 대학생 아르바이트 모집 – 행정업무 체험 기회 ",
+            "밑반찬 지원 넘어 생활상담까지…옹진군,‘온마을 돌봄밥상’공모 선정 - 행"
+          ]
+        },
+        {
+          "url": "https://www.ongjin.go.kr/open_content/main/community/board/legislative.jsp",
+          "posts": 30,
+          "supports": 2,
+          "sample": [
+            "「옹진군 주거환경 개선사업 보조금 지원 조례 일부개정조례안」 조례안 예고",
+            "「옹진군 주민소득지원 및 생활안정기금 운용 조례 시행규칙 폐지규칙안」 입"
+          ]
+        }
+      ],
       "dong": []
     }
   ]
