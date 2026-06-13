@@ -38,58 +38,8 @@
     {
       "gu": "연수구",
       "region": "인천광역시 연수구",
-      "homeOk": true,
-      "boards": [
-        {
-          "url": "https://www.yeonsu.go.kr/main/part/youth/notice.asp",
-          "posts": 21,
-          "supports": 9,
-          "sample": [
-            "연수청년자리 6월 청년특강 및 힐링클래스 모집 안내",
-            "2026년 청년월세 지원사업 신청 안내",
-            "연수청년자리 3월 청년특강 및 힐링클래스 모집 안내"
-          ]
-        },
-        {
-          "url": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp",
-          "posts": 21,
-          "supports": 11,
-          "sample": [
-            "「인천 식품 기업 대상 중국 수출지원 온라인 세미나」개최 알림",
-            "「스마트 HACCP 지원 사업 전국 순회 설명회」개최 알림",
-            "「제25회 식품안전의 날」우수식품 특별판매전 참여 업체 모집 안내"
-          ]
-        },
-        {
-          "url": "https://www.yeonsu.go.kr/main/part/property/public.asp",
-          "posts": 22,
-          "supports": 9,
-          "sample": [
-            "2026년 공동주택 지원사업 지원금 교부 신청 안내",
-            "2026년 공동주택 지원사업 심의 결과 공개",
-            "2025년도 공동주택관리 지원사업 정산 현황"
-          ]
-        },
-        {
-          "url": "https://www.yeonsu.go.kr/main/community/notify/notice.asp",
-          "posts": 151,
-          "supports": 46,
-          "sample": [
-            "2026년 제1,2회 '이어드림' 참가자 모집 안내",
-            "2026년 영구불임 예상 난자&#12539;정자 냉동 지원사업 안내",
-            "2026년 인천 AI 디지털배움터 교육 신청 안내(※연수구 수강생 모집)"
-          ]
-        },
-        {
-          "url": "https://www.yeonsu.go.kr/main/yeonsu/management/notice.asp",
-          "posts": 20,
-          "supports": 2,
-          "sample": [
-            "2026년 인천광역시 (예비)사회적기업 일자리창출사업 참여기업 모집 알림",
-            "'반려동물 동반출입 음식점' 규제특례 신청 조건부 허용 안내"
-          ]
-        }
-      ],
+      "homeOk": false,
+      "boards": [],
       "dong": []
     },
     {
