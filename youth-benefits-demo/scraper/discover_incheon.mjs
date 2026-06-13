@@ -16,7 +16,7 @@
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from "node:fs";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { dirname, join } from "node:path";
-import { proxyDispatcher, hasProxy } from "./net.mjs";
+import { proxyFetch, hasProxy } from "./net.mjs";
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dir, "..", "data", "incheon_boards.json");
@@ -66,8 +66,9 @@ const abs = (href, base) => { try { return new URL(href, base).href; } catch { r
 async function get(url, ms = 12000) {
   const ctrl = new AbortController(); const to = setTimeout(() => ctrl.abort(), ms);
   try {
-    const d = await proxyDispatcher();
-    const res = await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9" }, signal: ctrl.signal, redirect: "follow", ...(d ? { dispatcher: d } : {}) });
+    const px = await proxyFetch();
+    const doFetch = px ? px.fetch : fetch;
+    const res = await doFetch(url, { headers: { "User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9" }, signal: ctrl.signal, redirect: "follow", ...(px ? { dispatcher: px.agent } : {}) });
     return { ok: res.ok, status: res.status, body: await res.text() };
   } catch (e) { return { ok: false, status: 0, body: "", err: e.message }; }
   finally { clearTimeout(to); }
@@ -155,7 +156,7 @@ async function main() {
   const only = process.argv.includes("--gu") ? process.argv[process.argv.indexOf("--gu") + 1] : null;
   const targets = only ? HOMES.filter((h) => h.gu === only) : HOMES;
   console.log(`== 인천 게시판 발견 (${targets.length}개 구·군, 정적 fetch${hasProxy() ? ", 프록시 ON" : ""}) ==`);
-  await proxyDispatcher();
+  await proxyFetch();
   const sites = [];
   for (const t of targets) { try { sites.push(await discoverSite(t)); } catch (e) { console.log(`  ✗ ${t.gu}: ${clip(e.message, 60)}`); } }
 

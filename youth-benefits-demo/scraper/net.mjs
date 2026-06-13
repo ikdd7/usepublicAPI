@@ -4,22 +4,24 @@
  *  - undici(ProxyAgent)를 동적 import. 미설치/미설정이면 조용히 직결로 폴백.
  *  형식 예: PROXY_URL="http://user:pass@host:port" 또는 "http://host:port"
  */
-let _dispatcher; let _tried = false;
+let _mod; let _tried = false;
 
-export async function proxyDispatcher() {
-  if (_tried) return _dispatcher;
+// 프록시 활성 시 {fetch, agent} 반환(설치된 undici의 fetch+ProxyAgent를 '한 쌍'으로 사용
+// — Node 내장 fetch에 외부 undici의 dispatcher를 넘기면 인식 안 되는 문제 회피). 없으면 null.
+export async function proxyFetch() {
+  if (_tried) return _mod;
   _tried = true;
   const url = process.env.PROXY_URL;
-  if (!url) { _dispatcher = null; return null; }
+  if (!url) { _mod = null; return null; }
   try {
-    const { ProxyAgent } = await import("undici");
-    _dispatcher = new ProxyAgent(url);
+    const u = await import("undici");
+    _mod = { fetch: u.fetch, agent: new u.ProxyAgent(url) };
     console.log(`  [proxy] 활성: ${maskUrl(url)}`);
   } catch (e) {
     console.log(`  [proxy] 비활성(undici 없음/오류 → 직결): ${e.message}`);
-    _dispatcher = null;
+    _mod = null;
   }
-  return _dispatcher;
+  return _mod;
 }
 
 // Playwright launch용 proxy 객체(없으면 null)
