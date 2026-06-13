@@ -1837,5 +1837,191 @@
     "summary": "출산장려금 지원, 첫째아 580만원~",
     "show": true,
     "special": false
+  },
+  "g24-480000000112": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "목포사랑상품권 구매 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000118": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "나주시 출산장려금 및 출산육아지원금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-490000000275": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화순군 결혼장려금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-495000000416": {
+    "category": "주거",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농인 농가주택 수리비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-496000000116": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "신생아 양육지원금 지원 (첫째 300만원, 둘째 500만원)",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축사 단열처리 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000108": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "김천시 출산장려금 지원 (첫째아 300만원)",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "영덕군 유류절감형 어선 부력판 설치 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000132": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "사료작물 수확장비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000118": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인거주시설 퇴소자 정착금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-537000000189": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "거제시 야생동물 피해보상 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000115": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산지원금 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000135": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "슬레이트 처리 및 지붕개량 지원사업",
+    "show": true,
+    "special": false
+  },
+  "g24-546000000110": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "함양군 출산장려금 및 셋째아 건강보험료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-548000000109": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "축산물 판매업소 위생시설 개선 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-548000000124": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "합천군 인구증가 인센티브 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-558000000112": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "계룡시 출산장려금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-568000000106": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "당진시 신생아 출생지원금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000124": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시설퇴소아동 등 자립지원",
+    "show": true,
+    "special": false
+  },
+  "g24-501000000106": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산 장려금 지원",
+    "show": true,
+    "special": false
   }
 }
