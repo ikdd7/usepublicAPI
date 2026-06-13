@@ -5,7 +5,7 @@
 >
 > 복지로(지자체·중앙) · 보조금24 · 온통청년 **공공 OpenAPI** + 구청 공고를 매일 자동 수집.
 
-🔗 **라이브:** https://ikdd7.github.io/Test3/ · 매일 **06/10/14시(KST)** 자동 갱신
+🔗 **라이브:** https://ikdd7.github.io/usepublicAPI/ · 매일 **06/10/14시(KST)** 자동 갱신
 
 ---
 
@@ -57,7 +57,7 @@
 | `GEMINI_API_KEY` | LLM 분류·총평 | 선택 |
 | `PROXY_URL` | 한국 IP 프록시(인천 구·동 직접수집) | 선택 |
 
-→ 공개 URL: **`https://ikdd7.github.io/Test3/`** (키 미설정 시 검증 시드로 배포되어 사이트는 정상 표시)
+→ 공개 URL: **`https://ikdd7.github.io/usepublicAPI/`** (키 미설정 시 검증 시드로 배포되어 사이트는 정상 표시)
 
 ---
 

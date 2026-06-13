@@ -5,7 +5,7 @@
 
 > "옆 동네는 받는데 나만 몰랐던 우리 동네 지원금" — 발견의 쾌감 = 공유 동력.
 
-🔗 **라이브:** https://ikdd7.github.io/Test3/ (GitHub Pages, 매일 자동 갱신)
+🔗 **라이브:** https://ikdd7.github.io/usepublicAPI/ (GitHub Pages, 매일 자동 갱신)
 
 ## 주요 기능
 - **전국 지역 선택**: 시·도 → 시·군·구 2단 선택. 데이터에 존재하는 지역으로 동적 구성.
