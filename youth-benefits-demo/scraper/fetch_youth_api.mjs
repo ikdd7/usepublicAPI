@@ -116,12 +116,11 @@ export function matchAge(p) {
 }
 
 /* ---------- API 호출 ---------- */
-export async function fetchPage(key, pageNum, pageSize = 100) {
+export async function fetchPage(key, pageNum, pageSize = 100, zipCd = REGION.sido) {
   const u = new URL(API);
-  u.search = new URLSearchParams({
-    apiKeyNm: key, rtnType: "json", pageNum: `${pageNum}`, pageSize: `${pageSize}`,
-    pageType: "1", zipCd: `${REGION.sido}`, // 인천 전역 후 코드단에서 연수구/청년 필터
-  }).toString();
+  const params = { apiKeyNm: key, rtnType: "json", pageNum: `${pageNum}`, pageSize: `${pageSize}`, pageType: "1" };
+  if (zipCd) params.zipCd = `${zipCd}`; // 빈 값이면 전국
+  u.search = new URLSearchParams(params).toString();
   const res = await fetch(u, { headers: { Accept: "application/json" } });
   if (!res.ok) throw new Error(`API HTTP ${res.status}`);
   const j = await res.json();

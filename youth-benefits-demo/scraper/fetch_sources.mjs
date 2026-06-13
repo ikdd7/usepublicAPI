@@ -16,6 +16,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { dirname, join } from "node:path";
 import { parseAmount, fetchPage as fetchYouthPage, normalize as normalizeYouth, matchRegion, matchAge } from "./fetch_youth_api.mjs";
 import { harvestCandidates } from "./boards.mjs";
+import { regionOfOrg, KOREA, SIDO_LIST, ctpvAliases } from "./korea_regions.mjs";
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dir, "..", "data", "yeonsu_youth_live.json");
@@ -104,23 +105,70 @@ async function getText(url) {
   return body;
 }
 
-/* ---------- A. 복지로 지자체 (인천 군·구 순회) ---------- */
+/* ---------- A. 복지로 지자체 (전국 17개 시·도 순회) ---------- */
+// 시도별로 ctpvNm만 지정해 페이지네이션(시군구는 응답 항목에서 판별). 신명칭 미지원 대비 약식명 폴백.
 async function srcBokjiroLocal(key) {
   const base = "https://apis.data.go.kr/B554287/LocalGovernmentWelfareInformations/LcgvWelfarelist";
   const out = [];
   let sampled = false;
-  for (const sgg of SIGUNGU) {
-    try {
-      const u = `${base}?serviceKey=${encodeURIComponent(key)}&pageNo=1&numOfRows=100`
-        + `&ctpvNm=${encodeURIComponent(SIDO)}&sggNm=${encodeURIComponent(sgg)}`;
-      const xml = await getText(u);
-      if (!sampled) { console.log("  [A:원시샘플]", clip(xml, 400)); sampled = true; }
-      const items = xmlList(xml, "servList");
-      out.push(...items.map((p) => mapBokjiro("복지로(지자체)", p, `${SIDO} ${sgg}`)));
-      console.log(`    · ${sgg}: ${items.length}건`);
-    } catch (e) { console.log(`    · ${sgg}: ${clip(e.message, 60)}`); }
-  }
+  const pagedFetch = async (extra) => {
+    const got = [];
+    for (let page = 1; page <= 10; page++) {
+      try {
+        const u = `${base}?serviceKey=${encodeURIComponent(key)}&pageNo=${page}&numOfRows=100${extra}`;
+        const xml = await getText(u);
+        if (!sampled) { console.log("  [A:원시샘플]", clip(xml, 400)); sampled = true; }
+        const items = xmlList(xml, "servList");
+        if (!items.length) break;
+        got.push(...items);
+        if (items.length < 100) break;
+      } catch (e) { if (page === 1) throw e; break; }
+    }
+    return got;
+  };
+  const fetchSido = async (sido) => {
+    // 1차: ctpvNm만(시군구는 응답에서 판별). 신명칭 미지원 대비 약식명 폴백.
+    for (const ctpv of ctpvAliases(sido)) {
+      try {
+        const got = await pagedFetch(`&ctpvNm=${encodeURIComponent(ctpv)}`);
+        if (got.length) {
+          out.push(...got.map((p) => mapBokjiro("복지로(지자체)", p, regionFromBokjiro(p, sido))));
+          console.log(`    · ${sido}: ${got.length}건(시도단위)`);
+          return;
+        }
+      } catch (e) { console.log(`    · ${sido}(${ctpv}) 시도단위 실패: ${clip(e.message, 40)}`); }
+    }
+    // 2차 폴백: 알려진 시군구를 ctpvNm+sggNm으로 순회(기존 동작 보장).
+    let n = 0;
+    for (const ctpv of ctpvAliases(sido)) {
+      for (const sgg of (KOREA[sido] || [])) {
+        try {
+          const got = await pagedFetch(`&ctpvNm=${encodeURIComponent(ctpv)}&sggNm=${encodeURIComponent(sgg)}`);
+          out.push(...got.map((p) => mapBokjiro("복지로(지자체)", p, `${sido} ${sgg}`)));
+          n += got.length;
+        } catch {}
+      }
+      if (n) break;
+    }
+    console.log(`    · ${sido}: ${n}건${n ? "(시군구순회)" : ""}`);
+  };
+  await pool(SIDO_LIST, 6, fetchSido);
   return out;
+}
+// 복지로 지자체 항목의 시도/시군구 필드 우선, 없으면 소관기관명 파싱, 그래도 없으면 순회 시도
+function regionFromBokjiro(p, fallbackSido) {
+  const ctpv = clip(p.ctpvNm || p.ctpv || "", 12);
+  const sgg = clip(p.sggNm || p.sgg || "", 12);
+  if (ctpv && sgg) return `${ctpv} ${sgg}`;
+  const r = regionOfOrg(`${p.jurOrgNm || ""} ${p.jurMnofNm || ""} ${ctpv} ${sgg}`);
+  return r || fallbackSido;
+}
+// 간단 동시성 풀
+async function pool(items, n, fn) {
+  const q = [...items];
+  await Promise.all(Array.from({ length: Math.min(n, q.length) }, async () => {
+    while (q.length) { const it = q.shift(); await fn(it); }
+  }));
 }
 
 /* ---------- B. 복지로 중앙 (전국) ---------- */
@@ -196,18 +244,7 @@ async function srcGov24(key, cap = 200) {
   console.log(`  [C] 전수 ${total}건 중 인천·전국 ${picked.length}건`);
   return picked; // 캡은 run()에서 정책적으로(인천 전부 + 전국 상위) 적용
 }
-// 소관기관명 → 지역 (인천 군구/시 또는 전국). 타 시도면 제외(null)
-// 타 시도(서울·부산·대구…)가 '전국'으로 새지 않도록 중앙부처 판정 '이전에' 먼저 걸러낸다.
-const OTHER_SIDO_RE = /서울|부산|대구|광주|대전|울산|세종|경기|강원|충청|충북|충남|전라|전북|전남|경상|경북|경남|제주/;
-const CENTRAL_RE = /(보건복지부|고용노동부|여성가족부|국토교통부|교육부|행정안전부|기획재정부|중소벤처기업부|문화체육관광부|농림축산식품부|해양수산부|산업통상자원부|환경부|과학기술정보통신부|법무부|국방부|국가보훈부|통일부|외교부|금융위원회|방송통신위원회|공정거래위원회|국민권익위원회|개인정보보호위원회|식품의약품안전처|인사혁신처|법제처|병무청|경찰청|소방청|국세청|관세청|조달청|통계청|기상청|산림청|농촌진흥청|특허청|문화재청|국가유산청|질병관리청|해양경찰청|새만금개발청|국민연금공단|국민건강보험공단|건강보험공단|근로복지공단|한국장학재단|소상공인시장진흥공단|중소벤처기업진흥공단|한국산업인력공단|신용보증기금|기술보증기금|서민금융진흥원|한국장애인고용공단|한국농어촌공사|한국토지주택공사|국가평생교육진흥원|한국언론진흥재단|한국콘텐츠진흥원|예술인복지재단)/;
-function regionOfOrg(org = "") {
-  org = `${org}`;
-  for (const sgg of SIGUNGU) if (org.includes(sgg)) return `${SIDO} ${sgg}`;
-  if (org.includes("인천")) return SIDO;
-  if (OTHER_SIDO_RE.test(org)) return null;                 // 타 시도 명시 → 제외
-  if (CENTRAL_RE.test(org) || /(부|처|청)$/.test(org.trim())) return NATIONWIDE; // 진짜 중앙부처/공공기관만 전국
-  return null; // 그 외(소속 불명확) → 제외
-}
+// 소관기관명 → 지역 매핑은 korea_regions.mjs(regionOfOrg, 전국 17개 시도)로 일원화.
 export function mapGov24(it, region) {
   const sprt = it["지원내용"] || it["서비스목적요약"] || "";
   const [age_min, age_max] = parseAgeRange(`${it["지원대상"] || ""} ${it["선정기준"] || ""} ${it["서비스명"] || ""}`);
@@ -230,17 +267,21 @@ export function mapGov24(it, region) {
   };
 }
 
-/* ---------- D. 온통청년 (인천 시단위) ---------- */
+/* ---------- D. 온통청년 (전국 청년정책) ---------- */
 async function srcYouthcenter(key) {
   let all = [], page = 1, total = Infinity;
-  while ((page - 1) * 100 < total && page <= 30) {
-    const { list, total: t } = await fetchYouthPage(key, page);
+  while ((page - 1) * 100 < total && page <= 80) {
+    const { list, total: t } = await fetchYouthPage(key, page, 100, ""); // zipCd 비움 = 전국
     total = t; all.push(...list);
     if (!list.length) break;
     page++;
   }
-  return all.filter((p) => matchRegion(p) && matchAge(p))
-    .map((p) => ({ ...normalizeYouth(p), region: SIDO, support_type: supportTypeOf(p.plcySprtCn || ""), raw: clip(`${p.plcyNm} ${p.plcySprtCn}`, 300), _src: "온통청년" }));
+  return all.filter((p) => matchAge(p))
+    .map((p) => {
+      const inst = `${p.rgtrInstCdNm || ""} ${p.rgtrUpInstCdNm || ""} ${p.plcyPvsnInstNm || ""}`;
+      const region = regionOfOrg(inst) || NATIONWIDE;
+      return { ...normalizeYouth(p), region, support_type: supportTypeOf(p.plcySprtCn || ""), raw: clip(`${p.plcyNm} ${p.plcySprtCn}`, 300), _src: "온통청년" };
+    });
 }
 
 /* ---------- E. 구청 공고게시판 (boards.mjs) ---------- */
@@ -429,15 +470,15 @@ async function run() {
   }
 
   let merged = dedupe(collected);
-  // [정책 C] 우리동네 우선: 인천(시·군구) 지역건은 전부 유지, 전국건은 금액순 상위 150만
+  // [정책] 전국 커버리지: 모든 시·군·구 지역건은 전부 유지, 전국(중앙)건은 금액순 상위 400만.
   const regional = merged.filter((b) => b.region !== NATIONWIDE);
   let national = merged.filter((b) => b.region === NATIONWIDE);
   national.sort((a, b) => (b.amount || 0) - (a.amount || 0));
-  national = national.slice(0, 150);
+  national = national.slice(0, 400);
   merged = [...regional, ...national];
-  console.log(`  [정책C] 지역건 ${regional.length} 전부 + 전국 상위 ${national.length}`);
-  // 지역 우선(연수→인천→전국) + 금액 큰 순 정렬
-  const rank = (b) => b.region === `${SIDO} 연수구` ? 0 : (b.region || "").startsWith(SIDO) ? 1 : b.region === NATIONWIDE ? 2 : 3;
+  console.log(`  [정책] 지역건 ${regional.length} 전부 + 전국 상위 ${national.length}`);
+  // 지역건 먼저(시군구 단위 → 시도 단위) → 전국 → 금액 큰 순
+  const rank = (b) => /\s/.test(b.region || "") ? 0 : b.region === NATIONWIDE ? 2 : 1;
   merged.sort((a, b) => rank(a) - rank(b) || (b.amount || 0) - (a.amount || 0));
   console.log(`\n합계 ${collected.length} → 중복제거 ${merged.length}건`);
   if (merged.length < 4) { console.log("⚠️ 수집량 부족 → 시드 유지"); process.exit(0); }
@@ -445,17 +486,18 @@ async function run() {
   console.log(`== LLM 분류(새 공고만+캐시)${useLLM ? " " + llmProvider() : " — 키없음, 캐시만 적용"} ==`);
   await classifyWithLLM(merged);
   let summary = null;
-  if (useLLM) summary = await makeOverview(merged, `${SIDO} 연수구`);
+  if (useLLM) summary = await makeOverview(merged, "전국");
+  const sidoCount = new Set(merged.map((b) => (b.region || "").split(" ")[0]).filter((s) => s && s !== NATIONWIDE)).size;
   if (!summary) {
     const top = [...new Set(merged.map((b) => b.category))].slice(0, 4).join("·");
     const maxAmt = Math.max(0, ...merged.map((b) => b.amount));
-    summary = `${SIDO}에서 받을 수 있는 복지·지원 혜택 ${merged.length}건을 모았어요. 주요 분야는 ${top}이며, 최대 ${(maxAmt/10000).toLocaleString()}만원까지 지원됩니다. 나이와 상황(가구·소득·자격)을 입력하면 내게 맞는 것만 골라드려요.`;
+    summary = `전국 ${sidoCount}개 시·도의 복지·지원 혜택 ${merged.length}건을 모았어요. 주요 분야는 ${top}이며, 최대 ${(maxAmt/10000).toLocaleString()}만원까지 지원됩니다. 지역과 나이·상황(가구·소득·자격)을 고르면 내게 맞는 것만 골라드려요.`;
   }
 
   const regions = [...new Set(merged.map((b) => b.region))].sort();
   const out = {
     meta: {
-      region: `${SIDO} 연수구`, regions,
+      region: "전국", regions, sido_count: sidoCount,
       personas: ["전 연령·맞춤"],
       snapshot_date: new Date().toISOString().slice(0, 10),
       source: "복지로(지자체·중앙)+보조금24" + (ykey ? "+온통청년" : "") + (useLLM ? ` · AI보강(${llmProvider()})` : ""),
@@ -463,8 +505,8 @@ async function run() {
     },
     benefits: merged.map(({ _src, raw, ...b }) => ({ ...b, contact: b.contact ? `${b.contact} [${_src}]` : `[${_src}]` })),
   };
-  writeFileSync(OUT, JSON.stringify(out, null, 2), "utf-8");
-  console.log(`✓ 저장: ${OUT} (지역 ${regions.length}종, ${merged.length}건${useLLM ? ", AI보강" : ""})`);
+  writeFileSync(OUT, JSON.stringify(out), "utf-8");
+  console.log(`✓ 저장: ${OUT} (지역 ${regions.length}종/${sidoCount}개 시도, ${merged.length}건${useLLM ? ", AI보강" : ""})`);
 }
 
 /* ---------- 셀프테스트 ---------- */
@@ -483,9 +525,9 @@ function selftest() {
     ["regionOfOrg 군구", regionOfOrg("인천광역시 연수구청") === "인천광역시 연수구"],
     ["regionOfOrg 시", regionOfOrg("인천광역시") === "인천광역시"],
     ["regionOfOrg 중앙", regionOfOrg("보건복지부") === "전국"],
-    ["regionOfOrg 타지역 제외", regionOfOrg("서울특별시 강남구") === null],
-    ["regionOfOrg 타지역 재단 누수차단", regionOfOrg("대구신용보증재단") === null],
-    ["regionOfOrg 타지역 공단 누수차단", regionOfOrg("경기도 일자리재단") === null],
+    ["regionOfOrg 전국확장: 서울 강남구", regionOfOrg("서울특별시 강남구") === "서울특별시 강남구"],
+    ["regionOfOrg 전국확장: 대구 재단", regionOfOrg("대구신용보증재단") === "대구광역시"],
+    ["regionOfOrg 전국확장: 경기 시군구", regionOfOrg("경기도 광주시 환경과") === "경기도 광주시"],
     ["다차원 한부모+저소득", JSON.stringify(needFromText("저소득 한부모 가정").sort()) === JSON.stringify(["저소득","한부모"])],
     ["지원유형 대출", supportTypeOf("저금리 융자") === "대출"],
     ["지원유형 바우처", supportTypeOf("문화 이용권 포인트") === "바우처"],

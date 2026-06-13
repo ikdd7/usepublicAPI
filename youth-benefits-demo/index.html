@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>우리동네 청년혜택 · 연수구</title>
+<title>우리동네 복지·지원 · 전국</title>
 <style>
   :root{
     --bg:#0e1116; --card:#171c24; --line:#262d39; --txt:#e7ecf3; --sub:#9aa6b8;
@@ -78,7 +78,8 @@
     <div class="agewrap">
       <input id="age" type="number" min="15" max="50" value="27" />
       <label>세</label>
-      <select id="region"></select>
+      <select id="sido" title="시·도"></select>
+      <select id="region" title="시·군·구"></select>
     </div>
     <h2>내 상황 (해당하는 것 모두 선택 — 정확할수록 맞춤 추천)</h2>
     <div id="chips">
@@ -143,7 +144,7 @@
 
   <p class="foot">
     <span id="srcTag">데이터: 검증 시드(2026-06-08 스냅샷)</span> · 데모용이며 금액·기간은 변동될 수 있어요.<br/>
-    신청 전 인천청년포털·연수구청 등 공식 출처로 꼭 확인하세요.
+    신청 전 복지로·보조금24·관할 시·군·구청 등 공식 출처로 꼭 확인하세요.
   </p>
 </div>
 
@@ -166,7 +167,8 @@ let selTypes = new Set();             // 지원형태 보기 필터(비면 전�
 let selTopics = new Set();            // 성격별(주제) 필터(비면=특수/자동 제외한 일반)
 let showExpired = false;              // 마감된 공고 표시 여부
 let showAll = false;                  // 공지·특수·자동지원까지 모두 표시
-let selRegion = "인천광역시 연수구";   // 선택 지역
+let selSido = "인천광역시";            // 선택 시·도
+let selRegion = "인천광역시 연수구";   // 선택 시·군·구(또는 시도 전체)
 let PAGE_SUMMARY = "";
 
 document.getElementById("chips").addEventListener("click", e=>{
@@ -200,36 +202,61 @@ document.getElementById("topicChips").addEventListener("click", e=>{
 document.getElementById("showExpired").addEventListener("change", e=>{ showExpired = e.target.checked; render(); });
 document.getElementById("showAll").addEventListener("change", e=>{ showAll = e.target.checked; render(); });
 document.getElementById("age").addEventListener("input", render);
+document.getElementById("sido").addEventListener("change", e=>{
+  selSido = e.target.value;
+  buildSggSelect();                 // 시도 바꾸면 시군구 목록 갱신(첫 항목 자동 선택)
+  render();
+});
 document.getElementById("region").addEventListener("change", e=>{
   selRegion = e.target.value;
   document.getElementById("locTag").textContent = "📍 "+selRegion;
   render();
 });
 
-// 지역 셀렉트: 인천 10개 군·구 고정(데이터 0건이어도 선택 가능) + 데이터의 추가 시군구
-const INCHEON_GU = ["중구","동구","미추홀구","연수구","남동구","부평구","계양구","서구","강화군","옹진구"]
-  .map(g=>`인천광역시 ${g}`);
+// 지역 셀렉트: 전국. 데이터에 존재하는 시·도 → 시·군·구를 동적 구성(2단 캐스케이드).
+let REGION_TREE = {};               // { 시도: Set(시군구 풀네임) }
 function buildRegionSelect(){
-  const sel = document.getElementById("region");
-  const extra = [...new Set(DATA.benefits.map(b=>b.region).filter(r=>r&&r.split(" ").length>=2))]
-    .filter(r=>!INCHEON_GU.includes(r));
-  const opts = [...INCHEON_GU, ...extra];
-  if(!opts.includes(selRegion)) selRegion = "인천광역시 연수구";
-  sel.innerHTML = opts.map(r=>`<option value="${r}"${r===selRegion?" selected":""}>${r}</option>`).join("");
+  REGION_TREE = {};
+  for(const b of DATA.benefits){
+    const r = b.region; if(!r || r==="전국") continue;
+    const sido = r.split(" ")[0];
+    (REGION_TREE[sido] ||= new Set());
+    if(r.includes(" ")) REGION_TREE[sido].add(r);   // 시군구 단위만 하위로
+  }
+  const sidos = Object.keys(REGION_TREE).sort();
+  if(!sidos.length){ document.getElementById("sido").innerHTML=""; document.getElementById("region").innerHTML=""; return; }
+  if(!sidos.includes(selSido)) selSido = sidos.includes("인천광역시") ? "인천광역시" : sidos[0];
+  document.getElementById("sido").innerHTML =
+    sidos.map(s=>`<option value="${s}"${s===selSido?" selected":""}>${s}</option>`).join("");
+  buildSggSelect();
 }
-// 지역 매칭: 선택 지역 + 시단위(인천광역시) + 전국 은 모두 표시
-const OTHER_SIDO_RE = /서울|부산|대구|광주|대전|울산|세종|경기|강원|충청|충북|충남|전라|전북|전남|경상|경북|경남|제주/;
+function buildSggSelect(){
+  const sel = document.getElementById("region");
+  const sggs = [...(REGION_TREE[selSido]||[])].sort();
+  // '○○ 전체'(시·도 단위 공고) + 개별 시군구
+  const opts = [{v:selSido, t:selSido.replace(/(특별자치도|특별자치시|특별시|광역시|도)$/,"")+" 전체"},
+                ...sggs.map(r=>({v:r, t:r.split(" ").slice(1).join(" ")}))];
+  if(!opts.some(o=>o.v===selRegion)){
+    selRegion = opts.find(o=>o.v.endsWith("연수구"))?.v || opts[1]?.v || opts[0].v;
+  }
+  sel.innerHTML = opts.map(o=>`<option value="${o.v}"${o.v===selRegion?" selected":""}>${o.t}</option>`).join("");
+  document.getElementById("locTag").textContent = "📍 "+selRegion;
+}
+// 지역 매칭: 선택 시군구 + 그 시도(시도단위/전체) + 전국. '전국' 오분류 누수는 안전망으로 차단.
+const SIDO_CORE = [["서울","서울특별시"],["부산","부산광역시"],["대구","대구광역시"],["인천","인천광역시"],["광주","광주광역시"],["대전","대전광역시"],["울산","울산광역시"],["세종","세종특별자치시"],["경기","경기도"],["강원","강원특별자치도"],["충북","충청북도"],["충남","충청남도"],["전북","전북특별자치도"],["전남","전라남도"],["경북","경상북도"],["경남","경상남도"],["제주","제주특별자치도"]];
 function regionMatch(b){
   if(!b.region) return true;
   if(b.region===selRegion) return true;
-  // '전국'으로 분류됐지만 제목/요약이 인천 아닌 타 시도를 명시하면 누수로 보고 제외(안전망)
+  if(b.region===selSido) return true;                            // 시도 단위 공고
+  if(selRegion===selSido && b.region.startsWith(selSido+" ")) return true; // '○○ 전체' → 산하 시군구 모두
   if(b.region==="전국"){
+    // 전국으로 분류됐으나 제목/요약이 특정 타 시도만 명시하면 누수로 보고 제외
     const blob = `${b.title} ${b.summary||""}`;
-    if(OTHER_SIDO_RE.test(blob) && !/인천/.test(blob)) return false;
+    const myCore = SIDO_CORE.find(c=>c[1]===selSido)?.[0];
+    const named = SIDO_CORE.filter(c=>blob.includes(c[1])||blob.includes(c[0])).map(c=>c[0]);
+    if(named.length && myCore && !named.includes(myCore)) return false;
     return true;
   }
-  const sido = selRegion.split(" ")[0];
-  if(b.region===sido) return true;
   return false;
 }
 
@@ -388,8 +415,8 @@ function render(){
 
 function share(){
   const t = document.getElementById("total").textContent;
-  const msg = `[연수구 청년혜택] 나 ${t} 받을 수 있대! 너도 확인해봐 👉`;
-  if(navigator.share){ navigator.share({title:"우리동네 청년혜택", text:msg}); }
+  const msg = `[${selRegion} 복지·지원] 나 ${t} 받을 수 있대! 너도 확인해봐 👉`;
+  if(navigator.share){ navigator.share({title:"우리동네 복지·지원", text:msg}); }
   else { navigator.clipboard?.writeText(msg); alert("공유 문구가 복사됐어요!\n\n"+msg); }
 }
 
