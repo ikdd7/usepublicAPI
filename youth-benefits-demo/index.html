@@ -43,12 +43,15 @@
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px;margin-bottom:10px;position:relative;overflow:hidden;box-shadow:0 1px 8px rgba(22,36,63,.06)}
   .card.elig{border-color:#a7e3cf}
   .card.elig:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent2)}
-  /* 받을 수 있어요: 가로로 여러 개. 좁은 본문(480px)을 벗어나 넓게 펼침 */
-  #eligible{display:grid;grid-template-columns:1fr;gap:10px;align-items:start}
+  /* 받을 수 있어요: 좁은 본문(480px)을 벗어나 넓게, 최대 3칸 */
+  #eligible{display:grid;grid-template-columns:1fr;gap:12px;align-items:stretch}
   #eligible .card{margin-bottom:0;height:100%}
-  @media(min-width:760px){
-    #eligible{position:relative;left:50%;transform:translateX(-50%);width:94vw;max-width:1200px;
-      grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+  @media(min-width:720px){
+    #eligible{position:relative;left:50%;transform:translateX(-50%);width:96vw;max-width:1320px;
+      grid-template-columns:repeat(2,1fr)}
+  }
+  @media(min-width:1080px){
+    #eligible{grid-template-columns:repeat(3,1fr)}
   }
   .card.locked{opacity:.6}
   .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
@@ -405,10 +408,13 @@ function render(){
   document.getElementById("eligible").innerHTML = elig.map(b=>{
     const d = b.apply_end ? dday(b.apply_end) : null;
     const dlabel = d===null ? "상시·공고 확인" : (d>=0 ? "신청 D-"+d : "마감");
+    const conds = [...(b._tags||[])].filter(t=>!t.startsWith("__"));
     return `<div class="card elig">
       <div class="ctop"><span class="ctitle">${b.title}</span><span class="cat">${b.category} · ${b.support_type||"서비스"}</span></div>
       ${b.summary?`<div class="csum">🤖 ${b.summary}</div>`:""}
       <div class="amt">💰 ${b.amount_label}</div>
+      <div class="meta"><b>지역</b> ${b.region||"전국"}</div>
+      ${conds.length?`<div class="meta"><b>대상</b> ${conds.join(", ")}</div>`:""}
       <div class="meta"><b>신청</b> ${b.how}</div>
       <div class="meta"><b>문의</b> ${b.contact}</div>
       <div class="badges">
