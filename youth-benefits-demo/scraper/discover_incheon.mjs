@@ -58,12 +58,16 @@ const BOARD_KW = /공지|고시|공고|새소식|알림|게시|소식|notice|boa
 const DONG_KW = /(주민센터|행정복지센터|[가-힣]{1,3}[동읍면]\b)/;
 // 게시글 링크 패턴(상세보기)
 const POST_HREF = /(view|seq=|idx=|no=|num=|bidx|nttsn|articleno|artcl|mgr_seq|board_seq|\d{3,})/i;
+// 전체 시간예산(프록시 지연 대비) — 초과 시 그때까지 결과로 저장(다음 실행에 누적 병합)
+const T0 = Date.now();
+const BUDGET_MS = Number(process.env.DISCOVER_BUDGET_MS || 240000);
+const overBudget = () => Date.now() - T0 > BUDGET_MS;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const clip = (s, n) => (s ? `${s}`.replace(/\s+/g, " ").trim().slice(0, n) : "");
 const abs = (href, base) => { try { return new URL(href, base).href; } catch { return null; } };
 
-async function get(url, ms = 12000) {
+async function get(url, ms = 9000) {
   const ctrl = new AbortController(); const to = setTimeout(() => ctrl.abort(), ms);
   try {
     const px = await proxyFetch();
@@ -112,11 +116,12 @@ async function discoverSite({ gu, home }) {
 
   // ── 구 단위 게시판 후보 = 홈에서 발견 + 시드(깊은 URL) ──
   const fromHome = links.filter((l) => BOARD_KW.test(l.text) || BOARD_KW.test(l.href)).map((l) => cleanBoardUrl(l.href, host));
-  const candUrls = [...new Set([...(SEEDS[gu] || []), ...fromHome].filter(Boolean))].slice(0, 24);
+  const candUrls = [...new Set([...(SEEDS[gu] || []), ...fromHome].filter(Boolean))].slice(0, 12);
   const guSet = new Set();
   const guBoards = [];
   for (const url of candUrls) {
-    await sleep(400);
+    if (overBudget()) break;
+    await sleep(250);
     const p = await get(url);
     if (!p.ok) continue;
     const s = scoreBoard(p.body, url);
@@ -129,16 +134,17 @@ async function discoverSite({ gu, home }) {
     const dongLinks = [...new Map(links
       .filter((l) => DONG_KW.test(l.text) && !DONG_STOP.test(l.text) && /[가-힣]{2,3}[동읍면]/.test(l.text))
       .map((l) => [cleanBoardUrl(l.href, host), l])).values()]
-      .filter((l) => l && !guSet.has(cleanBoardUrl(l.href, host))).slice(0, 12);
+      .filter((l) => l && !guSet.has(cleanBoardUrl(l.href, host))).slice(0, 6);
     for (const d of dongLinks) {
+      if (overBudget()) break;
       const durl = cleanBoardUrl(d.href, host); if (!durl || guSet.has(durl)) continue;
-      await sleep(400);
+      await sleep(250);
       const dp = await get(durl); if (!dp.ok) continue;
       const dongName = (d.text.match(/[가-힣]{2,3}[동읍면]/) || [])[0];
       let s = scoreBoard(dp.body, durl);
       if (s.supports > 0) { dongBoards.push({ region: `${region} ${dongName}`, url: durl, ...s }); console.log(`  ✓[동 ${dongName} 지원 ${s.supports}] ${durl}`); continue; }
       const subs = anchors(dp.body, durl).filter((a) => { const cu = cleanBoardUrl(a.href, host); return cu && !guSet.has(cu) && (BOARD_KW.test(a.text) || BOARD_KW.test(a.href)); });
-      for (const sub of [...new Map(subs.map((l) => [cleanBoardUrl(l.href, host), l])).values()].slice(0, 2)) {
+      for (const sub of [...new Map(subs.map((l) => [cleanBoardUrl(l.href, host), l])).values()].slice(0, 1)) {
         const surl = cleanBoardUrl(sub.href, host); if (!surl) continue;
         await sleep(300);
         const sp = await get(surl); if (!sp.ok) continue;
@@ -158,7 +164,10 @@ async function main() {
   console.log(`== 인천 게시판 발견 (${targets.length}개 구·군, 정적 fetch${hasProxy() ? ", 프록시 ON" : ""}) ==`);
   await proxyFetch();
   const sites = [];
-  for (const t of targets) { try { sites.push(await discoverSite(t)); } catch (e) { console.log(`  ✗ ${t.gu}: ${clip(e.message, 60)}`); } }
+  for (const t of targets) {
+    if (overBudget()) { console.log(`  ⏱ 시간예산(${Math.round(BUDGET_MS/1000)}s) 초과 → ${t.gu} 이후 중단(다음 실행에 누적)`); break; }
+    try { sites.push(await discoverSite(t)); } catch (e) { console.log(`  ✗ ${t.gu}: ${clip(e.message, 60)}`); }
+  }
 
   // boards.mjs(REGISTRY) 호환 형태로 변환: 구 게시판 + 동 게시판(있으면 동 region)
   const registry = [];
