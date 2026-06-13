@@ -197,11 +197,16 @@ async function srcGov24(key, cap = 200) {
   return picked; // 캡은 run()에서 정책적으로(인천 전부 + 전국 상위) 적용
 }
 // 소관기관명 → 지역 (인천 군구/시 또는 전국). 타 시도면 제외(null)
+// 타 시도(서울·부산·대구…)가 '전국'으로 새지 않도록 중앙부처 판정 '이전에' 먼저 걸러낸다.
+const OTHER_SIDO_RE = /서울|부산|대구|광주|대전|울산|세종|경기|강원|충청|충북|충남|전라|전북|전남|경상|경북|경남|제주/;
+const CENTRAL_RE = /(보건복지부|고용노동부|여성가족부|국토교통부|교육부|행정안전부|기획재정부|중소벤처기업부|문화체육관광부|농림축산식품부|해양수산부|산업통상자원부|환경부|과학기술정보통신부|법무부|국방부|국가보훈부|통일부|외교부|금융위원회|방송통신위원회|공정거래위원회|국민권익위원회|개인정보보호위원회|식품의약품안전처|인사혁신처|법제처|병무청|경찰청|소방청|국세청|관세청|조달청|통계청|기상청|산림청|농촌진흥청|특허청|문화재청|국가유산청|질병관리청|해양경찰청|새만금개발청|국민연금공단|국민건강보험공단|건강보험공단|근로복지공단|한국장학재단|소상공인시장진흥공단|중소벤처기업진흥공단|한국산업인력공단|신용보증기금|기술보증기금|서민금융진흥원|한국장애인고용공단|한국농어촌공사|한국토지주택공사|국가평생교육진흥원|한국언론진흥재단|한국콘텐츠진흥원|예술인복지재단)/;
 function regionOfOrg(org = "") {
+  org = `${org}`;
   for (const sgg of SIGUNGU) if (org.includes(sgg)) return `${SIDO} ${sgg}`;
   if (org.includes("인천")) return SIDO;
-  if (/부|처|청|위원회|공단|진흥원|재단|교육부|고용노동부|보건복지부|여성가족부|국토교통부/.test(org)) return NATIONWIDE;
-  return null; // 타 지자체
+  if (OTHER_SIDO_RE.test(org)) return null;                 // 타 시도 명시 → 제외
+  if (CENTRAL_RE.test(org) || /(부|처|청)$/.test(org.trim())) return NATIONWIDE; // 진짜 중앙부처/공공기관만 전국
+  return null; // 그 외(소속 불명확) → 제외
 }
 export function mapGov24(it, region) {
   const sprt = it["지원내용"] || it["서비스목적요약"] || "";
@@ -479,6 +484,8 @@ function selftest() {
     ["regionOfOrg 시", regionOfOrg("인천광역시") === "인천광역시"],
     ["regionOfOrg 중앙", regionOfOrg("보건복지부") === "전국"],
     ["regionOfOrg 타지역 제외", regionOfOrg("서울특별시 강남구") === null],
+    ["regionOfOrg 타지역 재단 누수차단", regionOfOrg("대구신용보증재단") === null],
+    ["regionOfOrg 타지역 공단 누수차단", regionOfOrg("경기도 일자리재단") === null],
     ["다차원 한부모+저소득", JSON.stringify(needFromText("저소득 한부모 가정").sort()) === JSON.stringify(["저소득","한부모"])],
     ["지원유형 대출", supportTypeOf("저금리 융자") === "대출"],
     ["지원유형 바우처", supportTypeOf("문화 이용권 포인트") === "바우처"],

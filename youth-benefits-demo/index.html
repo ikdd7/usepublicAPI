@@ -218,9 +218,16 @@ function buildRegionSelect(){
   sel.innerHTML = opts.map(r=>`<option value="${r}"${r===selRegion?" selected":""}>${r}</option>`).join("");
 }
 // 지역 매칭: 선택 지역 + 시단위(인천광역시) + 전국 은 모두 표시
+const OTHER_SIDO_RE = /서울|부산|대구|광주|대전|울산|세종|경기|강원|충청|충북|충남|전라|전북|전남|경상|경북|경남|제주/;
 function regionMatch(b){
   if(!b.region) return true;
-  if(b.region===selRegion || b.region==="전국") return true;
+  if(b.region===selRegion) return true;
+  // '전국'으로 분류됐지만 제목/요약이 인천 아닌 타 시도를 명시하면 누수로 보고 제외(안전망)
+  if(b.region==="전국"){
+    const blob = `${b.title} ${b.summary||""}`;
+    if(OTHER_SIDO_RE.test(blob) && !/인천/.test(blob)) return false;
+    return true;
+  }
   const sido = selRegion.split(" ")[0];
   if(b.region===sido) return true;
   return false;
@@ -275,6 +282,20 @@ function isSpecial(b){
   if(/장애인|국가유공자|보훈|북한이탈|다문화|결혼이민|보호종료|자립준비/.test(blob)) return true;
   return false;
 }
+// 직업 칩(선택 가능한 직업) + 그 외 특정 직업군 감지용 규칙.
+// 제목/요약에 특정 직업이 명시되면 '그 직업 전용' 공고로 보고, 다른 직업 선택 시 숨긴다.
+const OCC_CHIPS = new Set(["농어업인","예술인","운수종사자","제대군인"]);
+const OCC_RULES = [
+  ["농어업인", /농업인|농민|어업인|어민|귀농|귀어|축산|농가|어가|영농|영어조합|농어업|임업/],
+  ["예술인", /예술인|예술가|작가|창작자|문화예술인|공연예술/],
+  ["운수종사자", /운수종사자|화물차주|화물자동차|택시운송|버스운송|개인택시|법인택시|운전종사자|운수업|택배기사|대리운전/],
+  ["제대군인", /제대군인|전역|예비역|직업군인|부사관|장기복무|보훈대상|국가유공자|참전유공자/],
+  ["__기타직업", /관리종사자|경비원|미화원|환경미화|집배원|간병|요양보호사|보육교사|사회복지사|어린이집\s*교사|방과후\s*강사|생활지도사|버스기사|선원|광부|건설근로자|일용근로자|특수형태근로|플랫폼\s*종사자|돌봄종사자/],
+];
+function occTargets(b){
+  const blob = `${b.title} ${b.summary||""} ${(b.need||[]).join(" ")}`;
+  const t=new Set(); for(const [tag,re] of OCC_RULES) if(re.test(blob)) t.add(tag); return t;
+}
 // 노이즈(신청형 혜택이 아닌 공지·결과·행정성) = 기본 숨김 (LLM 없이도 동작)
 const NOISE_RE = /결과\s*(발표|공개|안내|보고)|선정\s*결과|선정자|합격자|최종\s*선정|낙찰|입찰\s*공고|계약\s*(체결|현황)|간담회|설명회|공청회|토론회|워크숍|위원\s*(공개)?모집|위원회\s*(구성|위촉|개최)|회의\s*(결과|개최|록)|조례|규정\s*(개정|제정|안)|보도자료|포토\s*뉴스|카드\s*뉴스|채용\s*공고|임용|인사발령|정산\s*(현황|결과)|운영\s*결과|추진\s*실적|실태조사|의견\s*수렴|고시\s*제?\s*\d|공람|열람|입법예고/;
 function isNoise(b){ return NOISE_RE.test(`${b.title}`); }
@@ -301,7 +322,16 @@ function evaluate(b, age){
   const ageOk = age>=b.age_min && age<=b.age_max;
   // 상황 미선택 = 전체 보기(자격조건 무시). 선택 시 = 내가 가진 조건으로 자격 충족 판정
   const needOk = selected.size===0 || b.need.length===0 || b.need.every(n=>selected.has(n));
-  return {ageOk, needOk, eligible: ageOk && needOk};
+  // 직업 필터: 직업 칩을 고르면, '다른 특정 직업 전용' 공고는 숨긴다.
+  //   - 공고가 특정 직업을 겨냥(b._occ 비어있지 않음) AND 내가 고른 직업과 겹치지 않으면 제외
+  //   - 직업 무관(b._occ 비어있음) 공고는 항상 통과(전 직업 대상)
+  const selOcc = [...selected].filter(s=>OCC_CHIPS.has(s));
+  let occOk = true;
+  if(selOcc.length){
+    const tgt = b._occ || occTargets(b);
+    if(tgt.size) occOk = selOcc.some(o=>tgt.has(o));
+  }
+  return {ageOk, needOk, occOk, eligible: ageOk && needOk && occOk};
 }
 
 function render(){
@@ -345,7 +375,9 @@ function render(){
   }).join("") || `<div class="card"><div class="meta">조건을 선택하면 받을 수 있는 혜택이 표시돼요.</div></div>`;
 
   document.getElementById("locked").innerHTML = locked.map(({b,ev})=>{
-    let why = !ev.ageOk ? `만 ${b.age_min}~${b.age_max}세 대상` : `'${b.need.join(", ")}' 조건 필요`;
+    let why = !ev.ageOk ? `만 ${b.age_min}~${b.age_max}세 대상`
+            : !ev.occOk ? `${[...(b._occ||[])].filter(o=>o!=="__기타직업").join(", ")||"특정 직업"} 전용`
+            : `'${b.need.join(", ")}' 조건 필요`;
     return `<div class="card locked">
       <div class="ctop"><span class="ctitle">${b.title}</span><span class="cat">${b.category}</span></div>
       <div class="amt">💰 ${b.amount_label}</div>
@@ -377,6 +409,7 @@ function toRuntime(b){
     contact: b.contact || "", source: b.source || "#"
   };
   r.topics = deriveTopics(r);
+  r._occ = occTargets(r);                 // 이 공고가 겨냥한 특정 직업군(없으면=전 직업 대상)
   // LLM 분류 우선 + 규칙기반 폴백: 노이즈/특수/자동/노출가치없음 → 기본 숨김
   r.special = isSpecial(r) || isNoise(r) || b.special===true || b.show===false;
   const ex = deriveExpiry(r); r.expired = ex.expired; r.apply_end = r.apply_end || ex.end;
