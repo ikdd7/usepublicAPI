@@ -15,7 +15,9 @@ export async function proxyFetch() {
   if (!url) { _mod = null; return null; }
   try {
     const u = await import("undici");
-    _mod = { fetch: u.fetch, agent: new u.ProxyAgent(url) };
+    // requestTls.rejectUnauthorized=false: 일부 지자체 사이트의 불완전 인증서 체인으로
+    // 인한 'fetch failed'(TLS 거부) 회피. 공개 게시판 읽기 전용이라 허용 가능.
+    _mod = { fetch: u.fetch, agent: new u.ProxyAgent({ uri: url, requestTls: { rejectUnauthorized: false }, connectTimeout: 12000 }) };
     console.log(`  [proxy] 활성: ${maskUrl(url)}`);
   } catch (e) {
     console.log(`  [proxy] 비활성(undici 없음/오류 → 직결): ${e.message}`);

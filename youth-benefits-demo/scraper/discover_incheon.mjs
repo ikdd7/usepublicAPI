@@ -74,7 +74,10 @@ async function get(url, ms = 9000) {
     const doFetch = px ? px.fetch : fetch;
     const res = await doFetch(url, { headers: { "User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9" }, signal: ctrl.signal, redirect: "follow", ...(px ? { dispatcher: px.agent } : {}) });
     return { ok: res.ok, status: res.status, body: await res.text() };
-  } catch (e) { return { ok: false, status: 0, body: "", err: e.message }; }
+  } catch (e) {
+    const cause = e?.cause ? ` (${e.cause.code || e.cause.message || e.cause})` : "";
+    return { ok: false, status: 0, body: "", err: `${e.message}${cause}` };
+  }
   finally { clearTimeout(to); }
 }
 // 로테이팅 프록시는 연결마다 IP가 바뀌므로 실패 시 재시도하면 다른 한국 IP로 붙는다.
