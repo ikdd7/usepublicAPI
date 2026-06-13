@@ -34,6 +34,21 @@ const HOMES = [
   { gu: "옹진군", home: "https://www.ongjin.go.kr/" },
 ];
 
+// 홈이 막혀도 '깊은 게시판 URL'은 열릴 때가 있어 직접 시드로 찔러본다(=연결성 테스트 겸용).
+const SEEDS = {
+  "중구": ["https://www.icjg.go.kr/open_content/main/intro/news/notice.jsp"],
+  "동구": ["https://www.icdonggu.go.kr/main/community/budget/notice.jsp"],
+  "미추홀구": ["https://www.michuhol.go.kr/open_content/main/intro/news/notice.jsp"],
+  "남동구": ["https://www.namdong.go.kr/open_content/main/intro/news/notice.jsp"],
+  "부평구": ["https://www.icbp.go.kr/main/civil/property/youth.jsp", "https://www.icbp.go.kr/main/participation/news/incheon.jsp"],
+  "계양구": ["https://www.gyeyang.go.kr/open_content/main/intro/news/notice.jsp"],
+  "서구": ["https://www.seo.incheon.kr/open_content/main/community/news/notice.jsp", "https://www.seo.incheon.kr/open_content/main/community/news/company.jsp", "https://www.seo.incheon.kr/open_content/main/community/news/other.jsp"],
+  "강화군": ["https://www.ganghwa.go.kr/open_content/main/part/job/aid.jsp", "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp"],
+  "옹진군": ["https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp", "https://www.ongjin.go.kr/open_content/main/community/board/notice.jsp"],
+};
+// 실제 동이 아닌데 DONG_KW에 걸리는 메뉴어(오탐 차단)
+const DONG_STOP = /우리동|이동|활동|행동|아동|노동|공동|자동|동행|동참|동의/;
+
 // 지원사업 신호(글 제목)
 const KW = /지원|보조금|지원금|모집|신청|지급|바우처|선착순|수당|장려금|구입비|설치비|교부|돌봄|감면/;
 // 게시판으로 보이는 링크(텍스트/URL)
@@ -77,47 +92,61 @@ function scoreBoard(html, base) {
   return { posts: posts.length, supports: supports.length, sample: supports.slice(0, 3).map((a) => clip(a.text, 40)) };
 }
 
+// 게시판 URL 정제: 동일 호스트 + 프래그먼트(#) 없음 + 루트(/)보다 깊은 경로만
+function cleanBoardUrl(u, host) {
+  try { const x = new URL(u); return (x.host === host && !x.hash && x.pathname.length > 1) ? x.href.split("#")[0] : null; }
+  catch { return null; }
+}
+
 async function discoverSite({ gu, home }) {
   const region = `인천광역시 ${gu}`;
   console.log(`\n##### ${region} (${home}) #####`);
-  const r = await get(home, 15000);
-  if (!r.ok) { console.log(`  ✗ 홈 실패: ${r.status || r.err}`); return { gu, fail: true, boards: [], dong: [] }; }
   const host = new URL(home).host;
-  const links = anchors(r.body, home).filter((a) => { try { return a.href && new URL(a.href).host === host; } catch { return false; } });
+  const r = await get(home, 15000);
+  const homeOk = r.ok;
+  if (!homeOk) console.log(`  ⚠ 홈 접속 실패(${r.status || r.err}) → 시드 게시판만 직접 점검`);
+  const links = homeOk ? anchors(r.body, home).filter((a) => cleanBoardUrl(a.href, host)) : [];
 
-  // ── 구 단위 게시판 후보 ──
-  const boardCands = [...new Map(links.filter((l) => BOARD_KW.test(l.text) || BOARD_KW.test(l.href)).map((l) => [l.href, l])).values()].slice(0, 22);
+  // ── 구 단위 게시판 후보 = 홈에서 발견 + 시드(깊은 URL) ──
+  const fromHome = links.filter((l) => BOARD_KW.test(l.text) || BOARD_KW.test(l.href)).map((l) => cleanBoardUrl(l.href, host));
+  const candUrls = [...new Set([...(SEEDS[gu] || []), ...fromHome].filter(Boolean))].slice(0, 24);
+  const guSet = new Set();
   const guBoards = [];
-  for (const c of boardCands) {
+  for (const url of candUrls) {
     await sleep(400);
-    const p = await get(c.href);
+    const p = await get(url);
     if (!p.ok) continue;
-    const s = scoreBoard(p.body, c.href);
-    if (s.supports > 0) { guBoards.push({ url: c.href, ...s }); console.log(`  ✓[구 지원 ${s.supports}/${s.posts}] ${c.href}`); s.sample.forEach((x) => console.log(`       · ${x}`)); }
+    const s = scoreBoard(p.body, url);
+    if (s.supports > 0) { guBoards.push({ url, ...s }); guSet.add(url); console.log(`  ✓[구 지원 ${s.supports}/${s.posts}] ${url}`); s.sample.forEach((x) => console.log(`       · ${x}`)); }
   }
 
-  // ── 읍·면·동(주민센터) 후보 → 그 페이지의 게시판 ──
-  const dongLinks = [...new Map(links.filter((l) => DONG_KW.test(l.text)).map((l) => [l.href, l])).values()].slice(0, 12);
+  // ── 읍·면·동(주민센터) 후보 → 그 페이지의 게시판 (홈 접속됐을 때만) ──
   const dongBoards = [];
-  for (const d of dongLinks) {
-    await sleep(400);
-    const dp = await get(d.href);
-    if (!dp.ok) continue;
-    const dongName = (d.text.match(/[가-힣]{1,3}[동읍면]/) || [])[0] || clip(d.text, 8);
-    // 동 페이지 자체가 게시판이면 바로 채점, 아니면 하위 게시판 1~2개 확인
-    let s = scoreBoard(dp.body, d.href);
-    if (s.supports > 0) { dongBoards.push({ region: `${region} ${dongName}`, url: d.href, ...s }); console.log(`  ✓[동 ${dongName} 지원 ${s.supports}] ${d.href}`); continue; }
-    const subs = anchors(dp.body, d.href).filter((a) => { try { return a.href && new URL(a.href).host === host && (BOARD_KW.test(a.text) || BOARD_KW.test(a.href)); } catch { return false; } });
-    for (const sub of [...new Map(subs.map((l) => [l.href, l])).values()].slice(0, 2)) {
-      await sleep(300);
-      const sp = await get(sub.href); if (!sp.ok) continue;
-      s = scoreBoard(sp.body, sub.href);
-      if (s.supports > 0) { dongBoards.push({ region: `${region} ${dongName}`, url: sub.href, ...s }); console.log(`  ✓✓[동 ${dongName} 지원 ${s.supports}] ${sub.href}`); break; }
+  if (homeOk) {
+    const dongLinks = [...new Map(links
+      .filter((l) => DONG_KW.test(l.text) && !DONG_STOP.test(l.text) && /[가-힣]{2,3}[동읍면]/.test(l.text))
+      .map((l) => [cleanBoardUrl(l.href, host), l])).values()]
+      .filter((l) => l && !guSet.has(cleanBoardUrl(l.href, host))).slice(0, 12);
+    for (const d of dongLinks) {
+      const durl = cleanBoardUrl(d.href, host); if (!durl || guSet.has(durl)) continue;
+      await sleep(400);
+      const dp = await get(durl); if (!dp.ok) continue;
+      const dongName = (d.text.match(/[가-힣]{2,3}[동읍면]/) || [])[0];
+      let s = scoreBoard(dp.body, durl);
+      if (s.supports > 0) { dongBoards.push({ region: `${region} ${dongName}`, url: durl, ...s }); console.log(`  ✓[동 ${dongName} 지원 ${s.supports}] ${durl}`); continue; }
+      const subs = anchors(dp.body, durl).filter((a) => { const cu = cleanBoardUrl(a.href, host); return cu && !guSet.has(cu) && (BOARD_KW.test(a.text) || BOARD_KW.test(a.href)); });
+      for (const sub of [...new Map(subs.map((l) => [cleanBoardUrl(l.href, host), l])).values()].slice(0, 2)) {
+        const surl = cleanBoardUrl(sub.href, host); if (!surl) continue;
+        await sleep(300);
+        const sp = await get(surl); if (!sp.ok) continue;
+        s = scoreBoard(sp.body, surl);
+        if (s.supports > 0) { dongBoards.push({ region: `${region} ${dongName}`, url: surl, ...s }); console.log(`  ✓✓[동 ${dongName} 지원 ${s.supports}] ${surl}`); break; }
+      }
     }
   }
 
   console.log(`  → 구 게시판 ${guBoards.length}개 · 동 게시판 ${dongBoards.length}개`);
-  return { gu, region, boards: guBoards, dong: dongBoards };
+  return { gu, region, homeOk, boards: guBoards, dong: dongBoards };
 }
 
 async function main() {
@@ -136,13 +165,14 @@ async function main() {
   // 기존 발견결과와 병합(이번에 실패/0건인 구는 이전 값 유지)
   let prev = { registry: [] };
   if (existsSync(OUT)) { try { prev = JSON.parse(readFileSync(OUT, "utf-8")); } catch {} }
+  const okUrl = (u) => { try { const x = new URL(u); return !x.hash && x.pathname.length > 1; } catch { return false; } };
   const byRegion = new Map();
   for (const e of [...(prev.registry || []), ...registry]) {
     const cur = byRegion.get(e.region) || new Set();
-    e.boards.forEach((u) => cur.add(u));
+    (e.boards || []).filter(okUrl).forEach((u) => cur.add(u.split("#")[0]));
     byRegion.set(e.region, cur);
   }
-  const merged = [...byRegion.entries()].map(([region, set]) => ({ region, boards: [...set] }));
+  const merged = [...byRegion.entries()].map(([region, set]) => ({ region, boards: [...set] })).filter((e) => e.boards.length);
 
   mkdirSync(dirname(OUT), { recursive: true });
   writeFileSync(OUT, JSON.stringify({

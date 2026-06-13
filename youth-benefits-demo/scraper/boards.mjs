@@ -65,10 +65,11 @@ function loadDiscovered() {
   try { return (JSON.parse(readFileSync(f, "utf-8")).registry || []); } catch { return []; }
 }
 function mergedRegistry() {
+  const okUrl = (u) => { try { const x = new URL(u); return !x.hash && x.pathname.length > 1; } catch { return false; } };
   const byRegion = new Map();
   for (const e of [...REGISTRY, ...loadDiscovered()]) {
     const cur = byRegion.get(e.region) || new Set();
-    (e.boards || []).forEach((u) => cur.add(u));
+    (e.boards || []).filter(okUrl).forEach((u) => cur.add(u.split("#")[0]));
     byRegion.set(e.region, cur);
   }
   return [...byRegion.entries()].map(([region, set]) => ({ region, boards: [...set] }));
