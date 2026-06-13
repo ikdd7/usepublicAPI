@@ -44,15 +44,12 @@
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px;margin-bottom:10px;position:relative;overflow:hidden;box-shadow:0 1px 8px rgba(22,36,63,.06)}
   .card.elig{border-color:#a7e3cf}
   .card.elig:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent2)}
-  /* 받을 수 있어요: 좁은 본문(480px)을 벗어나 넓게, 최대 3칸 */
+  /* 받을 수 있어요: 좁은 본문(480px)을 벗어나 넓게, 최대 3칸, 가운데 정렬(적으면 가운데로) */
   #eligible{display:grid;grid-template-columns:1fr;gap:12px;align-items:stretch}
   #eligible .card{margin-bottom:0;height:100%}
   @media(min-width:720px){
-    #eligible{position:relative;left:50%;transform:translateX(-50%);width:96vw;max-width:1320px;
-      grid-template-columns:repeat(2,1fr)}
-  }
-  @media(min-width:1080px){
-    #eligible{grid-template-columns:repeat(3,1fr)}
+    #eligible{position:relative;left:50%;transform:translateX(-50%);width:96vw;max-width:1200px;
+      grid-template-columns:repeat(auto-fit,minmax(300px,420px));justify-content:center}
   }
   .card.locked{opacity:.6}
   .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
@@ -152,9 +149,6 @@
 
   <div class="sec-title" id="secElig"><span>✅ 받을 수 있어요</span><span id="eligcnt"></span></div>
   <div id="eligible"></div>
-
-  <div class="sec-title" id="secLocked"><span>🔒 조건이 안 맞아요</span></div>
-  <div id="locked"></div>
 
   <p class="foot">
     <span id="srcTag">데이터: 검증 시드(2026-06-08 스냅샷)</span> · 데모용이며 금액·기간은 변동될 수 있어요.<br/>
@@ -394,16 +388,12 @@ function render(){
     document.getElementById("eligcnt").textContent = "";
     document.getElementById("total").textContent = "조건 선택 시 계산";
     document.getElementById("cnt").textContent = selRegion;
-    document.getElementById("secLocked").style.display = "none";
-    document.getElementById("locked").innerHTML = "";
     return;
   }
-  document.getElementById("secLocked").style.display = "";
-  const elig=[], locked=[]; let total=0;
+  const elig=[]; let total=0;
   DATA.benefits.filter(visible).forEach(b=>{
     const ev = evaluate(b, age);
     if(ev.eligible){ elig.push(b); total += b.amount; }
-    else locked.push({b,ev});
   });
 
   // 생활밀착 먼저 → 마감 임박 순 → 금액 큰 순
@@ -438,19 +428,7 @@ function render(){
       </div>
       <a class="src" href="${b.source}" target="_blank">공식 출처 확인 →</a>
     </div>`;
-  }).join("") || `<div class="card"><div class="meta">조건을 선택하면 받을 수 있는 혜택이 표시돼요.</div></div>`;
-
-  document.getElementById("locked").innerHTML = locked.map(({b,ev})=>{
-    const itemConds = [...(b._tags||[])].filter(t=>!t.startsWith("__"));
-    let why = !ev.ageOk ? `만 ${b.age_min}~${b.age_max}세 대상`
-            : selected.size===0 ? `${itemConds.join(", ")||"특정"} 조건 대상`
-            : `선택조건 비해당${itemConds.length?` (${itemConds.join(", ")} 대상)`:""}`;
-    return `<div class="card locked">
-      <div class="ctop"><span class="ctitle">${b.title}</span><span class="cat">${b.category}</span></div>
-      <div class="amt">💰 ${b.amount_label}</div>
-      <div class="badges"><span class="badge reason no">✗ ${why}</span></div>
-    </div>`;
-  }).join("");
+  }).join("") || `<div class="prompt">선택한 조건에 해당하는 혜택이 없어요. 조건을 바꿔보세요.</div>`;
 }
 
 function share(){
