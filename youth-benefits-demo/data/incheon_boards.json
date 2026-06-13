@@ -11,14 +11,202 @@
         "https://www.yeonsu.go.kr/main/community/notify/notice.asp",
         "https://www.yeonsu.go.kr/main/yeonsu/management/notice.asp"
       ]
+    },
+    {
+      "region": "인천광역시 중구",
+      "boards": [
+        "https://www.icjg.go.kr/krcm",
+        "https://www.icjg.go.kr/krcm01b",
+        "https://www.icjg.go.kr/krcm03b",
+        "https://www.icjg.go.kr/krcm03c",
+        "https://www.icjg.go.kr/krcm05c",
+        "https://www.icjg.go.kr/krcm05",
+        "https://www.icjg.go.kr/krcm0501a",
+        "https://www.icjg.go.kr/krcm0602b",
+        "https://www.icjg.go.kr/krcm07c",
+        "https://www.icjg.go.kr/krcm0901b",
+        "https://www.icjg.go.kr/krcm0901c"
+      ]
+    },
+    {
+      "region": "인천광역시 미추홀구",
+      "boards": [
+        "https://www.michuhol.go.kr/main/board/list.do?board_code=hometown_donations",
+        "https://www.michuhol.go.kr/main/board/list.do?board_code=civil_faq",
+        "https://www.michuhol.go.kr/main/board/list.do?board_code=civil_comp_unit",
+        "https://www.michuhol.go.kr/main/pre_info_announcement/list.do",
+        "https://www.michuhol.go.kr/main/board/list.do?board_code=board_121",
+        "https://www.michuhol.go.kr/main/board/list.do?board_code=business_promotion",
+        "https://www.michuhol.go.kr/main/board/list.do?board_code=board_192",
+        "https://www.michuhol.go.kr/main/board/list.do?board_code=au_corrupt",
+        "https://www.michuhol.go.kr/main/board/list.do?board_code=au_ticket",
+        "https://www.michuhol.go.kr/main/board/list.do?board_code=board_92",
+        "https://www.michuhol.go.kr/main/board/list.do?board_code=board_173"
+      ]
+    },
+    {
+      "region": "인천광역시 부평구",
+      "boards": [
+        "https://www.icbp.go.kr/main/civil/property/youth.jsp",
+        "https://www.icbp.go.kr/main/participation/news/incheon.jsp",
+        "https://www.icbp.go.kr/news/",
+        "https://www.icbp.go.kr/main/participation/news/notice.jsp"
+      ]
+    },
+    {
+      "region": "인천광역시 계양구",
+      "boards": [
+        "https://www.gyeyang.go.kr/open_content/main/community/budget/notice.jsp",
+        "https://www.gyeyang.go.kr/open_content/main/community/free.jsp",
+        "https://www.gyeyang.go.kr/open_content/main/open_info/admin/notice.jsp",
+        "https://www.gyeyang.go.kr/open_content/main/open_info/admin/other.jsp"
+      ]
+    },
+    {
+      "region": "인천광역시 서구",
+      "boards": [
+        "https://www.seo.incheon.kr/open_content/main/community/news/notice.jsp",
+        "https://www.seo.incheon.kr/open_content/main/community/news/company.jsp",
+        "https://www.seo.incheon.kr/open_content/main/community/news/other.jsp",
+        "https://www.seo.incheon.kr/open_content/main/community/free.jsp",
+        "https://www.seo.incheon.kr/open_content/main/part/job/news.jsp",
+        "https://www.seo.incheon.kr/open_content/main/civil/difficulty/announce.jsp",
+        "https://www.seo.incheon.kr/open_content/main/community/news/cardnews.jsp",
+        "https://www.seo.incheon.kr/open_content/main/community/news/gosi.jsp",
+        "https://www.seo.incheon.kr/open_content/main/community/news/job.jsp",
+        "https://www.seo.incheon.kr/open_content/main/community/news/report.jsp",
+        "https://www.seo.incheon.kr/open_content/main/community/news/word.jsp"
+      ]
+    },
+    {
+      "region": "인천광역시 강화군",
+      "boards": [
+        "https://www.ganghwa.go.kr/open_content/main/part/job/aid.jsp",
+        "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp",
+        "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/law.jsp",
+        "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/announce.jsp",
+        "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/adjust.jsp",
+        "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/cardnews.jsp"
+      ]
     }
   ],
   "detail": [
     {
       "gu": "중구",
       "region": "인천광역시 중구",
-      "homeOk": false,
-      "boards": [],
+      "homeOk": true,
+      "boards": [
+        {
+          "url": "https://www.icjg.go.kr/krcm",
+          "posts": 125,
+          "supports": 14,
+          "sample": [
+            "온라인민원신청",
+            "전자고지(이메일)신청",
+            "자동납부(계좌, 신용카드)신청"
+          ]
+        },
+        {
+          "url": "https://www.icjg.go.kr/krcm01b",
+          "posts": 125,
+          "supports": 14,
+          "sample": [
+            "온라인민원신청",
+            "전자고지(이메일)신청",
+            "자동납부(계좌, 신용카드)신청"
+          ]
+        },
+        {
+          "url": "https://www.icjg.go.kr/krcm03b",
+          "posts": 104,
+          "supports": 11,
+          "sample": [
+            "온라인민원신청",
+            "전자고지(이메일)신청",
+            "자동납부(계좌, 신용카드)신청"
+          ]
+        },
+        {
+          "url": "https://www.icjg.go.kr/krcm03c",
+          "posts": 104,
+          "supports": 11,
+          "sample": [
+            "온라인민원신청",
+            "전자고지(이메일)신청",
+            "자동납부(계좌, 신용카드)신청"
+          ]
+        },
+        {
+          "url": "https://www.icjg.go.kr/krcm05c",
+          "posts": 124,
+          "supports": 20,
+          "sample": [
+            "온라인민원신청",
+            "전자고지(이메일)신청",
+            "자동납부(계좌, 신용카드)신청"
+          ]
+        },
+        {
+          "url": "https://www.icjg.go.kr/krcm05",
+          "posts": 104,
+          "supports": 11,
+          "sample": [
+            "온라인민원신청",
+            "전자고지(이메일)신청",
+            "자동납부(계좌, 신용카드)신청"
+          ]
+        },
+        {
+          "url": "https://www.icjg.go.kr/krcm0501a",
+          "posts": 122,
+          "supports": 12,
+          "sample": [
+            "온라인민원신청",
+            "전자고지(이메일)신청",
+            "자동납부(계좌, 신용카드)신청"
+          ]
+        },
+        {
+          "url": "https://www.icjg.go.kr/krcm0602b",
+          "posts": 138,
+          "supports": 13,
+          "sample": [
+            "온라인민원신청",
+            "전자고지(이메일)신청",
+            "자동납부(계좌, 신용카드)신청"
+          ]
+        },
+        {
+          "url": "https://www.icjg.go.kr/krcm07c",
+          "posts": 114,
+          "supports": 11,
+          "sample": [
+            "온라인민원신청",
+            "전자고지(이메일)신청",
+            "자동납부(계좌, 신용카드)신청"
+          ]
+        },
+        {
+          "url": "https://www.icjg.go.kr/krcm0901b",
+          "posts": 141,
+          "supports": 13,
+          "sample": [
+            "온라인민원신청",
+            "전자고지(이메일)신청",
+            "자동납부(계좌, 신용카드)신청"
+          ]
+        },
+        {
+          "url": "https://www.icjg.go.kr/krcm0901c",
+          "posts": 131,
+          "supports": 12,
+          "sample": [
+            "온라인민원신청",
+            "전자고지(이메일)신청",
+            "자동납부(계좌, 신용카드)신청"
+          ]
+        }
+      ],
       "dong": []
     },
     {
@@ -31,8 +219,119 @@
     {
       "gu": "미추홀구",
       "region": "인천광역시 미추홀구",
-      "homeOk": false,
-      "boards": [],
+      "homeOk": true,
+      "boards": [
+        {
+          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=hometown_donations",
+          "posts": 97,
+          "supports": 5,
+          "sample": [
+            "미추홀구청소년상담복지(학교밖지원)센터",
+            "미추홀구 일자리지원센터",
+            "재정지원 일자리사업"
+          ]
+        },
+        {
+          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=civil_faq",
+          "posts": 102,
+          "supports": 6,
+          "sample": [
+            "잠복결핵감염 치료비는 지원이 되나요?",
+            "미추홀구청소년상담복지(학교밖지원)센터",
+            "미추홀구 일자리지원센터"
+          ]
+        },
+        {
+          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=civil_comp_unit",
+          "posts": 102,
+          "supports": 5,
+          "sample": [
+            "미추홀구청소년상담복지(학교밖지원)센터",
+            "미추홀구 일자리지원센터",
+            "재정지원 일자리사업"
+          ]
+        },
+        {
+          "url": "https://www.michuhol.go.kr/main/pre_info_announcement/list.do",
+          "posts": 155,
+          "supports": 11,
+          "sample": [
+            "소상공인 특례보증 지원사업 안내",
+            "신청기간, 신청자격, 지원요건, 대출기한, 대출은행",
+            "보조금 지급 현황"
+          ]
+        },
+        {
+          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=board_121",
+          "posts": 107,
+          "supports": 5,
+          "sample": [
+            "미추홀구청소년상담복지(학교밖지원)센터",
+            "미추홀구 일자리지원센터",
+            "재정지원 일자리사업"
+          ]
+        },
+        {
+          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=business_promotion",
+          "posts": 106,
+          "supports": 5,
+          "sample": [
+            "미추홀구청소년상담복지(학교밖지원)센터",
+            "미추홀구 일자리지원센터",
+            "재정지원 일자리사업"
+          ]
+        },
+        {
+          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=board_192",
+          "posts": 108,
+          "supports": 6,
+          "sample": [
+            "2025년 4분기 지방보조금 감사 결과",
+            "미추홀구청소년상담복지(학교밖지원)센터",
+            "미추홀구 일자리지원센터"
+          ]
+        },
+        {
+          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=au_corrupt",
+          "posts": 106,
+          "supports": 5,
+          "sample": [
+            "미추홀구청소년상담복지(학교밖지원)센터",
+            "미추홀구 일자리지원센터",
+            "재정지원 일자리사업"
+          ]
+        },
+        {
+          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=au_ticket",
+          "posts": 106,
+          "supports": 6,
+          "sample": [
+            "경제지원과 상품권 구매 및 사용실적(2025년)",
+            "미추홀구청소년상담복지(학교밖지원)센터",
+            "미추홀구 일자리지원센터"
+          ]
+        },
+        {
+          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=board_92",
+          "posts": 104,
+          "supports": 7,
+          "sample": [
+            "(2025-38) 어르신 대상포진 예방접종 지원사업 [바. 기타]",
+            "(2025-33) 미추홀구 신청사 건립사업 [바. 기타]",
+            "미추홀구청소년상담복지(학교밖지원)센터"
+          ]
+        },
+        {
+          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=board_173",
+          "posts": 108,
+          "supports": 5,
+          "sample": [
+            "미추홀구청소년상담복지(학교밖지원)센터",
+            "미추홀구 일자리지원센터",
+            "재정지원 일자리사업"
+          ]
+        }
+      ],
       "dong": []
     },
     {
@@ -93,29 +392,260 @@
     {
       "gu": "부평구",
       "region": "인천광역시 부평구",
-      "homeOk": false,
-      "boards": [],
+      "homeOk": true,
+      "boards": [
+        {
+          "url": "https://www.icbp.go.kr/main/civil/property/youth.jsp",
+          "posts": 11,
+          "supports": 1,
+          "sample": [
+            "전세보증금 반환보증 보증료 지원 신청서 및 서약서"
+          ]
+        },
+        {
+          "url": "https://www.icbp.go.kr/main/participation/news/incheon.jsp",
+          "posts": 22,
+          "supports": 5,
+          "sample": [
+            "2026년 인천광역시 중소기업육성자금 지원공고(7차)-기술전환지원 융자자",
+            "2026년 제3기 인천광역시 여성복지관 수강생 모집",
+            "2026 인천중구문화재단 개항희망문화상권 서포터즈 모집"
+          ]
+        },
+        {
+          "url": "https://www.icbp.go.kr/news/",
+          "posts": 20,
+          "supports": 1,
+          "sample": [
+            "[경제톡톡]커피와 문화를 함께 즐기는 복합문화공간, 제이앤제이 플래닛 ‘"
+          ]
+        },
+        {
+          "url": "https://www.icbp.go.kr/main/participation/news/notice.jsp",
+          "posts": 22,
+          "supports": 1,
+          "sample": [
+            "2026년 발전소주변지역 지원사업 사업계획변경(주민의견수렴) 안내"
+          ]
+        }
+      ],
       "dong": []
     },
     {
       "gu": "계양구",
       "region": "인천광역시 계양구",
-      "homeOk": false,
-      "boards": [],
+      "homeOk": true,
+      "boards": [
+        {
+          "url": "https://www.gyeyang.go.kr/open_content/main/community/budget/notice.jsp",
+          "posts": 17,
+          "supports": 2,
+          "sample": [
+            "2026년 찾아가는 권역별 예산학교 참여자 모집",
+            "2025년 주민 안전 참여예산학교 참여자 모집"
+          ]
+        },
+        {
+          "url": "https://www.gyeyang.go.kr/open_content/main/community/free.jsp",
+          "posts": 17,
+          "supports": 2,
+          "sample": [
+            "[국립순천대학교] 스마트농업 전문인력 교육생 모집 안내(05.01. ~ ",
+            "2026년 사회복지사 1년과정 교육생 추가모집"
+          ]
+        },
+        {
+          "url": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/notice.jsp",
+          "posts": 18,
+          "supports": 3,
+          "sample": [
+            "♬ 2026년 하반기 계양구립예술단원 모집 안내 ♬",
+            "[생활문해프로그램]피부부터 두피까지, 관리가 착착! 수강생 모집",
+            "2026 인천시도시재생지원센터 주민참여 경진대회 안내"
+          ]
+        },
+        {
+          "url": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/other.jsp",
+          "posts": 18,
+          "supports": 1,
+          "sample": [
+            "여성복지관 2026년 제3기 수강생 모집"
+          ]
+        }
+      ],
       "dong": []
     },
     {
       "gu": "서구",
       "region": "인천광역시 서구",
-      "homeOk": false,
-      "boards": [],
+      "homeOk": true,
+      "boards": [
+        {
+          "url": "https://www.seo.incheon.kr/open_content/main/community/news/notice.jsp",
+          "posts": 18,
+          "supports": 8,
+          "sample": [
+            "아라건강생활지원센터 [근육팡팡 근력운동교실 2기] 참여자 모집 안내",
+            "서구사회적경제마을지원센터 「2026년 입주기업 모집(2차)」서류심사 합격",
+            "「검단LH20단지(AA9블록) 행복주택 내 사회적경제기업 공간 입주기업 "
+          ]
+        },
+        {
+          "url": "https://www.seo.incheon.kr/open_content/main/community/news/company.jsp",
+          "posts": 18,
+          "supports": 11,
+          "sample": [
+            "「2026년 인천광역시 중소기업육성자금」지원(7차) 안내",
+            "(검단지역) 2026년 해외바이어 화상 수출상담회 참가기업 모집 안내(모",
+            "2026년 해외바이어 화상 수출상담회 참가기업 모집 안내(모집기간 연장)"
+          ]
+        },
+        {
+          "url": "https://www.seo.incheon.kr/open_content/main/community/news/other.jsp",
+          "posts": 18,
+          "supports": 6,
+          "sample": [
+            "[인천관광공사] 「2026년 인천 관광상품 디자인 개발 지원사업」안내",
+            "2026년 북한이탈주민 종합건강검진 지원사업 안내",
+            "[인천서구지속가능발전협의회] 제2기 ESG 경영 아카데미 수강생 추가 모"
+          ]
+        },
+        {
+          "url": "https://www.seo.incheon.kr/open_content/main/community/free.jsp",
+          "posts": 19,
+          "supports": 3,
+          "sample": [
+            "&quot;깔깔 디자인 워크숍&quot; 청년 디자인 크루 모집",
+            "[국립순천대학교] 스마트농업 전문인력 교육생 모집 안내(05.01. ~ ",
+            "서구다문화가족지원센터"
+          ]
+        },
+        {
+          "url": "https://www.seo.incheon.kr/open_content/main/part/job/news.jsp",
+          "posts": 18,
+          "supports": 2,
+          "sample": [
+            "기록물관리 업무지원(검단지역) 기간제근로자 채용공고",
+            "서구다문화가족지원센터"
+          ]
+        },
+        {
+          "url": "https://www.seo.incheon.kr/open_content/main/civil/difficulty/announce.jsp",
+          "posts": 8,
+          "supports": 1,
+          "sample": [
+            "서구다문화가족지원센터"
+          ]
+        },
+        {
+          "url": "https://www.seo.incheon.kr/open_content/main/community/news/cardnews.jsp",
+          "posts": 28,
+          "supports": 6,
+          "sample": [
+            "인천형 민생지원 핵심정리",
+            "인천 서구 고유가 피해지원금 핵심정리 (인천형 민생지원 내용 포함)",
+            "집에서 편하게 서비스 받자! 의료·요양 통합돌봄서비스 안내"
+          ]
+        },
+        {
+          "url": "https://www.seo.incheon.kr/open_content/main/community/news/gosi.jsp",
+          "posts": 18,
+          "supports": 3,
+          "sample": [
+            "담배소매인 폐업 및 소매인 지정 신청 공고",
+            "담배소매인 지정 신청 공고 2차(신축상가_검마루로124)",
+            "서구다문화가족지원센터"
+          ]
+        },
+        {
+          "url": "https://www.seo.incheon.kr/open_content/main/community/news/job.jsp",
+          "posts": 18,
+          "supports": 2,
+          "sample": [
+            "기록물관리 업무지원(검단지역) 기간제근로자 채용공고",
+            "서구다문화가족지원센터"
+          ]
+        },
+        {
+          "url": "https://www.seo.incheon.kr/open_content/main/community/news/report.jsp",
+          "posts": 18,
+          "supports": 1,
+          "sample": [
+            "서구다문화가족지원센터"
+          ]
+        },
+        {
+          "url": "https://www.seo.incheon.kr/open_content/main/community/news/word.jsp",
+          "posts": 18,
+          "supports": 1,
+          "sample": [
+            "서구다문화가족지원센터"
+          ]
+        }
+      ],
       "dong": []
     },
     {
       "gu": "강화군",
       "region": "인천광역시 강화군",
-      "homeOk": false,
-      "boards": [],
+      "homeOk": true,
+      "boards": [
+        {
+          "url": "https://www.ganghwa.go.kr/open_content/main/part/job/aid.jsp",
+          "posts": 3,
+          "supports": 1,
+          "sample": [
+            "지원신청서 다운로드"
+          ]
+        },
+        {
+          "url": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp",
+          "posts": 15,
+          "supports": 3,
+          "sample": [
+            "다시 일하는 즐거움 '커리어브릿지 프로그램' 참여자 모집 재공고",
+            "2026년 강화 청년 직무캠프 참여자 모집 재공고",
+            "2026년 공공근로사업(2차) 참여자 모집 공고"
+          ]
+        },
+        {
+          "url": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/law.jsp",
+          "posts": 22,
+          "supports": 4,
+          "sample": [
+            "강화군 소상공인 지원에 관한 조례 일부개정안 입법예고",
+            "강화군의회 의원 의정활동비ㆍ월정수당 및 여비지급 조례 일부개정조례안 입법",
+            "강화군 칠선녀 성무 보전 및 전승 지원 조례안 입법예고"
+          ]
+        },
+        {
+          "url": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/announce.jsp",
+          "posts": 25,
+          "supports": 3,
+          "sample": [
+            "2025년 하반기 탄소중립포인트제(에너지) 인센티브 지급에 따른 공시송달",
+            "2027년도 산림소득지원사업 신청 공고",
+            "2026년 내가면 주민자치센터 프로그램(요가) 수강생 공개모집 공고"
+          ]
+        },
+        {
+          "url": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/adjust.jsp",
+          "posts": 15,
+          "supports": 2,
+          "sample": [
+            "[강화군입장] '강화군 지역신문발전지원조례' 제대로 공부하고 논하라",
+            "[반론] 한연희씨(전 평택부시장)의 ‘지역발전 지원 조례에 대한 기고문’"
+          ]
+        },
+        {
+          "url": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/cardnews.jsp",
+          "posts": 15,
+          "supports": 1,
+          "sample": [
+            "강화군 어르신 무릎 인공관절 수술비 지원 안내"
+          ]
+        }
+      ],
       "dong": []
     },
     {
