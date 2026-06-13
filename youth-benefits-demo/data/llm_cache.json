@@ -179,5 +179,590 @@
     "summary": "부산 서구 거주 학생 대상 장학금 지급",
     "show": true,
     "special": false
+  },
+  "g24-300000000137": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 도로점용료 10% 감면 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-469000000112": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "정읍사랑상품권 12% 선할인 구매 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000148": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "안양시 중소기업 육성자금 융자 이자차액 보전",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000142": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지방 투자 기업 보조금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000509": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "천안시민 대상 안전보험 무료 가입 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000145": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영세성실기업 세무조사 면제 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000140": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "공장용지 매입비 융자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000122": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "중·고 신입생 교복 및 체육복 40만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000117": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "군포시 지역화폐 6~7% 인센티브 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000168": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "안양시 소상공인 이자보전 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000129": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농산물 최저가격 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-318000000416": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지방세 불복청구 선정대리인 무료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-300000000164": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "종로구 동행일자리사업 참여자 모집",
+    "show": true,
+    "special": false
+  },
+  "g24-318000000414": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 공공일자리 제공",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000155": {
+    "category": "일자리",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "상주시 공공일자리 제공",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000137": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "공주 초등학교 무상 우유급식 지원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004692": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "고양시 청년 주거금융지원(청년둥지론)",
+    "show": true,
+    "special": false
+  },
+  "g24-313000000126": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "서울시 전세보증금 반환보증 보증료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000149": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "안양시 중소기업 특례보증 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000111": {
+    "category": "금융",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "안산시 신혼부부 전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000237": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "청년 주택자금 대출이자 지원 (19세~45세)",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000144": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "광양청년 주택자금 대출이자 지원 (19세~45세)",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000122": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "소상공인 카드수수료 지원 (연매출 3억 이하)",
+    "show": true,
+    "special": false
+  },
+  "g24-497000000129": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "노란우산공제 희망장려금 지원 (연매출 3억 이하)",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000118": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산 환경 개선 구입비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000172": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "임신·출산"
+    ],
+    "support_type": "대출",
+    "summary": "청년 신혼부부 주택 전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-350000000115": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "중소기업 및 소상공인 특례보증 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-360000000259": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "소상공인 카드수수료 지원 (연매출 2억 이하)",
+    "show": true,
+    "special": false
+  },
+  "g24-373000000128": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "울주군 신혼부부 주택 매입/전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000104": {
+    "category": "주거",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "시흥형 주거비 지원 (기준중위소득 60% 이하)",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000168": {
+    "category": "주거",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "대출",
+    "summary": "공주시 다자녀가구 주택구입/전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-468100000004": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "익산시 신혼부부 청년 주택구입 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-474100000022": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "1인가구 주거안전 방문지킴이 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000148": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 주택(매입,전세)자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000190": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "청주시 청년 전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000131": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "볏짚 사일리지 제조용 비닐 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000125": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "청년 창업 도전 프로젝트 지원 (18세~49세)",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000153": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "청도군 신혼부부 주거자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000423": {
+    "category": "금융",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "대출",
+    "summary": "자활기금 운용 (생활안정자금 500만원)",
+    "show": true,
+    "special": true
+  },
+  "g24-304000000146": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "중개수수료 무료지원 서비스",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000186": {
+    "category": "금융",
+    "tags": [
+      "소상공인"
+    ],
+    "support_type": "현금",
+    "summary": "집합금지, 영업시간제한 방역조치로 경영상 손실 소상공인 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-305000000146": {
+    "category": "금융",
+    "tags": [
+      "소상공인"
+    ],
+    "support_type": "대출",
+    "summary": "동대문구 소상공인 최대 3천만원 융자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-305000000147": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "동대문구 1인가구 안심장비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-305000000170": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "동대문구 저소득층 주택임대차 중개보수 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-314000000255": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급자 주택임대차 중개보수 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-328000000143": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업",
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "영도구 청년 창업자 임차료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-349000000116": {
+    "category": "금융",
+    "tags": [
+      "소상공인"
+    ],
+    "support_type": "대출",
+    "summary": "인천 중구 소상공인 특례보증 및 이차보전 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-373000000121": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양계농가 1회용 난좌 구입비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000500": {
+    "category": "금융",
+    "tags": [
+      "소상공인"
+    ],
+    "support_type": "대출",
+    "summary": "시흥시 소상공인 특례보증 및 이차보전 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-406000000515": {
+    "category": "복지",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "파주시 19~39세 무주택 청년 월세 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000141": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "제천시 청년 주택자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000341": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "청년 창업 개인택시면허 양수 대출 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000336": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농기계 종합보험 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-492000000110": {
+    "category": "복지",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "강진군 19~45세 무주택 청년 주거비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-497000000130": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "영광군 신혼부부, 다자녀가정 전세자금 이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000110": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "봉화군 신재생에너지 사업자 융자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000111": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "의령군 옥수수 재배농가 생분해 멀칭필름 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-470000000103": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "남원시 신혼부부, 청년 전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00116200002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "제천시 중학생 장학퀴즈, 초등학생 융합 교실 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-371000000109": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "울산 동구 저소득층 건보료, 장기요양보험료 지원",
+    "show": true,
+    "special": false
   }
 }
