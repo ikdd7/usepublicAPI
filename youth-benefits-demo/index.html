@@ -68,6 +68,8 @@
   .reason.no{background:#fdeeee;color:#c0392b;border:1px solid #f3c4c4}
   a.src{color:var(--accent);font-size:12px;text-decoration:none;margin-top:9px;display:inline-block}
   .foot{margin-top:24px;font-size:11px;color:#8a97ad;line-height:1.6;text-align:center}
+  .prompt{grid-column:1/-1;max-width:520px;margin:0 auto;text-align:center;padding:30px 18px;color:var(--sub);font-size:14px;line-height:1.7;background:var(--card);border:1px dashed #c2d4ee;border-radius:14px}
+  .prompt b{color:var(--accent)}
   .hidden{display:none}
 </style>
 </head>
@@ -147,10 +149,10 @@
     <button class="share" onclick="share()">💬 카톡으로 친구에게 공유</button>
   </div>
 
-  <div class="sec-title"><span>✅ 받을 수 있어요</span><span id="eligcnt"></span></div>
+  <div class="sec-title" id="secElig"><span>✅ 받을 수 있어요</span><span id="eligcnt"></span></div>
   <div id="eligible"></div>
 
-  <div class="sec-title"><span>🔒 조건이 안 맞아요</span></div>
+  <div class="sec-title" id="secLocked"><span>🔒 조건이 안 맞아요</span></div>
   <div id="locked"></div>
 
   <p class="foot">
@@ -384,6 +386,18 @@ function evaluate(b, age){
 
 function render(){
   const age = parseInt(document.getElementById("age").value)||0;
+  // 조건(상황·직업) 선택 전에는 결과 그리드를 감추고 안내문만 노출
+  if(selected.size===0){
+    document.getElementById("eligible").innerHTML =
+      `<div class="prompt">👆 위에서 <b>상황·직업 조건</b>을 선택하면<br>받을 수 있는 혜택을 모아서 보여드려요.</div>`;
+    document.getElementById("eligcnt").textContent = "";
+    document.getElementById("total").textContent = "조건 선택 시 계산";
+    document.getElementById("cnt").textContent = selRegion;
+    document.getElementById("secLocked").style.display = "none";
+    document.getElementById("locked").innerHTML = "";
+    return;
+  }
+  document.getElementById("secLocked").style.display = "";
   const elig=[], locked=[]; let total=0;
   DATA.benefits.filter(visible).forEach(b=>{
     const ev = evaluate(b, age);
