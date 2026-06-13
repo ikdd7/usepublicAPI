@@ -2023,5 +2023,335 @@
     "summary": "출산 장려금 지원",
     "show": true,
     "special": false
+  },
+  "bd-68747470733a": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "건축.기술자, 사출 금형 사상, 단순 조립 생산직 채용",
+    "show": false,
+    "special": false
+  },
+  "g24-471000000131": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "김제시 출산장려금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-505000000103": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "경주시 출산축하금 및 출산장려금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000118": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "영주시 출산장려금 지원 (출산축하금, 분할금)",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000546": {
+    "category": "금융",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "농업인 월급제 융자 지원 (최대 1,600만원)",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000113": {
+    "category": "환경·생활",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축사 안개분무시설 설치비 지원 (최대 1,600만원)",
+    "show": true,
+    "special": false
+  },
+  "g24-303000000315": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "성동구민 생활안전보험 (상해 의료비 지원)",
+    "show": true,
+    "special": true
+  },
+  "g24-374000000115": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "미혼모가족복지시설 퇴소자 자립 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-390000000434": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "광명시 시민생활안전보험 (상해 사망 시 1,500만원)",
+    "show": true,
+    "special": true
+  },
+  "g24-391000000103": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경기도 퇴소 및 보호종결아동 자립정착금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-392000000165": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "동두천시 시민안전보험 (재해·재난 사망 시 지원)",
+    "show": true,
+    "special": true
+  },
+  "g24-407000000115": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "퇴소 및 보호종결아동 자립정착금 지원 (1,500만원)",
+    "show": true,
+    "special": false
+  },
+  "g24-430100000001": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "철원군민안전보험 (재해·사고 사망 시 2,000만원)",
+    "show": true,
+    "special": true
+  },
+  "g24-467000000114": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "군산시 출산지원금 지급 (첫째아 100만원)",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000119": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산장려금 지원 (첫째아 400만원, 둘째아 600만원)",
+    "show": true,
+    "special": false
+  },
+  "g24-534000000137": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "퇴소아동 자립정착금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-537000001446": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "거제시 시민안전보험 (재해·사고 사망 시 1,500만원)",
+    "show": true,
+    "special": true
+  },
+  "g24-546000000215": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "함양군 군민안전보험 (사고 사망 시 2,000만원)",
+    "show": true,
+    "special": true
+  },
+  "g24-328000000117": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "공동주택 경과연수 따라 최대 1000만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-330000000131": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "개물림 사고, 온열질환 등 9개 항목 보장",
+    "show": true,
+    "special": false
+  },
+  "g24-332000000104": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "출생아에게 첫만남이용권 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-334000000301": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "상해사망 최대 900만원, 상해진단 위로금 등",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000396": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "온열질환 진단비 10만원 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000397": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "13세 미만 어린이 상해 의료비 보상",
+    "show": true,
+    "special": false
+  },
+  "g24-340000000131": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "온열질환 진단비, 자연재해 사망 등 보장",
+    "show": true,
+    "special": false
+  },
+  "g24-346000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자립준비청년에게 1000만원 정착금 지급",
+    "show": true,
+    "special": true
+  },
+  "g24-374000000136": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산·입양 가정에 지원금 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000560": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "상해의료비 최대 70만원 보장",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000110": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임신부 축하금, 출산지원금 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000129": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산지원금 및 쌀 케이크 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-399000000393": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자연재해 사망 1000만원, 화상 10만원 등",
+    "show": true,
+    "special": false
+  },
+  "g24-400000000124": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자연재해, 폭발 등 상해사망 최대 1000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000487": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자연재해 사망 1000만원, 폭발·화재 등 상해사망",
+    "show": true,
+    "special": false
+  },
+  "g24-409000000135": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "상해의료비 보상",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000427": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산축하금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000207": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산·입양 장려금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-430000000137": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보호종료아동 자립정착금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-432100000007": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "온열질환 진단비 10, 자연재해 사망 1000만원",
+    "show": true,
+    "special": false
   }
 }
