@@ -23,8 +23,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: 프록시 라이브러리(undici) 설치
+        working-directory: youth-benefits-demo
+        run: npm i undici@6 --no-save || true
       - name: 인천 구·동 게시판 발견
         working-directory: youth-benefits-demo
+        env:
+          PROXY_URL: ${{ secrets.PROXY_URL }}   # 한국 IP 프록시(있으면 ON, 없으면 직결)
         run: node scraper/discover_incheon.mjs || true
       - name: 결과 커밋
         run: |

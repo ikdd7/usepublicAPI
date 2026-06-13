@@ -17,6 +17,7 @@
 import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { dirname, join } from "node:path";
+import { proxyDispatcher } from "./net.mjs";
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dir, "..", "data", "boards_live.json");
@@ -93,7 +94,8 @@ const abs = (href, base) => { try { return new URL(href, base).href; } catch { r
 async function get(url, ms = 15000) {
   const ctrl = new AbortController(); const to = setTimeout(() => ctrl.abort(), ms);
   try {
-    const res = await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9" }, signal: ctrl.signal, redirect: "follow" });
+    const d = await proxyDispatcher();
+    const res = await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9" }, signal: ctrl.signal, redirect: "follow", ...(d ? { dispatcher: d } : {}) });
     return { ok: res.ok, status: res.status, body: await res.text() };
   } catch (e) { return { ok: false, status: 0, body: "", err: e.message }; }
   finally { clearTimeout(to); }

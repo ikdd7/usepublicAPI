@@ -32,6 +32,7 @@ jobs:
         working-directory: youth-benefits-demo
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PROXY_URL: ${{ secrets.PROXY_URL }}   # 한국 IP 프록시(헤드리스 브라우저에 적용)
         run: node scraper/boards_headless.mjs || true
       - name: 결과 커밋
         run: |

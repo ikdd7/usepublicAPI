@@ -28,6 +28,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: 프록시 라이브러리(undici) 설치
+        working-directory: youth-benefits-demo
+        run: npm i undici@6 --no-save || true
       - name: 공공API 실데이터 수집 (복지로·보조금24·온통청년)
         working-directory: youth-benefits-demo
         env:
@@ -35,6 +38,7 @@ jobs:
           DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PROXY_URL: ${{ secrets.PROXY_URL }}   # 게시판 fetch에만 적용(API 스캔은 직결)
         run: |
           if [ -z "$DATA_GO_KR_KEY" ] && [ -z "$YOUTH_API_KEY" ]; then
             echo "::warning::API 키 시크릿이 없어 검증 시드로 배포합니다."

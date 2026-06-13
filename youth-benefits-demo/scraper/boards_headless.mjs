@@ -12,6 +12,7 @@ import { chromium } from "playwright";
 import { writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { playwrightProxy } from "./net.mjs";
 
 const __dir = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dir, "..", "data", "boards_headless.json");
@@ -47,7 +48,9 @@ const won = (t = "") => { t = t.replace(/,/g, ""); const m = t.match(/(\d+)\s*�
 function need(t = "") { const s = new Set(); if (/청년/.test(t)) s.add("구직중"); if (/소상공인|자영업|창업/.test(t)) s.add("자영업·창업"); if (/무주택|월세|임차/.test(t)) s.add("무주택"); if (/출산|임신|육아|보육|영유아/.test(t)) s.add("육아"); if (/장애/.test(t)) s.add("장애인"); if (/저소득|기초생활|차상위/.test(t)) s.add("저소득"); return [...s]; }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const browser = await chromium.launch({ args: ["--no-sandbox"] });
+const _pxy = playwrightProxy();
+if (_pxy) console.log(`  [proxy] 헤드리스 프록시 활성: ${_pxy.server}`);
+const browser = await chromium.launch({ args: ["--no-sandbox"], ...(_pxy ? { proxy: _pxy } : {}) });
 const out = [];
 for (const { region, boards } of REGISTRY) {
   for (const url of boards) {
