@@ -1,8 +1,8 @@
 {
   "meta": {
     "source": "구청공고(헤드리스·AI보강)",
-    "snapshot_date": "2026-06-12",
-    "count": 38,
+    "snapshot_date": "2026-06-13",
+    "count": 22,
     "llm": 0
   },
   "benefits": [
@@ -88,38 +88,6 @@
     },
     {
       "id": "bh-68747470733a",
-      "title": "아라건강생활지원센터 [근육팡팡 근력운동교실 2기] 참여자 모집 안내",
-      "category": "구청공고",
-      "region": "인천광역시 서구",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 서구 [구청공고]",
-      "source": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30184&bcd=notice"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "아라건강생활지원센터 [오감을 깨우는 꼬마놀이터 2기] 참여자 모집",
-      "category": "구청공고",
-      "region": "인천광역시 서구",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 서구 [구청공고]",
-      "source": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30179&bcd=notice"
-    },
-    {
-      "id": "bh-68747470733a",
       "title": "심폐소생술 등 응급처치 교육 신청 안내(6.24.)",
       "category": "구청공고",
       "region": "인천광역시 서구",
@@ -149,24 +117,6 @@
       "how": "구청 공고 확인",
       "contact": "인천광역시 서구 [구청공고]",
       "source": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30061&bcd=notice"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "(민간분양) '엘리프 고덕 센트럴하이(Aab-13BL)' 장애인 특별공급 기관추천자 신청 접수 알림",
-      "category": "구청공고",
-      "region": "인천광역시 서구",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [
-        "장애인"
-      ],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 서구 [구청공고]",
-      "source": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30191&bcd=notice"
     },
     {
       "id": "bh-68747470733a",
@@ -374,7 +324,7 @@
       "apply_end": null,
       "how": "구청 공고 확인",
       "contact": "인천광역시 강화군 [구청공고]",
-      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=802278F26833DE7C0F7EE6DF2A743838?msg_seq=12316&bcd=notice"
+      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=D3115038C74834B460137CF43B93714D?msg_seq=12316&bcd=notice"
     },
     {
       "id": "bh-68747470733a",
@@ -392,7 +342,7 @@
       "apply_end": null,
       "how": "구청 공고 확인",
       "contact": "인천광역시 강화군 [구청공고]",
-      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=802278F26833DE7C0F7EE6DF2A743838?msg_seq=12315&bcd=notice"
+      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=D3115038C74834B460137CF43B93714D?msg_seq=12315&bcd=notice"
     },
     {
       "id": "bh-68747470733a",
@@ -408,225 +358,7 @@
       "apply_end": null,
       "how": "구청 공고 확인",
       "contact": "인천광역시 강화군 [구청공고]",
-      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=802278F26833DE7C0F7EE6DF2A743838?msg_seq=12311&bcd=notice"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "소상공인 경영안정 바우처 지원사업 안내",
-      "category": "구청공고",
-      "region": "인천광역시 옹진군",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [
-        "자영업·창업"
-      ],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 옹진군 [구청공고]",
-      "source": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=21&bcd=store"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "2026년 소상공인 고용보험료 지원사업 안내",
-      "category": "구청공고",
-      "region": "인천광역시 옹진군",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [
-        "자영업·창업"
-      ],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 옹진군 [구청공고]",
-      "source": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=17&bcd=store"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "「소상공인 부담경감 크레딧 지원사업」 안내",
-      "category": "구청공고",
-      "region": "인천광역시 옹진군",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [
-        "자영업·창업"
-      ],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 옹진군 [구청공고]",
-      "source": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=13&bcd=store"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "2025년 인천형 특별 경영안정자금 지원사업",
-      "category": "구청공고",
-      "region": "인천광역시 옹진군",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 옹진군 [구청공고]",
-      "source": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=12&bcd=store"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "소상공인 배달·택배비 지원사업(연매출 기준 변경)",
-      "category": "구청공고",
-      "region": "인천광역시 옹진군",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [
-        "자영업·창업"
-      ],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 옹진군 [구청공고]",
-      "source": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=11&bcd=store"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "2025년 2단계 희망인천 소상공인 경영안정자금 지원 사업공고",
-      "category": "구청공고",
-      "region": "인천광역시 옹진군",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [
-        "자영업·창업"
-      ],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 옹진군 [구청공고]",
-      "source": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=10&bcd=store"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "'인천형 특별 경영안정자금Ⅱ-2차' 지원사업 안내",
-      "category": "구청공고",
-      "region": "인천광역시 옹진군",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 옹진군 [구청공고]",
-      "source": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=9&bcd=store"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "2026년 하반기 일반 공정선거지원단 모집 안내",
-      "category": "구청공고",
-      "region": "인천광역시 옹진군",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 옹진군 [구청공고]",
-      "source": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=26692&bcd=notice"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "2026년 옹진군 섬섬옥수 학습택배 학습자 모집 안내",
-      "category": "구청공고",
-      "region": "인천광역시 옹진군",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 옹진군 [구청공고]",
-      "source": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=26691&bcd=notice"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "「고유가 피해지원금」2차 지급 안내",
-      "category": "구청공고",
-      "region": "인천광역시 옹진군",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 옹진군 [구청공고]",
-      "source": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=26680&bcd=notice"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "인천광역시 주민참여예산 제안사업 공모 및 위원(10기) 모집 홍보",
-      "category": "구청공고",
-      "region": "인천광역시 동구",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 동구 [구청공고]",
-      "source": "https://www.icdonggu.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=53&bcd=budget_notice"
-    },
-    {
-      "id": "bh-687474703a2f",
-      "title": "동구 도시재생지원센터",
-      "category": "구청공고",
-      "region": "인천광역시 동구",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 동구 [구청공고]",
-      "source": "http://donggu0408.com/"
-    },
-    {
-      "id": "bh-68747470733a",
-      "title": "동구청소년상담복지 및 학교밖청소년지원센터",
-      "category": "구청공고",
-      "region": "인천광역시 동구",
-      "amount": 0,
-      "amount_label": "공고 확인 필요",
-      "age_min": 0,
-      "age_max": 120,
-      "need": [],
-      "support_type": "서비스",
-      "apply_end": null,
-      "how": "구청 공고 확인",
-      "contact": "인천광역시 동구 [구청공고]",
-      "source": "https://dream1388.or.kr/"
+      "source": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=D3115038C74834B460137CF43B93714D?msg_seq=12311&bcd=notice"
     }
   ]
 }
