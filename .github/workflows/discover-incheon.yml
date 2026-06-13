@@ -1,0 +1,35 @@
+name: 인천 게시판 자동 발견 (구·동)
+
+# 정적 fetch로 인천 10개 구·군 홈을 훑어 '지원공고 보유' 게시판(구·동)을 찾아
+# data/incheon_boards.json 으로 커밋한다. 메인 수집(youth-benefits)이 이 파일을 읽어 합류.
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 19 * * 1"   # 매주 월 04:00 KST (메인 06:00 전에 갱신)
+  push:
+    branches: ["claude/niche-market-structure-cQHsO"]
+    paths:
+      - "youth-benefits-demo/scraper/discover_incheon.mjs"
+      - ".github/workflows/discover-incheon.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: 인천 구·동 게시판 발견
+        working-directory: youth-benefits-demo
+        run: node scraper/discover_incheon.mjs || true
+      - name: 결과 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add youth-benefits-demo/data/incheon_boards.json
+          git diff --staged --quiet || git commit -m "data: 인천 구·동 게시판 발견 갱신 [skip ci]"
+          git push

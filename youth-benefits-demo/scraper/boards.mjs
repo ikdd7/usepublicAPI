@@ -58,6 +58,22 @@ const REGISTRY = [
   ] },
 ];
 
+// discover_incheon.mjs가 자동 발견해 저장한 게시판(구·동 단위)을 REGISTRY에 병합
+function loadDiscovered() {
+  const f = join(__dir, "..", "data", "incheon_boards.json");
+  if (!existsSync(f)) return [];
+  try { return (JSON.parse(readFileSync(f, "utf-8")).registry || []); } catch { return []; }
+}
+function mergedRegistry() {
+  const byRegion = new Map();
+  for (const e of [...REGISTRY, ...loadDiscovered()]) {
+    const cur = byRegion.get(e.region) || new Set();
+    (e.boards || []).forEach((u) => cur.add(u));
+    byRegion.set(e.region, cur);
+  }
+  return [...byRegion.entries()].map(([region, set]) => ({ region, boards: [...set] }));
+}
+
 // 지원사업 신호 키워드 (제목 1차 필터)
 const KW = /지원|보조금|지원금|모집|신청|지급|바우처|선착순|수당|장려금|돌봄|구입비|설치비/;
 // 게시판 후보 링크 신호
@@ -100,7 +116,7 @@ function textOf(html) {
 /* ---------- 1단계: 지자체별 후보 글 수집 (서버렌더 .asp 게시판 직접) ---------- */
 async function harvestCandidates({ dump = false } = {}) {
   const candidates = [];
-  for (const { region, boards } of REGISTRY) {
+  for (const { region, boards } of mergedRegistry()) {
     for (const b of boards) {
       await sleep(1000);
       const r = await get(b);

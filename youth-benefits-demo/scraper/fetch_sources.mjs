@@ -315,15 +315,52 @@ function srcHeadless() {
   } catch { return []; }
 }
 
-/* ---------- 머지 + 중복제거 ---------- */
+/* ---------- 머지 + 중복제거(같은 사업 합치기) ---------- */
+// 정규화 제목: 연도·호수·괄호·공백·문장부호 제거 → 같은 사업 판별 키
+function normTitle(t = "") {
+  return `${t}`.toLowerCase()
+    .replace(/20\d{2}\s*년?도?|제?\s*\d+\s*[차호회]|\[[^\]]*\]|\([^)]*\)/g, "")
+    .replace(/[\s()\[\]{}·\-~,.\/]/g, "")
+    .slice(0, 30);
+}
+const isDong = (r = "") => r.split(" ").length >= 3;                 // "인천 연수구 송도동"
+const rollupGu = (r = "") => r.split(" ").slice(0, 2).join(" ");     // → "인천 연수구"
+// 정보량 점수(많은 쪽을 대표로): 금액 > 라벨길이 > 요약 > 마감일 > 분야명확
+function infoScore(b) {
+  return (b.amount || 0) / 1e4 + (b.amount_label || "").length * 0.1
+    + (b.summary ? 5 : 0) + (b.apply_end ? 3 : 0) + (b.category && b.category !== "구청공고" && b.category !== "기타" ? 2 : 0);
+}
+function mergeTwo(a, b) {
+  const [hi, lo] = infoScore(a) >= infoScore(b) ? [a, b] : [b, a];
+  const srcs = [...new Set(`${a._src || ""}+${b._src || ""}`.split("+").filter(Boolean))].join("+");
+  return {
+    ...hi,
+    need: [...new Set([...(a.need || []), ...(b.need || [])])],
+    summary: hi.summary || lo.summary || "",
+    apply_end: hi.apply_end || lo.apply_end || null,
+    amount: Math.max(a.amount || 0, b.amount || 0),
+    _src: srcs,
+    _also: [...new Set([...(a._also || []), ...(b._also || []), a.source, b.source].filter((u) => u && u !== hi.source))].slice(0, 4),
+  };
+}
 export function dedupe(items) {
+  // 0) 동단위 보드글 승격: 같은 구·같은 사업이 2개 이상 동에 올라오면 '구 단위 1건'으로 합침
+  const guCnt = new Map();
+  for (const it of items) if (isDong(it.region)) {
+    const k = normTitle(it.title) + "|" + rollupGu(it.region);
+    guCnt.set(k, (guCnt.get(k) || 0) + 1);
+  }
+  const lifted = items.map((it) => {
+    if (!isDong(it.region)) return it;
+    const k = normTitle(it.title) + "|" + rollupGu(it.region);
+    return guCnt.get(k) > 1 ? { ...it, region: rollupGu(it.region) } : it; // 여러 동 중복 = 구 사업
+  });
+  // 1) 표준 병합: (정규제목 + 지역) 동일하면 한 건으로 합치고 출처를 모은다
   const seen = new Map();
-  for (const it of items) {
-    const k = (it.title || "").toLowerCase().replace(/[\s()\[\]·\-~]/g, "").slice(0, 24) + "|" + (it.region || "");
+  for (const it of lifted) {
+    const k = normTitle(it.title) + "|" + (it.region || "");
     const prev = seen.get(k);
-    if (!prev || it.amount > prev.amount || (it.amount === prev.amount && it.amount_label.length > prev.amount_label.length)) {
-      seen.set(k, prev ? { ...it, _src: `${prev._src}+${it._src}` } : it);
-    }
+    seen.set(k, prev ? mergeTwo(prev, it) : it);
   }
   return [...seen.values()];
 }
@@ -534,6 +571,27 @@ function selftest() {
     ["isYouth", isYouthText("만 25세 청년") && !isYouthText("어르신")],
     ["parseJsonLoose 코드펜스", JSON.stringify(parseJsonLoose('```json\n[{"id":1}]\n```')) === '[{"id":1}]'],
     ["dedupe 지역분리", dedupe([a, { ...a, region: "인천광역시 남동구" }]).length === 2],
+    ["dedupe 같은사업 병합(연도차이)", dedupe([
+      { id: "x1", title: "2025년 청년 면접수당", region: "인천광역시 연수구", amount: 0, amount_label: "", need: [], _src: "구청공고", source: "u1" },
+      { id: "x2", title: "청년 면접수당", region: "인천광역시 연수구", amount: 100000, amount_label: "최대 10만원", need: ["구직중"], summary: "면접수당", _src: "보조금24", source: "u2" },
+    ]).length === 1],
+    ["dedupe 병합시 정보풍부쪽 채택+출처합산", (() => {
+      const m = dedupe([
+        { id: "y1", title: "효도수당", region: "인천광역시 연수구", amount: 0, amount_label: "", need: [], _src: "구청공고", source: "u1" },
+        { id: "y2", title: "효도수당", region: "인천광역시 연수구", amount: 300000, amount_label: "분기 30만원", need: ["저소득"], _src: "복지로(지자체)", source: "u2" },
+      ])[0];
+      return m.amount === 300000 && m._src.includes("구청공고") && m._src.includes("복지로(지자체)");
+    })()],
+    ["dedupe 동단위 중복→구단위 승격", (() => {
+      const r = dedupe([
+        { id: "z1", title: "에너지바우처", region: "인천광역시 미추홀구 숭의동", amount: 0, amount_label: "", need: [], _src: "구청공고", source: "u1" },
+        { id: "z2", title: "에너지바우처", region: "인천광역시 미추홀구 용현동", amount: 0, amount_label: "", need: [], _src: "구청공고", source: "u2" },
+      ]);
+      return r.length === 1 && r[0].region === "인천광역시 미추홀구";
+    })()],
+    ["dedupe 동단위 단독은 동 유지", dedupe([
+      { id: "w1", title: "용현동 경로당 지원", region: "인천광역시 미추홀구 용현동", amount: 0, amount_label: "", need: [], _src: "구청공고", source: "u1" },
+    ])[0].region === "인천광역시 미추홀구 용현동"],
     ["나이 범위(만19~34세)", JSON.stringify(parseAgeRange("만 19~34세 청년")) === "[19,34]"],
     ["나이 이상(65세이상)", JSON.stringify(parseAgeRange("65세 이상 어르신")) === "[65,120]"],
     ["나이 키워드(영유아)", JSON.stringify(parseAgeRange("영유아 보육료")) === "[0,5]"],
