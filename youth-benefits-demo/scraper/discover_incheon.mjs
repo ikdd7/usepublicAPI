@@ -60,7 +60,7 @@ const DONG_KW = /(주민센터|행정복지센터|[가-힣]{1,3}[동읍면]\b)/;
 const POST_HREF = /(view|seq=|idx=|no=|num=|bidx|nttsn|articleno|artcl|mgr_seq|board_seq|\d{3,})/i;
 // 전체 시간예산(프록시 지연 대비) — 초과 시 그때까지 결과로 저장(다음 실행에 누적 병합)
 const T0 = Date.now();
-const BUDGET_MS = Number(process.env.DISCOVER_BUDGET_MS || 240000);
+const BUDGET_MS = Number(process.env.DISCOVER_BUDGET_MS || 300000);
 const overBudget = () => Date.now() - T0 > BUDGET_MS;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -76,6 +76,17 @@ async function get(url, ms = 9000) {
     return { ok: res.ok, status: res.status, body: await res.text() };
   } catch (e) { return { ok: false, status: 0, body: "", err: e.message }; }
   finally { clearTimeout(to); }
+}
+// 로테이팅 프록시는 연결마다 IP가 바뀌므로 실패 시 재시도하면 다른 한국 IP로 붙는다.
+async function getR(url, ms, tries = 1) {
+  let last = { ok: false };
+  for (let i = 0; i < tries; i++) {
+    last = await get(url, ms);
+    if (last.ok) return last;
+    if (overBudget()) break;
+    if (i < tries - 1) await sleep(800);
+  }
+  return last;
 }
 
 function anchors(html, base) {
@@ -109,9 +120,9 @@ async function discoverSite({ gu, home }) {
   const region = `인천광역시 ${gu}`;
   console.log(`\n##### ${region} (${home}) #####`);
   const host = new URL(home).host;
-  const r = await get(home, 15000);
+  const r = await getR(home, 15000, 3);   // 실패 시 IP 바꿔 3회 재시도
   const homeOk = r.ok;
-  if (!homeOk) console.log(`  ⚠ 홈 접속 실패(${r.status || r.err}) → 시드 게시판만 직접 점검`);
+  if (!homeOk) console.log(`  ⚠ 홈 접속 실패(${r.status || r.err}) → 시드 게시판만 직접 점검(재시도)`);
   const links = homeOk ? anchors(r.body, home).filter((a) => cleanBoardUrl(a.href, host)) : [];
 
   // ── 구 단위 게시판 후보 = 홈에서 발견 + 시드(깊은 URL) ──
@@ -122,7 +133,7 @@ async function discoverSite({ gu, home }) {
   for (const url of candUrls) {
     if (overBudget()) break;
     await sleep(250);
-    const p = await get(url);
+    const p = await getR(url, 9000, homeOk ? 1 : 3);   // 홈 실패 구의 시드는 IP 바꿔 재시도
     if (!p.ok) continue;
     const s = scoreBoard(p.body, url);
     if (s.supports > 0) { guBoards.push({ url, ...s }); guSet.add(url); console.log(`  ✓[구 지원 ${s.supports}/${s.posts}] ${url}`); s.sample.forEach((x) => console.log(`       · ${x}`)); }
