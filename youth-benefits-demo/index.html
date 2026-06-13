@@ -6,41 +6,42 @@
 <title>우리동네 복지·지원 · 전국</title>
 <style>
   :root{
-    --bg:#0e1116; --card:#171c24; --line:#262d39; --txt:#e7ecf3; --sub:#9aa6b8;
-    --accent:#3d8bff; --accent2:#19c37d; --warn:#ff6b6b; --gold:#ffcc4d;
+    --bg:#eef4fc; --card:#ffffff; --line:#d8e3f2; --txt:#16243f; --sub:#5a6b86;
+    --accent:#2b6fff; --accent2:#12b886; --warn:#ef4444; --gold:#1558d6;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:var(--bg);color:var(--txt);line-height:1.5;-webkit-font-smoothing:antialiased}
+  body{font-family:-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:linear-gradient(180deg,#e6f0ff,#eef4fc 260px);color:var(--txt);line-height:1.5;-webkit-font-smoothing:antialiased}
   .wrap{max-width:480px;margin:0 auto;padding:16px 14px 60px}
   header{padding:8px 2px 14px}
-  .loc{display:inline-flex;align-items:center;gap:5px;background:#1d2530;border:1px solid var(--line);color:var(--sub);font-size:12px;padding:5px 10px;border-radius:999px}
+  .loc{display:inline-flex;align-items:center;gap:5px;background:#e3eeff;border:1px solid #cfe0f7;color:#3f5d8f;font-size:12px;padding:5px 10px;border-radius:999px}
   h1{font-size:23px;font-weight:800;margin:12px 0 4px;letter-spacing:-.5px}
   h1 b{color:var(--accent)}
   .lede{color:var(--sub);font-size:13.5px}
-  .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-top:16px}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-top:16px;box-shadow:0 2px 12px rgba(43,111,255,.06)}
   .panel h2{font-size:14px;color:var(--sub);font-weight:600;margin-bottom:12px}
   .agewrap{display:flex;align-items:center;gap:10px;margin-bottom:14px}
-  .agewrap input{width:88px;background:#0e1319;border:1px solid var(--line);color:var(--txt);font-size:20px;font-weight:700;text-align:center;border-radius:10px;padding:10px}
+  .agewrap input{width:88px;background:#f4f8fe;border:1px solid var(--line);color:var(--txt);font-size:20px;font-weight:700;text-align:center;border-radius:10px;padding:10px}
   .agewrap label{font-size:14px;color:var(--sub)}
-  .agewrap select{flex:1;background:#0e1319;border:1px solid var(--line);color:var(--txt);font-size:14px;border-radius:10px;padding:11px 10px}
-  .summary{background:linear-gradient(135deg,#15233a,#1a1f2b);border:1px solid #2a3a55;border-radius:16px;padding:15px 16px;margin-top:16px}
-  .summary .sb-title{font-size:12px;color:#8fb6ff;font-weight:700;margin-bottom:6px}
-  #summaryText{font-size:13.5px;color:#dfe7f2;line-height:1.6}
-  .csum{font-size:12.5px;color:#a9b6c8;margin:2px 0 4px}
+  .agewrap select{flex:1;background:#f4f8fe;border:1px solid var(--line);color:var(--txt);font-size:14px;border-radius:10px;padding:11px 10px}
+  .summary{background:linear-gradient(135deg,#e1edff,#f2f8ff);border:1px solid #c9ddf8;border-radius:16px;padding:15px 16px;margin-top:16px}
+  .summary .sb-title{font-size:12px;color:#1f6bdf;font-weight:700;margin-bottom:6px}
+  #summaryText{font-size:13.5px;color:#2a3a55;line-height:1.6}
+  .csum{font-size:12.5px;color:#5a6b86;margin:2px 0 4px}
   .exp{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--sub);margin:8px 2px 2px;cursor:pointer}
-  .badge.exp-b{background:#3a1d1d;color:#ffb3b3;border:1px solid #5e2a2a}
+  .badge.exp-b{background:#fde8e8;color:#c0392b;border:1px solid #f3c4c4}
   .chips{display:flex;flex-wrap:wrap;gap:8px}
-  .grp{font-size:11.5px;color:#6b7689;margin:10px 2px 6px;font-weight:600}
-  .chip{background:#0e1319;border:1px solid var(--line);color:var(--sub);font-size:13px;padding:8px 13px;border-radius:999px;cursor:pointer;user-select:none;transition:.15s}
+  .grp{font-size:11.5px;color:#7689a3;margin:10px 2px 6px;font-weight:600}
+  .chip{background:#eef3fb;border:1px solid var(--line);color:#4a5c78;font-size:13px;padding:8px 13px;border-radius:999px;cursor:pointer;user-select:none;transition:.15s}
+  .chip:hover{border-color:#9fc0ff;color:var(--accent)}
   .chip.on{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
-  .result-banner{margin-top:18px;background:linear-gradient(135deg,#10351f,#0f2235);border:1px solid #1f6b46;border-radius:16px;padding:18px;text-align:center}
+  .result-banner{margin-top:18px;background:linear-gradient(135deg,#dcebff,#e7f7f1);border:1px solid #bcd8ff;border-radius:16px;padding:18px;text-align:center;box-shadow:0 4px 16px rgba(43,111,255,.08)}
   .result-banner .big{font-size:34px;font-weight:900;color:var(--gold);letter-spacing:-1px}
-  .result-banner .cap{font-size:13px;color:#bfe9cf;margin-top:2px}
-  .result-banner .cnt{font-size:13px;color:#bfe9cf;margin-top:8px}
+  .result-banner .cap{font-size:13px;color:#3f6098;margin-top:2px}
+  .result-banner .cnt{font-size:13px;color:#3f6098;margin-top:8px}
   .share{margin-top:12px;display:inline-block;background:#fee500;color:#191600;font-weight:700;font-size:13px;padding:9px 18px;border-radius:10px;border:none;cursor:pointer}
   .sec-title{margin:22px 4px 10px;font-size:13px;color:var(--sub);font-weight:600;display:flex;justify-content:space-between}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px;margin-bottom:10px;position:relative;overflow:hidden}
-  .card.elig{border-color:#2f6b4a}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px;margin-bottom:10px;position:relative;overflow:hidden;box-shadow:0 1px 8px rgba(22,36,63,.06)}
+  .card.elig{border-color:#a7e3cf}
   .card.elig:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent2)}
   /* 받을 수 있어요: 가로로 여러 개. 좁은 본문(480px)을 벗어나 넓게 펼침 */
   #eligible{display:grid;grid-template-columns:1fr;gap:10px;align-items:start}
@@ -49,21 +50,21 @@
     #eligible{position:relative;left:50%;transform:translateX(-50%);width:94vw;max-width:1200px;
       grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
   }
-  .card.locked{opacity:.5}
+  .card.locked{opacity:.6}
   .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
   .ctitle{font-size:15.5px;font-weight:700}
-  .cat{font-size:11px;color:var(--sub);background:#0e1319;border:1px solid var(--line);padding:3px 8px;border-radius:6px;white-space:nowrap}
+  .cat{font-size:11px;color:var(--sub);background:#eef3fb;border:1px solid var(--line);padding:3px 8px;border-radius:6px;white-space:nowrap}
   .amt{color:var(--gold);font-weight:700;font-size:14px;margin:8px 0 6px}
   .meta{font-size:12.5px;color:var(--sub);margin-top:3px}
   .meta b{color:var(--txt);font-weight:600}
   .badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
   .badge{font-size:11px;padding:3px 8px;border-radius:6px;font-weight:600}
-  .dday{background:#3a1d1d;color:#ffb3b3;border:1px solid #5e2a2a}
-  .dday.open{background:#13301f;color:#8fe6b4;border:1px solid #2f6b4a}
-  .reason{background:#2a1f0e;color:var(--gold);border:1px solid #5e4a1f}
-  .reason.no{background:#241a1a;color:#d99;border:1px solid #4a2a2a}
+  .dday{background:#fde8e8;color:#c0392b;border:1px solid #f3c4c4}
+  .dday.open{background:#e3f7ed;color:#0f8a5a;border:1px solid #b6e6cd}
+  .reason{background:#eaf1ff;color:#1f6bdf;border:1px solid #c9ddf8}
+  .reason.no{background:#fdeeee;color:#c0392b;border:1px solid #f3c4c4}
   a.src{color:var(--accent);font-size:12px;text-decoration:none;margin-top:9px;display:inline-block}
-  .foot{margin-top:24px;font-size:11px;color:#5d6678;line-height:1.6;text-align:center}
+  .foot{margin-top:24px;font-size:11px;color:#8a97ad;line-height:1.6;text-align:center}
   .hidden{display:none}
 </style>
 </head>
