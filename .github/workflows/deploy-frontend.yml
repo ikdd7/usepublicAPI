@@ -1,0 +1,48 @@
+name: 프론트 빠른 배포 (index.html만)
+
+# index.html(프런트)만 바뀌면 데이터 재수집 없이 1~2분 만에 배포.
+# 큰 라이브 데이터(yeonsu_youth_live.json, gitignore)는 '현재 배포본'에서 그대로 가져와 재사용한다.
+on:
+  workflow_dispatch: {}
+  push:
+    branches: ["claude/niche-market-structure-cQHsO"]
+    paths:
+      - "youth-benefits-demo/index.html"
+      - ".github/workflows/deploy-frontend.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false   # 진행 중인 수집 배포를 취소하지 않고 큐잉
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 라이브 데이터 재사용(현재 배포본에서 가져오기)
+        working-directory: youth-benefits-demo
+        run: |
+          mkdir -p data
+          curl -fsSL https://ikdd7.github.io/usepublicAPI/data/yeonsu_youth_live.json \
+            -o data/yeonsu_youth_live.json \
+            && echo "라이브 데이터 재사용: $(wc -c < data/yeonsu_youth_live.json) bytes" \
+            || echo "::warning::라이브 데이터 없음 → 검증 시드로 폴백"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: youth-benefits-demo
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
