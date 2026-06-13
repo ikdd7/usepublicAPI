@@ -53,6 +53,8 @@ jobs:
           git add youth-benefits-demo/data/llm_cache.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "data: LLM 분류 캐시 갱신 [skip ci]"
           git push || true
+      - name: 배포 전 node_modules 제거(빌드 전용 — 사이트에 안 올림)
+        run: rm -rf youth-benefits-demo/node_modules
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
