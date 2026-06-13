@@ -172,7 +172,9 @@ async function main() {
     (e.boards || []).filter(okUrl).forEach((u) => cur.add(u.split("#")[0]));
     byRegion.set(e.region, cur);
   }
-  const merged = [...byRegion.entries()].map(([region, set]) => ({ region, boards: [...set] })).filter((e) => e.boards.length);
+  const merged = [...byRegion.entries()].map(([region, set]) => ({ region, boards: [...set] }))
+    .filter((e) => e.boards.length)
+    .filter((e) => { const p = e.region.split(" "); return p.length < 3 || (!DONG_STOP.test(p[2]) && /[가-힣]{2,3}[동읍면]$/.test(p[2])); }); // 가짜 동(우리동 등) 제거
 
   mkdirSync(dirname(OUT), { recursive: true });
   writeFileSync(OUT, JSON.stringify({

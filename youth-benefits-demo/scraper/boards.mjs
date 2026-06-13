@@ -59,15 +59,21 @@ const REGISTRY = [
 ];
 
 // discover_incheon.mjs가 자동 발견해 저장한 게시판(구·동 단위)을 REGISTRY에 병합
+const DONG_STOP = /우리동|이동|활동|행동|아동|노동|공동|자동|동행|동참|동의/;
 function loadDiscovered() {
   const f = join(__dir, "..", "data", "incheon_boards.json");
   if (!existsSync(f)) return [];
   try { return (JSON.parse(readFileSync(f, "utf-8")).registry || []); } catch { return []; }
 }
+// 가짜 동(우리동 등)·잘못된 동명 지역은 제외
+function okRegion(region = "") {
+  const p = region.split(" ");
+  return p.length < 3 || (!DONG_STOP.test(p[2]) && /[가-힣]{2,3}[동읍면]$/.test(p[2]));
+}
 function mergedRegistry() {
   const okUrl = (u) => { try { const x = new URL(u); return !x.hash && x.pathname.length > 1; } catch { return false; } };
   const byRegion = new Map();
-  for (const e of [...REGISTRY, ...loadDiscovered()]) {
+  for (const e of [...REGISTRY, ...loadDiscovered()].filter((e) => okRegion(e.region))) {
     const cur = byRegion.get(e.region) || new Set();
     (e.boards || []).filter(okUrl).forEach((u) => cur.add(u.split("#")[0]));
     byRegion.set(e.region, cur);
