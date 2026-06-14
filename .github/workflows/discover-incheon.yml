@@ -35,10 +35,14 @@ jobs:
         env:
           PROXY_URL: ${{ secrets.PROXY_URL }}   # 한국 IP 프록시(시크릿으로 설정 시 ON, 없으면 직결)
         run: node scraper/discover_incheon.mjs || true
-      - name: 결과 커밋
+      - name: 결과 커밋(푸시 경합 대비 rebase 재시도)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add youth-benefits-demo/data/incheon_boards.json
-          git diff --staged --quiet || git commit -m "data: 인천 구·동 게시판 발견 갱신 [skip ci]"
-          git push
+          git diff --staged --quiet && { echo "변경 없음"; exit 0; }
+          git commit -m "data: 지자체 게시판 발견 갱신 [skip ci]"
+          for i in 1 2 3 4 5; do
+            git push && { echo "푸시 성공"; exit 0; } || { echo "push 재시도 $i"; git pull --rebase origin claude/niche-market-structure-cQHsO || true; sleep 3; }
+          done
+          echo "::warning::커밋 푸시 최종 실패"; exit 0
