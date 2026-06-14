@@ -60,7 +60,12 @@
   }
   .card.locked{opacity:.6}
   .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
-  .ctitle{font-size:15.5px;font-weight:700}
+  .dcat{display:inline-block;font-size:11px;font-weight:700;color:#1f6bdf;background:#eaf1ff;border:1px solid #cfe0f7;border-radius:999px;padding:2px 9px;margin-bottom:7px}
+  .ctitle{font-size:15.5px;font-weight:700;line-height:1.35}
+  .cmeta{font-size:12px;color:var(--sub);margin-top:8px}
+  .cmeta b{font-weight:700}
+  .cmeta .dopen{color:#0f8a5a}
+  .cmeta .dclose{color:#c0392b}
   .cat{font-size:11px;color:var(--sub);background:#eef3fb;border:1px solid var(--line);padding:3px 8px;border-radius:6px;white-space:nowrap}
   .amt{color:var(--gold);font-weight:700;font-size:14px;margin:8px 0 6px}
   .meta{font-size:12.5px;color:var(--sub);margin-top:3px}
@@ -272,17 +277,19 @@ function regionMatch(b){
   return false;
 }
 
-// 데이터에 실제 존재하는 분야로 칩 동적 생성
+// 데이터에 실제 존재하는 '세부 카테고리'로 칩 동적 생성(맞춤형 필터)
 function buildCatChips(){
-  const cats = [...new Set(DATA.benefits.map(b=>b.category).filter(Boolean))].slice(0,10);
+  const order = DETAIL_CATS.map(d=>d[0]);
+  const present = new Set(DATA.benefits.map(b=>b.dcat).filter(Boolean));
+  const cats = order.filter(c=>present.has(c)).concat([...present].filter(c=>!order.includes(c)));
   document.getElementById("catChips").innerHTML =
-    cats.map(c=>`<span class="chip" data-cat="${c}">${c}</span>`).join("");
+    cats.slice(0,40).map(c=>`<span class="chip" data-cat="${c}">${c}</span>`).join("");
   selCats.clear();
 }
 function visible(b){
   if(!regionMatch(b)) return false;
   if(!showExpired && b.expired) return false;                       // 마감 기본 숨김
-  if(selCats.size && !selCats.has(b.category)) return false;
+  if(selCats.size && !selCats.has(b.dcat)) return false;
   if(selTypes.size && !selTypes.has(b.support_type||"서비스")) return false;
   if(showAll){ /* 전체 보기: 특수/노이즈 숨김 해제 */ }
   else if(selTopics.size){                                            // 성격별 선택 → 그 주제만(특수 포함)
@@ -313,6 +320,41 @@ const TOPIC_RULES = [
 function deriveTopics(b){
   const blob = `${b.title} ${b.category} ${b.amount_label} ${(b.need||[]).join(" ")} ${b.summary||""}`;
   const t = []; for(const [name,re] of TOPIC_RULES) if(re.test(blob)) t.push(name); return t;
+}
+// ── 세부 카테고리(맞춤형): 제목/요약 키워드로 한 건당 1개 대표 분류(앞 규칙 우선) ──
+const DETAIL_CATS = [
+  ["🏠 청년 월세·주거", /청년.*(월세|주거|임차)|월세\s*지원|청년월세/],
+  ["🏠 전세·보증금", /전세|보증금|임차보증|전월세|반환보증/],
+  ["🏠 임대·공공주택", /임대주택|공공주택|행복주택|매입임대|전세임대/],
+  ["🛠 집수리·에너지", /집수리|주택개량|단열|창호|보일러|정화조|슬레이트|노후주택|에너지효율|태양광|신재생/],
+  ["🍚 출산지원금", /출산\s*(지원금|장려금|축하)|첫만남|출산축하|양육수당|부모급여|아동수당/],
+  ["🤰 임신·난임", /임신|난임|산모|영아|모자보건|산후/],
+  ["👶 영유아·보육", /영유아|보육|어린이집|유아|돌봄|아이돌봄|보육료/],
+  ["🎓 장학·학자금", /장학|학자금|등록금|교육비|학비/],
+  ["📜 자격증·시험", /자격증|응시료|시험료|면허|검정|어학|토익/],
+  ["💼 청년 일자리", /청년.*(일자리|취업|구직|면접|채용)|취업장려|구직활동|일경험|인턴/],
+  ["🧓 어르신 일자리", /(노인|어르신|시니어).*(일자리|일거리)/],
+  ["👷 취업·직업훈련", /직업훈련|내일배움|취업지원|일자리|고용|구인|채용|근로/],
+  ["🏪 소상공인·창업", /소상공인|자영업|창업|점포|상인|전통시장|소공인/],
+  ["🏦 융자·대출", /융자|대출|이차보전|보증|운전자금|경영안정자금/],
+  ["💊 의료비·치료", /의료비|치료비|수술|진료|간병|재활|의료/],
+  ["🩺 검진·예방접종", /건강검진|검진|예방접종|백신|구강|결핵|감염/],
+  ["🧠 마음건강", /심리|마음건강|정신건강|상담|우울|자살예방/],
+  ["♿ 장애인 지원", /장애/],
+  ["🧓 어르신 복지", /노인|어르신|고령|경로|치매|기초연금/],
+  ["🌗 한부모·다문화", /한부모|조손|다문화|결혼이민|미혼모|북한이탈/],
+  ["💸 저소득·긴급", /기초생활|차상위|저소득|긴급복지|생계|기초수급/],
+  ["♻️ 생활·환경", /음식물|처리기|감량기|종량제|봉투|기저귀|방역|상수도|하수도|환경개선|쓰레기/],
+  ["🚌 교통·이동", /교통비|버스|지하철|알뜰교통|기후동행|교통카드|운전|이동지원/],
+  ["🎫 바우처·공과금", /바우처|에너지바우처|전기요금|도시가스|공과금|난방비|문화누리/],
+  ["🎨 문화·여가", /문화|예술|공연|전시|체육|스포츠|여행|관광/],
+  ["🌾 농어업·귀농", /농업|농민|어업|어민|귀농|귀어|축산|영농|농가|임업/],
+  ["🛡 안전·보험", /보험|안전|재난|화재|시민안전|풍수해/],
+];
+function detailCat(b){
+  const blob = `${b.title} ${b.summary||""} ${b.amount_label||""} ${(b.need||[]).join(" ")}`;
+  for(const [label,re] of DETAIL_CATS) if(re.test(blob)) return label;
+  return "📋 "+(b.category||"기타");
 }
 // 특수대상/자동지원 = 기본 화면 제외(성격별 선택 시에만 노출)
 function isSpecial(b){
@@ -419,19 +461,15 @@ function render(){
     const d = b.apply_end ? dday(b.apply_end) : null;
     const dlabel = d===null ? "상시·공고 확인" : (d>=0 ? "신청 D-"+d : "마감");
     const conds = [...(b._tags||[])].filter(t=>!t.startsWith("__"));
+    const reg = (b.region||"전국").replace(/(특별자치도|특별자치시|특별시|광역시)/,"").replace(/^(\S+?)도\s/,"$1 ");
+    const one = b.summary ? ("🤖 "+b.summary) : ((conds.join("·")||"누구나")+" 대상 · "+(b.support_type||"서비스"));
     return `<div class="card elig">
-      <div class="ctop"><span class="ctitle">${b.title}</span><span class="cat">${b.category} · ${b.support_type||"서비스"}</span></div>
-      ${b.summary?`<div class="csum">🤖 ${b.summary}</div>`:""}
+      <span class="dcat">${b.dcat}</span>
+      <div class="ctitle">${b.title}</div>
+      <div class="csum">${one}</div>
       <div class="amt">💰 ${b.amount_label}</div>
-      <div class="meta"><b>지역</b> ${b.region||"전국"}</div>
-      ${conds.length?`<div class="meta"><b>대상</b> ${conds.join(", ")}</div>`:""}
-      <div class="meta"><b>신청</b> ${b.how}</div>
-      <div class="meta"><b>문의</b> ${b.contact}</div>
-      <div class="badges">
-        <span class="badge ${d===null||d>=0?'dday open':'dday'}">${dlabel}</span>
-        <span class="badge reason">✓ ${age}세·내 상황 충족</span>
-      </div>
-      <a class="src" href="${b.source}" target="_blank">공식 출처 확인 →</a>
+      <div class="cmeta">📍 ${reg} · ⏱ <b class="${d===null||d>=0?'dopen':'dclose'}">${dlabel}</b></div>
+      <a class="src" href="${b.source}" target="_blank">신청·자세히 →</a>
     </div>`;
   }).join("") || `<div class="prompt">선택한 조건에 해당하는 혜택이 없어요. 조건을 바꿔보세요.</div>`;
 }
@@ -459,6 +497,7 @@ function toRuntime(b){
     contact: b.contact || "", source: b.source || "#"
   };
   r.topics = deriveTopics(r);
+  r.dcat = detailCat(r);                   // 세부 카테고리(맞춤형 배지·필터)
   r._tags = itemTags(r);                  // 이 공고가 겨냥한 조건 태그(없으면=누구나 대상)
   // LLM 분류 우선 + 규칙기반 폴백: 노이즈/특수/자동/노출가치없음 → 기본 숨김
   r.special = isSpecial(r) || isNoise(r) || b.special===true || b.show===false;
