@@ -286,6 +286,14 @@ async function srcGov24(key, cap = 200) {
   return picked; // 캡은 run()에서 정책적으로(인천 전부 + 전국 상위) 적용
 }
 // 소관기관명 → 지역 매핑은 korea_regions.mjs(regionOfOrg, 전국 17개 시도)로 일원화.
+// 보조금24 마감일: 전용 필드 → 설명문 안의 '신청기간/접수기간 …' 구절 순으로
+function gov24Deadline(it) {
+  let d = parseDeadline(it["신청기한"] || it["신청기간"] || it["신청기간및방법"] || "");
+  if (d) return d;
+  const dt = `${it["서비스목적요약"] || ""} ${it["지원내용"] || ""} ${it["신청방법"] || ""} ${it["지원대상"] || ""}`;
+  const m = dt.match(/(?:신청|접수|모집|운영)\s*기[간한][^\n]{0,55}/);   // '신청기간 …' 구절만(잡음 배제)
+  return m ? parseDeadline(m[0]) : null;
+}
 export function mapGov24(it, region) {
   const sprt = it["지원내용"] || it["서비스목적요약"] || "";
   const [age_min, age_max] = parseAgeRange(`${it["지원대상"] || ""} ${it["선정기준"] || ""} ${it["서비스명"] || ""}`);
@@ -300,7 +308,7 @@ export function mapGov24(it, region) {
     target: clip(`${it["지원대상"] || ""}`.replace(/[\(（][^)）]*[\)）]/g, " "), 110),  // 공식 지원대상 원문
     need: needFromText(`${it["서비스명"]} ${it["지원대상"]} ${it["선정기준"] || ""} ${sprt}`),
     support_type: supportTypeOf(sprt, it["지원유형"] || ""),
-    apply_end: parseDeadline(it["신청기한"] || it["신청기간"] || ""),   // 마감 지난 공고 필터용
+    apply_end: gov24Deadline(it),   // 마감 지난 공고 필터용(전용필드+설명문 폴백)
     how: clip(it["신청방법"], 50) || "정부24 확인",
     contact: clip(`${it["소관기관명"] || ""} ${it["부서명"] || ""}`, 30),
     source: it["상세조회URL"] || `https://www.gov.kr/portal/rcvfvrSvc/dtlEx/${it["서비스ID"] || ""}`,
