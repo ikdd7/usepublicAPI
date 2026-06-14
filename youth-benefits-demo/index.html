@@ -393,9 +393,12 @@ function keyAmount(b){
   return null;
 }
 function clip(s,n){ return s ? `${s}`.replace(/\s+/g," ").trim().slice(0,n) : ""; }
-// 정확한 대상: 데이터 나이범위 우선, 없으면 표준 그룹만 추정(임산부 등 나이 미정은 조건으로)
+// 정확한 대상: 데이터 나이범위 우선(의미없는 전연령은 숨김), 없으면 표준 그룹만 추정
 function ageRange(b){
-  if(b.age_min>0 || b.age_max<120) return `만 ${b.age_min}~${b.age_max}세`;
+  const lo=b.age_min??0, hi=b.age_max??120;
+  if(lo<=19 && hi>=100) { /* 사실상 전연령 → 표시 안 함, 키워드로 폴백 */ }
+  else if(hi>=100) return `만 ${lo}세+`;
+  else if(lo>0 || hi<120) return `만 ${lo}~${hi}세`;
   const t = `${b.title} ${b.summary||""}`;
   if(/영유아|어린이집|보육/.test(t)) return "0~5세";
   if(/청소년/.test(t)) return "9~24세";
@@ -405,6 +408,13 @@ function ageRange(b){
   return "";
 }
 function targetLine(b){
+  // 공식 '지원대상' 원문이 있으면 그대로(추측 태그보다 정확)
+  if(b.target && b.target.replace(/\s/g,"").length>=4){
+    const a = ageRange(b);
+    let s = tidyText(b.target, 56);
+    if(a && !/\d\s*세/.test(s)) s += " · "+a;
+    return s;
+  }
   const conds = [...(b._tags||[])].filter(t=>!t.startsWith("__"));
   const a = ageRange(b);
   const parts = [];
@@ -531,7 +541,7 @@ function render(){
       <span class="dcat">${b.dcat}</span>
       <div class="ctitle">${tidyText(b.title, 52)}</div>
       <div class="amt">💰 ${ka || "금액 상세 확인"}</div>
-      <div class="ctarget">🎯 <b>대상</b> ${tidyText(targetLine(b), 48)}</div>
+      <div class="ctarget">🎯 <b>대상</b> ${clip(targetLine(b), 64)}</div>
       ${one?`<div class="csum">${tidyText(one, 58)}</div>`:""}
       <div class="cmeta">📍 ${reg} · ⏱ <b class="${d===null||d>=0?'dopen':'dclose'}">${dlabel}</b></div>
       <a class="src" href="${b.source}" target="_blank">신청·자세히 →</a>
@@ -553,6 +563,7 @@ function toRuntime(b){
     amount: b.amount ?? b.amount_max_won ?? 0,
     amount_label: b.amount_label || "상세 참조",
     age_min: b.age_min ?? 18, age_max: b.age_max ?? 39,
+    target: b.target || "",
     need: b.need || b.tags || [],
     region: b.region || "인천광역시 연수구",
     summary: b.summary || "",

@@ -256,6 +256,7 @@ export function mapGov24(it, region) {
     amount: parseAmount(sprt),
     amount_label: clip(sprt, 80) || "상세 참조",
     age_min, age_max,
+    target: clip(`${it["지원대상"] || ""}`.replace(/[\(（][^)）]*[\)）]/g, " "), 110),  // 공식 지원대상 원문
     need: needFromText(`${it["서비스명"]} ${it["지원대상"]} ${it["선정기준"] || ""} ${sprt}`),
     support_type: supportTypeOf(sprt, it["지원유형"] || ""),
     apply_end: null,
