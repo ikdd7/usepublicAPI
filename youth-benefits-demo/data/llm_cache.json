@@ -186,7 +186,9 @@
       "자영업·창업"
     ],
     "support_type": "서비스",
-    "summary": "소상공인 도로점용료 10% 감면 지원",
+    "summary": "소상공인 도로점용료 10% 감면",
+    "target": "소상공인",
+    "amount": "10%",
     "show": true,
     "special": false
   },
@@ -194,47 +196,67 @@
     "category": "금융",
     "tags": [],
     "support_type": "바우처",
-    "summary": "정읍사랑상품권 12% 선할인 구매 지원",
+    "summary": "정읍사랑상품권 12% 선할인",
+    "target": "만 19세 이상",
+    "amount": "12%",
     "show": true,
     "special": false
   },
   "g24-383000000148": {
     "category": "금융",
-    "tags": [],
+    "tags": [
+      "자영업·창업"
+    ],
     "support_type": "대출",
     "summary": "안양시 중소기업 육성자금 융자 이자차액 보전",
+    "target": "안양시 관내 중소기업",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-541000000142": {
-    "category": "일자리",
-    "tags": [],
-    "support_type": "현금",
-    "summary": "지방 투자 기업 보조금 지원",
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "보조금",
+    "summary": "지방투자촉진보조금 지원",
+    "target": "지방이전·신증설 기업",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-449000000509": {
     "category": "건강",
     "tags": [],
-    "support_type": "현물",
-    "summary": "천안시민 대상 안전보험 무료 가입 지원",
+    "support_type": "보험",
+    "summary": "천안시민 안전보험 가입",
+    "target": "천안시민",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-537000000145": {
     "category": "금융",
-    "tags": [],
+    "tags": [
+      "자영업·창업"
+    ],
     "support_type": "서비스",
-    "summary": "영세성실기업 세무조사 면제 지원",
+    "summary": "영세성실기업 세무조사 3년간 유예",
+    "target": "거제시 영세성실기업",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-541000000140": {
     "category": "금융",
-    "tags": [],
+    "tags": [
+      "자영업·창업"
+    ],
     "support_type": "대출",
-    "summary": "공장용지 매입비 융자 지원",
+    "summary": "공장용지매입비 융자 지원",
+    "target": "도내 투자 MOU 체결 기업",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -242,7 +264,9 @@
     "category": "교육",
     "tags": [],
     "support_type": "현금",
-    "summary": "중·고 신입생 교복 및 체육복 40만원 지원",
+    "summary": "중고 신입생 교복·체육복 지원",
+    "target": "의왕시 중고 신입생",
+    "amount": "최대 40만원",
     "show": true,
     "special": false
   },
@@ -250,7 +274,9 @@
     "category": "금융",
     "tags": [],
     "support_type": "바우처",
-    "summary": "군포시 지역화폐 6~7% 인센티브 지원",
+    "summary": "군포시 지역화폐 6~10% 인센티브",
+    "target": "만 14세 이상 군포시민",
+    "amount": "6~10%",
     "show": true,
     "special": false
   },
@@ -261,6 +287,8 @@
     ],
     "support_type": "대출",
     "summary": "안양시 소상공인 이자보전 지원",
+    "target": "안양시 소상공인(신용 6~9등급)",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -269,8 +297,10 @@
     "tags": [
       "농어업인"
     ],
-    "support_type": "현금",
+    "support_type": "보조금",
     "summary": "농산물 최저가격 지원",
+    "target": "관내 농지 생산 농업인",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -278,7 +308,9 @@
     "category": "금융",
     "tags": [],
     "support_type": "서비스",
-    "summary": "지방세 불복청구 선정대리인 무료 지원",
+    "summary": "지방세 불복청구 선정대리인 무료지원",
+    "target": "신청세액 2천만원 이하",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -287,38 +319,44 @@
     "tags": [
       "구직중"
     ],
-    "support_type": "현금",
-    "summary": "종로구 동행일자리사업 참여자 모집",
+    "support_type": "일자리",
+    "summary": "종로구 동행일자리사업 참여",
+    "target": "만 18세 이상 서울시민",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-318000000414": {
     "category": "일자리",
     "tags": [
-      "청년",
-      "장애인",
-      "저소득"
+      "구직중"
     ],
-    "support_type": "현금",
+    "support_type": "일자리",
     "summary": "취약계층 공공일자리 제공",
+    "target": "만 18세 이상 구민",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-511000000155": {
     "category": "일자리",
     "tags": [
-      "저소득"
+      "구직중"
     ],
-    "support_type": "현금",
+    "support_type": "일자리",
     "summary": "상주시 공공일자리 제공",
+    "target": "만 18세 이상 상주시 거주자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-450000000137": {
-    "category": "교육",
+    "category": "복지",
     "tags": [],
     "support_type": "현물",
-    "summary": "공주 초등학교 무상 우유급식 지원",
+    "summary": "공주 초등학교 무상 우유급식",
+    "target": "공주 관내 초등학생",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -347,40 +385,52 @@
   },
   "g24-383000000149": {
     "category": "금융",
-    "tags": [],
-    "support_type": "대출",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "보증",
     "summary": "안양시 중소기업 특례보증 지원",
+    "target": "안양시 중소기업",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-393000000111": {
     "category": "금융",
     "tags": [
-      "신혼"
+      "신혼",
+      "무주택"
     ],
     "support_type": "현금",
     "summary": "안산시 신혼부부 전세자금 대출이자 지원",
+    "target": "혼인 5년 이내 무주택 신혼부부",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-451000000237": {
-    "category": "주거",
-    "tags": [
-      "청년"
-    ],
-    "support_type": "대출",
-    "summary": "청년 주택자금 대출이자 지원 (19세~45세)",
-    "show": true,
-    "special": false
-  },
-  "g24-484000000144": {
-    "category": "주거",
+    "category": "금융",
     "tags": [
       "청년",
       "무주택"
     ],
-    "support_type": "대출",
-    "summary": "광양청년 주택자금 대출이자 지원 (19세~45세)",
+    "support_type": "현금",
+    "summary": "보령시 청년 주택자금 대출이자 지원",
+    "target": "19~45세 보령시 거주 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000144": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "광양시 청년 주택자금 대출이자 지원",
+    "target": "19~45세 광양시 거주 무주택자",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -389,8 +439,10 @@
     "tags": [
       "자영업·창업"
     ],
-    "support_type": "현금",
-    "summary": "소상공인 카드수수료 지원 (연매출 3억 이하)",
+    "support_type": "서비스",
+    "summary": "소상공인 카드수수료 연 매출 3억 이하 0.8% 지원",
+    "target": "관내 주소지 및 사업장 소상공인",
+    "amount": "연 매출 3억 이하",
     "show": true,
     "special": false
   },
@@ -400,26 +452,34 @@
       "자영업·창업"
     ],
     "support_type": "현금",
-    "summary": "노란우산공제 희망장려금 지원 (연매출 3억 이하)",
+    "summary": "노란우산공제 신규 가입 소상공인 장려금 지원",
+    "target": "연 매출 3억 이하 관내 소상공인",
+    "amount": "장려금",
     "show": true,
     "special": false
   },
   "g24-540000000118": {
     "category": "농업",
-    "tags": [],
-    "support_type": "현물",
-    "summary": "축산 환경 개선 구입비 지원",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산 농가 환경 개선 구입비 지원",
+    "target": "관내 축산업 허가(등록) 농가",
+    "amount": "291,975,000원",
     "show": true,
     "special": false
   },
   "g24-453000000172": {
-    "category": "주거",
+    "category": "금융",
     "tags": [
       "신혼",
-      "임신·출산"
+      "무주택"
     ],
     "support_type": "대출",
-    "summary": "청년 신혼부부 주택 전세자금 대출이자 지원",
+    "summary": "신혼부부 전세자금 대출이자 지원",
+    "target": "부부 중 1명 만 18~39세, 기준중위 180% 이하",
+    "amount": "대출이자 지원",
     "show": true,
     "special": false
   },
@@ -429,7 +489,9 @@
       "자영업·창업"
     ],
     "support_type": "대출",
-    "summary": "중소기업 및 소상공인 특례보증 지원",
+    "summary": "소상공인·중소기업 특례보증 지원",
+    "target": "동구 관내 소상공인 및 중소기업",
+    "amount": "보증 지원",
     "show": true,
     "special": false
   },
@@ -439,48 +501,59 @@
       "자영업·창업"
     ],
     "support_type": "현금",
-    "summary": "소상공인 카드수수료 지원 (연매출 2억 이하)",
+    "summary": "소상공인 카드수수료 연 매출 2억 이하 0.4% 지원",
+    "target": "연 매출 2억 이하 관내 소상공인",
+    "amount": "최대 300천원",
     "show": true,
     "special": false
   },
   "g24-373000000128": {
-    "category": "주거",
+    "category": "금융",
     "tags": [
-      "신혼"
+      "신혼",
+      "무주택"
     ],
     "support_type": "대출",
-    "summary": "울주군 신혼부부 주택 매입/전세자금 대출이자 지원",
+    "summary": "신혼부부 주택 매입/전세자금 대출이자 지원",
+    "target": "혼인 2년 이내 신혼부부, 울주군 거주 예정",
+    "amount": "대출이자 지원",
     "show": true,
     "special": false
   },
   "g24-401000000104": {
     "category": "주거",
     "tags": [
-      "무주택"
+      "무주택",
+      "저소득"
     ],
     "support_type": "현금",
-    "summary": "시흥형 주거비 지원 (기준중위소득 60% 이하)",
+    "summary": "아동 주거비 기준임대료 50% 지원",
+    "target": "관내 거주 무주택 민간 월세가구",
+    "amount": "기준임대료의 50%",
     "show": true,
     "special": false
   },
   "g24-450000000168": {
-    "category": "주거",
+    "category": "금융",
     "tags": [
       "다자녀"
     ],
     "support_type": "대출",
-    "summary": "공주시 다자녀가구 주택구입/전세자금 대출이자 지원",
+    "summary": "다자녀가구 주택구입/전세자금 대출이자 지원",
+    "target": "18세 이하 자녀 3명 이상, 공주 거주",
+    "amount": "대출이자 지원",
     "show": true,
     "special": false
   },
   "g24-468100000004": {
-    "category": "주거",
+    "category": "금융",
     "tags": [
-      "청년",
       "신혼"
     ],
     "support_type": "대출",
-    "summary": "익산시 신혼부부 청년 주택구입 대출이자 지원",
+    "summary": "청년 신혼부부 주택구입 대출이자 지원",
+    "target": "19~39세, 주택 구입 후 등재",
+    "amount": "대출이자 지원",
     "show": true,
     "special": false
   },
@@ -491,55 +564,69 @@
     ],
     "support_type": "현물",
     "summary": "1인가구 주거안전 방문지킴이 지원",
+    "target": "무주군 거주 1인 가구",
+    "amount": "방문지킴이 지원",
     "show": true,
     "special": false
   },
   "g24-571000000148": {
-    "category": "주거",
+    "category": "금융",
     "tags": [
-      "신혼"
+      "신혼",
+      "무주택"
     ],
     "support_type": "대출",
-    "summary": "신혼부부 주택(매입,전세)자금 대출이자 지원",
+    "summary": "신혼부부 주택 매입/전세자금 대출이자 지원",
+    "target": "혼인 7년 이내 무주택 또는 1주택 신혼부부",
+    "amount": "대출이자 지원",
     "show": true,
     "special": false
   },
   "g24-571000000190": {
-    "category": "주거",
+    "category": "금융",
     "tags": [
-      "청년"
+      "무주택"
     ],
     "support_type": "대출",
-    "summary": "청주시 청년 전세자금 대출이자 지원",
+    "summary": "청년 전세자금 대출이자 지원",
+    "target": "19~39세 미혼, 무주택자",
+    "amount": "대출이자 지원",
     "show": true,
     "special": false
   },
   "g24-540000000131": {
     "category": "농업",
-    "tags": [],
+    "tags": [
+      "농어업인"
+    ],
     "support_type": "현물",
     "summary": "볏짚 사일리지 제조용 비닐 지원",
+    "target": "축산업등록농가, 축산물이력제 등록 소 사육",
+    "amount": "비닐 지원",
     "show": true,
     "special": false
   },
   "g24-488000000125": {
     "category": "일자리",
     "tags": [
-      "청년",
       "자영업·창업"
     ],
     "support_type": "현금",
-    "summary": "청년 창업 도전 프로젝트 지원 (18세~49세)",
+    "summary": "청년 창업비용 1.5억원 이내 지원",
+    "target": "고흥군 거주 예비/초기 창업가(18~49세)",
+    "amount": "15,000만원 이내",
     "show": true,
     "special": false
   },
   "g24-519000000153": {
-    "category": "주거",
+    "category": "금융",
     "tags": [
       "신혼"
     ],
     "support_type": "대출",
-    "summary": "청도군 신혼부부 주거자금 대출이자 지원",
+    "summary": "신혼부부 주거자금 대출이자 지원",
+    "target": "혼인 3개월 이내 예정 신혼부부",
+    "amount": "대출이자 지원",
     "show": true,
     "special": false
   },
@@ -556,30 +643,37 @@
   "g24-304000000146": {
     "category": "복지",
     "tags": [
-      "저소득"
+      "저소득",
+      "1인가구"
     ],
     "support_type": "서비스",
-    "summary": "중개수수료 무료지원 서비스",
+    "summary": "저소득 주민 중개수수료 무료지원",
+    "target": "저소득 주민, 대학생",
+    "amount": "중개수수료 무료",
     "show": true,
     "special": false
   },
   "g24-304000000186": {
     "category": "금융",
     "tags": [
-      "소상공인"
+      "자영업·창업"
     ],
     "support_type": "현금",
-    "summary": "집합금지, 영업시간제한 방역조치로 경영상 손실 소상공인 지원",
+    "summary": "소상공인 손실보상금 지원",
+    "target": "방역조치로 손실 발생 소상공인",
+    "amount": "손실규모",
     "show": true,
     "special": false
   },
   "g24-305000000146": {
     "category": "금융",
     "tags": [
-      "소상공인"
+      "자영업·창업"
     ],
     "support_type": "대출",
-    "summary": "동대문구 소상공인 최대 3천만원 융자 지원",
+    "summary": "소상공인·중소기업 육성기금 융자",
+    "target": "동대문구 6개월 이상 사업 소상공인·중소기업",
+    "amount": "최대 1억원",
     "show": true,
     "special": false
   },
@@ -589,7 +683,9 @@
       "1인가구"
     ],
     "support_type": "현물",
-    "summary": "동대문구 1인가구 안심장비 지원",
+    "summary": "1인가구 안심장비 지원",
+    "target": "동대문구 거주 1인가구",
+    "amount": "안심장비 지원",
     "show": true,
     "special": false
   },
@@ -598,39 +694,47 @@
     "tags": [
       "저소득"
     ],
-    "support_type": "현금",
-    "summary": "동대문구 저소득층 주택임대차 중개보수 지원",
+    "support_type": "서비스",
+    "summary": "저소득층 중개보수 지원",
+    "target": "동대문구 기초생활수급자, 소년소녀가장, 홀몸어르신, 한부모가정",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-314000000255": {
     "category": "복지",
     "tags": [
       "저소득"
     ],
-    "support_type": "현금",
-    "summary": "기초생활수급자 주택임대차 중개보수 지원",
+    "support_type": "서비스",
+    "summary": "저소득주민 부동산 중개보수 지원",
+    "target": "기초생활수급자",
+    "amount": "최대 30만원",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-328000000143": {
-    "category": "금융",
+    "category": "일자리",
     "tags": [
-      "자영업·창업",
-      "청년"
+      "청년",
+      "자영업·창업"
     ],
     "support_type": "현금",
     "summary": "영도구 청년 창업자 임차료 지원",
+    "target": "영도구 거주 19~45세 청년 창업자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-349000000116": {
     "category": "금융",
     "tags": [
-      "소상공인"
+      "자영업·창업"
     ],
     "support_type": "대출",
-    "summary": "인천 중구 소상공인 특례보증 및 이차보전 지원",
+    "summary": "인천 중구 소상공인 특례협약보증 이차보전",
+    "target": "인천 중구 사업장 소상공인",
+    "amount": "최초 3년 간 이자의 2.5%",
     "show": true,
     "special": false
   },
@@ -640,28 +744,34 @@
       "농어업인"
     ],
     "support_type": "현물",
-    "summary": "양계농가 1회용 난좌 구입비 지원",
+    "summary": "양계농가 1회용 난좌 지원",
+    "target": "가축사육업 허가된 산란계 종가",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-401000000500": {
     "category": "금융",
     "tags": [
-      "소상공인"
+      "자영업·창업"
     ],
     "support_type": "대출",
     "summary": "시흥시 소상공인 특례보증 및 이차보전 지원",
+    "target": "시흥시 2개월 이상 운영 소상공인",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-406000000515": {
-    "category": "복지",
+    "category": "주거",
     "tags": [
       "청년",
       "무주택"
     ],
     "support_type": "현금",
-    "summary": "파주시 19~39세 무주택 청년 월세 지원",
+    "summary": "파주시 청년 월세 최대 10만원 지원",
+    "target": "파주시 19~39세 무주택 청년가구",
+    "amount": "월 10만원",
     "show": true,
     "special": false
   },
@@ -672,6 +782,8 @@
     ],
     "support_type": "대출",
     "summary": "제천시 청년 주택자금 대출이자 지원",
+    "target": "제천시 19~45세 주택구입/전세자금 대출자",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -682,7 +794,9 @@
       "자영업·창업"
     ],
     "support_type": "대출",
-    "summary": "청년 창업 개인택시면허 양수 대출 지원",
+    "summary": "청년 개인택시면허 양수 대출 지원",
+    "target": "개인택시 면허 양수자격 갖춘 청년",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -691,30 +805,37 @@
     "tags": [
       "농어업인"
     ],
-    "support_type": "서비스",
+    "support_type": "현물",
     "summary": "농기계 종합보험 지원",
+    "target": "14종 농기계 소유 또는 관리자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-492000000110": {
-    "category": "복지",
+    "category": "주거",
     "tags": [
       "청년",
       "무주택"
     ],
     "support_type": "현금",
-    "summary": "강진군 19~45세 무주택 청년 주거비 지원",
+    "summary": "강진군 청년 주거비 지원",
+    "target": "강진군 거주 19~45세 무주택 청년가구",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-497000000130": {
-    "category": "금융",
+    "category": "주거",
     "tags": [
       "신혼",
+      "다자녀가정",
       "무주택"
     ],
-    "support_type": "대출",
-    "summary": "영광군 신혼부부, 다자녀가정 전세자금 이자 지원",
+    "support_type": "현금",
+    "summary": "영광군 신혼부부/다자녀 전세자금 이자 지원",
+    "target": "영광군 거주 무주택 신혼부부, 다자녀가정",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -722,7 +843,9 @@
     "category": "금융",
     "tags": [],
     "support_type": "대출",
-    "summary": "봉화군 신재생에너지 사업자 융자 지원",
+    "summary": "봉화군 신재생에너지 사업 융자 지원",
+    "target": "봉화군 거주 신재생에너지 사업자",
+    "amount": "최대 1억원",
     "show": true,
     "special": false
   },
@@ -732,26 +855,35 @@
       "농어업인"
     ],
     "support_type": "현물",
-    "summary": "의령군 옥수수 재배농가 생분해 멀칭필름 지원",
+    "summary": "의령군 옥수수 생분해 멀칭필름 지원",
+    "target": "의령군 거주 옥수수재배농가",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-470000000103": {
-    "category": "금융",
+    "category": "주거",
     "tags": [
       "신혼",
+      "청년",
       "무주택"
     ],
-    "support_type": "대출",
-    "summary": "남원시 신혼부부, 청년 전세자금 대출이자 지원",
+    "support_type": "현금",
+    "summary": "남원시 신혼부부/청년 전세자금 이자 지원",
+    "target": "남원시 거주 무주택 신혼부부, 청년",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-O00116200002": {
     "category": "교육",
-    "tags": [],
+    "tags": [
+      "학생"
+    ],
     "support_type": "서비스",
-    "summary": "제천시 중학생 장학퀴즈, 초등학생 융합 교실 지원",
+    "summary": "제천시 인재육성 교육 지원",
+    "target": "제천 중학생, 초등학생, 청소년",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -761,15 +893,21 @@
       "저소득"
     ],
     "support_type": "현금",
-    "summary": "울산 동구 저소득층 건보료, 장기요양보험료 지원",
+    "summary": "울산 동구 저소득층 보험료 지원",
+    "target": "울산 동구 지역 가입자 중 저소득층",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-476100000011": {
     "category": "농업",
-    "tags": [],
+    "tags": [
+      "농어업인"
+    ],
     "support_type": "현금",
-    "summary": "임산물 생산 산지 대상 임업직불금 지원",
+    "summary": "임업직불제 지원",
+    "target": "임산물생산업 산지 등록자",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -779,7 +917,9 @@
       "학생"
     ],
     "support_type": "현금",
-    "summary": "달서구 거주 대학 재학생 대상 진학 장학금 지원",
+    "summary": "달서구 진학 장학금 지원",
+    "target": "달서구 거주 대학 재학생",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -789,7 +929,9 @@
       "학생"
     ],
     "support_type": "현금",
-    "summary": "달서구 거주 대학 재학생 대상 성적우수 장학금 지원",
+    "summary": "달서구 성적우수 장학금 지원",
+    "target": "달서구 거주 대학 재학생",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -992,24 +1134,30 @@
   "g24-464100000002": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "전주시 시민안전보험: 전주시에 주민등록 둔 모든 시민 사고 사망 시 보장",
+    "support_type": "서비스",
+    "summary": "전주시민 대상 시민안전보험 지원",
+    "target": "전주시에 주민등록을 둔 모든 시민",
+    "amount": "",
     "show": true,
     "special": true
   },
   "g24-471100000004": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "김제시 시민안전보험: 김제시민 자연재해·폭발·화재·붕괴 사고 사망 시 2,500만원",
+    "support_type": "서비스",
+    "summary": "김제시민 대상 시민안전보험 지원",
+    "target": "김제시에 주민등록을 둔 자",
+    "amount": "사망 최대 2500만원",
     "show": true,
     "special": true
   },
   "g24-472100000004": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "완주군 군민안전보험: 완주군민 폭발·화재·붕괴·산사태 사고 상해 사망 시 보장",
+    "support_type": "서비스",
+    "summary": "완주군민 대상 군민안전보험 지원",
+    "target": "완주군에 주민등록이 되어 있는 자",
+    "amount": "상해사망 2,500만원",
     "show": true,
     "special": true
   },
@@ -1019,33 +1167,41 @@
       "농어업인"
     ],
     "support_type": "대출",
-    "summary": "임실군 농어촌 소득금고 융자: 임실군 농림수산업 1년 이상 종사자 3천만원 이하 융자",
+    "summary": "임실군 농어촌 소득사업 융자 지원",
+    "target": "임실군내 농림수산업 1년 이상 종사 농업인",
+    "amount": "최대 3,000만원",
     "show": true,
     "special": false
   },
   "g24-477100000003": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "순창군 군민안전보험: 순창군민 화재·폭발·붕괴 사고 상해 사망 시 2,500만원",
+    "support_type": "서비스",
+    "summary": "순창군민 대상 군민안전보험 지원",
+    "target": "순창군에 주민등록을 둔 모든 군민",
+    "amount": "상해사망 2,500만원",
     "show": true,
     "special": true
   },
   "g24-489000000111": {
     "category": "농업",
     "tags": [
-      "농어업인"
+      "청년"
     ],
     "support_type": "현금",
-    "summary": "청년귀농인 농업창업 지원: 만18~50세 미만 청년귀농인, 100시간 교육 이수",
+    "summary": "청년귀농인 농업창업 시설·구입비 지원",
+    "target": "만 18~50세 미만 청년귀농인",
+    "amount": "시설·구입비 70%",
     "show": true,
     "special": false
   },
   "g24-489000000433": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "보성군 군민안전보험: 보성군민 일상생활 중 우발적 사고 및 재난 피해 보장",
+    "support_type": "서비스",
+    "summary": "보성군민 대상 군민안전보험 지원",
+    "target": "보성군에 주민등록을 둔 모든 군민",
+    "amount": "온열질환 10만원",
     "show": true,
     "special": true
   },
@@ -1055,15 +1211,19 @@
       "저소득"
     ],
     "support_type": "현금",
-    "summary": "암환자 의료비 지원: 의료급여수급권자, 차상위 본인부담 경감 대상자",
+    "summary": "암환자 의료비 지원",
+    "target": "의료급여수급권자, 차상위, 건강보험가입자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-523000000561": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "예천군민 자전거보험: 예천군민 자전거 교통사고 사망 시 보장",
+    "support_type": "서비스",
+    "summary": "예천군민 대상 자전거보험 지원",
+    "target": "예천군에 주민등록이 등록된 모든 군민",
+    "amount": "사망 1500만원",
     "show": true,
     "special": true
   },
@@ -1078,8 +1238,10 @@
   "g24-544000000131": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "하동군 군민안전보험: 하동군민 자연재해, 대중교통, 익사 사고 사망 시 보장",
+    "support_type": "서비스",
+    "summary": "하동군민 대상 군민안전보험 지원",
+    "target": "하동군에 주민등록을 둔 군민",
+    "amount": "사망 최대 2,000만원",
     "show": true,
     "special": true
   },
@@ -1089,7 +1251,9 @@
       "농어업인"
     ],
     "support_type": "현물",
-    "summary": "축산분뇨처리장비 지원: 관내 축산농가, 스키드로더 등 장비 3,000만원 지원",
+    "summary": "축산농가 다용도 축산분뇨처리장비 지원",
+    "target": "관내 축산농가",
+    "amount": "3,000만원/대",
     "show": true,
     "special": false
   },
@@ -1097,7 +1261,9 @@
     "category": "건강",
     "tags": [],
     "support_type": "현금",
-    "summary": "암환자 의료비 지원: 건강보험가입자, 5대암(간,위,유방,자궁경부,대장) 발병 시",
+    "summary": "건강보험가입자 5대암 의료비 지원",
+    "target": "건강보험가입자",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -1108,15 +1274,19 @@
       "신혼"
     ],
     "support_type": "현금",
-    "summary": "포천시 청년·신혼부부 주거비 지원: 공공임대주택 임대보증금 지원",
+    "summary": "포천시 청년·신혼부부 공공임대주택 주거비 지원",
+    "target": "청년·신혼부부",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-567000000759": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "창원시 시민안전보험: 창원시민 자연재해, 사회재난, 폭발·화재·붕괴 사고 보장",
+    "support_type": "서비스",
+    "summary": "창원시민 대상 시민안전보험 지원",
+    "target": "창원시에 주민등록을 둔 모든 시민",
+    "amount": "사망 최대 2,000만원",
     "show": true,
     "special": true
   },
@@ -1126,7 +1296,9 @@
       "농어업인"
     ],
     "support_type": "현물",
-    "summary": "산란계 시설장비 지원: 산란계 사육 농가, 이동장비 지원 2,900만원 한도",
+    "summary": "산란계 농가 시설장비 지원",
+    "target": "산란계 사육 축산업 허가농가",
+    "amount": "2,900만원 한도",
     "show": true,
     "special": false
   },
@@ -1134,29 +1306,34 @@
     "category": "복지",
     "tags": [
       "저소득",
-      "임신·출산"
+      "다문화가족"
     ],
     "support_type": "현금",
-    "summary": "결혼이민자 모국방문 항공비 지원 및 취업역량 강화",
+    "summary": "결혼이민자 모국방문 항공비 지원",
+    "target": "저소득층 결혼이민자",
+    "amount": "15가정 2500만원",
     "show": true,
     "special": false
   },
   "g24-485000000118": {
     "category": "복지",
     "tags": [
-      "임신·출산",
       "육아"
     ],
     "support_type": "현금",
-    "summary": "출산장려금 지원: 첫째 130만원, 둘째 220만원, 셋째 1000만원",
+    "summary": "출산장려금 지원",
+    "target": "관내 1년 이상 거주 가정",
+    "amount": "첫째 130만원",
     "show": true,
     "special": false
   },
   "g24-496000000540": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "함평군민 온열질환 진단 시 10만원, 자연재해 사망 시 200만원",
+    "support_type": "서비스",
+    "summary": "함평군민 대상 군민안전보험 지원",
+    "target": "함평군에 주민등록이 되어 있는 군민",
+    "amount": "사망 2000만원",
     "show": true,
     "special": true
   },
@@ -1166,18 +1343,21 @@
       "농어업인"
     ],
     "support_type": "현물",
-    "summary": "벼 공정육묘장 장비 지원: 2,500만원 내외 50% 지원",
+    "summary": "벼 공정육묘장 장비 지원",
+    "target": "관내 벼 재배 농업인, 농업법인",
+    "amount": "2,500만원 내외",
     "show": true,
     "special": false
   },
   "g24-511000000119": {
     "category": "복지",
     "tags": [
-      "임신·출산",
       "육아"
     ],
     "support_type": "현금",
-    "summary": "출산육아지원금: 출생아 및 영유아 지원",
+    "summary": "출산육아지원금 지원",
+    "target": "관내 거주 부부가 출산한 출생아",
+    "amount": "",
     "show": true,
     "special": false
   },
