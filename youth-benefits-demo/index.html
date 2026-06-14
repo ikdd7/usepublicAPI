@@ -131,6 +131,15 @@
         <input id="age" type="range" min="0" max="100" value="27" />
       </div>
 
+      <!-- 성별 -->
+      <div class="field">
+        <div class="field-top"><span class="field-label">성별</span><span class="field-action" id="genderHint">무관</span></div>
+        <div class="chips" id="genderChips" style="margin-top:12px">
+          <span class="chip" data-gender="female">여성</span>
+          <span class="chip" data-gender="male">남성</span>
+        </div>
+      </div>
+
       <!-- 내 상황 -->
       <div class="sit-top">
         <span class="field-label">내 상황</span><span class="sit-count" id="sitCount">0개 선택</span>
@@ -203,6 +212,7 @@ const DATA = {
 const TODAY = new Date();
 let screen = "input";
 let selected = new Set(["구직중","1인가구","무주택"]);   // 기본 선택(레퍼런스)
+let gender = "all";   // "all" | "female" | "male"
 let selSido = "인천광역시";
 let selRegion = "인천광역시 연수구";
 let toastTimer = null;
@@ -374,6 +384,17 @@ function effectiveAgeRange(b){
   return [lo, hi];
 }
 function ageOk(b, age){ const [lo,hi]=effectiveAgeRange(b); return age>=lo && age<=hi; }
+// 공고의 '전용 성별' 판별 — 생물학적 여성전용(임산부·산모·난임·경력단절여성 등)만 제한.
+// 출산·육아·부모급여처럼 양쪽 다 받는 건 성별 제한 안 함.
+function programGender(b){
+  const t = `${b.title||""} ${b.target_llm||""} ${b.target||""} ${b.summary||""} ${b.amount_label||""} ${(b.need||[]).join(" ")}`;
+  const female = /여성|여자|임산부|산모|임신부|난임|모성|경력\s*단절\s*여성|미혼모|여성\s*청소년|결혼이주여성|새일센터|자궁|난소|유방/;
+  const male = /남성전용|남자전용|남성\s*대상|미혼부|전립선|남성\s*청소년/;
+  if(female.test(t) && !/남성|남자/.test(t)) return "female";
+  if(male.test(t) && !/여성|여자/.test(t)) return "male";
+  return "all";
+}
+function genderOk(b, g){ if(g==="all") return true; const pg=programGender(b); return pg==="all" || pg===g; }
 function matchedPrograms(){
   const age = currentAge();
   if(selected.size===0) return [];
@@ -381,6 +402,7 @@ function matchedPrograms(){
     if(!regionMatch(b)) return false;
     if(b.expired || b.special) return false;
     if(!ageOk(b, age)) return false;
+    if(!genderOk(b, gender)) return false;
     const tags = b._tags || itemTags(b);
     for(const t of selected) if(tags.has(t)) return true;
     return false;
@@ -396,6 +418,7 @@ function sortScore(b){
 /* ── 렌더 ── */
 function renderInput(){
   updateRegionVal();
+  renderGender();
   document.getElementById("ageLabel").textContent = "만 "+currentAge()+"세";
   document.getElementById("sitCount").textContent = selected.size+"개 선택";
   document.querySelectorAll("#chips .chip").forEach(c=>{
@@ -405,7 +428,8 @@ function renderInput(){
 function renderResult(){
   const age = currentAge();
   const sit = selected.size ? [...selected].map(t=> t==="자영업·창업"?"소상공인·창업": t==="무주택"?"무주택·자취":t).join(" · ") : "상황 미선택";
-  document.getElementById("summaryLine").textContent = `${selRegion} · ${age}세 · ${sit}`;
+  const gtxt = gender==="female"?"여성 · ":gender==="male"?"남성 · ":"";
+  document.getElementById("summaryLine").textContent = `${selRegion} · ${age}세 · ${gtxt}${sit}`;
 
   const matched = matchedPrograms();
   const total = matched.filter(b=>!isLoan(b)).reduce((a,b)=>a+realAmount(b),0);
@@ -466,6 +490,15 @@ document.getElementById("chips").addEventListener("click", e=>{
   renderInput();
 });
 document.getElementById("age").addEventListener("input", ()=>{ document.getElementById("ageLabel").textContent="만 "+currentAge()+"세"; });
+document.getElementById("genderChips").addEventListener("click", e=>{
+  const c = e.target.closest(".chip"); if(!c) return;
+  gender = (gender===c.dataset.gender) ? "all" : c.dataset.gender;
+  renderGender();
+});
+function renderGender(){
+  document.querySelectorAll("#genderChips .chip").forEach(c=>c.classList.toggle("on", c.dataset.gender===gender));
+  document.getElementById("genderHint").textContent = gender==="female"?"여성":gender==="male"?"남성":"무관";
+}
 document.getElementById("regionToggle").addEventListener("click", ()=>{
   document.getElementById("regionPicker").classList.toggle("hidden");
 });
