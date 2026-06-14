@@ -102,7 +102,7 @@
   <div class="panel">
     <h2>내 정보</h2>
     <div class="agewrap">
-      <input id="age" type="number" min="15" max="50" value="27" />
+      <input id="age" type="number" min="0" max="100" value="27" />
       <label>세</label>
       <select id="sido" title="시·도"></select>
       <select id="region" title="시·군·구"></select>
@@ -118,7 +118,10 @@
         <span class="chip" data-tag="신혼">💑 신혼</span>
         <span class="chip" data-tag="임신·출산">🤰 임신·출산</span>
         <span class="chip" data-tag="육아">👶 육아</span>
+        <span class="chip" data-tag="다자녀">👨‍👩‍👧‍👦 다자녀</span>
         <span class="chip" data-tag="한부모">🌗 한부모</span>
+        <span class="chip" data-tag="다문화">🌏 다문화</span>
+        <span class="chip" data-tag="어르신">🧓 어르신</span>
         <span class="chip" data-tag="장애인">♿ 장애인</span>
         <span class="chip" data-tag="저소득">💸 저소득</span>
         <span class="chip" data-tag="무주택">🏠 무주택·자취</span>
@@ -154,7 +157,7 @@
 
   <div class="result-banner" id="banner">
     <div class="big" id="total">—</div>
-    <div class="cap">내가 받을 수 있는 최대 금액</div>
+    <div class="cap">내게 맞는 현금·현물 지원 합계 (대출 제외, 최대 추정)</div>
     <div class="cnt" id="cnt"></div>
     <button class="share" onclick="share()">💬 카톡으로 친구에게 공유</button>
   </div>
@@ -393,6 +396,14 @@ function keyAmount(b){
   return null;
 }
 function clip(s,n){ return s ? `${s}`.replace(/\s+/g," ").trim().slice(0,n) : ""; }
+// 합산용 '현실적 수령액': 대출·서비스·기업자금·억대 한도는 제외(개인 현금성만, 1억 미만)
+function realAmount(b){
+  const st = b.support_type || "";
+  if(!/현금|현물|바우처/.test(st)) return 0;
+  if((b._tags||[]).includes("__기업")) return 0;
+  const a = b.amount || 0;
+  return (a > 0 && a < 100000000) ? a : 0;   // 1억 이상은 대출한도 등으로 보고 합산 제외
+}
 // 정확한 대상: 데이터 나이범위 우선(의미없는 전연령은 숨김), 없으면 표준 그룹만 추정
 function ageRange(b){
   const lo=b.age_min??0, hi=b.age_max??120;
@@ -438,7 +449,7 @@ function isSpecial(b){
 }
 // 칩(상황·신분·직업) 자동 태깅 규칙 — 제목/요약에서 해당 조건을 감지한다.
 // 선택한 조건 모두에 해당(AND)하는 공고만 '받을 수 있어요'로 노출. 조건 미감지 공고는 '누구나 대상'.
-const CHIP_TAGS = new Set(["구직중","재직중","학생","자영업·창업","농어업인","예술인","운수종사자","제대군인","1인가구","신혼","임신·출산","육아","한부모","장애인","저소득","무주택"]);
+const CHIP_TAGS = new Set(["구직중","재직중","학생","자영업·창업","농어업인","예술인","운수종사자","제대군인","1인가구","신혼","임신·출산","육아","다자녀","한부모","다문화","어르신","장애인","저소득","무주택"]);
 const TAG_RULES = [
   ["구직중", /미취업|구직|실업|취업\s*준비|구직활동|취업\s*지원|일자리/],
   ["재직중", /재직|근로자|직장인|재직자|근속/],
@@ -452,7 +463,10 @@ const TAG_RULES = [
   ["신혼", /신혼|예비\s*부부/],
   ["임신·출산", /임신|임산부|출산|난임|산모|영아|출생아?/],
   ["육아", /육아|영유아|보육|양육|어린이집|아이돌봄|아동수당|보육료/],
+  ["다자녀", /다자녀|셋째|넷째|두\s*자녀|세\s*자녀|다둥이/],
   ["한부모", /한부모|조손|미혼모|미혼부/],
+  ["다문화", /다문화|결혼이민|외국인주민|이주여성|중도입국|북한이탈/],
+  ["어르신", /노인|어르신|고령|경로당?|기초연금|시니어|치매|장기요양/],
   ["장애인", /장애/],
   ["저소득", /기초생활|차상위|저소득|중위소득|기초수급|생계급여|긴급복지|기초연금/],
   ["무주택", /무주택|월세|전세|임차|주거급여|전월세|보증금|임대주택/],
@@ -512,7 +526,7 @@ function render(){
   const elig=[]; let total=0;
   DATA.benefits.filter(visible).forEach(b=>{
     const ev = evaluate(b, age);
-    if(ev.eligible){ elig.push(b); total += b.amount; }
+    if(ev.eligible){ elig.push(b); total += realAmount(b); }
   });
 
   // 피부로 느끼는(체감) 혜택 먼저 → 마감 임박 → 금액 큰 순
