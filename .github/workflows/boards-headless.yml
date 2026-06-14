@@ -5,7 +5,7 @@ name: 구청공고 헤드리스 수집 (JS 게시판)
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: "30 20 * * *"   # 매일 05:30 KST (메인 06:00 전에 갱신)
+    - cron: "30 20 * * 1,4"   # 월·목 05:30 KST (대역폭 보호: JS지역 회전 수집)
   push:
     branches: ["claude/niche-market-structure-cQHsO"]
     paths:
@@ -38,7 +38,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add youth-benefits-demo/data/boards_headless.json
+          git add youth-benefits-demo/data/boards_headless.json youth-benefits-demo/data/headless_cache.json
           git diff --staged --quiet && { echo "변경 없음"; exit 0; }
           git commit -m "data: 구청공고 헤드리스 수집 갱신 [skip ci]"
           for i in 1 2 3 4 5; do
