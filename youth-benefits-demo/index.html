@@ -3,526 +3,226 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="theme-color" content="#6366f1" />
-<title>우리동네 복지·지원 · 전국</title>
+<meta name="theme-color" content="#ECEAE5" />
+<title>우리동네 복지·지원</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
 <style>
-  /* ── 리디자인: 인디고·바이올렛 브랜드 + 코랄 '머니' 강조 + 메시 배경 (Toss/Cash App x 에디토리얼) ── */
   :root{
-    --bg:#f4f5fb; --card:#ffffff; --line:#e9eaf4; --txt:#191c2e; --sub:#6c7493;
-    --brand:#6366f1; --brand2:#8b5cf6; --brand-ink:#4f46e5;
-    --money:#e2620a; --money-bg:#fff5ec; --money-line:#fbd8b4;
-    --ok:#0ea371; --warn:#ef4444;
-    --accent:#6366f1; --accent2:#0ea371; --gold:#4f46e5;   /* 구 변수 호환(다른 코드 참조 대비) */
-    --r:18px; --sh:0 2px 10px rgba(25,28,46,.05); --sh-lift:0 14px 32px rgba(25,28,46,.12);
+    --acc:#454896;            /* 포인트(인디고) */
+    --acc-glow:#45489666;
+    --ink:#1B1A17; --muted:#8A8578; --faint:#A8A296;
+    --page:#ECEAE5; --card:#FFFFFF; --result-bg:#F6F5FB;
+    --f1:#F4F2ED; --f2:#F0EEE8; --f3:#F2F0EA; --f4:#E7E5DE; --track:#EEEBE4;
+    --hot:#FF7A1A; --kakao:#FEE500; --kakao-ink:#3A1D1D;
   }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:-apple-system,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",sans-serif;color:var(--txt);line-height:1.5;-webkit-font-smoothing:antialiased;
-    background:
-      radial-gradient(820px 360px at 108% -8%, #e7e2ff 0%, transparent 58%),
-      radial-gradient(760px 340px at -12% 2%, #d6f6e7 0%, transparent 55%),
-      radial-gradient(700px 500px at 50% 120%, #efe9ff 0%, transparent 60%),
-      var(--bg);
-    background-attachment:fixed}
-  .wrap{max-width:480px;margin:0 auto;padding:18px 15px 64px}
-  header{padding:6px 2px 4px}
-  .loc{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.72);backdrop-filter:blur(8px);border:1px solid #e2e3f2;color:#5a5fa3;font-size:12px;font-weight:600;padding:6px 12px;border-radius:999px;box-shadow:var(--sh)}
-  h1{font-size:27px;font-weight:800;margin:14px 0 6px;letter-spacing:-.7px;line-height:1.25}
-  h1 b{background:linear-gradient(96deg,var(--brand),var(--brand2));-webkit-background-clip:text;background-clip:text;color:transparent}
-  .lede{color:var(--sub);font-size:13.5px;max-width:34em}
-  .panel{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:18px;margin-top:18px;box-shadow:var(--sh)}
-  .panel h2{font-size:13px;color:var(--txt);font-weight:800;margin-bottom:12px;letter-spacing:-.2px}
-  .agewrap{display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap}
-  .agewrap input,.agewrap select{background:#f6f7fc;border:1.5px solid var(--line);color:var(--txt);border-radius:13px;transition:.15s;outline:none}
-  .agewrap input{width:82px;font-size:20px;font-weight:800;text-align:center;padding:11px}
-  .agewrap label{font-size:14px;color:var(--sub);font-weight:600;margin-left:-4px}
-  .agewrap select{flex:1 1 42%;min-width:130px;font-size:14px;font-weight:600;padding:12px 11px}
-  .agewrap input:focus,.agewrap select:focus{border-color:var(--brand);background:#fff;box-shadow:0 0 0 4px rgba(99,102,241,.14)}
-  .h2sub{font-weight:500;color:var(--sub);font-size:12px}
-  details.adv{margin-top:12px;border-top:1px dashed var(--line);padding-top:10px}
-  details.adv>summary{cursor:pointer;color:var(--brand-ink);font-size:13px;font-weight:700;list-style:none;padding:6px 2px}
-  details.adv>summary::-webkit-details-marker{display:none}
-  details.adv>summary::before{content:"▸ "}
-  details.adv[open]>summary::before{content:"▾ "}
-  details.adv .grp:first-of-type{margin-top:6px}
-  .summary{position:relative;overflow:hidden;background:linear-gradient(135deg,#eef0ff,#f6f3ff);border:1px solid #e4e2ff;border-radius:20px;padding:16px 18px;margin-top:18px}
-  .summary .sb-title{font-size:12px;color:var(--brand-ink);font-weight:800;margin-bottom:6px;letter-spacing:.2px}
-  #summaryText{font-size:13.5px;color:#34384f;line-height:1.65}
-  .csum{font-size:12.5px;color:var(--sub);margin:2px 0 4px}
-  .exp{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;color:var(--sub);margin:10px 2px 2px;cursor:pointer}
-  .exp input{accent-color:var(--brand);width:15px;height:15px}
-  .chips{display:flex;flex-wrap:wrap;gap:8px}
-  .grp{font-size:11.5px;color:#8b91ad;margin:12px 2px 7px;font-weight:700;letter-spacing:.2px}
-  .chip{background:#fff;border:1.5px solid var(--line);color:#4d556f;font-size:13px;font-weight:600;padding:8px 14px;border-radius:999px;cursor:pointer;user-select:none;transition:transform .12s,box-shadow .15s,background .15s,border-color .15s;box-shadow:0 1px 2px rgba(25,28,46,.04)}
-  .chip:hover{border-color:#c3c5f5;color:var(--brand-ink);transform:translateY(-1px)}
-  .chip.on{background:linear-gradient(135deg,var(--brand),var(--brand2));border-color:transparent;color:#fff;font-weight:700;box-shadow:0 6px 16px rgba(99,102,241,.36);transform:translateY(-1px)}
-  /* ── 히어로 스탯 카드(다크 그라데이션) ── */
-  .result-banner{position:relative;overflow:hidden;margin-top:20px;background:linear-gradient(135deg,#5b54e6 0%,#7c3aed 60%,#9333ea 100%);border:none;border-radius:24px;padding:26px 22px 22px;text-align:center;color:#fff;box-shadow:0 18px 44px rgba(91,84,230,.34)}
-  .result-banner:before{content:"";position:absolute;top:-70px;right:-50px;width:200px;height:200px;border-radius:50%;background:rgba(255,255,255,.14);filter:blur(6px)}
-  .result-banner:after{content:"";position:absolute;bottom:-90px;left:-40px;width:200px;height:200px;border-radius:50%;background:rgba(255,255,255,.08)}
-  .result-banner>*{position:relative;z-index:1}
-  .result-banner .big{font-size:42px;font-weight:900;color:#fff;letter-spacing:-1.5px;line-height:1.05;text-shadow:0 2px 18px rgba(0,0,0,.12)}
-  .result-banner .cap{font-size:13px;color:#e4e1ff;margin-top:6px;font-weight:500}
-  .result-banner .cnt{font-size:13px;color:#cfcaff;margin-top:10px;font-weight:600}
-  .share{margin-top:16px;display:inline-flex;align-items:center;gap:6px;background:#fee500;color:#191600;font-weight:800;font-size:13.5px;padding:11px 20px;border-radius:13px;border:none;cursor:pointer;box-shadow:0 6px 16px rgba(0,0,0,.16);transition:transform .12s}
-  .share:hover{transform:translateY(-1px)}
-  .sec-title{margin:26px 4px 12px;font-size:15px;color:var(--txt);font-weight:800;display:flex;justify-content:space-between;align-items:center;letter-spacing:-.3px}
-  .sec-title #eligcnt{font-size:12px;font-weight:700;color:var(--brand-ink);background:#edecff;border:1px solid #ddd9ff;padding:3px 10px;border-radius:999px}
-  /* ── 카드 ── */
-  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px 16px 14px;margin-bottom:11px;position:relative;overflow:hidden;box-shadow:var(--sh);transition:transform .16s ease,box-shadow .16s ease}
-  .card:hover{transform:translateY(-3px);box-shadow:var(--sh-lift)}
-  .card.elig{border-color:#dfe0f4}
-  .card.elig:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--brand),var(--brand2))}
-  /* 받을 수 있어요: 좁은 본문(480px)을 벗어나 넓게. 한 줄에 최대 3칸(부족하면 가운데 정렬) */
-  #eligible{display:grid;grid-template-columns:1fr;gap:13px;align-items:stretch}
-  #eligible .card{margin-bottom:0;height:100%}
-  @media(min-width:720px){
-    #eligible{position:relative;left:50%;transform:translateX(-50%);width:96vw;max-width:1280px;
-      grid-template-columns:repeat(var(--cols,3),minmax(220px,400px));justify-content:center}
-  }
-  .card.locked{opacity:.6}
-  .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
-  .dcat{display:inline-block;font-size:11px;font-weight:800;color:var(--brand-ink);background:#edecff;border:1px solid #ddd9ff;border-radius:999px;padding:3px 10px;margin-bottom:9px}
-  .ctitle{font-size:18px;font-weight:800;line-height:1.3;letter-spacing:-.4px;color:#13172a;margin:2px 0 8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .ctarget{font-size:12.5px;color:#444b66;margin-top:8px;line-height:1.5}
-  .ctarget.clamp{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-  .ctarget.more{cursor:pointer}
-  .ctarget.expanded{color:#262b42}   /* 펼쳐도 프레임 동일 — 글자만 전부 보이게(박스 없음) */
-  .ctarget b{color:var(--brand-ink);font-weight:800;font-size:11px;background:#edecff;border-radius:6px;padding:2px 7px;margin-right:5px}
-  .morebtn{display:inline-block;cursor:pointer;color:var(--brand-ink);font-weight:700;font-size:11.5px;margin-top:5px;user-select:none}
-  .morebtn:hover{text-decoration:underline}
-  .csum{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .cmeta{font-size:12px;color:var(--sub);margin-top:10px;padding-top:9px;border-top:1px solid #f0f1f8}
-  .cmeta b{font-weight:700}
-  .cmeta .dopen{color:var(--ok)}
-  .cmeta .dclose{color:var(--warn)}
-  .cat{font-size:11px;color:var(--sub);background:#f0f1f8;border:1px solid var(--line);padding:3px 8px;border-radius:6px;white-space:nowrap}
-  /* 금액: 코랄 '프라이스 태그' 강조 */
-  .amt{display:inline-flex;align-items:center;gap:5px;color:var(--money);background:var(--money-bg);border:1px solid var(--money-line);font-weight:800;font-size:14.5px;padding:6px 12px;border-radius:11px;margin:9px 0 4px;letter-spacing:-.2px}
-  .meta{font-size:12.5px;color:var(--sub);margin-top:3px}
-  .meta b{color:var(--txt);font-weight:600}
-  .badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
-  .badge{font-size:11px;padding:3px 8px;border-radius:6px;font-weight:600}
-  .dday{background:#fde8e8;color:#c0392b;border:1px solid #f3c4c4}
-  .dday.open{background:#e3f7ed;color:#0f8a5a;border:1px solid #b6e6cd}
-  .reason{background:#edecff;color:var(--brand-ink);border:1px solid #ddd9ff}
-  .reason.no{background:#fdeeee;color:#c0392b;border:1px solid #f3c4c4}
-  a.src{color:var(--brand-ink);font-size:12.5px;font-weight:700;text-decoration:none;margin-top:11px;display:inline-flex;align-items:center;gap:3px}
-  a.src:hover{gap:6px;transition:gap .15s}
-  .foot{margin-top:28px;font-size:11px;color:#9298b0;line-height:1.6;text-align:center}
-  .prompt{grid-column:1/-1;max-width:520px;margin:0 auto;text-align:center;padding:34px 20px;color:var(--sub);font-size:14px;line-height:1.75;background:rgba(255,255,255,.7);backdrop-filter:blur(6px);border:1.5px dashed #d3d4ee;border-radius:18px}
-  .prompt b{color:var(--brand-ink)}
-  .hidden{display:none}
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-font-smoothing:antialiased}
+  body{font-family:'Pretendard',-apple-system,"Apple SD Gothic Neo",sans-serif;background:var(--page);color:var(--ink);
+    display:flex;justify-content:center;align-items:flex-start;padding:24px 16px 60px;min-height:100vh}
+  @keyframes popIn{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:none}}
+  @keyframes toastIn{from{opacity:0;transform:translate(-50%,12px)}to{opacity:1;transform:translate(-50%,0)}}
+  @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+  .phone{width:100%;max-width:420px;border-radius:34px;overflow:hidden;box-shadow:0 26px 80px rgba(0,0,0,.18);position:relative;background:var(--card)}
+  .screen{min-height:842px;animation:fadeIn .25s ease}
+  .hidden{display:none!important}
+
+  /* ── 입력 화면 ── */
+  #screenInput{background:var(--card)}
+  .pad{padding:30px 24px 124px}
+  .locbadge{display:inline-flex;align-items:center;gap:7px;background:var(--f1);padding:7px 13px;border-radius:999px;font-size:12.5px;font-weight:700;color:#6F6A60;margin-bottom:22px;white-space:nowrap}
+  h1{font-size:31px;line-height:1.18;font-weight:800;letter-spacing:-.03em;margin:0 0 30px}
+  .field{border-bottom:2px solid var(--f2);padding-bottom:18px;margin-bottom:18px}
+  .field.tap{cursor:pointer}
+  .field-top{display:flex;align-items:center;justify-content:space-between;white-space:nowrap}
+  .field-label{font-size:13px;font-weight:700;color:var(--faint)}
+  .field-action{font-size:13px;font-weight:700;color:var(--acc)}
+  .field-val{font-size:21px;font-weight:800;margin-top:5px}
+  .agefield{padding-bottom:20px;margin-bottom:22px}
+  .agefield .field-top{margin-bottom:14px}
+  .agefield .field-val{margin-top:0}
+  #regionPicker{margin-top:14px;display:flex;gap:8px}
+  #regionPicker.hidden{display:none}
+  #regionPicker select{flex:1;min-width:0;background:var(--f1);border:1.5px solid var(--f2);color:var(--ink);font-family:inherit;font-size:14px;font-weight:600;border-radius:13px;padding:12px 10px;outline:none}
+  #regionPicker select:focus{border-color:var(--acc)}
+  input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:6px;border-radius:3px;background:var(--track);outline:none}
+  input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:26px;height:26px;border-radius:50%;background:#fff;border:4px solid var(--acc);box-shadow:0 3px 8px rgba(0,0,0,.18);cursor:pointer}
+  input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:#fff;border:4px solid var(--acc);box-shadow:0 3px 8px rgba(0,0,0,.18);cursor:pointer}
+  .sit-top{margin-bottom:10px;white-space:nowrap}
+  .sit-top .field-label{display:inline}
+  .sit-count{font-size:13px;font-weight:700;color:var(--acc);margin-left:4px}
+  .sit-help{font-size:12.5px;color:var(--faint);font-weight:500;margin-bottom:14px}
+  .chips{display:flex;flex-wrap:wrap;gap:9px}
+  .chip{display:inline-flex;align-items:center;font-family:inherit;font-size:13.5px;font-weight:700;padding:9px 15px;border-radius:999px;border:1.5px solid transparent;background:var(--f1);color:var(--muted);cursor:pointer;user-select:none;white-space:nowrap;transition:all .12s ease}
+  .chip:active{transform:scale(.96)}
+  .chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .cta-wrap{position:absolute;left:0;right:0;bottom:0;padding:16px 24px 26px;background:linear-gradient(to top,#fff 70%,rgba(255,255,255,0))}
+  .cta{width:100%;border:none;background:var(--acc);color:#fff;font-family:inherit;font-size:17px;font-weight:800;padding:18px;border-radius:18px;box-shadow:0 12px 26px rgba(69,72,150,.32);display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer}
+  .cta:active{transform:translateY(1px)}
+
+  /* ── 결과 화면 ── */
+  #screenResult{background:var(--result-bg)}
+  .summary-bar{display:flex;align-items:center;gap:6px;padding:18px 20px 14px;font-size:12.5px;font-weight:600;color:var(--muted)}
+  .summary-bar .line{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+  .summary-bar .edit{border:none;background:none;font-family:inherit;font-size:12.5px;font-weight:700;color:var(--acc);cursor:pointer;flex-shrink:0;padding:4px;white-space:nowrap}
+  .hero{margin:0 16px;background:var(--ink);border-radius:26px;padding:26px 24px;color:#fff;position:relative;overflow:hidden;animation:popIn .4s ease}
+  .hero .glow{position:absolute;right:-26px;bottom:-34px;width:130px;height:130px;border-radius:50%;background:var(--acc-glow);filter:blur(2px)}
+  .hero .cap{font-size:13px;font-weight:600;opacity:.65;margin-bottom:12px;position:relative}
+  .hero .total{font-size:50px;font-weight:800;letter-spacing:-.03em;line-height:1;margin-bottom:18px;position:relative;white-space:nowrap}
+  .hero .total .unit{font-size:27px;margin-left:2px;font-weight:800}
+  .hero .pills{display:flex;gap:7px;position:relative;flex-wrap:wrap}
+  .hero .pill{font-size:12px;font-weight:700;background:rgba(255,255,255,.13);padding:7px 12px;border-radius:999px;white-space:nowrap}
+  .share-wrap{padding:14px 16px 6px}
+  .share{width:100%;border:none;background:var(--kakao);color:var(--kakao-ink);font-family:inherit;font-size:15px;font-weight:800;padding:15px;border-radius:16px;display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer}
+  .share .k{width:20px;height:20px;border-radius:5px;background:var(--kakao-ink);display:flex;align-items:center;justify-content:center;color:var(--kakao);font-size:12px;font-weight:900}
+  .groups{padding:12px 22px 32px}
+  .group{margin-bottom:22px}
+  .group-head{display:flex;align-items:center;gap:8px;margin-bottom:11px}
+  .group-head .dot{width:9px;height:9px;border-radius:3px;flex-shrink:0}
+  .group-head .cat{font-size:13.5px;font-weight:800;white-space:nowrap}
+  .group-head .meta{font-size:12px;font-weight:600;color:var(--faint);white-space:nowrap}
+  .group-head .rule{flex:1;height:1px;background:var(--f4)}
+  .group-card{background:#fff;border-radius:18px;overflow:hidden;border:1px solid rgba(27,26,23,.05);box-shadow:0 6px 18px rgba(28,26,20,.04)}
+  .prow{display:flex;align-items:center;gap:12px;padding:15px 16px;border-top:1px solid var(--f3);text-decoration:none;color:inherit}
+  .prow:first-child{border-top:none}
+  .prow:active{background:var(--f3)}
+  .prow .body{flex:1;min-width:0}
+  .prow .name{font-size:14.5px;font-weight:700;margin-bottom:3px;line-height:1.35}
+  .prow .sub{font-size:12px;color:var(--muted);font-weight:600;line-height:1.4}
+  .badge{font-size:11.5px;font-weight:800;padding:4px 8px;border-radius:7px;white-space:nowrap;flex-shrink:0}
+  .badge.normal{color:var(--faint);background:var(--f1)}
+  .badge.hot{color:#fff;background:var(--hot)}
+  .empty{text-align:center;color:var(--faint);font-size:14px;font-weight:600;line-height:1.7;padding:50px 20px;background:#fff;border-radius:18px;border:1px solid rgba(27,26,23,.05)}
+  .disclaimer{font-size:12px;line-height:1.7;color:var(--faint);font-weight:500;border-top:1px solid var(--f4);padding-top:18px;margin-top:6px}
+
+  /* ── 토스트 ── */
+  .toast{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;font-size:13.5px;font-weight:700;padding:12px 20px;border-radius:999px;box-shadow:0 10px 30px rgba(0,0,0,.3);animation:toastIn .25s ease;white-space:nowrap;z-index:5}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <span class="loc" id="locTag">📍 인천광역시 연수구</span>
-    <h1>나만 몰랐던 <b>우리동네 복지·지원</b>, 다 모았어요</h1>
-    <p class="lede">옆 동네는 받는데 나만 몰랐던 복지·지원금. 나이·지역·상황만 넣으면 받을 수 있는 것만 골라드려요.</p>
-  </header>
+<div class="phone">
 
-  <div id="summaryBox" class="summary hidden">
-    <div class="sb-title">📌 이 지역 한눈에</div>
-    <div id="summaryText"></div>
-  </div>
+  <!-- ============ 입력 화면 ============ -->
+  <div class="screen" id="screenInput">
+    <div class="pad">
+      <span class="locbadge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        우리동네 복지·지원
+      </span>
+      <h1>세 가지만<br>알려주세요</h1>
 
-  <div class="panel">
-    <h2>내 정보</h2>
-    <div class="agewrap">
-      <input id="age" type="number" min="0" max="100" value="27" />
-      <label>세</label>
-      <select id="sido" title="시·도"></select>
-      <select id="region" title="시·군·구"></select>
-    </div>
-    <h2>내 상황 <span class="h2sub">해당하는 것만 선택</span></h2>
-    <div id="chips">
-      <div class="chips">
-        <span class="chip" data-tag="구직중">🔍 구직중</span>
-        <span class="chip" data-tag="재직중">💼 재직중</span>
-        <span class="chip" data-tag="학생">🎓 학생</span>
-        <span class="chip" data-tag="자영업·창업">🏪 소상공인·창업</span>
-        <span class="chip" data-tag="1인가구">👤 1인가구</span>
-        <span class="chip" data-tag="신혼">💑 신혼</span>
-        <span class="chip" data-tag="임신·출산">🤰 임신·출산</span>
-        <span class="chip" data-tag="육아">👶 육아</span>
-        <span class="chip" data-tag="다자녀">👨‍👩‍👧‍👦 다자녀</span>
-        <span class="chip" data-tag="한부모">🌗 한부모</span>
-        <span class="chip" data-tag="다문화">🌏 다문화</span>
-        <span class="chip" data-tag="어르신">🧓 어르신</span>
-        <span class="chip" data-tag="장애인">♿ 장애인</span>
-        <span class="chip" data-tag="저소득">💸 저소득</span>
-        <span class="chip" data-tag="무주택">🏠 무주택·자취</span>
-      </div>
-      <details class="adv">
-        <summary>＋ 직업 조건 (농어업·예술·운수·제대군인)</summary>
-        <div class="chips">
-          <span class="chip" data-tag="농어업인">🌾 농어업인</span>
-          <span class="chip" data-tag="예술인">🎨 예술인</span>
-          <span class="chip" data-tag="운수종사자">🚚 운수종사자</span>
-          <span class="chip" data-tag="제대군인">🎖️ 제대군인</span>
+      <!-- 지역 -->
+      <div class="field">
+        <div class="field-top tap" id="regionToggle">
+          <span class="field-label">지역</span>
+          <span class="field-action">변경 ▾</span>
         </div>
-      </details>
-    </div>
-    <details class="adv">
-      <summary>고급 필터 — 분야·지원형태·생활밀착·마감 포함</summary>
-      <div class="grp">성격별 (생활밀착·장애인·자격증 등)</div>
-      <div class="chips" id="topicChips"></div>
-      <div class="grp">분야</div>
-      <div class="chips" id="catChips"></div>
-      <div class="grp">지원 형태</div>
-      <div class="chips" id="typeChips">
-        <span class="chip" data-type="현금">💵 현금</span>
-        <span class="chip" data-type="바우처">🎫 바우처·포인트</span>
-        <span class="chip" data-type="대출">🏦 대출</span>
-        <span class="chip" data-type="현물">📦 현물·주거</span>
-        <span class="chip" data-type="서비스">🛠 서비스·프로그램</span>
+        <div class="field-val" id="regRowVal">—</div>
+        <div id="regionPicker" class="hidden">
+          <select id="sido" title="시·도"></select>
+          <select id="region" title="시·군·구"></select>
+        </div>
       </div>
-      <label class="exp"><input type="checkbox" id="showExpired"/> 마감된 공고도 보기</label>
-      <label class="exp"><input type="checkbox" id="showAll"/> 공지·특수·자동지원까지 모두 보기</label>
-    </details>
+
+      <!-- 나이 -->
+      <div class="field agefield">
+        <div class="field-top">
+          <span class="field-label">나이</span>
+          <span class="field-val" id="ageLabel">만 27세</span>
+        </div>
+        <input id="age" type="range" min="0" max="100" value="27" />
+      </div>
+
+      <!-- 내 상황 -->
+      <div class="sit-top">
+        <span class="field-label">내 상황</span><span class="sit-count" id="sitCount">0개 선택</span>
+      </div>
+      <div class="sit-help">해당하는 것만 골라주세요. 누를수록 더 정확해져요.</div>
+      <div class="chips" id="chips">
+        <span class="chip" data-tag="구직중">구직중</span>
+        <span class="chip" data-tag="재직중">재직중</span>
+        <span class="chip" data-tag="학생">학생</span>
+        <span class="chip" data-tag="자영업·창업">소상공인·창업</span>
+        <span class="chip" data-tag="1인가구">1인가구</span>
+        <span class="chip" data-tag="신혼">신혼</span>
+        <span class="chip" data-tag="임신·출산">임신·출산</span>
+        <span class="chip" data-tag="육아">육아</span>
+        <span class="chip" data-tag="다자녀">다자녀</span>
+        <span class="chip" data-tag="한부모">한부모</span>
+        <span class="chip" data-tag="어르신">어르신</span>
+        <span class="chip" data-tag="장애인">장애인</span>
+        <span class="chip" data-tag="저소득">저소득</span>
+        <span class="chip" data-tag="무주택">무주택·자취</span>
+      </div>
+    </div>
+
+    <div class="cta-wrap">
+      <button class="cta" id="openResult">지갑 열어보기
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+      </button>
+    </div>
   </div>
 
-  <div class="result-banner" id="banner">
-    <div class="big" id="total">—</div>
-    <div class="cap">내게 맞는 현금·현물 지원 합계 (대출 제외, 최대 추정)</div>
-    <div class="cnt" id="cnt"></div>
-    <button class="share" onclick="share()">💬 카톡으로 친구에게 공유</button>
+  <!-- ============ 결과 화면 ============ -->
+  <div class="screen hidden" id="screenResult">
+    <div class="summary-bar">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--acc)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span class="line" id="summaryLine"></span>
+      <button class="edit" id="backToInput">수정</button>
+    </div>
+
+    <div class="hero">
+      <div class="glow"></div>
+      <div class="cap">받을 수 있는 지원 합계 · 최대 추정</div>
+      <div class="total"><span id="totalNum">0</span><span class="unit">만원</span></div>
+      <div class="pills">
+        <span class="pill">받을 수 있는 지원 <b id="matchedCount">0</b>건</span>
+        <span class="pill">대출 별도 <b id="loanCount">0</b>건</span>
+      </div>
+    </div>
+
+    <div class="share-wrap">
+      <button class="share" id="shareBtn"><span class="k">k</span>친구에게 카톡으로 알려주기</button>
+    </div>
+
+    <div class="groups" id="groups"></div>
   </div>
 
-  <div class="sec-title" id="secElig"><span>✅ 받을 수 있어요</span><span id="eligcnt"></span></div>
-  <div id="eligible"></div>
-
-  <p class="foot">
-    <span id="srcTag">데이터: 검증 시드(2026-06-08 스냅샷)</span> · 데모용이며 금액·기간은 변동될 수 있어요.<br/>
-    신청 전 복지로·보조금24·관할 시·군·구청 등 공식 출처로 꼭 확인하세요.
-  </p>
 </div>
 
 <script>
 const DATA = {
   benefits: [
-    {id:"rent",title:"인천형 청년월세 지원사업",category:"주거",amount:2400000,amount_label:"월 최대 20만원 (연 최대 240만원)",age_min:19,age_max:39,need:["무주택"],apply_end:"2026-05-29",how:"복지로/인천청년포털 또는 행정복지센터",contact:"연수구 일자리정책과 032-749-7834",source:"https://youth.incheon.go.kr/dwelling/monthly.jsp"},
-    {id:"dream",title:"드림체크카드 (구직활동비)",category:"일자리",amount:3000000,amount_label:"월 50만원 × 6개월 = 최대 300만원",age_min:18,age_max:39,need:["구직중"],apply_end:"2026-12-31",how:"인천청년포털 온라인 신청",contact:"인천청년포털",source:"https://youth.incheon.go.kr/job/dream.jsp"},
-    {id:"interview",title:"청년 면접수당",category:"일자리",amount:100000,amount_label:"면접 1회 5만원 × 최대 2회 = 10만원",age_min:18,age_max:39,need:["구직중"],apply_end:"2026-12-31",how:"관할 구청 일자리정책과",contact:"연수구 일자리정책과 032-749-7834",source:"https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoDetail.do?poly_seq=277"},
-    {id:"account",title:"드림For 청년통장 (자산형성)",category:"자산형성",amount:5400000,amount_label:"3년간 시 지원 540만원 (최대 1,080만 자산)",age_min:18,age_max:39,need:["재직중"],apply_end:"2026-05-15",how:"인천청년포털 온라인 신청",contact:"인천테크노파크",source:"https://youth.incheon.go.kr/financial/dreamfor.jsp"},
-    {id:"welfare",title:"인천 재직청년 복지포인트",category:"복지",amount:500000,amount_label:"연 복지포인트 (재직 청년)",age_min:18,age_max:39,need:["재직중"],apply_end:"2026-12-31",how:"인천테크노파크 신청",contact:"인천테크노파크",source:"https://www.itp.or.kr/intro.asp?tmid=428"},
-    {id:"mind",title:"청년 마음건강 지원 (심리상담)",category:"마음건강",amount:0,amount_label:"전문 심리상담 회기 지원 (현물)",age_min:19,age_max:39,need:[],apply_end:"2026-12-31",how:"복지로/연수구 보건소",contact:"연수구 청년정책 담당",source:"https://www.bokjiro.go.kr/"}
+    {id:"rent",title:"인천형 청년월세 지원사업",category:"주거",amount:2400000,amount_label:"월 최대 20만원 (연 최대 240만원)",age_min:19,age_max:39,need:["무주택"],support_type:"현금",apply_end:"2026-12-29",how:"복지로/인천청년포털",contact:"연수구 일자리정책과",source:"https://youth.incheon.go.kr/dwelling/monthly.jsp"},
+    {id:"dream",title:"드림체크카드 (구직활동비)",category:"일자리",amount:3000000,amount_label:"월 50만원 × 6개월 = 최대 300만원",age_min:18,age_max:39,need:["구직중"],support_type:"현금",apply_end:"2026-12-31",how:"인천청년포털 온라인 신청",contact:"인천청년포털",source:"https://youth.incheon.go.kr/job/dream.jsp"},
+    {id:"interview",title:"청년 면접수당",category:"일자리",amount:100000,amount_label:"면접 1회 5만원 × 최대 2회 = 10만원",age_min:18,age_max:39,need:["구직중"],support_type:"현금",apply_end:"2026-07-15",how:"관할 구청 일자리정책과",contact:"연수구 일자리정책과",source:"https://youth.incheon.go.kr/youthpolicy/youthPolicyInfoDetail.do?poly_seq=277"},
+    {id:"account",title:"드림For 청년통장 (자산형성)",category:"금융",amount:5400000,amount_label:"3년간 시 지원 540만원",age_min:18,age_max:39,need:["재직중"],support_type:"현금",apply_end:"2026-06-30",how:"인천청년포털 온라인 신청",contact:"인천테크노파크",source:"https://youth.incheon.go.kr/financial/dreamfor.jsp"},
+    {id:"welfare",title:"인천 재직청년 복지포인트",category:"복지",amount:500000,amount_label:"연 복지포인트 (재직 청년)",age_min:18,age_max:39,need:["재직중"],support_type:"바우처",apply_end:"2026-12-31",how:"인천테크노파크 신청",contact:"인천테크노파크",source:"https://www.itp.or.kr/intro.asp?tmid=428"},
+    {id:"mind",title:"청년 마음건강 지원 (심리상담)",category:"건강",amount:0,amount_label:"전문 심리상담 회기 지원 (현물)",age_min:19,age_max:39,need:["구직중"],support_type:"서비스",apply_end:"2026-12-31",how:"복지로/연수구 보건소",contact:"연수구 청년정책 담당",source:"https://www.bokjiro.go.kr/"}
   ]
 };
 
 const TODAY = new Date();
-let selected = new Set();             // 내 상황(자격 매칭, AND). 비면 전체
-let selCats = new Set();              // 분야 보기 필터(비면 전체)
-let selTypes = new Set();             // 지원형태 보기 필터(비면 전체)
-let selTopics = new Set();            // 성격별(주제) 필터(비면=특수/자동 제외한 일반)
-let showExpired = false;              // 마감된 공고 표시 여부
-let showAll = false;                  // 공지·특수·자동지원까지 모두 표시
-let selSido = "인천광역시";            // 선택 시·도
-let selRegion = "인천광역시 연수구";   // 선택 시·군·구(또는 시도 전체)
-let PAGE_SUMMARY = "";
+let screen = "input";
+let selected = new Set(["구직중","1인가구","무주택"]);   // 기본 선택(레퍼런스)
+let selSido = "인천광역시";
+let selRegion = "인천광역시 연수구";
+let toastTimer = null;
 
-document.getElementById("chips").addEventListener("click", e=>{
-  const c = e.target.closest(".chip"); if(!c) return;
-  const t = c.dataset.tag;
-  if(selected.has(t)){selected.delete(t);c.classList.remove("on");}
-  else {selected.add(t);c.classList.add("on");}
-  render();
-});
-document.getElementById("typeChips").addEventListener("click", e=>{
-  const c = e.target.closest(".chip"); if(!c) return;
-  const t = c.dataset.type;
-  if(selTypes.has(t)){selTypes.delete(t);c.classList.remove("on");}
-  else {selTypes.add(t);c.classList.add("on");}
-  render();
-});
-document.getElementById("catChips").addEventListener("click", e=>{
-  const c = e.target.closest(".chip"); if(!c) return;
-  const t = c.dataset.cat;
-  if(selCats.has(t)){selCats.delete(t);c.classList.remove("on");}
-  else {selCats.add(t);c.classList.add("on");}
-  render();
-});
-document.getElementById("topicChips").addEventListener("click", e=>{
-  const c = e.target.closest(".chip"); if(!c) return;
-  const t = c.dataset.topic;
-  if(selTopics.has(t)){selTopics.delete(t);c.classList.remove("on");}
-  else {selTopics.add(t);c.classList.add("on");}
-  render();
-});
-// 잘린 '대상' 텍스트(또는 '전체 보기' 버튼) 클릭 → 펼치기/접기 토글
-document.getElementById("eligible").addEventListener("click", e=>{
-  const hit = e.target.closest(".ctarget.more, .morebtn"); if(!hit) return;
-  const card = hit.closest(".card"); if(!card) return;
-  const ct = card.querySelector(".ctarget"); const btn = card.querySelector(".morebtn");
-  const open = ct.classList.toggle("expanded"); ct.classList.toggle("clamp", !open);
-  if(btn) btn.textContent = open ? "접기 ⌃" : "전체 대상 보기 ⌄";
-});
-document.getElementById("showExpired").addEventListener("change", e=>{ showExpired = e.target.checked; render(); });
-document.getElementById("showAll").addEventListener("change", e=>{ showAll = e.target.checked; render(); });
-document.getElementById("age").addEventListener("input", render);
-document.getElementById("sido").addEventListener("change", e=>{
-  selSido = e.target.value;
-  buildSggSelect();                 // 시도 바꾸면 시군구 목록 갱신(첫 항목 자동 선택)
-  render();
-});
-document.getElementById("region").addEventListener("change", e=>{
-  selRegion = e.target.value;
-  document.getElementById("locTag").textContent = "📍 "+selRegion;
-  render();
-});
+/* ── 카테고리 색상·순서 ── */
+const CAT_COLORS = {
+  "주거":"#16B877","일자리":"#2B6FFF","금융":"#7C5CFF","교육":"#FF7A1A","문화":"#E8590C",
+  "환경·생활":"#11B5A6","건강":"#0CA678","복지":"#8A8578","육아":"#F0568B","농업":"#74B816",
+  "구청공고":"#868E96","기타":"#A8A296"
+};
+const CAT_ORDER = ["주거","일자리","금융","교육","문화","환경·생활","건강","육아","복지","농업","구청공고","기타"];
+const catColor = (c)=> CAT_COLORS[c] || "#A8A296";
 
-// 지역 셀렉트: 전국. 데이터에 존재하는 시·도 → 시·군·구를 동적 구성(2단 캐스케이드).
-let REGION_TREE = {};               // { 시도: Set(시군구 풀네임) }
-function buildRegionSelect(){
-  REGION_TREE = {};
-  for(const b of DATA.benefits){
-    const r = b.region; if(!r || r==="전국") continue;
-    const sido = r.split(" ")[0];
-    (REGION_TREE[sido] ||= new Set());
-    if(r.includes(" ")) REGION_TREE[sido].add(r);   // 시군구 단위만 하위로
-  }
-  const sidos = Object.keys(REGION_TREE).sort();
-  if(!sidos.length){ document.getElementById("sido").innerHTML=""; document.getElementById("region").innerHTML=""; return; }
-  if(!sidos.includes(selSido)) selSido = sidos.includes("인천광역시") ? "인천광역시" : sidos[0];
-  document.getElementById("sido").innerHTML =
-    sidos.map(s=>`<option value="${s}"${s===selSido?" selected":""}>${s}</option>`).join("");
-  buildSggSelect();
-}
-function buildSggSelect(){
-  const sel = document.getElementById("region");
-  const sggs = [...(REGION_TREE[selSido]||[])].sort();
-  // '○○ 전체'(시·도 단위 공고) + 개별 시군구
-  const opts = [{v:selSido, t:selSido.replace(/(특별자치도|특별자치시|특별시|광역시|도)$/,"")+" 전체"},
-                ...sggs.map(r=>({v:r, t:r.split(" ").slice(1).join(" ")}))];
-  if(!opts.some(o=>o.v===selRegion)){
-    selRegion = opts.find(o=>o.v.endsWith("연수구"))?.v || opts[1]?.v || opts[0].v;
-  }
-  sel.innerHTML = opts.map(o=>`<option value="${o.v}"${o.v===selRegion?" selected":""}>${o.t}</option>`).join("");
-  document.getElementById("locTag").textContent = "📍 "+selRegion;
-}
-// 지역 매칭: 선택 시군구 + 그 시도(시도단위/전체) + 전국. '전국' 오분류 누수는 안전망으로 차단.
-const SIDO_CORE = [["서울","서울특별시"],["부산","부산광역시"],["대구","대구광역시"],["인천","인천광역시"],["광주","광주광역시"],["대전","대전광역시"],["울산","울산광역시"],["세종","세종특별자치시"],["경기","경기도"],["강원","강원특별자치도"],["충북","충청북도"],["충남","충청남도"],["전북","전북특별자치도"],["전남","전라남도"],["경북","경상북도"],["경남","경상남도"],["제주","제주특별자치도"]];
-function regionMatch(b){
-  if(!b.region) return true;
-  if(b.region===selRegion) return true;
-  if(b.region===selSido) return true;                            // 시도 단위 공고
-  if(selRegion===selSido && b.region.startsWith(selSido+" ")) return true; // '○○ 전체' → 산하 시군구 모두
-  if(b.region==="전국"){
-    // 전국으로 분류됐으나 제목/요약이 특정 타 시도만 명시하면 누수로 보고 제외
-    const blob = `${b.title} ${b.summary||""}`;
-    const myCore = SIDO_CORE.find(c=>c[1]===selSido)?.[0];
-    const named = SIDO_CORE.filter(c=>blob.includes(c[1])||blob.includes(c[0])).map(c=>c[0]);
-    if(named.length && myCore && !named.includes(myCore)) return false;
-    return true;
-  }
-  return false;
-}
-
-// 데이터에 실제 존재하는 '세부 카테고리'로 칩 동적 생성(맞춤형 필터)
-function buildCatChips(){
-  const order = DETAIL_CATS.map(d=>d[0]);
-  const present = new Set(DATA.benefits.map(b=>b.dcat).filter(Boolean));
-  const cats = order.filter(c=>present.has(c)).concat([...present].filter(c=>!order.includes(c)));
-  document.getElementById("catChips").innerHTML =
-    cats.slice(0,40).map(c=>`<span class="chip" data-cat="${c}">${c}</span>`).join("");
-  selCats.clear();
-}
-function visible(b){
-  if(!regionMatch(b)) return false;
-  if(!showExpired && b.expired) return false;                       // 마감 기본 숨김
-  if(selCats.size && !selCats.has(b.dcat)) return false;
-  if(selTypes.size && !selTypes.has(b.support_type||"서비스")) return false;
-  if(showAll){ /* 전체 보기: 특수/노이즈 숨김 해제 */ }
-  else if(selTopics.size){                                            // 성격별 선택 → 그 주제만(특수 포함)
-    if(!(b.topics||[]).some(t=>selTopics.has(t))) return false;
-  } else if(b.special){                                              // 미선택 기본화면 → 특수/노이즈/자동 제외
-    return false;
-  }
-  return true;
-}
-
-function dday(end){
-  const d = Math.ceil((new Date(end)-TODAY)/(1000*60*60*24));
-  return d;
-}
-function won(n){ return n>=10000 ? (n/10000).toLocaleString()+"만원" : n.toLocaleString()+"원"; }
-
-// ── 성격별(주제) 태깅: 생활밀착 등 실생활 정보를 전면에, 특수/자동은 기본 숨김 ──
-const TOPIC_RULES = [
-  ["🏠 생활밀착", /음식물|처리기|감량기|종량제|봉투|보일러|단열|창호|집수리|주택개량|정화조|세탁|방역|환경개선|냉난방|가전|기저귀|상수도|하수도/],
-  ["☀️ 에너지·태양광", /태양광|에너지|친환경|탄소|전기차|충전|신재생/],
-  ["📜 자격증·시험", /자격증|응시료|시험료|면허|검정|어학|토익/],
-  ["🧑‍🍳 소상공인", /소상공인|자영업|점포|창업|상인/],
-  ["🏠 주거", /월세|전세|임차|보증금|임대주택|주거/],
-  ["👶 육아·출산", /출산|임신|육아|보육|영유아|난임|산모|아동/],
-  ["♿ 장애인", /장애/],
-  ["🧓 어르신", /노인|어르신|고령|경로/],
-];
-function deriveTopics(b){
-  const blob = `${b.title} ${b.category} ${b.amount_label} ${(b.need||[]).join(" ")} ${b.summary||""}`;
-  const t = []; for(const [name,re] of TOPIC_RULES) if(re.test(blob)) t.push(name); return t;
-}
-// ── 세부 카테고리(맞춤형): 제목/요약 키워드로 한 건당 1개 대표 분류(앞 규칙 우선) ──
-const DETAIL_CATS = [
-  ["💳 민생·지역화폐", /지역화폐|상품권|소비쿠폰|민생\s*지원|상생|재난지원|긴급재난|소비지원|캐시백/],
-  ["♻️ 생활·환경(음식물 등)", /음식물|처리기|감량기|종량제|봉투|기저귀|방역|해충|소독|상수도|하수도|정화조|쓰레기|재활용|환경개선/],
-  ["🎫 에너지·공과금 바우처", /에너지바우처|난방비|연탄|등유|전기요금|도시가스|가스요금|문화누리|통합문화이용권|바우처/],
-  ["📶 통신비·단말기", /통신비|단말기|스마트폰|데이터|요금감면/],
-  ["🚌 교통비·이동", /교통비|버스|지하철|알뜰교통|기후동행|교통카드|이동지원|택시비/],
-  ["🚗 자동차·전기차", /전기차|이륜차|전기이륜|친환경차|충전|자동차\s*지원/],
-  ["👨‍👩‍👧‍👦 다자녀", /다자녀|셋째|넷째|두\s*자녀|세\s*자녀/],
-  ["🍚 출산·첫만남·양육", /출산\s*(지원금|장려금|축하)|첫만남|출생|산후|부모급여|양육수당|아동수당/],
-  ["🤰 임신·난임", /임신|난임|임산부|모자보건|산모/],
-  ["👶 영유아·보육", /영유아|보육|어린이집|유아|아이돌봄|보육료|돌봄교실/],
-  ["🧒 아동·청소년", /아동|청소년|방과후|학교\s*밖|드림스타트|급식비/],
-  ["🍱 먹거리·급식", /로컬푸드|먹거리|급식|식품비|농산물\s*(상품권|지원)|쌀\s*지원|밑반찬|식료품/],
-  ["🏠 청년 월세·주거", /청년.*(월세|주거|임차)|월세\s*지원|주거급여/],
-  ["🏠 전세·보증금", /전세|보증금|임차보증|전월세|반환보증/],
-  ["🏠 임대·공공주택", /임대주택|공공주택|행복주택|매입임대|전세임대/],
-  ["🛠 집수리·에너지효율", /집수리|주택개량|단열|창호|보일러|슬레이트|노후주택|에너지효율|태양광|신재생/],
-  ["💊 의료비·치료", /의료비|치료비|수술|진료|재활|의료급여|건강보험료|간병/],
-  ["🩺 검진·예방접종", /건강검진|검진|예방접종|백신|구강|결핵|감염/],
-  ["🧠 마음건강", /심리|마음건강|정신건강|상담|우울|자살예방/],
-  ["🧓 어르신·요양", /노인|어르신|고령|경로|치매|장기요양|요양|기초연금/],
-  ["♿ 장애인", /장애/],
-  ["🌗 한부모·다문화", /한부모|조손|다문화|결혼이민|미혼모|북한이탈/],
-  ["💸 저소득·긴급복지", /기초생활|차상위|저소득|긴급복지|생계급여|기초수급/],
-  ["🎖 보훈·군인", /보훈|국가유공자|참전|제대군인|상이군경|보훈대상/],
-  ["📜 자격증·시험", /자격증|응시료|시험료|면허|검정|어학|토익/],
-  ["🎓 장학·학자금", /장학|학자금|등록금|교육비|학비/],
-  ["💰 청년 자산형성", /도약계좌|희망적금|희망두배|자산형성|디딤돌|청년통장|내일채움/],
-  ["💼 청년 일자리", /청년.*(일자리|취업|구직|면접)|취업장려|구직활동|일경험|인턴/],
-  ["🧹 공공근로·노인일자리", /공공근로|지역공동체|희망근로|노인\s*일자리|공익활동/],
-  ["👷 취업·직업훈련", /직업훈련|내일배움|취업지원|고용장려|근로자/],
-  ["🏪 소상공인·창업", /소상공인|자영업|창업|점포|상인|전통시장|소공인/],
-  ["🏦 융자·대출", /융자|대출|이차보전|보증|운전자금|경영안정자금/],
-  ["🐶 반려동물", /반려|유기동물|중성화|동물등록/],
-  ["🎨 문화·여가·강좌", /문화|예술|공연|전시|체육|스포츠|여행|관광|수강생|강좌|평생학습|아카데미/],
-  ["🌾 농어업·귀농", /농업|농민|어업|어민|귀농|귀어|축산|영농|농가|임업/],
-  ["🛡 안전·보험", /보험|안전|재난|화재|풍수해|cctv/],
-];
-// '피부로 느끼는' 체감 우선순위(작을수록 위로)
-const LIFE_TOP = new Set(["💳 민생·지역화폐","♻️ 생활·환경(음식물 등)","🎫 에너지·공과금 바우처","📶 통신비·단말기","🚌 교통비·이동","🚗 자동차·전기차","👨‍👩‍👧‍👦 다자녀","🍚 출산·첫만남·양육","👶 영유아·보육","🍱 먹거리·급식","🏠 청년 월세·주거","🛠 집수리·에너지효율","💊 의료비·치료","🩺 검진·예방접종","🧓 어르신·요양","♿ 장애인","💸 저소득·긴급복지"]);
-const LIFE_LOW = new Set(["💼 청년 일자리","🧹 공공근로·노인일자리","👷 취업·직업훈련","🏪 소상공인·창업","🏦 융자·대출","🎨 문화·여가·강좌","🌾 농어업·귀농","🛡 안전·보험"]);
-const PROGRAM_RE = /모집|수강생|서포터즈|위원\s*(위촉|모집)|세미나|설명회|공모|특강|교실|아카데미|체험단|봉사자|기자단|홍보단|동아리/;
-function lifeScore(b){
-  let s = LIFE_TOP.has(b.dcat) ? 0 : LIFE_LOW.has(b.dcat) ? 20 : 10;
-  const st = b.support_type || "";
-  if(/현물|현금|바우처/.test(st)) s -= 3; else if(/대출|서비스/.test(st)) s += 2;
-  if((b.topics||[]).includes("🏠 생활밀착")) s -= 5;
-  if(PROGRAM_RE.test(b.title)) s += 25;            // 모집·강좌 등 프로그램성은 하단으로
-  if(/기타/.test(b.dcat)) s += 8;
-  return s;
-}
-// 군더더기 제거: 괄호 안 부연·별표(유효기간 등) 이후·중복공백 정리 후 길이 제한
-function tidyText(t, n){
-  return clip(`${t||""}`
-    .replace(/[\(（][^)）]*[\)）]/g," ")     // (부연설명) 제거
-    .replace(/\s*[*※].*$/,"")               // *유효기간… / ※… 이후 제거
-    .replace(/^[\s\-·–—]+/,"")               // 앞쪽 기호 정리
-    .replace(/\s+/g," ").trim(), n);
-}
-// 카드 금액: LLM 정리값 우선 → 원문에서 핵심 금액구 추출(없으면 합산금액/안내)
-function keyAmount(b){
-  if(b.amount_clean) return clip(b.amount_clean, 24);                 // 제미나이 정리 금액 우선
-  const src = `${b.amount_label||""} ${b.title||""}`;
-  // 1) 확정 금액(원/만원/억) 우선
-  const money = src.match(/(최대\s*)?(월|연간?|분기|1인당|가구당|연)?\s*\d[\d,]*\s*(억\s*원?|만\s*원|원)/);
-  if(money) return clip(money[0].replace(/\s+/g,""), 22);
-  // 2) 퍼센트·포인트는 '무엇의 N%'인지 맥락(앞 비용·항목 명사) 포함 — 단독 "60%" 방지
-  const pct = src.match(/([가-힣]{2,12})\s*의\s*(최대\s*)?\d[\d,]*\s*(%|포인트)/)
-           || src.match(/([가-힣]{2,8}(?:비|료|금|액|용|값|료금))\s*(최대\s*)?\d[\d,]*\s*(%|포인트)/);
-  if(pct) return clip(pct[0].replace(/\s+/g," ").trim(), 24);
-  const pct2 = src.match(/(최대\s*)?\d[\d,]*\s*(%|포인트)/);
-  if(pct2) return clip(pct2[0].replace(/\s+/g,""), 22);
-  if(b.amount>0) return "최대 "+won(b.amount);
-  return null;
-}
-// 대상 원문 정리: 글머리기호(○·•-)·"지원연령/조건" 라벨·"다음 각 호" 등 군더더기 제거
-function tidyTarget(t){
-  let s = `${t||""}`
-    .replace(/[○●◦▷▶◆■□➤➢*•]/g," ")                // 글머리 기호(·중점은 구분자라 보존)
-    .replace(/다음\s*각\s*호의?\s*요건을?\s*갖춘\s*/g," ")
-    .replace(/아래의?\s*/g," ")
-    .replace(/지원\s*(연령|조건|대상)\s*[:：]?\s*/g," ")    // 라벨 제거(콜론 없어도)
-    .replace(/[<《][^>》]*[>》]/g," ")                     // <퇴직자> 등 꺾쇠 부연
-    .replace(/^[\s\-–—:：]+/,"")
-    .replace(/\s+/g," ").trim();
-  return tidyText(s, 120);   // CSS가 3줄로 시각 말줄임 — 소득·재산 등 자격 핵심이 잘리지 않게 여유
-}
-function clip(s,n){ return s ? `${s}`.replace(/\s+/g," ").trim().slice(0,n) : ""; }
-// 합산용 '현실적 수령액': 대출·서비스·기업자금·억대 한도는 제외(개인 현금성만, 1억 미만)
-function realAmount(b){
-  const st = b.support_type || "";
-  if(!/현금|현물|바우처/.test(st)) return 0;
-  const tg = b._tags;                                   // _tags는 Set(없으면 빈 배열)
-  if(tg && (tg.has ? tg.has("__기업") : tg.includes("__기업"))) return 0;
-  const a = b.amount || 0;
-  return (a > 0 && a < 100000000) ? a : 0;   // 1억 이상은 대출한도 등으로 보고 합산 제외
-}
-// 정확한 대상: 데이터 나이범위 우선(의미없는 전연령은 숨김), 없으면 표준 그룹만 추정
-function ageRange(b){
-  const lo=b.age_min??0, hi=b.age_max??120;
-  if(lo<=19 && hi>=100) { /* 사실상 전연령 → 표시 안 함, 키워드로 폴백 */ }
-  else if(hi>=100) return `만 ${lo}세+`;
-  else if(lo>0 || hi<120) return `만 ${lo}~${hi}세`;
-  const t = `${b.title} ${b.summary||""}`;
-  if(/영유아|어린이집|보육/.test(t)) return "0~5세";
-  if(/청소년/.test(t)) return "9~24세";
-  if(/청년/.test(t)) return "만 19~39세";
-  if(/노인|어르신|고령|경로|기초연금/.test(t)) return "만 65세+";
-  if(/아동/.test(t)) return "0~12세";
-  return "";
-}
-function targetLine(b){
-  // 제미나이로 정리한 대상이 있으면 최우선(가장 읽기 쉬움)
-  if(b.target_llm && b.target_llm.replace(/\s/g,"").length>=4){
-    const a = ageRange(b);
-    let s = tidyTarget(b.target_llm);
-    if(a && !/\d\s*세/.test(s)) s += " · "+a;
-    return s;
-  }
-  // 공식 '지원대상' 원문이 있으면 정리해서(추측 태그보다 정확)
-  if(b.target && b.target.replace(/\s/g,"").length>=4){
-    const a = ageRange(b);
-    let s = tidyTarget(b.target);
-    if(a && !/\d\s*세/.test(s)) s += " · "+a;
-    return s;
-  }
-  const conds = [...(b._tags||[])].filter(t=>!t.startsWith("__"));
-  const a = ageRange(b);
-  const parts = [];
-  if(conds.length) parts.push(conds.join("·"));
-  if(a) parts.push(a);
-  let s = parts.join(" · ") || "누구나";
-  if(b.support_type) s += " · "+b.support_type;
-  return s;
-}
-function detailCat(b){
-  const blob = `${b.title} ${b.summary||""} ${b.amount_label||""} ${(b.need||[]).join(" ")}`;
-  for(const [label,re] of DETAIL_CATS) if(re.test(blob)) return label;
-  return "📋 "+(b.category||"기타");
-}
-// 특수대상/자동지원 = 기본 화면 제외(성격별 선택 시에만 노출)
-function isSpecial(b){
-  const blob = `${b.title} ${b.amount_label} ${b.summary||""} ${(b.need||[]).join(" ")}`;
-  if(/자동\s*지급|별도\s*신청\s*(없이|불필요)|일괄\s*지급|소급\s*적용|직권/.test(blob)) return true;
-  if(/장애인|국가유공자|보훈|북한이탈|다문화|결혼이민|보호종료|자립준비/.test(blob)) return true;
-  return false;
-}
-// 칩(상황·신분·직업) 자동 태깅 규칙 — 제목/요약에서 해당 조건을 감지한다.
-// 선택한 조건 모두에 해당(AND)하는 공고만 '받을 수 있어요'로 노출. 조건 미감지 공고는 '누구나 대상'.
-const CHIP_TAGS = new Set(["구직중","재직중","학생","자영업·창업","농어업인","예술인","운수종사자","제대군인","1인가구","신혼","임신·출산","육아","다자녀","한부모","다문화","어르신","장애인","저소득","무주택"]);
+/* ── 상황 자동 태깅 ── */
+const CHIP_TAGS = new Set(["구직중","재직중","학생","자영업·창업","1인가구","신혼","임신·출산","육아","다자녀","한부모","다문화","어르신","장애인","저소득","무주택"]);
 const TAG_RULES = [
   ["구직중", /미취업|구직|실업|취업\s*준비|구직활동|취업\s*지원|일자리/],
   ["재직중", /재직|근로자|직장인|재직자|근속/],
   ["학생", /대학생|대학원생|재학생|휴학생|학생|학자금|장학/],
   ["자영업·창업", /소상공인|자영업|자영자|창업|점포|상인|전통시장|1인\s*사업|소공인/],
-  ["농어업인", /농업인|농민|어업인|어민|귀농|귀어|축산|농가|어가|영농|영어조합|농어업|임업/],
-  ["예술인", /예술인|예술가|작가|창작자|문화예술인|공연예술/],
-  ["운수종사자", /운수종사자|화물차주|화물자동차|택시운송|버스운송|개인택시|법인택시|운전종사자|운수업|택배기사|대리운전/],
-  ["제대군인", /제대군인|전역|예비역|직업군인|부사관|장기복무|보훈대상|국가유공자|참전유공자/],
   ["1인가구", /1인\s*가구|독거|혼자\s*사는/],
   ["신혼", /신혼|예비\s*부부/],
   ["임신·출산", /임신|임산부|출산|난임|산모|영아|출생아?/],
@@ -534,146 +234,247 @@ const TAG_RULES = [
   ["장애인", /장애/],
   ["저소득", /기초생활|차상위|저소득|중위소득|기초수급|생계급여|긴급복지|기초연금/],
   ["무주택", /무주택|월세|전세|임차|주거급여|전월세|보증금|임대주택/],
-  ["__기타직업", /관리종사자|경비원|미화원|환경미화|집배원|간병|요양보호사|보육교사|사회복지사|어린이집\s*교사|방과후\s*강사|생활지도사|선원|광부|건설근로자|일용근로자|특수형태근로|플랫폼\s*종사자|돌봄종사자/],
-  // 기업·법인 대상(개인용 아님) → 개인 화면 기본 노출 제외(선택 칩 없음). 누구나 풀에서 빠진다.
-  ["__기업", /중소기업|중견기업|대기업|법인|기업육성|사업체|스타트업|벤처기업|제조업|수출기업|소재·?부품|담보부사채|신용보증|보증재단|투자유치|R&D|연구개발|기업\s*부설|판로|기술전환|경영안정자금/],
+  ["__기업", /중소기업|중견기업|대기업|법인|기업육성|사업체|스타트업|벤처기업|제조업|수출기업|신용보증|보증재단|투자유치|R&D|연구개발|기업\s*부설|판로|경영안정자금/],
 ];
-// 공고가 겨냥한 조건 태그 집합(백엔드 need 중 칩 + 텍스트 감지). 비어 있으면 '누구나 대상'.
 function itemTags(b){
   const blob = `${b.title} ${b.category||""} ${b.amount_label||""} ${b.summary||""} ${(b.need||[]).join(" ")}`;
-  const t=new Set();
+  const t = new Set();
   for(const n of (b.need||[])) if(CHIP_TAGS.has(n)) t.add(n);
   for(const [tag,re] of TAG_RULES) if(re.test(blob)) t.add(tag);
   return t;
 }
-// 노이즈(신청형 혜택이 아닌 공지·결과·행정성) = 기본 숨김 (LLM 없이도 동작)
 const NOISE_RE = /결과\s*(발표|공개|안내|보고)|선정\s*결과|선정자|합격자|최종\s*선정|낙찰|입찰\s*공고|계약\s*(체결|현황)|간담회|설명회|공청회|토론회|워크숍|위원\s*(공개)?모집|위원회\s*(구성|위촉|개최)|회의\s*(결과|개최|록)|조례|규정\s*(개정|제정|안)|보도자료|포토\s*뉴스|카드\s*뉴스|채용\s*공고|임용|인사발령|정산\s*(현황|결과)|운영\s*결과|추진\s*실적|실태조사|의견\s*수렴|고시\s*제?\s*\d|공람|열람|입법예고/;
-function isNoise(b){ return NOISE_RE.test(`${b.title}`); }
-// 마감일 판정: apply_end 우선, 없으면 제목/요약의 날짜범위 끝값
+const isNoise = (b)=> NOISE_RE.test(`${b.title}`);
+function isSpecial(b){
+  const blob = `${b.title} ${b.amount_label||""} ${b.summary||""} ${(b.need||[]).join(" ")}`;
+  if(/자동\s*지급|별도\s*신청\s*(없이|불필요)|일괄\s*지급|소급\s*적용|직권/.test(blob)) return true;
+  return false;
+}
+const PROGRAM_RE = /모집|수강생|서포터즈|위원\s*(위촉|모집)|세미나|설명회|공모|특강|교실|아카데미|체험단|봉사자|기자단|홍보단|동아리/;
+
+/* ── 금액·마감 ── */
+function won(n){ return n>=10000 ? (n/10000).toLocaleString()+"만원" : n.toLocaleString()+"원"; }
+function dday(end){ return Math.ceil((new Date(end)-TODAY)/86400000); }
 function deriveExpiry(b){
   let end = b.apply_end || null;
   if(!end){
-    const blob = `${b.title} ${b.amount_label} ${b.summary||""}`;
+    const blob = `${b.title} ${b.amount_label||""} ${b.summary||""}`;
     const ds = blob.match(/20\d{2}\s*[.\-/년]\s*\d{1,2}\s*[.\-/월]\s*\d{1,2}/g);
     if(ds&&ds.length){ const last=ds[ds.length-1].replace(/[^0-9]/g,""); if(last.length>=8) end=`${last.slice(0,4)}-${last.slice(4,6)}-${last.slice(6,8)}`; }
   }
   if(!end) return {expired:false, end:null};
   return {expired:(new Date(end)-TODAY)/86400000 < 0, end};
 }
-function buildTopicChips(){
-  const all = new Set(); DATA.benefits.forEach(b=>(b.topics||[]).forEach(t=>all.add(t)));
-  // TOPIC_RULES 순서 유지
-  const ordered = TOPIC_RULES.map(r=>r[0]).filter(n=>all.has(n));
-  document.getElementById("topicChips").innerHTML =
-    ordered.map(t=>`<span class="chip" data-topic="${t}">${t}</span>`).join("") || `<span class="grp" style="margin:0">표시할 주제 없음</span>`;
+function keyAmount(b){
+  if(b.amount_clean) return b.amount_clean;
+  const src = `${b.amount_label||""} ${b.title||""}`;
+  const money = src.match(/(최대\s*)?(월|연간?|분기|1인당|가구당|연)?\s*\d[\d,]*\s*(억\s*원?|만\s*원|원)/);
+  if(money) return money[0].replace(/\s+/g,"");
+  const pct = src.match(/([가-힣]{2,12})\s*의\s*(최대\s*)?\d[\d,]*\s*(%|포인트)/) || src.match(/([가-힣]{2,8}(?:비|료|금|액|용|값))\s*(최대\s*)?\d[\d,]*\s*(%|포인트)/);
+  if(pct) return pct[0].replace(/\s+/g," ").trim();
+  if(b.amount>0) return "최대 "+won(b.amount);
+  return b.amount_label || "공고 확인";
+}
+function isLoan(b){ return /대출/.test(b.support_type||"") || (b._tags && b._tags.has && b._tags.has("__기업")); }
+function realAmount(b){
+  const st = b.support_type || "";
+  if(!/현금|현물|바우처/.test(st)) return 0;
+  if(isLoan(b)) return 0;
+  const a = b.amount || 0;
+  return (a>0 && a<100000000) ? a : 0;
 }
 
-function evaluate(b, age){
-  const ageOk = age>=b.age_min && age<=b.age_max;
-  const tags = b._tags || itemTags(b);
-  // 미선택 = '조건 없는(누구나 대상)' 공고만. 선택 시 = 고른 조건 '모두' 해당(AND)하는 공고만.
-  const condOk = selected.size===0 ? tags.size===0 : [...selected].every(s=>tags.has(s));
-  return {ageOk, condOk, eligible: ageOk && condOk};
-}
-
-function render(){
-  const age = parseInt(document.getElementById("age").value)||0;
-  // 조건(상황·직업) 선택 전에는 결과 그리드를 감추고 안내문만 노출
-  if(selected.size===0){
-    document.getElementById("eligible").innerHTML =
-      `<div class="prompt">👆 위에서 <b>상황·직업 조건</b>을 선택하면<br>받을 수 있는 혜택을 모아서 보여드려요.</div>`;
-    document.getElementById("eligcnt").textContent = "";
-    document.getElementById("total").textContent = "조건 선택 시 계산";
-    document.getElementById("cnt").textContent = selRegion;
-    return;
+/* ── 지역 매칭 ── */
+const SIDO_CORE = [["서울","서울특별시"],["부산","부산광역시"],["대구","대구광역시"],["인천","인천광역시"],["광주","광주광역시"],["대전","대전광역시"],["울산","울산광역시"],["세종","세종특별자치시"],["경기","경기도"],["강원","강원특별자치도"],["충북","충청북도"],["충남","충청남도"],["전북","전북특별자치도"],["전남","전라남도"],["경북","경상북도"],["경남","경상남도"],["제주","제주특별자치도"]];
+function regionMatch(b){
+  if(!b.region) return true;
+  if(b.region===selRegion) return true;
+  if(b.region===selSido) return true;
+  if(selRegion===selSido && b.region.startsWith(selSido+" ")) return true;
+  if(b.region==="전국"){
+    const blob = `${b.title} ${b.summary||""}`;
+    const myCore = SIDO_CORE.find(c=>c[1]===selSido)?.[0];
+    const named = SIDO_CORE.filter(c=>blob.includes(c[1])||blob.includes(c[0])).map(c=>c[0]);
+    if(named.length && myCore && !named.includes(myCore)) return false;
+    return true;
   }
-  const elig=[]; let total=0;
-  DATA.benefits.filter(visible).forEach(b=>{
-    const ev = evaluate(b, age);
-    if(ev.eligible){ elig.push(b); total += realAmount(b); }
-  });
-
-  // 피부로 느끼는(체감) 혜택 먼저 → 마감 임박 → 금액 큰 순
-  elig.sort((a,b)=>{
-    const sa=lifeScore(a), sb=lifeScore(b);
-    if(sa!==sb) return sa-sb;
-    const da=a.apply_end?dday(a.apply_end):9999, db=b.apply_end?dday(b.apply_end):9999;
-    const na=da<0?99999:da, nb=db<0?99999:db;
-    if(na!==nb) return na-nb;
-    return (b.amount||0)-(a.amount||0);
-  });
-
-  document.getElementById("total").textContent = total>0 ? "최대 "+won(total) : "0원";
-  document.getElementById("cnt").textContent = "해당 혜택 "+elig.length+"건 · "+selRegion;
-  document.getElementById("eligcnt").textContent = elig.length+"건";
-  document.getElementById("eligible").style.setProperty("--cols", Math.min(3, Math.max(1, elig.length)));
-
-  document.getElementById("eligible").innerHTML = elig.map(b=>{
-    const d = b.apply_end ? dday(b.apply_end) : null;
-    const dlabel = d===null ? "상시·공고 확인" : (d>=0 ? "신청 D-"+d : "마감");
-    const conds = [...(b._tags||[])].filter(t=>!t.startsWith("__"));
-    const reg = (b.region||"전국").replace(/(특별자치도|특별자치시|특별시|광역시)/,"").replace(/^(\S+?)도\s/,"$1 ");
-    const one = b.summary ? ("🤖 "+b.summary) : "";
-    const ka = keyAmount(b);
-    return `<div class="card elig">
-      <span class="dcat">${b.dcat}</span>
-      <div class="ctitle">${tidyText(b.title, 52)}</div>
-      <div class="amt">💰 ${ka || "금액 상세 확인"}</div>
-      <div class="ctarget clamp">🎯 <b>대상</b> ${clip(targetLine(b), 200)}</div>
-      ${one?`<div class="csum">${tidyText(one, 58)}</div>`:""}
-      <div class="cmeta">📍 ${reg} · ⏱ <b class="${d===null||d>=0?'dopen':'dclose'}">${dlabel}</b></div>
-      <a class="src" href="${b.source}" target="_blank">신청·자세히 →</a>
-    </div>`;
-  }).join("") || `<div class="prompt">선택한 조건에 해당하는 혜택이 없어요. 조건을 바꿔보세요.</div>`;
-  markExpandable();   // 잘린 '대상'에만 '전체 보기' 토글 부여
-}
-// 대상 텍스트가 3줄을 넘겨 잘린 카드에만 펼치기 버튼을 단다(렌더 후 측정)
-function markExpandable(){
-  (window.requestAnimationFrame||window.setTimeout)(()=>{
-    document.querySelectorAll("#eligible .ctarget.clamp").forEach(el=>{
-      const cut = el.scrollHeight > el.clientHeight + 2;
-      el.classList.toggle("more", cut);
-      const has = el.nextElementSibling && el.nextElementSibling.classList.contains("morebtn");
-      if(cut && !has){ const b=document.createElement("div"); b.className="morebtn"; b.textContent="전체 대상 보기 ⌄"; el.after(b); }
-      else if(!cut && has){ el.nextElementSibling.remove(); }
-    });
-  }, 0);
+  return false;
 }
 
-function share(){
-  const t = document.getElementById("total").textContent;
-  const msg = `[${selRegion} 복지·지원] 나 ${t} 받을 수 있대! 너도 확인해봐 👉`;
-  if(navigator.share){ navigator.share({title:"우리동네 복지·지원", text:msg}); }
-  else { navigator.clipboard?.writeText(msg); alert("공유 문구가 복사됐어요!\n\n"+msg); }
-}
-
-// 다양한 스키마(임베드/시드/온통청년 live)를 런타임 스키마로 통일
+/* ── 스키마 통일 ── */
 function toRuntime(b){
   const r = {
-    id: b.id, title: b.title, category: b.category,
+    id:b.id, title:b.title, category:b.category||"기타",
     amount: b.amount ?? b.amount_max_won ?? 0,
     amount_label: b.amount_label || "상세 참조",
-    age_min: b.age_min ?? 18, age_max: b.age_max ?? 39,
-    target: b.target || "",
-    target_llm: b.target_llm || "",          // 제미나이 정리 대상(있으면 우선)
-    amount_clean: b.amount_clean || "",        // 제미나이 정리 금액(있으면 우선)
+    amount_clean: b.amount_clean || "",
+    age_min: b.age_min ?? 0, age_max: b.age_max ?? 120,
     need: b.need || b.tags || [],
     region: b.region || "인천광역시 연수구",
     summary: b.summary || "",
     support_type: b.support_type || ((b.amount ?? b.amount_max_won ?? 0) > 0 ? "현금" : "서비스"),
     apply_end: b.apply_end || null,
-    how: b.how || b.apply_how || "공식 페이지 참조",
-    contact: b.contact || "", source: b.source || "#"
+    source: b.source || "#",
   };
-  r.topics = deriveTopics(r);
-  r.dcat = detailCat(r);                   // 세부 카테고리(맞춤형 배지·필터)
-  r._tags = itemTags(r);                  // 이 공고가 겨냥한 조건 태그(없으면=누구나 대상)
-  // LLM 분류 우선 + 규칙기반 폴백: 노이즈/특수/자동/노출가치없음 → 기본 숨김
+  r._tags = itemTags(r);
   r.special = isSpecial(r) || isNoise(r) || b.special===true || b.show===false;
   const ex = deriveExpiry(r); r.expired = ex.expired; r.apply_end = r.apply_end || ex.end;
   return r;
 }
-// live(API) -> seed(검증) -> embedded 순으로 로드. file://에선 fetch 실패하므로 embedded 사용.
+
+/* ── 지역 셀렉트(전국 캐스케이드) ── */
+let REGION_TREE = {};
+function buildRegionSelect(){
+  REGION_TREE = {};
+  for(const b of DATA.benefits){
+    const r = b.region; if(!r || r==="전국") continue;
+    const sido = r.split(" ")[0];
+    (REGION_TREE[sido] ||= new Set());
+    if(r.includes(" ")) REGION_TREE[sido].add(r);
+  }
+  const sidos = Object.keys(REGION_TREE).sort();
+  const sidoSel = document.getElementById("sido");
+  if(!sidos.length){ sidoSel.innerHTML=""; document.getElementById("region").innerHTML=""; updateRegionVal(); return; }
+  if(!sidos.includes(selSido)) selSido = sidos.includes("인천광역시") ? "인천광역시" : sidos[0];
+  sidoSel.innerHTML = sidos.map(s=>`<option value="${s}"${s===selSido?" selected":""}>${s}</option>`).join("");
+  buildSggSelect();
+}
+function buildSggSelect(){
+  const sel = document.getElementById("region");
+  const sggs = [...(REGION_TREE[selSido]||[])].sort();
+  const opts = [{v:selSido, t:selSido.replace(/(특별자치도|특별자치시|특별시|광역시|도)$/,"")+" 전체"},
+                ...sggs.map(r=>({v:r, t:r.split(" ").slice(1).join(" ")}))];
+  if(!opts.some(o=>o.v===selRegion)){
+    selRegion = opts.find(o=>o.v.endsWith("연수구"))?.v || opts[1]?.v || opts[0].v;
+  }
+  sel.innerHTML = opts.map(o=>`<option value="${o.v}"${o.v===selRegion?" selected":""}>${o.t}</option>`).join("");
+  updateRegionVal();
+}
+function updateRegionVal(){ document.getElementById("regRowVal").textContent = selRegion; }
+
+/* ── 매칭 ── */
+function currentAge(){ return parseInt(document.getElementById("age").value)||0; }
+function matchedPrograms(){
+  const age = currentAge();
+  if(selected.size===0) return [];
+  return DATA.benefits.filter(b=>{
+    if(!regionMatch(b)) return false;
+    if(b.expired || b.special) return false;
+    if(!(b.age_min<=age && age<=b.age_max)) return false;
+    const tags = b._tags || itemTags(b);
+    for(const t of selected) if(tags.has(t)) return true;
+    return false;
+  });
+}
+function sortScore(b){
+  let s=0; const st=b.support_type||"";
+  if(/현금|현물|바우처/.test(st)) s-=3; else if(/대출|서비스/.test(st)) s+=2;
+  if(PROGRAM_RE.test(b.title)) s+=10;
+  return s;
+}
+
+/* ── 렌더 ── */
+function renderInput(){
+  updateRegionVal();
+  document.getElementById("ageLabel").textContent = "만 "+currentAge()+"세";
+  document.getElementById("sitCount").textContent = selected.size+"개 선택";
+  document.querySelectorAll("#chips .chip").forEach(c=>{
+    c.classList.toggle("on", selected.has(c.dataset.tag));
+  });
+}
+function renderResult(){
+  const age = currentAge();
+  const sit = selected.size ? [...selected].map(t=> t==="자영업·창업"?"소상공인·창업": t==="무주택"?"무주택·자취":t).join(" · ") : "상황 미선택";
+  document.getElementById("summaryLine").textContent = `${selRegion} · ${age}세 · ${sit}`;
+
+  const matched = matchedPrograms();
+  const total = matched.filter(b=>!isLoan(b)).reduce((a,b)=>a+realAmount(b),0);
+  const loanCount = matched.filter(isLoan).length;
+  document.getElementById("totalNum").textContent = Math.floor(total/10000).toLocaleString();
+  document.getElementById("matchedCount").textContent = matched.length;
+  document.getElementById("loanCount").textContent = loanCount;
+
+  const cats = [...CAT_ORDER, ...[...new Set(matched.map(b=>b.category))].filter(c=>!CAT_ORDER.includes(c))];
+  let html = "";
+  for(const cat of cats){
+    const items = matched.filter(b=>b.category===cat)
+      .sort((a,b)=>{
+        const sa=sortScore(a), sb=sortScore(b); if(sa!==sb) return sa-sb;
+        const da=a.apply_end?dday(a.apply_end):9999, db=b.apply_end?dday(b.apply_end):9999;
+        return (da<0?99999:da)-(db<0?99999:db);
+      });
+    if(!items.length) continue;
+    const sum = items.filter(b=>!isLoan(b)).reduce((a,b)=>a+realAmount(b),0);
+    const meta = items.length+"건"+(sum>0?" · "+won(sum):"");
+    html += `<div class="group">
+      <div class="group-head"><span class="dot" style="background:${catColor(cat)}"></span><span class="cat">${cat}</span><span class="meta">${meta}</span><span class="rule"></span></div>
+      <div class="group-card">`+
+      items.map(p=>{
+        const d = p.apply_end ? dday(p.apply_end) : null;
+        const hot = d!=null && d<=30;
+        const badge = d==null ? "상시" : (d>=0 ? "D-"+d : "마감");
+        const sub = `${p.support_type} · ${keyAmount(p)}` + (isLoan(p)?" · 합계 제외":"");
+        return `<a class="prow" href="${p.source}" target="_blank" rel="noopener">
+          <div class="body"><div class="name">${esc(p.title)}</div><div class="sub">${esc(sub)}</div></div>
+          <span class="badge ${hot?'hot':'normal'}">${badge}</span>
+        </a>`;
+      }).join("") + `</div></div>`;
+  }
+  if(!html){
+    html = `<div class="empty">선택한 조건에 해당하는<br>지원을 찾지 못했어요.<br><br>‘수정’에서 상황을 더 골라보세요.</div>`;
+  }
+  html += `<div class="disclaimer" id="srcTag">검증 시드 · 데모용이며 금액·기간은 변동될 수 있어요. 신청 전 복지로·보조금24·관할 시·군·구청 등 공식 출처로 꼭 확인하세요.</div>`;
+  document.getElementById("groups").innerHTML = html;
+  if(window.__srcText){ const t=document.getElementById("srcTag"); if(t) t.textContent = window.__srcText; }
+}
+function esc(s){ return `${s||""}`.replace(/[&<>"]/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m])); }
+function render(){ renderInput(); if(screen==="result") renderResult(); }
+
+function showScreen(s){
+  screen = s;
+  document.getElementById("screenInput").classList.toggle("hidden", s!=="input");
+  document.getElementById("screenResult").classList.toggle("hidden", s!=="result");
+  if(s==="result") renderResult();
+  window.scrollTo(0,0);
+}
+
+/* ── 이벤트 ── */
+document.getElementById("chips").addEventListener("click", e=>{
+  const c = e.target.closest(".chip"); if(!c) return;
+  const t = c.dataset.tag;
+  if(selected.has(t)) selected.delete(t); else selected.add(t);
+  renderInput();
+});
+document.getElementById("age").addEventListener("input", ()=>{ document.getElementById("ageLabel").textContent="만 "+currentAge()+"세"; });
+document.getElementById("regionToggle").addEventListener("click", ()=>{
+  document.getElementById("regionPicker").classList.toggle("hidden");
+});
+document.getElementById("sido").addEventListener("change", e=>{ selSido=e.target.value; buildSggSelect(); });
+document.getElementById("region").addEventListener("change", e=>{
+  selRegion=e.target.value; updateRegionVal();
+  document.getElementById("regionPicker").classList.add("hidden");
+});
+document.getElementById("openResult").addEventListener("click", ()=> showScreen("result"));
+document.getElementById("backToInput").addEventListener("click", ()=> showScreen("input"));
+document.getElementById("shareBtn").addEventListener("click", share);
+
+function share(){
+  const t = document.getElementById("totalNum").textContent;
+  const msg = `[${selRegion} 복지·지원] 나 연 최대 ${t}만원 받을 수 있대! 너도 확인해봐 👉`;
+  try{
+    if(navigator.share){ navigator.share({title:"우리동네 복지·지원", text:msg}); return; }
+    navigator.clipboard?.writeText(msg);
+  }catch(e){}
+  showToast();
+}
+function showToast(){
+  let el = document.querySelector(".toast");
+  if(!el){ el=document.createElement("div"); el.className="toast"; el.textContent="공유 링크를 복사했어요 ✓"; document.querySelector(".phone").appendChild(el); }
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ el.remove(); }, 1800);
+}
+
+/* ── 데이터 로드 ── */
 async function loadData(){
   for(const url of ["data/yeonsu_youth_live.json","data/yeonsu_youth.json"]){
     try{
@@ -681,31 +482,22 @@ async function loadData(){
       if(r.ok){ const j = await r.json();
         if(j.benefits?.length){
           DATA.benefits = j.benefits.map(toRuntime);
-          PAGE_SUMMARY = j.meta?.summary || "";
-          const tag = document.getElementById("srcTag");
-          if(tag) tag.textContent = (j.meta?.source ? "데이터: "+j.meta.source : "데이터: "+url)
-            + (j.meta?.snapshot_date ? " · "+j.meta.snapshot_date : "");
+          window.__srcText = (j.meta?.source ? "데이터: "+j.meta.source : "")
+            + (j.meta?.snapshot_date ? " · "+j.meta.snapshot_date : "")
+            + " · 데모용이며 금액·기간은 변동될 수 있어요. 신청 전 공식 출처로 확인하세요.";
           return true;
         }
       }
-    }catch(e){ /* file:// 또는 미존재 -> 다음/embedded */ }
+    }catch(e){}
   }
+  return false;
 }
 
 (async ()=>{
   const used = await loadData();
-  if(!used) DATA.benefits = DATA.benefits.map(toRuntime); // 임베드 폴백만 변환(라이브/시드는 loadData에서 변환됨)
-  if(!PAGE_SUMMARY){
-    const n=DATA.benefits.length, mx=Math.max(0,...DATA.benefits.map(b=>b.amount||0));
-    PAGE_SUMMARY=`나이·상황을 입력하면 ${n}건의 청년 혜택 중 내게 맞는 것만 골라 최대 수령액까지 합산해드려요. 최대 ${(mx/10000).toLocaleString()}만원 규모의 지원이 포함돼 있어요.`;
-  }
-  const sb=document.getElementById("summaryBox");
-  document.getElementById("summaryText").textContent=PAGE_SUMMARY;
-  sb.classList.remove("hidden");
+  if(!used) DATA.benefits = DATA.benefits.map(toRuntime);
   buildRegionSelect();
-  buildCatChips();
-  buildTopicChips();
-  render();
+  renderInput();
 })();
 </script>
 </body>
