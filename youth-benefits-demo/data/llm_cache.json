@@ -938,26 +938,33 @@
   "g24-448000000665": {
     "category": "주거",
     "tags": [],
-    "support_type": "현물",
-    "summary": "정착세대 주거단지 기반시설 조성 지원",
+    "support_type": "서비스",
+    "summary": "정착세대 주거단지 기반시설 지원",
+    "target": "정착세대 거주 주택단지 조성 입주예정자/사업시행자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-475100000001": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "장수군민 대상 자연재해, 사고 사망 및 상해 보험 지원",
+    "summary": "장수군 군민안전보험 사망/후유장해 보상",
+    "target": "장수군 지역 주민 모두",
+    "amount": "최대 3,000만원",
     "show": true,
     "special": true
   },
   "g24-506000000118": {
     "category": "건강",
     "tags": [
-      "저소득"
+      "저소득",
+      "장애인"
     ],
-    "support_type": "현물",
-    "summary": "만65세 이상 저소득층 대상 무료 의치보철 지원",
+    "support_type": "서비스",
+    "summary": "만65세 이상 저소득층 무료 의치보철 지원",
+    "target": "만65세 이상 기초/차상위/심한장애인",
+    "amount": "예산 5,000만원",
     "show": true,
     "special": true
   },
@@ -967,17 +974,19 @@
       "자영업·창업"
     ],
     "support_type": "대출",
-    "summary": "성북구 사회적경제 조직 대상 사회투자기금 융자 지원",
+    "summary": "성북구 사회적경제 조직 융자 지원",
+    "target": "성북구 소재 사회적경제 조직",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-440000000132": {
-    "category": "주거",
-    "tags": [
-      "육아"
-    ],
-    "support_type": "대출",
-    "summary": "제천시 거주 신생아 출산 가정 주택자금 지원",
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "제천시 신생아 출생 가정 주택자금 지원",
+    "target": "제천시 거주 365일 이상 신생아 출생 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -987,25 +996,29 @@
       "농어업인"
     ],
     "support_type": "현금",
-    "summary": "임실군 수도작·밭작물 농가 농기계 구입 보조금 지원",
+    "summary": "임실군 수도작·밭작물 농기계 구입 보조금 지원",
+    "target": "임실군 벼농사/밭작물 재배 농업인",
+    "amount": "최대 3,300만원",
     "show": true,
     "special": false
   },
   "g24-547000000524": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "거창군민 대상 자연재해, 사회재난 보험 지원",
+    "summary": "거창군민안전보험 사망/후유장해 보상",
+    "target": "거창군 주민등록 모든 군민(외국인 포함)",
+    "amount": "최대 2,000만원",
     "show": true,
     "special": true
   },
   "g24-446000000120": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "괴산군 거주 신생아 출산 가정 출산장려금 지원",
+    "summary": "괴산군 신생아 출생 가정 출산장려금 지원",
+    "target": "괴산군 거주 12개월 이상 신생아 출생 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -1015,7 +1028,9 @@
       "농어업인"
     ],
     "support_type": "현물",
-    "summary": "양계농가 사료 효율 개선제 지원",
+    "summary": "양계농가 사료 효율개선제 지원",
+    "target": "육계 계열화사업 위탁사육 양계 농가",
+    "amount": "사업비 3,600만원",
     "show": true,
     "special": false
   },
@@ -1032,94 +1047,104 @@
   "g24-571000000120": {
     "category": "농업",
     "tags": [
-      "자영업·창업"
+      "청년"
     ],
     "support_type": "현금",
-    "summary": "청주시 거주 청년농업인 창업 지원",
+    "summary": "청년농업인 영농시설/농기계 창업 지원",
+    "target": "청주시 거주 만18~40세 청년농업인",
+    "amount": "최대 3천만원",
     "show": true,
     "special": false
   },
   "g24-458000000104": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "군 거주 신생아 부양 가정 출생지원금 지원",
+    "summary": "출생신고 아기 부양 가정 출생지원금 지원",
+    "target": "군 거주 6개월 이상 신생아 부모 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-305000000123": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "동대문구민 대상 자전거 사고 보험 가입",
+    "summary": "동대문구민 대상 자전거 보험 가입",
+    "target": "동대문구 주민등록 모든 구민",
+    "amount": "",
     "show": true,
     "special": true
   },
   "g24-307000000124": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "성북구민 대상 자전거 사고 보험 가입",
+    "summary": "성북구민 자전거 보험 가입",
+    "target": "성북구 주민등록 모든 구민",
+    "amount": "",
     "show": true,
     "special": true
   },
   "g24-331000000127": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "부산 남구 주민 대상 상해 보험 지원",
+    "summary": "부산 남구 구민안전보험 사망/후유장해 보상",
+    "target": "부산 남구 지역 주민 모두(15세 미만 제외)",
+    "amount": "최대 1,000만원",
     "show": true,
     "special": true
   },
   "g24-451000000142": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "보령시 거주 자녀 출산양육지원금 지원",
+    "summary": "보령시 출산양육지원금 지원",
+    "target": "보령시 거주 자녀와 보호자",
+    "amount": "최대 3,000만원",
     "show": true,
     "special": false
   },
   "g24-457000000159": {
-    "category": "건강",
+    "category": "복지",
     "tags": [
       "제대군인"
     ],
     "support_type": "현금",
-    "summary": "부여군 군복무 청년 상해보험 안내",
+    "summary": "부여군 군복무 청년 상해보험 지원",
+    "target": "부여군 주소지 둔 현역 군복무 청년",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-459000000120": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산장려금 지원: 신생아 출생일 기준 1년 이상 거주 신생아 부모",
+    "summary": "관내 거주 1년 이상 신생아 출산장려금 지원",
+    "target": "관내 1년 이상 거주 신생아 부모",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-460000000132": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산축하금 지원: 출생신고일~3개월까지 부모, 자녀 모두 홍성군 거주",
+    "summary": "홍성군 출산가정 출산축하금 지원",
+    "target": "홍성군 거주 3개월 이상 출산가정",
+    "amount": "최대 1,000만원",
     "show": true,
     "special": false
   },
   "g24-461000000124": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산육아지원금: 부모 모두 6개월 전부터 군에 주민등록 둔 가정",
+    "summary": "군 거주 6개월 이상 신생아 출산육아지원금 지원",
+    "target": "군 거주 6개월 이상 신생아 부모 가정",
+    "amount": "최대 1,000만원",
     "show": true,
     "special": false
   },
@@ -1127,7 +1152,9 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "예산군 안전보험: 예산군민 자연재해·폭발·화재·붕괴 사고 사망 시 1,500만원",
+    "summary": "예산군민안전보험 사망/후유장해 보상",
+    "target": "예산군 거주 모든 군민(외국인 포함)",
+    "amount": "최대 1,500만원",
     "show": true,
     "special": true
   },
@@ -1730,7 +1757,9 @@
       "농어업인"
     ],
     "support_type": "현물",
-    "summary": "농업경영체 등록 농가 농기계 구입비 지원",
+    "summary": "농업인 농기계 구입 최대 2,000만원 지원",
+    "target": "농업경영체 등록 농가",
+    "amount": "최대 2,000만원/대",
     "show": true,
     "special": false
   },
@@ -1739,46 +1768,56 @@
     "tags": [
       "자영업·창업"
     ],
-    "support_type": "서비스",
-    "summary": "순창군 거주 예비창업자 대상 청년창업 지원",
+    "support_type": "현금",
+    "summary": "청년 창업 사업화 자금 지원",
+    "target": "18~49세 예비창업자, 순창군 거주자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-478100000009": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
-      "임신·출산"
+      "신혼"
     ],
     "support_type": "현금",
-    "summary": "출산가정 1년 이상 거주 시 출산축하금 지급",
+    "summary": "출산가정 출산축하금 지원",
+    "target": "신생아 출생일 기준 부모 1년 이상 거주",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-482000000103": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "서비스",
-    "summary": "순천시민 재난안전사고 피해 시 시민안전보험 지원",
+    "summary": "시민 재난안전사고 피해 보상",
+    "target": "순천시 주민등록 시민",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-482000000108": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
-      "임신·출산"
+      "신혼"
     ],
     "support_type": "현금",
-    "summary": "출생신고아 부모 6개월 이상 거주 시 출산장려금 차등 지급",
+    "summary": "출산장려금 출생순위별 차등 지원",
+    "target": "부모 6개월 이상 거주 출산가정",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-485000000134": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "서비스",
-    "summary": "담양군민 자연재해, 화재 등 사망 시 보험금 지급",
+    "summary": "군민 자연재해 등 사망 시 보험금 지급",
+    "target": "담양군 주민등록 군민",
+    "amount": "최대 2,000만원",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-486000000139": {
     "category": "일자리",
@@ -1786,7 +1825,9 @@
       "자영업·창업"
     ],
     "support_type": "현금",
-    "summary": "곡성군 거주 만19~49세 예비창업자 최대 2천만원 지원",
+    "summary": "청년 창업 지원금 최대 2,000만원",
+    "target": "19~49세 예비창업자, 곡성군 주소",
+    "amount": "최대 2,000만원",
     "show": true,
     "special": false
   },
@@ -1803,8 +1844,10 @@
     "tags": [
       "농어업인"
     ],
-    "support_type": "서비스",
+    "support_type": "현금",
     "summary": "귀농어업인 창업 및 주택수리 지원",
+    "target": "65세 이하 귀농어업인, 장흥군 이주",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -1814,7 +1857,9 @@
       "재직중"
     ],
     "support_type": "현금",
-    "summary": "전남 청년 근속장려금 지원사업",
+    "summary": "전남 청년 근속장려금 최대 2,000만원",
+    "target": "전남 거주 18~45세 정규직 취업 청년",
+    "amount": "최대 2,000만원",
     "show": true,
     "special": false
   },
@@ -1823,90 +1868,114 @@
     "tags": [
       "농어업인"
     ],
-    "support_type": "서비스",
-    "summary": "무안군 이주 65세 이하 귀농인 정착 지원",
+    "support_type": "현금",
+    "summary": "귀농인 정착 지원",
+    "target": "65세 이하 귀농인, 무안군 이주",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-495000000448": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "서비스",
-    "summary": "무안군민 자연재해, 폭발, 화재 등 사망 시 안전보험 지원",
+    "summary": "군민 자연재해 등 사망 시 보험금 지급",
+    "target": "무안군 주민등록 군민",
+    "amount": "2000만원",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-500000000113": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
-      "임신·출산"
+      "신혼"
     ],
     "support_type": "현금",
-    "summary": "진도군 출산가정 1년 이상 거주 시 출산장려금 지급",
+    "summary": "출산장려금 지원",
+    "target": "부모 1년 이상 거주 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-505000000143": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "서비스",
-    "summary": "경주시민 자연재해, 화재 등 사망 시 시민안전보험 지원",
+    "summary": "시민 자연재해 등 사망 시 보험금 지급",
+    "target": "경주시 주민",
+    "amount": "2000만원",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-506000000132": {
     "category": "농업",
-    "tags": [],
+    "tags": [
+      "농어업인"
+    ],
     "support_type": "현물",
-    "summary": "한우 농가 기자재 지원, 2,000만원/대",
+    "summary": "한우 농가 사료자동급이기 설치비 지원",
+    "target": "관내 한우 사육농가",
+    "amount": "2,000만원/대",
     "show": true,
     "special": false
   },
   "g24-507000000785": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "안동시민안전보험, 자연재해·사고 사망 시 2,000만원",
+    "support_type": "서비스",
+    "summary": "시민 자연재해 등 사망 시 보험금 지급",
+    "target": "안동시 주민등록자",
+    "amount": "2,000만원",
     "show": true,
     "special": true
   },
   "g24-508000000697": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "구미시 시민안전보험, 자연재해 사망 시 2,000만원",
+    "support_type": "서비스",
+    "summary": "시민 자연재해 등 사망 시 보험금 지급",
+    "target": "구미시 주민등록 시민",
+    "amount": "2,000만원",
     "show": true,
     "special": true
   },
   "g24-509000000129": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "영주시민 안전보험, 자연재해 사망 시 500만원",
+    "support_type": "서비스",
+    "summary": "시민 자연재해 등 사망 시 보험금 지급",
+    "target": "영주시 전입신고 시민",
+    "amount": "500만원",
     "show": true,
     "special": true
   },
   "g24-513000000363": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "경산시 시민안전보험, 폭발·화재·붕괴 상해 사망 시 2,000만원",
+    "support_type": "서비스",
+    "summary": "시민 폭발·화재·붕괴 상해 사망 보험금",
+    "target": "경산시 주민등록 시민",
+    "amount": "2,000만원",
     "show": true,
     "special": true
   },
   "g24-519000000150": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "청도군 군민안전보험, 자연재해 상해사망 최대 2,000만원",
+    "support_type": "서비스",
+    "summary": "군민 자연재해 등 상해 사망 보험금",
+    "target": "청도군민",
+    "amount": "최대 2,000만원",
     "show": true,
     "special": true
   },
   "g24-522000000294": {
     "category": "복지",
     "tags": [],
-    "support_type": "현금",
-    "summary": "칠곡군 군민안전보험, 자연재해·사고 사망 시 2,000만원",
+    "support_type": "서비스",
+    "summary": "군민 자연재해 등 사망 시 보험금 지급",
+    "target": "칠곡군 주민, 거주 외국인",
+    "amount": "2,000만원",
     "show": true,
     "special": true
   },
