@@ -457,6 +457,14 @@ const RARE_RE = /북한이탈|탈북|새터민|국가유공|보훈|참전|상이
 function isRareTarget(b){
   return RARE_RE.test(`${b.title||""} ${b.target||""} ${b.target_llm||""} ${b.summary||""} ${(b.need||[]).join(" ")}`);
 }
+// 지원대상이 '개인'이 아니라 기관·사업자·단체인 사업(예: 분만취약지 의료기관) → 개인 화면 제외
+function isOrgTarget(b){
+  const tg = `${b.target_llm||""} ${b.target||""}`.trim();
+  const all = `${tg} ${b.title||""} ${b.summary||""}`;
+  if(/의료기관|요양기관|사업자|법인|협회|조합|연합회|업체|중소기업|중견기업|소기업|벤처기업|사회적\s*기업|마을\s*기업|비영리|수행\s*기관|위탁\s*기관|운영\s*기관|지정\s*기관|선정\s*기관|보육시설|복지시설|기업\s*및|건설공사|건축\s*공사|토목|조경공사|민간시행|시공사|발주처/.test(all)) return true;
+  if(/(기관|단체|법인|사업자|업체|협회|조합|시설)(\s*등|\s*및|\s*만)?$/.test(tg)) return true;   // 대상이 '~기관/단체'로 끝
+  return false;
+}
 // 신분 게이트: 이 자격을 '겨냥한' 공고는 사용자가 그 상황을 골라야만 노출(장애인·창업 등)
 const GATE_TAGS = ["학생","장애인","다문화","한부모","다자녀","임신·출산","자영업·창업","농어업인","예술인","운수종사자","제대군인"];
 function gatesOk(b){
@@ -479,6 +487,7 @@ function matchedPrograms(){
     if(!ageOk(b, age)) return false;
     if(!genderOk(b, gender)) return false;
     if(isRareTarget(b)) return false;        // 북한이탈·유공자 등 소수대상 제외
+    if(isOrgTarget(b)) return false;         // 기관·사업자·건설공사 등(개인 아님) 제외
     if(!gatesOk(b)) return false;            // 장애인·창업 등 신분 게이트
     const tags = b._tags || itemTags(b);
     if(tags.size===0) return true;            // 누구나 대상(상황 태그 없음) → 항상 포함(음식물처리기 등)
