@@ -61,7 +61,9 @@
   .card.locked{opacity:.6}
   .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
   .dcat{display:inline-block;font-size:11px;font-weight:700;color:#1f6bdf;background:#eaf1ff;border:1px solid #cfe0f7;border-radius:999px;padding:2px 9px;margin-bottom:7px}
-  .ctitle{font-size:15px;font-weight:700;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .ctitle{font-size:17.5px;font-weight:800;line-height:1.3;letter-spacing:-.3px;color:#0f1b30;margin:3px 0 7px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .ctarget{font-size:12.5px;color:#3a4a63;margin-top:6px}
+  .ctarget b{color:#1f6bdf;font-weight:700;font-size:11px;background:#eaf1ff;border-radius:5px;padding:1px 6px;margin-right:4px}
   .csum{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   .cmeta{font-size:12px;color:var(--sub);margin-top:8px}
   .cmeta b{font-weight:700}
@@ -391,6 +393,27 @@ function keyAmount(b){
   return null;
 }
 function clip(s,n){ return s ? `${s}`.replace(/\s+/g," ").trim().slice(0,n) : ""; }
+// 정확한 대상: 데이터 나이범위 우선, 없으면 표준 그룹만 추정(임산부 등 나이 미정은 조건으로)
+function ageRange(b){
+  if(b.age_min>0 || b.age_max<120) return `만 ${b.age_min}~${b.age_max}세`;
+  const t = `${b.title} ${b.summary||""}`;
+  if(/영유아|어린이집|보육/.test(t)) return "0~5세";
+  if(/청소년/.test(t)) return "9~24세";
+  if(/청년/.test(t)) return "만 19~39세";
+  if(/노인|어르신|고령|경로|기초연금/.test(t)) return "만 65세+";
+  if(/아동/.test(t)) return "0~12세";
+  return "";
+}
+function targetLine(b){
+  const conds = [...(b._tags||[])].filter(t=>!t.startsWith("__"));
+  const a = ageRange(b);
+  const parts = [];
+  if(conds.length) parts.push(conds.join("·"));
+  if(a) parts.push(a);
+  let s = parts.join(" · ") || "누구나";
+  if(b.support_type) s += " · "+b.support_type;
+  return s;
+}
 function detailCat(b){
   const blob = `${b.title} ${b.summary||""} ${b.amount_label||""} ${(b.need||[]).join(" ")}`;
   for(const [label,re] of DETAIL_CATS) if(re.test(blob)) return label;
@@ -502,13 +525,14 @@ function render(){
     const dlabel = d===null ? "상시·공고 확인" : (d>=0 ? "신청 D-"+d : "마감");
     const conds = [...(b._tags||[])].filter(t=>!t.startsWith("__"));
     const reg = (b.region||"전국").replace(/(특별자치도|특별자치시|특별시|광역시)/,"").replace(/^(\S+?)도\s/,"$1 ");
-    const one = b.summary ? ("🤖 "+b.summary) : ((conds.join("·")||"누구나")+" 대상 · "+(b.support_type||"서비스"));
+    const one = b.summary ? ("🤖 "+b.summary) : "";
     const ka = keyAmount(b);
     return `<div class="card elig">
       <span class="dcat">${b.dcat}</span>
       <div class="ctitle">${tidyText(b.title, 52)}</div>
-      <div class="csum">${tidyText(one, 60)}</div>
       <div class="amt">💰 ${ka || "금액 상세 확인"}</div>
+      <div class="ctarget">🎯 <b>대상</b> ${tidyText(targetLine(b), 48)}</div>
+      ${one?`<div class="csum">${tidyText(one, 58)}</div>`:""}
       <div class="cmeta">📍 ${reg} · ⏱ <b class="${d===null||d>=0?'dopen':'dclose'}">${dlabel}</b></div>
       <a class="src" href="${b.source}" target="_blank">신청·자세히 →</a>
     </div>`;
