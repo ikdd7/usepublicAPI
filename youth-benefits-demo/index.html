@@ -86,6 +86,7 @@
   .prow:active{background:var(--f3)}
   .prow .body{flex:1;min-width:0}
   .prow .name{font-size:14.5px;font-weight:700;margin-bottom:3px;line-height:1.35}
+  .prow .name .tnote{font-weight:600;font-size:12.5px;color:var(--muted)}
   .prow .sub{font-size:12px;color:var(--muted);font-weight:600;line-height:1.4}
   .badge{font-size:11.5px;font-weight:800;padding:4px 8px;border-radius:7px;white-space:nowrap;flex-shrink:0}
   .badge.normal{color:var(--faint);background:var(--f1)}
@@ -296,15 +297,25 @@ function keyAmount(b){
 }
 function clip(s,n){ return s ? `${s}`.replace(/\s+/g," ").trim().slice(0,n) : ""; }
 function tidyDesc(t){ return `${t||""}`.replace(/[\(（][^)）]*[\)）]/g," ").replace(/\s*[*※].*$/,"").replace(/\s+/g," ").trim(); }
-// 카드 부제: 이름만으론 모를 공고를 위해 '설명'을 우선(요약/목적) + 금액
+// 제목에 '설명 가능한' 일반명사가 있으면 한눈에 이해된다고 보고 부연 생략
+const EXPLAIN_RE = /수당|장학|급여|바우처|보조금|돌봄|양육|보육|교육비|학자금|등록금|임대|주택|월세|전세|보증금|주거급여|검진|치료|진료|의료비|건강|연금|보험|융자|대출|감면|수리|개량|이용권|장려금|취업|일자리|면접|정장|양복|상담|출산|난임|급식|식비|교통비|난방|에너지|기저귀|가전|자전거|자격증|어학|훈련|연수|수강료|입학금|간병|재활|문화누리/;
+function shortDesc(b){
+  let d = (b.summary && b.summary.replace(/\s/g,"").length>=6) ? b.summary : (b.amount_label||"");
+  d = tidyDesc(d).replace(/^[\-·•∙]\s*/,"");
+  return clip(d, 18);
+}
+// 제목: 한눈에 이해되면 그대로, 고유명사형이면 '(간단 안내)' 덧붙임
+function rowTitle(b){
+  const t = (b.title||"").trim();
+  if(EXPLAIN_RE.test(t)) return esc(t);
+  const d = shortDesc(b);
+  return esc(t) + (d && !t.includes(d.slice(0,3)) ? ` <span class="tnote">(${esc(d)})</span>` : "");
+}
+// 부제: 제목으로 이해되는 건 금액만(긴 자격설명 생략)
 function rowSub(b){
   const ka = keyAmount(b);
-  const money = (ka && !/확인|지원\s*내용/.test(ka)) ? ka : "";
-  let desc = (b.summary && b.summary.replace(/\s/g,"").length>=6) ? b.summary : "";
-  if(!desc){ const al=(b.amount_label||"").trim(); if(al.length>=10 && !/^(상세|참조)/.test(al)) desc=al; }
-  let s = desc ? clip(tidyDesc(desc),44) : (b.support_type||"지원");
-  if(money) s += " · "+money;
-  if(isLoan(b)) s += " · 합계 제외";
+  let s = (ka && /[\d%]/.test(ka)) ? ka : "";   // 실제 숫자 금액이 있을 때만(군더더기 방지)
+  if(isLoan(b)) s += (s?" · ":"") + "대출 · 합계 제외";
   return s;
 }
 function isLoan(b){ return /대출/.test(b.support_type||"") || (b._tags && b._tags.has && b._tags.has("__기업")); }
@@ -499,7 +510,7 @@ function renderResult(){
         const badge = d==null ? "상시" : (d>=0 ? "D-"+d : "마감");
         const sub = rowSub(p);
         return `<a class="prow" href="${p.source}" target="_blank" rel="noopener">
-          <div class="body"><div class="name">${esc(p.title)}</div><div class="sub">${esc(sub)}</div></div>
+          <div class="body"><div class="name">${rowTitle(p)}</div>${sub?`<div class="sub">${esc(sub)}</div>`:""}</div>
           <span class="badge ${hot?'hot':'normal'}">${badge}</span>
         </a>`;
       }).join("") + `</div></div>`;
