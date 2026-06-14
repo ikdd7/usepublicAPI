@@ -451,7 +451,7 @@ async function classifyWithLLM(items) {
 - category 는 다음 중 하나: ${CATS.join(", ")}
 - tags 는 자격조건이 꼭 필요한 경우만(없으면 []): ${CONTROLLED_TAGS.join(", ")}
 - support_type 은 다음 중 하나: ${SUPPORT_TYPES.join(", ")}
-- summary: 45자 이내, 대상·금액 핵심. 추측 금지.
+- summary: 35자 내외 한 줄, "[대상]에게 [무엇] [얼마]" 형식의 명사형(예: "무주택 청년 월세 최대 20만원"). 한눈에 읽히게, 추측 금지.
 - show: 일반 주민이 신청해 실익 있는 지원이면 true. 단순공지·결과발표·내부행정·입찰·채용공고면 false.
 - special: 자동지급(별도 신청 불필요)이거나 극소수 특수대상(장애인·유공자 등)이면 true.`;
     const SZ = 20;
