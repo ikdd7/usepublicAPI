@@ -81,7 +81,8 @@ export function parseAgeRange(text = "") {
   if (/청소년/.test(text)) return [9, 24];
   if (/대학생|대학원생/.test(text)) return [18, 29];
   if (/청년/.test(text)) return [19, 39];
-  if (/노인|어르신|고령/.test(text)) return [65, 120];
+  if (/노인|어르신|고령|경로(당|우대)?|기초연금|장기요양/.test(text)) return [65, 120];
+  if (/고독사|독거|홀몸|무연고|홀로\s*사는/.test(text)) return [50, 120];   // 강한 노년 신호(생애주기 누락 보완)
   return [0, 120]; // 전연령
 }
 

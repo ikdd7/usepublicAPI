@@ -368,6 +368,9 @@ function effectiveAgeRange(b){
   if(m){ const a=+m[1]; if(a>=19 && a<=110) lo=Math.max(lo,a); }
   m = t.match(/만?\s*(\d{2,3})\s*세\s*(이하|미만|까지)/);                      // "39세 이하" (자녀·아동 오인 방지로 19세+만)
   if(m){ const a=+m[1]; if(a>=19 && a<=110) hi=Math.min(hi,a); }
+  // 숫자 없이도 강한 연령 신호(노년·고독사 등)는 하한 적용 — list API가 나이를 안 줄 때 보완
+  if(/노인|어르신|고령|경로(당|우대)?|기초연금|장기요양/.test(t)) lo=Math.max(lo,65);
+  if(/고독사|독거|홀몸|무연고|홀로\s*사는/.test(t)) lo=Math.max(lo,50);
   return [lo, hi];
 }
 function ageOk(b, age){ const [lo,hi]=effectiveAgeRange(b); return age>=lo && age<=hi; }
