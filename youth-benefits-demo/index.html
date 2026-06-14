@@ -273,7 +273,9 @@ function keyAmount(b){
   const pct = src.match(/([가-힣]{2,12})\s*의\s*(최대\s*)?\d[\d,]*\s*(%|포인트)/) || src.match(/([가-힣]{2,8}(?:비|료|금|액|용|값))\s*(최대\s*)?\d[\d,]*\s*(%|포인트)/);
   if(pct) return pct[0].replace(/\s+/g," ").trim();
   if(b.amount>0) return "최대 "+won(b.amount);
-  return b.amount_label || "공고 확인";
+  const al = (b.amount_label||"").trim();
+  if(al && al.length<=16 && /[\d원%]/.test(al)) return al;   // 짧고 금액성일 때만 노출(긴 설명 누수 방지)
+  return /현물|서비스/.test(b.support_type||"") ? "현물·서비스 지원" : "지원 내용 확인";
 }
 function isLoan(b){ return /대출/.test(b.support_type||"") || (b._tags && b._tags.has && b._tags.has("__기업")); }
 function realAmount(b){
@@ -312,6 +314,8 @@ function toRuntime(b){
     need: b.need || b.tags || [],
     region: b.region || "인천광역시 연수구",
     summary: b.summary || "",
+    target: b.target || "",
+    target_llm: b.target_llm || "",
     support_type: b.support_type || ((b.amount ?? b.amount_max_won ?? 0) > 0 ? "현금" : "서비스"),
     apply_end: b.apply_end || null,
     source: b.source || "#",
@@ -354,13 +358,26 @@ function updateRegionVal(){ document.getElementById("regRowVal").textContent = s
 
 /* ── 매칭 ── */
 function currentAge(){ return parseInt(document.getElementById("age").value)||0; }
+// 데이터 나이 + 지원대상 원문에서 읽은 나이조건을 교집합으로 적용(미파싱 공고의 오매칭 방지)
+function effectiveAgeRange(b){
+  let lo = b.age_min ?? 0, hi = b.age_max ?? 120;
+  const t = `${b.target_llm||""} ${b.target||""} ${b.title||""} ${b.summary||""} ${b.amount_label||""}`;
+  let m = t.match(/만?\s*(\d{1,3})\s*세?\s*[~\-–]\s*만?\s*(\d{1,3})\s*세/);   // "19~39세", "만 19세~39세"
+  if(m){ const a=+m[1], c=+m[2]; if(a<=c && c<=120){ lo=Math.max(lo,a); hi=Math.min(hi,c); } }
+  m = t.match(/만?\s*(\d{2,3})\s*세\s*(이상|이후|부터)/);                      // "만50세이상"
+  if(m){ const a=+m[1]; if(a>=19 && a<=110) lo=Math.max(lo,a); }
+  m = t.match(/만?\s*(\d{2,3})\s*세\s*(이하|미만|까지)/);                      // "39세 이하" (자녀·아동 오인 방지로 19세+만)
+  if(m){ const a=+m[1]; if(a>=19 && a<=110) hi=Math.min(hi,a); }
+  return [lo, hi];
+}
+function ageOk(b, age){ const [lo,hi]=effectiveAgeRange(b); return age>=lo && age<=hi; }
 function matchedPrograms(){
   const age = currentAge();
   if(selected.size===0) return [];
   return DATA.benefits.filter(b=>{
     if(!regionMatch(b)) return false;
     if(b.expired || b.special) return false;
-    if(!(b.age_min<=age && age<=b.age_max)) return false;
+    if(!ageOk(b, age)) return false;
     const tags = b._tags || itemTags(b);
     for(const t of selected) if(tags.has(t)) return true;
     return false;
