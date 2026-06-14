@@ -83,9 +83,11 @@
       "장애인"
     ],
     "support_type": "현금",
-    "summary": "장애인 우수선수 대상 경기 입상 경력 시 장학금 지원",
+    "summary": "장애인 우수선수 경기 입상자 지원",
+    "target": "전국대회 이상 입상 경력 장애인 우수선수",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-628000000108": {
     "category": "건강",
@@ -115,10 +117,14 @@
     "special": false
   },
   "g24-355000000108": {
-    "category": "육아",
-    "tags": [],
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
     "support_type": "현금",
-    "summary": "계양구 거주 1년 이상 셋째 이상 출생·입양아동 대상 장려금",
+    "summary": "계양구 출산입양 장려금 지원",
+    "target": "셋째 이상 출생·입양아동, 출생·입양일 기준 계양구 1년 이상 거주",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2205,12 +2211,14 @@
     "special": false
   },
   "g24-495000000416": {
-    "category": "주거",
+    "category": "농업",
     "tags": [
       "농어업인"
     ],
     "support_type": "현금",
     "summary": "귀농인 농가주택 수리비 지원",
+    "target": "65세 이하 귀농인",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3206,7 +3214,9 @@
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "영암군 거주 가구 대상 신생아 출산장려금 지원",
+    "summary": "영암군 출산장려금 지원",
+    "target": "출생·입양일 기준 부 또는 모 영암군 주민등록 가구",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3216,7 +3226,9 @@
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "울주군 거주자 대상 첫째아 출산장려금 70만원 지원",
+    "summary": "울주군 출산장려금 첫째 70만원 지원",
+    "target": "출생일 기준 6개월 이상 울주군 거주 부 또는 모",
+    "amount": "첫째 70만원",
     "show": true,
     "special": false
   },
@@ -3236,7 +3248,9 @@
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "안산시 거주 6개월 이상 대상 출생축하금 지원",
+    "summary": "안산시 출생축하금 지원",
+    "target": "출생·입양일 기준 6개월 이상 안산시 주민등록 부 또는 모",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3246,7 +3260,9 @@
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "출산순위별 출산장려금 지급 (첫째 100만원~)",
+    "summary": "출산장려금 첫째 100만원 지원",
+    "target": "출산일 이전 6개월 이상 시 거주 및 출생신고 출산가정",
+    "amount": "첫째 100만원",
     "show": true,
     "special": false
   },
@@ -3437,138 +3453,150 @@
     "special": false
   },
   "g24-476000000132": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "출생아 부모 1년 이상 거주 가정 출생장려금 지원",
+    "summary": "관내 출산 신생아 부모 대상 출생장려금 지원",
+    "target": "출생신고일 기준 부모 1년 이상 거주",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-534000000124": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산지원금 지원",
+    "summary": "관내 거주 부모 출산 시 출산지원금 지원",
+    "target": "출생아 출생신고일 기준 부모 관내 거주",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-536000000107": {
-    "category": "금융",
+    "category": "일자리",
     "tags": [
-      "재직중",
       "청년"
     ],
     "support_type": "현금",
-    "summary": "밀양형 청년내일채움공제 지원",
+    "summary": "밀양시 소재 중소기업 취업 청년 대상 지원",
+    "target": "밀양시 소재 제조업·건설업 중소기업 취업 15~34세 청년",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-537000001443": {
-    "category": "복지",
-    "tags": [
-      "임신·출산",
-      "육아"
-    ],
-    "support_type": "현금",
-    "summary": "거제시 출산장려금 지원",
+    "category": "육아",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "거제시 거주 영유아 보호자 대상 출산장려금 지원",
+    "target": "영유아와 함께 거제시 3개월 이상 거주 보호자",
+    "amount": "첫째아: 1",
     "show": true,
     "special": false
   },
   "g24-477000000136": {
     "category": "환경·생활",
-    "tags": [
-      "농어업인"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "폐축사 철거 지원 (최대 756만원)",
+    "summary": "방치·미사용 폐축사 보유 농가 철거비 지원",
+    "target": "방치 폐축사 보유, 무허가 축사 적법화 포기 농가",
+    "amount": "최대 756만원",
     "show": true,
     "special": false
   },
   "g24-473000000101": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "summary": "관내 임산부 산모·신생아 건강관리 본인부담금 지원",
+    "target": "산모신생아 건강관리 서비스 이용 관내 임산부",
+    "amount": "최대 7,437,000원",
     "show": true,
     "special": false
   },
   "g24-522000000124": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산장려금/산후조리비 지원",
+    "summary": "칠곡군 출산가정 산후조리비 지원",
+    "target": "출생일 기준 부모 3개월 이상 거주 출산가정",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-304000000189": {
-    "category": "금융",
-    "tags": [
-      "자영업·창업"
-    ],
-    "support_type": "현물",
-    "summary": "도시제조업 작업환경개선 안전설비 지원 (최대 720만원)",
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "광진구 소공인 안전 필수설비 지원",
+    "target": "광진구 5대 제조업체 상시 근로자 10인 미만 소공인",
+    "amount": "최대 720만원",
     "show": true,
     "special": false
   },
   "g24-378000000146": {
-    "category": "복지",
+    "category": "육아",
     "tags": [],
     "support_type": "현금",
-    "summary": "입양 가정 입양축하금 지원",
+    "summary": "성남시 거주 입양 가정 아동 입양축하금 지원",
+    "target": "입양일 기준 성남시 1년 이상 거주 입양 가정",
+    "amount": "500만원",
     "show": true,
     "special": false
   },
   "g24-386000000131": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산지원금 지원 (1년 이상 거주)",
+    "summary": "관내 거주 부모 출생·입양 시 출산지원금 지원",
+    "target": "출생·입양일 기준 1년 이상 관내 거주 부모",
+    "amount": "첫째아 100만원",
     "show": true,
     "special": false
   },
   "g24-433000000137": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "인제군 출산장려금 지원 (6개월 이상 거주)",
+    "summary": "인제군 거주 부모 출산장려금 지원",
+    "target": "출생일 이전 전입하여 6개월 이상 거주 부모",
+    "amount": "첫째자녀 200만원",
     "show": true,
     "special": false
   },
   "g24-444000000108": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산양육지원금 지원 (6개월 이상 거주)",
+    "summary": "영동군 거주 부모 출산양육지원금 지원",
+    "target": "출생일 기준 6개월 이상 군내 거주 부 또는 모",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-454000000179": {
     "category": "복지",
-    "tags": [],
+    "tags": [
+      "신혼"
+    ],
     "support_type": "현금",
-    "summary": "논산시 청년결혼축하금 지원",
+    "summary": "논산시 청년 초혼 대상 결혼축하금 지원",
+    "target": "2023.1.1. 이후 혼인신고, 18~45세 초혼 부부",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-457000000147": {
     "category": "복지",
-    "tags": [],
+    "tags": [
+      "신혼"
+    ],
     "support_type": "현금",
-    "summary": "결혼정착지원금 지원",
+    "summary": "부여군 거주 만18~49세 부부 결혼정착지원금 지원",
+    "target": "혼인신고일 이후 부여군 거주 만18~49세 부부",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3578,7 +3606,9 @@
       "농어업인"
     ],
     "support_type": "현물",
-    "summary": "어선 등록자 대상 어선장비 최대 450만원 지원",
+    "summary": "포항시 어선 등록자 대상 어선장비 지원",
+    "target": "포항시 어선 등록, 도내 주소 보유 어선 소유자",
+    "amount": "최대 450만원",
     "show": true,
     "special": false
   },
@@ -3587,8 +3617,10 @@
     "tags": [
       "농어업인"
     ],
-    "support_type": "현물",
-    "summary": "관내 농업인 대상 친환경 농자재 지원",
+    "support_type": "현금",
+    "summary": "관내 거주 농업인 대상 과수 전용 농자재 지원",
+    "target": "관내 주소 둔 실거주 농업인, 농업법인",
+    "amount": "군비 40%",
     "show": true,
     "special": false
   },
@@ -3598,7 +3630,9 @@
       "신혼"
     ],
     "support_type": "현금",
-    "summary": "관내 거주 신혼부부 대상 결혼장려금 지원",
+    "summary": "관내 거주 부부 대상 결혼장려금 지원",
+    "target": "혼인신고 및 지급일까지 관내 주소 유지 부부",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3607,8 +3641,10 @@
     "tags": [
       "농어업인"
     ],
-    "support_type": "현물",
-    "summary": "농업인 대상 저온저장고 설치 지원",
+    "support_type": "현금",
+    "summary": "관내 거주 채소 재배 농업인 저온저장고 지원",
+    "target": "관내 거주 채소 재배 농업인, 영농조합법인",
+    "amount": "최대 700만원",
     "show": true,
     "special": false
   },
@@ -3618,7 +3654,9 @@
       "농어업인"
     ],
     "support_type": "현금",
-    "summary": "귀농·귀촌·귀향인 주택수리비 최대 700만원 지원",
+    "summary": "귀농·귀촌·귀향인 주택수리비 지원",
+    "target": "농어촌 외 1년 이상 거주 후 산청군 정착 6년 이내 세대주",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3628,18 +3666,21 @@
       "농어업인"
     ],
     "support_type": "현금",
-    "summary": "귀농인 주택 리모델링 최대 700만원 지원",
+    "summary": "신규농업인(귀농인) 주택수리비 700만원 지원",
+    "target": "전입 5년 이내 실제 영농 종사, 농업경영체 등록 세대주 귀농인",
+    "amount": "700만원",
     "show": true,
     "special": false
   },
   "g24-567000000108": {
     "category": "일자리",
     "tags": [
-      "청년",
       "자영업·창업"
     ],
     "support_type": "현금",
-    "summary": "창원시 청년 기술창업가 대상 수당 지원",
+    "summary": "청년기술창업수당 지원",
+    "target": "만19세 이상 내국인, 창원시 사업장 운영 3개월~3년 이내",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3647,11 +3688,12 @@
     "category": "금융",
     "tags": [
       "신혼",
-      "청년",
       "무주택"
     ],
     "support_type": "대출",
-    "summary": "익산시 신혼부부·청년 전세보증금 대출이자 지원",
+    "summary": "신혼부부·청년 주택 전세보증금 대출이자 지원",
+    "target": "익산시 거주 예정 신혼부부·청년, 무주택 세대원 전원",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3671,27 +3713,31 @@
       "신혼"
     ],
     "support_type": "현금",
-    "summary": "태안군 거주 신혼부부 대상 3년간 600만원 지원",
+    "summary": "태안군 결혼장려금 총 600만원 지원",
+    "target": "혼인신고일 기준 남녀 모두 태안군 주민등록 부부",
+    "amount": "총 600만원",
     "show": true,
     "special": false
   },
   "g24-401000000514": {
     "category": "주거",
-    "tags": [
-      "저소득"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "저소득 가구 집수리 최대 300만원 지원",
+    "summary": "시흥형 집수리비 최대 600만원 지원",
+    "target": "시흥시 거주 1개월 이상, 중위소득 60% 이하 자가·임차가구",
+    "amount": "최대 600만원",
     "show": true,
     "special": false
   },
   "g24-448000000673": {
-    "category": "농업",
+    "category": "복지",
     "tags": [
       "농어업인"
     ],
     "support_type": "현금",
-    "summary": "단양군 귀농인 대상 정착장려금 지원",
+    "summary": "귀농인 정착장려금 지원",
+    "target": "단양군 전입 2년 경과, 65세 이하 세대주 귀농인",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3701,7 +3747,9 @@
       "신혼"
     ],
     "support_type": "현금",
-    "summary": "태안군 거주 신혼부부 대상 결혼장려금 지원",
+    "summary": "태안군 결혼장려금 지원",
+    "target": "혼인신고일 기준 남녀 모두 태안군 주민등록 부부",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3711,7 +3759,9 @@
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "완주군 거주 가정 대상 출산장려금 지원",
+    "summary": "완주군 출산장려금 지원",
+    "target": "출생·입양일 기준 1년 이상 부모 모두 완주군 거주 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3721,17 +3771,21 @@
       "농어업인"
     ],
     "support_type": "현금",
-    "summary": "무주군 귀농·귀촌·귀향인 주택 수리비 지원",
+    "summary": "귀농·귀촌·귀향인 주택 수리비 지원",
+    "target": "무주군 전입 3년 이내, 노후 단독주택 수리 예정자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-486000000105": {
-    "category": "농업",
+    "category": "복지",
     "tags": [
       "농어업인"
     ],
-    "support_type": "서비스",
-    "summary": "귀농·귀촌인 대상 육성 지원",
+    "support_type": "현금",
+    "summary": "귀농·귀촌인 육성 지원",
+    "target": "거주 5년 이내, 농어촌 외 1년 이상 거주 후 전입한 귀농귀촌인",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3740,8 +3794,10 @@
     "tags": [
       "농어업인"
     ],
-    "support_type": "현물",
-    "summary": "봉화군 농업인 대상 객토 장비대 지원",
+    "support_type": "현금",
+    "summary": "친환경 농산물 재배지 객토 장비대 지원",
+    "target": "봉화군 주소 둔 농업경영체 등록 농업인",
+    "amount": "ha당 600만원(보조50%)",
     "show": true,
     "special": false
   },
@@ -3749,7 +3805,9 @@
     "category": "교육",
     "tags": [],
     "support_type": "현금",
-    "summary": "김제시민 자녀 대상 장학금 지원",
+    "summary": "김제사랑 장학금 지원",
+    "target": "김제시 거주 1년 이상 시민 및 자녀, 김제지역 학교 출신",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3759,7 +3817,9 @@
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "목포시 출산가정 대상 출산장려금 지원",
+    "summary": "목포시 출산장려금 첫째 150만원 지원",
+    "target": "출생일 기준 목포시 거주 출산가정",
+    "amount": "첫째 150만원",
     "show": true,
     "special": false
   },
@@ -3768,8 +3828,10 @@
     "tags": [
       "농어업인"
     ],
-    "support_type": "서비스",
-    "summary": "무주군 귀농·귀향인 대상 영농 지원",
+    "support_type": "현금",
+    "summary": "귀농·귀향인 영농 지원",
+    "target": "무주군 전입 5년 이내, 영농경력 5년 이내 귀농·귀향인",
+    "amount": "",
     "show": true,
     "special": false
   },
