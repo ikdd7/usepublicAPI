@@ -20,10 +20,17 @@
   .lede{color:var(--sub);font-size:13.5px}
   .panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin-top:16px;box-shadow:0 2px 12px rgba(43,111,255,.06)}
   .panel h2{font-size:14px;color:var(--sub);font-weight:600;margin-bottom:12px}
-  .agewrap{display:flex;align-items:center;gap:10px;margin-bottom:14px}
-  .agewrap input{width:88px;background:#f4f8fe;border:1px solid var(--line);color:var(--txt);font-size:20px;font-weight:700;text-align:center;border-radius:10px;padding:10px}
+  .agewrap{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+  .agewrap input{width:80px;background:#f4f8fe;border:1px solid var(--line);color:var(--txt);font-size:20px;font-weight:700;text-align:center;border-radius:10px;padding:10px}
   .agewrap label{font-size:14px;color:var(--sub)}
-  .agewrap select{flex:1;background:#f4f8fe;border:1px solid var(--line);color:var(--txt);font-size:14px;border-radius:10px;padding:11px 10px}
+  .agewrap select{flex:1 1 42%;min-width:130px;background:#f4f8fe;border:1px solid var(--line);color:var(--txt);font-size:14px;border-radius:10px;padding:11px 10px}
+  .h2sub{font-weight:400;color:var(--sub);font-size:12px}
+  details.adv{margin-top:10px;border-top:1px dashed var(--line);padding-top:8px}
+  details.adv>summary{cursor:pointer;color:var(--accent);font-size:13px;font-weight:600;list-style:none;padding:6px 2px}
+  details.adv>summary::-webkit-details-marker{display:none}
+  details.adv>summary::before{content:"▸ "}
+  details.adv[open]>summary::before{content:"▾ "}
+  details.adv .grp:first-of-type{margin-top:6px}
   .summary{background:linear-gradient(135deg,#e1edff,#f2f8ff);border:1px solid #c9ddf8;border-radius:16px;padding:15px 16px;margin-top:16px}
   .summary .sb-title{font-size:12px;color:#1f6bdf;font-weight:700;margin-bottom:6px}
   #summaryText{font-size:13.5px;color:#2a3a55;line-height:1.6}
@@ -92,24 +99,13 @@
       <select id="sido" title="시·도"></select>
       <select id="region" title="시·군·구"></select>
     </div>
-    <h2>내 상황 (해당하는 것 모두 선택 — 정확할수록 맞춤 추천)</h2>
+    <h2>내 상황 <span class="h2sub">해당하는 것만 선택</span></h2>
     <div id="chips">
-      <div class="grp">신분</div>
       <div class="chips">
         <span class="chip" data-tag="구직중">🔍 구직중</span>
         <span class="chip" data-tag="재직중">💼 재직중</span>
         <span class="chip" data-tag="학생">🎓 학생</span>
-        <span class="chip" data-tag="자영업·창업">🏪 자영업·창업</span>
-      </div>
-      <div class="grp">직업 (해당될 때만)</div>
-      <div class="chips">
-        <span class="chip" data-tag="농어업인">🌾 농어업인</span>
-        <span class="chip" data-tag="예술인">🎨 예술인</span>
-        <span class="chip" data-tag="운수종사자">🚚 운수종사자</span>
-        <span class="chip" data-tag="제대군인">🎖️ 제대군인</span>
-      </div>
-      <div class="grp">가구·조건</div>
-      <div class="chips">
+        <span class="chip" data-tag="자영업·창업">🏪 소상공인·창업</span>
         <span class="chip" data-tag="1인가구">👤 1인가구</span>
         <span class="chip" data-tag="신혼">💑 신혼</span>
         <span class="chip" data-tag="임신·출산">🤰 임신·출산</span>
@@ -119,25 +115,33 @@
         <span class="chip" data-tag="저소득">💸 저소득</span>
         <span class="chip" data-tag="무주택">🏠 무주택·자취</span>
       </div>
+      <details class="adv">
+        <summary>＋ 직업 조건 (농어업·예술·운수·제대군인)</summary>
+        <div class="chips">
+          <span class="chip" data-tag="농어업인">🌾 농어업인</span>
+          <span class="chip" data-tag="예술인">🎨 예술인</span>
+          <span class="chip" data-tag="운수종사자">🚚 운수종사자</span>
+          <span class="chip" data-tag="제대군인">🎖️ 제대군인</span>
+        </div>
+      </details>
     </div>
-  </div>
-
-  <div class="panel">
-    <h2>보기 필터 (선택 없으면 일반 지원)</h2>
-    <div class="grp">성격별 — 생활밀착·특수 지원은 여기서 (예: 음식물처리기·장애인·자격증)</div>
-    <div class="chips" id="topicChips"></div>
-    <label class="exp"><input type="checkbox" id="showExpired"/> 마감된 공고도 보기</label>
-    <label class="exp"><input type="checkbox" id="showAll"/> 공지·특수·자동지원까지 모두 보기</label>
-    <div class="grp">분야</div>
-    <div class="chips" id="catChips"></div>
-    <div class="grp">지원 형태</div>
-    <div class="chips" id="typeChips">
-      <span class="chip" data-type="현금">💵 현금</span>
-      <span class="chip" data-type="바우처">🎫 바우처·포인트</span>
-      <span class="chip" data-type="대출">🏦 대출</span>
-      <span class="chip" data-type="현물">📦 현물·주거</span>
-      <span class="chip" data-type="서비스">🛠 서비스·프로그램</span>
-    </div>
+    <details class="adv">
+      <summary>고급 필터 — 분야·지원형태·생활밀착·마감 포함</summary>
+      <div class="grp">성격별 (생활밀착·장애인·자격증 등)</div>
+      <div class="chips" id="topicChips"></div>
+      <div class="grp">분야</div>
+      <div class="chips" id="catChips"></div>
+      <div class="grp">지원 형태</div>
+      <div class="chips" id="typeChips">
+        <span class="chip" data-type="현금">💵 현금</span>
+        <span class="chip" data-type="바우처">🎫 바우처·포인트</span>
+        <span class="chip" data-type="대출">🏦 대출</span>
+        <span class="chip" data-type="현물">📦 현물·주거</span>
+        <span class="chip" data-type="서비스">🛠 서비스·프로그램</span>
+      </div>
+      <label class="exp"><input type="checkbox" id="showExpired"/> 마감된 공고도 보기</label>
+      <label class="exp"><input type="checkbox" id="showAll"/> 공지·특수·자동지원까지 모두 보기</label>
+    </details>
   </div>
 
   <div class="result-banner" id="banner">
