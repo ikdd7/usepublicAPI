@@ -126,7 +126,7 @@ function textOf(html) {
 /* ---------- 1단계: 지자체별 후보 글 수집 (서버렌더 .asp 게시판 직접) ---------- */
 // 매시간 수집 시 게시판/프록시를 매번 때리지 않도록 캐시(기본 6시간) 재사용.
 const BOARDS_CACHE = join(__dir, "..", "data", "boards_cache.json");
-const BOARDS_CACHE_H = Number(process.env.BOARDS_CACHE_H || 6);
+const BOARDS_CACHE_H = Number(process.env.BOARDS_CACHE_H || 48);
 async function harvestCandidates({ dump = false } = {}) {
   if (!dump && existsSync(BOARDS_CACHE)) {
     try {
@@ -139,8 +139,9 @@ async function harvestCandidates({ dump = false } = {}) {
     } catch {}
   }
   const candidates = [];
+  const perRegion = Number(process.env.MAX_BOARDS_PER_REGION || 4); // 대역폭 보호: 구당 상한
   for (const { region, boards } of mergedRegistry()) {
-    for (const b of boards) {
+    for (const b of boards.slice(0, perRegion)) {
       await sleep(1000);
       const r = await get(b);
       if (!r.ok) { console.log(`  ✗ ${region} ${b} → ${r.status || r.err}`); continue; }

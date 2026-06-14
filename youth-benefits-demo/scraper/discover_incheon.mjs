@@ -22,31 +22,93 @@ const __dir = dirname(fileURLToPath(import.meta.url));
 const OUT = join(__dir, "..", "data", "incheon_boards.json");
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
 
+// 발견 대상: 인천 10 + 서울 25 + 경기 31 (region = "시도 시군구")
 const HOMES = [
-  { gu: "중구", home: "https://www.icjg.go.kr/" },
-  { gu: "동구", home: "https://www.icdonggu.go.kr/" },
-  { gu: "미추홀구", home: "https://www.michuhol.go.kr/" },
-  { gu: "연수구", home: "https://www.yeonsu.go.kr/" },
-  { gu: "남동구", home: "https://www.namdong.go.kr/" },
-  { gu: "부평구", home: "https://www.icbp.go.kr/" },
-  { gu: "계양구", home: "https://www.gyeyang.go.kr/" },
-  { gu: "서구", home: "https://www.seo.incheon.kr/" },
-  { gu: "강화군", home: "https://www.ganghwa.go.kr/" },
-  { gu: "옹진군", home: "https://www.ongjin.go.kr/" },
+  // 인천광역시
+  { region: "인천광역시 중구", home: "https://www.icjg.go.kr/" },
+  { region: "인천광역시 동구", home: "https://www.icdonggu.go.kr/" },
+  { region: "인천광역시 미추홀구", home: "https://www.michuhol.go.kr/" },
+  { region: "인천광역시 연수구", home: "https://www.yeonsu.go.kr/" },
+  { region: "인천광역시 남동구", home: "https://www.namdong.go.kr/" },
+  { region: "인천광역시 부평구", home: "https://www.icbp.go.kr/" },
+  { region: "인천광역시 계양구", home: "https://www.gyeyang.go.kr/" },
+  { region: "인천광역시 서구", home: "https://www.seo.incheon.kr/" },
+  { region: "인천광역시 강화군", home: "https://www.ganghwa.go.kr/" },
+  { region: "인천광역시 옹진군", home: "https://www.ongjin.go.kr/" },
+  // 서울특별시 25개 구
+  { region: "서울특별시 종로구", home: "https://www.jongno.go.kr/" },
+  { region: "서울특별시 중구", home: "https://www.junggu.seoul.kr/" },
+  { region: "서울특별시 용산구", home: "https://www.yongsan.go.kr/" },
+  { region: "서울특별시 성동구", home: "https://www.sd.go.kr/" },
+  { region: "서울특별시 광진구", home: "https://www.gwangjin.go.kr/" },
+  { region: "서울특별시 동대문구", home: "https://www.ddm.go.kr/" },
+  { region: "서울특별시 중랑구", home: "https://www.jungnang.go.kr/" },
+  { region: "서울특별시 성북구", home: "https://www.seongbuk.go.kr/" },
+  { region: "서울특별시 강북구", home: "https://www.gangbuk.go.kr/" },
+  { region: "서울특별시 도봉구", home: "https://www.dobong.go.kr/" },
+  { region: "서울특별시 노원구", home: "https://www.nowon.go.kr/" },
+  { region: "서울특별시 은평구", home: "https://www.ep.go.kr/" },
+  { region: "서울특별시 서대문구", home: "https://www.sdm.go.kr/" },
+  { region: "서울특별시 마포구", home: "https://www.mapo.go.kr/" },
+  { region: "서울특별시 양천구", home: "https://www.yangcheon.go.kr/" },
+  { region: "서울특별시 강서구", home: "https://www.gangseo.seoul.kr/" },
+  { region: "서울특별시 구로구", home: "https://www.guro.go.kr/" },
+  { region: "서울특별시 금천구", home: "https://www.geumcheon.go.kr/" },
+  { region: "서울특별시 영등포구", home: "https://www.ydp.go.kr/" },
+  { region: "서울특별시 동작구", home: "https://www.dongjak.go.kr/" },
+  { region: "서울특별시 관악구", home: "https://www.gwanak.go.kr/" },
+  { region: "서울특별시 서초구", home: "https://www.seocho.go.kr/" },
+  { region: "서울특별시 강남구", home: "https://www.gangnam.go.kr/" },
+  { region: "서울특별시 송파구", home: "https://www.songpa.go.kr/" },
+  { region: "서울특별시 강동구", home: "https://www.gangdong.go.kr/" },
+  // 경기도 31개 시·군
+  { region: "경기도 수원시", home: "https://www.suwon.go.kr/" },
+  { region: "경기도 성남시", home: "https://www.seongnam.go.kr/" },
+  { region: "경기도 의정부시", home: "https://www.ui4u.go.kr/" },
+  { region: "경기도 안양시", home: "https://www.anyang.go.kr/" },
+  { region: "경기도 부천시", home: "https://www.bucheon.go.kr/" },
+  { region: "경기도 광명시", home: "https://www.gm.go.kr/" },
+  { region: "경기도 평택시", home: "https://www.pyeongtaek.go.kr/" },
+  { region: "경기도 동두천시", home: "https://www.ddc.go.kr/" },
+  { region: "경기도 안산시", home: "https://www.ansan.go.kr/" },
+  { region: "경기도 고양시", home: "https://www.goyang.go.kr/" },
+  { region: "경기도 과천시", home: "https://www.gccity.go.kr/" },
+  { region: "경기도 구리시", home: "https://www.guri.go.kr/" },
+  { region: "경기도 남양주시", home: "https://www.nyj.go.kr/" },
+  { region: "경기도 오산시", home: "https://www.osan.go.kr/" },
+  { region: "경기도 시흥시", home: "https://www.siheung.go.kr/" },
+  { region: "경기도 군포시", home: "https://www.gunpo.go.kr/" },
+  { region: "경기도 의왕시", home: "https://www.uiwang.go.kr/" },
+  { region: "경기도 하남시", home: "https://www.hanam.go.kr/" },
+  { region: "경기도 용인시", home: "https://www.yongin.go.kr/" },
+  { region: "경기도 파주시", home: "https://www.paju.go.kr/" },
+  { region: "경기도 이천시", home: "https://www.icheon.go.kr/" },
+  { region: "경기도 안성시", home: "https://www.anseong.go.kr/" },
+  { region: "경기도 김포시", home: "https://www.gimpo.go.kr/" },
+  { region: "경기도 화성시", home: "https://www.hscity.go.kr/" },
+  { region: "경기도 광주시", home: "https://www.gjcity.go.kr/" },
+  { region: "경기도 양주시", home: "https://www.yangju.go.kr/" },
+  { region: "경기도 포천시", home: "https://www.pocheon.go.kr/" },
+  { region: "경기도 여주시", home: "https://www.yeoju.go.kr/" },
+  { region: "경기도 연천군", home: "https://www.yeoncheon.go.kr/" },
+  { region: "경기도 가평군", home: "https://www.gp.go.kr/" },
+  { region: "경기도 양평군", home: "https://www.yp21.go.kr/" },
 ];
 
-// 홈이 막혀도 '깊은 게시판 URL'은 열릴 때가 있어 직접 시드로 찔러본다(=연결성 테스트 겸용).
+// 홈이 막혀도 '깊은 게시판 URL'은 열릴 때가 있어 직접 시드로 찔러본다(인천 일부, region 기준).
 const SEEDS = {
-  "중구": ["https://www.icjg.go.kr/open_content/main/intro/news/notice.jsp"],
-  "동구": ["https://www.icdonggu.go.kr/main/community/budget/notice.jsp"],
-  "미추홀구": ["https://www.michuhol.go.kr/open_content/main/intro/news/notice.jsp"],
-  "남동구": ["https://www.namdong.go.kr/open_content/main/intro/news/notice.jsp"],
-  "부평구": ["https://www.icbp.go.kr/main/civil/property/youth.jsp", "https://www.icbp.go.kr/main/participation/news/incheon.jsp"],
-  "계양구": ["https://www.gyeyang.go.kr/open_content/main/intro/news/notice.jsp"],
-  "서구": ["https://www.seo.incheon.kr/open_content/main/community/news/notice.jsp", "https://www.seo.incheon.kr/open_content/main/community/news/company.jsp", "https://www.seo.incheon.kr/open_content/main/community/news/other.jsp"],
-  "강화군": ["https://www.ganghwa.go.kr/open_content/main/part/job/aid.jsp", "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp"],
-  "옹진군": ["https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp", "https://www.ongjin.go.kr/open_content/main/community/board/notice.jsp"],
+  "인천광역시 중구": ["https://www.icjg.go.kr/open_content/main/intro/news/notice.jsp"],
+  "인천광역시 동구": ["https://www.icdonggu.go.kr/main/community/budget/notice.jsp"],
+  "인천광역시 미추홀구": ["https://www.michuhol.go.kr/open_content/main/intro/news/notice.jsp"],
+  "인천광역시 남동구": ["https://www.namdong.go.kr/open_content/main/intro/news/notice.jsp"],
+  "인천광역시 부평구": ["https://www.icbp.go.kr/main/civil/property/youth.jsp", "https://www.icbp.go.kr/main/participation/news/incheon.jsp"],
+  "인천광역시 계양구": ["https://www.gyeyang.go.kr/open_content/main/intro/news/notice.jsp"],
+  "인천광역시 서구": ["https://www.seo.incheon.kr/open_content/main/community/news/notice.jsp", "https://www.seo.incheon.kr/open_content/main/community/news/company.jsp", "https://www.seo.incheon.kr/open_content/main/community/news/other.jsp"],
+  "인천광역시 강화군": ["https://www.ganghwa.go.kr/open_content/main/part/job/aid.jsp", "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp"],
+  "인천광역시 옹진군": ["https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp", "https://www.ongjin.go.kr/open_content/main/community/board/notice.jsp"],
 };
+// 구당 발견 게시판 상한(대역폭 보호)
+const MAX_BOARDS_PER_REGION = Number(process.env.MAX_BOARDS_PER_REGION || 3);
 // 실제 동이 아닌데 DONG_KW에 걸리는 메뉴어(오탐 차단)
 const DONG_STOP = /우리동|이동|활동|행동|아동|노동|공동|자동|동행|동참|동의/;
 
@@ -60,7 +122,7 @@ const DONG_KW = /(주민센터|행정복지센터|[가-힣]{1,3}[동읍면]\b)/;
 const POST_HREF = /(view|seq=|idx=|no=|num=|bidx|nttsn|articleno|artcl|mgr_seq|board_seq|\d{3,})/i;
 // 전체 시간예산(프록시 지연 대비) — 초과 시 그때까지 결과로 저장(다음 실행에 누적 병합)
 const T0 = Date.now();
-const BUDGET_MS = Number(process.env.DISCOVER_BUDGET_MS || 300000);
+const BUDGET_MS = Number(process.env.DISCOVER_BUDGET_MS || 1500000); // 25분(서울+경기+인천)
 const overBudget = () => Date.now() - T0 > BUDGET_MS;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -119,18 +181,17 @@ function cleanBoardUrl(u, host) {
   catch { return null; }
 }
 
-async function discoverSite({ gu, home }) {
-  const region = `인천광역시 ${gu}`;
+async function discoverSite({ region, home }) {
   console.log(`\n##### ${region} (${home}) #####`);
   const host = new URL(home).host;
-  const r = await getR(home, 15000, 3);   // 실패 시 IP 바꿔 3회 재시도
+  const r = await getR(home, 12000, 2);   // 실패 시 IP 바꿔 재시도(대량 스윕이라 2회)
   const homeOk = r.ok;
   if (!homeOk) console.log(`  ⚠ 홈 접속 실패(${r.status || r.err}) → 시드 게시판만 직접 점검(재시도)`);
   const links = homeOk ? anchors(r.body, home).filter((a) => cleanBoardUrl(a.href, host)) : [];
 
   // ── 구 단위 게시판 후보 = 홈에서 발견 + 시드(깊은 URL) ──
   const fromHome = links.filter((l) => BOARD_KW.test(l.text) || BOARD_KW.test(l.href)).map((l) => cleanBoardUrl(l.href, host));
-  const candUrls = [...new Set([...(SEEDS[gu] || []), ...fromHome].filter(Boolean))].slice(0, 12);
+  const candUrls = [...new Set([...(SEEDS[region] || []), ...fromHome].filter(Boolean))].slice(0, 12);
   const guSet = new Set();
   const guBoards = [];
   for (const url of candUrls) {
@@ -168,14 +229,17 @@ async function discoverSite({ gu, home }) {
     }
   }
 
-  console.log(`  → 구 게시판 ${guBoards.length}개 · 동 게시판 ${dongBoards.length}개`);
-  return { gu, region, homeOk, boards: guBoards, dong: dongBoards };
+  // 대역폭 보호: 지원공고 많은 순 상위만 채택
+  const topBoards = guBoards.sort((a, b) => b.supports - a.supports).slice(0, MAX_BOARDS_PER_REGION);
+  const topDong = dongBoards.slice(0, 2);
+  console.log(`  → 구 게시판 ${topBoards.length}개(발견 ${guBoards.length}) · 동 게시판 ${topDong.length}개`);
+  return { region, homeOk, boards: topBoards, dong: topDong };
 }
 
 async function main() {
   const only = process.argv.includes("--gu") ? process.argv[process.argv.indexOf("--gu") + 1] : null;
-  const targets = only ? HOMES.filter((h) => h.gu === only) : HOMES;
-  console.log(`== 인천 게시판 발견 (${targets.length}개 구·군, 정적 fetch${hasProxy() ? ", 프록시 ON" : ""}) ==`);
+  const targets = only ? HOMES.filter((h) => h.region.includes(only)) : HOMES;
+  console.log(`== 지자체 게시판 발견 (${targets.length}곳: 인천+서울+경기, 정적 fetch${hasProxy() ? ", 프록시 ON" : ""}) ==`);
   await proxyFetch();
   // 프록시 자가진단: 실제 나가는 IP/국가 확인(KR이어야 지자체 차단 통과)
   if (hasProxy()) {
@@ -187,8 +251,8 @@ async function main() {
   }
   const sites = [];
   for (const t of targets) {
-    if (overBudget()) { console.log(`  ⏱ 시간예산(${Math.round(BUDGET_MS/1000)}s) 초과 → ${t.gu} 이후 중단(다음 실행에 누적)`); break; }
-    try { sites.push(await discoverSite(t)); } catch (e) { console.log(`  ✗ ${t.gu}: ${clip(e.message, 60)}`); }
+    if (overBudget()) { console.log(`  ⏱ 시간예산(${Math.round(BUDGET_MS/1000)}s) 초과 → ${t.region} 이후 중단(다음 실행에 누적)`); break; }
+    try { sites.push(await discoverSite(t)); } catch (e) { console.log(`  ✗ ${t.region}: ${clip(e.message, 60)}`); }
   }
 
   // boards.mjs(REGISTRY) 호환 형태로 변환: 구 게시판 + 동 게시판(있으면 동 region)
