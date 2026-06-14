@@ -5563,5 +5563,1160 @@
     "summary": "함양군 전입세대 주택설계비 200만원 지원",
     "show": true,
     "special": false
+  },
+  "g24-547000000122": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "친환경 농산물 생산자재 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-548000000119": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "노후주택 지붕개량 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-553000000118": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "북한이탈주민 정착 물품 및 수강료 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-558000000115": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "귀농인 정착 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-559000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "입양아동 축하금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-567000000132": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산축하금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000122": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "청년 신혼부부 전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000141": {
+    "category": "일자리",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족 세대주 직업훈련비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00060700001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 고등학생 및 대학생 장학금 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-O00062700001": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "성적우수 및 푸른꿈 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00063100005": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "위기가정 생계곤란 물품 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00076200001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "수성구 거주 학생 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00081200001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "수영구 거주 학생 장학금 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-O00084700001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "금천구 거주 학생 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00087000001": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "송파구 거주 학생 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00087700002": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "은평구 거주 학생 일반, 특기 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00087700003": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "은평구 거주 학생 지역사회기여 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00103800001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "완주군 거주 학생 애향장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00115800001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "음성군 거주 학생 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00116200001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "제천시 거주 학생 장학금 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000120": {
+    "category": "복지",
+    "tags": [
+      "외국인"
+    ],
+    "support_type": "서비스",
+    "summary": "외국인 주민 긴급 위기 상황 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-314000000107": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "양천구 거주 학생 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000580": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노후 주택 수도관 개량 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000145": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "노인 개안수술 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-424000000167": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "공공산후조리원 이용료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000115": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "귀농·귀향인 임시거주지 임대료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-474100000015": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "난임부부 한방 난임치료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000105": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 최대 180만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000386": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "난임부부 한방 난임치료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 농산물 재배지 땅뒤집기 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000118": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 종자소독기 구입 비용 50% 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000132": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "농촌 빈집 정비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-302000000112": {
+    "category": "육아",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지급",
+    "show": true,
+    "special": true
+  },
+  "g24-304000000102": {
+    "category": "육아",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산비용 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-407000000522": {
+    "category": "육아",
+    "tags": [
+      "자영업·창업",
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "1인 자영업자 등 출산급여 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-492000000137": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "공공산후조리원 이용료 감면 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-492000000136": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산후조리비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000133": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "난임부부 한의치료 확대 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-553000000128": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "화성시 무상교통 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-313000000149": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 양육비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-331000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 기준 중위소득 65% 이하 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-398000000117": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 장애인 주거환경 개선 최대 152만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-399000000102": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-571000000121": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-488000000132": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 학자금, 생활용품비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000607": {
+    "category": "금융",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "대출",
+    "summary": "다자녀가구 전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000158": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 전월세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-301000000124": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-309000000141": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "도봉사랑상품권 5% 할인 판매",
+    "show": true,
+    "special": false
+  },
+  "g24-312000000315": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "서대문구 아빠 육아휴직장려금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-313000000108": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-320000000108": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관악사랑상품권 할인 및 페이백 제공",
+    "show": true,
+    "special": false
+  },
+  "g24-321000000120": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "서초구 정신건강 의료비 연 150만원 내외 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-351050000129": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "미추홀구 난임치료 한약재 3개월 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-352000000121": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "연수구 난임치료 한약재 3개월 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-366000000690": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "서구 우수자원봉사자 고등·대학생 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-399000000101": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "남양주시 미래·복지 장학생 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-419000000129": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "원주사랑상품권 6~10% 할인 구매 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-420000000157": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "강릉시 우수 장학생 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-420000000159": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "강릉시 진학 장학생 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-420000000168": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "강릉시민 자녀 특기장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-420000000174": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "강릉시민 자녀 자립장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-426100000004": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "횡성군 난임부부 한방 의료비 최대 150만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-428000000122": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "평창군 정신질환 치료비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-444000000111": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "정신건강 의료비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000125": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "천안시 여성중증장애인 출산비 150만원 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-449000000129": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "천안시 여성중증장애인 출산비 150만원 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-454000000168": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "논산사랑상품권 10% 할인 구매 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-467000000103": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "군산형 긴급복지 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-471000000117": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "김제시 장애인가정 출산장려금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-483000000103": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "나주시 65세이상 틀니 시술비 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-490000000288": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화순군 난임부부 시술비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-493000000137": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "해남군 소상공인 3천만원 이내 대출 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-493000000301": {
+    "category": "교육",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "다자녀가정 대학생 학자금 최대 150만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-497000000103": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "정관난관 복원수술비 최대 150만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-497000000105": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영광군 난임부부 시술비 30~150만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-520000000308": {
+    "category": "교육",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "고령군 다자녀가정 대학생 학자금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000120": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "진주시 신혼부부 전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000109": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-534000000106": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "사천시 100세이상 기초연금 수급자 장제비 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-537000000101": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산비 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-537000000110": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "임신·출산",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부·미혼모부 주택전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000125": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "거제시 우수학생 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000115": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "목재펠릿 연소기 보급 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000141": {
+    "category": "금융",
+    "tags": [
+      "임신·출산",
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "청년 주택 전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-567000000123": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "무주택 신혼부부 전세자금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00049300008": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "온누리 장학금 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-O00053300001": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "양평군장학재단 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00115600001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영동군민장학회 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-313000000104": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 특별생계 보호",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000114": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 임산부 건강관리 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000127": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "광양시 산후조리비용 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-505000000157": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난청 조기진단검사 및 보청기 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000151": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "창업지원센터 운영 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-397000000124": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-515000000133": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "기본형 공익직접지불사업 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-443000000661": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청년 월세 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-336000000200": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산지원금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000123": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 보훈예우수당 지급",
+    "show": true,
+    "special": true
+  },
+  "g24-308000000119": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "입양축하금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-309000000132": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-311000000106": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-314000000119": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "주택형 태양광 미니발전소 설치 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-351050000104": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "여성장애인 출산비용 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-352000000123": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "여성장애인 출산비용 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-390000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 장애인 출산비 지원 최대 120만원",
+    "show": true,
+    "special": true
+  },
+  "g24-419100000007": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "전입 청년 교통비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000528": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "바우처",
+    "summary": "네자녀 이상 다자녀가정 행복바우처 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000117": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출생아 가정 출산축하금 100만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-470000000133": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "귀향귀촌인 이사비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-471000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "기본형 공익직접지불금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000016": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농업인 논두렁 개량 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000108": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-534000000121": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급자 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-508000000690": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "근로취약계층 유급병가 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000232": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-468000000118": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 지원 최대 110만원",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000132": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "노후주택 옥내급수시설 개량 공사비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000132": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 약제비(시술비) 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-538000000656": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 난임시술 약제비 지원",
+    "show": true,
+    "special": false
   }
 }
