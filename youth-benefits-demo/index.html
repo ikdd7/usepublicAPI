@@ -54,6 +54,7 @@
   .chip{display:inline-flex;align-items:center;font-family:inherit;font-size:13.5px;font-weight:700;padding:9px 15px;border-radius:999px;border:1.5px solid transparent;background:var(--f1);color:var(--muted);cursor:pointer;user-select:none;white-space:nowrap;transition:all .12s ease}
   .chip:active{transform:scale(.96)}
   .chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .grp-mini{flex-basis:100%;font-size:11.5px;color:var(--faint);font-weight:700;margin:8px 2px 1px}
   .cta-wrap{position:absolute;left:0;right:0;bottom:0;padding:16px 24px 26px;background:linear-gradient(to top,#fff 70%,rgba(255,255,255,0))}
   .cta{width:100%;border:none;background:var(--acc);color:#fff;font-family:inherit;font-size:17px;font-weight:800;padding:18px;border-radius:18px;box-shadow:0 12px 26px rgba(69,72,150,.32);display:flex;align-items:center;justify-content:center;gap:8px;cursor:pointer}
   .cta:active{transform:translateY(1px)}
@@ -161,6 +162,11 @@
         <span class="chip" data-tag="장애인">장애인</span>
         <span class="chip" data-tag="저소득">저소득</span>
         <span class="chip" data-tag="무주택">무주택·자취</span>
+        <span class="grp-mini">직업 (해당 시)</span>
+        <span class="chip" data-tag="농어업인">농어업인</span>
+        <span class="chip" data-tag="예술인">예술인</span>
+        <span class="chip" data-tag="운수종사자">운수·화물</span>
+        <span class="chip" data-tag="제대군인">제대군인</span>
       </div>
     </div>
 
@@ -235,7 +241,7 @@ function dispCat(b){
 }
 
 /* ── 상황 자동 태깅 ── */
-const CHIP_TAGS = new Set(["구직중","재직중","학생","자영업·창업","1인가구","신혼","임신·출산","육아","다자녀","한부모","다문화","어르신","장애인","저소득","무주택"]);
+const CHIP_TAGS = new Set(["구직중","재직중","학생","자영업·창업","1인가구","신혼","임신·출산","육아","다자녀","한부모","다문화","어르신","장애인","저소득","무주택","농어업인","예술인","운수종사자","제대군인"]);
 const TAG_RULES = [
   ["구직중", /미취업|구직|실업|취업\s*준비|구직활동|취업\s*지원|일자리/],
   ["재직중", /재직|근로자|직장인|재직자|근속/],
@@ -252,6 +258,10 @@ const TAG_RULES = [
   ["장애인", /장애/],
   ["저소득", /기초생활|차상위|저소득|중위소득|기초수급|생계급여|긴급복지|기초연금/],
   ["무주택", /무주택|월세|전세|임차|주거급여|전월세|보증금|임대주택/],
+  ["농어업인", /농업인|농민|어업인|어민|귀농|귀어|축산|낙농|농가|어가|영농|영어조합|농어업|임업|원예|과수|화훼|양식|어선|수산|농지/],
+  ["예술인", /예술인|예술가|작가|창작자|문화예술인|공연예술|문화예술/],
+  ["운수종사자", /운수종사자|화물차주|화물자동차|택시운송|버스운송|개인택시|법인택시|운전종사자|운수업|택배기사|대리운전|화물운송/],
+  ["제대군인", /제대군인|전역\s*(군인|장병)|예비역|직업군인|부사관|장기복무/],
   ["__기업", /중소기업|중견기업|대기업|법인|기업육성|사업체|스타트업|벤처기업|제조업|수출기업|신용보증|보증재단|투자유치|R&D|연구개발|기업\s*부설|판로|경영안정자금/],
 ];
 function itemTags(b){
@@ -425,7 +435,7 @@ function isRareTarget(b){
   return RARE_RE.test(`${b.title||""} ${b.target||""} ${b.target_llm||""} ${b.summary||""} ${(b.need||[]).join(" ")}`);
 }
 // 신분 게이트: 이 자격을 '겨냥한' 공고는 사용자가 그 상황을 골라야만 노출(장애인·창업 등)
-const GATE_TAGS = ["학생","장애인","다문화","한부모","다자녀","임신·출산","자영업·창업"];
+const GATE_TAGS = ["학생","장애인","다문화","한부모","다자녀","임신·출산","자영업·창업","농어업인","예술인","운수종사자","제대군인"];
 function gatesOk(b){
   const tags = b._tags || itemTags(b);
   const blob = `${b.title||""} ${b.target||""} ${b.target_llm||""} ${b.summary||""} ${b.amount_label||""}`;
