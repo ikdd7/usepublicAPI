@@ -132,9 +132,9 @@
         <input id="age" type="range" min="0" max="100" value="27" />
       </div>
 
-      <!-- 성별 -->
-      <div class="field">
-        <div class="field-top"><span class="field-label">성별</span><span class="field-action" id="genderHint">무관</span></div>
+      <!-- 성별 (필수) -->
+      <div class="field" id="genderField">
+        <div class="field-top"><span class="field-label">성별</span><span class="field-action" id="genderHint">선택 필요</span></div>
         <div class="chips" id="genderChips" style="margin-top:12px">
           <span class="chip" data-gender="female">여성</span>
           <span class="chip" data-gender="male">남성</span>
@@ -548,7 +548,9 @@ document.getElementById("genderChips").addEventListener("click", e=>{
 });
 function renderGender(){
   document.querySelectorAll("#genderChips .chip").forEach(c=>c.classList.toggle("on", c.dataset.gender===gender));
-  document.getElementById("genderHint").textContent = gender==="female"?"여성":gender==="male"?"남성":"무관";
+  const hint = document.getElementById("genderHint");
+  if(gender==="all"){ hint.textContent="선택 필요"; hint.style.color="var(--hot)"; }
+  else { hint.textContent = gender==="female"?"여성":"남성"; hint.style.color=""; }
 }
 document.getElementById("regionToggle").addEventListener("click", ()=>{
   document.getElementById("regionPicker").classList.toggle("hidden");
@@ -558,7 +560,15 @@ document.getElementById("region").addEventListener("change", e=>{
   selRegion=e.target.value; updateRegionVal();
   document.getElementById("regionPicker").classList.add("hidden");
 });
-document.getElementById("openResult").addEventListener("click", ()=> showScreen("result"));
+document.getElementById("openResult").addEventListener("click", ()=>{
+  if(gender==="all"){   // 성별 필수
+    showToast("성별을 선택해 주세요");
+    document.getElementById("genderField").scrollIntoView({behavior:"smooth", block:"center"});
+    renderGender();
+    return;
+  }
+  showScreen("result");
+});
 document.getElementById("backToInput").addEventListener("click", ()=> showScreen("input"));
 document.getElementById("shareBtn").addEventListener("click", share);
 
@@ -571,11 +581,12 @@ function share(){
   }catch(e){}
   showToast();
 }
-function showToast(){
+function showToast(msg){
   let el = document.querySelector(".toast");
-  if(!el){ el=document.createElement("div"); el.className="toast"; el.textContent="공유 링크를 복사했어요 ✓"; document.querySelector(".phone").appendChild(el); }
+  if(!el){ el=document.createElement("div"); el.className="toast"; document.querySelector(".phone").appendChild(el); }
+  el.textContent = msg || "공유 링크를 복사했어요 ✓";
   clearTimeout(toastTimer);
-  toastTimer = setTimeout(()=>{ el.remove(); }, 1800);
+  toastTimer = setTimeout(()=>{ el.remove(); el=null; }, 1800);
 }
 
 /* ── 데이터 로드 ── */
