@@ -468,6 +468,7 @@ function matchedPrograms(){
     if(isRareTarget(b)) return false;        // 북한이탈·유공자 등 소수대상 제외
     if(!gatesOk(b)) return false;            // 장애인·창업 등 신분 게이트
     const tags = b._tags || itemTags(b);
+    if(tags.size===0) return true;            // 누구나 대상(상황 태그 없음) → 항상 포함(음식물처리기 등)
     for(const t of selected) if(tags.has(t)) return true;
     return false;
   });
