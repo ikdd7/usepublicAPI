@@ -3105,5 +3105,206 @@
     "summary": "결혼정착지원금 지원",
     "show": true,
     "special": false
+  },
+  "g24-502000000207": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "어선 등록자 대상 어선장비 최대 450만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000123": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 농업인 대상 친환경 농자재 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-521000000123": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "관내 거주 신혼부부 대상 결혼장려금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-538000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업인 대상 저온저장고 설치 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-545000000103": {
+    "category": "주거",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농·귀촌·귀향인 주택수리비 최대 700만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-548000000123": {
+    "category": "주거",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농인 주택 리모델링 최대 700만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-567000000108": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "창원시 청년 기술창업가 대상 수당 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-468000000357": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "청년",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "익산시 신혼부부·청년 전세보증금 대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004826": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 가구 집수리 최대 600만원 지원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002926": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "태안군 거주 신혼부부 대상 3년간 600만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000514": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 가구 집수리 최대 300만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-448000000673": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "단양군 귀농인 대상 정착장려금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000309": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "태안군 거주 신혼부부 대상 결혼장려금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-472000000111": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "완주군 거주 가정 대상 출산장려금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000112": {
+    "category": "주거",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "무주군 귀농·귀촌·귀향인 주택 수리비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "귀농·귀촌인 대상 육성 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "봉화군 농업인 대상 객토 장비대 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00102400008": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "김제시민 자녀 대상 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-480000000119": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "목포시 출산가정 대상 출산장려금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "무주군 귀농·귀향인 대상 영농 지원",
+    "show": true,
+    "special": false
   }
 }
