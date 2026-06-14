@@ -62,8 +62,13 @@
   .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
   .dcat{display:inline-block;font-size:11px;font-weight:700;color:#1f6bdf;background:#eaf1ff;border:1px solid #cfe0f7;border-radius:999px;padding:2px 9px;margin-bottom:7px}
   .ctitle{font-size:17.5px;font-weight:800;line-height:1.3;letter-spacing:-.3px;color:#0f1b30;margin:3px 0 7px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  .ctarget{font-size:12.5px;color:#3a4a63;margin-top:6px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .ctarget{font-size:12.5px;color:#3a4a63;margin-top:6px;line-height:1.45}
+  .ctarget.clamp{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .ctarget.more{cursor:pointer}
+  .ctarget.expanded{background:#eef5ff;border:1px solid #cfe2ff;border-radius:9px;padding:8px 10px;color:#22324a;margin-top:7px}
   .ctarget b{color:#1f6bdf;font-weight:700;font-size:11px;background:#eaf1ff;border-radius:5px;padding:1px 6px;margin-right:4px}
+  .morebtn{display:inline-block;cursor:pointer;color:#1f6bdf;font-weight:700;font-size:11.5px;margin-top:4px;user-select:none}
+  .morebtn:hover{text-decoration:underline}
   .csum{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   .cmeta{font-size:12px;color:var(--sub);margin-top:8px}
   .cmeta b{font-weight:700}
@@ -221,6 +226,14 @@ document.getElementById("topicChips").addEventListener("click", e=>{
   if(selTopics.has(t)){selTopics.delete(t);c.classList.remove("on");}
   else {selTopics.add(t);c.classList.add("on");}
   render();
+});
+// 잘린 '대상' 텍스트(또는 '전체 보기' 버튼) 클릭 → 펼치기/접기 토글
+document.getElementById("eligible").addEventListener("click", e=>{
+  const hit = e.target.closest(".ctarget.more, .morebtn"); if(!hit) return;
+  const card = hit.closest(".card"); if(!card) return;
+  const ct = card.querySelector(".ctarget"); const btn = card.querySelector(".morebtn");
+  const open = ct.classList.toggle("expanded"); ct.classList.toggle("clamp", !open);
+  if(btn) btn.textContent = open ? "접기 ⌃" : "전체 대상 보기 ⌄";
 });
 document.getElementById("showExpired").addEventListener("change", e=>{ showExpired = e.target.checked; render(); });
 document.getElementById("showAll").addEventListener("change", e=>{ showAll = e.target.checked; render(); });
@@ -583,12 +596,25 @@ function render(){
       <span class="dcat">${b.dcat}</span>
       <div class="ctitle">${tidyText(b.title, 52)}</div>
       <div class="amt">💰 ${ka || "금액 상세 확인"}</div>
-      <div class="ctarget">🎯 <b>대상</b> ${clip(targetLine(b), 130)}</div>
+      <div class="ctarget clamp">🎯 <b>대상</b> ${clip(targetLine(b), 200)}</div>
       ${one?`<div class="csum">${tidyText(one, 58)}</div>`:""}
       <div class="cmeta">📍 ${reg} · ⏱ <b class="${d===null||d>=0?'dopen':'dclose'}">${dlabel}</b></div>
       <a class="src" href="${b.source}" target="_blank">신청·자세히 →</a>
     </div>`;
   }).join("") || `<div class="prompt">선택한 조건에 해당하는 혜택이 없어요. 조건을 바꿔보세요.</div>`;
+  markExpandable();   // 잘린 '대상'에만 '전체 보기' 토글 부여
+}
+// 대상 텍스트가 3줄을 넘겨 잘린 카드에만 펼치기 버튼을 단다(렌더 후 측정)
+function markExpandable(){
+  (window.requestAnimationFrame||window.setTimeout)(()=>{
+    document.querySelectorAll("#eligible .ctarget.clamp").forEach(el=>{
+      const cut = el.scrollHeight > el.clientHeight + 2;
+      el.classList.toggle("more", cut);
+      const has = el.nextElementSibling && el.nextElementSibling.classList.contains("morebtn");
+      if(cut && !has){ const b=document.createElement("div"); b.className="morebtn"; b.textContent="전체 대상 보기 ⌄"; el.after(b); }
+      else if(!cut && has){ el.nextElementSibling.remove(); }
+    });
+  }, 0);
 }
 
 function share(){
