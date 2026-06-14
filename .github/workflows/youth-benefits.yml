@@ -8,10 +8,8 @@ on:
     paths:                          # index.html(프런트)은 deploy-frontend.yml가 빠르게 배포
       - "youth-benefits-demo/scraper/**"
       - ".github/workflows/youth-benefits.yml"
-  schedule:                        # KST = UTC+9
-    - cron: "0 21 * * *"          # 매일 06:00 KST
-    - cron: "0 1 * * *"           # 매일 10:00 KST
-    - cron: "0 5 * * *"           # 매일 14:00 KST
+  schedule:                        # 매시간 수집(게시판은 캐시로 6시간마다만 실제 접속)
+    - cron: "0 * * * *"           # 매시간 정각(UTC)
 
 permissions:
   contents: write
@@ -48,12 +46,12 @@ jobs:
             node scraper/fetch_sources.mjs || echo "::warning::API 수집 실패 → 시드로 폴백"
           fi
           echo "---- data dir ----"; ls -la data/
-      - name: LLM 분류 캐시 커밋(신규 분류분 영구 저장)
+      - name: 캐시 커밋(LLM 분류 + 게시판 후보)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add youth-benefits-demo/data/llm_cache.json 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "data: LLM 분류 캐시 갱신 [skip ci]"
+          git add youth-benefits-demo/data/llm_cache.json youth-benefits-demo/data/boards_cache.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "data: 분류·게시판 캐시 갱신 [skip ci]"
           git push || true
       - name: 배포 전 node_modules 제거(빌드 전용 — 사이트에 안 올림)
         run: rm -rf youth-benefits-demo/node_modules

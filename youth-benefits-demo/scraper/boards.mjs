@@ -124,7 +124,20 @@ function textOf(html) {
 }
 
 /* ---------- 1단계: 지자체별 후보 글 수집 (서버렌더 .asp 게시판 직접) ---------- */
+// 매시간 수집 시 게시판/프록시를 매번 때리지 않도록 캐시(기본 6시간) 재사용.
+const BOARDS_CACHE = join(__dir, "..", "data", "boards_cache.json");
+const BOARDS_CACHE_H = Number(process.env.BOARDS_CACHE_H || 6);
 async function harvestCandidates({ dump = false } = {}) {
+  if (!dump && existsSync(BOARDS_CACHE)) {
+    try {
+      const c = JSON.parse(readFileSync(BOARDS_CACHE, "utf-8"));
+      const ageH = (Date.now() - new Date(c.fetched_at).getTime()) / 3.6e6;
+      if (ageH < BOARDS_CACHE_H && Array.isArray(c.candidates) && c.candidates.length) {
+        console.log(`  [E:캐시 재사용] 후보 ${c.candidates.length}건 (수집 ${ageH.toFixed(1)}h 전 < ${BOARDS_CACHE_H}h) — 프록시/게시판 미접속`);
+        return c.candidates;
+      }
+    } catch {}
+  }
   const candidates = [];
   for (const { region, boards } of mergedRegistry()) {
     for (const b of boards) {
@@ -143,6 +156,9 @@ async function harvestCandidates({ dump = false } = {}) {
       uniq.forEach((u) => candidates.push({ region, title: u.text, url: u.href, onclick: u.onclick, board: b }));
       console.log(`  · ${region} ${b.split("/").pop()}: 앵커 ${all.length} → 지원후보 ${uniq.length}`);
     }
+  }
+  if (!dump && candidates.length) {
+    try { writeFileSync(BOARDS_CACHE, JSON.stringify({ fetched_at: new Date().toISOString(), candidates }, null, 2)); } catch {}
   }
   return candidates;
 }
