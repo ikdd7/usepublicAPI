@@ -44,12 +44,12 @@
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px;margin-bottom:10px;position:relative;overflow:hidden;box-shadow:0 1px 8px rgba(22,36,63,.06)}
   .card.elig{border-color:#a7e3cf}
   .card.elig:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent2)}
-  /* 받을 수 있어요: 좁은 본문(480px)을 벗어나 넓게, 최대 3칸, 가운데 정렬(적으면 가운데로) */
+  /* 받을 수 있어요: 좁은 본문(480px)을 벗어나 넓게. 한 줄에 최대 3칸(부족하면 가운데 정렬) */
   #eligible{display:grid;grid-template-columns:1fr;gap:12px;align-items:stretch}
   #eligible .card{margin-bottom:0;height:100%}
   @media(min-width:720px){
-    #eligible{position:relative;left:50%;transform:translateX(-50%);width:96vw;max-width:1200px;
-      grid-template-columns:repeat(auto-fit,minmax(300px,420px));justify-content:center}
+    #eligible{position:relative;left:50%;transform:translateX(-50%);width:96vw;max-width:1280px;
+      grid-template-columns:repeat(var(--cols,3),minmax(220px,400px));justify-content:center}
   }
   .card.locked{opacity:.6}
   .ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
@@ -409,6 +409,7 @@ function render(){
   document.getElementById("total").textContent = total>0 ? "최대 "+won(total) : "0원";
   document.getElementById("cnt").textContent = "해당 혜택 "+elig.length+"건 · "+selRegion;
   document.getElementById("eligcnt").textContent = elig.length+"건";
+  document.getElementById("eligible").style.setProperty("--cols", Math.min(3, Math.max(1, elig.length)));
 
   document.getElementById("eligible").innerHTML = elig.map(b=>{
     const d = b.apply_end ? dday(b.apply_end) : null;
