@@ -86,6 +86,20 @@ export function parseAgeRange(text = "") {
   return [0, 120]; // 전연령
 }
 
+// 신청기한 텍스트 → 마감일(YYYY-MM-DD). 범위면 끝일, 연도없는 끝(~M.D)은 시작연도 사용.
+export function parseDeadline(text = "") {
+  if (!text) return null;
+  const t = String(text).replace(/\s/g, "");
+  if (!/20\d{2}/.test(t)) return null;                          // 연도 없으면 상시/수시로 간주
+  const fulls = [...t.matchAll(/(20\d{2})[.\-\/년]?(\d{1,2})[.\-\/월]?(\d{1,2})/g)];
+  if (!fulls.length) return null;
+  let [, y, mo, d] = fulls[fulls.length - 1];
+  const tail = t.match(/[~∼\-–](\d{1,2})[.\-\/월](\d{1,2})\.?$/) || t.match(/[~∼\-–](\d{1,2})[.\-\/월](\d{1,2})(?!\d)/);
+  if (tail && !/20\d{2}$/.test(t.split(/[~∼\-–]/).pop() || "")) { mo = tail[1]; d = tail[2]; }
+  mo = +mo; d = +d;
+  if (mo < 1 || mo > 12 || d < 1 || d > 31) return null;
+  return `${y}-${String(mo).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+}
 export function xmlList(xml, itemTag) {
   const items = [];
   const re = new RegExp(`<${itemTag}>([\\s\\S]*?)</${itemTag}>`, "g");
@@ -286,7 +300,7 @@ export function mapGov24(it, region) {
     target: clip(`${it["지원대상"] || ""}`.replace(/[\(（][^)）]*[\)）]/g, " "), 110),  // 공식 지원대상 원문
     need: needFromText(`${it["서비스명"]} ${it["지원대상"]} ${it["선정기준"] || ""} ${sprt}`),
     support_type: supportTypeOf(sprt, it["지원유형"] || ""),
-    apply_end: null,
+    apply_end: parseDeadline(it["신청기한"] || it["신청기간"] || ""),   // 마감 지난 공고 필터용
     how: clip(it["신청방법"], 50) || "정부24 확인",
     contact: clip(`${it["소관기관명"] || ""} ${it["부서명"] || ""}`, 30),
     source: it["상세조회URL"] || `https://www.gov.kr/portal/rcvfvrSvc/dtlEx/${it["서비스ID"] || ""}`,
@@ -602,6 +616,11 @@ function selftest() {
     ["복지로 대상특성→태그(다문화)", (()=>{ const x=mapBokjiro("복지로(중앙)",{servNm:"x",servDgst:"y",trgterIndvdlNmArray:"다문화·탈북민"},"전국"); return x.need.includes("다문화"); })()],
     ["gov24 region", g.region === "인천광역시 연수구"],
     ["gov24 amount 10만", g.amount === 100000],
+    ["마감 범위 '2026. 3. 3. ~ 3. 18.'", parseDeadline("2026. 3. 3. ~ 3. 18.") === "2026-03-18"],
+    ["마감 단일 '2026-03-18'", parseDeadline("2026-03-18") === "2026-03-18"],
+    ["마감 풀범위 '2026.3.3~2026.3.18'", parseDeadline("2026.3.3~2026.3.18") === "2026-03-18"],
+    ["마감 상시=null", parseDeadline("상시 신청 (예산 소진 시까지)") === null],
+    ["gov24 마감 반영", mapGov24({ "서비스명": "x", "지원내용": "y", "신청기한": "2026. 3. 3. ~ 3. 18.", "소관기관명": "인천광역시 연수구" }, "인천광역시 연수구").apply_end === "2026-03-18"],
     ["regionOfOrg 군구", regionOfOrg("인천광역시 연수구청") === "인천광역시 연수구"],
     ["regionOfOrg 시", regionOfOrg("인천광역시") === "인천광역시"],
     ["regionOfOrg 중앙", regionOfOrg("보건복지부") === "전국"],
