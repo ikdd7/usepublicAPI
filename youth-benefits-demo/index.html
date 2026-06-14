@@ -400,7 +400,8 @@ function clip(s,n){ return s ? `${s}`.replace(/\s+/g," ").trim().slice(0,n) : ""
 function realAmount(b){
   const st = b.support_type || "";
   if(!/현금|현물|바우처/.test(st)) return 0;
-  if((b._tags||[]).includes("__기업")) return 0;
+  const tg = b._tags;                                   // _tags는 Set(없으면 빈 배열)
+  if(tg && (tg.has ? tg.has("__기업") : tg.includes("__기업"))) return 0;
   const a = b.amount || 0;
   return (a > 0 && a < 100000000) ? a : 0;   // 1억 이상은 대출한도 등으로 보고 합산 제외
 }
