@@ -219,12 +219,19 @@ let toastTimer = null;
 
 /* ── 카테고리 색상·순서 ── */
 const CAT_COLORS = {
-  "주거":"#16B877","일자리":"#2B6FFF","금융":"#7C5CFF","교육":"#FF7A1A","문화":"#E8590C",
+  "주거":"#16B877","일자리":"#2B6FFF","창업·소상공인":"#F76707","금융":"#7C5CFF","교육":"#FF7A1A","문화":"#E8590C",
   "환경·생활":"#11B5A6","건강":"#0CA678","복지":"#8A8578","육아":"#F0568B","농업":"#74B816",
   "구청공고":"#868E96","기타":"#A8A296"
 };
-const CAT_ORDER = ["주거","일자리","금융","교육","문화","환경·생활","건강","육아","복지","농업","구청공고","기타"];
+const CAT_ORDER = ["주거","일자리","창업·소상공인","금융","교육","문화","환경·생활","건강","육아","복지","농업","구청공고","기타"];
 const catColor = (c)=> CAT_COLORS[c] || "#A8A296";
+// 창업·소상공인은 일자리에서 분리해 별도 그룹으로
+function dispCat(b){
+  const tags = b._tags || itemTags(b);
+  const t = `${b.title||""} ${b.summary||""} ${b.amount_label||""}`;
+  if(tags.has("자영업·창업") || /창업|소상공인|소공인|전통시장|점포|자영업/.test(t)) return "창업·소상공인";
+  return b.category || "기타";
+}
 
 /* ── 상황 자동 태깅 ── */
 const CHIP_TAGS = new Set(["구직중","재직중","학생","자영업·창업","1인가구","신혼","임신·출산","육아","다자녀","한부모","다문화","어르신","장애인","저소득","무주택"]);
@@ -286,6 +293,19 @@ function keyAmount(b){
   const al = (b.amount_label||"").trim();
   if(al && al.length<=16 && /[\d원%]/.test(al)) return al;   // 짧고 금액성일 때만 노출(긴 설명 누수 방지)
   return /현물|서비스/.test(b.support_type||"") ? "현물·서비스 지원" : "지원 내용 확인";
+}
+function clip(s,n){ return s ? `${s}`.replace(/\s+/g," ").trim().slice(0,n) : ""; }
+function tidyDesc(t){ return `${t||""}`.replace(/[\(（][^)）]*[\)）]/g," ").replace(/\s*[*※].*$/,"").replace(/\s+/g," ").trim(); }
+// 카드 부제: 이름만으론 모를 공고를 위해 '설명'을 우선(요약/목적) + 금액
+function rowSub(b){
+  const ka = keyAmount(b);
+  const money = (ka && !/확인|지원\s*내용/.test(ka)) ? ka : "";
+  let desc = (b.summary && b.summary.replace(/\s/g,"").length>=6) ? b.summary : "";
+  if(!desc){ const al=(b.amount_label||"").trim(); if(al.length>=10 && !/^(상세|참조)/.test(al)) desc=al; }
+  let s = desc ? clip(tidyDesc(desc),44) : (b.support_type||"지원");
+  if(money) s += " · "+money;
+  if(isLoan(b)) s += " · 합계 제외";
+  return s;
 }
 function isLoan(b){ return /대출/.test(b.support_type||"") || (b._tags && b._tags.has && b._tags.has("__기업")); }
 function realAmount(b){
@@ -395,6 +415,24 @@ function programGender(b){
   return "all";
 }
 function genderOk(b, g){ if(g==="all") return true; const pg=programGender(b); return pg==="all" || pg===g; }
+// 소수 특수대상(칩 없음) — 기본 제외
+const RARE_RE = /북한이탈|탈북|새터민|국가유공|보훈|참전|상이군경|고엽제|보호\s*종료|자립\s*준비|아동복지시설|소년소녀가장|범죄피해|보호관찰|노숙인?|갱생|출소/;
+function isRareTarget(b){
+  return RARE_RE.test(`${b.title||""} ${b.target||""} ${b.target_llm||""} ${b.summary||""} ${(b.need||[]).join(" ")}`);
+}
+// 신분 게이트: 이 자격을 '겨냥한' 공고는 사용자가 그 상황을 골라야만 노출(장애인·창업 등)
+const GATE_TAGS = ["장애인","다문화","한부모","다자녀","임신·출산","자영업·창업"];
+function gatesOk(b){
+  const tags = b._tags || itemTags(b);
+  const blob = `${b.title||""} ${b.target||""} ${b.target_llm||""} ${b.summary||""} ${b.amount_label||""}`;
+  for(const g of GATE_TAGS){
+    if(!tags.has(g) || selected.has(g)) continue;
+    // 장애인 '자녀·가족'을 돌보는(보호자) 대상이면 본인 장애가 아니므로 게이트 제외
+    if(g==="장애인" && /장애[인아동]?\s*(자녀|아동|가족|부모|아이)|(자녀|아동|가족|자녀를)\D{0,6}장애/.test(blob)) continue;
+    return false;
+  }
+  return true;
+}
 function matchedPrograms(){
   const age = currentAge();
   if(selected.size===0) return [];
@@ -403,6 +441,8 @@ function matchedPrograms(){
     if(b.expired || b.special) return false;
     if(!ageOk(b, age)) return false;
     if(!genderOk(b, gender)) return false;
+    if(isRareTarget(b)) return false;        // 북한이탈·유공자 등 소수대상 제외
+    if(!gatesOk(b)) return false;            // 장애인·창업 등 신분 게이트
     const tags = b._tags || itemTags(b);
     for(const t of selected) if(tags.has(t)) return true;
     return false;
@@ -438,10 +478,10 @@ function renderResult(){
   document.getElementById("matchedCount").textContent = matched.length;
   document.getElementById("loanCount").textContent = loanCount;
 
-  const cats = [...CAT_ORDER, ...[...new Set(matched.map(b=>b.category))].filter(c=>!CAT_ORDER.includes(c))];
+  const cats = [...CAT_ORDER, ...[...new Set(matched.map(dispCat))].filter(c=>!CAT_ORDER.includes(c))];
   let html = "";
   for(const cat of cats){
-    const items = matched.filter(b=>b.category===cat)
+    const items = matched.filter(b=>dispCat(b)===cat)
       .sort((a,b)=>{
         const sa=sortScore(a), sb=sortScore(b); if(sa!==sb) return sa-sb;
         const da=a.apply_end?dday(a.apply_end):9999, db=b.apply_end?dday(b.apply_end):9999;
@@ -457,7 +497,7 @@ function renderResult(){
         const d = p.apply_end ? dday(p.apply_end) : null;
         const hot = d!=null && d<=30;
         const badge = d==null ? "상시" : (d>=0 ? "D-"+d : "마감");
-        const sub = `${p.support_type} · ${keyAmount(p)}` + (isLoan(p)?" · 합계 제외":"");
+        const sub = rowSub(p);
         return `<a class="prow" href="${p.source}" target="_blank" rel="noopener">
           <div class="body"><div class="name">${esc(p.title)}</div><div class="sub">${esc(sub)}</div></div>
           <span class="badge ${hot?'hot':'normal'}">${badge}</span>
