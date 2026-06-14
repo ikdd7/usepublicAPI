@@ -309,9 +309,7 @@ function rowTitle(b){ return esc(tidyTitle(b.title)); }
 // 부제: 제목으로 이해되는 건 금액만(긴 자격설명 생략)
 function rowSub(b){
   const ka = keyAmount(b);
-  let s = (ka && /[\d%]/.test(ka)) ? ka : "";   // 실제 숫자 금액이 있을 때만(군더더기 방지)
-  if(isLoan(b)) s += (s?" · ":"") + "대출 · 합계 제외";
-  return s;
+  return (ka && /[\d%]/.test(ka)) ? ka : "";   // 금액만(군더더기·합계제외 문구 없음)
 }
 function isLoan(b){ return /대출/.test(b.support_type||"") || (b._tags && b._tags.has && b._tags.has("__기업")); }
 function realAmount(b){
@@ -422,7 +420,7 @@ function programGender(b){
 }
 function genderOk(b, g){ if(g==="all") return true; const pg=programGender(b); return pg==="all" || pg===g; }
 // 소수 특수대상(칩 없음) — 기본 제외
-const RARE_RE = /북한이탈|탈북|새터민|국가유공|보훈|참전|상이군경|고엽제|보호\s*종료|자립\s*준비|아동복지시설|소년소녀가장|범죄피해|보호관찰|노숙인?|갱생|출소/;
+const RARE_RE = /북한이탈|탈북|새터민|국가유공|보훈|참전|상이군경|고엽제|보호\s*종료|자립\s*준비|아동복지시설|소년소녀가장|범죄피해|보호관찰|노숙인?|갱생|출소|사할린|영주귀국|영주\s*귀국|고려인|재외동포|동포|이주노동/;
 function isRareTarget(b){
   return RARE_RE.test(`${b.title||""} ${b.target||""} ${b.target_llm||""} ${b.summary||""} ${(b.need||[]).join(" ")}`);
 }
