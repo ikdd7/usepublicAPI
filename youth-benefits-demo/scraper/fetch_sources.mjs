@@ -10,6 +10,7 @@
  * 키: DATA_GO_KR_KEY(공공데이터), YOUTH_API_KEY(온통청년·선택), ANTHROPIC_API_KEY(LLM·선택)
  * 실행:      DATA_GO_KR_KEY=.. node scraper/fetch_sources.mjs
  * 셀프테스트: node scraper/fetch_sources.mjs --selftest
+ * 수동 재수집 트리거: 2026-06-14 (인천 연수구 자료 갱신 요청)
  */
 import { writeFileSync, readFileSync, existsSync } from "node:fs";
 import { fileURLToPath, pathToFileURL } from "node:url";
