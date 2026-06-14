@@ -117,7 +117,7 @@ async function srcBokjiroLocal(key) {
       try {
         const u = `${base}?serviceKey=${encodeURIComponent(key)}&pageNo=${page}&numOfRows=100${extra}`;
         const xml = await getText(u);
-        if (!sampled) { console.log("  [A:원시샘플]", clip(xml, 400)); sampled = true; }
+        if (!sampled) { console.log("  [A:원시샘플]", clip(xml, 1100)); sampled = true; }   // 생애주기/대상특성 필드명 확인용
         const items = xmlList(xml, "servList");
         if (!items.length) break;
         got.push(...items);
@@ -198,9 +198,34 @@ async function srcBokjiroCentral(key) {
   return all.slice(0, 60).map((p) => mapBokjiro("복지로(중앙)", p, NATIONWIDE));
 }
 
+// 복지로 생애주기(lifeNmArray) → 정확한 나이범위. 복지로 사이트와 동일한 기준.
+const LIFE_AGE = { "영유아":[0,5], "아동":[6,12], "청소년":[13,18], "청년":[19,39], "중장년":[40,64], "노년":[65,120] };
+export function ageFromLife(life){
+  const t = `${life || ""}`; let lo = null, hi = null;
+  for (const k of Object.keys(LIFE_AGE)) {
+    if (t.includes(k)) { const [a, b] = LIFE_AGE[k]; lo = lo === null ? a : Math.min(lo, a); hi = hi === null ? b : Math.max(hi, b); }
+  }
+  return [lo, hi];
+}
+// 복지로 대상특성/가구(trgterIndvdlNmArray) → 우리 상황 태그(텍스트 추정 대신 공식 코드)
+export function tagsFromTrg(trg){
+  const t = `${trg || ""}`, s = new Set();
+  if (/다문화|탈북|북한이탈/.test(t)) s.add("다문화");
+  if (/장애/.test(t)) s.add("장애인");
+  if (/한부모|조손/.test(t)) s.add("한부모");
+  if (/저소득/.test(t)) s.add("저소득");
+  if (/다자녀/.test(t)) s.add("다자녀");
+  if (/1인\s*가구|독거/.test(t)) s.add("1인가구");
+  if (/임신|출산|임산부/.test(t)) s.add("임신·출산");
+  return [...s];
+}
 export function mapBokjiro(srcName, p, region) {
   const blob = `${p.servNm || ""} ${p.servDgst || ""} ${p.aplyMtdNm || ""}`;
-  const [age_min, age_max] = parseAgeRange(blob);
+  const life = p.lifeNmArray || p.lifeArray || "";
+  const trg = p.trgterIndvdlNmArray || p.trgterIndvdlArray || "";
+  let [age_min, age_max] = ageFromLife(life);                 // ① 생애주기(공식) 우선
+  if (age_min === null) [age_min, age_max] = parseAgeRange(blob);  // ② 없으면 텍스트 추정
+  const need = [...new Set([...needFromText(blob), ...tagsFromTrg(trg)])];   // 텍스트 + 공식 대상특성
   return {
     id: `bj-${p.servId || Math.random().toString(36).slice(2, 8)}`,
     title: clip(p.servNm, 60) || "이름 없음",
@@ -209,7 +234,8 @@ export function mapBokjiro(srcName, p, region) {
     amount: parseAmount(p.servDgst || ""),
     amount_label: clip(p.servDgst, 80) || "상세 참조",
     age_min, age_max,
-    need: needFromText(blob),
+    need,
+    target: clip([life, trg].filter(Boolean).join(" · "), 60),  // 공식 생애주기·대상특성을 '대상'으로
     support_type: supportTypeOf(blob, p.srvPvsnNm || ""),
     apply_end: null,
     how: clip(p.aplyMtdNm, 50) || "복지로/주민센터 문의",
@@ -570,6 +596,9 @@ function selftest() {
     ["복지로 region", a.region === "인천광역시 연수구"],
     ["복지로 amount 20만", a.amount === 200000],
     ["복지로 need 무주택", a.need.includes("무주택")],
+    ["복지로 생애주기→나이(노년 65+)", (()=>{ const x=mapBokjiro("복지로(중앙)",{servNm:"고독사 예방",servDgst:"독거 어르신 지원",lifeNmArray:"노년",trgterIndvdlNmArray:"저소득"},"인천광역시 남동구"); return x.age_min===65 && x.age_max===120 && x.need.includes("저소득"); })()],
+    ["복지로 생애주기 다중(청년·중장년→19-64)", (()=>{ const x=mapBokjiro("복지로(중앙)",{servNm:"x",servDgst:"y",lifeNmArray:"청년,중장년"},"전국"); return x.age_min===19 && x.age_max===64; })()],
+    ["복지로 대상특성→태그(다문화)", (()=>{ const x=mapBokjiro("복지로(중앙)",{servNm:"x",servDgst:"y",trgterIndvdlNmArray:"다문화·탈북민"},"전국"); return x.need.includes("다문화"); })()],
     ["gov24 region", g.region === "인천광역시 연수구"],
     ["gov24 amount 10만", g.amount === 100000],
     ["regionOfOrg 군구", regionOfOrg("인천광역시 연수구청") === "인천광역시 연수구"],
