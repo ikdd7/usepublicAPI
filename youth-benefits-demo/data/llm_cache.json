@@ -65,11 +65,11 @@
   },
   "g24-O00091900001": {
     "category": "교육",
-    "tags": [
-      "학생"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "인천 서구 거주 학생 대상 학업우수 장학금 지급",
+    "summary": "서동이장학회 장학금 지원",
+    "target": "인천 서구 3년 이상 거주 재학생",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2208,21 +2208,21 @@
   },
   "g24-496000000116": {
     "category": "육아",
-    "tags": [
-      "임신·출산"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "신생아 양육지원금 지원 (첫째 300만원, 둘째 500만원)",
+    "summary": "신생아 양육지원금 지원",
+    "target": "부 또는 모가 관내 주민등록 거주 가정",
+    "amount": "첫째 300만원, 둘째 500만원",
     "show": true,
     "special": false
   },
   "g24-506000000104": {
     "category": "농업",
-    "tags": [
-      "농어업인"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "축사 단열처리 지원",
+    "summary": "축사 단열처리 비용 지원",
+    "target": "관내 낙농, 양계 및 양돈농가",
+    "amount": "1,000만원/개소",
     "show": true,
     "special": false
   },
@@ -2238,21 +2238,21 @@
   },
   "g24-518000000102": {
     "category": "농업",
-    "tags": [
-      "농어업인"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "영덕군 유류절감형 어선 부력판 설치 지원",
+    "summary": "유류절감형 어선 부력판 설치 지원",
+    "target": "영덕군 등록 10톤 미만 연안어선 소유자",
+    "amount": "3톤 미만 600만원, 3~7톤 미만 800만원",
     "show": true,
     "special": false
   },
   "g24-519000000132": {
     "category": "농업",
-    "tags": [
-      "농어업인"
-    ],
+    "tags": [],
     "support_type": "현금",
     "summary": "사료작물 수확장비 지원",
+    "target": "조사료 생산·이용 참여 경영체, 법인, 농협, 농가",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2263,24 +2263,28 @@
     ],
     "support_type": "현금",
     "summary": "장애인거주시설 퇴소자 정착금 지원",
+    "target": "1년 이상 거주 후 자립 퇴소하는 장애인",
+    "amount": "1,000만원",
     "show": true,
     "special": true
   },
   "g24-537000000189": {
-    "category": "복지",
+    "category": "농업",
     "tags": [],
     "support_type": "현금",
-    "summary": "거제시 야생동물 피해보상 지원",
+    "summary": "야생동물로 인한 피해보상 지원",
+    "target": "인명·농작물 피해 입은 거제시민",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-540000000115": {
     "category": "육아",
-    "tags": [
-      "임신·출산"
-    ],
+    "tags": [],
     "support_type": "현금",
     "summary": "출산지원금 지급",
+    "target": "군 내 6개월 이상 거주 후 출생신고한 가정",
+    "amount": "첫째아이 100만원",
     "show": true,
     "special": false
   },
@@ -2288,17 +2292,19 @@
     "category": "주거",
     "tags": [],
     "support_type": "현금",
-    "summary": "슬레이트 처리 및 지붕개량 지원사업",
+    "summary": "슬레이트 처리 지원사업",
+    "target": "주택·비주택 슬레이트 철거 및 지붕개량 희망자",
+    "amount": "최대 700만원",
     "show": true,
     "special": false
   },
   "g24-546000000110": {
     "category": "육아",
-    "tags": [
-      "임신·출산"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "함양군 출산장려금 및 셋째아 건강보험료 지원",
+    "summary": "출산장려금 및 셋째아 이상 건강보험료 지원",
+    "target": "부모 모두 6개월 이상 함양군 거주 출산가정",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2307,6 +2313,8 @@
     "tags": [],
     "support_type": "현금",
     "summary": "축산물 판매업소 위생시설 개선 지원",
+    "target": "관내 식육즉석판매가공업, 식육판매업",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2315,6 +2323,8 @@
     "tags": [],
     "support_type": "현금",
     "summary": "합천군 인구증가 인센티브 지원",
+    "target": "타시군구 거주 후 전입자, 국적 취득자",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2343,16 +2353,18 @@
     "tags": [],
     "support_type": "현금",
     "summary": "시설퇴소아동 등 자립지원",
+    "target": "만18세 이후 보호종료된 자립준비청년",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-501000000106": {
     "category": "육아",
-    "tags": [
-      "임신·출산"
-    ],
+    "tags": [],
     "support_type": "현금",
     "summary": "출산 장려금 지원",
+    "target": "출생신고일 기준 군에 계속 거주하는 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2431,16 +2443,20 @@
   "g24-374000000115": {
     "category": "복지",
     "tags": [],
-    "support_type": "서비스",
+    "support_type": "현금",
     "summary": "미혼모가족복지시설 퇴소자 자립 지원",
+    "target": "미혼모자가족복지시설 1년 6개월이상 입소 세대",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-390000000434": {
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "광명시 시민생활안전보험 (상해 사망 시 1,500만원)",
+    "summary": "광명시 시민생활안전보험 사고 사망 시 1500만원 지원",
+    "target": "광명시 주민등록 모든 시민(등록 외국인 포함)",
+    "amount": "1500만원",
     "show": true,
     "special": true
   },
@@ -2448,9 +2464,11 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "경기도 퇴소 및 보호종결아동 자립정착금 지원",
+    "summary": "보호종결아동 자립정착금 지원",
+    "target": "만 18세 이후 보호 종료된 아동복지시설 및 가정위탁 보호종료아동",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-392000000165": {
     "category": "복지",
@@ -2472,17 +2490,21 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "철원군민안전보험 (재해·사고 사망 시 2,000만원)",
+    "summary": "철원군민안전보험 사고 사망 시 2000만원 지원",
+    "target": "철원군 주민등록 모든 주민(외국인 포함)",
+    "amount": "2000만원",
     "show": true,
     "special": true
   },
   "g24-467000000114": {
     "category": "복지",
     "tags": [
-      "임신·출산"
+      "신혼"
     ],
     "support_type": "현금",
-    "summary": "군산시 출산지원금 지급 (첫째아 100만원)",
+    "summary": "군산시 출산지원금 첫째아 100만원, 둘째아 200만원 지원",
+    "target": "출생일 기준 1년 이상 군산시 거주 신생아",
+    "amount": "최대 200만원",
     "show": true,
     "special": false
   },
@@ -2501,8 +2523,10 @@
     "tags": [],
     "support_type": "현금",
     "summary": "퇴소아동 자립정착금 지원",
+    "target": "만 18세 이후 아동복지시설 퇴소 및 가정위탁 종료 아동",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-537000001446": {
     "category": "복지",
@@ -2516,7 +2540,9 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "함양군 군민안전보험 (사고 사망 시 2,000만원)",
+    "summary": "함양군 군민안전보험 사고 사망 시 2천만원 지원",
+    "target": "함양군 주민등록 모든 군민(등록 외국인 포함)",
+    "amount": "2천만원",
     "show": true,
     "special": true
   },
@@ -2696,11 +2722,11 @@
   },
   "g24-554000000110": {
     "category": "복지",
-    "tags": [
-      "1인가구"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "만18세 이후 아동복지시설 퇴소 자립준비청년 자립정착금 지원",
+    "summary": "퇴소아동 자립정착금 지원",
+    "target": "만18세 이후 아동복지시설 퇴소 및 가정위탁 보호 종료 자립준비청년",
+    "amount": "",
     "show": true,
     "special": true
   },
@@ -2710,7 +2736,9 @@
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "고흥군 출산장려금 지원: 첫째, 둘째, 셋째아 1,080만원",
+    "summary": "고흥군 출산장려금 첫째 1080만원, 넷째 1440만원 지원",
+    "target": "출산일 현재 고흥군 주소 등록 가정",
+    "amount": "최대 1440만원",
     "show": true,
     "special": false
   },
@@ -2720,15 +2748,21 @@
       "학생"
     ],
     "support_type": "현금",
-    "summary": "달서구 거주 초중고·대학생 특기 장학금 지원",
+    "summary": "달서구 특기 장학금 지원",
+    "target": "달서구 거주 구민 또는 자녀, 초중고·대학 재학 학생",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-491000000280": {
     "category": "주거",
-    "tags": [],
+    "tags": [
+      "무주택"
+    ],
     "support_type": "현금",
-    "summary": "타 시군구 1년 이상 거주 후 전입세대 주거비 지원",
+    "summary": "전입세대 희망 주거비 지원",
+    "target": "타 시군구 1년 이상 거주 후 전입 세대",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2738,7 +2772,9 @@
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "출생아 기준 6개월 이상 거주자 출산장려금 지원",
+    "summary": "출산장려금 첫째아 290만원 지원",
+    "target": "출생일 기준 6개월 이상 군내 거주 출생아 부모",
+    "amount": "290만원",
     "show": true,
     "special": false
   },
@@ -2748,7 +2784,9 @@
       "학생"
     ],
     "support_type": "현금",
-    "summary": "달서구 거주 고등학생 희망 장학금 지원",
+    "summary": "달서구 희망 장학금 지원",
+    "target": "달서구 거주 구민 또는 자녀, 고등학교 재학 학생",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2759,6 +2797,8 @@
     ],
     "support_type": "현금",
     "summary": "경산시 출산축하금 및 출산장려금 지원",
+    "target": "출산축하금/장려금 신청 시까지 경산시 거주 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2769,6 +2809,8 @@
     ],
     "support_type": "현금",
     "summary": "고령군 출산장려금 지원",
+    "target": "출생신고 및 신청일 기준 3개월 이상 고령군 거주 출생아 부모",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2778,7 +2820,9 @@
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "울진군 5세 미만 영유아 출산장려 지원",
+    "summary": "울진군 출산장려 지원",
+    "target": "울진군 거주 5세 미만 영유아",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2788,7 +2832,9 @@
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "화순군 출산양육지원금 지원: 첫째, 둘째 230만원",
+    "summary": "화순군 출산양육지원금 첫째/둘째 230만원, 셋째 690만원 지원",
+    "target": "출생일 기준 화순군 거주 출생아 가정",
+    "amount": "최대 690만원",
     "show": true,
     "special": false
   },
@@ -2799,6 +2845,8 @@
     ],
     "support_type": "현금",
     "summary": "포항시 출산장려금 지원",
+    "target": "출생/전입일 당시 포항시 주민등록 보호자",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2807,8 +2855,10 @@
     "tags": [
       "농어업인"
     ],
-    "support_type": "현물",
-    "summary": "농업인 대상 중소형 농업기계 최대 1,100만원 지원",
+    "support_type": "현금",
+    "summary": "중소형농업기계 최대 1,100만원 지원",
+    "target": "관내 주소지 농업경영체 등록 농업인",
+    "amount": "최대 1,100만원",
     "show": true,
     "special": false
   },
@@ -3263,24 +3313,24 @@
     "special": false
   },
   "g24-515000000168": {
-    "category": "금융",
+    "category": "일자리",
     "tags": [
-      "재직중",
       "청년"
     ],
     "support_type": "현금",
-    "summary": "청년근로자 2년 만기 예금 960만원+이자 지원",
+    "summary": "청년근로자 자산형성 지원",
+    "target": "관내 중소기업 3개월 이상 근무 청년",
+    "amount": "480만원(2년 만기)",
     "show": true,
     "special": false
   },
   "g24-477000000110": {
-    "category": "복지",
-    "tags": [
-      "임신·출산",
-      "육아"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산축하금 및 양육비 지원 (첫째아 60만원/240만원)",
+    "summary": "출산축하금 및 양육비 지원",
+    "target": "순창군 거주 출산가정",
+    "amount": "첫째아 60만원+240만원",
     "show": true,
     "special": false
   },
@@ -3288,37 +3338,39 @@
     "category": "금융",
     "tags": [],
     "support_type": "현금",
-    "summary": "공주사랑상품권 10% 캐시백 지원",
+    "summary": "지역화폐(공주사랑상품권) 10% 캐시백",
+    "target": "공주페이 사용자",
+    "amount": "결제금액의 10%",
     "show": true,
     "special": false
   },
   "g24-401000000113": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "출생신고 가정 출생축하금 지원",
+    "summary": "출생축하금 지원",
+    "target": "시흥시 180일 이상 거주 출산가정",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-427000000239": {
-    "category": "금융",
-    "tags": [
-      "자영업·창업"
-    ],
+    "category": "복지",
+    "tags": [],
     "support_type": "현금",
-    "summary": "소상공인 경영환경 개선 지원",
+    "summary": "소상공인 경영환경 개선지원",
+    "target": "영월군 1년 이상 거주 소상공인",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-476000000103": {
     "category": "농업",
-    "tags": [
-      "농어업인"
-    ],
-    "support_type": "현물",
-    "summary": "복숭아 재배 농가 생산기반시설 지원",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "복숭아 생산기반시설 지원",
+    "target": "임실군 복숭아 재배 농가",
+    "amount": "관정시설 800만원",
     "show": true,
     "special": false
   },
