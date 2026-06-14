@@ -35,7 +35,9 @@
       "농어업인"
     ],
     "support_type": "대출",
-    "summary": "관내 거주 농업인 대상 농기계 구입비 융자 지원",
+    "summary": "농업인에게 농기계 구입비 융자 지원",
+    "target": "관내 거주 경작 농업경영체 등록 농업인",
+    "amount": "최대 1,000만원",
     "show": true,
     "special": false
   },
@@ -43,9 +45,11 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "보호종료 아동 대상 자립정착금 지원",
+    "summary": "자립준비청년에게 자립정착금 지원",
+    "target": "보호 조기 종료 또는 만18세 이후 보호 종료된 자립준비청년",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-628000000746": {
     "category": "복지",
@@ -2174,17 +2178,19 @@
     "category": "금융",
     "tags": [],
     "support_type": "현금",
-    "summary": "목포사랑상품권 구매 지원",
+    "summary": "목포시민에게 월 30만원 지역화폐 구매 한도",
+    "target": "목포시 상품권 구매 시민 전체",
+    "amount": "월 30만원",
     "show": true,
     "special": false
   },
   "g24-483000000118": {
-    "category": "육아",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "복지",
+    "tags": [],
     "support_type": "현금",
-    "summary": "나주시 출산장려금 및 출산육아지원금 지원",
+    "summary": "나주시 출산 가정에 출산장려금+육아지원금 지원",
+    "target": "나주시 거주 출산 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2192,7 +2198,9 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "화순군 결혼장려금 지원",
+    "summary": "화순군 결혼 부부에게 결혼장려금 지원",
+    "target": "화순군 거주 결혼 부부",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2482,9 +2490,11 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "퇴소 및 보호종결아동 자립정착금 지원 (1,500만원)",
+    "summary": "퇴소 아동에게 자립정착금 1,500만원 지원",
+    "target": "시설퇴소 및 가정위탁 종료아동 중 교육수료자",
+    "amount": "최대 1,500만원",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-430100000001": {
     "category": "복지",
@@ -2557,52 +2567,64 @@
     "special": false
   },
   "g24-330000000131": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "개물림 사고, 온열질환 등 9개 항목 보장",
+    "summary": "동래구민에게 안전사고 발생 시 보험금 지급",
+    "target": "부산 동래구 주민등록된 모든 구민",
+    "amount": "10만원",
     "show": true,
     "special": false
   },
   "g24-332000000104": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
       "임신·출산"
     ],
     "support_type": "바우처",
-    "summary": "출생아에게 첫만남이용권 지원",
+    "summary": "출생아에게 첫만남이용권 200만원 지원",
+    "target": "2024.1.1. 이후 출생아",
+    "amount": "200만원",
     "show": true,
     "special": false
   },
   "g24-334000000301": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "상해사망 최대 900만원, 상해진단 위로금 등",
+    "summary": "사하구민에게 안전사고 발생 시 보험금 지급",
+    "target": "사하구 주민등록된 모든 구민",
+    "amount": "최대 1,000만원",
     "show": true,
     "special": false
   },
   "g24-338000000396": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "온열질환 진단비 10만원 지급",
+    "summary": "수영구민에게 안전사고 발생 시 보험금 지급",
+    "target": "수영구 주민등록된 모든 구민",
+    "amount": "10만원",
     "show": true,
     "special": false
   },
   "g24-338000000397": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "13세 미만 어린이 상해 의료비 보상",
+    "summary": "수영구 어린이에게 상해 의료비 지원",
+    "target": "13세 미만 수영구 어린이",
+    "amount": "200만원",
     "show": true,
     "special": false
   },
   "g24-340000000131": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "온열질환 진단비, 자연재해 사망 등 보장",
+    "summary": "기장군민에게 안전사고 발생 시 보험금 지급",
+    "target": "기장군 주민등록된 모든 군민",
+    "amount": "10만원",
     "show": true,
     "special": false
   },
@@ -2610,97 +2632,119 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "자립준비청년에게 1000만원 정착금 지급",
+    "summary": "자립준비청년에게 자립정착금 1,000만원 지원",
+    "target": "만18세 이상 보호 종료된 아동복지시설 퇴소 아동",
+    "amount": "1,000만원",
     "show": true,
     "special": true
   },
   "g24-374000000136": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "출산·입양 가정에 지원금 지급",
+    "summary": "수원시 출산·입양 가정에 지원금 지급",
+    "target": "수원시 거주 180일 이상 출산·입양 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-374000000560": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "상해의료비 최대 70만원 보장",
+    "summary": "수원시민에게 상해사고 발생 시 의료비 지원",
+    "target": "수원시 주민등록된 시민",
+    "amount": "70만원",
     "show": true,
     "special": false
   },
   "g24-383000000110": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "임신부 축하금, 출산지원금 지급",
+    "summary": "안양시 임신부에게 임신축하금, 출산가정에 출산지원금 지급",
+    "target": "안양시 거주 임신부 및 출산가정",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-394000000129": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "출산지원금 및 쌀 케이크 지원",
+    "summary": "고양시 출산가정에 출산지원금 등 지원",
+    "target": "고양시 거주 출산가정",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-399000000393": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "자연재해 사망 1000만원, 화상 10만원 등",
+    "summary": "남양주시민에게 안전사고 발생 시 보험금 지급",
+    "target": "남양주시 주민등록된 모든 주민",
+    "amount": "1,000만원",
     "show": true,
     "special": false
   },
   "g24-400000000124": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "자연재해, 폭발 등 상해사망 최대 1000만원",
+    "summary": "오산시민에게 안전사고 발생 시 보험금 지급",
+    "target": "오산시 주민등록된 모든 시민",
+    "amount": "1,000만원",
     "show": true,
     "special": false
   },
   "g24-401000000487": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "자연재해 사망 1000만원, 폭발·화재 등 상해사망",
+    "summary": "시흥시민에게 안전사고 발생 시 보험금 지급",
+    "target": "시흥시 주민등록된 모든 시민",
+    "amount": "1,000만원",
     "show": true,
     "special": false
   },
   "g24-409000000135": {
-    "category": "건강",
+    "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "상해의료비 보상",
+    "summary": "김포시민에게 상해 의료비 지원",
+    "target": "김포시 주민등록된 시민",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-414000000427": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "출산축하금 지원",
+    "summary": "출생아 보호자에게 출산축하금 지원",
+    "target": "군에 180일 이상 주민등록 후 출생아와 거주하는 보호자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-427000000207": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "출산·입양 장려금 지원",
+    "summary": "영월군 신생아·입양아동 부모에게 장려금 지원",
+    "target": "영월군 거주 6개월 이상 신생아·입양아동 부모",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -2708,7 +2752,9 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "보호종료아동 자립정착금 지원",
+    "summary": "보호종료아동에게 자립정착금 1,000만원 지원",
+    "target": "만 18세 이상 ~ 보호종료 5년 이내 아동",
+    "amount": "1,000만원",
     "show": true,
     "special": true
   },
@@ -2716,9 +2762,11 @@
     "category": "건강",
     "tags": [],
     "support_type": "현금",
-    "summary": "온열질환 진단비 10, 자연재해 사망 1000만원",
+    "summary": "양구군민에게 온열질환 등 최대 2,000만원 보장",
+    "target": "양구군 지역 주민 모두",
+    "amount": "최대 2,000만원",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-554000000110": {
     "category": "복지",
@@ -2996,71 +3044,71 @@
   },
   "g24-445000000106": {
     "category": "복지",
-    "tags": [
-      "저소득"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "보호종료 아동 자립 지원금",
+    "summary": "보호종료 아동에게 자립정착금 지급",
+    "target": "만 18세 이상 보호종료 아동",
+    "amount": "1인",
     "show": true,
     "special": true
   },
   "g24-447000000108": {
     "category": "복지",
-    "tags": [
-      "저소득"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "보호종료 아동 자립정착금 지원",
+    "summary": "보호 조기 종료 아동에게 자립정착금 지원",
+    "target": "만 15세 이후 보호 조기 종료 아동",
+    "amount": "",
     "show": true,
     "special": true
   },
   "g24-448000000122": {
     "category": "복지",
-    "tags": [
-      "저소득"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "보호종료 아동 자립정착금 1,000만원 지원",
+    "summary": "보호종료 아동에게 자립정착금 1,000만원 지원",
+    "target": "만 18세 이후 보호종료 아동",
+    "amount": "1,000만원",
     "show": true,
     "special": true
   },
   "g24-449000000108": {
     "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "출생 영아 가정 현금 지원",
+    "summary": "천안시 출생 가정에 첫째아 100만원 축하금 지원",
+    "target": "천안시 6개월 이상 거주 출생 가정",
+    "amount": "100만원",
     "show": true,
     "special": false
   },
   "g24-450000000134": {
     "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산/입양 자녀 가정 현금 지원",
+    "summary": "공주시 출산 가정에 출산장려금 지원",
+    "target": "공주시 1년 이상 거주 출산 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-451000000125": {
     "category": "환경·생활",
-    "tags": [
-      "자영업·창업"
-    ],
+    "tags": [],
     "support_type": "현물",
-    "summary": "식육판매업소 위생개선 재료 지원",
+    "summary": "식육판매업소에 위생개선 재료 지원",
+    "target": "식육판매업소",
+    "amount": "1,000만원",
     "show": true,
     "special": false
   },
   "g24-453000000201": {
     "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산 가정 현금 지원 (거주기간별 차등)",
+    "summary": "서산시 출산 가정에 출산지원서비스 지원",
+    "target": "서산시 거주 출산 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3068,9 +3116,11 @@
     "category": "건강",
     "tags": [],
     "support_type": "현금",
-    "summary": "시민 안전 보험 (자연재해, 온열질환 등)",
+    "summary": "논산시민에게 온열질환 등 최대 2,000만원 보장",
+    "target": "논산시 지역 주민 모두",
+    "amount": "최대 2,000만원",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-457000000106": {
     "category": "농업",
@@ -3078,7 +3128,9 @@
       "농어업인"
     ],
     "support_type": "현금",
-    "summary": "귀농인 주택개선 비용 지원",
+    "summary": "부여군 귀농인에게 주택개선비 지원",
+    "target": "부여군 전입 5년 이내 귀농인",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3088,17 +3140,19 @@
       "농어업인"
     ],
     "support_type": "현금",
-    "summary": "축사시설 현대화 자금 보조 지원",
+    "summary": "축산업 등록 농가에 현대화 시설 자금 보조",
+    "target": "축산업 등록 및 허가 농가",
+    "amount": "1,000만원/농가",
     "show": true,
     "special": false
   },
   "g24-468000000134": {
     "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산 가정 현금 지원 (거주기간 1년 이상)",
+    "summary": "익산시 출산 가정에 첫째아 100만원 장려금 지원",
+    "target": "익산시 1년 이상 거주 출산 가정",
+    "amount": "100만원",
     "show": true,
     "special": false
   },
@@ -3106,7 +3160,9 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "결혼 축하금 1,000만원 지원 (세대당)",
+    "summary": "김제시 결혼 부부에게 1,000만원 결혼축하금 지원",
+    "target": "김제시 1년 이상 거주 결혼 부부",
+    "amount": "1,000만원",
     "show": true,
     "special": false
   },
@@ -3114,7 +3170,9 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "전입 세대원 지원",
+    "summary": "장수군 전입 세대원에게 인구증가 지원금 지급",
+    "target": "장수군 6개월 이상 거주 전입 세대원",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -3124,7 +3182,9 @@
       "농어업인"
     ],
     "support_type": "현금",
-    "summary": "가축분뇨 처리 비용 지원",
+    "summary": "축산업 등록 농가에 가축분뇨 처리비 지원",
+    "target": "관내 축산업 등록·허가 농가",
+    "amount": "최대 1,000만원",
     "show": true,
     "special": false
   },
@@ -3134,7 +3194,9 @@
       "농어업인"
     ],
     "support_type": "현금",
-    "summary": "귀농인 주택수리 및 영농보조 지원",
+    "summary": "부안군 귀농인에게 주택수리비 100% 지원",
+    "target": "부안군 전입 5년 이내 귀농귀촌인",
+    "amount": "700만원 한도",
     "show": true,
     "special": false
   },
