@@ -225,20 +225,30 @@ let selRegion = "인천광역시 연수구";
 let toastTimer = null;
 
 /* ── 카테고리 색상·순서 ── */
-const CAT_COLORS = {
-  "주거":"#16B877","일자리":"#2B6FFF","창업·소상공인":"#F76707","금융":"#7C5CFF","교육":"#FF7A1A","문화":"#E8590C",
-  "환경·생활":"#11B5A6","건강":"#0CA678","복지":"#8A8578","육아":"#F0568B","농업":"#74B816",
-  "구청공고":"#868E96","기타":"#A8A296"
-};
-const CAT_ORDER = ["주거","일자리","창업·소상공인","금융","교육","문화","환경·생활","건강","육아","복지","농업","구청공고","기타"];
+// ── 생활영역 분류(실데이터 718건 분포로 설계). 위에서부터 첫 매칭 = 대표 영역(중복 허용해도 1개 그룹에 배치) ──
+const _tg = (b,t)=>{ const x=b._tags; return !!(x && x.has && x.has(t)); };
+const _rx = (b,r)=> r.test(`${b.title||""} ${b.summary||""} ${b.target||""} ${b.target_llm||""} ${b.amount_label||""}`);
+const LIFE = [
+  ["👶 임신·출산·육아","#F0568B", b=>_tg(b,"임신·출산")||_tg(b,"육아")||_rx(b,/임신|임산부|산모|출산|난임|영유아|보육|어린이집|아동수당|양육|부모급여|첫만남|아이돌봄|모유|기저귀|입양|다둥이/)],
+  ["🏠 주거","#16B877", b=>_tg(b,"무주택")||b.category==="주거"||_rx(b,/월세|전세|임차|보증금|임대주택|주거|전월세|주택자금|주택개량|집수리|단열/)],
+  ["🎓 교육·학자금","#FF922B", b=>_tg(b,"학생")||b.category==="교육"||_rx(b,/장학|학자금|등록금|교육비|평생학습|진로|방과후|학원|어학|유학|급식|우유|학용품|교복/)],
+  ["💼 일자리·취업","#2B6FFF", b=>_tg(b,"구직중")||_tg(b,"재직중")||b.category==="일자리"||_rx(b,/취업|구직|일자리|직업훈련|내일배움|고용|면접|인턴|일경험|근로|자격증/)],
+  ["🏪 창업·소상공인","#F76707", b=>_tg(b,"자영업·창업")||_rx(b,/창업|소상공인|소공인|점포|전통시장|자영|상인|사업자/)],
+  ["🧑‍🌾 농림축산어업","#74B816", b=>_tg(b,"농어업인")||b.category==="농업"||_rx(b,/농업|농민|어업|어민|귀농|귀어|축산|영농|임업|수산|농지|원예|양식|어가|농가|농어/)],
+  ["🏥 건강·의료","#0CA678", b=>b.category==="건강"||_rx(b,/의료|건강|검진|치료|진료|수술|재활|심리|정신건강|상담|약값|간병|예방접종|보건|보청기/)],
+  ["🧓 어르신·돌봄","#9775FA", b=>_tg(b,"어르신")||_rx(b,/노인|어르신|고령|경로|기초연금|요양|치매|돌봄|장기요양/)],
+  ["♿ 장애인","#4C6EF5", b=>_tg(b,"장애인")||_rx(b,/장애/)],
+  ["💳 금융·자산형성","#7C5CFF", b=>b.category==="금융"||_rx(b,/대출|융자|자산형성|적금|통장|이차보전|보증|금융|저축|디딤돌|이자/)],
+  ["🎭 문화·여가","#E8590C", b=>b.category==="문화"||_rx(b,/문화|예술|체육|스포츠|관광|여행|공연|전시|여가|도서/)],
+  ["🌱 환경·생활","#11B5A6", b=>b.category==="환경·생활"||_rx(b,/에너지|환경|탄소|전기차|태양광|음식물|쓰레기|재활용|상수도|정화조|안심장비/)],
+  ["🛡 안전·보험","#868E96", b=>_rx(b,/안전보험|시민안전|군민안전|구민안전|도민안전|자전거\s*보험|상해보험|생활안전보험|시민보험|손해보험|보험금|재난.*보장|군복무.*보험/)],
+  ["💰 생계·긴급복지","#FA5252", b=>_tg(b,"저소득")||_rx(b,/저소득|기초생활|생계|긴급복지|차상위|수당|지원금|복지/)],
+];
+const CAT_COLORS = Object.fromEntries(LIFE.map(([n,c])=>[n,c]).concat([["📋 기타","#A8A296"]]));
+// 화면 표시 순서(체감 우선): 주거·생계·육아·일자리 먼저
+const CAT_ORDER = ["🏠 주거","💰 생계·긴급복지","👶 임신·출산·육아","💼 일자리·취업","🎓 교육·학자금","🏪 창업·소상공인","🏥 건강·의료","🧓 어르신·돌봄","♿ 장애인","🧑‍🌾 농림축산어업","💳 금융·자산형성","🎭 문화·여가","🌱 환경·생활","🛡 안전·보험","📋 기타"];
 const catColor = (c)=> CAT_COLORS[c] || "#A8A296";
-// 창업·소상공인은 일자리에서 분리해 별도 그룹으로
-function dispCat(b){
-  const tags = b._tags || itemTags(b);
-  const t = `${b.title||""} ${b.summary||""} ${b.amount_label||""}`;
-  if(tags.has("자영업·창업") || /창업|소상공인|소공인|전통시장|점포|자영업/.test(t)) return "창업·소상공인";
-  return b.category || "기타";
-}
+function classify(b){ for(const [n,,f] of LIFE) if(f(b)) return n; return "📋 기타"; }
 
 /* ── 상황 자동 태깅 ── */
 const CHIP_TAGS = new Set(["구직중","재직중","학생","자영업·창업","1인가구","신혼","임신·출산","육아","다자녀","한부모","다문화","어르신","장애인","저소득","무주택","농어업인","예술인","운수종사자","제대군인"]);
@@ -492,10 +502,10 @@ function renderResult(){
   document.getElementById("matchedCount").textContent = matched.length;
   document.getElementById("loanCount").textContent = loanCount;
 
-  const cats = [...CAT_ORDER, ...[...new Set(matched.map(dispCat))].filter(c=>!CAT_ORDER.includes(c))];
+  const cats = [...CAT_ORDER, ...[...new Set(matched.map(classify))].filter(c=>!CAT_ORDER.includes(c))];
   let html = "";
   for(const cat of cats){
-    const items = matched.filter(b=>dispCat(b)===cat)
+    const items = matched.filter(b=>classify(b)===cat)
       .sort((a,b)=>{
         const sa=sortScore(a), sb=sortScore(b); if(sa!==sb) return sa-sb;
         const da=a.apply_end?dday(a.apply_end):9999, db=b.apply_end?dday(b.apply_end):9999;
