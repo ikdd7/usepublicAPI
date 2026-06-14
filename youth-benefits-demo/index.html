@@ -291,7 +291,12 @@ function isSpecial(b){
 const PROGRAM_RE = /모집|수강생|서포터즈|위원\s*(위촉|모집)|세미나|설명회|공모|특강|교실|아카데미|체험단|봉사자|기자단|홍보단|동아리/;
 
 /* ── 금액·마감 ── */
-function won(n){ return n>=10000 ? (n/10000).toLocaleString()+"만원" : n.toLocaleString()+"원"; }
+function won(n){
+  n = Math.round(n||0);
+  if(n < 10000) return n.toLocaleString()+"원";
+  const man = n/10000;
+  return Number.isInteger(man) ? man.toLocaleString()+"만원" : "약 "+Math.round(man).toLocaleString()+"만원";
+}
 function dday(end){ return Math.ceil((new Date(end)-TODAY)/86400000); }
 function deriveExpiry(b){
   let end = b.apply_end || null;
@@ -307,7 +312,15 @@ function keyAmount(b){
   if(b.amount_clean) return b.amount_clean;
   const src = `${b.amount_label||""} ${b.title||""}`;
   const money = src.match(/(최대\s*)?(월|연간?|분기|1인당|가구당|연)?\s*\d[\d,]*\s*(억\s*원?|만\s*원|원)/);
-  if(money) return money[0].replace(/\s+/g,"");
+  if(money){
+    let s = money[0].replace(/\s+/g,"");
+    if(/[\d,]원$/.test(s) && !/만|억/.test(s)){          // '원' 단위 → 만원으로 환산(약 처리 포함)
+      const pre = (s.match(/^(최대|월|연간?|분기|1인당|가구당|연)/)||[""])[0];
+      const num = parseInt(s.replace(/[^\d]/g,""))||0;
+      return (pre?pre:"") + won(num);
+    }
+    return s;
+  }
   const pct = src.match(/([가-힣]{2,12})\s*의\s*(최대\s*)?\d[\d,]*\s*(%|포인트)/) || src.match(/([가-힣]{2,8}(?:비|료|금|액|용|값))\s*(최대\s*)?\d[\d,]*\s*(%|포인트)/);
   if(pct) return pct[0].replace(/\s+/g," ").trim();
   if(b.amount>0) return "최대 "+won(b.amount);
