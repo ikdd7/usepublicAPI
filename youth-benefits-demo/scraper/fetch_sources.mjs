@@ -437,6 +437,8 @@ function applyClass(b, c) {
   }
   if (SUPPORT_TYPES.includes(c.support_type)) b.support_type = c.support_type;
   if (c.summary) b.summary = clip(c.summary, 60);
+  if (c.target) b.target_llm = clip(c.target, 60);     // 제미나이 정리 대상
+  if (c.amount) b.amount_clean = clip(c.amount, 40);    // 제미나이 정리 금액(퍼센트 맥락 포함)
   b.show = c.show !== false;
   if (c.special) b.special = true;
   b.llm = true;
@@ -446,24 +448,34 @@ async function classifyWithLLM(items) {
   for (const b of items) if (cache[b.id]) applyClass(b, cache[b.id]);   // 기존 캐시 적용(무료)
   let added = 0, dirty = false;
   if (hasLLMKey()) {
-    const todo = items.filter((b) => !cache[b.id]).slice(0, 120);        // 새 공고만, 상한
+    // 신규 공고 + '대상(target) 정리가 아직 안 된' 기존 캐시 공고(한 번만 보강 후 다시 안 건드림)
+    const need = items.filter((b) => {
+      const c = cache[b.id];
+      if (!c) return true;                                                // 신규
+      return c.target === undefined && `${b.target || ""}`.length > 6;    // 대상 미정리 기존
+    });
+    // 화면에 보이고(대상 원문 있는) 공고부터 우선 보강 → 체감 품질 빨리 개선
+    need.sort((a, b) => ((b.target ? 2 : 0) + (b.show !== false ? 1 : 0)) - ((a.target ? 2 : 0) + (a.show !== false ? 1 : 0)));
+    const todo = need.slice(0, 120);                                      // 무료 쿼터 상한
     const sys = `너는 한국 복지·지원 공고 분류기다. 각 항목을 분석해 JSON 배열로만 답한다.
-각 원소: {"id":입력id,"category":"...","tags":[...],"support_type":"...","summary":"...","show":true/false,"special":true/false}
+각 원소: {"id":입력id,"category":"...","tags":[...],"support_type":"...","summary":"...","target":"...","amount":"...","show":true/false,"special":true/false}
 - category 는 다음 중 하나: ${CATS.join(", ")}
 - tags 는 자격조건이 꼭 필요한 경우만(없으면 []): ${CONTROLLED_TAGS.join(", ")}
 - support_type 은 다음 중 하나: ${SUPPORT_TYPES.join(", ")}
 - summary: 35자 내외 한 줄, "[대상]에게 [무엇] [얼마]" 형식의 명사형(예: "무주택 청년 월세 최대 20만원"). 한눈에 읽히게, 추측 금지.
+- target: 25자 내외, 이 혜택을 받을 수 있는 핵심 '대상'을 명확히(나이·자격·소득 위주). 글머리기호(○·-)·라벨·군더더기 빼고 평서형 명사구로. 원문에 없으면 "".
+- amount: 20자 내외, 받는 '혜택의 핵심'. 퍼센트면 반드시 '무엇의 몇 %'인지 명시(예: "설치비의 60%"), 금액이면 "최대 ○○만원". 단독 "60%"처럼 맥락 없이 쓰지 말 것. 불명확하면 "".
 - show: 일반 주민이 신청해 실익 있는 지원이면 true. 단순공지·결과발표·내부행정·입찰·채용공고면 false.
 - special: 자동지급(별도 신청 불필요)이거나 극소수 특수대상(장애인·유공자 등)이면 true.`;
     const SZ = 20;
     for (let i = 0; i < todo.length; i += SZ) {
-      const batch = todo.slice(i, i + SZ).map((b) => ({ id: b.id, title: b.title, desc: clip(b.raw || b.amount_label, 120) }));
+      const batch = todo.slice(i, i + SZ).map((b) => ({ id: b.id, title: b.title, desc: clip(b.raw || b.amount_label, 140), 대상원문: clip(b.target || "", 110) }));
       try {
         const arr = parseJsonLoose(await callLLM(sys, JSON.stringify(batch), { json: true, maxTokens: 4096 }));
         const byId = new Map(arr.map((x) => [x.id, x]));
         for (const b of todo.slice(i, i + SZ)) {
           const e = byId.get(b.id); if (!e) continue;
-          const cls = { category: e.category, tags: e.tags, support_type: e.support_type, summary: clip(e.summary, 60), show: e.show !== false, special: e.special === true };
+          const cls = { category: e.category, tags: e.tags, support_type: e.support_type, summary: clip(e.summary, 60), target: clip(e.target || "", 60), amount: clip(e.amount || "", 40), show: e.show !== false, special: e.special === true };
           cache[b.id] = cls; applyClass(b, cls); added++; dirty = true;
         }
         console.log(`  [LLM분류] ${Math.min(i + SZ, todo.length)}/${todo.length} 신규`);

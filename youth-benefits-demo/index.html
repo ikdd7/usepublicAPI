@@ -387,13 +387,33 @@ function tidyText(t, n){
     .replace(/^[\s\-·–—]+/,"")               // 앞쪽 기호 정리
     .replace(/\s+/g," ").trim(), n);
 }
-// 카드 금액: 원문에서 핵심 금액구만 추출(없으면 합산금액/안내)
+// 카드 금액: LLM 정리값 우선 → 원문에서 핵심 금액구 추출(없으면 합산금액/안내)
 function keyAmount(b){
+  if(b.amount_clean) return clip(b.amount_clean, 24);                 // 제미나이 정리 금액 우선
   const src = `${b.amount_label||""} ${b.title||""}`;
-  const m = src.match(/(최대\s*)?(월|연간?|분기|1인당|가구당|연)?\s*\d[\d,]*\s*(억\s*원?|만\s*원|원|%|포인트)/);
-  if(m) return clip(m[0].replace(/\s+/g,""), 22);
+  // 1) 확정 금액(원/만원/억) 우선
+  const money = src.match(/(최대\s*)?(월|연간?|분기|1인당|가구당|연)?\s*\d[\d,]*\s*(억\s*원?|만\s*원|원)/);
+  if(money) return clip(money[0].replace(/\s+/g,""), 22);
+  // 2) 퍼센트·포인트는 '무엇의 N%'인지 맥락(앞 비용·항목 명사) 포함 — 단독 "60%" 방지
+  const pct = src.match(/([가-힣]{2,12})\s*의\s*(최대\s*)?\d[\d,]*\s*(%|포인트)/)
+           || src.match(/([가-힣]{2,8}(?:비|료|금|액|용|값|료금))\s*(최대\s*)?\d[\d,]*\s*(%|포인트)/);
+  if(pct) return clip(pct[0].replace(/\s+/g," ").trim(), 24);
+  const pct2 = src.match(/(최대\s*)?\d[\d,]*\s*(%|포인트)/);
+  if(pct2) return clip(pct2[0].replace(/\s+/g,""), 22);
   if(b.amount>0) return "최대 "+won(b.amount);
   return null;
+}
+// 대상 원문 정리: 글머리기호(○·•-)·"지원연령/조건" 라벨·"다음 각 호" 등 군더더기 제거
+function tidyTarget(t){
+  let s = `${t||""}`
+    .replace(/[○●◦▷▶◆■□➤➢*•]/g," ")                // 글머리 기호(·중점은 구분자라 보존)
+    .replace(/다음\s*각\s*호의?\s*요건을?\s*갖춘\s*/g," ")
+    .replace(/아래의?\s*/g," ")
+    .replace(/지원\s*(연령|조건|대상)\s*[:：]?\s*/g," ")    // 라벨 제거(콜론 없어도)
+    .replace(/[<《][^>》]*[>》]/g," ")                     // <퇴직자> 등 꺾쇠 부연
+    .replace(/^[\s\-–—:：]+/,"")
+    .replace(/\s+/g," ").trim();
+  return tidyText(s, 56);
 }
 function clip(s,n){ return s ? `${s}`.replace(/\s+/g," ").trim().slice(0,n) : ""; }
 // 합산용 '현실적 수령액': 대출·서비스·기업자금·억대 한도는 제외(개인 현금성만, 1억 미만)
@@ -420,10 +440,17 @@ function ageRange(b){
   return "";
 }
 function targetLine(b){
-  // 공식 '지원대상' 원문이 있으면 그대로(추측 태그보다 정확)
+  // 제미나이로 정리한 대상이 있으면 최우선(가장 읽기 쉬움)
+  if(b.target_llm && b.target_llm.replace(/\s/g,"").length>=4){
+    const a = ageRange(b);
+    let s = tidyTarget(b.target_llm);
+    if(a && !/\d\s*세/.test(s)) s += " · "+a;
+    return s;
+  }
+  // 공식 '지원대상' 원문이 있으면 정리해서(추측 태그보다 정확)
   if(b.target && b.target.replace(/\s/g,"").length>=4){
     const a = ageRange(b);
-    let s = tidyText(b.target, 56);
+    let s = tidyTarget(b.target);
     if(a && !/\d\s*세/.test(s)) s += " · "+a;
     return s;
   }
@@ -579,6 +606,8 @@ function toRuntime(b){
     amount_label: b.amount_label || "상세 참조",
     age_min: b.age_min ?? 18, age_max: b.age_max ?? 39,
     target: b.target || "",
+    target_llm: b.target_llm || "",          // 제미나이 정리 대상(있으면 우선)
+    amount_clean: b.amount_clean || "",        // 제미나이 정리 금액(있으면 우선)
     need: b.need || b.tags || [],
     region: b.region || "인천광역시 연수구",
     summary: b.summary || "",
