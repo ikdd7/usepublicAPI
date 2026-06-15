@@ -6967,24 +6967,27 @@
   "g24-331000000115": {
     "category": "복지",
     "tags": [
-      "저소득",
       "한부모"
     ],
     "support_type": "현금",
-    "summary": "저소득 한부모가족 기준 중위소득 65% 이하 지원",
+    "summary": "저소득 한부모가족 아동양육비 지원",
+    "target": "기준 중위소득 65% 이하 저소득 한부모가족 및 조손가족",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-398000000117": {
     "category": "주거",
     "tags": [
-      "저소득",
-      "장애인"
+      "장애인",
+      "저소득"
     ],
     "support_type": "현물",
-    "summary": "저소득 장애인 주거환경 개선 최대 152만원 지원",
+    "summary": "저소득 장애인 주거환경 개선 지원",
+    "target": "건강보험료 중위소득 75% 이하 저소득 장애인",
+    "amount": "가구당 152만원 이하",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-399000000102": {
     "category": "복지",
@@ -6994,6 +6997,8 @@
     ],
     "support_type": "현금",
     "summary": "장애인가정 출산지원금 지원",
+    "target": "남양주시에 거주하는 장애인 부 또는 모",
+    "amount": "심한 장애인 150만원",
     "show": true,
     "special": true
   },
@@ -7005,27 +7010,30 @@
     ],
     "support_type": "현금",
     "summary": "장애인가정 출산지원금 지원",
+    "target": "출산한 장애인가정, 청주시에 6개월 이상 거주",
+    "amount": "",
     "show": true,
     "special": true
   },
   "g24-488000000132": {
     "category": "복지",
     "tags": [
-      "저소득",
       "한부모"
     ],
-    "support_type": "현금",
-    "summary": "저소득 한부모가족 학자금, 생활용품비 지원",
+    "support_type": "현물",
+    "summary": "저소득 한부모가족 생활용품비 지원",
+    "target": "한부모가족 지정 1년 경과 장애가정 중 생계/의료급여 미수급",
+    "amount": "",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-535000000607": {
     "category": "금융",
-    "tags": [
-      "다자녀"
-    ],
+    "tags": [],
     "support_type": "대출",
     "summary": "다자녀가구 전세자금 대출이자 지원",
+    "target": "만18세 이하 자녀 2명 이상, 김해시 거주, 중위소득 180% 이하",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7037,6 +7045,8 @@
     ],
     "support_type": "대출",
     "summary": "신혼부부 전월세자금 대출이자 지원",
+    "target": "김해시 거주, 중위소득 180% 이하, 혼인 7년 이내 무주택",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7048,6 +7058,8 @@
     ],
     "support_type": "현금",
     "summary": "장애인가정 출산지원금 지원",
+    "target": "중구 거주 6개월 이상 장애인가정",
+    "amount": "심한 장애인 150만원",
     "show": true,
     "special": true
   },
@@ -7055,7 +7067,9 @@
     "category": "금융",
     "tags": [],
     "support_type": "현금",
-    "summary": "도봉사랑상품권 5% 할인 판매",
+    "summary": "도봉사랑상품권 할인 구매 지원",
+    "target": "도봉사랑상품권 구매자",
+    "amount": "5% 할인",
     "show": true,
     "special": false
   },
@@ -7066,6 +7080,8 @@
     ],
     "support_type": "현금",
     "summary": "서대문구 아빠 육아휴직장려금 지원",
+    "target": "서대문구 1년 이상 거주 고용보험 남성수급자",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7077,6 +7093,8 @@
     ],
     "support_type": "현금",
     "summary": "장애인가정 출산지원금 지원",
+    "target": "마포구 6개월 이상 거주 등록장애인 부 또는 모",
+    "amount": "신생아 1인당 150만원",
     "show": true,
     "special": true
   },
@@ -7084,28 +7102,31 @@
     "category": "금융",
     "tags": [],
     "support_type": "현금",
-    "summary": "관악사랑상품권 할인 및 페이백 제공",
+    "summary": "관악사랑상품권 할인 구매 지원",
+    "target": "관악사랑상품권 가맹점 및 소비자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-321000000120": {
     "category": "건강",
     "tags": [
-      "장애인",
-      "저소득"
+      "장애인"
     ],
     "support_type": "현금",
-    "summary": "서초구 정신건강 의료비 연 150만원 내외 지원",
+    "summary": "서초구 정신건강 의료비 지원",
+    "target": "서초구민, 중위소득 120% 이하 정신건강 고위험군/중증질환자",
+    "amount": "연 150만원 내외",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-351050000129": {
     "category": "건강",
-    "tags": [
-      "저소득"
-    ],
+    "tags": [],
     "support_type": "현물",
-    "summary": "미추홀구 난임치료 한약재 3개월 지원",
+    "summary": "미추홀구 한의약 난임치료 지원",
+    "target": "미추홀구 난임진단 부부",
+    "amount": "1인당 150만원 범위내",
     "show": true,
     "special": false
   },
@@ -7113,27 +7134,29 @@
     "category": "건강",
     "tags": [],
     "support_type": "현물",
-    "summary": "연수구 난임치료 한약재 3개월 지원",
+    "summary": "연수구 한의약 난임치료 지원사업",
+    "target": "연수구 난임진단 부부",
+    "amount": "1인 150만원 한도",
     "show": true,
     "special": false
   },
   "g24-366000000690": {
     "category": "교육",
-    "tags": [
-      "학생"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "서구 우수자원봉사자 고등·대학생 장학금 지원",
+    "summary": "대전 서구 우수자원봉사자 장학금 지원",
+    "target": "대전 서구 거주 우수자원봉사자 고등·대학생",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-399000000101": {
     "category": "교육",
-    "tags": [
-      "학생"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "남양주시 미래·복지 장학생 지원",
+    "summary": "남양주시 미래/복지/재능 장학생 지원",
+    "target": "남양주시 거주 대학생",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7141,27 +7164,29 @@
     "category": "금융",
     "tags": [],
     "support_type": "현금",
-    "summary": "원주사랑상품권 6~10% 할인 구매 지원",
+    "summary": "원주사랑상품권 할인 구매 지원",
+    "target": "만 19세 이상 원주시민",
+    "amount": "6%~10% 할인",
     "show": true,
     "special": false
   },
   "g24-420000000157": {
     "category": "교육",
-    "tags": [
-      "학생"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "강릉시 우수 장학생 지원",
+    "summary": "강릉시 미래인재육성재단 우수장학금 지원",
+    "target": "강릉시 1년 이상 거주 시민 또는 자녀(고등·대학생)",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-420000000159": {
     "category": "교육",
-    "tags": [
-      "학생"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "강릉시 진학 장학생 지원",
+    "summary": "강릉시 미래인재육성재단 진학장학금 지원",
+    "target": "강릉시 1년 이상 거주 시민 또는 자녀(대학생)",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7169,7 +7194,9 @@
     "category": "교육",
     "tags": [],
     "support_type": "현금",
-    "summary": "강릉시민 자녀 특기장학금 지원",
+    "summary": "강릉시민 자녀 고등/대학생 특기장학금 지원",
+    "target": "강릉시민 또는 자녀, 고등/대학생",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7177,17 +7204,19 @@
     "category": "교육",
     "tags": [],
     "support_type": "현금",
-    "summary": "강릉시민 자녀 자립장학금 지원",
+    "summary": "강릉시민 자녀 고등/대학생 자립장학금 지원",
+    "target": "강릉시민 또는 자녀, 고등/대학생",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-426100000004": {
     "category": "건강",
-    "tags": [
-      "임신·출산"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "횡성군 난임부부 한방 의료비 최대 150만원 지원",
+    "summary": "횡성군 거주 난임 부부 한방 의료비 지원",
+    "target": "횡성군 거주 난임 진단서 제출 부부",
+    "amount": "1인당 150만원 이내",
     "show": true,
     "special": false
   },
@@ -7195,7 +7224,9 @@
     "category": "건강",
     "tags": [],
     "support_type": "현금",
-    "summary": "평창군 정신질환 치료비 지원",
+    "summary": "평창군민 정신건강 고위험군 치료비 지원",
+    "target": "평창군민, 정신건강 고위험군",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7203,37 +7234,43 @@
     "category": "건강",
     "tags": [],
     "support_type": "현금",
-    "summary": "정신건강 의료비 지원",
+    "summary": "정신과 치료 필요 대상자 의료비 지원",
+    "target": "자살의도자, 초발정신질환자 등",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-449000000125": {
     "category": "복지",
     "tags": [
-      "장애인",
-      "임신·출산"
+      "장애인"
     ],
     "support_type": "현금",
-    "summary": "천안시 여성중증장애인 출산비 150만원 지원",
+    "summary": "천안시 동남구 여성중증장애인 출산지원금 추가 지원",
+    "target": "천안시 거주 여성중증장애인",
+    "amount": "150만원",
     "show": true,
     "special": true
   },
   "g24-449000000129": {
     "category": "복지",
     "tags": [
-      "장애인",
-      "임신·출산"
+      "장애인"
     ],
     "support_type": "현금",
-    "summary": "천안시 여성중증장애인 출산비 150만원 지원",
+    "summary": "천안시 서북구 여성중증장애인 출산비 추가지원",
+    "target": "천안시 거주 여성중증장애인",
+    "amount": "150만원",
     "show": true,
     "special": true
   },
   "g24-454000000168": {
     "category": "금융",
     "tags": [],
-    "support_type": "현금",
-    "summary": "논산사랑상품권 10% 할인 구매 지원",
+    "support_type": "바우처",
+    "summary": "논산사랑상품권 구매/결제 할인 지원",
+    "target": "논산사랑상품권 이용자 및 가맹점주",
+    "amount": "10% 할인",
     "show": true,
     "special": false
   },
@@ -7244,35 +7281,40 @@
     ],
     "support_type": "현금",
     "summary": "군산형 긴급복지 지원",
+    "target": "위기상황 처한 저소득 가구",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-471000000117": {
     "category": "복지",
     "tags": [
-      "장애인",
-      "임신·출산"
+      "장애인"
     ],
     "support_type": "현금",
     "summary": "김제시 장애인가정 출산장려금 지원",
+    "target": "김제시 거주 장애인가정",
+    "amount": "",
     "show": true,
     "special": true
   },
   "g24-483000000103": {
     "category": "건강",
-    "tags": [
-      "저소득"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "나주시 65세이상 틀니 시술비 지원",
+    "summary": "나주시 거주 65세이상 어르신 틀니 시술비 지원",
+    "target": "나주시 거주 65세이상 의료급여/차상위",
+    "amount": "150만원까지",
     "show": true,
-    "special": true
+    "special": false
   },
   "g24-490000000288": {
     "category": "건강",
     "tags": [],
     "support_type": "현금",
-    "summary": "화순군 난임부부 시술비 지원",
+    "summary": "화순군 거주 난임부부 시술비 지원",
+    "target": "화순군 거주 난임부부",
+    "amount": "회당 30~150만원",
     "show": true,
     "special": false
   },
@@ -7282,17 +7324,19 @@
       "자영업·창업"
     ],
     "support_type": "대출",
-    "summary": "해남군 소상공인 3천만원 이내 대출 지원",
+    "summary": "해남군 소상공인 사업자금 및 수수료 지원",
+    "target": "해남군 소상공인",
+    "amount": "3천만원 이내",
     "show": true,
     "special": false
   },
   "g24-493000000301": {
     "category": "교육",
-    "tags": [
-      "다자녀"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "다자녀가정 대학생 학자금 최대 150만원 지원",
+    "summary": "다자녀가정 세째이상 자녀 대학 학자금 지원",
+    "target": "세자녀 이상 다자녀가정 자녀",
+    "amount": "학기당 최대 150만원",
     "show": true,
     "special": false
   },
@@ -7300,7 +7344,9 @@
     "category": "건강",
     "tags": [],
     "support_type": "현금",
-    "summary": "정관난관 복원수술비 최대 150만원 지원",
+    "summary": "법적혼인 부부 정관난관 복원수술비 지원",
+    "target": "법적혼인 부부 (남55세 이하, 여49세 이하)",
+    "amount": "80만원, 150만원 이내",
     "show": true,
     "special": false
   },
@@ -7308,17 +7354,19 @@
     "category": "건강",
     "tags": [],
     "support_type": "현금",
-    "summary": "영광군 난임부부 시술비 30~150만원 지원",
+    "summary": "영광군 거주 난임부부 시술비 본인부담금 지원",
+    "target": "영광군 거주 난임부부",
+    "amount": "시술별 30~150만원 이내",
     "show": true,
     "special": false
   },
   "g24-520000000308": {
     "category": "교육",
-    "tags": [
-      "다자녀"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "고령군 다자녀가정 대학생 학자금 지원",
+    "summary": "고령군 다자녀가정 자녀 대학 학자금 지원",
+    "target": "고령군 거주 3명 이상 다자녀가정 자녀",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7330,60 +7378,65 @@
     ],
     "support_type": "대출",
     "summary": "진주시 신혼부부 전세자금 대출이자 지원",
+    "target": "진주시 거주 신혼부부 (7년 이내, 무주택)",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-533000000109": {
     "category": "복지",
     "tags": [
-      "장애인",
-      "임신·출산"
+      "장애인"
     ],
     "support_type": "현금",
-    "summary": "장애인가정 출산지원금 지원",
+    "summary": "관내 등록 장애인가정 출산지원금 지원",
+    "target": "관내 거주 등록 장애인가정",
+    "amount": "100만원, 150만원",
     "show": true,
     "special": true
   },
   "g24-534000000106": {
     "category": "복지",
-    "tags": [
-      "저소득"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "사천시 100세이상 기초연금 수급자 장제비 지원",
+    "summary": "사천시 100세이상 기초연금 어르신 장제비 지원",
+    "target": "사천시 거주 100세 이상 기초연금수급자",
+    "amount": "",
     "show": true,
-    "special": true
+    "special": false
   },
   "g24-537000000101": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
-      "장애인",
-      "임신·출산"
+      "장애인"
     ],
     "support_type": "현금",
     "summary": "장애인가정 출산비 지원",
+    "target": "신생아 부모 중 1인이 장애인인 거제시 거주 세대",
+    "amount": "",
     "show": true,
     "special": true
   },
   "g24-537000000110": {
-    "category": "금융",
+    "category": "주거",
     "tags": [
       "신혼",
-      "임신·출산",
       "무주택"
     ],
     "support_type": "대출",
     "summary": "신혼부부·미혼모부 주택전세자금 대출이자 지원",
+    "target": "기준중위소득 180% 이하 무주택 신혼부부·미혼모부",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-537000000125": {
     "category": "교육",
-    "tags": [
-      "학생"
-    ],
+    "tags": [],
     "support_type": "현금",
     "summary": "거제시 우수학생 장학금 지원",
+    "target": "거제시 관내 고등학교 재학생 중 성적 우수자",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7392,29 +7445,33 @@
     "tags": [],
     "support_type": "현물",
     "summary": "목재펠릿 연소기 보급 지원",
+    "target": "목재펠릿 보일러, 난로 설치 희망자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-547000000141": {
-    "category": "금융",
+    "category": "주거",
     "tags": [
-      "임신·출산",
-      "신혼",
       "무주택"
     ],
     "support_type": "대출",
     "summary": "청년 주택 전세자금 대출이자 지원",
+    "target": "19~45세 이하 기준중위소득 180% 이하 무주택 청년",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-567000000123": {
-    "category": "금융",
+    "category": "주거",
     "tags": [
       "신혼",
       "무주택"
     ],
     "support_type": "대출",
     "summary": "무주택 신혼부부 전세자금 대출이자 지원",
+    "target": "창원시 거주, 무주택, 기준중위소득 180% 이하 신혼부부",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7425,18 +7482,19 @@
       "한부모"
     ],
     "support_type": "현금",
-    "summary": "온누리 장학금 지급",
+    "summary": "취약계층 아동 학원교육비 지원",
+    "target": "만7세~15세 미만 거주자, 학원비 납부 가능자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-O00053300001": {
     "category": "교육",
-    "tags": [
-      "저소득",
-      "임신·출산"
-    ],
+    "tags": [],
     "support_type": "현금",
     "summary": "양평군장학재단 장학금 지원",
+    "target": "대학교 재학생 중 선발 요건 충족자",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7445,6 +7503,8 @@
     "tags": [],
     "support_type": "현금",
     "summary": "영동군민장학회 장학금 지원",
+    "target": "고등학교·대학생 중 성적 우수자, 우수 졸업자",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7454,7 +7514,9 @@
       "저소득"
     ],
     "support_type": "현금",
-    "summary": "저소득 주민 특별생계 보호",
+    "summary": "저소득 주민 특별생계비 지원",
+    "target": "기준중위소득 70% 이하, 재산 1.35억 이하 주민",
+    "amount": "최대 2",
     "show": true,
     "special": false
   },
@@ -7465,17 +7527,19 @@
       "임신·출산"
     ],
     "support_type": "현금",
-    "summary": "장애인 임산부 건강관리 지원",
+    "summary": "장애인 임산부 건강관리비 지원",
+    "target": "광주 거주 6개월 이상 장애인 임산부",
+    "amount": "100만원 초과분",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-484000000127": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
     "summary": "광양시 산후조리비용 지원",
+    "target": "광양시 거주 산모",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7483,7 +7547,9 @@
     "category": "건강",
     "tags": [],
     "support_type": "현금",
-    "summary": "난청 조기진단검사 및 보청기 지원",
+    "summary": "영유아 난청 조기진단검사 및 보청기 지원",
+    "target": "난청 검사받은 영아, 만 5세 미만 영유아",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7493,28 +7559,31 @@
       "자영업·창업"
     ],
     "support_type": "서비스",
-    "summary": "창업지원센터 운영 지원",
+    "summary": "초기 창업자 창업지원센터 운영 지원",
+    "target": "창업 3년 이내 초기 창업자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-397000000124": {
-    "category": "복지",
+    "category": "육아",
     "tags": [
-      "장애인",
-      "임신·출산"
+      "장애인"
     ],
     "support_type": "현금",
-    "summary": "장애인가정 출산 지원",
+    "summary": "과천시 장애인가정 출산 지원",
+    "target": "과천 거주 180일 이상 장애인가정",
+    "amount": "30~130만원",
     "show": true,
     "special": true
   },
   "g24-515000000133": {
     "category": "농업",
-    "tags": [
-      "농어업인"
-    ],
+    "tags": [],
     "support_type": "현금",
     "summary": "기본형 공익직접지불사업 지원",
+    "target": "과거 직불금 지급 대상 농지 요건 충족 농지",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7522,27 +7591,29 @@
     "category": "주거",
     "tags": [],
     "support_type": "현금",
-    "summary": "청년 월세 지원",
+    "summary": "옥천군 청년 월세 지원",
+    "target": "19~39세 이하 기준중위소득 180% 이하 옥천 거주 청년",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-336000000200": {
-    "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "category": "육아",
+    "tags": [],
     "support_type": "현금",
-    "summary": "출산지원금 지원",
+    "summary": "강서구 출산지원금 지원",
+    "target": "강서구 거주 2자녀 이상 가정",
+    "amount": "50~120만원",
     "show": true,
     "special": false
   },
   "g24-304000000123": {
     "category": "복지",
-    "tags": [
-      "제대군인"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "국가보훈대상자 보훈예우수당 지급",
+    "summary": "광진구 국가보훈대상자 보훈예우수당 지급",
+    "target": "광진구 거주 국가보훈대상자",
+    "amount": "",
     "show": true,
     "special": true
   },
@@ -7550,7 +7621,9 @@
     "category": "복지",
     "tags": [],
     "support_type": "현금",
-    "summary": "입양축하금 지원",
+    "summary": "강북구 입양축하금 지원",
+    "target": "강북구 거주 입양아동 부모",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7560,7 +7633,9 @@
       "장애인"
     ],
     "support_type": "현금",
-    "summary": "장애인가정 출산지원금 지원",
+    "summary": "장애인가정 출산지원금 지원 인당 30만원",
+    "target": "출산한 여성장애인, 배우자가 출산한 남성장애인",
+    "amount": "30만원",
     "show": true,
     "special": true
   },
@@ -7571,6 +7646,8 @@
     ],
     "support_type": "현금",
     "summary": "장애인가정 출산지원금 지원",
+    "target": "2025년 이후 출산한 등록 여성/남성장애인 또는 배우자",
+    "amount": "",
     "show": true,
     "special": true
   },
@@ -7579,70 +7656,75 @@
     "tags": [],
     "support_type": "현금",
     "summary": "주택형 태양광 미니발전소 설치 지원",
+    "target": "단독주택 소유자, 공동주택 입주자대표",
+    "amount": "40만원/kW",
     "show": true,
     "special": false
   },
   "g24-351050000104": {
     "category": "복지",
     "tags": [
-      "장애인",
-      "임신·출산"
+      "장애인"
     ],
     "support_type": "현금",
     "summary": "여성장애인 출산비용 지원",
+    "target": "2026년 이후 출산/유산/사산한 등록 여성장애인",
+    "amount": "",
     "show": true,
     "special": true
   },
   "g24-352000000123": {
     "category": "복지",
     "tags": [
-      "장애인",
-      "임신·출산"
+      "장애인"
     ],
     "support_type": "현금",
     "summary": "여성장애인 출산비용 지원",
+    "target": "2026년 이후 출산/유산/사산한 등록 여성장애인",
+    "amount": "",
     "show": true,
     "special": true
   },
   "g24-390000000115": {
     "category": "복지",
     "tags": [
-      "저소득",
       "장애인",
-      "임신·출산"
+      "저소득"
     ],
     "support_type": "현금",
-    "summary": "저소득 장애인 출산비 지원 최대 120만원",
+    "summary": "여성장애인 출산비 지원 120만원",
+    "target": "출산/유산/사산한 여성장애인",
+    "amount": "120만원",
     "show": true,
     "special": true
   },
   "g24-419100000007": {
     "category": "복지",
-    "tags": [
-      "청년"
-    ],
+    "tags": [],
     "support_type": "현금",
     "summary": "전입 청년 교통비 지원",
+    "target": "18~39세 원주시 전입 청년",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-449000000528": {
     "category": "복지",
-    "tags": [
-      "다자녀"
-    ],
+    "tags": [],
     "support_type": "바우처",
-    "summary": "네자녀 이상 다자녀가정 행복바우처 지원",
+    "summary": "다자녀가정 행복바우처 지원",
+    "target": "네자녀 이상 다자녀 가정",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-464000000117": {
     "category": "복지",
-    "tags": [
-      "임신·출산"
-    ],
+    "tags": [],
     "support_type": "현금",
-    "summary": "출생아 가정 출산축하금 100만원 지원",
+    "summary": "출산장려금 지원 100만원",
+    "target": "전주시에 출생신고한 출생아 가정",
+    "amount": "100만원",
     "show": true,
     "special": false
   },
@@ -7651,6 +7733,8 @@
     "tags": [],
     "support_type": "현금",
     "summary": "귀향귀촌인 이사비 지원",
+    "target": "남원시로 이주한 귀농귀촌인, 귀향인",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7661,6 +7745,8 @@
     ],
     "support_type": "현금",
     "summary": "기본형 공익직접지불금 지원",
+    "target": "기본직불 등록 신청 농지 경작 농업인",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7669,8 +7755,10 @@
     "tags": [
       "농어업인"
     ],
-    "support_type": "현물",
-    "summary": "벼 재배 농업인 논두렁 개량 지원",
+    "support_type": "현금",
+    "summary": "논두렁 개량 지원사업",
+    "target": "관내 주소지 및 경작지 둔 벼 재배 농업인",
+    "amount": "2,000원/m",
     "show": true,
     "special": false
   },
@@ -7681,6 +7769,8 @@
     ],
     "support_type": "현금",
     "summary": "장애인가정 출산지원금 지원",
+    "target": "여수시 거주 장애인 가정",
+    "amount": "",
     "show": true,
     "special": true
   },
@@ -7690,7 +7780,9 @@
       "저소득"
     ],
     "support_type": "현금",
-    "summary": "기초생활수급자 장학금 지원",
+    "summary": "기초생활보장수급자 장학금 지원",
+    "target": "기초생활보장수급자 중·고·대학교 재학생",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7699,14 +7791,18 @@
     "tags": [],
     "support_type": "현금",
     "summary": "근로취약계층 유급병가 지원",
+    "target": "구미시 거주 건강보험 지역가입자 근로소득자/자영업자",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-432000000232": {
     "category": "건강",
     "tags": [],
-    "support_type": "현금",
+    "support_type": "서비스",
     "summary": "난임부부 시술비 지원",
+    "target": "난임진단서 제출 난임부부",
+    "amount": "",
     "show": true,
     "special": false
   },
@@ -7714,7 +7810,9 @@
     "category": "건강",
     "tags": [],
     "support_type": "현금",
-    "summary": "난임부부 시술비 지원 최대 110만원",
+    "summary": "난임부부 시술비 지원",
+    "target": "익산시 거주 정부지원 기준 이하 난임부부",
+    "amount": "최대 110만원",
     "show": true,
     "special": false
   },
@@ -7723,6 +7821,8 @@
     "tags": [],
     "support_type": "현금",
     "summary": "노후주택 옥내급수시설 개량 공사비 지원",
+    "target": "25년 이상 노후주택 소유자",
+    "amount": "최대 110만원",
     "show": true,
     "special": false
   },
@@ -7731,6 +7831,8 @@
     "tags": [],
     "support_type": "현금",
     "summary": "난임부부 약제비(시술비) 지원",
+    "target": "진주시 거주 난임부부 중 여성",
+    "amount": "신선 110만원, 동결 50만원",
     "show": true,
     "special": false
   },
@@ -7739,6 +7841,472 @@
     "tags": [],
     "support_type": "현금",
     "summary": "난임부부 난임시술 약제비 지원",
+    "target": "양산시 거주 난임부부 중 여성",
+    "amount": "신선 110만원, 동결 50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000137": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "출산가정 건강관리사 지원",
+    "target": "순창군 관내 출산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-360000000112": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층·셋째자녀 출산가정 산후관리비 100만원 지원",
+    "target": "저소득층, 셋째자녀 출산가정",
+    "amount": "100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000111": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "신장장애인 투석비 본인부담금 50% 이내 지원",
+    "target": "심한 신장장애인, 중위소득 120% 이하 가구",
+    "amount": "본인부담금의 50% 이내",
+    "show": true,
+    "special": true
+  },
+  "g24-427000000242": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "영월군 출산·입양가정 산후(산모·신생아)건강관리비 지원",
+    "target": "영월군 출생·입양아동 부모, 6개월 이상 거주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-418000000255": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "춘천시 산후조리비 지원",
+    "target": "춘천시 6개월 이상 거주 산모, 한국 국적 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-435000000131": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 출산축하금 및 장려금 지원",
+    "target": "출산일 1년전부터 거주한 영아 부모",
+    "amount": "최대 월 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-428000000119": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "평창군 출산축하금 지원",
+    "target": "평창군 1년 이상 거주 신생아 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-554000000119": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "광주시 출산장려금 100만원 지원",
+    "target": "광주시 180일 이상 거주 보호자",
+    "amount": "100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000138": {
+    "category": "금융",
+    "tags": [
+      "무주택",
+      "임신·출산"
+    ],
+    "support_type": "대출",
+    "summary": "고양시 출산가구 전월세자금 대출이자 지원",
+    "target": "고양시 거주 무주택 출산가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-404000000107": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "등록장애인가정 출산지원금 지원",
+    "target": "관내 6개월 이상 거주 등록장애인가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-394000000122": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "고양시 장애인가정 출산지원금 100만원 지원",
+    "target": "고양시 1년 이상 거주 장애인가정",
+    "amount": "100만원",
+    "show": true,
+    "special": true
+  },
+  "g24-409000000105": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "둘째자녀 이상 출산가정 출산축하금 지원",
+    "target": "둘째아 이상 출산가정, 180일 이상 거주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-554000000107": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "광주시 장애인가정 출산지원금 70~100만원 지원",
+    "target": "광주시 180일 이상 거주 등록장애인가정",
+    "amount": "70~100만원",
+    "show": true,
+    "special": true
+  },
+  "g24-509000000117": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "영주시 출산가정 산후 조리비 100만원 지원",
+    "target": "영주시 1년 이상 거주 출산가정",
+    "amount": "100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000143": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "김천시 산후조리비 지원",
+    "target": "김천시 6개월 이상 거주 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-340000000103": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "기장군 장애인가정 출산지원금 차등지급",
+    "target": "기장군 1년 이상 거주 등록장애인가정",
+    "amount": "50~100만원",
+    "show": true,
+    "special": true
+  },
+  "g24-326000000156": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "부산 서구 출산가정 출산지원금 100만원 지원",
+    "target": "부산 서구 주민등록 출산가정",
+    "amount": "100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-339000000103": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "사상구 장애인가정 출산지원금 50~100만원 지원",
+    "target": "사상구 1년 이상 거주 등록장애인가정",
+    "amount": "50~100만원",
+    "show": true,
+    "special": true
+  },
+  "g24-548000000126": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "합천군 출산가정 산모신생아 건강관리사 교통비 지원",
+    "target": "합천군 6개월 이상 거주 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-548000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아동가장세대 아동 지원",
+    "target": "보호자가 없거나 부적당한 18세 미만 아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-545000000104": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 아동용품구입비 100만원 지원",
+    "target": "만 18세 미만 가정위탁아동",
+    "amount": "가구당 최초 1회 100만원",
+    "show": true,
+    "special": true
+  },
+  "g24-534000000103": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육비 지원",
+    "target": "보호자 없거나 이탈된 18세 미만 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000108": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화가족 자녀 입학금 지원",
+    "target": "예산군 3년 이상 거주 다문화가족 24세 이하 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-467000000120": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "군산시 산후 조리비용 지원",
+    "target": "군산시 1년 이상 거주 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-315000000114": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "강서구 미혼모·부 아동양육비 지원",
+    "target": "강서구 거주 중위소득 65% 이하 미혼모·부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-322000000120": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "강남구 장애인가정 출산지원금 지원",
+    "target": "강남구 1년 이상 거주 등록 장애인가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-310000000103": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 90·100세 어르신 장수축하금 지원",
+    "target": "관내 1년 이상 거주 만 90세, 100세 어르신",
+    "amount": "최대 100만원",
+    "show": true,
+    "special": true
+  },
+  "g24-302000000102": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "용산구 100세 어르신 장수축하금 지급",
+    "target": "용산구 3년 이상 거주 100세 어르신",
+    "amount": "100만원",
+    "show": true,
+    "special": true
+  },
+  "g24-303000000344": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "65세 이상 어르신 낙상방지 홈케어 서비스",
+    "target": "65세 이상 어르신 중 중위소득 150% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "광진구 입양아동 입양축하금 지원",
+    "target": "광진구 6개월 이상 거주 입양부모",
+    "amount": "50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-305000000103": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째자녀 이상 입학아동 입학축하금 지원",
+    "target": "셋째자녀 이상 입학아동의 부 또는 모",
+    "amount": "최대 100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-305000000275": {
+    "category": "금융",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "동대문구 전세사기 피해 임차인 소송비용 지원",
+    "target": "동대문구 전세사기 피해 확인자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000102": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "미혼 한부모 자녀 의료비 지원",
+    "target": "관내 5세 이하 자녀 둔 미혼 한부모",
+    "amount": "100만원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000220": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "성북구 전세사기 피해자 지원",
+    "target": "성북구 거주 전세사기 피해자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-309000000284": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도봉구민 안전보험 가입 지원",
+    "target": "도봉구 주민등록 모든 구민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-313000000163": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 위문금 지원",
+    "target": "국가유공자 등 관련 법률 적용 단체",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-314000000263": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "양천구 공항소음피해지역 주민 보청기 지원",
+    "target": "양천구 공항소음대책 거주 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-315000000268": {
+    "category": "금융",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "강서구 전세피해 임차인 보증료 지원",
+    "target": "강서구 거주 전세사기 피해자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-316000000130": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "구로구 100세 어르신 장수축하금 지급",
+    "target": "구로구 1년 이상 거주 100세 어르신",
+    "amount": "100만원",
+    "show": true,
+    "special": true
+  },
+  "g24-316000000145": {
+    "category": "금융",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "구로구 전세사기 피해 임차인 이사비 지원",
+    "target": "구로구 전세사기 피해자 중 무주택자",
+    "amount": "",
     "show": true,
     "special": false
   }
