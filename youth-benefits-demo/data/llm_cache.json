@@ -13549,5 +13549,477 @@
     "amount": "10~40만원",
     "show": true,
     "special": false
+  },
+  "g24-304000000198": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급 가구 이사비용 지원",
+    "target": "기초생활수급자 중 광진구 전입 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-316000000129": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영유아 발달 정밀검사비 지원",
+    "target": "구로구 영유아 건강검진 심화평가 권고 판정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-318000000431": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 중개보수 감면 지원",
+    "target": "서울시 거주 만 19~39세 청년 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-322000000113": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "입양 및 가정위탁 아동 양육수당 지원",
+    "target": "강남구 거주 만 18세 미만 입양·위탁 아동",
+    "amount": "10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-322000000124": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "강남구 영유아 발달 정밀검사 지원",
+    "target": "강남구 영유아 건강검진 심화평가 권고 판정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-336000000280": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부산 강서구 입학 및 학습지원비 지원",
+    "target": "강서구 거주 초·중·고등학생 및 18세 이하 학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-341000000312": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "청년 사업자 임대료 지원",
+    "target": "중구 거주 만 19~39세 청년 사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000115": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 구강주치의 지원",
+    "target": "7세~19세 아동·청소년 (저소득층 우선)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-371000000105": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 아동·청소년 구강주치의 지원",
+    "target": "취약계층 아동·청소년 (지역아동센터, 수급자 등)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000103": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "출생아 육아용품 지원",
+    "target": "안양시 출생아",
+    "amount": "20~40만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000132": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지원",
+    "target": "경기도 거주 6.25 및 월남참전유공자",
+    "amount": "40만원",
+    "show": true,
+    "special": true
+  },
+  "g24-397000000101": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "과천시 신입생 교복비 지원",
+    "target": "과천시 거주 대안·타시도 중·고 신입생",
+    "amount": "40만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000112": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시흥시 신입생 교복비 지원",
+    "target": "시흥시 거주 대안·타시도 중·고 신입생",
+    "amount": "최대 40만원",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000503": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "자활참여자 건강검진 지원",
+    "target": "자활참여자 중 건강 취약계층 및 장기참여자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000117": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "의왕시 농업기계 수리비 지원",
+    "target": "의왕시 거주 농업인",
+    "amount": "40만원/년 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000154": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "무주택",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "의왕시 청년 이사비 지원",
+    "target": "의왕시 거주 무주택 청년 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000145": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급자 이사비용 지원",
+    "target": "삼척시 기초생활수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000170": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "대형농기계 수리비 지원",
+    "target": "관내 농업용 대형 농기계 소유 농업인",
+    "amount": "최대 40만원",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000148": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "청년근로자 연봉 지원",
+    "target": "보령시 5인 이상 제조업체 만 18~45세 근로자",
+    "amount": "연봉 4천만원 미만",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000127": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "아산시 농업기계 수리부품대금 지원",
+    "target": "아산시 거주 농업인",
+    "amount": "40만원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-554000000185": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "1인가구",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "청년 1인가구 최대 40만원 이사비 지원",
+    "target": "광주시 청년 무주택 1인 가구, 중위소득 150% 이하",
+    "amount": "최대 40만원",
+    "show": true,
+    "special": false
+  },
+  "g24-559000000102": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "대안교육기관 등 학생 교복비 최대 40만원 지원",
+    "target": "관내 대안교육기관 신입생, 타 시도 정규 중·고 신입생",
+    "amount": "최대 40만원",
+    "show": true,
+    "special": false
+  },
+  "g24-568000000124": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "첫째아 산모·신생아 건강관리 본인부담금 지원",
+    "target": "기준중위소득 150% 초과 첫째아 출산가정",
+    "amount": "본인부담금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00047900006": {
+    "category": "복지",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "청소년 심리상담 및 검사 지원",
+    "target": "구리 관내 거주 또는 재학 만 9세~24세 청소년·학부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-314000000271": {
+    "category": "복지",
+    "tags": [
+      "1인가구",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "결식우려 1인가구 밑반찬 지원",
+    "target": "사회적 고립가구 중 결식우려 1인가구",
+    "amount": "밑반찬 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-390000000430": {
+    "category": "복지",
+    "tags": [
+      "어린이",
+      "청소년"
+    ],
+    "support_type": "현금",
+    "summary": "어린이·청소년 대중교통비 지원",
+    "target": "광명시 거주 9세~18세 어린이·청소년",
+    "amount": "최대 한도 내",
+    "show": true,
+    "special": false
+  },
+  "g24-430000000145": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "원예·인삼농가 영농쓰레기 처리비 1톤당 36만원 지원",
+    "target": "관내 원예농산물 및 인삼재배 농가",
+    "amount": "1톤당 36만원",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000126": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "치매 진료비 및 약제비 본인부담금 지원",
+    "target": "예산군 거주 치매환자",
+    "amount": "월 3만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000133": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "3~5세 누리과정 보육료 월 26만원 지원",
+    "target": "어린이집 이용 3~5세 아동",
+    "amount": "월 26만원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000156": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양파재배 종자 및 멀칭비닐 지원",
+    "target": "관내 양파 재배희망 농가 및 작목반",
+    "amount": "종자·멀칭비닐",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000111": {
+    "category": "건강",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "현금",
+    "summary": "60세 이상 치매환자 약제비 본인부담금 지원",
+    "target": "60세 이상 치매치료제 복용 치매환자",
+    "amount": "월 3만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-492000000141": {
+    "category": "건강",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "현금",
+    "summary": "치매환자 치매치료관리비 지원",
+    "target": "보건소 등록 60세 이상 치매환자",
+    "amount": "본인부담금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000110": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "치매환자 치매치료관리비 본인부담금 지원",
+    "target": "기준 중위소득 140% 이하 치매환자",
+    "amount": "월 3만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000106": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "치매환자 치매치료관리비 본인부담금 지원",
+    "target": "가구원소득 140% 이상 치매환자",
+    "amount": "월 3만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-546000000133": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "치매감별검사비 및 치매치료관리비 지원",
+    "target": "기준 중위소득 120% 이하 치매환자",
+    "amount": "검사비·본인부담금",
+    "show": true,
+    "special": false
+  },
+  "g24-558000000108": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "재가정신질환자 약제비 월 3만원 지원",
+    "target": "계룡시 거주 정신질환자",
+    "amount": "월 3만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000144": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 월 35만원 지원",
+    "target": "논산시 거주 6.25 참전유공자",
+    "amount": "월 35만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001775": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 90% 지원",
+    "target": "도봉구 6개월 이상 거주 산모",
+    "amount": "90%(최대 35만원)",
+    "show": true,
+    "special": false
+  },
+  "g24-309000000138": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 90% 지원",
+    "target": "도봉구 6개월 이상 거주 출산가정",
+    "amount": "90%(최대 35만원)",
+    "show": true,
+    "special": false
+  },
+  "g24-313000000128": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "구민안전보험 장례비·의료비 보장",
+    "target": "마포구 주민등록 모든 구민",
+    "amount": "장례비 1천만원, 의료비 35만원",
+    "show": true,
+    "special": false
   }
 }
