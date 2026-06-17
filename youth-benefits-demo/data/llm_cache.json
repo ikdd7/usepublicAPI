@@ -16226,5 +16226,218 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-401000000495": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 보장구 부품비 연 25만원 한도 지원",
+    "target": "등록 장애인 및 일반 시민",
+    "amount": "연 25만원 한도",
+    "show": true,
+    "special": true
+  },
+  "g24-305000000132": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "유기동물 입양비 지원",
+    "target": "동대문구 유기동물 입양자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-315000000107": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 이동보조기기 수리비 지원",
+    "target": "강서구 거주 등록장애인(65세 이상)",
+    "amount": "연 25만원",
+    "show": true,
+    "special": true
+  },
+  "g24-319000000136": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "유실·유기동물 입양비 지원",
+    "target": "동작구 지정 동물보호센터 유실·유기동물 입양자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000313": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "유기동물 입양비 최대 25만원 지원",
+    "target": "관악구 지정 유기동물 보호센터 유기동물 입양자",
+    "amount": "최대 25만원",
+    "show": true,
+    "special": false
+  },
+  "g24-333000000370": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "해운대구 노인 성인용 보행기 지원",
+    "target": "해운대구 65세 이상 저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-370000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 및 국가보훈대상자 명예수당 지급",
+    "target": "울산 남구 거주 65세 이상 참전유공자·보훈대상자",
+    "amount": "월 15~25만원",
+    "show": true,
+    "special": true
+  },
+  "g24-394000000102": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 이동용 보장구 수리비 지원",
+    "target": "고양시 거주 등록 장애인",
+    "amount": "연 10~25만원",
+    "show": true,
+    "special": true
+  },
+  "g24-401000000110": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "외국인 아동 보육료 차등 지원",
+    "target": "시흥시 거주 만0~5세 외국인 아동",
+    "amount": "월 13~25만원",
+    "show": true,
+    "special": false
+  },
+  "g24-409000000108": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "북한이탈주민 건강검진 비용 지원",
+    "target": "김포시 거주 북한이탈주민 40명",
+    "amount": "25만원 상당",
+    "show": true,
+    "special": true
+  },
+  "g24-409000000157": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "북한이탈주민 자녀 학습비 지원",
+    "target": "김포시 거주 만4세~고등학생 북한이탈주민 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-430000000136": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 학용품비 10만원 지원",
+    "target": "초·중·고 가정위탁아동",
+    "amount": "10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-444000000594": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전입세대 25만원 상당 지원",
+    "target": "타 시군구 1년 이상 거주 후 전입 세대",
+    "amount": "25만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000134": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 및 유족 명예수당 지급",
+    "target": "음성군 거주 참전유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-447000000135": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 보훈 명예수당 월 25만원 지원",
+    "target": "음성군 거주 독립유공자 및 유족",
+    "amount": "월 25만원",
+    "show": true,
+    "special": true
+  },
+  "g24-447000000136": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 보훈 예우 수당 지급",
+    "target": "국가보훈대상자, 특수임무유공자 및 유족",
+    "amount": "월 18~25만원",
+    "show": true,
+    "special": true
+  },
+  "g24-452000000135": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "선천성 갑상선기능저하증 환아 의료비 지원",
+    "target": "만 19세 미만 선천성 갑상선기능저하증 환아",
+    "amount": "최대 25만원",
+    "show": true,
+    "special": true
+  },
+  "g24-467000000110": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 보장구 수리 지원",
+    "target": "군산시 거주 등록 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-471000000107": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "임산부 출산축하용품 및 상품권 지원",
+    "target": "김제시 거주 임산부",
+    "amount": "25만원",
+    "show": true,
+    "special": false
+  },
+  "g24-474100000035": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째아 이상 출산가정 육아용품 구입비 지원",
+    "target": "무주군 셋째아 이상 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
