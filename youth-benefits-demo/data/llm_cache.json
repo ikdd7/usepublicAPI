@@ -17065,5 +17065,933 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-517000000101": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 및 국가유공자 사망위로금 30만원 지급",
+    "target": "참전유공자 및 국가유공자(유족)의 배우자 또는 유가족",
+    "amount": "300,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-518000000105": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 유족에게 30만원 지급",
+    "target": "보훈처 등록 참전유공자 중 사망자의 유족",
+    "amount": "30만원",
+    "show": true,
+    "special": true
+  },
+  "g24-519000000116": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 및 국가보훈대상자 사망위로금 지원",
+    "target": "청도군 조례 유공자 본인 또는 수급권자 사망 시",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-520000000113": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "보훈대상자 사망 시 사망위로금 30만원 지원",
+    "target": "참전명예수당, 보훈예우수당, 미망인 복지수당 수급자 사망 시",
+    "amount": "30만원",
+    "show": true,
+    "special": true
+  },
+  "g24-522000000131": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "칠곡군 중·고 신입생 교복구입비 지원",
+    "target": "칠곡군 거주 중·고등학교 1학년 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000119": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "봉화군 귀농인 교육훈련비 최대 30만원 지원",
+    "target": "봉화군 전입 귀농인",
+    "amount": "최대 30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000123": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자 등 예우 및 지원 관련 사망위로금 지원",
+    "target": "관내 거주 국가유공자 및 유족 사망 시",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-524000000176": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "봉화군 효행가정에 효행장려수당 지원",
+    "target": "봉화군 거주 3세대 이상 효행가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-525000000104": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 유족에게 30만원 지급",
+    "target": "참전유공자 사망 시 유족",
+    "amount": "30만원",
+    "show": true,
+    "special": true
+  },
+  "g24-526000000118": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "울릉군 국가유공자 보훈수당 15만원, 참전수당 30만원 지급",
+    "target": "울릉군 거주 국가유공자 및 배우자",
+    "amount": "월 15만원, 30만원",
+    "show": true,
+    "special": true
+  },
+  "g24-535000000159": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만18세 미만 아토피천식 환아 의료비 지원",
+    "target": "취약계층 아토피천식 질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000167": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 수정란 이식 비용 50% 지원",
+    "target": "관내 한우 사육농가",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000175": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 월 30만원 양육비 지원",
+    "target": "가정위탁보호 선정 아동",
+    "amount": "월 30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000182": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "김해사랑상품권 7~13% 할인 판매",
+    "target": "김해사랑상품권 구입자",
+    "amount": "7~13%",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000610": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "밀양시 임신부에게 임신지원금 지급",
+    "target": "밀양시 거주 임신 20주 이상 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000219": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "정부미지원 어린이집 취사원 월 30만원 인건비 지원",
+    "target": "정부미지원 어린이집",
+    "amount": "월 30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000108": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "함안군 3대 이상 가정 효도수당 지원",
+    "target": "함안군 거주 3대 이상 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000101": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자 월 30만원, 27만원, 15만원 보훈명예수당 지급",
+    "target": "관내 거주 국가유공자",
+    "amount": "월 30만원, 27만원, 15만원",
+    "show": true,
+    "special": true
+  },
+  "g24-543000000115": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "남해군 장애인 보장구 수리비 연간 30만원 이내 지원",
+    "target": "남해군 거주 장애인",
+    "amount": "연간 30만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-544000000118": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 월 30만원, 27만원 참전명예수당 지급",
+    "target": "참전유공자 본인 및 유족, 배우자",
+    "amount": "월 30만원, 27만원",
+    "show": true,
+    "special": true
+  },
+  "g24-545000000107": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "2자녀이상 세대 대학생 학업장려금 30만원 지원",
+    "target": "만30세 이하 미혼 대학생",
+    "amount": "1인 최대 4회 30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-545000000108": {
+    "category": "일자리",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "기업체 근로자 전입지원금 30만원 지급",
+    "target": "관내 기업체 근로자",
+    "amount": "1인 30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-545000000109": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "초중고 전입학생 학업장려금 지원",
+    "target": "관내 초중고 재학 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-546000000108": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "예비·신혼부부 건강검진비 지원",
+    "target": "함양군 거주 예비·신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000134": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "아빠 육아휴직 장려금 지원",
+    "target": "거창군 거주 육아휴직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000138": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "전동보장구 수리비 연간 30만원 지원",
+    "target": "거창군 거주 전동보장구 사용 장애인",
+    "amount": "연간 30만원",
+    "show": true,
+    "special": true
+  },
+  "g24-553000000106": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득장애인 보장구 수리비 30만원 한도 지원",
+    "target": "화성시 거주 저소득 등록장애인",
+    "amount": "30만원 한도",
+    "show": true,
+    "special": true
+  },
+  "g24-554000000189": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "입양아동 입학준비금 30만원 이내 지원",
+    "target": "광주시 입양아동",
+    "amount": "30만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000102": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "결혼이민자 귀화 신청비용 지원",
+    "target": "여주시 거주 결혼이민자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000104": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "아빠 육아휴직 장려금 지원",
+    "target": "여주시 거주 중위소득 150% 이하 남성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000128": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "입영지원금 지급",
+    "target": "여주시 거주 병역의무이행대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000119": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보훈예우수당 및 명예수당 지원",
+    "target": "참전유공자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00058400002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화성시민 평생학습 수강료 30만원 지급",
+    "target": "화성시 거주 만19세 이상 시민",
+    "amount": "30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000125": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "청년 월 15~29만원 주거비 지원",
+    "target": "서천군 거주 무주택 청년",
+    "amount": "월 15~29만원",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000125": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "전주형 주거급여 지원",
+    "target": "전주시 거주 중위소득 60% 이하 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000138": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육보조금 지원",
+    "target": "가정위탁 보호조치된 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과실 장기저장제 등 지원",
+    "target": "청도군 거주 과수 재배 농업 경영체",
+    "amount": "33,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-490000000120": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "전기분무기 지원",
+    "target": "화순군 거주 농업인",
+    "amount": "군비 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000180": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁보호아동 양육수당 월 26만원 지원",
+    "target": "가정위탁 아동",
+    "amount": "월 26만원",
+    "show": true,
+    "special": false
+  },
+  "g24-351050000111": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "target": "기준중위소득 150% 이하 출산가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-354000000120": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "만 65세 이상 참전유공자 월 21~23만원 지급",
+    "target": "만 65세 이상 참전유공자",
+    "amount": "월 21~23만원",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000836": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁 아동 양육보조금 차등 지원",
+    "target": "가정위탁 결정 아동",
+    "amount": "월 15~23만원",
+    "show": true,
+    "special": true
+  },
+  "g24-568000000102": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장루요루 장애인 의료비 최대 23만원 지원",
+    "target": "중위소득 120% 이내 장루요루 장애인",
+    "amount": "최대 23만원",
+    "show": true,
+    "special": true
+  },
+  "g24-554000000103": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "셋째아 이상 출생아 양육비 지원",
+    "target": "광주시 셋째아 이상 출생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-341000000107": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 유족 위로금 10만원 지급",
+    "target": "참전유공자 유족",
+    "amount": "10만원",
+    "show": true,
+    "special": true
+  },
+  "g24-365000000103": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 유족 위로금 지급",
+    "target": "대전 중구 거주 참전유공자 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002843": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 유족 위로금 20만원 지급",
+    "target": "참전유공자 유족",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-331000000108": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 유족 위로금 20만원 지급",
+    "target": "참전유공자 유족",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-325000000108": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "부산 중구 거주 참전유공자 유족 사망 위로금 지급",
+    "target": "부산 중구 거주 65세 이상 참전유공자 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-324000000116": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "100세 이상 직계존속과 동거 가정 효행장려금 지급",
+    "target": "100세 이상 직계존속과 동거 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001945": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "동대문구 거주 국가보훈대상자 사망 위로금 지원",
+    "target": "동대문구 거주 국가보훈대상자 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-307000000114": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "성북구 거주 국가유공자 사망 시 위로금 20만원 지급",
+    "target": "성북구 거주 국가유공자 본인 또는 유족",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-454000000152": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "독립유공자 및 유족 월 20만원 지원",
+    "target": "독립유공자 및 유족",
+    "amount": "월 20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-374000000125": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 장애인 이사비 최대 20만원 지원",
+    "target": "기초수급 장애인",
+    "amount": "최대 20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-382000000143": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 보장구 수리비 최대 20만원 지원",
+    "target": "의정부시 거주 기초수급/차상위 장애인",
+    "amount": "최대 20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-398000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 88세 이상 구리시 거주 어르신 생일축하금 20만원 지급",
+    "target": "구리시 거주 만 88세 이상 어르신",
+    "amount": "20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000634": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "용인시 거주 장애인 보장구 수리비 최대 20만원 지원",
+    "target": "용인시 거주 등록 장애인",
+    "amount": "최대 20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000847": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "65세 이상 보훈대상자 월 20만원 보훈예우수당 지급",
+    "target": "65세 이상 보훈대상자",
+    "amount": "월 20만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001693": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보호대상아동 물품구입비 20만원 지원",
+    "target": "가정위탁, 위기가정 아동",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-491000000286": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장흥군 거주 사망자 화장 장려금 지원",
+    "target": "장흥군 거주 사망자 연고자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-313000000101": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 사망 시 유족에게 사망위로금 20만원 지급",
+    "target": "사망일 현재 마포구 거주 국가보훈대상자 유족",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-314000000101": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만100세 이상 부모 부양 가정에 효도수당 연 20만원 지급",
+    "target": "양천구 거주 만100세 이상 부모 부양 가정 세대주",
+    "amount": "연 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-314000000103": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "양천구 국가보훈대상자 사망 시 유족에게 사망위로금 20만원 지급",
+    "target": "사망일 현재 양천구 1년 이상 거주 보훈대상자 유족",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-314000000254": {
+    "category": "교육",
+    "tags": [
+      "구직중",
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "양천구 청년 국가자격시험 응시료 지원",
+    "target": "양천구 거주 19~39세 미취업 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-314000000264": {
+    "category": "복지",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "양천구 장기요양기관 요양보호사 처우개선 수당 지원",
+    "target": "양천구 소재 장기요양기관 근무 요양보호사",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-315000000106": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자 본인 및 유족에게 보훈예우수당 지급",
+    "target": "국가유공자법 등록 유공자 본인 및 선순위 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-316000000122": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "구로구 거주 국가보훈대상자 월 7만원 보훈예우수당 지급",
+    "target": "구로구 거주 국가보훈대상자",
+    "amount": "월 7만원",
+    "show": true,
+    "special": true
+  },
+  "g24-316000000151": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 반려동물 의료비 지원",
+    "target": "관내 거주 기초·차상위·한부모가족 반려동물 양육자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-316000000156": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "구로구 학교 밖 청소년 검정고시 합격축하금 지원",
+    "target": "구로구 거주 만9~24세 학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-318000000132": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "바우처",
+    "summary": "영등포 평생교육 바우처 지원",
+    "target": "영등포구 거주 19세 이상 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-318000000417": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "영등포구 취약계층 반려동물 진료비 지원",
+    "target": "영등포구 거주 기초·차상위·한부모가족 반려동물 양육자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000108": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "동작구 국가보훈대상자 사망 시 유족에게 사망위로금 지급",
+    "target": "동작구 거주 국가보훈대상자 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-319000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기준 중위소득 140% 이하 아동·청소년 정서발달지원 서비스",
+    "target": "만6~18세 아동·청소년",
+    "amount": "월 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000121": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기준 중위소득 160% 이하 아동·청소년 심리지원 서비스",
+    "target": "만18세 이하 아동·청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000164": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "동작구 출산축하용품 구입비 지원",
+    "target": "동작구 거주 신생아 부모",
+    "amount": "5~20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000119": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "관악구 거주 국가유공자 월 8만원 보훈예우수당 지급",
+    "target": "관악구 거주 국가유공자 본인 및 선순위 유족",
+    "amount": "월 8만원",
+    "show": true,
+    "special": true
+  },
+  "g24-320000000121": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "관악구 거주 국가보훈대상자 사망 시 유족에게 사망위로금 20만원 지급",
+    "target": "관악구 1년 이상 거주 국가보훈대상자 유족",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-321000000110": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "서초구 기초생활수급자 관내 이사비용 최대 20만원 지원",
+    "target": "서초구 거주 생계·의료급여 수급가구",
+    "amount": "최대 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-324000000107": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "강동구 다자녀가정 월 10~20만원 장려금 지원",
+    "target": "강동구 거주 막내 만6세 미만 다자녀가정",
+    "amount": "월 10~20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-325000000249": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부산 중구 초등 입학생 1인당 20만원 입학준비금 지원",
+    "target": "부산 중구 거주 초등학교 입학생",
+    "amount": "1인당 20만원",
+    "show": true,
+    "special": false
   }
 }
