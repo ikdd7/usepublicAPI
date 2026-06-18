@@ -19846,5 +19846,441 @@
     "amount": "월 20만원, 최대 12개월",
     "show": true,
     "special": false
+  },
+  "g24-374000000596": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "사회적 약자 반려동물 진료비 지원",
+    "target": "수원시 거주 사회적 취약가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-390000000127": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "광명시 노인 대중교통비 지원",
+    "target": "광명시 거주 만 65세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000512": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시흥시 어르신 기본교통비 지원",
+    "target": "시흥시 거주 만 65세 이상 어르신",
+    "amount": "분기별 최대 4만원",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000843": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "충주시 벼 영농자재 지원",
+    "target": "충주시 거주 0.1ha 이상 논농사 경작 농가",
+    "amount": "최대 160,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-327000000113": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "동구 여성청소년 보건위생용품 지원",
+    "target": "부산 동구 거주 11~18세 여성청소년",
+    "amount": "월 13,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-350000000117": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "바우처",
+    "summary": "여성청소년 생리용품 구매비용 지원",
+    "target": "9~24세 여성청소년 중 수급자, 차상위, 한부모",
+    "amount": "연 최대 156,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-422000000117": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청소년 및 다자녀가정 여성 보건위생물품 지원",
+    "target": "만 11~18세 여성청소년, 3자녀 이상 가정 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-479000000128": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부안군 여성청소년 생리용품 지원",
+    "target": "부안군 거주 11~18세 여성청소년",
+    "amount": "월 13,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000844": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 배우자 복지수당 지원",
+    "target": "사망한 참전유공자의 배우자",
+    "amount": "월 15만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001408": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 사망 위로금 지급",
+    "target": "보훈명예수당 수급자 중 사망자 유가족",
+    "amount": "15만원",
+    "show": true,
+    "special": true
+  },
+  "g24-311000000117": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "은평구 둘째이상 출산가정 출산용품 지원",
+    "target": "은평구 거주 둘째이상 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-318000000432": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영등포구 유실·유기동물 입양비 지원",
+    "target": "영등포구 지정 동물보호센터 입양 희망자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000102": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관악구 근로 청년 통장 지원",
+    "target": "만 18~34세 근로 청년",
+    "amount": "100% 매칭 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-331000000105": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "동래구 대학생 학숙 운영 지원",
+    "target": "동래구 거주 수도권 대학 신입생·재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000400": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 60세 이상 치매진단 검사비 지원",
+    "target": "만 60세 이상, 중위소득 120% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-362000000108": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "북구 참전유공자 사망 위로금 지급",
+    "target": "북구 거주 만 65세 이상 참전유공자 유가족",
+    "amount": "15만원",
+    "show": true,
+    "special": true
+  },
+  "g24-382000000134": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 사망 위로금 지원",
+    "target": "보훈명예수당 지급 대상자 유가족",
+    "amount": "15만원",
+    "show": true,
+    "special": true
+  },
+  "g24-383000000107": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "안양시 국가보훈대상자 보훈명예수당 지원",
+    "target": "안양시 국가보훈대상자",
+    "amount": "월 12만원",
+    "show": true,
+    "special": false
+  },
+  "g24-399000000115": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 보훈명예수당 지원",
+    "target": "국가보훈대상자 및 유족",
+    "amount": "월 6~10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000121": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시흥시 국가보훈대상자 사망 위로금 지원",
+    "target": "시흥시 거주 국가보훈대상자 유가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-408000000525": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 월 10만원~15만원 지급",
+    "target": "만 60세 이상 국가보훈대상자",
+    "amount": "월 10만원~15만원",
+    "show": true,
+    "special": true
+  },
+  "g24-414000000108": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "보행불편자 보행보조기 구입비 50% 지원",
+    "target": "65세 이상 요양등급 외 A,B, 저소득 보행불편자",
+    "amount": "최대 15만원",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000448": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "사망참전유공자 배우자 복지수당 지급",
+    "target": "연천군 거주 사망참전유공자 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-417000000108": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 60세 이상 치매환자 진단·감별검사 지원",
+    "target": "기준중위소득 120% 이하 만 60세 이상 치매환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-418000000251": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "학교 밖 청소년 자기개발 지원금 월 5만원 지급",
+    "target": "강원도 거주 1년 이상 학교 밖 청소년",
+    "amount": "월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000144": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "아토피·천식 환자 보습제 지원",
+    "target": "제천시민 중 아토피, 천식 진단 또는 소견자",
+    "amount": "연 1회",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000116": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 60세 이상 치매 조기검진비 지원",
+    "target": "기준 중위소득 120% 이하 만 60세 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000134": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자 보훈명예수당 월 15만원 지급",
+    "target": "참전유공자 제외 국가유공자",
+    "amount": "월 15만원",
+    "show": true,
+    "special": true
+  },
+  "g24-453000000170": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "1930년 이전 출생 노인 장수수당 지급",
+    "target": "1930년 이전 출생, 관내 1년 이상 거주 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000120": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자 본인·유족 보훈명예수당 지급",
+    "target": "순국선열·전몰군경·순직군경 유족 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-459000000102": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 출산축하용품 15만원 상당 지원",
+    "target": "임신 32주~출산 후 1개월 청양군 임산부",
+    "amount": "15만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000142": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째아 이상 양육가정 월 15만원 지원",
+    "target": "생후 27개월 이하 셋째아 이상 자녀 양육 가정",
+    "amount": "월 15만원",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000112": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 보훈명예수당 월 15만원 지급",
+    "target": "예산군 거주 국가보훈대상자",
+    "amount": "월 15만원",
+    "show": true,
+    "special": true
+  },
+  "g24-461000000117": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산축하바구니 및 상품권 15만원 지원",
+    "target": "신생아 출생일 기준 부모 6개월 이상 거주 가정",
+    "amount": "15만원",
+    "show": true,
+    "special": false
+  },
+  "g24-469100000021": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "유기동물 입양 펫보험 가입비 15만원 지원",
+    "target": "정읍시 유실·유기동물 입양자",
+    "amount": "15만원",
+    "show": true,
+    "special": false
+  },
+  "g24-472100000002": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "치매검진비 지원",
+    "target": "만 60세 이상, 기준 중위소득 120% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-473000000114": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 보훈명예수당 지원",
+    "target": "국가보훈대상자 또는 사망 시 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-473000000131": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 60세 이상 치매 조기 검진비 지원",
+    "target": "관내 60세 이상, 중위소득 120% 초과자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000188": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임실군 출산가정 출산용품 지원",
+    "target": "임실군 출산가정",
+    "amount": "150,000원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000025": {
+    "category": "문화",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "기초생활수급자·차상위계층 문화누리카드 발급",
+    "target": "관내 6세 이상 기초생활수급자 및 차상위계층",
+    "amount": "연 15만원",
+    "show": true,
+    "special": false
   }
 }
