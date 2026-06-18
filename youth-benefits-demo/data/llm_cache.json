@@ -20282,5 +20282,1077 @@
     "amount": "연 15만원",
     "show": true,
     "special": false
+  },
+  "g24-420000000156": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 사망 시 위로금 20만원 지원",
+    "target": "관내 거주 국가유공자",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-420000000167": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 월 20만원 지원",
+    "target": "관내 거주 참전유공자",
+    "amount": "월 20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-422000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "다문화가족 국적 취득자 1인당 상품권 20만원 지급",
+    "target": "관내 1년 이상 거주 다문화 가족 국적 취득자",
+    "amount": "1인당 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000118": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "바우처",
+    "summary": "전입 고등학생 학기당 20만원 지원",
+    "target": "관내 고등학교 재학생",
+    "amount": "학기당 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000235": {
+    "category": "기타",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "모범음식점 상수도요금 및 수질검사 비용 지원",
+    "target": "관내 모범음식점",
+    "amount": "상수도요금 30%",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000247": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 배우자 월 20만원 지원",
+    "target": "사망 참전유공자 배우자",
+    "amount": "월 20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-431100000003": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화천군 전입 세대 1인당 20만원 지원",
+    "target": "타 지역에서 1년 이상 거주 후 1년 이상 실 거주 세대",
+    "amount": "1인당 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000237": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 월 20만원 양육보조금 지원",
+    "target": "가정위탁아동",
+    "amount": "월 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-433100000001": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "인제군 산모·신생아 건강관리 본인부담금 지원",
+    "target": "인제군 거주 산모",
+    "amount": "본인부담금",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000832": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 월 20만원 수당 지원",
+    "target": "독립유공자 및 유족",
+    "amount": "월 20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-440000000120": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장수수당 월 20만원 지원",
+    "target": "1년 이상 거주 1931년 이전 출생자",
+    "amount": "월 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000656": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "청년 가구 월세 최대 20만원 지원",
+    "target": "기준중위소득 180% 이하 청년 가구",
+    "amount": "월 최대 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-443000000123": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "전입자 1인당 20만원 지역화폐 지급",
+    "target": "타 지역 1년 이상 거주 후 6개월 이상 거주자",
+    "amount": "1인당 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-445000000118": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "효행장려금 월 5만원 지원",
+    "target": "4세대 이상 가정 효도대상자와 동거인",
+    "amount": "월 50,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-446000000128": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "전입자 1인당 20만원 상품권 지급",
+    "target": "타 지역 1년 이상 거주 후 6개월 이상 거주자",
+    "amount": "1인당 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000128": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "공주시 전입 고등·대학생 20만원 지원",
+    "target": "공주시 전입 고등·대학생",
+    "amount": "20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000162": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "청년 구직자 면접비 지원",
+    "target": "공주시 거주 18~45세 청년",
+    "amount": "면접비",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000135": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 장제보조비 20만원 지원",
+    "target": "사망 당시 보령시 거주 참전유공자",
+    "amount": "1회 20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-452000000107": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 월 20만원 양육보조금 지원",
+    "target": "만18세 미만 가정위탁 아동",
+    "amount": "월 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000396": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 교통비 등 시술 1차수 당 최대 20만원 지원",
+    "target": "광양시 거주 난임시술자",
+    "amount": "최대 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000133": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 유족 사망위로금 20만원 지급",
+    "target": "참전유공자 유족 및 관계인",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-486000000137": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "기준 중위소득 160% 이하 대상 지역사회서비스 지원",
+    "target": "기준 중위소득 160% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "구례군 한우·젖소 농가 수분조절재(톱밥) 50% 지원",
+    "target": "구례군 관내 한우·젖소 사육 농가",
+    "amount": "보조 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 99세 이상 장수노인 사망 시 장제비 20만원 지원",
+    "target": "만 99세 이상 장수노인",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-487000000106": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 99세 이상 장수노인 생신상 차림비 20만원 지원",
+    "target": "만 99세 이상 장수노인",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-487000000123": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 유족 사망위로금 20만원 지원",
+    "target": "참전유공자 미망인 또는 유족",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-487000000144": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 유족 사망위로금 20만원 지원",
+    "target": "국가보훈대상자 유족",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-488000000103": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "고흥군 출산가정 신생아 백일사진 촬영권 지원",
+    "target": "고흥군 거주 출산가정",
+    "amount": "20만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000139": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "고흥군 전입 36개월 미만 영아 월 20만원 지원",
+    "target": "고흥군 전입 36개월 미만 영아",
+    "amount": "월 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-490000000113": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "화순군 신생아 건강관리비 20만원 지원",
+    "target": "화순군 거주 신생아 가정",
+    "amount": "20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-490000000124": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 등 보훈수당 및 참전명예수당 지원",
+    "target": "국가유공자, 특수임무유공자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-491000000113": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장흥군 참전유공자 월 11만원 등 지원",
+    "target": "장흥군 거주 65세 이상 참전유공자",
+    "amount": "월 11만원",
+    "show": true,
+    "special": true
+  },
+  "g24-492000000112": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "강진군 참전유공자 등 보훈 관련 수당 지원",
+    "target": "강진군 거주 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-493000000144": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "해남군 참전유공자 등 보훈예우 및 참전명예수당 지원",
+    "target": "해남군 거주 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-493000000303": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "해남군 장애인 보조기기 수리비 연 20만원 지원",
+    "target": "해남군 거주 장애인",
+    "amount": "연 20만원 이내",
+    "show": true,
+    "special": true
+  },
+  "g24-493000000320": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "해남군 2025년 이후 출생아 키움수당 지원",
+    "target": "해남군 거주 2025년 이후 출생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000133": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영암군 참전유공자 월 15만원 등 지원",
+    "target": "영암군 거주 6.25·월남전 참전유공자",
+    "amount": "월 15만원",
+    "show": true,
+    "special": true
+  },
+  "g24-494000000143": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영암군 65세 이상 국가유공자 월 10만원 등 지원",
+    "target": "영암군 거주 65세 이상 국가유공자",
+    "amount": "월 10만원",
+    "show": true,
+    "special": true
+  },
+  "g24-496000000123": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 초중고생 책가방 구입비 20만원 지원",
+    "target": "저소득 가정 초중고생",
+    "amount": "1인 20만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000106": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 보장구 수리비용 연간 최대 20만원 지원",
+    "target": "관내 등록 장애인",
+    "amount": "연간 20만원 이내",
+    "show": true,
+    "special": true
+  },
+  "g24-570000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "노인 성인용 보행기 구입비 최대 20만원 지원",
+    "target": "65세 이상 노인, 장기요양등급외 A,B,C 판정자, 기초생활수급 또는 차상위계층",
+    "amount": "최대 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000172": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "미니태양광 보급 지원",
+    "target": "안양시 소재 공동주택, 단독주택 (체납자 제외)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-316000000153": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아동·청소년 심리지원 서비스 제공",
+    "target": "기준 중위소득 140% 이하 가정의 만 18세 이하 아동·청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005060": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "어르신 목욕비 및 이미용비 월 17,000원 지원",
+    "target": "정선군 노인",
+    "amount": "월 17,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000178": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "시각장애인 안마 서비스 제공",
+    "target": "기준 중위소득 140% 이하, 만 60세 이상 또는 등록 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000181": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "성인장애인 맞춤운동 서비스 제공",
+    "target": "기준 중위소득 140% 이하 가구의 19세 이상 장애인",
+    "amount": "140,000원~180,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000134": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아동청소년 심리지원 서비스 제공",
+    "target": "기준 중위소득 140% 이하, 만 18세 이하 아동·청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-315000000289": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정용 음식물처리기 구매 지원",
+    "target": "서울특별시 강서구 거주 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-329000000104": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 월 18만원 지원",
+    "target": "부산진구 거주 65세 이상 참전유공자",
+    "amount": "월 18만원",
+    "show": true,
+    "special": true
+  },
+  "g24-335000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "학교 밖 청소년 교통비 연 18만원 지원",
+    "target": "금정구 거주 13세~18세 학교 밖 청소년",
+    "amount": "연 180,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000120": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시흥시민 교통비 추가 지원",
+    "target": "시흥시 거주 6세~18세",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000144": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 재배농가 상토 18만원/ha 지원",
+    "target": "관내 벼 재배농가 (육묘용 못자리 직접 설치)",
+    "amount": "18만원/ha",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001602": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "독거노인 이미용비 월 17,000원 지원",
+    "target": "기초생활 수급 독거노인",
+    "amount": "월 17,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-416000000108": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "가평보훈명예수당 지원",
+    "target": "가평군 거주 국가유공자 본인 또는 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-416000000114": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "가평참전명예수당 지원",
+    "target": "가평군 거주 6.25 및 월남전 참전용사",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-357000000124": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "여성청소년 위생용품 월 14,000원 지원",
+    "target": "강화군 거주 만 9세~18세 여성청소년",
+    "amount": "월 14,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000375": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "여성청소년 보건위생용품 지원",
+    "target": "광양시 거주 15세~18세 여성청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000110": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "보훈명예수당 지원",
+    "target": "국가보훈대상자 및 수권유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004961": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 월세 최대 16만원씩 12개월 지원",
+    "target": "남원시 거주 월세 거주 청년",
+    "amount": "최대 16만원",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000112": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 명절 위로금 지원",
+    "target": "여수시 거주 국가유공자",
+    "amount": "명절 위로금",
+    "show": true,
+    "special": true
+  },
+  "g24-481000000125": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의사상자 명절 위로금 지원",
+    "target": "여수시 거주 의사자 유족 및 의상자",
+    "amount": "150,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-484000000101": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 월 15만원 명예수당 지원",
+    "target": "광양시 거주 65세 이상 참전유공자",
+    "amount": "월 15만원",
+    "show": true,
+    "special": true
+  },
+  "g24-484000000113": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 명예수당 지원",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-484000000152": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "발달장애인 자격증 취득비용 지원",
+    "target": "관내 거주 18~65세 미만 발달장애인",
+    "amount": "15만원 한도",
+    "show": true,
+    "special": true
+  },
+  "g24-494000000126": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부·다자녀 무주택 가구 이자 지원",
+    "target": "영암군 거주 무주택 신혼부부·다자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000142": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산농가 애경사·사고 시 도우미 지원",
+    "target": "축산업 허가·등록 전 축종 사육농가",
+    "amount": "최대 15만원/일",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000151": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 혈통관리·인공수정액 지원",
+    "target": "축산업 허가등록 한우농가",
+    "amount": "1만원/두",
+    "show": true,
+    "special": false
+  },
+  "g24-502000000250": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산가정 출산축하박스 지원",
+    "target": "포항시 거주 출산 가정",
+    "amount": "15만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-534000000128": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "치매 검사비 지원",
+    "target": "중위소득 120% 이하 만 60세 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000223": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "동 지역 어린이집 차량운영비 지원",
+    "target": "동 지역 소재 통학차량 운영 어린이집",
+    "amount": "월 15만원",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000102": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째 이상 출생아 양육수당 지원",
+    "target": "군 거주 셋째 이상 출생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-560000000124": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "결핵환자 입원·약제비 지원",
+    "target": "입원·격리치료 명령 결핵환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-571000000116": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째 이상 자녀 양육지원금 지원",
+    "target": "청주시에 주민등록된 셋째 이상 신생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "논콩 재배단지 조류피해 방지망 지원",
+    "target": "1,000㎡ 이상 논콩 재배단지",
+    "amount": "구입비의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000105": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "어르신 이미용·목욕권 지원",
+    "target": "70세 이상 기초생계급여 수급자",
+    "amount": "12,000원/월",
+    "show": true,
+    "special": true
+  },
+  "g24-447000000106": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만3~5세 부모부담 보육료 차액 지원",
+    "target": "관내 정부미지원 어린이집 만3~5세 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-445000000127": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만3~5세 민간·가정 어린이집 보육료 지원",
+    "target": "민간·가정 어린이집 만3~5세 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000166": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "예비엄마 건강검진 쿠폰 지원",
+    "target": "등본상 아산시 거주 예비엄마",
+    "amount": "14만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000132": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자 등 보훈수당 지원",
+    "target": "국가유공자, 유족 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-475000000214": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장수군 65세 이상 노인 이·미용비 지원",
+    "target": "장수군 거주 65세 이상 노인",
+    "amount": "연 120,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000132": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "구례군 여성청소년 위생용품 지원",
+    "target": "구례군 거주 11~18세 여성청소년",
+    "amount": "연 12만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-490000000117": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "둘째아 이상 출산여성 산후 보약 지원",
+    "target": "둘째아 이상 출산여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "완도군 순·전몰군경 자녀수당 지급",
+    "target": "완도군 거주 순·전몰군경 자녀",
+    "amount": "월 12만원",
+    "show": true,
+    "special": true
+  },
+  "g24-499000000112": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "완도군 65세 이상 국가유공자 명예수당 지급",
+    "target": "완도군 거주 65세 이상 국가유공자",
+    "amount": "월 12만원",
+    "show": true,
+    "special": true
+  },
+  "g24-499000000114": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "완도군 65세 이상 참전유공자 명예수당 지급",
+    "target": "완도군 거주 65세 이상 참전유공자",
+    "amount": "월 12만원",
+    "show": true,
+    "special": true
+  },
+  "g24-499000000131": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "완도군 65세 이상 국가유공자 미망인 유족수당 지급",
+    "target": "완도군 거주 65세 이상 국가유공자 미망인",
+    "amount": "월 12만원",
+    "show": true,
+    "special": true
+  },
+  "g24-499000000146": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "완도군 65세 이상 참전유공자 미망인 유족수당 지급",
+    "target": "완도군 거주 65세 이상 참전유공자 미망인",
+    "amount": "월 12만원",
+    "show": true,
+    "special": true
+  },
+  "g24-523000000130": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "무인항공 이용 공동방제 병해충 방제비 지원",
+    "target": "농업인",
+    "amount": "ha당 120,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000137": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자 보훈예우수당 지원",
+    "target": "국가유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-568000000101": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "당진시 저소득주민 월동난방비 지원",
+    "target": "당진시 거주 수급자, 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00102400007": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "기타"
+    ],
+    "support_type": "서비스",
+    "summary": "김제시 학교밖청소년 지평선나눔스터디 지원",
+    "target": "김제시 거주 교육급여, 기준중위 50%이하 학교밖청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-327000000101": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "동구 어린이집 입학축하금 지원",
+    "target": "동구 거주 어린이집 입학 영유아",
+    "amount": "11만원",
+    "show": true,
+    "special": false
+  },
+  "g24-351050000132": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "미추홀구 65세 이상 국가보훈대상자 보훈예우수당 지원",
+    "target": "미추홀구 거주 65세 이상 국가보훈대상자",
+    "amount": "월 11만원",
+    "show": true,
+    "special": true
+  },
+  "g24-468000000127": {
+    "category": "육아",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "익산시 2세 미만 영아 기저귀·조제분유 지원",
+    "target": "기준중위 80~100% 이하 2세 미만 영아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000118": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "치매 검사비 지원",
+    "target": "만 60세 이상, 중위소득 120% 초과자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-400000000107": {
+    "category": "육아",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "오산시 어린이집 입학준비금 지원",
+    "target": "오산시 거주 저소득층, 생애최초 어린이집 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000119": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "울산 북구 출산축하용품 지원",
+    "target": "울산 북구 거주 출산아 부모",
+    "amount": "10만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-340000000112": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "기장군 어린이집 신입생 입학준비금 지원",
+    "target": "기장군 거주 2019년 이후 입학 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
