@@ -18918,5 +18918,235 @@
     "amount": "20만원",
     "show": true,
     "special": false
+  },
+  "g24-497000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급자 자녀 수학여행비 및 체험학습비 지원",
+    "target": "기초생활보장수급자 자녀",
+    "amount": "최대 100,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-498000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 보훈명예수당 지원",
+    "target": "국가유공자 본인 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-499000000102": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임산부 교통비 20만원 지원",
+    "target": "관내 6개월 이상 거주 임산부",
+    "amount": "20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000104": {
+    "category": "복지",
+    "tags": [
+      "운수종사자"
+    ],
+    "support_type": "현금",
+    "summary": "고령운전자 면허 반납 인센티브 지원",
+    "target": "완도군 거주 70세 이상 고령자",
+    "amount": "20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "진도군 전입자 전입장려금 지원",
+    "target": "타시군구 1년 이상 거주 후 진도군 전입자",
+    "amount": "최대 30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000123": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경단지 볏짚환원 장려금 지원",
+    "target": "친환경 벼 재배 농업인 및 단지",
+    "amount": "20만원/ha",
+    "show": true,
+    "special": false
+  },
+  "g24-508000000694": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "구미시 난임부부 마음건강 지원",
+    "target": "난임부부 시술비 지원 결정 통지자",
+    "amount": "심리상담, 문화상품권",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전명예수당 지급",
+    "target": "국가유공자 중 참전유공자",
+    "amount": "월 15만원, 월 20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-510000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전입자 전입지원금 및 쓰레기봉투 지급",
+    "target": "전입 전 1년 이상 타지역 거주자",
+    "amount": "20만원, 쓰레기봉투",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000113": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족 자녀 교복비 지원",
+    "target": "저소득 한부모·조손가족 자녀",
+    "amount": "20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000121": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임산부 산전·산후관리 의료비 지원",
+    "target": "상주시 등록 임신부",
+    "amount": "최대 200,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000113": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "표고 원목·톱밥배지, 호두 묘목 구입비 지원",
+    "target": "관내 표고·호두 생산자",
+    "amount": "구입비",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000140": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임신 및 출산 축하선물 지원",
+    "target": "임산부등록자, 출산가정",
+    "amount": "축하선물",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000118": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지급",
+    "target": "영덕군 거주 65세 이상 참전유공자",
+    "amount": "월 16만원, 월 20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-519000000113": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 전동보장구 수리비 지원",
+    "target": "관내 등록 장애인",
+    "amount": "수리비의 80~90%",
+    "show": true,
+    "special": false
+  },
+  "g24-525000000121": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층가구 주거청결 서비스 지원",
+    "target": "수급자, 차상위, 거동불편 가구 등",
+    "amount": "주거청결 서비스",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000107": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애진단 수진 교통비 지원",
+    "target": "울릉군 거주 등록 장애인",
+    "amount": "20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000134": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "진주시 난임부부 진단비 지원",
+    "target": "진주시 거주, 혼인 1년 이상 부부",
+    "amount": "진단비",
+    "show": true,
+    "special": false
+  },
+  "g24-534000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사천시 고령운전자 면허 반납 지원",
+    "target": "사천시 거주 70세 이상 운전자",
+    "amount": "인센티브",
+    "show": true,
+    "special": false
+  },
+  "g24-534000000199": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "사천시 난임부부 난임진단비 지원",
+    "target": "사천시 거주, 결혼 1년 이상 부부",
+    "amount": "난임진단비",
+    "show": true,
+    "special": false
   }
 }
