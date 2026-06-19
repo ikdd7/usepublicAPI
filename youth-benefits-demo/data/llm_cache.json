@@ -26671,5 +26671,465 @@
     "amount": "본인부담금(90%)",
     "show": true,
     "special": false
+  },
+  "g24-492000000108": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리사 원거리 교통비 지원",
+    "target": "산모·신생아 건강관리사",
+    "amount": "정액 20,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-490000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양돈분뇨 액비화 처리비 지원",
+    "target": "화순군 가축사육업 허가·등록 농가",
+    "amount": "톤당 6,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000335": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "삼광벼 계약재배 장려금 지원",
+    "target": "태안군 삼광벼 계약재배 농가",
+    "amount": "5,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-495000000435": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "만75세이상 어르신 목욕비 및 이·미용 지원",
+    "target": "무안군 거주 만75세이상 어르신",
+    "amount": "연 14매 (5,000원)",
+    "show": true,
+    "special": false
+  },
+  "g24-505000000134": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "수도요금 감면",
+    "target": "타지역전입자, 기초생활수급자, 다자녀 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-546000000112": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "함양군 거주 75세이상 고혈압·당뇨 약제비 지원",
+    "target": "함양군 거주 75세이상 고혈압·당뇨 환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-557000000250": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "증평군 군민안전보험 사망 보상금 지원",
+    "target": "증평군 주민",
+    "amount": "18,000천원",
+    "show": true,
+    "special": true
+  },
+  "g24-559000000453": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "양주골쌀 구매 할인 지원",
+    "target": "외식업체 및 급식소",
+    "amount": "정상가의 88% 수준",
+    "show": true,
+    "special": false
+  },
+  "g24-373000000127": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "만60세이상 고령농가 벼 육묘 지원",
+    "target": "울주군 거주 만60세이상 벼 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-421000000637": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "만65세이상 재가노인 식사 배달 지원",
+    "target": "만65세이상 노인",
+    "amount": "4,500원/1식",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000028": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "관내 유제품 학교급식 무상 지원",
+    "target": "관내 유치원, 초·중·고등학생",
+    "amount": "4,500원 내",
+    "show": true,
+    "special": false
+  },
+  "g24-378000000154": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "통합복지카드 신규 발급수수료 지원",
+    "target": "통합복지카드 신규 신청자",
+    "amount": "4,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000111": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 엽산제 및 철분제 지원",
+    "target": "예비부부, 임신준비부부, 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000131": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농산물 직거래 택배비 일부 지원",
+    "target": "횡성군 농업인, 농업법인",
+    "amount": "건당 4,000원 기준 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000116": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "화천군 거주 65세이상 어르신 목욕비 지원",
+    "target": "화천군 거주 65세이상 노인",
+    "amount": "월 4,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000320": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "아산시 거주 청년 면접 정장 대여 지원",
+    "target": "아산시 거주 18~39세 청년, 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00033500002": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "하수도요금 감면",
+    "target": "기초생활수급자, 국가보훈자, 다자녀, 장애인, 한부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000160": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "아산시 채소 재배농가 영농자재 지원",
+    "target": "아산시 채소 작물 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000107": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "나주시 고온성작물 시설하우스 기능성필름 지원",
+    "target": "나주시 거주 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-343000000126": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "어린이집 재원아동 간식비 지원",
+    "target": "관내 어린이집 재원아동",
+    "amount": "3,700원/월",
+    "show": true,
+    "special": false
+  },
+  "g24-567000000113": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "가축분뇨처리 톱밥 구입비 지원",
+    "target": "관내 가축사육업 등록 한우·젖소·돼지·닭·오리 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-421000000635": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "만 65세 이상 노인 무료 급식 지원",
+    "target": "만 65세 이상 노인",
+    "amount": "1식 3,500원",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000017": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과채류 양액시설 기자재 지원",
+    "target": "과채류 시설하우스 양액재배 시설농가",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000112": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 환자 약제비 3,000원 지원",
+    "target": "성북구 보건소 처방받은 등록 장애인",
+    "amount": "3,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-363000000237": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시민 점심 식사 1,000원~3,000원 지원",
+    "target": "돌봄취약계층 및 일반 시민",
+    "amount": "1,000원~3,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000120": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고혈압·당뇨 환자 등록비 3,000원 지원",
+    "target": "횡성군 거주 만 30세 이상 고혈압·당뇨 환자",
+    "amount": "3,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000108": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초수급자 상수도 요금 월 3,000원 감면",
+    "target": "국민기초생활보장 수급자",
+    "amount": "월 3,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-458000000105": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고혈압·당뇨병 환자 약제비 최대 3,000원 지원",
+    "target": "서천군 거주 만 65세 이상 고혈압·당뇨병 환자",
+    "amount": "최대 3,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000147": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "맞춤형 화학비료 지원",
+    "target": "광양시 거주 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000210": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 아동 급간식비 월 1만원 지원",
+    "target": "거제시 어린이집 재원 아동",
+    "amount": "월 1만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00032900004": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "아산시 생태곤충원 입장료 감면",
+    "target": "장애인, 65세 이상 아산시민 등",
+    "amount": "3,000원->2,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-O00031100001": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급자 하수도 요금 감면",
+    "target": "기초생활수급자 세대",
+    "amount": "10톤(2,660원)",
+    "show": true,
+    "special": true
+  },
+  "g24-432000000236": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "학생 통학 교통비 지원",
+    "target": "거주지서 학교 3km 이상 학생",
+    "amount": "1,600원~2,560원",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000176": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "서산6쪽마늘 생산 장려금 지원",
+    "target": "서산6쪽마늘 계약재배 및 수매 참여 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-490000000126": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "쌀 생산 농가 택배비 2,500원 지원",
+    "target": "화순군 주소 쌀 생산 농업인",
+    "amount": "2,500원",
+    "show": true,
+    "special": false
+  },
+  "g24-505000000119": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "경주시 주소 주거용 전기요금 지원",
+    "target": "경주 거주 기초수급자, 차상위, 국가유공자, 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-510000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "밭작물 폭염(가뭄) 피해 예방 지원",
+    "target": "영천시 거주 농업경영체 등록 밭작물 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-345000000105": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "대구 북구 최중증 장애인 활동지원",
+    "target": "대구 북구 거주 최중증 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-348000000346": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "시설원예 맞춤형 비료 2,000원 지원",
+    "target": "달성군 거주 시설원예 농업인",
+    "amount": "2,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-371000000110": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초수급자 쓰레기 종량제 봉투 지원",
+    "target": "생계·의료급여 수급자",
+    "amount": "월 1,800원~2,000원",
+    "show": true,
+    "special": true
   }
 }
