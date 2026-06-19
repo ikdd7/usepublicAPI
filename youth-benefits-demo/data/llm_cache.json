@@ -25295,5 +25295,1381 @@
     "amount": "25,000원",
     "show": true,
     "special": true
+  },
+  "g24-403000000168": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "어린이집 기자재 렌탈비 월 2.5만원 지원",
+    "target": "관내 어린이집",
+    "amount": "월 25,000원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000165": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "봉화군 감자재배농가 생육촉진제 지원",
+    "target": "봉화군 거주 감자재배농가",
+    "amount": "최대 25,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-567000000125": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 건강관리 용품 지원",
+    "target": "보건소 등록 임산부",
+    "amount": "주수별 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-316000000133": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만15세 이상 서울시민 암표지자 검사 지원",
+    "target": "만15세 이상 서울시민",
+    "amount": "23,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000128": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "청양군 저소득 노인·장애인 건보료 지원",
+    "target": "청양군 65세 이상 노인·장애인 세대",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-300000000102": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "종로구 저소득 노인·장애인 건보료 지원",
+    "target": "종로구 기준중위소득 60% 이하 노인·장애인 세대",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-356000000104": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 건보료 지원",
+    "target": "저소득 한부모가족",
+    "amount": "22,800원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000204": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "서산시 저소득 노인·장애인 건보료 지원",
+    "target": "서산시 최저보험료 이하 노인·장애인 세대",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000107": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "임실군 저소득 주민 건보료 지원",
+    "target": "임실군 최저보험료 미만 주민",
+    "amount": "22,800원",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000111": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인·장애인·한부모 건보료 지원",
+    "target": "저소득 노인·장애인·한부모 등",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-303000000106": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인·장애인 건보료 전액 지원",
+    "target": "저소득 차상위 노인·장애인 세대",
+    "amount": "월 22,340원 전액",
+    "show": true,
+    "special": false
+  },
+  "g24-308000000120": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건보료 지원",
+    "target": "기준중위소득 50% 이하 주민",
+    "amount": "22,340원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-309000000125": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만65세 이상 어르신 건보료 지원",
+    "target": "만65세 이상 어르신 세대",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000108": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 장애·노인 세대 건보료 지원",
+    "target": "저소득 장애·노인 세대",
+    "amount": "22,340원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-356000000109": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "서구 기초생활수급자 장애인 건보료 지원",
+    "target": "서구 기초생활수급자 장애인 세대",
+    "amount": "22,340원 미만",
+    "show": true,
+    "special": false
+  },
+  "g24-479000000118": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "부안군 저소득 노인·장애인·한부모 건보료 지원",
+    "target": "부안군 65세 이상 노인·장애인·한부모 세대",
+    "amount": "월 최저보험료 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000300": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "태안군 저소득 노인·장애인·한부모 건보료 지원",
+    "target": "태안군 최저보험료 이하 노인·장애인·한부모 세대",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000853": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "충주시 저소득 노인·한부모 목욕비 지원",
+    "target": "충주시 65세 이상 기초수급자·차상위·한부모",
+    "amount": "분기별 21,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000129": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인·장애인·한부모 가구 건보료 지원",
+    "target": "저소득 노인·장애인·한부모 가구",
+    "amount": "22,800원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-542000000129": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인·한부모·장애인 건보료 지원",
+    "target": "법정 차상위 노인·한부모·장애인 세대",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-316000000106": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급 노인 생신축하금 지원",
+    "target": "만 65세 이상 기초생계·의료 수급 노인",
+    "amount": "연 1회 20,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-330000000106": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 국가유공자 명절 격려금품 지원",
+    "target": "국가유공자 중 저소득층 회원",
+    "amount": "1회 20,000원 상당",
+    "show": true,
+    "special": true
+  },
+  "g24-357000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 농가 인공수정용 정액 비용 지원",
+    "target": "한우 사육 허가·등록 농가",
+    "amount": "두당 연 2회",
+    "show": true,
+    "special": false
+  },
+  "g24-423000000471": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 80세 이상 어르신 봉양자 수당 지급",
+    "target": "만 80세 이상 어르신 봉양자",
+    "amount": "월 20,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000169": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인연금 수급자 급여 지급",
+    "target": "장애인연금 수급자 중 기초수급·차상위계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-459000000140": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째 이후 영유아 차량운행비 지원",
+    "target": "청양군 거주 셋째 이후 0~5세 영유아",
+    "amount": "월 최대 20,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-471000000116": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 재원 아동 급간식비 지원",
+    "target": "김제시 어린이집 재원 아동",
+    "amount": "월 12,000~20,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000128": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "인삼 재배농가 생육조절제 지원",
+    "target": "임실군 관내 인삼 재배농가",
+    "amount": "병당 20,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000117": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "심한 장애인 교통비 지원",
+    "target": "심한 장애인",
+    "amount": "월 20,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-489000000106": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동세대 위로금 지원",
+    "target": "가정위탁아동세대",
+    "amount": "월 20,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000117": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "남해군 입원환자 간병비 지원",
+    "target": "남해군 거주 입원환자",
+    "amount": "일 20,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-560000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "포천시 장수수당 지급",
+    "target": "1943년 이전 출생 포천시 거주 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000143": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "건강보험료 19,780원 미만 노인·장애인·한부모 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000108": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부랑인(행려자) 귀가 지원",
+    "target": "관내 방문 후 곤란 겪는 부랑인(행려자)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000115": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "울릉군 65세 이상 어르신 목욕·이용권 지원",
+    "target": "울릉군 거주 65세 이상 어르신",
+    "amount": "월 18,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-343000000120": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 긴급활동지원 지급",
+    "target": "긴급 돌봄 필요한 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-326000000154": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째 이후 출생아 건강보험료 지원",
+    "target": "부산 서구 거주 셋째 이후 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-341000000104": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "만 6~65세 미만 등록장애인 추가 활동지원",
+    "target": "법정급여 외 추가지원 필요 등록장애인",
+    "amount": "월 120시간",
+    "show": true,
+    "special": true
+  },
+  "g24-378000000147": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인가구 건강보험료 지원",
+    "target": "건강보험료 15,970원 이하 노인가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000116": {
+    "category": "육아",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "양육공백 가정 아동 아이돌봄서비스 본인부담금 지원",
+    "target": "만 12세 이하 아동 대상 양육공백 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000172": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 최저 보험료 이하 세대 건강보험료 지원",
+    "target": "최저 보험료 이하 세대 중 노인, 장애인, 한부모",
+    "amount": "최저 15,640원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-316000000135": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 15세 이상 서울시민 갑상선 검사 지원",
+    "target": "만 15세 이상 서울시민",
+    "amount": "15,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-425000000630": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 노인 건강보험료 지원",
+    "target": "만 65세 이상 노인 세대",
+    "amount": "월 19,500원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-513000000110": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 어린이집 영유아 급간식비 지원",
+    "target": "관내 어린이집 이용 영유아(만0~5세)",
+    "amount": "15,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000107": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고혈압·당뇨병 환자 합병증 검사비 지원",
+    "target": "고혈압·당뇨병 진단 환자",
+    "amount": "본인부담금",
+    "show": true,
+    "special": false
+  },
+  "g24-538000000108": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임신부 태아 기형아 검사비 지원",
+    "target": "임신 14주~18주 임신부",
+    "amount": "최대 15,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-559000000114": {
+    "category": "환경·생활",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "주택밀집지역 축산농가 환경개선 지원",
+    "target": "관내 주택밀집지역 축산농가",
+    "amount": "15,000원/L",
+    "show": true,
+    "special": false
+  },
+  "g24-335000000103": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "65세 이상, 장애인, 한부모 세대",
+    "amount": "13,790원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-489000000132": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "여성청소년 생리용품 보편적 지원",
+    "target": "보성군 거주 13세~18세 여성청소년",
+    "amount": "월 13,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000186": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고혈압·당뇨병 환자 예방관리 지원",
+    "target": "고혈압, 당뇨 질환자",
+    "amount": "무료 검사 및 상담",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000134": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "전주시 수급자·장애인 수도요금 감면",
+    "target": "생계/의료급여 수급자, 중증장애인",
+    "amount": "월 6,450원",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000115": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "차상위 저소득층 건강보험료 지원",
+    "target": "태백시 지역가입자, 월 12,500원 이하",
+    "amount": "월 12,500원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000141": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어린이 국가예방접종 비용 지원",
+    "target": "12세 이하 어린이",
+    "amount": "접종비용",
+    "show": true,
+    "special": false
+  },
+  "g24-303000000325": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "성동구 청년 행정체험단 운영",
+    "target": "성동구 거주 19~29세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000172": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "19세 이상 성인 갑상선 기능 검사 지원",
+    "target": "19세 이상 성인",
+    "amount": "12,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-416000000105": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 고혈압·당뇨병 약제비 지원",
+    "target": "만 65세 이상 가평군민",
+    "amount": "월 12,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-520000000114": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노숙인 생활시설 입소자 건강 검진비 지원",
+    "target": "노숙인 생활시설 입소자",
+    "amount": "12,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-547000000131": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "우렁이농법 벼 재배 농가 제초용 우렁이 지원",
+    "target": "관내 우렁이농법 실천 벼 재배 농업인",
+    "amount": "15kg/ha",
+    "show": true,
+    "special": false
+  },
+  "g24-O00019700013": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "사문진유람선 이용요금 감면",
+    "target": "국빈, 외국 사절단, 공무수행자 등",
+    "amount": "면제",
+    "show": true,
+    "special": true
+  },
+  "g24-O00046500015": {
+    "category": "복지",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현물",
+    "summary": "학교 밖 청소년 급식비 지원",
+    "target": "고양시학교밖청소년지원센터 등록 만9~24세 학교 밖 청소년",
+    "amount": "1인 1식 12,000원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000109": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 아동 토·공휴일 급식 지원",
+    "target": "18세 미만 아동 중 결식 우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000112": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 아동 평일·방학 급식 지원",
+    "target": "18세 미만 아동 중 결식 우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-498000000107": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "아이돌봄서비스 본인부담금 지원",
+    "target": "관내 주민등록상 주소를 두고 시간제 아이돌봄서비스 이용하는 3개월~12세 이하 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-443000000132": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "결식 우려 아동 급식 지원",
+    "target": "결식 우려 18세 미만 취학 및 미취학 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000161": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "만 18세 이상 근로능력 있는 광진구민 행복일자리사업 지원",
+    "target": "만 18세 이상 근로능력 있는 광진구민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-303000000327": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "영유아 자녀 둔 서울시민 장난감·도서 대여 지원",
+    "target": "영유아 자녀를 둔 서울시민",
+    "amount": "연회비 10,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000150": {
+    "category": "교육",
+    "tags": [
+      "학생",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "광진구 거주 중·고등학생 강남인강 수강료 지원",
+    "target": "광진구 거주 또는 학교 재학 중인 중·고등학생",
+    "amount": "연 가입비 전액 또는 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-305000000148": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "생후 3개월 이상 개·고양이 광견병 예방접종 지원",
+    "target": "생후 3개월 이상 된 모든 개, 고양이를 기르는 가구",
+    "amount": "시술료 10,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-305000000296": {
+    "category": "교육",
+    "tags": [
+      "학생",
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "동대문구 중고등학생 강남인강 수강료 지원",
+    "target": "동대문구 거주 또는 동대문구 소재 학교 재학 중인 중고등학생",
+    "amount": "연 가입비 전액 또는 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000155": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성북구 거주 18세 이상 여성 대상 성북여성교실 운영",
+    "target": "성북구 거주 18세 이상 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000132": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 영유아 장난감나라 연회비 및 이용요금 면제",
+    "target": "기초생활수급자, 장애영유아, 2자녀이상, 한부모, 다문화, 국가유공자",
+    "amount": "연회비 면제",
+    "show": true,
+    "special": true
+  },
+  "g24-336000000209": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현물",
+    "summary": "결식 우려 18세 미만 아동 급식 지원",
+    "target": "18세 미만 취학 및 미취학 아동 중 결식 우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-352000000115": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "결식 아동 급식 지원",
+    "target": "18세 미만 아동 중 결식 우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000115": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "결식 아동 휴일 및 방학 중 급식 지원",
+    "target": "결식 우려 18세 미만 취학 아동",
+    "amount": "1식 10,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-371000000107": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 문화활동 지원",
+    "target": "가정위탁아동",
+    "amount": "월 10,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000140": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "환경친화형 농자재 지원",
+    "target": "농업경영정보 등록 농업인 및 농지",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-378000000138": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "경증장애인 장애수당 지급",
+    "target": "국비 장애수당 대상자",
+    "amount": "10,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-383000000137": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현물",
+    "summary": "안양시 거주 만 9세 청소년 이용권 지급",
+    "target": "안양시 거주 만 9세 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000119": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "결식아동 휴일급식 지원",
+    "target": "평택시 관내 만18세 미만 결식 우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000140": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "수급자 상하수도 요금 감면",
+    "target": "국민기초생활보장법상 생계·의료급여 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-462000000318": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경 인증농가 비료 지원",
+    "target": "친환경 인증 농가, 작목반, 농업법인",
+    "amount": "포당 10,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000113": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "담양군민 대상포진, 독감, B형간염 예방접종 지원",
+    "target": "만50세이상 담양군 거주자, 관내 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-489000000105": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "차상위계층 노인 장기요양보험료 지원",
+    "target": "차상위계층 노인·장애인세대, 건강보험료 1만원 이하",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-492000000117": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 취약계층 소액 보험료 지원",
+    "target": "가구 건강보험료 부과액 1만원 이하",
+    "amount": "월 1만원 이하",
+    "show": true,
+    "special": true
+  },
+  "g24-494000000113": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "영암군 벼 재배농가 톤백 포장재 지원",
+    "target": "영암군 거주 벼 재배 톤백 출하 농가",
+    "amount": "매 10,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000117": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어린이집 식기토탈케어서비스 지원",
+    "target": "관내 서비스 이용 어린이집 재원 아동",
+    "amount": "1인당 월 10,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-548000000127": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "서비스",
+    "summary": "한우 인공수정 정액대 지원",
+    "target": "관내 한우 사육 농가 인공수정 실시 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-554000000140": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "환경친화형 농자재 지원",
+    "target": "농업경영정보 등록 농업인 및 농업법인",
+    "amount": "필름 ㎡당 9~10,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-473000000102": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "노후하우스 비닐교체 지원",
+    "target": "5년 이상 된 내재해형 노후하우스 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-558000000106": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "시설원예 농가 배지상토, 벼 재배농가 상토/소독약 지원",
+    "target": "관내 거주 시설원예 농가, 벼 재배 농가",
+    "amount": "상토 10a당 75~105L",
+    "show": true,
+    "special": false
+  },
+  "g24-390000000124": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "유기질비료 지원",
+    "target": "농업경영체 등록 농지 대상 유기질비료 신청 농가",
+    "amount": "포당 1,600원",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000557": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "서비스",
+    "summary": "안성농특산물 택배비 지원",
+    "target": "안성시 농가에서 재배한 1차 농산물 직거래 배송 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000107": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현물",
+    "summary": "미인가 대안교육시설 청소년 급식비 지원",
+    "target": "도내 소재 미인가 대안교육시설 재학 청소년",
+    "amount": "1인 1식 8,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00032600001": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "서산시 상수도 요금 감면",
+    "target": "수급자, 심한 장애인, 경로당, 다자녀, 보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-477000000126": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "양봉 화분 공급 지원",
+    "target": "관내 양봉농가",
+    "amount": "7,500원/kg",
+    "show": true,
+    "special": false
+  },
+  "g24-345000000104": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "B형간염 유료 예방접종 지원",
+    "target": "항원항체검사 결과 음성인 접종 희망자",
+    "amount": "회당 7,300원",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000121": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "지역아동센터 돌봄 및 급식 지원",
+    "target": "지역아동센터 이용 아동",
+    "amount": "1식당 7,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000125": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "노인 건강증진 이용권 지원",
+    "target": "65세 이상 기초수급자, 70세 이상 일반노인",
+    "amount": "월 7,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-305000000287": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "B형간염 유료 예방접종 지원",
+    "target": "항원항체검사 결과 음성인 접종 희망자",
+    "amount": "회당 6,900원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00032700001": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국민기초생활수급자·국가보훈대상자 하수도요금 감면",
+    "target": "국민기초생활수급자, 국가보훈대상자",
+    "amount": "하수도 사용요금 5,000원까지 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-304000000169": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만15세 이상 주민 1차진료 및 무료진료 서비스",
+    "target": "만15세 이상 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-305000000290": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만15세 이상 전 주민 1차진료(내과) 서비스",
+    "target": "만15세 이상 전 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-305000000293": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "동대문구 거주 만 4세이상 주민 구강보건서비스",
+    "target": "동대문구 거주 만 4세이상 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000431": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "연천군 수도작·밭작물 재배농가 맞춤형비료 지원",
+    "target": "연천군 수도작·밭작물 재배 농가",
+    "amount": "1ha당 20포",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000111": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "도서지역 70세 이상 어르신 대중목욕탕 이용권 지급",
+    "target": "도서지역 70세 이상 어르신",
+    "amount": "분기별 6매",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000103": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "구례군 유기농 인증 벼 출하 농가 친환경 벼 출하장려금 지원",
+    "target": "구례군 유기농 인증 벼 출하 농가",
+    "amount": "가마당 5,000~6,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-498000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "장성군 친환경벼 인증 농가 생산장려금 지급 지원",
+    "target": "장성군 친환경벼 인증 농가",
+    "amount": "가마당 3,000~6,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00033100001": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국가보훈·중증장애·기초생활 하수도요금 감면",
+    "target": "국가보훈, 중증장애, 기초생활수급자 등",
+    "amount": "하수도 5,880원 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00030900001": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "유공자·기초생활수급자·다자녀 상수도요금 감면",
+    "target": "유공자, 기초생활수급자, 차상위, 다자녀",
+    "amount": "상수도 10톤(5,850원) 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-414000000430": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 거주 수도작·원예작물 재배농업인 상토 지원",
+    "target": "관내 거주 수도작·원예작물 재배 농업인",
+    "amount": "1ha당 20~30포",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000139": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 중증 시각장애인가구 유료방송 이용요금 지원",
+    "target": "관내 등록 중증 시각장애인 가구",
+    "amount": "월 5,500원",
+    "show": true,
+    "special": true
+  },
+  "g24-476000000119": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "임실군 하우스 원예작물 재배농가 시설하우스 비닐교체 지원",
+    "target": "임실군 하우스 원예작물 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00031700001": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "기초수급자·국가유공자 가정용 상수도요금 감면",
+    "target": "기초수급자, 국가유공자, 가정위탁세대",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-476000000140": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 복숭아 생산자단체 소속농가 영농자재 지원",
+    "target": "관내 복숭아 생산자단체 소속농가",
+    "amount": "봉지(매) 6~7원, 상자 5,060원",
+    "show": true,
+    "special": false
+  },
+  "g24-300000000124": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "종로구 주민 싱크대용 수동 탈수기 유상보급",
+    "target": "종로구 관내 주민",
+    "amount": "5,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000173": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "20~64세 광진구민·외국인 구민건강검진(유료)",
+    "target": "20~64세 광진구민 및 외국인",
+    "amount": "5,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-344000000105": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "대구 반려견주 광견병 예방접종비 지원",
+    "target": "대구 반려견 등록 견주",
+    "amount": "5,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000150": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "홍성군 산모 산후도우미 본인부담금 지원",
+    "target": "홍성군 거주 산모",
+    "amount": "본인부담금(90%)",
+    "show": true,
+    "special": false
   }
 }
