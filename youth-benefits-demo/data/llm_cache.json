@@ -31939,5 +31939,1135 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-307000000101": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 국민건강보험료 지원",
+    "target": "최저보험료 미만 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000104": {
+    "category": "건강",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "중고등학생 대상 결핵 이동검진 서비스",
+    "target": "중2,3학년 및 고2 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000108": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 장애인 대상 무료 중식 지원",
+    "target": "성북구 거주 저소득 등록장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000111": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성북구민 대상 구강검진 및 불소도포 등",
+    "target": "성북구민 (연령별 상이)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000113": {
+    "category": "일자리",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "자활기업 근로자 대상 교육 및 인건비 지원",
+    "target": "자활기업 근로자, 수급자, 차상위",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000115": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 대상 인플루엔자 무료 접종",
+    "target": "심한 장애인, 기초수급자, 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-307000000120": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성북구 거주자 대상 마을변호사 무료 법률 상담",
+    "target": "성북구 거주자 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000121": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "승용차 마일리지 감축률에 따른 마일리지 지급",
+    "target": "서울 등록 12인승 이하 비영업용 차량",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000127": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "폭염 시 저소득 취약계층 대상 무더위 안전숙소 운영",
+    "target": "만 65세 이상 독거, 고령 부부 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000130": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성북구민 대상 만성질환(대사증후군) 관리 사업",
+    "target": "성북구민 20세 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000134": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 대상 중고 PC 무상 지원",
+    "target": "수급자, 장애인, 결혼이민자 등 개인/단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000139": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "65세 이상 건강 취약계층 어르신 건강주치의 사업",
+    "target": "성북구 거주 65세 이상 건강 취약 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000142": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성북구민 대상 체성분 검사 및 상담",
+    "target": "성북구민, 관내 직장인, 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000149": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성북구민 대상 공공 유휴공간 대관 서비스",
+    "target": "성북구민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000150": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "결식아동 등 대상 푸드마켓 이용 지원",
+    "target": "결식아동, 독거노인, 재가장애인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000160": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "20-69세 서울시민 대상 건강검진 및 상담",
+    "target": "만 20~69세 서울시민 (직장인, 자영업자 포함)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000163": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "한부모",
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "일자리",
+    "summary": "성북구 청년 대상 행정체험단 운영",
+    "target": "성북구 거주 19~29세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000167": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "창업"
+    ],
+    "support_type": "임대",
+    "summary": "1인 창조기업 위한 도전숙 입주자 모집",
+    "target": "성북구 거주자 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000175": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 원외 약제비 지원",
+    "target": "난임시술 정부지원금 잔액 남은 성북구민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000189": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "주민 대상 디지털 저장매체 무료 파기 서비스",
+    "target": "성북구 거주 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-307000000190": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지방세 불복청구 선정대리인 무료 지원",
+    "target": "성북구 재산세 과세전적부심/이의신청 개인 및 법인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-307000000196": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성북구 평생학습센터 수강료 감면(국가유공자)",
+    "target": "국가유공자 및 가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-307000000206": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성북구 자치회관 수강료 감면(국가유공자)",
+    "target": "국가유공자 및 가족 중 성북구 주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-307000000209": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "성북구 청소년미래지원센터 수강료 감면(수급자)",
+    "target": "수급권자 중 성북구 주민 또는 재학 학생",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-307000000216": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "성북구 육아종합센터 이용료 및 사용료 감면(장애인)",
+    "target": "등록 장애인 및 직계가족",
+    "amount": "100%",
+    "show": true,
+    "special": true
+  },
+  "g24-308000000106": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "강북구 장학생 선발",
+    "target": "강북구 1년 이상 거주 주민 또는 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-308000000109": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원(추가)",
+    "target": "성인 발달/최중증 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-308000000110": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "관내 18세 이하 아동/청소년 치아홈메우기 지원",
+    "target": "18세 이하 아동 및 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-308000000112": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "65세 이상 어르신 성인용 보행기 지원",
+    "target": "65세 이상 등급 외 A,B 어르신 중 생계/의료급여 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-308000000113": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득구민 명절위문금 지원",
+    "target": "생계/의료급여 수급자 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-308000000114": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "강북구 거주 65세 이상 저소득 독거노인/장애인 세탁서비스",
+    "target": "65세 이상 저소득 독거노인, 심한 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-308000000118": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "생애주기별 구강검진 및 보건교육 지원",
+    "target": "생애주기별 신청 대상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-308000000121": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "강북구 보훈예우수당 지급",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-308000000122": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "지체/뇌병변 장애인 한방 방문 진료 지원",
+    "target": "지체/뇌병변 장애인 의료취약계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-308000000125": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "강북구 주거취약 홀몸어르신 주거환경 개선 지원",
+    "target": "강북구 주거취약 홀몸어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-308000000127": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "강북사랑상품권 5% 할인 판매",
+    "target": "강북구 소상공인 및 강북구민",
+    "amount": "5%",
+    "show": true,
+    "special": false
+  },
+  "g24-308000000128": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 모성보건사업 지원(엽산제, 철분제 등)",
+    "target": "보건소 등록 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-308000000129": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 위문금 지원",
+    "target": "서울시 보훈수당 대상자, 보훈단체 회원",
+    "amount": "최대 3만원",
+    "show": true,
+    "special": true
+  },
+  "g24-309000000124": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 및 영유아 건강증진 지원",
+    "target": "관내 임산부 및 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-309000000126": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가정 명절위문금 지원",
+    "target": "법정 한부모가정",
+    "amount": "3만원",
+    "show": true,
+    "special": true
+  },
+  "g24-309000000128": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 서비스 제공",
+    "target": "장애인활동지원 등급 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-309000000130": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "독거노인 위생용품 및 요쿠르트 지원",
+    "target": "만65세 이상 기초수급자, 차상위, 독거어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-309000000131": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "도봉구 거주 장애인 무료 구강진료",
+    "target": "도봉구 거주 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-309000000135": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 가구 명절 위문품비 2만원 지급",
+    "target": "기초생계·의료급여 수급자 가구",
+    "amount": "가구당 2만원",
+    "show": true,
+    "special": false
+  },
+  "g24-309000000136": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "취약계층 가스안전차단기 설치 지원",
+    "target": "안전취약계층(치매, 장애인, 홀몸어르신)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-309000000137": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역인재 장학금 지급",
+    "target": "고등학생, 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-309000000139": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "초등학생 척추측만증 및 거북목 검진 지원",
+    "target": "관내 초등학교 5학년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-309000000282": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출생아 출생축하용품 지급",
+    "target": "2024년 1월 1일 이후 출생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000102": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "노원사랑상품권 5% 할인 판매",
+    "target": "노원사랑상품권 구매자",
+    "amount": "5%",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000105": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "미니태양광 설치비 지원",
+    "target": "노원구 거주 미니태양광 설치 신청자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000109": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 거주시설 이용자 명절 위문금 2만원 지급",
+    "target": "노원구 소재 장애인 거주시설 이용 장애인",
+    "amount": "1인당 2만원",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000110": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "저장장애 가구 주거환경 개선 지원",
+    "target": "쓰레기 적치로 위생·화재 위험 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000114": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 소규모 집수리 지원",
+    "target": "기초수급자, 차상위, 일반 저소득가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000115": {
+    "category": "교육",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 한부모가족 자녀 학습 지원",
+    "target": "법정 저소득 한부모가족 4~12세 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000116": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동지원 시간 추가 지원",
+    "target": "만19세 이상 활동지원 수급자 중 최중증 독거, 성인 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-310000000117": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 이동기기 수리비 지원",
+    "target": "장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000119": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "미혼한부모 냉난방비 및 시설입소자 위문금 지원",
+    "target": "법정 미혼 한부모가족, 시설 입소 한부모가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000120": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 위문금 및 수당 지급",
+    "target": "국가보훈대상자, 수권유족, 참전유공자 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-310000000121": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인세대 건강보험료 지원",
+    "target": "의료급여 비수급 65세 이상 저소득 노인세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000122": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 초기 및 기형아 검사 지원",
+    "target": "노원구 거주 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000123": {
+    "category": "교육",
+    "tags": [
+      "북한이탈주민"
+    ],
+    "support_type": "서비스",
+    "summary": "북한이탈주민 대상 직업훈련 교육비 지원",
+    "target": "노원구 거주 취약계층 북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-310000000124": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화 이해 교육 및 문화 소개지 발간",
+    "target": "다문화에 관심 있는 노원구 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-310000000129": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "서비스",
+    "summary": "보호대상아동·청년 대상 전문멘토링 및 활동지원금",
+    "target": "가정위탁·시설보호 아동, 자립준비청년, 지역사회전문가",
+    "amount": "월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000103": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "독거어르신 야쿠르트 배달 지원",
+    "target": "65세 이상 수급자 및 차상위 독거어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-311000000104": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동지원 서비스 제공",
+    "target": "활동지원 대상자 중 특정 점수 이상 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-311000000105": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 가족 대상 휴식 및 여행 지원",
+    "target": "은평구 거주 등록 장애인 및 그 가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000107": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인단체 대상 명절 위문 격려금 지원",
+    "target": "장애인단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000109": {
+    "category": "복지",
+    "tags": [
+      "1인가구",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "고독사 위험 중장년 1인 가구 음료 배달 지원",
+    "target": "중증질환·장애인 중장년 1인 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-311000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 등 대상 설명절 위문금 지원",
+    "target": "순국선열, 애국지사, 전몰군경 등 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-311000000112": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "서비스",
+    "summary": "보호대상아동 심리·건강 검진 지원",
+    "target": "보호대상아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-311000000113": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 엽산제, 철분제, 기형아 검사 지원",
+    "target": "임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000114": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초수급가구 명절 위문금 지원",
+    "target": "기초생계·의료 수급가구",
+    "amount": "가구당 4만원",
+    "show": true,
+    "special": true
+  },
+  "g24-311000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "거동 불편 어르신 보행보조차 지원",
+    "target": "만65세 이상 생계·의료급여수급권자 또는 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000116": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "보호대상아동 연말 위문금 및 졸업 축하금 지원",
+    "target": "보호대상아동(시설, 가정위탁)",
+    "amount": "시설아동 15만원",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000120": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 보훈예우수당 지급",
+    "target": "은평구 거주 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-311000000121": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "독거어르신 김치, 생신상, 냉난방용품 등 지원",
+    "target": "65세 이상 수급자 및 차상위 독거어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-311000000125": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "금융 취약계층 채무·재무 상담 지원",
+    "target": "과다채무자, 채무연체자 등 금융 취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000131": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "주거",
+    "summary": "청년 창업인 대상 주거 공간 지원",
+    "target": "만19~39세, 소득기준 이하 예비·창업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000133": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 아동·가족 맞춤형 서비스 제공",
+    "target": "만12세 이하 취약계층 아동·가족, 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000135": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "은평구민 대상 생활공구 무료 대여 서비스",
+    "target": "은평구민 및 관할 동 거주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000136": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "범죄 취약계층 안전귀가 지원",
+    "target": "여성, 청소년 등 범죄 취약계층 은평구민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000137": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 및 영유아가정 아이맘택시 지원",
+    "target": "은평구 관내 임산부 및 영유아가정(0~24개월)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000139": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "셋째아가정 산후건강관리 지원",
+    "target": "셋째아 이상 출산 가정 산모·신생아 건강관리 서비스 이용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000140": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 및 수유부 유축기 대여",
+    "target": "은평구 주소지 임산부 및 수유부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000142": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "자립준비청년 기술교육 및 심리상담",
+    "target": "아동복지시설 퇴소(예정) 자립준비청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000145": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "사회적 취약계층 법률서비스 지원",
+    "target": "기초생활수급자, 장애인, 독거노인 등 취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000146": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "구민 무료 법률상담 서비스 제공",
+    "target": "법률서비스 접근이 취약한 구민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000147": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "구민 정보화 교육 지원",
+    "target": "은평구 구민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000149": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경력보유여성 직업상담 및 훈련 지원",
+    "target": "경력보유여성 또는 취업희망여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000151": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아동 및 보호자 공동육아나눔터 이용",
+    "target": "만 3개월~만 18세 이하 아동과 보호자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000152": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청소년 상담 및 지원 서비스",
+    "target": "9세~24세 청소년, 학업중단 위기 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000154": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청소년 및 성인 상담 지원",
+    "target": "청소년, 성인(학부모, 지도자 등)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000155": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "여성 24시간 안심망 '안심이' 운영",
+    "target": "안심이 앱 가입 서울시 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000225": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "1인가구 전입 생활 지원 물품 제공",
+    "target": "은평구 전입 청년, 중장년 1인가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-311000000230": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 미용실 이용 지원",
+    "target": "은평구 거주 중증장애인",
+    "amount": "월 1회 최대 1만원",
+    "show": true,
+    "special": true
+  },
+  "g24-311000000231": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "토지소유자 감정평가사 상담 지원",
+    "target": "은평구 토지소유자 또는 이해관계인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-312000000103": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "등록장애인 동료 상담 지원",
+    "target": "등록장애인(서대문구 주민 우선)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-312000000108": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 수당 지급",
+    "target": "서대문구 거주 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-312000000110": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "100세 이상 부모 부양 가정 효행장려금 지급",
+    "target": "100세 이상 부모 부양 서대문구 거주 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-312000000112": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 어르신 생일축하 및 건보료 지원",
+    "target": "저소득 노인, 장애인, 한부모 가구",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": true
   }
 }
