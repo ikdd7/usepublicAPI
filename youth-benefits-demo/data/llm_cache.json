@@ -37507,5 +37507,1157 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00000929": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 특별운송 차량 운행",
+    "target": "지역 내 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002564": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 조위금 지급",
+    "target": "참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004340": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지급",
+    "target": "참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005685": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "노인 대상 의치 보급 지원",
+    "target": "취약계층 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005603": {
+    "category": "교육",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현금",
+    "summary": "청소년 자격증 응시료 지원",
+    "target": "청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005604": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "초등학생 입학지원금 지원",
+    "target": "관내 거주 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005208": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "무연고자 및 저소득층 공영장례 지원",
+    "target": "무연고자 및 저소득층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005007": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "보호종료아동 자립수당 지급",
+    "target": "보호종료아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004954": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현물",
+    "summary": "명절 경로당 위문품 지급",
+    "target": "경로당 이용 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004972": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현물",
+    "summary": "추석절 경로당 위문품 지급",
+    "target": "경로당 이용 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000875": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출생아 대상 출산축하용품(기저귀) 지원",
+    "target": "영도구 출생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002842": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 참전유공자 명예수당 지급",
+    "target": "저소득 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002743": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "둘째 자녀 이후 출산지원금 지급",
+    "target": "둘째 자녀 이상 출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000871": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지역 복지정보 제공 박람회 개최",
+    "target": "주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004016": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 위로금 지급",
+    "target": "참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002621": {
+    "category": "복지",
+    "tags": [
+      "한부모·조손"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족 명절자립격려금 및 하계휴가비 지원",
+    "target": "한부모가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002534": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의로운 구민 및 유족 예우 지원",
+    "target": "의로운 행동으로 부상 입은 자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002840": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산 가정 경제적 부담 경감 지원",
+    "target": "출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002841": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "이재민 구호 물품 지원",
+    "target": "자연재해 이재민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000927": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "저소득층 국민건강보험료 지원",
+    "target": "일정 기준 이하 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002463": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득·모범·특기생 장학금 지원",
+    "target": "저소득, 한부모, 다자녀, 다문화, 탈북민 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002531": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "저소득 노인세대 건강보험료 지원",
+    "target": "저소득 노인세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006132": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 이사 대형폐기물 처리비용 지원",
+    "target": "저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006129": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "학교 밖 청소년 검정고시 합격축하금 지원",
+    "target": "학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005062": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 자격시험 응시료 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004984": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "경로당 위문품 지원",
+    "target": "노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004982": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "추석절 경로당 위문품 지원",
+    "target": "노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004936": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "추석절 경로당 위문품 지원",
+    "target": "노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001896": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리사 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000903": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득주민 생활안정 지원",
+    "target": "복지사각지대 저소득주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002647": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "저소득 노인세대 건강보험료 지원",
+    "target": "저소득 노인세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006114": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 구직활동비 지원",
+    "target": "해운대구 거주 구직 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006113": {
+    "category": "교육",
+    "tags": [
+      "청년",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 경계선지능인 맞춤형 교육 지원",
+    "target": "청년 경계선지능인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006021": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "초등학생 입학준비금 지원",
+    "target": "초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006098": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 고등학생 스터디카페 이용료 지원",
+    "target": "수영구 취약계층 고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005712": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "학생 입학축하금 지원",
+    "target": "기장군 거주 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005087": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모 건강관리비 지원",
+    "target": "산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004675": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "요보호아동 멘토링 지원",
+    "target": "요보호아동, 저소득 취약계층 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003900": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "초등학생 입학 축하금 지원",
+    "target": "취학 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002119": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "교복구입비 지원",
+    "target": "청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004223": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 유족에게 위로금 지급",
+    "target": "참전유공자 유족",
+    "amount": "1인 1회 200천원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002691": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "중·고 신입생에게 교복비 지원",
+    "target": "중·고등학교 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002723": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 유족에게 위로금 지급",
+    "target": "참전유공자 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000007": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정에 출산지원금 지급",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000951": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁보호아동에게 연말격려금 및 수련비 지원",
+    "target": "가정위탁보호아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002676": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 등에게 보훈수당 지급",
+    "target": "참전유공자, 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002705": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "무연고 사망자 장의비 지원",
+    "target": "무연고 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002533": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동에게 수학여행비 및 격려금 지원",
+    "target": "가정위탁아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002532": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정에 출산장려금 지급",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006096": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "다자녀"
+    ],
+    "support_type": "대출",
+    "summary": "무주택 다자녀가구 전세자금 대출이자 지원",
+    "target": "무주택 다자녀가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006092": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산가정에 종량제봉투 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002645": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "저소득 소외계층 방문 맞춤형 복지서비스 제공",
+    "target": "저소득 소외계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006083": {
+    "category": "교육",
+    "tags": [
+      "아동",
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "초중고 입학 및 학습지원비 지원",
+    "target": "초중고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002043": {
+    "category": "건강",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현물",
+    "summary": "여성청소년에게 보건위생용품 지원",
+    "target": "여성청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000901": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자에게 위로금 지급",
+    "target": "참전유공자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002622": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "독립유공자 및 유가족에게 격려금 지급",
+    "target": "독립유공자 및 유가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000902": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "보훈단체 위로 및 격려금 지급",
+    "target": "보훈단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006081": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모에게 산후조리비 지원",
+    "target": "산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006070": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "다자녀가구에게 가족여행비 지원",
+    "target": "다자녀가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005693": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정에 산후조리비 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005629": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산 및 양육지원금 지급",
+    "target": "장애인가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005623": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "어르신 보청기 및 성인용 보행기 지원",
+    "target": "난청 또는 거동 불편 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003953": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "중·고등학교 입학생 교복구입비 지원",
+    "target": "2025학년도 중·고 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002465": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 철분제 및 엽산제 지원",
+    "target": "임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-331000000106": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인·장애인·한부모세대 건강보험료 지원",
+    "target": "노인, 장애인, 한부모 세대",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001631": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "셋째이후 출생아 건강보험료 지원",
+    "target": "셋째이후 출생아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004100": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "75세 이상 어르신 품위유지비 월 2만원 지원",
+    "target": "75세 이상 어르신",
+    "amount": "월 2만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002839": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 독거노인 생신상 차림 지원",
+    "target": "저소득·독거 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001057": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출생아 가정 출산축하금 지급",
+    "target": "모든 출생아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006031": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "학교 밖 청소년 검정고시 합격축하금 지원",
+    "target": "학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000848": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "의료급여수급자 노인틀니 본인부담금 지원",
+    "target": "65세 이상 의료급여수급 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006020": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "어르신 목욕 및 이·미용비 지원",
+    "target": "65세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005984": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "초등학교 입학지원금 지원",
+    "target": "초등학교 입학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005966": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "다자녀 가정 양육 바우처 지원",
+    "target": "다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005552": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "초등학교 입학축하금 지원",
+    "target": "초등학교 입학생 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005384": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "70세 이상 어르신 목욕이용권 지원",
+    "target": "70세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005353": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "중학교 체육복 지원",
+    "target": "중학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005223": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "12세 이하 아동 아이돌봄 본인부담금 지원",
+    "target": "12세 이하 아동 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005130": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 자격증 응시료 지원",
+    "target": "연제구 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004952": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "추석명절 경로당 위문",
+    "target": "경로당 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000868": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 사망자 처리 지원",
+    "target": "무연고 사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00002646": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 국민건강보험료 지원",
+    "target": "저소득 취약계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005953": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "발달장애인 실종예방 스마트기기 지원",
+    "target": "발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002706": {
+    "category": "일자리",
+    "tags": [
+      "중장년"
+    ],
+    "support_type": "서비스",
+    "summary": "50세 이상 퇴직자 사회공헌 일자리 지원",
+    "target": "50세 이상 퇴직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002461": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 경제 부담 완화 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005605": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "청년·신혼부부 주거자금 대출이자 지원",
+    "target": "청년, 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005229": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 사업자 월 임차료 지원",
+    "target": "청년 사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005128": {
+    "category": "교육",
+    "tags": [
+      "아동",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 초등학생 예능교습비 지원",
+    "target": "저소득 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005089": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산장려금 지원",
+    "target": "영유아, 다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000952": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 1일 문화활동 체험 지원",
+    "target": "장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005932": {
+    "category": "교육",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "초등학교 입학지원금 지원",
+    "target": "초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005923": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "바우처",
+    "summary": "75세 이상 노인 목욕 이용권 지원",
+    "target": "75세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005134": {
+    "category": "복지",
+    "tags": [
+      "노년",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인 건강효도비 지원",
+    "target": "저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004308": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현물",
+    "summary": "독거노인 유제품 배달 지원",
+    "target": "독거노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002727": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 위로금 지급",
+    "target": "참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000928": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "무연고사망자 장의비 지원",
+    "target": "무연고사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005915": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족 소망드림통장 지원",
+    "target": "한부모가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005911": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 중증장애인 교통비 지원",
+    "target": "저소득 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005907": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 생활안정지원금 지급",
+    "target": "저소득 한부모가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005902": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "둘째자녀 출산지원금 지원",
+    "target": "둘째자녀 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
