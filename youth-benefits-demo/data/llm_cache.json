@@ -38659,5 +38659,234 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00004553": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 어르신 무료 틀니 제작 지원",
+    "target": "저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002086": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "임산부 영양제(철분제, 엽산제) 지원",
+    "target": "임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002671": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "애국지사 유족 및 참전유공자 사망 위로금 지원",
+    "target": "애국지사 유족, 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002183": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현금",
+    "summary": "장수 어르신 장수 축하금 지원",
+    "target": "관내 65세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005635": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 학생 교육정보화(PC) 지원",
+    "target": "저소득층 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004784": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "다둥이 가족 캠핑카라반 대여비 지원",
+    "target": "다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004055": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 예우수당 및 사망 위로금 지원",
+    "target": "국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003305": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 배우자 복지수당 지원",
+    "target": "참전유공자 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002879": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 및 사망 위로금 지원",
+    "target": "참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002177": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "저소득 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005873": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산후조리비 지원",
+    "target": "산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005517": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "저소득·다자녀 학생 졸업앨범비 지원",
+    "target": "저소득, 다자녀 가정 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005516": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전체 학생 비숙박형 현장체험학습비 지원",
+    "target": "초·중·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005515": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "저소득·다자녀 학생 현장체험학습비 지원",
+    "target": "저소득, 다자녀 가정 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005512": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "육아"
+    ],
+    "support_type": "바우처",
+    "summary": "저소득층 학생 방과후학교 자유수강권 지원",
+    "target": "저소득층 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004828": {
+    "category": "문화",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "서비스",
+    "summary": "65세 이상 어르신 이미용 서비스 50% 할인",
+    "target": "65세 이상 어르신",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004824": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 예비초등학생 책가방 등 지원",
+    "target": "저소득 가구 예비초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004288": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "중·고 신입생 무상교복 지원",
+    "target": "중·고등학교 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004408": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현물",
+    "summary": "100세 이상 어르신 장수 축하물품 지원",
+    "target": "100세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003930": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동보조 추가 지원",
+    "target": "중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
