@@ -53403,5 +53403,252 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00001968": {
+    "category": "복지",
+    "tags": [
+      "탈북민"
+    ],
+    "support_type": "현금",
+    "summary": "최초 정착 탈북민 생활안정 지역상품권 지급",
+    "target": "하나원 수료 최초 정착 탈북민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006322": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "전입학생 생활안정 장학금 지원",
+    "target": "완주군 전입학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000020": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 및 청년 주택자금 대출이자 지원",
+    "target": "관내 신혼부부 및 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003940": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "학자금대출 장기연체자 신용회복 지원",
+    "target": "학자금대출 장기연체 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006230": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "거동 불편 대상자 방문 의료 지원",
+    "target": "거동 불편 노인, 장애인, 만성질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006233": {
+    "category": "주거",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "거동 불편 대상자 주거환경 개선 지원",
+    "target": "거동 불편 노인, 질병, 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006232": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "퇴원환자 지역사회 연계 돌봄 서비스 지원",
+    "target": "골절·낙상 수술 후 퇴원환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006231": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "통합돌봄 대상자 영양 도시락 지원",
+    "target": "결식 우려 통합돌봄 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004876": {
+    "category": "육아",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "아이돌봄서비스 본인부담금 지원",
+    "target": "아이돌봄서비스 이용 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000591": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "고창군 신혼부부 결혼장려금 지원",
+    "target": "고창 거주 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005241": {
+    "category": "육아",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "영유아 양육 가정 육아수당 지원",
+    "target": "영유아 양육 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005829": {
+    "category": "육아",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "순창군 아동행복수당 지원",
+    "target": "순창군 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005067": {
+    "category": "육아",
+    "tags": [
+      "육아",
+      "한부모",
+      "다자녀",
+      "다문화·탈북민"
+    ],
+    "support_type": "현금",
+    "summary": "아이돌봄서비스 본인부담금 추가 지원",
+    "target": "아동·영유아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004418": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "일자리",
+    "summary": "무직자 대상 공공근로사업 일자리 알선",
+    "target": "일자리 없는 무직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003796": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 국민건강보험료 지원",
+    "target": "저소득 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005843": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "할인",
+    "summary": "다자녀 가정 상수도 요금 감면",
+    "target": "다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005803": {
+    "category": "교육",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "기타",
+    "summary": "진안장학숙 입사생 다자녀 가산점 부여",
+    "target": "진안장학숙 입사 희망 다자녀",
+    "amount": "가산점 5점",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005802": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "할인",
+    "summary": "다자녀가정 수도요금 감면",
+    "target": "2자녀 이상 다자녀 가정",
+    "amount": "10톤까지 감면",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005798": {
+    "category": "문화",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "할인",
+    "summary": "다자녀가정 국민체육센터 사용료 감면",
+    "target": "다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005800": {
+    "category": "육아",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "지역 아동 장난감 및 육아용품 대여",
+    "target": "지역 아동",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
