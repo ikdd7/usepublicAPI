@@ -51800,5 +51800,707 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00003729": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 상수도 요금 감면 지원",
+    "target": "한부모·조손, 장애인, 저소득 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006123": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "홍천군 청년 일경험 지원",
+    "target": "홍천군 거주 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006119": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경계선지능 청소년 맞춤 지원",
+    "target": "경계선지능 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004993": {
+    "category": "교육",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 자녀 장학금(생활비) 지원",
+    "target": "저소득 주민 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003598": {
+    "category": "복지",
+    "tags": [
+      "다문화"
+    ],
+    "support_type": "서비스",
+    "summary": "다문화가족 고향방문 지원",
+    "target": "생활이 어려운 다문화가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000442": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "저소득 결식 우려 노인 식사 배달",
+    "target": "식사 준비 어려운 저소득 노인·장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000417": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "시각장애인 소리신문 구독료 지원",
+    "target": "시각장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002056": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경로당 이용 노인 여가 복지 증진",
+    "target": "경로당 이용 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003726": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가정 생활안정비 지원",
+    "target": "저소득 한부모가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003077": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 예우 및 지원",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003728": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 공로수당 지원",
+    "target": "6·25 및 월남전쟁 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영월형 놀이돌봄 서비스 제공",
+    "target": "영월군 다자녀·맞벌이 가정 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006103": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "원주시 노인 버스 무료 이용 지원",
+    "target": "원주시 거주 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002948": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 명예수당 및 사망위로금 지급",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000444": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "농어촌 미혼남성 국제결혼 지원",
+    "target": "농어촌 지역 미혼남성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002950": {
+    "category": "복지",
+    "tags": [
+      "다문화"
+    ],
+    "support_type": "서비스",
+    "summary": "다문화가정(결혼이민자) 복지 증진",
+    "target": "결혼이민자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000550": {
+    "category": "교육",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가정 수학여행 경비 지원",
+    "target": "저소득 한부모가정 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002854": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 건강보험료 지원",
+    "target": "저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006057": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 가구 성인용 기저귀 지원",
+    "target": "저소득 가구 와상·요실금 환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006056": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "강릉시 어르신 이·미용비 지원",
+    "target": "경제적 어려움 있는 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003804": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득가구 동절기 난방비 지원",
+    "target": "기초생활보장수급자 등 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002890": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "독거 중증장애인 활동보조 가산수당 지원",
+    "target": "독거 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003777": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "신생아 출생 시 출산장려금 지급",
+    "target": "출산한 부 또는 모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003972": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 및 유족 명예수당 지원",
+    "target": "참전유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004436": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 예우 및 지원",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001891": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "거동 불편 저소득 취약계층 이동세탁차량 운영",
+    "target": "거동 불편 저소득층(노인, 장애인 등)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004061": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "동해시 보훈대상자 명예수당 지원",
+    "target": "동해시 거주 보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000381": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "출산장려금 지급",
+    "target": "출산한 산모 및 신생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002029": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 중증장애인가구 유료방송 이용요금 지원",
+    "target": "저소득 중증장애인 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003800": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "신장장애인 혈액 및 복막투석비 지원",
+    "target": "화천군 거주 신장장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001813": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노인의 날 기념 행사 참여 지원",
+    "target": "어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000383": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 노인 무료 급식 제공",
+    "target": "저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003671": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 보장구 A/S 지원센터 운영",
+    "target": "전동휠체어 등 보장구 사용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000653": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "결식아동 급식 지원",
+    "target": "결식 우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003666": {
+    "category": "육아",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁 양육 아동 수당 지원",
+    "target": "요보호아동 가정위탁 양육 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003802": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "시각장애인 생활 이동 지원센터 운영",
+    "target": "시각장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003776": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "동해시 참전유공자 명예수당 지급",
+    "target": "동해시 거주 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000652": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 안전 귀가 지원",
+    "target": "행려자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003803": {
+    "category": "복지",
+    "tags": [
+      "노년",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 재가노인 반찬 지원",
+    "target": "저소득 재가노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000385": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 가정 아동 급식 및 영양 개선 지원",
+    "target": "저소득 가정 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005037": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인직업재활시설 훈련장애인 근로보조수당 지원",
+    "target": "장애인직업재활시설 훈련장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004864": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 일자리 근속장려금 지원",
+    "target": "홍천군 거주 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004677": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 특별활동비 부모부담금 지원",
+    "target": "어린이집 이용 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004021": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "홍천군 청년창업 지원",
+    "target": "홍천군 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004065": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 65세 이상 치매조기 검진비 추가 지원",
+    "target": "만 65세 이상 정선군 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001917": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "50세 이상 무료 대상포진 예방접종 지원",
+    "target": "50세 이상 주민",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003874": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자",
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "무료이용 교통카드 지원",
+    "target": "정선군민",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003727": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "고성군 청년 취업수당 지원",
+    "target": "고성군 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002997": {
+    "category": "건강",
+    "tags": [
+      "노년",
+      "보훈대상자",
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "홍천군 대상포진 예방접종 지원",
+    "target": "홍천군 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003293": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 안전손잡이 설치 지원",
+    "target": "거동 불편 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000349": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 아동 치과주치의 의료 지원",
+    "target": "저소득층 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003626": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 어르신 대상포진 예방접종 지원",
+    "target": "65세 이상 기초생활수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000350": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임신부 엽산제·철분제 지원",
+    "target": "임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002971": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "임신부 산전검진비 지원",
+    "target": "임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000320": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 공공산후조리원 이용료 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002856": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출생아 건강보장보험료 지원",
+    "target": "출생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002977": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "취약계층 의치보철 지원",
+    "target": "저소득 취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003603": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "난임부부 한방 시술 지원",
+    "target": "난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003601": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동 지원",
+    "target": "춘천시 거주 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000413": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 의치(틀니) 보철 시술비 지원",
+    "target": "저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
