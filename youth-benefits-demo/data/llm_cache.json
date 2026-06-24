@@ -56653,5 +56653,703 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00001895": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "무연고 기초수급자 간병비 지원",
+    "target": "중한 질병·부상으로 입원한 무연고 기초수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002475": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "부모 등 부양자 공공시설 사용료 지원",
+    "target": "부모 등 부양자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001496": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군장병 미술심리 치료 지원",
+    "target": "관내 복무 중인 군장병",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000862": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "하남시 임산부 및 영아 건강 증진 지원",
+    "target": "하남시 거주 임산부 및 영아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001497": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "모자보건 유지 및 증진 지원",
+    "target": "임산부 및 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001875": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사망 참전유공자 배우자 복지수당 지급",
+    "target": "사망한 참전유공자(6.25, 월남전쟁) 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003556": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "첫째아이부터 신생아 출산지원금 확대 지원",
+    "target": "구리시 거주 임산부 및 영아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001375": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 아동 치료비 지원",
+    "target": "수원시 취약계층 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001587": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "효행 장려 수당 지원",
+    "target": "효행 실천자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001448": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 아동 치과 의료 지원",
+    "target": "광명시 저소득층 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001310": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사망 참전유공자 배우자 복지수당 지급",
+    "target": "사망 참전유공자 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001541": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "모든 출산 가정 출산축하금 지급",
+    "target": "출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001376": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "예비 신혼부부 건강검진 지원",
+    "target": "결혼 예정인 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001200": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 건강보험료 지원",
+    "target": "장애인, 한부모가족 등 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000941": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "홀로 사는 노인 생필품 및 주거환경 개선 지원",
+    "target": "기초수급자 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000920": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 보훈명예수당 지급",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000912": {
+    "category": "교육",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 자녀 특기교육비 지원",
+    "target": "저소득 한부모가족 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002504": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "청각장애아동 인공달팽이관 재활치료비 지원",
+    "target": "인공달팽이관 수술받은 청각장애아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001570": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "청각장애인 인공달팽이관 재활치료비 지원",
+    "target": "청각장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000836": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청소년 보호 활동 지원",
+    "target": "청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005791": {
+    "category": "문화",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "캠핑장 사용료 30% 감면",
+    "target": "다자녀, 보훈대상자, 저소득, 장애인",
+    "amount": "30%",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004922": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "학교 밖 청소년 자립지원 및 복지증진",
+    "target": "학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005305": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "치매검진비 지원",
+    "target": "중장년, 노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003488": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득주민 국민건강보험료 지원",
+    "target": "노령, 장애, 저소득 주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005838": {
+    "category": "금융",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "다자녀 차량 구입 취득세 감면",
+    "target": "다자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005834": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "다자녀(셋째이상) 공무원 복지포인트 지급",
+    "target": "다자녀(셋째 이상) 공무원",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005825": {
+    "category": "문화",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "문화재 시설 이용료 및 관람료 면제",
+    "target": "다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005830": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 출생축하금 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005811": {
+    "category": "문화",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "다자녀 세대 공공시설 이용료 면제",
+    "target": "다자녀 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005810": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "둘째이상자녀 아이돌봄서비스 무료지원",
+    "target": "둘째 이상 자녀 양육가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005804": {
+    "category": "문화",
+    "tags": [
+      "다자녀",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "체육시설 사용료 및 이용료 50% 감면",
+    "target": "다자녀가구, 한부모가족",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005783": {
+    "category": "환경·생활",
+    "tags": [
+      "다자녀",
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "수도요금 감면",
+    "target": "기초생활수급자, 장애인, 다자녀",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005778": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "셋째아 이상 육아용품 지원",
+    "target": "다자녀 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005546": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "노인 무릎 인공관절 수술비 지원",
+    "target": "남원시 거주 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005499": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 65세 미만 의료급여 수급권자 치아 지원",
+    "target": "만 65세 미만 의료급여 수급권자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005271": {
+    "category": "복지",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "중·고등학생 시내버스 무상교통 지원",
+    "target": "중·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005175": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "1인가구 안부살핌서비스 지원",
+    "target": "저소득 1인가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004804": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인통합복지카드(A형) 발급수수료 지원",
+    "target": "장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004960": {
+    "category": "교육",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현금",
+    "summary": "학교 기숙사 급식비 지원",
+    "target": "남원시 관내 학교 기숙사 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003861": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "난임진단검사비 지원",
+    "target": "난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000424": {
+    "category": "주거",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "발달여성장애인 CCTV 지원",
+    "target": "재가발달여성장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002167": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화장 장려금 지원",
+    "target": "화장하는 모든 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002434": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "예비맘 임신 전 건강검진 지원",
+    "target": "예비맘",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000422": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의사상자 예우 및 지원",
+    "target": "의사자, 의상자 및 유가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004199": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 등 예우 및 지원",
+    "target": "국가보훈대상자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002352": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 무료급식 및 장애인 쉼터 운영",
+    "target": "결식우려자, 거주장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000592": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "서비스",
+    "summary": "노인 무료급식 지원",
+    "target": "생활곤란, 거동불편 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000594": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "추모의 집 운영",
+    "target": "군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002068": {
+    "category": "복지",
+    "tags": [
+      "노년",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "거동불편 저소득 노인 도시락 유류대 지원",
+    "target": "65세 이상 거동불편 저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000486": {
+    "category": "건강",
+    "tags": [
+      "노년",
+      "장애인",
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "노인, 장애인, 한부모 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003585": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "부랑인 즉시 구호 및 무연고 장제 처리",
+    "target": "부랑인(행려자)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002077": {
+    "category": "건강",
+    "tags": [
+      "노년",
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 건강보험료 및 장기요양보험료 지원",
+    "target": "저소득 노인 및 장애인 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002165": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "차상위계층 건강보험료 지원",
+    "target": "차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002164": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "탈수급 세대 생활안정 급여 지원",
+    "target": "탈수급 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005636": {
+    "category": "일자리",
+    "tags": [
+      "경력단절여성"
+    ],
+    "support_type": "현금",
+    "summary": "경력단절여성 시간제 일자리 지원",
+    "target": "경력단절여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005562": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출생아 가정 쓰레기 종량제 봉투 지원",
+    "target": "출생아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005561": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출생축하금 지원",
+    "target": "출생아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002105": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "셋째아이 이상 출생아 양육비 지원",
+    "target": "셋째아이 이상 출생아가 있는 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006140": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "서비스",
+    "summary": "경로당 이용 어르신 지역봉사지도원 지원",
+    "target": "경로당 이용 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005817": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "다자녀 가구 체육시설 이용료 50% 할인",
+    "target": "다자녀 가구(2자녀 이상)",
+    "amount": "이용료의 50%",
+    "show": true,
+    "special": false
   }
 }
