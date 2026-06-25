@@ -60649,5 +60649,253 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00002156": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "노년"
+    ],
+    "support_type": "현물",
+    "summary": "거동불편 노인 식사 배달 지원",
+    "target": "65세 이상 기초생활보장수급자 및 차상위계층 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005846": {
+    "category": "육아",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "아이돌봄서비스 본인부담금 지원",
+    "target": "아이돌봄서비스 이용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005837": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산장려금 지원",
+    "target": "고창군 거주 임산부 및 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005826": {
+    "category": "육아",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부·다자녀가족 할인가맹점 운영",
+    "target": "임산부 및 다자녀가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005831": {
+    "category": "육아",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "다자녀 가정과 기업·단체 매칭 지원",
+    "target": "다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005781": {
+    "category": "육아",
+    "tags": [
+      "다자녀",
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "셋째아 이상 다자녀 육아용품 지원",
+    "target": "셋째아 이상 출산 아동 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005777": {
+    "category": "문화",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "군산근대역사박물관 다자녀가정 관람료 지원",
+    "target": "다자녀가정",
+    "amount": "관람료 면제",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005422": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 및 청년 주택대출이자 지원",
+    "target": "신혼부부 및 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004963": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "대학생 생활안정비 지원",
+    "target": "김제시 거주 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004807": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 주택 전세자금 대출이자 지원",
+    "target": "군산시 거주 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004971": {
+    "category": "복지",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현물",
+    "summary": "여성청소년 위생용품 지원",
+    "target": "김제시 여성청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004409": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "무주택 청년부부 주택수당 지원",
+    "target": "무주택 청년부부(한부모가족)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004613": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "저장강박 의심 위기가구 주거환경 지원",
+    "target": "저장강박 의심 위기가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004075": {
+    "category": "복지",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현금",
+    "summary": "청소년 드림카드 지원",
+    "target": "김제시 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001828": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "분만진료비 지원",
+    "target": "관내 분만산부인과 이용 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002048": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민·무연고 사망자 장례지원",
+    "target": "저소득 주민, 무연고 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004475": {
+    "category": "금융",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "결혼축하금 지원",
+    "target": "결혼 예정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002069": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현금",
+    "summary": "경로 목욕 및 이미용비 지원",
+    "target": "고창군 거주 고령 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002163": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모신생아 건강관리 이용료 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000564": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현물",
+    "summary": "100세 어르신 마을 큰잔치",
+    "target": "100세 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
