@@ -61811,5 +61811,237 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00002874": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 출산축하금 및 장려금 지원",
+    "target": "임신·출산, 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004632": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 출산장려금 지원",
+    "target": "임신·출산, 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002150": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지급",
+    "target": "보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003560": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 한부모가정 명절 위문품 지원",
+    "target": "한부모·조손",
+    "amount": "7만원 상당/2회/가구",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004108": {
+    "category": "교육",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "만3-5세 유아 부모부담 보육료 지원",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000435": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 긴급구호비 지원",
+    "target": "아동, 영유아, 노년, 청소년, 청년, 중장년·한부모·조손",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002852": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 보장구 수리 서비스 지원",
+    "target": "장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000493": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독거노인 안심폰 및 기본요금 지원",
+    "target": "노년",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004275": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "효행장려수당 지원",
+    "target": "아동, 영유아, 청소년, 청년, 중장년, 노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001799": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사립유치원 무상급식 지원",
+    "target": "아동, 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004570": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 교통비 지원",
+    "target": "임신·출산, 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005496": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난자 냉동 시술비 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005495": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "정관난관 복원 시술비 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002216": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005943": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "65세 이상 보건지소 진료비 본인부담금 감면",
+    "target": "노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005541": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 전세자금 대출이자 지원",
+    "target": "무주택 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004844": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "신혼부부 결혼장려금 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004349": {
+    "category": "육아",
+    "tags": [
+      "임신·출산",
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "산모신생아 건강관리 본인부담금 지원",
+    "target": "임신·출산, 청년, 한부모·조손, 저소득",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000436": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현물",
+    "summary": "청년 구직자 면접정장 무료 대여",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002359": {
+    "category": "교육",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족 중고교 입학자녀 교복비 지원",
+    "target": "청소년, 한부모·조손",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
