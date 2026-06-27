@@ -65926,5 +65926,522 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00005167": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "청년",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 청년 주택 구입자금 대출이자 지원",
+    "target": "무주택 청년 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005162": {
+    "category": "문화",
+    "tags": [
+      "다문화"
+    ],
+    "support_type": "서비스",
+    "summary": "다문화가족 고향 방문 및 문화체험 지원",
+    "target": "결혼이민자 가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004438": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "맞벌이"
+    ],
+    "support_type": "서비스",
+    "summary": "초등학생 방과 후 돌봄 서비스 제공",
+    "target": "맞벌이 가정 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001910": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "중증장애인 근로장려금 지원",
+    "target": "근로 중인 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001822": {
+    "category": "복지",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "현금",
+    "summary": "면 지역 노인 목욕비 지원",
+    "target": "익산시 면 지역 거주 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001914": {
+    "category": "복지",
+    "tags": [
+      "다문화",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "다문화가족 모국 물품 국제운송비 지원",
+    "target": "저소득 다문화가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000491": {
+    "category": "복지",
+    "tags": [
+      "노인",
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "경로통합이용권 지급",
+    "target": "75세 이상 생계의료급여수급자, 기초연금수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000450": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "도시가스 공급관 시설비 일부 지원",
+    "target": "도시가스 시설 미연결 주택",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004566": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "중장년"
+    ],
+    "support_type": "서비스",
+    "summary": "익산형 뉴딜일자리 사업 참여 기회 제공",
+    "target": "일경험 및 직무능력 배양 희망자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003690": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산장려금 지원",
+    "target": "출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002272": {
+    "category": "복지",
+    "tags": [
+      "청소년",
+      "한부모",
+      "다문화"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 청소년 맞춤형 서비스 지원",
+    "target": "취약계층 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002171": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "노인",
+      "중장년",
+      "다문화"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 일자리 제공 및 행정서비스 지원",
+    "target": "취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002271": {
+    "category": "복지",
+    "tags": [
+      "청소년",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 청소년 교육·문화 학습기회 제공",
+    "target": "저소득 소외계층 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000109": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 서비스 이용료 지원",
+    "target": "임실군 거주 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005284": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "신장장애인 의료비 지원",
+    "target": "김제시 신장장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003686": {
+    "category": "복지",
+    "tags": [
+      "영유아"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 기저귀 구입비 지원",
+    "target": "출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002344": {
+    "category": "건강",
+    "tags": [
+      "노인",
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "60세 이상 대상포진 예방접종비 감면",
+    "target": "취약계층 60세 이상 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004496": {
+    "category": "건강",
+    "tags": [
+      "중장년"
+    ],
+    "support_type": "서비스",
+    "summary": "난임부부 한방 난임치료 지원",
+    "target": "난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003563": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 중증 시각장애인 유료방송 이용요금 지원",
+    "target": "김제시 저소득 중증 시각장애인가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003583": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산장려금 지원",
+    "target": "장애인가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005290": {
+    "category": "건강",
+    "tags": [
+      "영유아"
+    ],
+    "support_type": "서비스",
+    "summary": "영유아 ADHD 조기진단 및 치료 지원",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005309": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "대출",
+    "summary": "저소득주민 주거·생활안정 융자금 지원",
+    "target": "저소득주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005098": {
+    "category": "건강",
+    "tags": [
+      "영유아",
+      "아동",
+      "청소년",
+      "다문화·탈북민",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "아토피·천식 예방관리 및 취약계층 지원",
+    "target": "영유아, 아동, 청소년, 다문화·탈북민, 다자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005282": {
+    "category": "교육",
+    "tags": [
+      "청소년",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득가정 중고생 신입생 교복 지원",
+    "target": "기초생계(의료)급여 수급자 자녀 중 중고등학교 입학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001881": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "성주군 결혼장려 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001939": {
+    "category": "건강",
+    "tags": [
+      "임신·출산",
+      "청소년",
+      "청년",
+      "중장년"
+    ],
+    "support_type": "서비스",
+    "summary": "예비부부 및 예비맘 건강관리 지원",
+    "target": "임신 및 출산을 희망하는 예비부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003039": {
+    "category": "건강",
+    "tags": [
+      "청년",
+      "청소년",
+      "임신·출산",
+      "중장년"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 건강관리 지원",
+    "target": "임신 및 출산을 희망하는 모성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002236": {
+    "category": "건강",
+    "tags": [
+      "노년",
+      "중장년",
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층·장애인 노인의치(틀니) 의료비 지원",
+    "target": "저소득층 노인, 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004605": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 및 배우자 수당·위로금 지원",
+    "target": "6.25전쟁 및 월남전쟁 참전유공자 및 사망한 참전유공자 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002846": {
+    "category": "복지",
+    "tags": [
+      "노년",
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 예우수당 및 사망위로금",
+    "target": "국가보훈대상자 및 유가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002315": {
+    "category": "건강",
+    "tags": [
+      "청년",
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "임산부 태아기형아 검사 쿠폰 지원",
+    "target": "임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000274": {
+    "category": "교육",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현물",
+    "summary": "중고등학교 입학생 무상교복 지원",
+    "target": "중고등학교 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000566": {
+    "category": "복지",
+    "tags": [
+      "노년",
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지원",
+    "target": "6.25 및 월남전 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002215": {
+    "category": "건강",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "서비스",
+    "summary": "독립유공자 및 유족 의료비 지원",
+    "target": "독립유공자 및 유가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002041": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자 명예수당 및 사망위로금 지급",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002431": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지원",
+    "target": "참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002429": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "노년",
+      "중장년",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득주민 영구임대아파트 입주보증금 지원",
+    "target": "기초생계, 의료급여 수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004591": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 예우수당 지원",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000529": {
+    "category": "복지",
+    "tags": [
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 배우자 복지수당 지원",
+    "target": "참전유공자 및 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002125": {
+    "category": "건강",
+    "tags": [
+      "청소년",
+      "영유아",
+      "아동",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애어린이 수영교실 운영",
+    "target": "장애 어린이",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
