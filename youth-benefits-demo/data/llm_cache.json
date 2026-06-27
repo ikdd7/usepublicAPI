@@ -65698,5 +65698,233 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00003312": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 사망자 장례 지원",
+    "target": "무연고 사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00003334": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 대상자 명절 위문품 지급",
+    "target": "저소득, 한부모·조손",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000004": {
+    "category": "금융",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "대출",
+    "summary": "저소득층 자활사업 융자 지원",
+    "target": "기초생활수급자, 자활기업 등",
+    "amount": "저금리",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003945": {
+    "category": "일자리",
+    "tags": [
+      "저소득",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "일자리",
+    "summary": "저소득 실업자 공공근로 일자리 제공",
+    "target": "저소득 실업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000179": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "아동복지시설 아동 어린이날 위문",
+    "target": "아동복지시설 재원 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003123": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 장애인 정보소식지 보급",
+    "target": "저소득 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003145": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 건강보험료 지원",
+    "target": "저소득 주민",
+    "amount": "보험료 지원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000177": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "독거노인 공동거주시설 운영 지원",
+    "target": "독거노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002942": {
+    "category": "복지",
+    "tags": [
+      "임신·출산",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "미혼모가족 자활지원",
+    "target": "미혼모가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004594": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 노인 무료급식 지원",
+    "target": "저소득 무의탁 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004573": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노인복지 증진 실버가요제",
+    "target": "노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001633": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "보훈가족 위문",
+    "target": "보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004593": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 장애인 명절 위문",
+    "target": "저소득 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004446": {
+    "category": "육아",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "다자녀 가정 아이돌봄 본인부담금 지원",
+    "target": "셋째 이상 자녀 가정",
+    "amount": "최대 100%",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001262": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "결혼이민자 국적취득 보상금 지원",
+    "target": "국적취득 결혼이민자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000506": {
+    "category": "복지",
+    "tags": [
+      "다문화·탈북민"
+    ],
+    "support_type": "현금",
+    "summary": "결혼이민자 운전면허·자격취득비 지원",
+    "target": "여성결혼이민자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001723": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째아 이상 영유아 양육비 지원",
+    "target": "셋째 이상 자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000107": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 재가노인 식사 배달",
+    "target": "거동 불편 저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004090": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 등 지원",
+    "target": "참전유공자, 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003005": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국가보훈대상자 예우 및 지원",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
