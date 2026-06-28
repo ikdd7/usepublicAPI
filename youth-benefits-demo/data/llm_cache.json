@@ -72048,5 +72048,695 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-346000000111": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "무연고 사망자 특수청소 지원",
+    "target": "기초수급자 무연고 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-346000000112": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "건강보험료 최저금액 이하 저소득 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-346000000115": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현물",
+    "summary": "국가유공자 종량제봉투 지원",
+    "target": "국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-346000000117": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농산물 포장박스 지원",
+    "target": "수성구 관내 과수 생산 농가",
+    "amount": "본인부담금 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-347000000106": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "모든 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-347000000107": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "다문화 이주여성 암검진 지원",
+    "target": "달서구 거주 다문화 결혼 이주여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-347000000111": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "달서구 조손가족 수당 지원",
+    "target": "기초수급 조손가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-347000000113": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 산전관리 및 검사 지원",
+    "target": "달서구 관내 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-347000000501": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "청년부부 결혼축하금 지원",
+    "target": "달서구 거주 19~39세 청년부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000335": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "콩 노린재류 대량포획 기술보급 지원",
+    "target": "콩 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000336": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 경영안정 지원금 지원",
+    "target": "달성군 공익직불제 지급대상 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000338": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "힘겨루기 소 육성 지원",
+    "target": "힘겨루기 소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000344": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농산물 인증수수료 지원",
+    "target": "달성군 GAP 인증 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000345": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "방문건강관리서비스 지원",
+    "target": "지역사회 주민, 65세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000347": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원(추가) 지원",
+    "target": "탈시설·최중증장애인, 긴급돌봄 필요자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-348000000354": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "보리계약재배 장려금 지원",
+    "target": "달성군 보리계약재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000355": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "시설원예 친환경농자재 지원",
+    "target": "달성군 시설원예 작물 재배 농업인",
+    "amount": "최대 30동",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000356": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "아동학대 피해아동 응급의료비 지원",
+    "target": "아동학대 피해아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-348000000357": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 농업 장려금 지원",
+    "target": "달성군 친환경농업직접지불사업 참여 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000358": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "채소 안정생산 관수시설 보급 지원",
+    "target": "사업 조건을 갖춘 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000407": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "달성군 주민 대상 모바일 헬스케어 서비스 제공",
+    "target": "20세 이상 달성군 주민 또는 직장인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000408": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만20세 이상 지역주민 대상 대사증후군 무료 검진",
+    "target": "만20세 이상 지역주민",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000409": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성인, 65세 미만 성인, 40~50대 대상 맞춤형 건강 프로그램",
+    "target": "과체중 성인, 65세 미만 성인, 40~50대 갱년기 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000410": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어린이 대상 체성분 검사 및 건강 교육",
+    "target": "관내 신장 100cm 이상 어린이 (보호자 동반)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000413": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 대상 찾아가는 복지세탁소 운영",
+    "target": "기초수급자, 차상위계층, 사례관리 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000414": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "교육급여 대상 초중고 재학생 수강료 지원",
+    "target": "교육급여 대상 초,중,고 재학생",
+    "amount": "전액면제 혹은 일부감면",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000415": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "독거·우울 중장년 및 저소득 부자가정 반찬 지원",
+    "target": "독거, 우울 중장년, 저소득 부자가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000416": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "행복택시 운행 대상마을 주민 및 통근자 지원",
+    "target": "행복택시 운행 대상마을 주민, 통근자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000418": {
+    "category": "금융",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층, 영세사업자 등 무료 세무상담",
+    "target": "취약계층, 영세사업자, 전통시장 상인 등",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000423": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "달성군 주민 대상 EM 생산 및 보급",
+    "target": "달성군 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000426": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 가정 초중고 자녀 대상 가족 여행 지원",
+    "target": "기초수급자, 차상위, 한부모 가정 (초중고 자녀)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000428": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 취약가구 대상 청소 및 소독 지원",
+    "target": "저소득 취약가구 (기초수급, 차상위, 한부모)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000429": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "무연고 기초수급자 단독가구 간병비 지원",
+    "target": "무연고 기초수급자 단독가구 (3일 이상 입원)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-348000000432": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 거동 불편 어르신 보행보조기 지원",
+    "target": "기초수급자, 차상위계층 70세 이상 거동 불편 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-348000000433": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도시농업 및 농촌자원 분야 교육 지원",
+    "target": "도시농업 및 농촌자원 분야 교육 희망자",
+    "amount": "강사수당, 체험비, 재료비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000434": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "농산물 가공 교육 지원",
+    "target": "농산물 가공 교육 희망자",
+    "amount": "강사수당, 재료비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000436": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "달성군 출생신고 가정 대상 출생축하 액자 제공",
+    "target": "달성군 관내 출생신고 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-348000000438": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다자녀 가정 숙박시설 이용요금 지원",
+    "target": "2자녀 이상 다둥이 가정 (최연소 18세 이하)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-349000000101": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "인천 중구 거주 저소득 세대 건강보험료 지원",
+    "target": "인천 중구 거주 저소득 세대 (최저보험료)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-349000000103": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기준 중위소득 140% 이하 대상 사회서비스 제공",
+    "target": "기준 중위소득 140% 이하 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000116": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "감염병 고위험군 대상 예방접종 지원",
+    "target": "관내 모든 감염병 고위험군",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000121": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "이앙기 육묘상자 지원",
+    "target": "강화군 벼 재배 농업경영체 등록 농업인",
+    "amount": "면적 0.1ha당 30개",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000131": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "강화군 임산부 교통비 지원",
+    "target": "강화군 6개월 이상 거주 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-359000000104": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청소년 방과후 아카데미 운영",
+    "target": "광주 동구 거주 초4~중3 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-359000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "위기청소년 특별지원",
+    "target": "9세~24세 위기청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-359000000106": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "학교 밖 청소년 급식지원",
+    "target": "센터 등록 학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-359000000110": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "동구인재육성장학회 장학금 지원",
+    "target": "성적우수, 저소득, 특정분야 학생",
+    "amount": "고등학생 50만원, 대학생 50~200만원",
+    "show": true,
+    "special": false
+  },
+  "g24-359000000445": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "동구민 생활안전보험 지원",
+    "target": "광주 동구 주민(등록외국인 포함)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-359000000450": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "무료 법률·세무 상담 서비스",
+    "target": "구 주민, 취약계층 우선",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-360000000108": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "중증장애인 도시락 서비스 지원",
+    "target": "도시락 지원이 필요한 장애인 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-360000000109": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "의료취약계층 구강관리 지원",
+    "target": "만65세 미만 저소득층 장애인",
+    "amount": "치과치료비",
+    "show": true,
+    "special": false
+  },
+  "g24-360000000111": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애인 재가방문서비스 지원",
+    "target": "서구 관내 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-360000000113": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경 농자재 지원",
+    "target": "친환경인증 신규 취득 농가",
+    "amount": "친환경비료 등 구입비",
+    "show": true,
+    "special": false
+  },
+  "g24-360000000116": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임신·출산용품 지원",
+    "target": "임신 16주 이상 출산 전 임신부",
+    "amount": "출산·육아용품",
+    "show": true,
+    "special": false
+  },
+  "g24-360000000244": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서구 구민안전보험 지원",
+    "target": "광주 서구 지역 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-360000000249": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "건강약자 천원택시 지원",
+    "target": "중증질환자, 거동불편 어르신",
+    "amount": "1,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-360000000251": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무료 법률상담 서비스",
+    "target": "서구 주민, 사업체 운영자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-360000000258": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "소상공인 특례보증 대출이자 지원",
+    "target": "서구 관내 소상공인",
+    "amount": "1년 이자",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000101": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "재가장애아동 학습지도 지원",
+    "target": "저소득, 차상위, 사례관리 대상 장애아동",
+    "amount": "1:1 개별지도",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000102": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지급",
+    "target": "광주 남구 거주 65세 이상 참전유공자",
+    "amount": "월 13만원",
+    "show": true,
+    "special": true
   }
 }
