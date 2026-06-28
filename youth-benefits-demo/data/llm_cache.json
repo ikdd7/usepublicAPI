@@ -70938,5 +70938,221 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-337000000483": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "연제구 구민 대상 사고 피해 보상 보험",
+    "target": "연제구 주민등록 모든 구민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-337000000484": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "연제구 거주 미취업자 면접사진 촬영비 지원",
+    "target": "연제구 거주 18~65세 미만 미취업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000101": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "예비부부 및 신혼부부 무료 건강검진 지원",
+    "target": "주민등록상 관내 예비부부 및 신혼부부",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "정신과적 응급위기 대상자 치료비 지원",
+    "target": "자타해 위험 정신과적 응급위기 대상자",
+    "amount": "치료비",
+    "show": true,
+    "special": true
+  },
+  "g24-338000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가족 고국방문 지원",
+    "target": "동 행정복지센터 추천 다문화가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000116": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "관내 가임기 여성 및 임신부 풍진검사 지원",
+    "target": "주민등록상 관내 가임기 여성 및 임신부",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000118": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 생활안정 지원",
+    "target": "건강보험료 기준 중위소득 100% 이하",
+    "amount": "생계비, 의료비 등",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000122": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집·유치원 신입생 입학준비금 지원",
+    "target": "수영구 거주 영유아 최초 입학",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000393": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "수영구 거주 출생아 안심팔찌 지원",
+    "target": "수영구 거주 2023년 이후 출생아",
+    "amount": "안심팔찌",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000403": {
+    "category": "문화",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "혼인신고 부부 즉석 기념촬영 서비스",
+    "target": "혼인신고 부부",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000405": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "민원실 사회적 약자 편의 서비스 제공",
+    "target": "민원실 이용 구민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-338000000408": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "출생아 기본증명서 및 축하문 우편송부",
+    "target": "수영구 출생신고한 수영구민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000412": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무인민원발급기 수수료 면제",
+    "target": "무인민원발급 창구 이용 민원",
+    "amount": "수수료 면제",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000414": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "친환경 카페 텀블러 이용시 할인",
+    "target": "친환경 카페 이용 고객",
+    "amount": "할인",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000416": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부·영유아 도서 택배 서비스",
+    "target": "수영구 거주 임산부 및 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000423": {
+    "category": "문화",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "광안리해양레포츠센터 이용료 할인",
+    "target": "수영구 거주 주민, 수급자, 국가유공자",
+    "amount": "10~20% 할인",
+    "show": true,
+    "special": true
+  },
+  "g24-338000000424": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "수영구 스포츠클럽 이용료 감면",
+    "target": "수영구 스포츠클럽 회원",
+    "amount": "5~10% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-338000000426": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급세대 대형폐기물 처리 수수료 지원",
+    "target": "대형폐기물 처리한 기초생활수급자 세대",
+    "amount": "수수료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-339000000104": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사상구 거주 학교밖청소년 교통비 지원",
+    "target": "사상구 거주 만9~18세 학교밖청소년",
+    "amount": "교통비",
+    "show": true,
+    "special": false
+  },
+  "g24-339000000244": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "사상구 거주 청년 면접 컨설팅 지원",
+    "target": "사상구 거주 19~39세 취업준비생",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
