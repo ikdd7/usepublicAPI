@@ -68503,5 +68503,661 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00002985": {
+    "category": "일자리",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 생계안정 및 지역경제 활성화 지원",
+    "target": "중장년, 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000114": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "만65세 이상 저소득 노인 도시락 및 밑반찬 제공",
+    "target": "만65세 이상 저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000123": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노인 일자리 제공으로 복지 향상 및 사회참여 확대",
+    "target": "노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002944": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "노인 건강진단으로 질병 조기 발견 및 치료 지원",
+    "target": "노년, 저소득",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004324": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "결혼이민자 친정나들이 지원으로 정서적 안정 도모",
+    "target": "다문화·탈북민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000614": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급 가구 화재안심 보험 가입 지원",
+    "target": "저소득",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001677": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "기술 창업 초기 단계 청년 기술창업수당 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002898": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층(40~64세) 틀니·보철 시술비용 지원",
+    "target": "중장년, 저소득",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004420": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 거주시설인 사랑의주택 환경개선 지원",
+    "target": "노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004848": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "통영시 신혼부부 전세자금 대출이자 지원",
+    "target": "신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003326": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "보훈단체 및 회원 가족 복지지원",
+    "target": "보훈단체, 보훈회원 가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004713": {
+    "category": "생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "다자녀 세대 쓰레기봉투 지원",
+    "target": "다자녀 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004427": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화장 장려금 지원으로 화장 문화 정착 도모",
+    "target": "전체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002953": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 자녀 초중고생 무료 안경 지원",
+    "target": "저소득층 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-306000000243": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "중랑구 거주 출산모 유축기 대여 서비스 제공",
+    "target": "중랑구 거주 출산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-318000000405": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영등포구 거주 주민 수동휠체어 무료 대여",
+    "target": "영등포구 거주 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-318000000406": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "취약가구 안전점검 및 정비 지원",
+    "target": "기초수급자, 홀몸어르신, 장애인, 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-318000000409": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "영등포구 거주 주민 EM 발효액 무상 배부",
+    "target": "영등포구 거주 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-318000000410": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "치매·노인성질환 어르신 돌봄 가족 휴식 지원",
+    "target": "치매·노인성질환 어르신 돌봄 가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-318000000411": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영등포노인복지관 이용 어르신 무료 셔틀버스 지원",
+    "target": "영등포노인종합복지관 이용 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000134": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부설주차장 개방 주차시설 개선비 지원",
+    "target": "부설주차장 민간 공유 법인 및 개인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000138": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "동작구 초중고 1학년 입학생 입학준비금 지원",
+    "target": "동작구 초중고 1학년 입학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000140": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "동작구민 건축사 민원상담 서비스 제공",
+    "target": "동작구민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000142": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "동작구 출생 둘째 이후 아동 상해·질병 보험료 지원",
+    "target": "동작구 출생 둘째 이후 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000144": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "교통약자 무료 셔틀버스 운영",
+    "target": "어르신, 장애인, 임산부, 영유아 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000147": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "65세 이상 어르신 및 건강취약계층 건강주치의 사업",
+    "target": "65세 이상 어르신 및 건강취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000149": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "착한가격업소 소상공인 지원",
+    "target": "동작구 소재 소상공인 개인서비스업 자영업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000153": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "동작구 중소기업·소상공인 육성기금 융자 지원",
+    "target": "동작구 내 사업장 둔 중소기업 및 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000156": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득가구 조명 LED 교체 지원",
+    "target": "생계·의료·주거·급여 수급 가구, 차상위 계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000157": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층·틈새계층 초등학생 영어교실 운영",
+    "target": "저소득층, 틈새계층 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000161": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "동작구 4개월 이하 영아 가정 백일 축하용품 대여",
+    "target": "동작구 거주 4개월 이하 영아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000162": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "동작구 산모신생아 건강관리 본인부담금 지원",
+    "target": "동작구 거주 신생아 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000190": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "동작구 여성 HPV 검사비 지원",
+    "target": "임신 사전건강관리 지원사업 신청 동작구 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000191": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "동작구 여성 HPV 검사비 청구",
+    "target": "동작구 여성 HPV 검사비 참여 신청 승인자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000101": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "어린이·청소년·여성 예방접종비 지원",
+    "target": "12세 이하 어린이, 65세 이상, 여성 청소년 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000103": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 정보화 교육 지원",
+    "target": "관악구 거주 장애인 및 일반 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000104": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지역사회 주민·학생 만성감염병 관리",
+    "target": "지역사회 주민, 고등학교 2,3학년 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000105": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "임산부 초기검사, 태아기형아검사, 엽산·철분제 지원",
+    "target": "관내 임신 가정 및 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000106": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증·발달장애인, 부모장애인 활동지원",
+    "target": "독거 중증장애인, 성인 발달장애인, 부모장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-320000000107": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 재가 장애인 밑반찬 구입 쿠폰 지원",
+    "target": "저소득 재가 장애인",
+    "amount": "1만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000110": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "취약계층 인플루엔자 백신 및 접종 지원",
+    "target": "50~64세 의료급여수급자, 14~64세 사회복지시설 입소자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-320000000114": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "관악구 거주 개인·법인 무료 법률 상담",
+    "target": "관악구 거주 개인, 법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000115": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "보험",
+    "summary": "관악구민 자전거 보험 자동 가입",
+    "target": "관악구 주민등록자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-320000000120": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 위문금 지원",
+    "target": "국가보훈대상자, 독립유공자 후손 등",
+    "amount": "최대 3만원",
+    "show": true,
+    "special": true
+  },
+  "g24-320000000123": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "청소년 문신 제거 시술 무료 지원",
+    "target": "관악구 거주 만9~24세, 중위소득 100%이내",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000124": {
+    "category": "건강",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "관악 청년 1인 가구 무료 건강검진",
+    "target": "만19~39세 관악구 거주 청년 1인 가구",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000126": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전동보장구 안전교육 프로그램 제공",
+    "target": "전동보장구 사용자 및 관심 일반인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000127": {
+    "category": "보험",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "보험",
+    "summary": "장애인 전동보장구 보험가입 지원",
+    "target": "관악구 거주 전동보장구 사용 장애인, 65세 이상 노인",
+    "amount": "사고당 5천만원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000295": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 시술 약제비 지원",
+    "target": "난임부부 시술비 지원 대상자 중 잔액 남은 관악구민",
+    "amount": "일부 본인부담금",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000302": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "관악구 출생축하용품 지원",
+    "target": "관악구 거주 출생신고 영아의 부 또는 모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000311": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "국가유공자 인플루엔자 백신 및 접종 지원",
+    "target": "50~64세 국가유공자 본인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-321000000102": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서초 아이돌보미·손주돌보미·119아이돌보미 지원",
+    "target": "서초구 거주 영아 자녀 가정, 손주 둔 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-321000000103": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "서초구 가정위탁아동 양육보조금 지원",
+    "target": "서초구 거주 가정위탁아동",
+    "amount": "월 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-321000000104": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 15세 이상 시민 양·한방 진료 지원",
+    "target": "만 15세 이상 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-321000000105": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "취약계층 인플루엔자 예방접종 지원",
+    "target": "기초생활수급자, 중증장애인, 국가유공자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-321000000107": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "서초구 남성 육아휴직 장려금 지원",
+    "target": "서초구 1년이상 거주, 고용보험 가입 남성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-321000000108": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "서초구 입양아동 양육보조금 지원",
+    "target": "서초구 거주 만18세 초과~고교 졸업 전 입양아동",
+    "amount": "월 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-321000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "관내 화훼 농가 상토 구매비용 보조",
+    "target": "관내 화훼 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-321000000111": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서초구 미취학아동 구강관리 지원",
+    "target": "서초구 만5~6세 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-321000000114": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "자립준비청년 생활보조수당 지원",
+    "target": "서초구 1년이상 거주, 중위소득 60%이하 자립준비청년",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
