@@ -70716,5 +70716,227 @@
     "amount": "분기 100ℓ",
     "show": true,
     "special": true
+  },
+  "g24-329000000107": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어린이, 임신부, 노인 대상 예방접종 비용 지원",
+    "target": "12세 이하 어린이, 임신부, 65세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-329000000112": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 명예수당 지원",
+    "target": "부산진구 거주 만 65세 이상 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-330000000102": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 세대 건강보험료 및 장기요양보험료 지원",
+    "target": "동래구 지역 가입 저소득 노인·장애인 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-330000000107": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "야생동물 피해 보상금 지급",
+    "target": "야생동물로부터 인적, 물적 피해를 입은 자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-330000000112": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "온천1동 거주 대학생 장학금 지원",
+    "target": "온천1동 1년 이상 거주 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-330000000113": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "명장2동 거주 학생 장학금 지원",
+    "target": "명장2동 3년 이상 거주 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-330000000115": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "명륜동 거주 대학생 장학금 지원",
+    "target": "명륜동 1년 이상 거주 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-330000000116": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "안락1동 거주 고등학생 장학금 지원",
+    "target": "안락1동 3년 이상 거주 고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-330000000117": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사직1동 거주 고등학생 장학금 지원",
+    "target": "사직1동 1년 이상 거주 고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-331000000101": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지급",
+    "target": "국민기초생활수급자 참전유공자",
+    "amount": "2만원",
+    "show": true,
+    "special": true
+  },
+  "g24-331000000104": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "노인 성인용 보행기 지원",
+    "target": "남구 거주 만 65세 이상 수급자·차상위",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-331000000122": {
+    "category": "교육",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "남구 청년 도서구입비 지원",
+    "target": "남구 거주 18~39세 미취업·미창업 청년",
+    "amount": "최대 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-331000000123": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "남구 거주 국가보훈대상자 명예수당 지급",
+    "target": "남구 거주 국가보훈대상자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-332000000102": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "고위험 임산부 가사도우미 지원",
+    "target": "북구 거주 고위험 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-333000000373": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "해운대구 저소득 장애인 쌀 지원",
+    "target": "해운대구 거주 저소득 장애인",
+    "amount": "백미",
+    "show": true,
+    "special": false
+  },
+  "g24-333000000374": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "해운대구 저소득 노인세대 건강보험료 지원",
+    "target": "해운대구 저소득 노인세대",
+    "amount": "월 건강보험료 전액",
+    "show": true,
+    "special": false
+  },
+  "g24-333000000375": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "해운대구 임산부 건강관리 지원",
+    "target": "해운대구 거주 임산부",
+    "amount": "엽산제, 철분제",
+    "show": true,
+    "special": false
+  },
+  "g24-333000000376": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "해운대구 무의탁 노인세대 위로금 지원",
+    "target": "해운대구 무의탁 독거노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-333000000377": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "해운대구 산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 초과 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-333000000380": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "해운대구 저소득 청소년 장학금 지원",
+    "target": "해운대구 거주 저소득층 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
