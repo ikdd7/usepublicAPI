@@ -71154,5 +71154,222 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-340000000104": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "배 작목반 농약 구입비 지원",
+    "target": "관내 배 재배 작목반",
+    "amount": "구입비 70% 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-340000000105": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "화훼농가 포트 구입비 지원",
+    "target": "관내 거주 원예(화훼) 작목반",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-340000000107": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "고추 모종 구입비 지원",
+    "target": "관내 고추 재배 농가",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-340000000109": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양식어장 로프 구입비 지원",
+    "target": "관내 미역, 다시마 양식 어업인",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-340000000111": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "연근해어선 유류비 지원",
+    "target": "기장군 등록 연근해 동력어선",
+    "amount": "면세유",
+    "show": true,
+    "special": false
+  },
+  "g24-340000000113": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장기요양급여 본인부담금 지원",
+    "target": "기장군 거주 장기요양 노인",
+    "amount": "본인부담금",
+    "show": true,
+    "special": true
+  },
+  "g24-340000000114": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "한우 작목반 발효사료 구입비 지원",
+    "target": "기장한우작목반 회원",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-340000000116": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "고령농가 벼 육묘 구입비 지원",
+    "target": "관내 거주 만60세 이상 농업인",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-340000000117": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "작목반 농기계 구입비 지원",
+    "target": "관내 농지 경작 작목반",
+    "amount": "50% 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-340000000119": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "노인·장애인 구강건강관리 서비스",
+    "target": "만65세 이상 수급자, 만50세 이상 장애인",
+    "amount": "구강건강관리",
+    "show": true,
+    "special": true
+  },
+  "g24-340000000123": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "친환경 농산물 인증비 지원",
+    "target": "관내 거주·경작 친환경 인증 농가",
+    "amount": "검사비",
+    "show": true,
+    "special": false
+  },
+  "g24-341000000110": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "ICT융합 방문건강관리 서비스",
+    "target": "고령, 질병, 장애 등 건강취약계층",
+    "amount": "건강관리",
+    "show": true,
+    "special": false
+  },
+  "g24-341000000111": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 영유아 지원",
+    "target": "대구 중구 거주 임산부",
+    "amount": "지원",
+    "show": true,
+    "special": false
+  },
+  "g24-341000000113": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "재가 장애인·독거노인 이동목욕 서비스",
+    "target": "재가 중증장애인, 거동불편 독거노인",
+    "amount": "이동목욕",
+    "show": true,
+    "special": true
+  },
+  "g24-342000000101": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "학교밖청소년 급간식비·교통비 지원",
+    "target": "만9세~24세 학교밖청소년",
+    "amount": "급간식비, 교통카드",
+    "show": true,
+    "special": false
+  },
+  "g24-342000000106": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "예비부부·임산부 검사 지원",
+    "target": "임신 희망 예비부부, 임산부",
+    "amount": "9종 검사, 당뇨검사",
+    "show": true,
+    "special": false
+  },
+  "g24-342000000108": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모 가계지원비 지원",
+    "target": "기준중위소득 65% 이내 한부모가족",
+    "amount": "가계지원비",
+    "show": true,
+    "special": false
+  },
+  "g24-342000000110": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "모자보호시설 퇴소자 자립정착금 지원",
+    "target": "미혼모자공동생활시설 2년 만기 퇴소자",
+    "amount": "자립정착금",
+    "show": true,
+    "special": false
+  },
+  "g24-343000000121": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "서구 거주 학생 특기 장학금 지원",
+    "target": "서구 거주 초·중·고등학생",
+    "amount": "장학금",
+    "show": true,
+    "special": false
+  },
+  "g24-343000000104": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임신부 엽산제·철분제 지원",
+    "target": "관내 임신부",
+    "amount": "엽산제, 철분제",
+    "show": true,
+    "special": false
   }
 }
