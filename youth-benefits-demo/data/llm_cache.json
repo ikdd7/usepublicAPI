@@ -73877,5 +73877,236 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-356000000112": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인활동지원사 건강검진비 지원",
+    "target": "장애인활동지원사",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-356000000117": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "소상공인 보증지원",
+    "target": "관내 소기업 및 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-356000000236": {
+    "category": "문화",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년센터 공간 대관 지원",
+    "target": "만 19세 이상 39세 이하 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-356000000243": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "구직청년 취업 역량강화 프로그램 제공",
+    "target": "구직청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000102": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "강화군 섬 주민 정주생활지원금 지원",
+    "target": "강화군 도서지역 거주자(1년 이상)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000105": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "결식우려 아동 급식카드 지원",
+    "target": "중위소득 52%~100% 이하 결식우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000107": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "target": "강화군 거주 1년 이상 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000108": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가정 명절 위문금 지원",
+    "target": "기준중위소득 63% 이하 한부모가족",
+    "amount": "세대 당 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000109": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "만 65세 이상 노인, 장애인, 한부모 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축사 환경개선 설비 지원",
+    "target": "축산업 허가 및 등록 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000111": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "중·고교 신입생 무상교복 지원",
+    "target": "관내 중고등학교 입학 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000112": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "가축 소모성 예방약품 지원",
+    "target": "가축 사육업 등록 농가",
+    "amount": "80% 지원(전업농)",
+    "show": true,
+    "special": false
+  },
+  "g24-357000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "무항생제 축산물 인증비 지원",
+    "target": "무항생제 축산물 인증 희망 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000103": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 복지카드 개별우편 배송",
+    "target": "등록장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-361000000104": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 자녀 장학금 지원",
+    "target": "기준중위소득 50% 이하 고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000106": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 자립준비금 지원",
+    "target": "가정위탁 양육보조금 대상 아동",
+    "amount": "월 4만원",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000107": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시설아동 생일 지원금 지급",
+    "target": "아동복지시설 입소 아동",
+    "amount": "아동당 3만원",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000108": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 장애아동 건강음료 지원",
+    "target": "기초/차상위 계층 장애아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "100세 효행자 장수축하금 지원",
+    "target": "100세 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-361000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 맞춤형 농기계 구입비 지원",
+    "target": "남구 농지 경작 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
