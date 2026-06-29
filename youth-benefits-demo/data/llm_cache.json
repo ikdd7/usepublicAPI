@@ -74108,5 +74108,692 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006370": {
+    "category": "일자리",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "중소·중견기업 근로자 목돈 마련 지원",
+    "target": "삼척시 중소·중견기업 근로자",
+    "amount": "월 15만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006359": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "보험",
+    "summary": "발달장애인 안심보험 지원",
+    "target": "발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006353": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 공공기관 경력 형성 지원",
+    "target": "달성군 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006372": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "철원군 신혼부부 정착지원금 지원",
+    "target": "철원군 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006371": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "정선군 결혼장려금 지원",
+    "target": "정선군 결혼 예정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006369": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "인제군 산모 산후 조리비 지원",
+    "target": "인제군 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006368": {
+    "category": "복지",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "서비스",
+    "summary": "철원군 거주군인 체육시설 이용 지원",
+    "target": "철원군 거주 군인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006367": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산장려금 지원",
+    "target": "출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006366": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "횡성군 대상포진 예방접종 비용 지원",
+    "target": "횡성군 면역저하자",
+    "amount": "접종 비용",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006364": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 본인부담금 지원",
+    "target": "난임부부",
+    "amount": "본인부담금",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006365": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "한방 난임 의료비 지원",
+    "target": "난임부부",
+    "amount": "의료비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006360": {
+    "category": "주거",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "농어촌 유학생 주거비 지원",
+    "target": "농어촌 유학생",
+    "amount": "주거비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006340": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현물",
+    "summary": "홍천군 노인 성인용 보행기 지원",
+    "target": "홍천군 보행 불편 노인",
+    "amount": "보행기",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006339": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현금",
+    "summary": "홍천군 100세 장수축하금 지급",
+    "target": "홍천군 100세 이상 노인",
+    "amount": "축하금",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006336": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "서비스",
+    "summary": "AI 생활지원사 통합돌봄 지원",
+    "target": "돌봄 공백 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006350": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "서산시 청년 신혼부부 전세자금 대출이자 지원",
+    "target": "서산시 청년 신혼부부",
+    "amount": "대출이자",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006349": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "근로능력평가용 진단서 발급비용 지원",
+    "target": "취약계층",
+    "amount": "발급비용",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006337": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "보령시 신규 가정위탁 지원금",
+    "target": "보령시 신규 가정위탁가정",
+    "amount": "초기 양육비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006363": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 생필품비 지원",
+    "target": "가정위탁아동",
+    "amount": "생필품비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006355": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "성남시 4대 중증질환자 간병비 지원",
+    "target": "성남시 저소득층 4대 중증질환자",
+    "amount": "간병비",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 80세 이상 3세대 효도가정에 장수효도수당 지급",
+    "target": "만 80세 이상 3세대 효도가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000112": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "기준중위소득 150% 이하 출산가정에 산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 이하 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000116": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "남구 거주 학생 및 자녀 대상 장학금 지원",
+    "target": "광주 남구 1년 이상 거주 학생 또는 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000541": {
+    "category": "일자리",
+    "tags": [
+      "구직중",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "남구 거주 청년 구직자 취업장려금 지원",
+    "target": "남구 거주 19~39세, 중위소득 150% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-361000000542": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "광주 남구 구민 대상 구민안전보험 지원",
+    "target": "광주 남구 주민등록자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-362000000106": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 등 주거취약계층 집수리 지원",
+    "target": "기초생활수급자, 차상위계층, 사례관리대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-362000000107": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "귀향 능력 없는 행려자 대상 귀향여비 지급",
+    "target": "귀향 능력 없는 타지역 귀향 희망 행려자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-362000000333": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "북구 거주 24개월 이하 영아 대상 아이맘 교통비 지원",
+    "target": "북구 거주 6개월 이상 부모와 24개월 이하 영아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-363000000103": {
+    "category": "교육",
+    "tags": [
+      "학생",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "광산구 거주 학생 대상 장학금 지원",
+    "target": "광산구 1년 이상 거주 학생 또는 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-364000000101": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "만 70세 이상 수급권자 홀로 사는 노인 생일상 제공",
+    "target": "만 70세 이상 부양의무자 없는 수급권자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-364000000102": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "기초생활수급자 명절 위문 상품권 지급",
+    "target": "기초생활보장수급자 중 동 추천 세대",
+    "amount": "2만원 상당 상품권",
+    "show": true,
+    "special": false
+  },
+  "g24-364000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "시설 아동 대상 학용품비 지원",
+    "target": "아동복지시설 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-364000000448": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "대전 동구 임신부 및 배우자 백일해 접종비 지원",
+    "target": "대전 동구 거주 임신부 및 배우자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-364000000449": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "대전 동구 구민 대상 구민안전보험 지원",
+    "target": "대전 동구 주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-365000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업인 대상 농산물 저온저장고(농기계) 구입 지원",
+    "target": "사업대상자로 선정된 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-365000000106": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "생계·의료급여 수급자 명절 위문 상품권 지급",
+    "target": "생계·의료급여 수급자 가구",
+    "amount": "상품권 2매(10,000*2)",
+    "show": true,
+    "special": false
+  },
+  "g24-366000000101": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 유족 대상 유족위로금 지급",
+    "target": "참전유공자 사망일 기준 서구 거주 유족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-366000000104": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "기초생활보장가구 명절 위문 상품권 지급",
+    "target": "국민기초생활보장가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-366000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "서구 거주 농업인 포장재 및 농기계 수리 지원",
+    "target": "서구 거주 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-366000000114": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "가정위탁 아동 생일축하 상품권 지원",
+    "target": "관내 가정위탁 아동",
+    "amount": "상품권",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000101": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "출산가정 산모·신생아 건강관리 지원",
+    "target": "관내 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000102": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "치매환자 배회감지기 대여 지원",
+    "target": "관내 주소지 치매환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-372000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 가축분뇨 처리 장비 지원",
+    "target": "전업규모 이상 가축분뇨배출허가 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000105": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "만18세 이하 알레르기 질환 아동 물품 지원",
+    "target": "만18세 이하 알레르기 질환 진단자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "어선어업인 수산정책보험료 일부 지원",
+    "target": "관내 주소지 어선어업인 및 어업근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산농가 친환경 역량 강화 지원",
+    "target": "세부 지원항목별 상이",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "가축재해보험 가입 지원",
+    "target": "가축사육업 허가(등록)자",
+    "amount": "시가 80% 이상 보상",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "소 사육농가 사료자동급이기 설치 지원",
+    "target": "가축사육업 등록(허가) 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자활참여자 자격증 취득 교육비 지원",
+    "target": "자활근로사업 참여자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000112": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "소 10두 이상 농가 채혈보정용 고정대 지원",
+    "target": "가축사육업 등록 및 소 10두 이상 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000113": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "예방접종 이상반응 진료비 본인부담금 지원",
+    "target": "예방접종 후 이상반응 진료비 발생자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000114": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만성질환자 안저검사비 지원",
+    "target": "북구 주소지 보건소 등록 만성질환자",
+    "amount": "연 1회",
+    "show": true,
+    "special": false
+  },
+  "g24-372000000115": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농업인 영농자재 지원",
+    "target": "벼 재배하는 북구 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-378000000145": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "8세 미만 아동 월 2만원 아동수당플러스 지원",
+    "target": "성남시 8세 미만 아동",
+    "amount": "월 2만원",
+    "show": true,
+    "special": false
+  },
+  "g24-378000000150": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산 후 3개월 이내 산모 유축기 대여 지원",
+    "target": "성남시 거주 출산 후 3개월 이내 산모",
+    "amount": "1개월간",
+    "show": true,
+    "special": false
+  },
+  "g24-378000000152": {
+    "category": "육아",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지급",
+    "target": "성남시 거주 장애인가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-378000000153": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "출산가정 산모·신생아 건강관리 서비스 지원",
+    "target": "기준중위소득 150% 이하 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-378000000158": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "성남사랑상품권 할인 구매 지원",
+    "target": "성남사랑상품권 사용자",
+    "amount": "할인율 미기재",
+    "show": true,
+    "special": false
+  },
+  "g24-378000000159": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "성남시 거주 입양아동 월 5만원 양육수당 지원",
+    "target": "성남시 1년 이상 거주 입양 가정",
+    "amount": "월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-378000000163": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "학대피해아동 의료비 등 지원",
+    "target": "학대피해아동",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
