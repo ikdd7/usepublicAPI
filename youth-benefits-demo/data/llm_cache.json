@@ -75235,5 +75235,687 @@
     "amount": "검사비 감면",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006348": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "하남시 출산가정 산후조리비 지원",
+    "target": "하남시 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-366000000117": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "대전 서구 소상공인 경영안정자금 지원",
+    "target": "대전 서구 3개월 이상 영업 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-366000000120": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "대전 서구 야생동물 농작물 피해 보상금 지원",
+    "target": "대전 서구 농작물 피해 농·임업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-366000000122": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "애국지사 유족 위문",
+    "target": "애국지사 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-367000000114": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "유성구 학교밖청소년 수학여행비 지원",
+    "target": "유성구 주소 학교밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-367000000121": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득주민자녀 장학금 지원",
+    "target": "기초생활수급자, 차상위계층 성적우수 고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-367000000122": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "기초수급세대 설, 추석 위문품 지원",
+    "target": "기초생계, 기초의료 급여 수급세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-368000000101": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "기초수급자 명절 위문품 지원",
+    "target": "생계, 의료급여 수급자 가구",
+    "amount": "2만원(상품권)",
+    "show": true,
+    "special": false
+  },
+  "g24-368000000102": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "거동불편 노인 가구 주거환경개선 물품 지원",
+    "target": "거동불편 노인 거주 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-368000000103": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "거동불편 노인 방문 목욕 서비스 지원",
+    "target": "만65세 이상 거동불편 노인",
+    "amount": "월 최대 2회",
+    "show": true,
+    "special": false
+  },
+  "g24-368000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "돌봄 필요한 자 마을돌봄 서비스 지원",
+    "target": "독립생활 어려운 돌봄 필요한 자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-368000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "대덕구 농업인 농기계 수리비 지원",
+    "target": "대덕구 농업인, 지역농협 조합원",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000101": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만74세 이상 저소득층 어르신 틀니 본인부담금 지원",
+    "target": "만74세 이상 의료급여 수급권자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000102": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중구 B형간염 항체 미형성자 예방접종 지원",
+    "target": "중구 주소지 B형간염 항체 미형성자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000114": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "울산 남구 재학생 장학금 지원",
+    "target": "울산 남구 거주 가족, 남구 소재 학교 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000116": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "근로능력 수급자 탈수급 지원",
+    "target": "일하는 생계의료수급 가구, 주거교육수급/차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000125": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "울산 남구 구민안전보험 지원",
+    "target": "울산 남구 주민",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000127": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "생활민원 전문가 무료 상담 서비스",
+    "target": "생활민원 상담 원하는 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-371000000101": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고혈압, 당뇨질환자 안저검사비 지원",
+    "target": "관내 주민 고혈압, 당뇨질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-371000000102": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "거동불편 저소득층 홀로 사는 장애인 우유 지원",
+    "target": "홀로 사는 거동불편 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-371000000111": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "학대피해아동 의료비 지원",
+    "target": "만 18세 미만 학대피해아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-378000000164": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "노동취약계층 유급병가비 지원",
+    "target": "성남시 거주 노동취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-378000000169": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중소기업 해외전시회 참가 지원",
+    "target": "관내 본사·공장 소재 중소기업",
+    "amount": "최대 5,000천원",
+    "show": true,
+    "special": false
+  },
+  "g24-382000000137": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "임산부 건강관리(엽산·철분제) 지원",
+    "target": "관내 임신준비 여성 및 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-382000000139": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "어린이·여성 국가예방접종 지원",
+    "target": "12세 이하 어린이, 12~26세 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-382000000152": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청년 취업비용(정장대여·사진) 지원",
+    "target": "의정부시 거주 청년, 대학생, 졸업예정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-382000000153": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시민 생활안전보험 지원",
+    "target": "의정부시 주민등록 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-382000000175": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 장애인 주택개조 지원",
+    "target": "관내 거주 저소득 등록 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000101": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "관내 모든 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000102": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인거주시설 입소자 위문품 지급",
+    "target": "장애인거주시설 입소자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-383000000106": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고위험군 성인 유료 예방접종 지원",
+    "target": "고위험군 성인 예방접종 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000115": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 85세 이상 장수수당 지급",
+    "target": "안양시 거주 만 85세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000122": {
+    "category": "육아",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "법정저소득·셋째아 필요경비 지원",
+    "target": "만0~5세 법정저소득·셋째아 이상 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000125": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득주민 생활안정지원",
+    "target": "기준중위 20% 미만 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000130": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "재난취약가구 안전점검정비 지원",
+    "target": "수급자, 장애인, 독거노인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000133": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청년 면접용 정장 무료 대여",
+    "target": "안양시 거주 청년구직자, 졸업예정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000134": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청년 면접 스타일링(헤어·메이크업) 지원",
+    "target": "안양시 거주 청년구직자, 졸업예정자",
+    "amount": "각3만원",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000135": {
+    "category": "교육",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "대학생 행정체험연수 지원",
+    "target": "안양시 거주 대학 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000138": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "원어민 화상 외국어 교육 지원",
+    "target": "안양시 거주 학생, 저소득 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000140": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애인 생활일자리 지원",
+    "target": "안양시 거주 18세 이상 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000185": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "차상위계층 사망 시 장제비 지원",
+    "target": "사망일 기준 안양시 3개월 이상 거주자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-390000000116": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 아동 치과치료비 지원",
+    "target": "지역아동센터 및 그룹홈 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-390000000117": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "주택 신재생에너지 보급 지원",
+    "target": "관내 공동 및 단독주택",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-390000000121": {
+    "category": "농업",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현물",
+    "summary": "수출용 화훼종자 지원",
+    "target": "광명시 소재 수출 화훼농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-390000000123": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "공익직불금 지급",
+    "target": "농업경영체 등록 농업인 및 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-390000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농작물·농기계 재해보험 가입 지원",
+    "target": "광명시 농작물 경작 농업인",
+    "amount": "가입비의 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-390000000126": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업인 모판, 상토, 토양증진제 지원",
+    "target": "광명시 농지 경영 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-390000000432": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고혈압·당뇨병 진료비, 약제비 지원",
+    "target": "관내 거주 만 65세 이상 고혈압·당뇨병 환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-390000000436": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 약제비 지원",
+    "target": "난임부부 시술비 지원사업 잔액 보유자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "고품질 벌꿀생산 기자재 구입비 지원",
+    "target": "평택시 관내 양봉사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산단체 축산도우미 고용비 지원",
+    "target": "축산도우미 운영 관내 축산단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000104": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "사망 참전유공자 배우자 복지수당 지원",
+    "target": "사망 참전유공자의 배우자",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-391000000106": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현물",
+    "summary": "청년 면접정장 무료대여 서비스",
+    "target": "평택시 거주 18~39세 청년구직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000107": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "어선원 재해보험 가입 지원",
+    "target": "해면 어선어업인",
+    "amount": "보험금의 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000108": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자수당 지원",
+    "target": "6·25 및 월남참전유공자",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-391000000109": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 자립생활 정착금 지원",
+    "target": "경기도 거주시설 퇴소·체험홈 수료 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000110": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동보조 지원",
+    "target": "활동지원 국지원 대상자 중 요건 충족자",
+    "amount": "최소 10시간 ~ 최대 60시간",
+    "show": true,
+    "special": true
+  },
+  "g24-391000000112": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 명절위로금 지원",
+    "target": "순국선열, 애국지사 등 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-391000000114": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장티푸스, 유행성출혈열, B형간염 예방접종 지원",
+    "target": "유행지역 여행자, 위험 직군, 의료인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000116": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "장애아동 입양 양육보조금 지원",
+    "target": "장애아동을 국내 입양한 가정",
+    "amount": "만 18세까지",
+    "show": true,
+    "special": false
   }
 }
