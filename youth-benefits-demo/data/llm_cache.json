@@ -73195,5 +73195,248 @@
     "amount": "혈액/소변 검사",
     "show": true,
     "special": false
+  },
+  "g24-369000000104": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 및 사망위로금 지원",
+    "target": "순국선열, 애국지사, 전몰군경 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-369000000105": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 국민건강보험료 지원",
+    "target": "중구 지역 가입자 중 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000107": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 인공수정료 및 종축 등록 지원",
+    "target": "중구 거주 한우 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "가축분뇨처리용 톱밥 구입비 지원",
+    "target": "소, 돼지, 닭 등 축산업 허가·등록 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000109": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "아토피·천식 진단자 보습제 지원",
+    "target": "관내 18세 이하 아토피·천식 진단자",
+    "amount": "보습제 1세트",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000110": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "기초생활수급자 종량제 봉투 지원",
+    "target": "생계, 의료 수급권자",
+    "amount": "월 60리터 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000111": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산환경개선제 구입비 지원",
+    "target": "소, 돼지, 닭 등 축산업 허가·등록 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000112": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "송아지 생산안정제 가입비 지원",
+    "target": "한우 암소 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000114": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리사 파견 지원",
+    "target": "기준 중위소득 150% 이하 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000117": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 인플루엔자 무료 예방접종 지원",
+    "target": "14세~64세 장애인, 의료급여수급자",
+    "amount": "무료 접종",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000258": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "구민안전보험 사망 시 보험금 지급",
+    "target": "울산 중구 지역 주민",
+    "amount": "2000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000101": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 미혼한부모 추가아동양육비 지원",
+    "target": "기준 중위소득 65% 이하 미혼한부모",
+    "amount": "월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "어선원 재해보상보험료 지원",
+    "target": "어선원 재해보상보험 가입자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 수매 운송비 지원",
+    "target": "관내 수매 참여 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 안전보험료 지원",
+    "target": "관내 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000106": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한센환자 이동진료 지원",
+    "target": "한센환자 및 접촉자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000107": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 인플루엔자 무료 예방접종 지원",
+    "target": "장애인, 의료급여수급자, 국가유공자",
+    "amount": "무료 접종",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000109": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "건강취약계층 방문건강관리 서비스 지원",
+    "target": "기초생활수급자, 차상위계층 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000110": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득가구 국민건강보험료 지원",
+    "target": "노인, 장애인, 한부모 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000112": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 종축등록 및 친자확인 지원",
+    "target": "관내 한우 축사 둔 농가",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
