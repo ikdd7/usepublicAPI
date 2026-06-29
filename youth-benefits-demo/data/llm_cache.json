@@ -73651,5 +73651,231 @@
     "amount": "구입 비용의 50%",
     "show": true,
     "special": false
+  },
+  "g24-374000000106": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "친환경 농업인에게 소모성자재 지원",
+    "target": "수원시 친환경 농업인 및 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000110": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농업인 농업용 관리기 구입 비용 50% 지원",
+    "target": "수원시 농업인 (1000㎡ 이상 경작)",
+    "amount": "구입 비용의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000113": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 월 20시간 추가 지원",
+    "target": "6세 이상 활동지원 수급자 (기능제한점수 330점 이상)",
+    "amount": "월 20시간",
+    "show": true,
+    "special": true
+  },
+  "g24-374000000119": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "범죄 피해자 생계비, 병원비 등 지원",
+    "target": "수원지역 범죄 피해자 및 가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000121": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "기초연금 미수급 노인에게 분기별 6만원 지급",
+    "target": "수원시 85세 이상 기초연금 미수급 노인",
+    "amount": "분기별 6만원",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000127": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 홀몸어르신에게 유제품 지원 및 안부 확인",
+    "target": "저소득 홀몸어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000135": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 고3 자녀에게 월 3만원 지원",
+    "target": "저소득 법정 한부모가족 고3 재학생",
+    "amount": "월 3만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000139": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농업인 벼 못자리용 상토 구입 지원",
+    "target": "수원시 농업인 (1000㎡ 이상 경작)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000141": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역화폐(수원페이) 구입 시 10% 인센티브 지급",
+    "target": "만 14세 이상 수원시민",
+    "amount": "10% 인센티브",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000146": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "3세대 이상 가정에 가구당 5만원 지급",
+    "target": "수원시 5년 이상 거주 3세대 이상 가정",
+    "amount": "가구당 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000556": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 원외처방 약제비 지원",
+    "target": "난임부부 시술비 지원사업 대상자",
+    "amount": "정부지원금 한도 내",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000563": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 가구 전기, 전자기기, 배관설비 점검 및 수리 지원",
+    "target": "기초생활수급자, 차상위, 저소득 홀몸노인, 네자녀 이상 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000565": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "출산 후 1개월 이내 산모 유축기 대여 지원",
+    "target": "수원시 거주 출산 후 1개월 이내 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000572": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부, 예비·신혼부부 검사 지원",
+    "target": "수원시 거주 예비·신혼부부 (첫 자녀 없고 혼인 3년 이내)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000576": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "보건소 등록 임산부 우울 선별검사 및 상담 지원",
+    "target": "수원시 보건소 등록 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000594": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현물",
+    "summary": "취업 면접 예정 청년에게 정장 무료 대여",
+    "target": "수원시 거주 19~39세 취업 면접 예정 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-374000000595": {
+    "category": "교육",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "취업준비 청년 어학·자격시험 응시료 지원",
+    "target": "수원시 거주 19~39세 취업준비 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-378000000140": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "성남시 60세 이상 기초수급자, 차상위 대상포진 접종 지원",
+    "target": "성남시 60세 이상 기초수급자, 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-378000000142": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 도비 수급자 시비 10시간 추가 지원",
+    "target": "장애인활동지원 도비 수급자",
+    "amount": "시비 10시간",
+    "show": true,
+    "special": true
+  },
+  "g24-378000000144": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "성인 장티푸스, 신증후군출혈열 무료 접종 지원",
+    "target": "장티푸스, 신증후군출혈열 접종 필요한 자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
