@@ -72738,5 +72738,462 @@
     "amount": "월 13만원",
     "show": true,
     "special": true
+  },
+  "g24-349000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 영농자재 구입비 지원",
+    "target": "농업경영체 등록한 관내 거주 농업인",
+    "amount": "구비 60%",
+    "show": true,
+    "special": false
+  },
+  "g24-349000000106": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국가 암검진 완료자 검사비 지원",
+    "target": "당해연도 국가 암검진 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-349000000107": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "65세 이상 주민 대상포진 예방접종 무료 지원",
+    "target": "65세 이상 중구 거주 1년 이상 주민",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-349000000111": {
+    "category": "복지",
+    "tags": [
+      "1인가구",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "취약계층 1인 가구 돌봄플러그 설치 지원",
+    "target": "취약계층 1인 고위험군 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-349000000113": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "착한가격업소 인증표찰 및 인센티브 지원",
+    "target": "착한가격업소 지정 희망업소",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-349000000127": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "target": "관내 산모·신생아 건강관리서비스 이용 완료자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-350000000101": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역화폐(동구사랑상품권) 6% 할인 구매 지원",
+    "target": "동구 소재 시장 및 소상공인, 동구 및 인근주민",
+    "amount": "6% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-350000000103": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "물리치료 처방받은 10세 이상 주민 지원",
+    "target": "물리치료 처방받은 10세 이상 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-350000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "자활근로 참가자 및 공동체 창업자금 대여 지원",
+    "target": "자활근로 참가자 및 자활공동체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-350000000106": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 14세 이하 아동 치아홈메우기 본인부담금 지원",
+    "target": "만 14세 이하 아동",
+    "amount": "본인부담금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-350000000107": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "청년 구직자 사진촬영비 및 이미용비 지원",
+    "target": "만19~39세 관내 청년 구직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-350000000108": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 유료방송 시청료 지원",
+    "target": "기초생활수급자 중 심한 장애인",
+    "amount": "50:50 매칭지원",
+    "show": true,
+    "special": true
+  },
+  "g24-350000000110": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의료급여수급권자 등 한방진료 본인부담금 면제",
+    "target": "의료급여수급권자, 65세 이상 어르신, 국가유공자",
+    "amount": "본인부담금 면제",
+    "show": true,
+    "special": true
+  },
+  "g24-350000000111": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의료급여수급권자 등 양방진료 본인부담금 면제",
+    "target": "의료급여수급권자, 65세 이상 어르신, 국가유공자",
+    "amount": "본인부담금 면제",
+    "show": true,
+    "special": true
+  },
+  "g24-350000000112": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활보장 수급자 보험료 지원",
+    "target": "기초생계, 의료, 주거급여 수급자",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": true
+  },
+  "g24-350000000113": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 등 명절 위문품 지원",
+    "target": "차상위계층, 한부모가정, 국가유공자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-350000000127": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "target": "기준 중위소득 150% 이하 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-351050000105": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 우수선수 전국체전 참가비 지원",
+    "target": "미추홀구 거주 우수장애인 선수",
+    "amount": "300천원",
+    "show": true,
+    "special": false
+  },
+  "g24-351050000106": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "기초생활수급자 쓰레기봉투 지원",
+    "target": "기준중위소득 40% 이하 기초생활수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-351050000107": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 전국체전 참가비 지원",
+    "target": "미추홀구 관내 장애인 선수",
+    "amount": "50천원",
+    "show": true,
+    "special": false
+  },
+  "g24-353000000103": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째아 이상 출산(입양) 시 남동구 장려금 지원",
+    "target": "셋째아 이상 출산(입양) 신고자, 부모 남동구 1년 이상 거주",
+    "amount": "정보 없음",
+    "show": true,
+    "special": false
+  },
+  "g24-353000000104": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동 지원 추가 시간 제공",
+    "target": "6세~65세 미만 등록장애인, 서비스지원 종합조사 1~12구간",
+    "amount": "월 10시간",
+    "show": true,
+    "special": true
+  },
+  "g24-353000000106": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 전동보조기기 안전커버 지원",
+    "target": "의료급여 수급자 중 등록장애인, 전동휠체어/스쿠터 이용자",
+    "amount": "정보 없음",
+    "show": true,
+    "special": true
+  },
+  "g24-353000000107": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인 국민건강보험료 지원",
+    "target": "최저 보험료 이하 노인가구",
+    "amount": "정보 없음",
+    "show": true,
+    "special": false
+  },
+  "g24-353000000108": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 수당 지원",
+    "target": "만65세 이상 국가보훈대상자, 남동구 거주",
+    "amount": "정보 없음",
+    "show": true,
+    "special": true
+  },
+  "g24-353000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "어업인 재해보상보험료 지방비 지원",
+    "target": "3톤 미만 및 3톤 이상 어선원",
+    "amount": "보험료 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-353000000111": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "재가 중증장애인 생계보조수당 지급",
+    "target": "국민기초생활수급자 중 재가중증장애인",
+    "amount": "월 3만원",
+    "show": true,
+    "special": true
+  },
+  "g24-353000000117": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "소기업·소공인 특례보증 지원",
+    "target": "담보력 부족한 남동구 소재 소기업(제조업), 소공인",
+    "amount": "정보 없음",
+    "show": true,
+    "special": false
+  },
+  "g24-353000000191": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "target": "기초/차상위, 기준중위소득 150% 이하 출산가정",
+    "amount": "본인부담금 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-354000000103": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "기초생활수급자 쓰레기 봉투 지원",
+    "target": "생계, 의료급여 수급자",
+    "amount": "월 1인당 20리터",
+    "show": true,
+    "special": true
+  },
+  "g24-354000000107": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 어르신 틀니 본인부담금 지원",
+    "target": "65세 이상 의료급여 수급권자, 틀니 시술 완료자",
+    "amount": "본인부담금 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-354000000108": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "부평구 주택 미니태양광 보급 지원",
+    "target": "부평구 소재 주택 및 일반건축물",
+    "amount": "정보 없음",
+    "show": true,
+    "special": false
+  },
+  "g24-354000000112": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "부평구 소상공인 특례보증 지원",
+    "target": "담보 여력 부족한 부평구 소재 소상공인",
+    "amount": "정보 없음",
+    "show": true,
+    "special": false
+  },
+  "g24-354000000114": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부평구 보훈대상자 건강생활지원수당 지급",
+    "target": "만65세 이상 부평구 거주 보훈예우/참전명예수당 수급자",
+    "amount": "매 반기 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-354000000129": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모신생아 건강관리 본인부담금 지원",
+    "target": "인천시 주민등록 산모신생아 건강관리서비스 이용자",
+    "amount": "본인부담금 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-355000000101": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "예비부부 엽산제 지원",
+    "target": "관내 주민등록 예비부부",
+    "amount": "3개월분",
+    "show": true,
+    "special": false
+  },
+  "g24-355000000104": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "계양구 저소득층 건강보험료 지원",
+    "target": "계양구 거주, 최저보험료 이하 납부자",
+    "amount": "정보 없음",
+    "show": true,
+    "special": false
+  },
+  "g24-355000000110": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "시각장애인 안마사 일자리 지원",
+    "target": "만18세 이상 등록 시각장애인, 안마사 자격 소지자",
+    "amount": "정보 없음",
+    "show": true,
+    "special": false
+  },
+  "g24-355000000112": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "소상공인 특례보증 지원",
+    "target": "담보력 없는 소상공인",
+    "amount": "정보 없음",
+    "show": true,
+    "special": false
+  },
+  "g24-355000000117": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "초기 임신부 검사 지원",
+    "target": "관내 등록 초기 임신부(임신 12주 이내)",
+    "amount": "혈액/소변 검사",
+    "show": true,
+    "special": false
   }
 }
