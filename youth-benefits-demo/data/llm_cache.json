@@ -75917,5 +75917,231 @@
     "amount": "만 18세까지",
     "show": true,
     "special": false
+  },
+  "g24-383000000141": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임신부 초기 산전검사 지원",
+    "target": "안양시 거주 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000142": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "만안구 출산 모 유축기 대여 지원",
+    "target": "만안구 거주 출산 모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000155": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "예비부모 건강검진 및 엽산제 지원",
+    "target": "안양시 거주 결혼예정 커플, 예비부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000157": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "출산준비교육 지원",
+    "target": "임신부 및 예비부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000147": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 자동차표지 발급",
+    "target": "안양시 거주 임산부, 분만 후 6개월 미만 여성",
+    "amount": "주차요금 50% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000150": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "병목안 캠핑장 사용료 50% 감면",
+    "target": "장애인, 기초생활수급자, 국가유공자",
+    "amount": "이용료의 50%",
+    "show": true,
+    "special": true
+  },
+  "g24-383000000151": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "금융",
+    "summary": "청년창업 특례보증 지원",
+    "target": "안양시 소재 만 19~39세 이하 청년 창업가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000152": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "재향군인회 예우 및 지원 사업",
+    "target": "안양시 재향군인회",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000154": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임신부 기형아검사비 지원",
+    "target": "안양시 거주 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000156": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "동안구 출산 모 유축기 대여 지원",
+    "target": "동안구 거주 출산 모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000160": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "생활법률상담실 운영 지원",
+    "target": "무료 법률 상담이 필요한 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000161": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "환경개선부담금 감면 지원",
+    "target": "기초생활수급자, 국가유공자, 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-383000000162": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "금융",
+    "summary": "주택 태양광시설 설치 지원",
+    "target": "안양시 소재 주택 소유자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000165": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "청년창업 상시 지원",
+    "target": "예비창업자, 창업초기기업, 청년기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000167": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전통시장 및 상점가 활성화 지원",
+    "target": "안양시 내 전통시장, 상점가 상인회",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000171": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도시농업 운영 지원",
+    "target": "유아교육기관 및 학교",
+    "amount": "개소당 2,000천원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000176": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "어린이집 공기청정기 렌탈비 지원",
+    "target": "관내 어린이집",
+    "amount": "월 11천원",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000180": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "어린이집 전기레인지 렌탈비 지원",
+    "target": "관내 어린이집",
+    "amount": "월 15천원",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000181": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "금융",
+    "summary": "통장 자녀 장학금 지급",
+    "target": "1년 이상 근속 통장의 자녀(고등학생)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-383000000182": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "보험",
+    "summary": "통장 단체상해공제(보험) 운영",
+    "target": "안양시 동 행정복지센터 통장",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
