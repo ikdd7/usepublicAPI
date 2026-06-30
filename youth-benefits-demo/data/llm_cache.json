@@ -76597,5 +76597,464 @@
     "amount": "무료 운행",
     "show": true,
     "special": true
+  },
+  "g24-392000000120": {
+    "category": "주거",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "동두천시 대학생 월세 최대 지원",
+    "target": "학생 본인 또는 부모가 동두천시 1년 이상 거주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-392000000162": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "1인가구"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부·청년 전월세 보증금 대출이자 지원",
+    "target": "신혼부부, 만19~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-392000000164": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "동두천시 중·고등학생 인터넷강의 수강료 지원",
+    "target": "동두천시 거주 중·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-392000000166": {
+    "category": "문화",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "청년동아리 활동 지원",
+    "target": "동두천시 거주 또는 활동 청년 5인 이상 동아리",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-392000000169": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "동두천시 난임부부 시술 약제비 지원",
+    "target": "동두천시 난임부부 시술비 지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "안산시 농업인 다목적 농기계 지원",
+    "target": "안산시 거주 농업인, 영농조합법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000104": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "안산시 다자녀 넷째 이상 고등학생 학자금 지원",
+    "target": "안산시 5년 이상 거주 다자녀 가정 넷째 이상 고등학생",
+    "amount": "전액",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000106": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "안산시 저소득 장애인가구 건강보험료 지원",
+    "target": "안산시 지역가입 장애인 세대, 월 10,500원 이하",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-393000000107": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "김 양식시설 지원",
+    "target": "김 양식업 어업인, 어촌계, 영어조합법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000108": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "만 65세 이상 기초수급자 목욕·이미용 지원",
+    "target": "만 65세 이상 국민기초생활수급자",
+    "amount": "연간 총 18매",
+    "show": true,
+    "special": true
+  },
+  "g24-393000000109": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "건강위험군 방문건강관리서비스 제공",
+    "target": "기초수급자, 차상위, 65세 이상 만성질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000113": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "원예작물 생산시설 현대화 지원",
+    "target": "안산시민 농업인, 법인, 생산자단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000121": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "방문건강관리 대상자 약품 및 소모품 지원",
+    "target": "방문건강관리 서비스 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000130": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "안산시 수도작 농가 못자리용 상토 지원",
+    "target": "안산시 주소 둔 수도작 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000132": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "소 사육농가 브루셀라 검사비 지원",
+    "target": "소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000133": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "안산시 농특산물 인증 경영체 지원",
+    "target": "안산시 농특산물 인증 경영체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000134": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 다용도 축산장비 및 환경개선 지원",
+    "target": "축산장비가 필요한 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000138": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "장애인 활동지원 추가 지원",
+    "target": "기능제한점수 360점 이상 독거·취약가구 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-393000000149": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "안산시 다자녀 행복플러스카드 발급",
+    "target": "안산시 거주 2명 이상 자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000150": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "안산시 임산부 행복플러스카드 발급",
+    "target": "안산시 거주 임산부 및 출산 후 6개월 미만 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-393000000270": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "안산시민 폭발·화재 등 사고 사망 시 최대 1500만원",
+    "target": "안산시민 (만15세 미만 제외)",
+    "amount": "최대 1500만원",
+    "show": true,
+    "special": true
+  },
+  "g24-394000000105": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산농가 면역증강제 공급으로 폭염 피해 최소화",
+    "target": "축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000106": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 서비스 시간 부족 시 추가 지원",
+    "target": "국고 및 도자체 지원 부족 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000108": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "65세 이상 취약계층 의료비 등 보건복지 연계 지원",
+    "target": "65세 이상 취약계층 (독거노인)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000112": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "시설원예 농업냉난방시설 설치 지원",
+    "target": "시설원예 농업인·농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-397000000117": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "과천시 출산가정 출산장려금 지원",
+    "target": "과천시 180일 이상 거주 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-397000000131": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만75세 이상 3대 이상 가정 효행장려금 지급",
+    "target": "만75세 이상, 3년 이상 거주, 3대 이상 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-397000000143": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "과천시민 자연재해 등 사고 사망 시 최대 1000만원",
+    "target": "과천시 주민등록 시민 (만15세 미만 제외)",
+    "amount": "최대 1000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-398000000106": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "다자녀가구 지역화폐 5만원 상당 지원",
+    "target": "다자녀가구",
+    "amount": "5만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-398000000110": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "성인 발달장애인 언어·미술 등 발달재활서비스 지원",
+    "target": "구리시 거주 18세 이상 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-398000000111": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "기준중위소득 150% 초과 출산가정 산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 초과 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-398000000115": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "단독주택 소유자 태양광 설치비 지원",
+    "target": "단독주택 소유자·소유예정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-398000000116": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "차상위계층 국민건강보험료 지원",
+    "target": "차상위자활·장애인·계층, 한부모가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-398000000121": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "구리사랑상품권 구매 시 인센티브 제공",
+    "target": "누구나",
+    "amount": "최대 10%",
+    "show": true,
+    "special": false
+  },
+  "g24-399000000106": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "남양주시 청소년 인터넷 수능방송 수강권 지원",
+    "target": "남양주시 13~19세 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-399000000107": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "중풍·와상 노인 생활용품(기저귀) 지원",
+    "target": "기초수급자 중 중풍·와상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-399000000108": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "남양주사랑상품권 구매 시 10% 인센티브 제공",
+    "target": "만 14세 이상 누구나",
+    "amount": "10%",
+    "show": true,
+    "special": false
+  },
+  "g24-399000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 및 배우자 명예수당·복지수당 지급",
+    "target": "80세 이상 참전유공자, 사망자 배우자",
+    "amount": "월 3만원",
+    "show": true,
+    "special": true
+  },
+  "g24-399000000112": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "기준중위소득 150% 초과 출산가정 산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 초과 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-399000000116": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 명절 위문수당 지급",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
