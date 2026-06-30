@@ -77510,5 +77510,464 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00001794": {
+    "category": "육아",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "target": "장애인가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001222": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "효행수당 지원",
+    "target": "노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004269": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산가정 종량제봉투 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005967": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "아빠 육아휴직 장려금 지원",
+    "target": "남성노동자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000029": {
+    "category": "육아",
+    "tags": [
+      "임신·출산",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "산모산후관리비 지원",
+    "target": "산모, 신생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001296": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "소외계층 장례지원",
+    "target": "무연고, 저소득 주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006341": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "결혼장려금 지원",
+    "target": "결혼 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000118": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "치매 조기 검진 지원",
+    "target": "지역주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000120": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "산모신생아 건강관리 서비스 지원",
+    "target": "산모, 신생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "어선보험 가입 지원",
+    "target": "해면 어선어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000128": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "치매환자 조호물품 지원",
+    "target": "재가 치매환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000133": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "노인 성인용 보행기 지원",
+    "target": "65세 이상 기초/차상위",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000135": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원(추가) 지원",
+    "target": "국비지원 수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000145": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "바이오플락양식 포도당, 당밀 지원",
+    "target": "내수면 양식어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000156": {
+    "category": "주거",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "주거취약계층 이사비 지원",
+    "target": "쪽방, 반지하 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000547": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "복합민원 사전상담 예약",
+    "target": "평택시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000549": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 약제비 지원",
+    "target": "난임부부 시술비 지원자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-392000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산농가 미생물제 지원",
+    "target": "축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-392000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "완효성 비료보급 지원",
+    "target": "벼 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-392000000109": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산 및 돌 축하용품 지원",
+    "target": "출생신고 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000124": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "재활물리치료가 필요한 시민에게 무료 또는 유료 서비스 제공",
+    "target": "재활이 필요한 의왕시민 및 타시민",
+    "amount": "무료(만 65세 이상 의왕시민)",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000128": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현물",
+    "summary": "면접 앞둔 청년에게 면접정장 무료 대여",
+    "target": "면접을 앞둔 관내 청년(19~39세)",
+    "amount": "무료 대여",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000129": {
+    "category": "일자리",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "대학생 대상 행정체험 아르바이트 운영",
+    "target": "의왕시 거주 대학생",
+    "amount": "아르바이트",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000131": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "도시농업 공동체에 사무관리비, 농자재 지원",
+    "target": "도시농업공동체 등록 단체(의왕시민 5인 이상)",
+    "amount": "사무관리비, 농자재",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000132": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 주택임차보증금 대출이자 지원",
+    "target": "혼인신고 7년 이내 무주택 신혼부부",
+    "amount": "대출이자 일부 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000133": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "담보력 부족 중소기업 특례보증 지원",
+    "target": "관내 중소기업",
+    "amount": "특례보증",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000134": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "의왕시 소상공인 특례보증 지원",
+    "target": "의왕시 관내 사업자 등록 소상공인",
+    "amount": "특례보증",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000150": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "의왕시 소상공인 이차보전금 지원",
+    "target": "의왕시 사업자 등록 소상공인",
+    "amount": "이차보전금",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000153": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "골목상권 및 소상공인 경영환경 개선 지원",
+    "target": "의왕시 관내 소상공인 또는 단체",
+    "amount": "경영환경 개선",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000157": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현물",
+    "summary": "출생·입양 신고 세대에 종량제봉투 무상 지급",
+    "target": "의왕시 출생·입양 신고 세대",
+    "amount": "종량제봉투",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000158": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "기초생활수급자 및 차상위계층 종량제봉투 무상 지원",
+    "target": "기초생활수급자 및 차상위계층",
+    "amount": "종량제봉투",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000166": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의왕시민 대상 무료 법률·세무 상담",
+    "target": "의왕시민, 관내 사업체 근로자 등",
+    "amount": "무료 상담",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000167": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현물",
+    "summary": "어린이집 공기청정기 렌탈 및 유지관리비 지원",
+    "target": "관내 어린이집",
+    "amount": "월 최대 22천원, 연 최대 130천원",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000172": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 대상 임신성 당뇨 및 빈혈검사 지원",
+    "target": "임신주수 24~28주 이내 의왕시 거주 임산부",
+    "amount": "검사 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000173": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 등록 대상자에게 자동차 표지 제공",
+    "target": "보건소 임산부 등록 대상 임산부",
+    "amount": "자동차 표지",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000174": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의왕시민 대상 무료 세무 상담",
+    "target": "의왕시민, 관내 사업장 개인·법인사업자",
+    "amount": "무료 상담",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000175": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "심야 시간대 운영 약국 이용 지원",
+    "target": "공공심야약국 이용 시민",
+    "amount": "약국 이용",
+    "show": true,
+    "special": false
+  },
+  "g24-404000000104": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부에게 산전검사, 엽산제, 철분제 등 제공",
+    "target": "하남시 거주 임산부",
+    "amount": "산전검사, 엽산제, 철분제 등",
+    "show": true,
+    "special": false
+  },
+  "g24-404000000109": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "정신질환자 대상 가정병상비, 외래치료비 등 지원",
+    "target": "하남시 거주 정신질환 등록 대상자",
+    "amount": "가정병상비, 외래치료비 등",
+    "show": true,
+    "special": false
+  },
+  "g24-404000000110": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 14세 이상 누구나 지역사랑상품권(하머니) 구매 할인",
+    "target": "만 14세 이상 누구나",
+    "amount": "6~10% 할인",
+    "show": true,
+    "special": false
   }
 }
