@@ -77056,5 +77056,459 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-402000000142": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 무료 독감 예방접종 서비스",
+    "target": "군포시 거주 50~64세 기초수급자, 14~64세 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-402000000143": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군포시 청소년 영어캠프 운영",
+    "target": "군포시 관내 초등학생 5~6학년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000144": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부·영유아 대상 생애 첫 도서관 서비스",
+    "target": "군포시 거주 임산부, 생후 12개월 이하 자녀 보호자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000153": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "개별주택가격 카카오톡 알리미 서비스",
+    "target": "군포시 관내 개별주택 소유자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000154": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군포 소식지 구독 신청",
+    "target": "군포 시정에 관심 있는 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000155": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군포시도서관 회원 대상 동네서점 바로대출",
+    "target": "군포시도서관 도서대출회원",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000156": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군포시민 대상 이동도서관 운영",
+    "target": "군포시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000157": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군포시 관내 유아 대상 1일 도서관 학교",
+    "target": "군포시 관내 유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000158": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "생애주기 인구정책 통합안내 파일 제공",
+    "target": "군포시 인구정책에 관심 있는 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000102": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "광견병 예방접종 시술비 지원",
+    "target": "군포시 관내 개업 수의사",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000103": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급자 명절 위문비 지원",
+    "target": "기초생활수급(생계, 의료) 대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-403000000104": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "의왕시 임산부 산전태아기형 선별검사비 지원",
+    "target": "의왕시 관내 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000108": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만성질환자 안과 정밀 검진 지원",
+    "target": "만성질환 교육 참여 만성질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000113": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현물",
+    "summary": "의왕시 혼인신고 신혼부부 기념품 증정",
+    "target": "의왕시에서 혼인신고 한 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000114": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "영유아 북스타트 도서 배포",
+    "target": "출생아~취학 전 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000116": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 국민건강보험료 지원",
+    "target": "최저보험료 이하 세대(장애인, 한부모, 만성질환)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-403000000118": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "친환경·GAP농산물 인증검사비 지원",
+    "target": "관내 농지경작자 중 친환경, GAP농산물 인증농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000119": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "신재생에너지 보급 단독주택 설비 지원",
+    "target": "관내 단독주택 소유주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000120": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "55세 이상 저소득층 대상포진 예방접종 지원",
+    "target": "55세 이상 기초수급자 또는 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-403000000121": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "의왕사랑상품권 구매 할인 및 소득공제",
+    "target": "누구나(카드형 만 14세 이상)",
+    "amount": "6~10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-404000000111": {
+    "category": "건강",
+    "tags": [
+      "신혼",
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "신혼부부 임신전 건강검진 지원",
+    "target": "하남시 거주 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-404000000117": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "85세 이상 어르신 이·미용 및 목욕비 지원",
+    "target": "85세 이상 하남시 거주 어르신",
+    "amount": "반기별",
+    "show": true,
+    "special": false
+  },
+  "g24-404000000118": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 초과 출산가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-404000000130": {
+    "category": "육아",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "아빠 육아휴직 장려금 지원",
+    "target": "하남시 거주 1년 이상 고용보험 가입자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000629": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족 복지시설 퇴소자 자립지원금 지원",
+    "target": "한부모가족복지시설 퇴소자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000647": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "각종 대회 수상 학생 장학금 지원",
+    "target": "용인시 거주 2년 이상 시민 직계비속",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000635": {
+    "category": "주거",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 주택 개조 지원",
+    "target": "소득기준 이하 관내 거주 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-405000000636": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 월동 난방비 지원",
+    "target": "저소득 한부모가족",
+    "amount": "월 5만원씩 5개월",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000638": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "노인장기요양보험 시설급여 예탁 지원",
+    "target": "노인의료복지시설 이용 저소득 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-405000000639": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "70세 이상 효도 대상자 효도수당 지원",
+    "target": "용인시 5년 이상 4세대 이상 가정 유지",
+    "amount": "월 3만원",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000640": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자활사업 참여자 취·창업 성공수당 지원",
+    "target": "용인지역자활센터 자활사업 참여자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000645": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "용인시 거주 출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000648": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "학대피해아동 그룹홈 생계비 지원",
+    "target": "학대피해아동 그룹홈",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000654": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "신규 정착 북한이탈주민 지원",
+    "target": "용인시 신규 정착 북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000657": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 자립생활 정착금 지원",
+    "target": "거주시설 또는 체험홈 퇴소 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000665": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 추가 지원",
+    "target": "활동지원 1~14구간 대상자",
+    "amount": "최대 20시간",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000669": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "수지구 거주 산모 유축기 대여 서비스",
+    "target": "수지구 거주 출산 후 1개월 이내 산모",
+    "amount": "1개월",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000675": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 추가 지원",
+    "target": "용인시 거주 난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-405000000685": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 약제비 지원",
+    "target": "처인구 거주 난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-406000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "낙농 전문도우미 지원",
+    "target": "젖소 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
