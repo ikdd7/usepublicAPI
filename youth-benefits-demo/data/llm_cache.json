@@ -76143,5 +76143,459 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-394000000113": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "분만예정일 40일 전~60일 이내 관내 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 쓰레기 종량제봉투 무상 지급",
+    "target": "기초생활보장수급자 및 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000116": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "가금농가 사육환경개선시설 설치비 지원",
+    "target": "가금류 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000117": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "실종위험 발달장애인 안심 스마트 밴드 보급",
+    "target": "실종위험 고양시 거주 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-394000000121": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "벼 재배농가 예비못자리 설치 지원",
+    "target": "관내 벼 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000123": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "4대 구성 가정 월 7만원 효도수당 지급",
+    "target": "고양시 3년 이상 거주 4대 구성 가정",
+    "amount": "월 7만원",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000124": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "자활사업 참여주민 자립활동 지원",
+    "target": "자활사업 참여주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000125": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 미혼 한부모 냉난방비 지원",
+    "target": "기준 중위소득 65% 이하 저소득 미혼 한부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000127": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 철분제, 엽산제 지원",
+    "target": "관내 주소지 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000128": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산농가 친환경축산조성 지원",
+    "target": "축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000130": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "건강취약계층 방문건강관리서비스 제공",
+    "target": "건강관리 취약 지역사회 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000131": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "농업경영체 가축분퇴비 지원",
+    "target": "농업경영체 등록 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-394000000132": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "농가 환경친화형 농자재 지원",
+    "target": "농업경영체 및 시설하우스 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-397000000102": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 의료비 본인부담액 50% 지원",
+    "target": "수급자 및 차상위계층",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-397000000104": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 면접 정장, 헤어메이크업, 사진 지원",
+    "target": "과천시 거주 19~39세 구직청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-397000000105": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "근로능력평가용 진단서 발급비용 지원",
+    "target": "기초수급자·차상위계층 만18세 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-397000000107": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "생계·의료급여 수급자 월동난방비 지원",
+    "target": "생계·의료급여 수급자 일반세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-397000000110": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모 신생아 건강관리 서비스 확대 지원",
+    "target": "기준 중위소득 150% 초과 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-397000000112": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임신부 2차 태아기형검사 쿠폰 지원",
+    "target": "임신 16~18주 관내 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-397000000115": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만60-64세, 사회적보호대상자 인플루엔자 무료접종",
+    "target": "만60-64세, 기초생활수급자, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-400000000113": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 성인여성 위생용품 지원",
+    "target": "만 25~49세 오산 거주 저소득 여성",
+    "amount": "6개월분 생리대",
+    "show": true,
+    "special": false
+  },
+  "g24-400000000115": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원 서비스 확대",
+    "target": "기준중위소득 150% 초과 출산가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-400000000117": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 택시요금 할인 지원",
+    "target": "오산시 등록 중증장애인",
+    "amount": "택시요금의 60%",
+    "show": true,
+    "special": true
+  },
+  "g24-401000000103": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 기초연금 대상자 노인일자리 지원",
+    "target": "만 65세 이상 기초연금 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000107": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시흥시 3세대 가정 효도수당 지급",
+    "target": "만 70세 이상 직계존속, 5년 이상 거주 3세대 가정",
+    "amount": "월 3만원",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시흥시 국가유공자 생활보조수당 지원",
+    "target": "기준중위소득 50% 이하 국가유공자",
+    "amount": "월 3만원",
+    "show": true,
+    "special": true
+  },
+  "g24-401000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 농기계 구입비 지원",
+    "target": "관내 거주 1년 이상 농업인, 1000㎡ 이상 경작",
+    "amount": "구입비의 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000116": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "만 6세 이상 중증장애인 활동 지원",
+    "target": "만 6세 이상 중증장애인",
+    "amount": "월 최대 40시간",
+    "show": true,
+    "special": true
+  },
+  "g24-401000000118": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원(추가형)",
+    "target": "기준중위소득 150% 초과 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000123": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시흥시민 돌봄 서비스 지원",
+    "target": "돌봄이 필요한 시흥시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000484": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "출생 미등록 아동 발굴 및 지원 사업",
+    "target": "시흥시 거주 18세 미만 출생 미등록 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000485": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현물",
+    "summary": "시흥시 청년 구직자 면접정장 대여",
+    "target": "시흥시 거주 19~39세 청년 구직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000493": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "관내 출산가정 유축기 대여 서비스",
+    "target": "관내 출산가정",
+    "amount": "2개월 대여",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000498": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "동네관리소 간단 집수리 지원",
+    "target": "저소득, 독거노인, 차상위, 장애인 등",
+    "amount": "무료 또는 유료",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000499": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시흥시민 공구 무료 대여 지원",
+    "target": "시흥시민 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000502": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "5~13세 아동 및 부모 대상 놀이터 운영",
+    "target": "5~13세 아동 및 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000504": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "시흥시 거주 주민 재활보조기구 대여 지원",
+    "target": "시흥시 거주 주민",
+    "amount": "2개월 대여",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000505": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애학생 교내활동 지원",
+    "target": "장애인활동지원 서비스 이용 초·중·고등학생",
+    "amount": "월 최대 140시간",
+    "show": true,
+    "special": true
+  },
+  "g24-401000000506": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농업잔재물 파쇄작업 지원",
+    "target": "시흥시 내 농지 경작 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-401000000508": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "거동 불편 등록 장애인 특별 운송 지원",
+    "target": "거동 불편 등록 장애인",
+    "amount": "무료 운행",
+    "show": true,
+    "special": true
   }
 }
