@@ -79072,5 +79072,475 @@
     "amount": "위문품",
     "show": true,
     "special": true
+  },
+  "g24-417000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 퇴비살포기 등 구입비 지원",
+    "target": "관내 소, 돼지, 가금류 사육 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경농가 비료구입비 지원",
+    "target": "관내 농업경영체 농가, 팔당댐 상류지역",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000113": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "젖소 개체 관리 장비 구입비 지원",
+    "target": "관내 젖소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000118": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경인증농가 영농자재 구입비 지원",
+    "target": "친환경인증 유지 농업인",
+    "amount": "보조금액 산정",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000120": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "주거",
+    "summary": "주거위기가구 임시주거 지원",
+    "target": "기초생활수급자, 주거상실자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000121": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리사 도우미 지원",
+    "target": "관내 임산부",
+    "amount": "1~5주",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000123": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축사 환기시설 설치비 지원",
+    "target": "관내 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000124": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "로컬푸드 직매장 및 농가 생산·가공 지원",
+    "target": "경기도 로컬푸드 직매장 및 납품농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000125": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가정 난방비 월 5만원 지원",
+    "target": "저소득 한부모 가족",
+    "amount": "월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000128": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "우수 능력 정액 공급을 이용한 인공수정 지원",
+    "target": "관내 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000130": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "한우 개체 관리 장비 구입비 지원",
+    "target": "관내 한우 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000131": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "경로식당 무료급식 및 재가노인 특별식 지원",
+    "target": "60세 이상 저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000132": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "가금류 및 기타가축 사육 환경개선비 지원",
+    "target": "관내 가금류 및 기타 가축 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000135": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "만 18세 이하 아토피 환아 보습제 지원",
+    "target": "만 18세 이하 아토피피부염 환아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000136": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "만 18세 이하 알레르기 환아 의료비 지원",
+    "target": "기준중위소득 80%이하, 한부모 가정 환아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000142": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "생계/의료급여 수급자 하수도사용료 50% 감면",
+    "target": "생계 및 의료급여 수급자",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000144": {
+    "category": "일자리",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "아빠육아휴직 장려금 지원",
+    "target": "관내 1년 이상 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000147": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "현장노동자 휴게시설 신설·개선 지원",
+    "target": "사회복지시설 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000463": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "현역병·보충역 입영 양평군민 입영지원금 지급",
+    "target": "현역병 및 보충역으로 입영하는 양평군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-418000000227": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육보조금 지원",
+    "target": "가정위탁가정 및 소년소녀가정",
+    "amount": "월 32만~53만원",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000131": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "농가에 건조기 지원",
+    "target": "태백시 관내 농업경영체 등록 농가",
+    "amount": "건조기 10대",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000132": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "농가에 저온저장고 지원",
+    "target": "관내 농업 경영체 등록 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000133": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "바우처",
+    "summary": "여성농업인 복지바우처 지원",
+    "target": "만20~75세 미만 농업경영체 등록 여성농업인",
+    "amount": "20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000134": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "여성농업인 노동경감 장비 지원",
+    "target": "관내 농촌 거주 여성농업인",
+    "amount": "작업대, 분무기 중 택1",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000135": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "청년농업인 맞춤형 특화 지원",
+    "target": "만18~45세 태백시 거주 농업경영주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000138": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "국가보훈대상자 화장장 사용료 감면",
+    "target": "국가보훈대상자, 병역명예 제대군인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-422000000140": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "착한가격업소 인센티브 지원",
+    "target": "착한가격업소로 지정된 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000141": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "귀농인·재촌비농업인 정착지원금 지원",
+    "target": "귀농인, 재촌 비농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000142": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "지역사랑상품권(탄탄페이) 구입·충전 지원",
+    "target": "만14세 이상 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-422100000002": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시민 안전보험 보장",
+    "target": "태백시 주민등록 모든 시민",
+    "amount": "사망 최대 1000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-423000000469": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업경영체 유기질비료 구매비 지원",
+    "target": "유기질비료 신청 농업경영체",
+    "amount": "구매비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-423000000470": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "마을 특화작목 포장재 제작비 지원",
+    "target": "지역 마을 특화작목 단지 또는 농가",
+    "amount": "제작비 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-423000000472": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농기계 종합보험 가입비 지원",
+    "target": "보험대상 농기계 소유 농업인",
+    "amount": "가입비 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-423000000474": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "발달장애아동 재활서비스 비용 지원",
+    "target": "만18세 미만 발달장애아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-423000000479": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농작물 재해보험 가입비 지원",
+    "target": "보험사업자 판매 보험 가입 농업인",
+    "amount": "가입비 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-423000000482": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "신장장애인 투석비 지원",
+    "target": "장애정도 심한 신장장애인, 기초수급자, 차상위",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-423000000483": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "결혼이민자 운전면허 취득 지원",
+    "target": "속초시 거주 결혼이민자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-423000000487": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 수당 지급",
+    "target": "국가유공자, 유족, 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-423000000488": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농업인 안전보험 가입비 지원",
+    "target": "보험사업자 판매 보험 가입 농업인",
+    "amount": "가입비 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-423000000490": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기초수급자·장애인가구 상하수도 요금 감면",
+    "target": "의료급여 1종 수급자, 심한 장애인가구",
+    "amount": "상수도·하수도 10톤 요금",
+    "show": true,
+    "special": false
   }
 }
