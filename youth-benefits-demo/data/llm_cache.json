@@ -78396,5 +78396,681 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-408000000530": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산농가 퇴비부숙제 구매비용 일부 보조",
+    "target": "관내 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000533": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "맞벌이·한부모 가정 등 가사 돌봄 서비스 지원",
+    "target": "중위소득 150%이하, 만12세 이하 자녀 양육 가구",
+    "amount": "주 1회 4시간씩",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000534": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "위기상황 취약계층 응급지원",
+    "target": "기준 중위소득 90%이하 위기상황 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000535": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "환경친화형 농자재(생분해성필름, 잡초매트) 지원",
+    "target": "경기도내 거주, 안성에서 경작 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000536": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역화폐(안성사랑카드) 구입 시 할인",
+    "target": "만 14세 이상 안성시민",
+    "amount": "6%~10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000538": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축우농가 경조사 시 헬퍼 비용 일부 지원",
+    "target": "축우농가 헬퍼단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000539": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "target": "안성시 거주 6개월 이상 장애인가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-408000000540": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "임대주택 거주 차상위·기초수급자 공동전기요금 지원",
+    "target": "임대주택 거주 차상위, 기초생활수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-408000000541": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기준 중위소득 120% 초과자 치매 감별 검사비 지원",
+    "target": "기준 중위소득 120% 초과자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000542": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "계약재배 과수농가 출하비 지원",
+    "target": "생산자단체와 계약재배하는 과수농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000550": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 가구 및 노인 건강보험료 지원",
+    "target": "최저보험료 이하 장애인·한부모 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-408000000551": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "기준 중위소득 140% 초과자 치매 치료관리비 지원",
+    "target": "기준 중위소득 140% 초과자",
+    "amount": "월 3만원 상한",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000555": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 유치원 최초 입학생 입학축하금 지원",
+    "target": "안성시 거주 최초 입학생 유치원생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000561": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역아동센터 냉난방비 지원",
+    "target": "지역아동센터",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000563": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시민안전보험 지원",
+    "target": "안성시민",
+    "amount": "최대 500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-409000000101": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "북한이탈주민 취업 교육수강료 지원",
+    "target": "김포시 거주 북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-409000000103": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급자 이사비용 지원",
+    "target": "기초생활수급자 중 관내 전입자",
+    "amount": "30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-409000000107": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만 65세 이상 의료급여 노인 틀니·임플란트 본인부담금 지원",
+    "target": "김포시 거주 1년 이상 만 65세 이상 의료급여수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-409000000112": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농특산물 통합상표 인증 경영체 포장재 등 비용 지원",
+    "target": "김포시 농특산물 통합상표 인증 경영체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-409000000114": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "북부지역 만 60세 이상 주민 찾아가는 인지선별검사",
+    "target": "북부지역 거주 만 60세 이상 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000110": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "중고대학생 장학금 지급",
+    "target": "중·고·대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000111": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득노인 긴급입소비 지원",
+    "target": "장기요양등급 외자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-414000000115": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경농법 볏짚환원 지원",
+    "target": "친환경 인증 수도작 재배농가",
+    "amount": "1ha당 350천원",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000116": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "영세농 유기질비료 지원",
+    "target": "경영체 미등록 영세농가",
+    "amount": "비용 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000117": {
+    "category": "건강",
+    "tags": [
+      "임신·출산",
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부·신혼부부 산전검사 지원",
+    "target": "연천군 거주 임산부, 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000118": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "귀농귀촌인 정착 지원",
+    "target": "연천군 전입세대, 귀농인",
+    "amount": "주택수리비, 설계비",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000124": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 수도요금 감면",
+    "target": "기초생활수급자, 의료급여대상자",
+    "amount": "10㎥이하 면제",
+    "show": true,
+    "special": true
+  },
+  "g24-414000000426": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 80세 이상 연천군 거주자 장수수당 지급",
+    "target": "만 80세 이상 연천군 거주자",
+    "amount": "월 2만원",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000429": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "연천군 거주자 유족 화장장려금 지급",
+    "target": "연천군 6개월 이상 거주자 유족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000436": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "연천군 출생 가정 신생아 출산용품 지원",
+    "target": "연천군 출생등록 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000437": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "연천군 출산가정 유축기 대여",
+    "target": "연천군 거주 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000438": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "연천군 임산부 튼살크림, 영양제 지원",
+    "target": "연천군 거주 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000441": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "연천군 농업인 농자재 구입비 지원",
+    "target": "연천군 농업인",
+    "amount": "구입비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000442": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "연천군민 무료 법률 상담 서비스",
+    "target": "연천군민 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000443": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농작물 병해충 방제약제 지원",
+    "target": "벼, 콩, 무·배추, 과수 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000444": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "연천군 부업대학생 운영",
+    "target": "연천군 거주 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000447": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "고대산 자연휴양림 시설사용료 경감",
+    "target": "다자녀, 장애인, 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-414000000450": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "연천군 농업인 농기계 임대사업",
+    "target": "연천군 거주 농업인",
+    "amount": "기금 90,000천원",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000451": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "연천군 농업발전기금 지원",
+    "target": "연천군 거주 1년 이상 농어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000453": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "연천군 모범음식점 지정 및 융자 지원",
+    "target": "연천군 소재 일반음식점",
+    "amount": "우선 융자",
+    "show": true,
+    "special": false
+  },
+  "g24-418000000232": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "강원대 법학전문대학원생 장학금 지원",
+    "target": "강원대 법학전문대학원생(지역고교출신)",
+    "amount": "연 5명",
+    "show": true,
+    "special": false
+  },
+  "g24-418000000234": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "한우 정액 및 거세 시술비 지원",
+    "target": "관내 축산업 등록 한우농가",
+    "amount": "1두",
+    "show": true,
+    "special": false
+  },
+  "g24-418000000236": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "한우 인공수정료 5만원 지원",
+    "target": "관내 축산업 등록 한우농가",
+    "amount": "5만원 (보조 50%)",
+    "show": true,
+    "special": false
+  },
+  "g24-418000000238": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한센병 환자 찾아가는 의료서비스 지원",
+    "target": "한센병 환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-418000000242": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 60세 이상 저소득층 노인 무료급식 지원",
+    "target": "만 60세 이상 저소득층 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-418000000244": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인가구 건강보험료 지원",
+    "target": "만 65세 이상 저소득 노인가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-418000000246": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역화폐(춘천사랑상품권) 7% 할인",
+    "target": "만 14세 이상 개인",
+    "amount": "7%",
+    "show": true,
+    "special": false
+  },
+  "g24-418000000247": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시설원예 기능성 필름 지원",
+    "target": "시설원예 생산자단체 및 농가",
+    "amount": "보조 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-418000000249": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "한우 수정란 이식 비용 5만원 지원",
+    "target": "관내 축산업 등록 한우농가",
+    "amount": "5만원 (보조 50%)",
+    "show": true,
+    "special": false
+  },
+  "g24-418100000003": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한방 난임 치료 지원",
+    "target": "춘천 거주 난임 여성 및 부부",
+    "amount": "3개월 한약, 침, 뜸",
+    "show": true,
+    "special": false
+  },
+  "g24-418100000005": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임산부 검진 쿠폰 및 산전검사 지원",
+    "target": "춘천 거주 임산부",
+    "amount": "검진 쿠폰, 혈액 9종 검사",
+    "show": true,
+    "special": false
+  },
+  "g24-419000000118": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "3대 이상 효행가정 장려금 지급",
+    "target": "3대 이상, 만 85세 이상 노인 포함 가정",
+    "amount": "분기당 7만 5천원",
+    "show": true,
+    "special": false
+  },
+  "g24-419000000119": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 65세 이상 노인 건강보험료 지원",
+    "target": "원주 거주 65세 이상 저소득 노인",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-419000000122": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "청각장애인 인공달팽이관 수술비 지원",
+    "target": "저소득 청각장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-419000000124": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만 65세 이상 노인 틀니 시술비 지원",
+    "target": "만 65세 이상 저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-419000000125": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육보조금 지원",
+    "target": "가정위탁보호 결정 아동",
+    "amount": "월 30~40만원",
+    "show": true,
+    "special": false
+  },
+  "g24-419000000126": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째아 이후 출생아 건강보험료 지원",
+    "target": "셋째아 이후 출생아",
+    "amount": "60개월 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-419100000008": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "청년 스터디카페·독서실 이용료 지원",
+    "target": "원주 거주 18~39세 4년제 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-419100000011": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "원주시민 안전보험 지원",
+    "target": "원주시민",
+    "amount": "최대 1,500만원",
+    "show": true,
+    "special": true
+  },
+  "g24-420000000144": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "어려운 국가유공자 위문품 지급",
+    "target": "관내 거주 국가유공자",
+    "amount": "위문품",
+    "show": true,
+    "special": true
   }
 }
