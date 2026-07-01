@@ -80237,5 +80237,466 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-406000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "노인복지시설 위문품 지급",
+    "target": "관내 노인복지시설",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-406000000111": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "정신질환자 자립 및 의료비 지원",
+    "target": "파주시 거주 정신질환자 중 등록자, 중위소득 120% 이하",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-406000000112": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만14세 이상 지역화폐(파주페이) 구입 시 10% 인센티브",
+    "target": "만14세 이상 파주시민",
+    "amount": "10%",
+    "show": true,
+    "special": false
+  },
+  "g24-406000000120": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "가금농가 시설 및 장비 지원",
+    "target": "가금사육업 허가(등록) 득한 가금사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-406000000122": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "예비신혼부부 무료검사 및 영양제 지원",
+    "target": "파주시 주소지 둔 예비신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-406000000126": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "고령노인 장수노인 장려금 지급",
+    "target": "1926년 이전 출생, 파주시 거주, 수급자/차상위",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-406000000127": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "파주시 거주 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-406000000513": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "파주시민 대상 최대 500만원 시민안전보험",
+    "target": "파주시민",
+    "amount": "최대 500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-406000000535": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부/영유아/예비부부 대상 행복교실",
+    "target": "16주 이상 임산부, 12~24개월 영유아, 예비부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-407000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "가금농가 폭염 대비 면역증강제 제공",
+    "target": "가금 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-407000000104": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "이천시 셋째 이상 자녀 양육비 지원",
+    "target": "이천시 거주 셋째 이상 자녀(만1~6세)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-407000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "보험",
+    "summary": "농기계 및 농업인 안전재해보험 지원",
+    "target": "농기계 소유/관리 농업인, 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-407000000109": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "폭염 대비 에너지복지 지원",
+    "target": "기초생활수급, 차상위계층, 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-407000000113": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업",
+      "여성"
+    ],
+    "support_type": "현금",
+    "summary": "이천시 여성 창업 초기 물품 구입비 지원",
+    "target": "이천시 거주, 새일센터 통해 창업한 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-407000000117": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 어르신 틀니 및 임플란트 본인부담금 지원",
+    "target": "이천시 거주 65세 이상 의료급여/차상위",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-407000000518": {
+    "category": "건강",
+    "tags": [
+      "난임"
+    ],
+    "support_type": "현금",
+    "summary": "이천시 난임부부 시술비 약제비 지원",
+    "target": "난임부부 시술비 지원사업 대상자 중 잔액 남은 자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-407000000519": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "이천시민 대상 최대 1000만원 시민안전보험",
+    "target": "이천시민",
+    "amount": "최대 1000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000520": {
+    "category": "교육",
+    "tags": [
+      "대학생"
+    ],
+    "support_type": "현금",
+    "summary": "안성시 대학생 학자금 대출 이자 지원",
+    "target": "안성시 거주 대학생 및 대학원생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000521": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "아동공동생활가정 냉난방비 지원",
+    "target": "아동생활시설",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000109": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000123": {
+    "category": "농업",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현물",
+    "summary": "청년농업인 시설 및 장비 구입 지원",
+    "target": "만18~39세 이하 청년농업인 및 지역 4-H회원",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000125": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "축산농가 톱밥 구입 보조",
+    "target": "일정규모 이상 가축사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-423000000491": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "다자녀 가구 상하수도 요금 감면",
+    "target": "19세 이하 미성년 자녀 3명 이상 다자녀 가구",
+    "amount": "요금의 30% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-423100000001": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "속초시 시민안전보험 지원",
+    "target": "속초시 주민등록 모든 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000144": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "영세 양축농가 가축진료비 지원",
+    "target": "영세 양축농가",
+    "amount": "자부담 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000146": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "노인"
+    ],
+    "support_type": "현금",
+    "summary": "만65세 이상 저소득 노인 건보료 지원",
+    "target": "만65세 이상 저소득 노인 지역가입자",
+    "amount": "최저보험료 이하 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000147": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "산란계 농가 조류인플루엔자 백신 지원",
+    "target": "삼척시 관내 산란계 사육농가",
+    "amount": "자부담 30%",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000148": {
+    "category": "복지",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "현금",
+    "summary": "어르신 목욕비 및 이미용비 지원",
+    "target": "관내 어르신(75세 이상)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000149": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "삼척시 거주 청년 장학금 지원",
+    "target": "삼척시 2년 이상 거주 만39세 이하 대학생·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000150": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "등록장애인 의료급여 비급여 의료비 지원",
+    "target": "삼척시 등록장애인 의료급여 수급자",
+    "amount": "추가 급여액 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-424000000151": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "도계읍 거주 학생 장학금 지원",
+    "target": "도계읍 2년 이상 거주 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000153": {
+    "category": "복지",
+    "tags": [
+      "노인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "만65세 이상 어르신 보행기 지원",
+    "target": "장기요양 등급외 A,B 판정 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000154": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모",
+      "노인",
+      "아동"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 주민 행복돌봄 지원",
+    "target": "수급권자, 차상위, 한부모, 조손, 홀로노인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000155": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "중증장애인 월 2만원 교통비 지원",
+    "target": "관내 거주 중증장애인",
+    "amount": "월 2만원",
+    "show": true,
+    "special": true
+  },
+  "g24-424000000156": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "성폭력 피해자 의료비 지원",
+    "target": "삼척시 관내 거주 성폭력 피해자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000157": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 명절 위문품(현물·현금) 지원",
+    "target": "기초수급자, 차상위, 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-424000000160": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인활동지원서비스 추가 지원",
+    "target": "활동지원 부적합 판정자 중 지원 필요 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-425000000650": {
+    "category": "건강",
+    "tags": [
+      "임신·출산",
+      "육아"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 및 영유아 영양제 지원",
+    "target": "관내 보건소 등록 임산부, 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-425000000651": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역화폐(홍천사랑상품권) 구매 할인",
+    "target": "만19세 이상 홍천군민",
+    "amount": "15% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-425100000007": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "홍천군 군민안전보험 지원",
+    "target": "홍천군민",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
