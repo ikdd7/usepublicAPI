@@ -77969,5 +77969,432 @@
     "amount": "6~10% 할인",
     "show": true,
     "special": false
+  },
+  "g24-392000000113": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산농가에 톱밥 지원",
+    "target": "소, 닭, 돼지 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-392000000115": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "동두천사랑카드 구매할인 혜택 지원",
+    "target": "만 14세 이상 동두천시민",
+    "amount": "6%~10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-399000000122": {
+    "category": "생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "다자녀가정 종량제봉투 지원",
+    "target": "남양주시에 주소를 둔 2자녀 이상 가정",
+    "amount": "종량제봉투(20L)",
+    "show": true,
+    "special": false
+  },
+  "g24-400000000104": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "우수 농특산물 포장재 지원",
+    "target": "농특산물 생산자단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-400000000108": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 영양제 지원",
+    "target": "오산시 등록 임산부, 신혼부부",
+    "amount": "엽산제, 철분제",
+    "show": true,
+    "special": false
+  },
+  "g24-400000000109": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "오산화폐 오색전 인센티브 지급",
+    "target": "만 14세 이상 오산시민",
+    "amount": "6%~10% 인센티브",
+    "show": true,
+    "special": false
+  },
+  "g24-400000000110": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 서비스 추가 지원",
+    "target": "6세~65세 미만 등록장애인 활동지원 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-401000000510": {
+    "category": "생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "차상위계층 종량제 봉투 무료 지원",
+    "target": "차상위계층",
+    "amount": "월 120ℓ 이내",
+    "show": true,
+    "special": true
+  },
+  "g24-402000000102": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양봉·축산농가 물품 및 톱밥 지원",
+    "target": "양봉농가, 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000105": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "지원",
+    "summary": "저소득 취약계층 건강보험료 지원",
+    "target": "월 지역건강보험료 최저보험료 이하 취약계층",
+    "amount": "건강보험료",
+    "show": true,
+    "special": true
+  },
+  "g24-402000000107": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "지원",
+    "summary": "저소득 한부모가정 건강검진 지원",
+    "target": "법정 저소득 한부모가족 세대주 80명",
+    "amount": "건강검진비용",
+    "show": true,
+    "special": true
+  },
+  "g24-402000000115": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "군포시 신혼부부 전월세 보증금 대출이자 지원",
+    "target": "중위소득 180% 이하 무주택 신혼부부",
+    "amount": "대출이자",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000119": {
+    "category": "복지",
+    "tags": [
+      "출산"
+    ],
+    "support_type": "현금",
+    "summary": "출생축하금 지원",
+    "target": "출생신고일 기준 6개월 이상 거주자",
+    "amount": "100만원~700만원",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000126": {
+    "category": "주거",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "군포시 청년 전월세 보증금 대출이자 지원",
+    "target": "중위소득 180% 이하 무주택 청년",
+    "amount": "대출이자",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000127": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "보험",
+    "summary": "군포시 시민안전보험 지원",
+    "target": "군포시민(등록 외국인 포함)",
+    "amount": "최대 1500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000130": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현물",
+    "summary": "군포시 청년 면접정장 무료 대여",
+    "target": "18~39세 군포시 거주 구직 청년",
+    "amount": "면접정장",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000133": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군포시 무료 생활법률상담 서비스",
+    "target": "군포시 거주자, 공무원",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000138": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군포시민 정보화 교육 운영",
+    "target": "군포시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000140": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "지원",
+    "summary": "군포시 어르신 교통비 지원",
+    "target": "만 70세 이상 군포시민",
+    "amount": "시내·마을·광역버스비",
+    "show": true,
+    "special": false
+  },
+  "g24-402000000141": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "지원",
+    "summary": "고혈압·당뇨병 환자 안질환 합병증 검사비 지원",
+    "target": "관내 고혈압·당뇨병 환자(건강보험 2종)",
+    "amount": "검사비",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000454": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "남토북수 인증 농특산물 포장재 제작 및 구입비 지원",
+    "target": "남토북수 인증 농특산물 경영체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000457": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국공립 어린이집 시설개선 공사 지원",
+    "target": "시설개선 필요한 국공립 어린이집",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000458": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 냉난방비 월 최대 18만원 지원",
+    "target": "관내 어린이집 (현원 기준)",
+    "amount": "월 최대 18만원",
+    "show": true,
+    "special": false
+  },
+  "g24-414000000459": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "65세 이상 주민 대상포진 예방접종 지원",
+    "target": "연천군 거주 65세 이상 내국인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-416000000101": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "치매안심센터 등록 재가 치매환자 조호물품 지원",
+    "target": "치매안심센터 등록 재가 치매환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-416000000104": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산농가 가축분뇨 수분조절제 및 악취저감 미생물 지원",
+    "target": "가축분뇨공장, 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-416000000107": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "농업인 내재해형 비닐하우스 등 시설 지원",
+    "target": "농업경영정보 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-416000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가평군민 사망 시 화장 장려금 지원",
+    "target": "가평군민 사망자 연고자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-416000000110": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "과수 계약재배 출하비 지원",
+    "target": "도내 과수 생산 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-416000000112": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "농업경영체 유기질 비료 지원",
+    "target": "가평군 주소 농업경영체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-416000000113": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가평군민 신재생에너지 설비 설치 보조금 지원",
+    "target": "에너지공단 승인 가평군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-416000000116": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산농가 경영안정 지원",
+    "target": "축산농가 (양봉, 한봉, 사슴, 소)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-416000000118": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 14세 이상 가평군 지역사랑상품권 구입 지원",
+    "target": "만 14세 이상 가평군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-416000000267": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가평군 난임부부 시술비 약제비 지원",
+    "target": "가평군 난임부부 시술비 지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000102": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "양돈농가 모돈 갱신 지원",
+    "target": "관내 양돈농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000103": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "양봉농가 양봉장비 구입비 지원",
+    "target": "관내 양봉농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "거리노숙인 및 부랑인 귀가 지원",
+    "target": "거리노숙인 및 일시적 부랑인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-417000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "양평군 거주 100세 이상 장수수당 월 3만원 지급",
+    "target": "1925년 이전 출생 양평군 거주자",
+    "amount": "월 3만원",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000106": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 보장구 수리비 최대 연 20만원 지원",
+    "target": "저소득층 장애인",
+    "amount": "연 최대 20만원",
+    "show": true,
+    "special": true
+  },
+  "g24-417000000107": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "퇴소 장애인 자립생활 정착금 지원",
+    "target": "경기도 거주시설 퇴소 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
