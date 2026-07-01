@@ -80698,5 +80698,231 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-320000000111": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 및 장기요양보험료 지원",
+    "target": "기준 중위소득 50% 이하, 최저보험료 이하 관악구 지역가입자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-420000000145": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시설입소 의료급여수급자 장기요양급여비용 지자체 부담금 지원",
+    "target": "시설입소 의료급여수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-420000000148": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "강릉시 1ha이상 벼재배 농업인 육묘이송기 지원",
+    "target": "강릉시 1ha이상 벼재배 농업인, 생산자 단체",
+    "amount": "보조 1,650천원",
+    "show": true,
+    "special": false
+  },
+  "g24-420000000149": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "강릉시 저소득 수급권자 급수공사비 지원",
+    "target": "강릉시 저소득 수급권자 중 주거용 주택 소유자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-420000000150": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "60세 이상 저소득 노인 경로식당 무료급식 지원",
+    "target": "60세 이상 기초생활보장 수급자, 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-420000000151": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "재가급여 의료급여수급자 노인장기요양보험 재가서비스 지원",
+    "target": "재가급여 의료급여수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-420000000153": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "65세 이상 기초생활수급권자 이·미용비 지원",
+    "target": "65세 이상 기초생활수급권자",
+    "amount": "연 8매",
+    "show": true,
+    "special": true
+  },
+  "g24-420000000154": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 국가유공자 명절 위문품 지원",
+    "target": "관내 거주 저소득 국가유공자 본인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-420000000155": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "액비저장조 시설 갖춘 양돈농가 친환경 축산지원",
+    "target": "액비저장조 시설을 갖춘 양돈농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-420000000158": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "정신질환자 치료비 지원",
+    "target": "정신질환을 앓고 있는 강릉시민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-420000000160": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "강릉시 저소득 주민 건강보험료 지원",
+    "target": "강릉시 저소득 주민, 최저보험료 미만 노인·장애인·한부모·조손세대",
+    "amount": "월 20,160원 미만",
+    "show": true,
+    "special": true
+  },
+  "g24-420000000163": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "사슴사육농가 양록육성 지원",
+    "target": "축산업 등록·허가 사슴사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-420000000165": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 축사시설 환경개선 지원",
+    "target": "축산업 등록·허가 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-420000000171": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 및 보호자 양육보조금 지원",
+    "target": "가정위탁아동 및 보호자",
+    "amount": "월 30~50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-420000000172": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "연근해 채낚기어선 장비 지원",
+    "target": "연근해 채낚기어업허가 소유어선",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-420000000175": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 14세 이상 강릉사랑상품권 구매 시 캐시백 지원",
+    "target": "만 14세 이상 강릉시민",
+    "amount": "6~18% 캐시백",
+    "show": true,
+    "special": false
+  },
+  "g24-420000000179": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "건강관리 취약지역주민 방문건강관리 지원",
+    "target": "건강관리 취약지역주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-420100000006": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "강릉시 전입 세대 전입축하금 지원",
+    "target": "2025년 이후 강릉시 전입 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-422000000120": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "결혼이민자 가구 명절 위문세트 지원",
+    "target": "결혼이민자 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-422000000121": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "보건소 등록 임산부 산전건강관리 지원",
+    "target": "보건소 등록 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
