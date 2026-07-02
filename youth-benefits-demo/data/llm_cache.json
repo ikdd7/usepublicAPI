@@ -82219,5 +82219,457 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006455": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "가평군, 혼인·출산 축하물품 지급",
+    "target": "가평군 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006448": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "광명시 초·중·고 졸업앨범비 지원",
+    "target": "광명시 초·중·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006433": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "이천시 고등학교 졸업앨범비 지원",
+    "target": "이천시 고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006429": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "동두천시 75세 이상 노인 목욕비 지원",
+    "target": "동두천시 거주 75세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006424": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "남양주시 청년 월세 지원",
+    "target": "남양주시 거주 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006419": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "남양주시 청년 이사비 지원",
+    "target": "남양주시 거주 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006417": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "다자녀가정 종량제봉투 지원",
+    "target": "다자녀가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006413": {
+    "category": "복지",
+    "tags": [
+      "1인가구",
+      "중장년"
+    ],
+    "support_type": "바우처",
+    "summary": "광명시 중장년 1인가구 식료품·생필품 지원",
+    "target": "광명시 고독사·은둔 우려 중장년 1인가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006409": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "수원시 무주택 청년 주거 지원",
+    "target": "수원시 전입 무주택 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006408": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "이천시 발달장애인 배상책임보험 지원",
+    "target": "이천시 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006399": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "초등학생 입학준비금 지원",
+    "target": "초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006395": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "포천시 3세 영유아 보육비 지원",
+    "target": "포천시 3세 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006382": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "여주 공공산후조리원 두자녀 이용료 감면",
+    "target": "여주시 둘째 자녀 출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006449": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "청소년 꿈키움 바우처 지원",
+    "target": "아동·청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006444": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "영동군 장애인활동지원 24시간 추가 지원",
+    "target": "영동군 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006439": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "제천시 암환자 가발구입비 지원",
+    "target": "제천시 암환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006430": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "전동보조기기 배상책임보험 지원",
+    "target": "노인, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006427": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "보은군 발달장애인 배상책임보험 지원",
+    "target": "보은군 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006404": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "저장강박증 의심가구 주거환경 개선 지원",
+    "target": "저장강박증 의심가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006403": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "뇌병변장애인 위생용품 구입비 지원",
+    "target": "중증 뇌병변장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000241": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 독거노인 등에게 반찬/부식 지원",
+    "target": "저소득 독거노인 또는 노인부부 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-432000000242": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 등에게 재활기구 무료 대여",
+    "target": "양구관내 장애인 및 재활기구 필요한 지역주민",
+    "amount": "최대 6개월",
+    "show": true,
+    "special": true
+  },
+  "g24-432000000243": {
+    "category": "복지",
+    "tags": [
+      "다문화가족",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "공공산후조리원 감면 이용료 지원",
+    "target": "셋째자녀, 다문화, 장애인, 국가유공자 등 산모",
+    "amount": "100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-432000000245": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "복지사각지대/저소득층 의료비 등 긴급 지원",
+    "target": "중위소득 85% 이하, 특정 재산/금융 기준 대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-432000000249": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "양구군민 자녀 고등/대학생 장학금 지원",
+    "target": "양구군 거주 군민 또는 군민의 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000250": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 이불 빨래 서비스 지원",
+    "target": "중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-433000000124": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초수급 장기요양등급자 재가서비스 본인부담금 지원",
+    "target": "장기요양등급 판정자 중 기초생활수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-433000000126": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산업 등록자에게 소독 시설장비 지원",
+    "target": "축산업 등록·허가자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-433000000130": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농어촌학교 학생 교통비 지원",
+    "target": "학교서 2km 이상 거주 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-433000000131": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 자녀 장학금 지원",
+    "target": "기초수급자 및 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-433000000132": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "관내 농업인 농작업 상해 보상 지원",
+    "target": "관내 농업인 전체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-433000000134": {
+    "category": "복지",
+    "tags": [
+      "다문화가족"
+    ],
+    "support_type": "서비스",
+    "summary": "결혼이민자 사회적응 프로그램 지원",
+    "target": "관내 거주 결혼이민자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-433000000135": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "관내 거주 65세 이상 의료급여수급자 건강진단비 지원",
+    "target": "관내 거주 65세 이상 의료급여 수급권자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-433000000136": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 생활안정비 월 5만원 지원",
+    "target": "관내 거주 저소득 한부모가정",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-433000000138": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어선원 재해보험 보험료 일부 지원",
+    "target": "내수면 어업허가자 또는 가족원",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-433000000139": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "가축 사육업 등록 농가 축사시설 개선 지원",
+    "target": "가축 사육업 등록(허가) 농가, 신규 진입 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-433000000141": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 취약계층 건보료/장기요양보험료 지원",
+    "target": "인제군 지역가입자 중 최저보험료 이하 노인·장애인·한부모세대",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-433000000142": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "인제군 거주 출산산모 건강관리 지원",
+    "target": "인제군 거주 출산산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-434000000107": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "결식우려아동 및 가정위탁아동 급식 지원",
+    "target": "결식우려아동, 가정위탁아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-434000000109": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "귀농인 농기자재 지원",
+    "target": "관내 거주, 만 70세 이하, 농업경영체 등록 귀농인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
