@@ -81160,5 +81160,205 @@
     "amount": "결제액의 6~10%",
     "show": true,
     "special": false
+  },
+  "g24-422000000122": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "65세 이상 어르신 무료급식 지원",
+    "target": "결식 우려 65세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화가족 취학전 자녀 양육비 월 3만원 지원",
+    "target": "관내 거주 2년 이상 취학전 다문화가족 자녀",
+    "amount": "월 3만원",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000108": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "웰빙잡곡 계약재배 농가 생산장려금 지급",
+    "target": "횡성군 거주 계약재배 농업인",
+    "amount": "수매실적에 따라",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000110": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "65세 이상 어르신 대상포진 예방접종 비용 지원",
+    "target": "횡성군 거주 65세 이상 어르신",
+    "amount": "접종비용 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000113": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "토종벌 사육 농가 벌통 및 종봉 지원",
+    "target": "횡성군 토종벌 사육 농가",
+    "amount": "벌통, 종봉",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000116": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "저소득 65세 이상 주민 건강보험료 지원",
+    "target": "최저보험료 이하 65세 이상 주민",
+    "amount": "건강보험료",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000119": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "친환경 인증 농가 유기농자재 지원",
+    "target": "횡성군 친환경 인증 농업인",
+    "amount": "유기 200만원/ha",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000121": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시설원예 농가 수정벌 구입비 50% 지원",
+    "target": "횡성군 시설원예 재배 농업인",
+    "amount": "구입비의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000123": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "65세 이상 기초수급자 노인 의치보철 지원",
+    "target": "65세 이상 기초수급자, 차상위",
+    "amount": "시술비 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-426000000124": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "만 70세 이상 저소득 노인 보청기 등 지원",
+    "target": "만 70세 이상 저소득 노인",
+    "amount": "보청기, 보행기 등",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000125": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "농업인 연합마케팅 농산물 포장재 지원",
+    "target": "농업인, 농업법인",
+    "amount": "포장재",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000130": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "로컬푸드 농가 포장재 제작비 50% 지원",
+    "target": "횡성군 농산물 직접 생산 농업인",
+    "amount": "제작비의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000133": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고령·장애·여성농업인 영농작업비 지원",
+    "target": "횡성군 거주 고령, 장애, 여성농업인",
+    "amount": "실경작 ㎡당 40원",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000134": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가뭄대비 관수장비 구입비 지원",
+    "target": "횡성군 농업경영체 등록 농가",
+    "amount": "구입비 일정액",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000135": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화자녀 학원비/학습지비 지원",
+    "target": "관내 거주 2년 이상 다문화가족 자녀",
+    "amount": "최대 8만원",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000137": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "횡성사랑상품권 사용금액 5~15% 캐시백",
+    "target": "횡성사랑상품권 사용자",
+    "amount": "5~15% 캐시백",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000138": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "깨끗한 축산농장 지정농가 인센티브 지원",
+    "target": "깨끗한 축산농장 지정농가",
+    "amount": "인센티브",
+    "show": true,
+    "special": false
+  },
+  "g24-426000000142": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "횡성군민 안전보험 가입 지원",
+    "target": "횡성군 전 군민(등록외국인 포함)",
+    "amount": "25개 항목 보장",
+    "show": true,
+    "special": true
+  },
+  "g24-426000000143": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "횡성 여성 문화의 날 운영 지원",
+    "target": "횡성군 거주 여성",
+    "amount": "무료 관람/탐방",
+    "show": true,
+    "special": false
+  },
+  "g24-426100000001": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "응급환자 관외 이송 구급차 이용 경비 지원",
+    "target": "횡성군 거주 응급환자",
+    "amount": "구급차 이용 경비",
+    "show": true,
+    "special": false
   }
 }
