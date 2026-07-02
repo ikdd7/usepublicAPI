@@ -81360,5 +81360,411 @@
     "amount": "구급차 이용 경비",
     "show": true,
     "special": false
+  },
+  "g24-427000000210": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "밭작물 재배농가 생분해성 멀칭필름 지원",
+    "target": "밭작물 재배농가 중 멀칭비닐 구입 희망농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000212": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "산채류 생산기반 조성 지원",
+    "target": "영월군민 및 농업경영체 등록 산채 재배 농업인",
+    "amount": "관수시설 및 냉동고 등",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000213": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "생강 재배기반 조성 지원",
+    "target": "영월군민 및 농업경영체 등록 농업인",
+    "amount": "종구",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000214": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "시설하우스 연작장해 개선 지원",
+    "target": "영월군민 및 농업경영체 등록 농업인",
+    "amount": "토양 소독제",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000217": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "친환경 원예작물 천적활용 방제비 지원",
+    "target": "무농약·유기농 인증 시설원예작물 재배농가",
+    "amount": "천적 구입비",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000218": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보호자 이탈 아동 긴급 서비스 지원",
+    "target": "보호자 이탈 0~18세 아동",
+    "amount": "급식비, 피복비 등",
+    "show": true,
+    "special": true
+  },
+  "g24-427000000219": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "가임기 여성 및 임산부 풍진검사 지원",
+    "target": "관내 주민등록 가임기 여성 및 임산부",
+    "amount": "풍진검사",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000220": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "대형농기계 급유탱크 지원사업",
+    "target": "농업경영체 등록 농업인",
+    "amount": "농업용 주유장비",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000224": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "청년일자리사업 참여 청년 문화비 지원",
+    "target": "지역주도형 청년일자리사업 1유형 참여 청년",
+    "amount": "청년문화비(지역화폐)",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000225": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "반려동물 등록제 수수료 지원",
+    "target": "반려동물 등록 대행업체 또는 동물병원",
+    "amount": "등록 수수료",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000227": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "가업승계농 영농기반조성 지원",
+    "target": "만20~50세 미만, 승계 후 영농경력 3년 이상",
+    "amount": "최대 2800만원",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000228": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "주요 농산물 생산원가 보장 지원",
+    "target": "홍고추, 콩, 토마토 계약 재배 농가",
+    "amount": "생산원가 차액",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000229": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "저소득 재가노인 급식 지원",
+    "target": "결식 우려 독거노인",
+    "amount": "도시락",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000238": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "쌀전업농 농기계 구입비 지원",
+    "target": "쌀전업농 영월군연합회원",
+    "amount": "농기계 구입비",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000243": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "소규모 다목적 비닐하우스 지원",
+    "target": "영월군민 및 농업경영체 등록 농업인",
+    "amount": "소규모 단동 하우스",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000246": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장기 등 기증 사망자 사망위로금 지급",
+    "target": "장기 기증 사망자 유족",
+    "amount": "사망위로금",
+    "show": true,
+    "special": true
+  },
+  "g24-427000000249": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "친환경 퇴비조성 수피 지원",
+    "target": "농업경영체 등록 농업인",
+    "amount": "친환경퇴비조성 수피",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000257": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "찰옥수수 명품화 종자 및 농자재 지원",
+    "target": "옥수수 재배 단지",
+    "amount": "종자 및 농자재",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000258": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "버섯 생산성 향상 지원사업",
+    "target": "버섯 재배 농업경영체",
+    "amount": "원료 및 접종 배지",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000259": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "명품과원 기반조성 지원",
+    "target": "영월관내 거주 농업경영체",
+    "amount": "묘목 및 시설",
+    "show": true,
+    "special": false
+  },
+  "g24-429000000753": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "정선 찰옥수수 계약 재배 농가 포엽비 지원",
+    "target": "정선 찰옥수수 계약 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-429000000754": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 농가 황기 수매 장려금 지원",
+    "target": "관내 농업경영체 등록 및 황기 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-429000000756": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "벌 관련 농가 재래봉 종봉·꿀 용기 구입비 50% 지원",
+    "target": "벌 관련 농업경영체 및 양봉등록 농가",
+    "amount": "구입비의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-429000000759": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 축산농가 고급육 출현 등급별 장려금 지급",
+    "target": "가축사육업 등록된 관내 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-429000000761": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "신규 농업인 영농기반 및 주택수리비 지원",
+    "target": "신규 농업인(교육이수자, 경영체 등록)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-429000000762": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "정선군민·관광객 지역화폐 10% 할인 판매",
+    "target": "정선군민 및 지역상품권 이용 관광객",
+    "amount": "10%",
+    "show": true,
+    "special": false
+  },
+  "g24-429000000763": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 농가 농기계 구입비 50% 지원",
+    "target": "관내 농업경영체 등록 농가",
+    "amount": "구입비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-429000000764": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "친환경 벼 수매 농가 소득 감소분 지원",
+    "target": "친환경 벼 수매 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-429100000003": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "정선군민 자연재해·사고 사망 시 보험금 지급",
+    "target": "정선군민 (15세 미만 제외)",
+    "amount": "3000",
+    "show": true,
+    "special": true
+  },
+  "g24-429100000004": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "정선 거주 예비부부·출산 준비 부모 무료 건강검진",
+    "target": "정선 거주 예비부부, 출산 준비 부모",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-430000000132": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 명절 위문품 지급",
+    "target": "기초생활수급자 및 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-430000000133": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "철원 70세 이상 주민 보건의료기관 진료비 본인부담금 경감",
+    "target": "철원 70세 이상 주민",
+    "amount": "본인부담금 경감",
+    "show": true,
+    "special": false
+  },
+  "g24-430000000135": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "철원 농업인 고품질 쌀 우렁이 사업 보조금 지원",
+    "target": "철원군 농지 및 주소 둔 농업인(조합원)",
+    "amount": "799,920천원",
+    "show": true,
+    "special": false
+  },
+  "g24-430000000138": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "저소득 국가유공자 명절·보훈의 날 위문품 지원",
+    "target": "관내 저소득 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-430000000139": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "친환경 벼 인증 농가 상토 구입비 지원",
+    "target": "2025년 벼 친환경 인증 농가",
+    "amount": "5,282천원",
+    "show": true,
+    "special": false
+  },
+  "g24-430000000140": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "한우 농가 거세·임신진단·정액·능력검정비 일부 지원",
+    "target": "한우 사육 농가",
+    "amount": "일부 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-430000000143": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "관내 양봉농가 화분·화분떡 지원",
+    "target": "관내 양봉농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-430000000144": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "관내 친환경 인증 농가 우렁이 지원",
+    "target": "관내 친환경농산물 인증 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-430000000146": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "철원 보훈대상자·참전유공자 수당 지급",
+    "target": "철원 거주 국가보훈대상자, 참전유공자 등",
+    "amount": "월 30만원",
+    "show": true,
+    "special": true
+  },
+  "g24-430000000148": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 거동불편 노인 도시락 제공",
+    "target": "결식 우려 저소득 거동불편 노인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
