@@ -83367,5 +83367,453 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-431000000102": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "화천군 학생 등록금 및 거주비 지원",
+    "target": "화천군 3년 이상 거주자 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "65세 이상 노인 무료 급식 지원",
+    "target": "식사 거를 우려 있는 65세 이상 노인",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000108": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지역주민 방문 건강관리 서비스 지원",
+    "target": "건강관리 필요한 지역주민, 만성질환자, 노인",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "거동 불편한 저소득 노인 도시락 지원",
+    "target": "거동 불편한 65세 이상 저소득 노인",
+    "amount": "주 5회",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000113": {
+    "category": "금융",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "화천군 거주 저소득 건강보험 지역가입자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000115": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 대학생 장학금 및 입학준비금 지원",
+    "target": "수급자, 차상위 본인부담경감 대상자 가구 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000117": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 명절 위문품 및 난방비 지원",
+    "target": "기초수급자, 차상위계층 중 노인, 아동, 중증장애인 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000118": {
+    "category": "육아",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산 및 양육 지원금 지원",
+    "target": "화천군 거주 3세 이하 자녀 양육 장애인가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000120": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "에티오피아 참전용사 후손 장학금 지원",
+    "target": "에티오피아 한국전 참전용사 후손",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000121": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "등록장애인 보장구 구입·수리비 지원",
+    "target": "의료급여 수급자 등록장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000122": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 산전 검사비 및 축하용품 지원",
+    "target": "예비 임산부 및 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000227": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "양구군 거주 외국어고 학생 장학금 지원",
+    "target": "양구군 거주 외국어고 입학생 및 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000228": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보호아동 학용품비 지원",
+    "target": "가정위탁, 그룹홈 보호아동",
+    "amount": "분기별 최대 7만원",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000229": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 80세 이상 어르신 봉양 가구 수당 지원",
+    "target": "만 80세 이상 어르신 봉양자",
+    "amount": "월 최대 7만원",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000230": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "60세 이상 지역주민 치매 무료 검사 지원",
+    "target": "60세 이상 지역주민",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000231": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "귀농인 정착 지원 사업",
+    "target": "만 65세 이하 귀농인, 농업경영체 등록자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000233": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "의료수급권자 의치보철 지원",
+    "target": "만 19세 이상 의료수급권자, 차상위자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000235": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "폭염 취약가구 냉방용품 지원",
+    "target": "저소득층 및 복지사각지대",
+    "amount": "냉풍기",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000238": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 보장구 무상 대여 및 수리비 지원",
+    "target": "보장구 기증 약속한 장애인·노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000239": {
+    "category": "금융",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "대출",
+    "summary": "저소득층 전세자금 및 창업자금 융자 지원",
+    "target": "기초생활수급자 및 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-432000000240": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "둘째 자녀 출생아 건강보험료 월 2만원 지원",
+    "target": "생후 12개월 이하 둘째 자녀",
+    "amount": "월 2만원",
+    "show": true,
+    "special": false
+  },
+  "g24-434000000110": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육보조금 지원",
+    "target": "가정위탁아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-434100000004": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "군민 안전사고 사망 시 보험금 지급",
+    "target": "고성군민",
+    "amount": "2000",
+    "show": true,
+    "special": false
+  },
+  "g24-435000000129": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 영양제(엽산, 철분, 유산균) 지원",
+    "target": "등록 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-435000000130": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "지적·자폐성 장애인 위치추적기 지원",
+    "target": "지적·자폐성 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-435000000135": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육보조금 월 30~50만원 지원",
+    "target": "만18세 미만 가정위탁아동",
+    "amount": "월 30~50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-435000000138": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 수당 지급",
+    "target": "양양군 거주 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-435000000142": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 분뇨 수분조절제(톱밥) 지원",
+    "target": "관내 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-435000000143": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "재가치매환자 조호물품(기저귀, 물티슈 등) 지원",
+    "target": "양양군 거주 재가치매 등록자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-435000000144": {
+    "category": "금융",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 대납 지원",
+    "target": "건강보험료 납부 어려운 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-435000000145": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급·차상위 어르신 경로식당 무료급식 지원",
+    "target": "양양군 기초생활수급·차상위 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-435000000146": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화가족 모국방문 여비 지원",
+    "target": "결혼이민자 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-435000000147": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양돈농가 사료첨가제 등 지원",
+    "target": "관내 등록 양돈 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-435000000149": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 수정란이식·송아지 제왕절개 지원",
+    "target": "관내 한우 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000828": {
+    "category": "환경·생활",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "도시가스 미공급 지역 도시가스 공급시설 설치비 지원",
+    "target": "도시가스 미공급 지역 주택",
+    "amount": "최대 5",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000830": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "자활사업 참여자 자산형성 지원",
+    "target": "자활사업 참여자, 자산형성지원 가입자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000833": {
+    "category": "금융",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "저소득층 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "엽연초 재배농가 영농자재 지원",
+    "target": "엽연초 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000103": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "낙농헬퍼(도우미) 인건비 지원",
+    "target": "관내 젖소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 헬퍼(도우미) 인건비 지원",
+    "target": "관내 한우 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
