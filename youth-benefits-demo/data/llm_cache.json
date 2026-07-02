@@ -81766,5 +81766,217 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-427000000260": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "과수 재배 농업경영체에 과수 기자재 구입 지원",
+    "target": "과수 재배 농업경영체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000262": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "영월 관내 농업경영체에 과수 방제기 지원",
+    "target": "영월 관내 거주 농업경영체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000269": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "7세 이하 아동에게 육아용품 대여 지원",
+    "target": "관내 거주 7세 이하 미취학 아동",
+    "amount": "최대 2점",
+    "show": true,
+    "special": false
+  },
+  "g24-427100000002": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청년농업인 영농 기반 조성 지원",
+    "target": "청년농업인(18~45세)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427100000003": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 등 상하수도요금 감면",
+    "target": "기초생활수급자, 경로당 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-427100000007": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "등록 임산부에게 유축기 대여 지원",
+    "target": "관내 보건소 등록 임산부",
+    "amount": "3개월 대여",
+    "show": true,
+    "special": false
+  },
+  "g24-428000000101": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 아동에게 급식비 지원",
+    "target": "18세 미만 저소득 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-428000000103": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "GAP 인증 농가에 인증 관련 비용 지원",
+    "target": "GAP 인증 관내 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-428000000105": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "번식우 사육 농가에 품질 고급화 지원",
+    "target": "평창군 번식우 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-428000000112": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "황태 가공·생산업체에 기자재 지원",
+    "target": "관내 황태 가공·생산업체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-428000000113": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "밭작물 농가에 관수시설 지원",
+    "target": "평창군 밭작물 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-428000000114": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자에게 위문금 지원",
+    "target": "관내 국가보훈대상자, 병역명문가",
+    "amount": "연3회",
+    "show": true,
+    "special": true
+  },
+  "g24-428000000116": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인 건강보험료 지원",
+    "target": "만65세 이상 저소득 노인 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-428000000117": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "군수 품질인증 농가에 포장재 지원",
+    "target": "관내 군수 품질인증 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-428000000118": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "산림소득사업 신규 신청자 지원",
+    "target": "평창군 거주 신규포지 신청자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-428100000005": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "평창군민 대상 안전보험 지원",
+    "target": "평창군 지역 주민",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-429000000748": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산농가에 축사 개보수 지원",
+    "target": "가축사육업 등록 관내 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-429000000749": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "수급권자, 중증장애인 상수도요금 감면",
+    "target": "수급권자, 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-429000000750": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동에게 양육보조금 지원",
+    "target": "18세 미만 가정위탁아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-429000000752": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "축산농가에 배합사료 구입비 지원",
+    "target": "가축사육업 등록 관내 축산농가",
+    "amount": "10%",
+    "show": true,
+    "special": false
   }
 }
