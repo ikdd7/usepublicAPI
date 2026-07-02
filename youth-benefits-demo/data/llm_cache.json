@@ -82671,5 +82671,473 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006376": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "안동 청년 자립 기반 마련 지원",
+    "target": "안동 거주 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006375": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "안동시 출산장려 지원",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004929": {
+    "category": "육아",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현물",
+    "summary": "예비·신혼부부 임신준비물품 지원",
+    "target": "예비·신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006470": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 소상공인 점포 임차료 지원",
+    "target": "관내 청년 사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006462": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "아동·청소년·어르신 교통비 지원",
+    "target": "아동, 청소년, 70세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006457": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산가정 유축기 대여 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006443": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "의령군 노인 이미용비 및 목욕비 지원",
+    "target": "의령군 거주 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006442": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "하동형 육아수당 지원",
+    "target": "만 7세 미만 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006438": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 자격증 시험 응시료 지원",
+    "target": "김해시 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006437": {
+    "category": "건강",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "현금",
+    "summary": "어르신 무릎 인공관절 수술 의료비 지원",
+    "target": "무릎 인공관절 수술 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006435": {
+    "category": "건강",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "현금",
+    "summary": "노인 무릎 인공관절 수술비 지원",
+    "target": "무릎 인공관절 수술 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006436": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 운전면허 취득비용 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006426": {
+    "category": "복지",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "현금",
+    "summary": "하동군 노인 목욕비 및 이미용비 지원",
+    "target": "하동군 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006400": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "출산지원금 지원",
+    "target": "출산·입양 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006397": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 확대지원",
+    "target": "난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006394": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "신혼부부 결혼장려금 지원",
+    "target": "신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006385": {
+    "category": "문화",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "바우처",
+    "summary": "아동 문화·관광 체험카드 지원",
+    "target": "거제시 아동·청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005690": {
+    "category": "복지",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "현금",
+    "summary": "장수축하금 지급",
+    "target": "노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006446": {
+    "category": "건강",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "서비스",
+    "summary": "어르신 당뇨 자가관리 역량 강화 지원",
+    "target": "당뇨 질환 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006407": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 학습비 지원",
+    "target": "취업·창업 준비 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000106": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 및 영유아 영양제 지원",
+    "target": "제천시 거주 예비신부, 임산부, 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000107": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 농가 농기계 지원",
+    "target": "제천시 거주 0.5ha 이상 과수재배 농업인",
+    "amount": "SS기, 고소작업차",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000108": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "여성장애인 가사도우미 지원",
+    "target": "등록 여성장애인 중 임신, 출산, 양육 등 필요한 자",
+    "amount": "가사도우미 파견",
+    "show": true,
+    "special": true
+  },
+  "g24-440000000109": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동지원 추가 지원",
+    "target": "기능제한영역 점수 이상 기초수급 독거/와상 장애인",
+    "amount": "월 80시간",
+    "show": true,
+    "special": true
+  },
+  "g24-440000000110": {
+    "category": "건강",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 건강보험료 지원",
+    "target": "제천시 거주 한부모가족 지역가입자",
+    "amount": "건강보험료",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000111": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인 건강보험료 지원",
+    "target": "제천시 거주 만65세 이상 노인 세대",
+    "amount": "건강보험료",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000113": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "종돈 구입비 일부 지원",
+    "target": "제천시 거주 모돈 사육 양돈농가",
+    "amount": "종돈구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "가축사료 첨가제(생균제) 구입비 지원",
+    "target": "제천시 거주 축산업허가(등록)된 축산농가",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000115": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "외국인계절근로자 도입 운영 지원",
+    "target": "외국인계절근로자 수요 농가, 초청 외국인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000118": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육보조금 지원",
+    "target": "보호자가 없거나 학대받는 만18세 미만 아동",
+    "amount": "양육보조금",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000119": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 청소년 자립 지원",
+    "target": "제천시 거주 기준중위소득 100% 이하 만9~24세",
+    "amount": "학자금, 훈련비, 정착금",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000121": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "4세대 이상 가정 효도수당 지급",
+    "target": "70세 이상 직계존비속이 동일주소지에 1년 이상 거주",
+    "amount": "월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "가축분뇨 수분조절제 구입비 지원",
+    "target": "제천시 거주 축산업허가(등록)된 축산농가",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000127": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장기요양기관 재가서비스급여 이용료 지원",
+    "target": "장기요양 1~5등급 기초/의료급여 수급 노인",
+    "amount": "서비스 이용료",
+    "show": true,
+    "special": true
+  },
+  "g24-440000000129": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동 지원",
+    "target": "장애인활동지원 1~14구간 결정 대상자",
+    "amount": "일반 20시간, 와상 60시간",
+    "show": true,
+    "special": true
+  },
+  "g24-440000000130": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈 대상자 명예수당 등 지급",
+    "target": "제천시 조례 규정 국가보훈대상자",
+    "amount": "명예수당, 위로금",
+    "show": true,
+    "special": true
+  },
+  "g24-440000000131": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "조사료 생산비 지원",
+    "target": "조사료 생산자",
+    "amount": "생산비",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000133": {
+    "category": "환경·생활",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "단독주택 도시가스 공급관 설치비 지원",
+    "target": "단독주택 가구",
+    "amount": "설치비용",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000134": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "원예작물 생산농가 멀칭필름 지원",
+    "target": "원예 농작물 생산농가",
+    "amount": "멀칭필름",
+    "show": true,
+    "special": false
+  },
+  "g24-440000000143": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "한방 난임 치료비 지원",
+    "target": "부부 모두 제천시 거주, 임신 안되는 여성",
+    "amount": "치료비",
+    "show": true,
+    "special": false
   }
 }
