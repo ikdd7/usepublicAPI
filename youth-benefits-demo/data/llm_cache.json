@@ -80924,5 +80924,241 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-426100000005": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 영양제 지원",
+    "target": "횡성군 거주 임산부",
+    "amount": "엽산제, 철분제, 유산균, 산후영양제",
+    "show": true,
+    "special": false
+  },
+  "g24-426100000006": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "출산·육아용품 무료 대여",
+    "target": "횡성군 거주 임산부 또는 영유아",
+    "amount": "1회 2점",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000181": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 관리기 구입비 지원",
+    "target": "농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000183": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농인 영농 정착 지원",
+    "target": "영월군 이주 귀농인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000184": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농산물 저온저장고 설치 지원",
+    "target": "영월군민 및 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000185": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "비닐하우스 농자재(PO필름) 지원",
+    "target": "영월군민 및 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000187": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "노지고추 건조기 지원",
+    "target": "영월군민 및 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000189": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "시설재배 내부 기자재 지원",
+    "target": "영월군민 및 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000190": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "비닐하우스 및 내부 기자재 지원",
+    "target": "영월군민 및 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000191": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 쌀 생산 농자재 지원",
+    "target": "친환경 인증 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000206": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양봉 기자재 및 토종벌 구입 지원",
+    "target": "양봉 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000194": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 사육농가 환풍기 지원",
+    "target": "한우 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000195": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임신·출산 축하 기념품/꾸러미 지원",
+    "target": "영월군 거주 임산부 및 신생아 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000198": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "토종돼지 출하 장려금 지원",
+    "target": "토종돼지 사육농가",
+    "amount": "두당 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000199": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "표고버섯 배지, 톱밥 구입 지원",
+    "target": "표고버섯 재배 임가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000200": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "원예작물 친환경 농자재 지원",
+    "target": "영월군민 및 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000202": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 사육농가 환경개선제 지원",
+    "target": "한우 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000204": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "시설하우스 ICT 시설 지원",
+    "target": "영월군민 및 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000208": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "누리과정 아동 특별활동비 지원",
+    "target": "누리과정 아동(3~5세)",
+    "amount": "월 8만원",
+    "show": true,
+    "special": false
+  },
+  "g24-427000000209": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영월군 지역화폐 인센티브 지원",
+    "target": "영월군 지역화폐 사용자",
+    "amount": "결제액의 6~10%",
+    "show": true,
+    "special": false
   }
 }
