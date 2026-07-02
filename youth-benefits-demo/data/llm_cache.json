@@ -81978,5 +81978,246 @@
     "amount": "10%",
     "show": true,
     "special": false
+  },
+  "g24-439000000834": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 장애인 무료급식 지원",
+    "target": "충북도장애인복지관 이용 저소득 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000835": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "여성장애인 가사도우미 지원",
+    "target": "저소득 여성장애인, 중증·고령 독거 여성장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000837": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "재활용품수집 노인·장애인 안전장비 지원",
+    "target": "중위소득 이하 재활용품 수집 노인 및 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000838": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수농가 영농장비 지원",
+    "target": "충주시에 주민등록 0.5ha 이상 과수재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000840": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농림축산물 가격안정 지원",
+    "target": "충주시 경작·사육 농림축산물 중 계통출하 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000841": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "지역화폐(충주사랑상품권) 구매 할인",
+    "target": "만 14세 이상 충주시민",
+    "amount": "6~10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000850": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만60세 이상 기초수급자 경로식당 무료급식 지원",
+    "target": "만60세 이상 기초수급자, 차상위계층 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000851": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "최중증장애인 24시간 활동보조 지원",
+    "target": "생계·의료수급자 중 24시간 활동보조 필요한 와상·사지마비 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000852": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "만65세 이상 기초수급자 보행기 지원",
+    "target": "충주 거주 만65세 이상 기초수급자, 차상위, 기초연금수급자",
+    "amount": "보행기 1대",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000855": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "잎담배 재배농가 영농자재 지원",
+    "target": "관내 거주 잎 담배 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000856": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "의료급여 청장년층 틀니·임플란트 지원",
+    "target": "만20~65세 미만 청장년층 의료급여 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000861": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 가구 대학생 자녀 장학금 지원",
+    "target": "등록장애인 및 장애인 대학생 자녀",
+    "amount": "등록금과 타 장학금 차액",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000863": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "신장장애인 투석비 및 이식검사비 지원",
+    "target": "충주 거주 1년 이상 신장 중증 장애인(수급자, 차상위)",
+    "amount": "투석비, 이식검사비",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000865": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "재가장애인 보장구 수리비 및 배터리 교체비 지원",
+    "target": "충주시 등록 장애인(수급자, 차상위)",
+    "amount": "연 300천원 이내",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000866": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한센병 환자 진료 및 생계비 지원",
+    "target": "한센병 환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000867": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배농가 톤백 지원",
+    "target": "충주시쌀전업농연합회 회원 및 벼 재배농가",
+    "amount": "1000㎡당 1매",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000869": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 재가노인 식사배달 지원",
+    "target": "만60세 이상 기초수급자, 차상위 거동불편 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-439000000877": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "청년 구직자 사진·면접비 지원",
+    "target": "만19~39세, 고용24 구직등록, 충주 거주 또는 입사 지원자",
+    "amount": "사진촬영비, 면접비",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000879": {
+    "category": "생활",
+    "tags": [],
+    "support_type": "정보",
+    "summary": "전입자 맞춤 생활안내 서비스",
+    "target": "충주시 전입자 (만19세 이상)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000883": {
+    "category": "농업",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년농업인 선도농가 실습 지원",
+    "target": "만18~50세, 충주 농업경영 (예비)청년농",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
