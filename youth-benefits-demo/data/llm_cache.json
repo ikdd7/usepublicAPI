@@ -84289,5 +84289,460 @@
     "amount": "연 8만원",
     "show": true,
     "special": true
+  },
+  "g24-442000000117": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 벼 재배 농업인 측조시비기 구입비 일부 지원",
+    "target": "관내 0.1ha 이상 벼 재배 농업인",
+    "amount": "구입비의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000118": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장수노인수당 지급",
+    "target": "1931년 이전 출생자, 1년 이상 보은군 거주",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-442000000119": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "가축사육업 허가 농가 퇴비사 건축비 일부 지원",
+    "target": "가축사육업 허가 농가, 무허가 아님",
+    "amount": "건축비의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000120": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양봉 농가 설탕사료 구입비 지원",
+    "target": "양봉등록/경영체 등록, 30군 이상 사육",
+    "amount": "구입비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000121": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "보은군 벼 재배 농업인 직불금 지급",
+    "target": "보은군 주소, 관내 농지 벼 재배 농업인",
+    "amount": "직불금 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000122": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의로운 군민 위로금 지급",
+    "target": "의로운 군민 또는 유족",
+    "amount": "최대 1천만원",
+    "show": true,
+    "special": true
+  },
+  "g24-442000000124": {
+    "category": "복지",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "중·고등학생 택시비 지원",
+    "target": "학습 후 귀가 불가, 이른 등교 불가 지역 거주",
+    "amount": "택시비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000127": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "경로식당 무료 급식 지원",
+    "target": "기초생활수급자, 차상위, 독거노인",
+    "amount": "무료 식사 제공",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000128": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화가정 친정나들이 왕복 항공료 지원",
+    "target": "결혼 3년 이상, 2년 내 미방문 다문화가정",
+    "amount": "왕복 항공료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000129": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "인삼재배 농가 지주목 등 농자재 지원",
+    "target": "보은군 거주, 농업경영체 등록 인삼재배 농가",
+    "amount": "농자재 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000136": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "보은군 12개월 미만 영아 양육 바우처 지원",
+    "target": "보은군 거주 12개월 미만 영아",
+    "amount": "양육바우처 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000637": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보은군 주택 태양광 보급 지원",
+    "target": "보은군 거주 주택 소유자",
+    "amount": "보급 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000639": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "대추·산림작물 재배시설 피복교체 지원",
+    "target": "관내 거주 대추 재배농가",
+    "amount": "피복교체 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000642": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "빈집 개량 지원",
+    "target": "타 시군 거주 후 보은군 전입 세대",
+    "amount": "보조금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000647": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "보은군 거주자 전기이륜차 구매 지원",
+    "target": "보은군 거주 만 18세 이상 개인, 법인",
+    "amount": "구매 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000655": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "보은군 거주 신혼부부 결혼장려금 지원",
+    "target": "보은군 거주 6개월 이상 신혼부부",
+    "amount": "세대당 6백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000660": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "출생아 축하 광고 지원",
+    "target": "관내 출생신고 가정",
+    "amount": "축하 메시지 광고",
+    "show": true,
+    "special": false
+  },
+  "g24-443000000102": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육보조금 지급",
+    "target": "가정위탁아동 보호 가정",
+    "amount": "양육보조금 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-443000000104": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 재가노인 밑반찬 지원",
+    "target": "거동불편 60세 이상 독거노인, 기초/차상위",
+    "amount": "밑반찬 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-443000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업융자금 이차보전금 지원",
+    "target": "옥천군 거주 농축산업 경영 농업인",
+    "amount": "이차보전금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000107": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "음성군 노인 점심 무료급식 지원",
+    "target": "음성군 거주 65세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000110": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "양식어업인 수산약품 및 양식장비 구입비 지원",
+    "target": "관내 허가 및 신고된 양식장",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000111": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "고추 재배 농업인 건조기, 세척기 50% 보조금 지원",
+    "target": "음성군 고추 1,000㎡ 이상 재배 농업인",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000115": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산농가 사일리지용 비닐 구입비 지원",
+    "target": "관내 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000118": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "AI 시료채취 요원 재료비 또는 인력비 지원",
+    "target": "공수의, 민간방역사 등 시료 채취 요원",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000119": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "취약노인 건강보험료 지원",
+    "target": "음성군 거주 최저보험료 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000124": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "초식가축 농가 사료작물 재배 장려금 및 작업비 지원",
+    "target": "초식가축 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000126": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "산모·신생아 건강관리 본인부담금 90% 지원",
+    "target": "음성군 거주 출산가정",
+    "amount": "90%",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000130": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 아동 급식 지원",
+    "target": "수급자, 차상위, 한부모, 긴급복지 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000144": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "중고등학생 온라인 강의 수강권 지원",
+    "target": "음성군 거주 중고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000145": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 면접수당 지원",
+    "target": "음성군 거주 19~39세 면접 응시자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-448000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "단양군 고추 재배 농업인 전용비료 지원",
+    "target": "단양군 고추 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-448000000102": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 대학진학자금 2백만원 지원",
+    "target": "가정위탁 보호아동",
+    "amount": "2백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-448000000103": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축사 지붕개량 기자재 지원",
+    "target": "관내 축산농가",
+    "amount": "60%",
+    "show": true,
+    "special": false
+  },
+  "g24-448000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "단양군 수박 재배 농업인 전용비료 지원",
+    "target": "단양군 수박 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-448000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "논농업 농업기계 지원",
+    "target": "단양군 거주 0.2ha 이상 논농업 경영주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-448000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "과수 재배 농업인 장기저장제 지원",
+    "target": "단양군 과수 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-448000000113": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "원예작물 미량요소 지원",
+    "target": "단양군 채소류 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-448000000116": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 재가노인 밑반찬 및 식사 배달",
+    "target": "결식우려 취약계층 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-448000000117": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "청년부부 정착장려금 지원",
+    "target": "단양군 거주 1년 이상 청년부부",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
