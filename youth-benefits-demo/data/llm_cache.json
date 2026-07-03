@@ -84744,5 +84744,246 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-449000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농가에 비료 지원",
+    "target": "천안시 거주 1,000㎡ 이상 벼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000115": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농가에 육묘상 처리약제 지원",
+    "target": "천안시 거주 1,000㎡ 이상 벼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000116": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 재배 농가에 기능성 필름 지원",
+    "target": "천안시 거주 포도·블루베리 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000119": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "천안시민 인플루엔자 예방접종 지원",
+    "target": "60~64세 주민, 기초생활수급자, 장애인, 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000120": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 건강보험료 및 장기요양보험료 지원",
+    "target": "만 65세 이상 노인, 장애인, 한부모, 국가유공자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-449000000121": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "화훼 농가에 영농자재 지원",
+    "target": "천안시 거주 화훼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000122": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "멜론 농가에 영농자재 지원",
+    "target": "천안시 거주 멜론 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000127": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "연초 경작 농가에 자재 지원",
+    "target": "천안시 거주 연초 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000132": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농가에 비료 지원",
+    "target": "천안시 거주 1,000㎡ 이상 벼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000133": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농가에 못자리 상토 지원",
+    "target": "천안시 거주 1,000㎡ 이상 벼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000134": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "화훼 농가에 영농자재 지원",
+    "target": "천안시 거주 화훼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000136": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농가에 육묘상 처리약제 지원",
+    "target": "천안시 거주 1,000㎡ 이상 벼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000141": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "신생아 출생 가정에 축하용품 지급",
+    "target": "천안시 거주, 천안시 출생신고 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000142": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 공공주차장 이용 주차증 발급",
+    "target": "천안시 거주 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000145": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 및 유족에게 명예수당 지급",
+    "target": "국가보훈대상자 본인 및 유족",
+    "amount": "월 10만원",
+    "show": true,
+    "special": true
+  },
+  "g24-449000000508": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 원외약제비 지원",
+    "target": "난임시술비 지원 대상자 중 원외약처방 받은 자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000510": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "만 70세 이상 벼 재배 농가 육묘 지원",
+    "target": "천안시 거주 만 70세 이상 벼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000517": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "수도권 소재 대학생 기숙사비 지원",
+    "target": "천안시 거주 1년 이상, 수도권 대학 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000538": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "동남구 거주 산모 모유 유축기 대여",
+    "target": "천안시 동남구 거주 산모",
+    "amount": "소모품 1만원",
+    "show": true,
+    "special": false
+  },
+  "g24-449000000520": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 대상 성장 프로그램 지원",
+    "target": "18세~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
