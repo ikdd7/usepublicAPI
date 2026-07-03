@@ -88194,5 +88194,207 @@
     "amount": "구입비 일부",
     "show": true,
     "special": false
+  },
+  "g24-454000000136": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "종계농가 자동급이급수기 지원",
+    "target": "관내 종계사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000138": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고능력 젖소개량 지원",
+    "target": "관내 젖소사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000139": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "동물사체 처리시설 지원",
+    "target": "관내 닭·돼지 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000140": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화가족 모국방문 항공료 및 체재비 지원",
+    "target": "논산시 거주 3년 이상 결혼이민자 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000141": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "기능성 수박묘 지원",
+    "target": "기능성 수박 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000142": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "착유장비 현대화 지원",
+    "target": "관내 젖소사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000143": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "벼 육묘상자 처리제 구입비 지원",
+    "target": "논산시 벼 재배 농업인",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000147": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "젖소농가 냉방기 지원",
+    "target": "관내 젖소사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000148": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양돈농가 자동급이기 지원",
+    "target": "관내 양돈사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000150": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "논산시 거주 가정 출산지원금 지급",
+    "target": "논산시 거주 부모 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000154": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농약살포 보호장비 구입비 지원",
+    "target": "논산시 농업인",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000157": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양돈농가 기자재 지원",
+    "target": "관내 양돈사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000158": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "논산시 저소득 세대",
+    "amount": "20,000원 미만",
+    "show": true,
+    "special": true
+  },
+  "g24-454000000159": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양돈농가 단열처리시설 지원",
+    "target": "관내 양돈사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000160": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "시설원예농가 토양개량 자재 지원",
+    "target": "관내 거주 시설원예농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000163": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "소형 농기계 구입비 지원",
+    "target": "논산시 농업인",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000164": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산분뇨 악취저감 미생물 지원",
+    "target": "개별농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000165": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양계농가 단열처리시설 지원",
+    "target": "관내 양계사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000169": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "가축분뇨처리장비 지원",
+    "target": "관내 한우사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000170": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "곤포사일리지용 비닐 지원",
+    "target": "조사료 생산 경영체 및 단체",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
