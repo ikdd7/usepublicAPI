@@ -86337,5 +86337,492 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006523": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "보험",
+    "summary": "종로구 발달장애인 배상책임보험 지원",
+    "target": "종로구 거주 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006521": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "보험",
+    "summary": "발달장애인 제3자 배상책임보험 지원",
+    "target": "발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006518": {
+    "category": "복지",
+    "tags": [
+      "청년",
+      "중장년"
+    ],
+    "support_type": "보험",
+    "summary": "플랫폼 배달노동자 산재보험료 지원",
+    "target": "플랫폼 배달 노동자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006516": {
+    "category": "복지",
+    "tags": [
+      "청소년",
+      "장애인"
+    ],
+    "support_type": "보험",
+    "summary": "장애 청소년 단체 상해 보험 지원",
+    "target": "장애 청소년",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006511": {
+    "category": "교육",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "미취업 청년 어학·국가자격증 응시료 지원",
+    "target": "미취업 청년",
+    "amount": "응시료",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006488": {
+    "category": "건강",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현금",
+    "summary": "치매환자 의료비 지원",
+    "target": "치매환자",
+    "amount": "치료관리비, 검사비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006487": {
+    "category": "건강",
+    "tags": [
+      "영유아"
+    ],
+    "support_type": "현금",
+    "summary": "미숙아 RSV 예방접종비 지원",
+    "target": "동대문구 거주 미숙아",
+    "amount": "예방접종비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006484": {
+    "category": "교육",
+    "tags": [
+      "청소년",
+      "아동"
+    ],
+    "support_type": "서비스",
+    "summary": "도시 학생 농촌 유학 지원",
+    "target": "도시 지역 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005435": {
+    "category": "건강",
+    "tags": [
+      "노년",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 어르신 대상포진 예방접종 지원",
+    "target": "취약계층 어르신",
+    "amount": "예방접종비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005012": {
+    "category": "복지",
+    "tags": [
+      "노년",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "홀몸 어르신 맞춤돌봄 IoT 서비스 지원",
+    "target": "홀몸 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006508": {
+    "category": "복지",
+    "tags": [
+      "청년",
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "중소기업 청년근로자 교통비 지원",
+    "target": "중소기업(제조업) 청년근로자",
+    "amount": "교통비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006506": {
+    "category": "복지",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "서천군 안심택시 지원",
+    "target": "야간자율학습 참여 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006505": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모신생아 건강관리 본인부담금 지원",
+    "target": "기준중위소득 150% 초과 첫째아 출산가정",
+    "amount": "본인부담금",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006504": {
+    "category": "건강",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현금",
+    "summary": "서천군 대상포진 예방접종 지원",
+    "target": "서천군 거주 고령층",
+    "amount": "예방접종비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006501": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현물",
+    "summary": "천안시 장수축하물품 지원",
+    "target": "천안시 거주 장수 노인",
+    "amount": "축하물품",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006499": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현금",
+    "summary": "장수수당 지급",
+    "target": "장수 노인",
+    "amount": "수당",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006497": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "서천군 창업 청년 임대료 지원",
+    "target": "서천군 관내 창업 청년",
+    "amount": "월세 임대료",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006496": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "서천군 청년 이사비 지원",
+    "target": "서천군 유입 청년",
+    "amount": "이사비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006494": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "결혼서비스 비용 지원",
+    "target": "청년",
+    "amount": "결혼서비스 비용",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006491": {
+    "category": "복지",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "서천군 청년 면접준비비용 지원",
+    "target": "서천군 거주 청년",
+    "amount": "면접준비비용",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000136": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 못자리용 상토 지원",
+    "target": "아산시 거주 벼 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000137": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 육묘 상자처리제 지원",
+    "target": "아산시 거주 벼 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000138": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양돈농가 악취저감제 지원",
+    "target": "아산시 거주 양돈농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000140": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "도고쪽파 유박비료 구입비 지원",
+    "target": "도고저수지 상류지역 쪽파 재배 농가",
+    "amount": "구입비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000141": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수재배 농기계 구입비 지원",
+    "target": "농업경영체 등록 과수재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000142": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "부산물 비료(퇴비) 구입 지원",
+    "target": "아산시 거주 농업인 및 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000143": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경 벼농가 병충해방제약 지원",
+    "target": "친환경농산물 인증 벼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000144": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경농가 규산질비료 지원",
+    "target": "친환경농산물 인증 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000146": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "소형 농기계 구입비 지원",
+    "target": "아산시 거주 벼, 밭 영농 농업인/법인",
+    "amount": "구입비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000149": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "칡소 다산장려금 지원",
+    "target": "관내 칡소 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000153": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경 유기질비료 지원",
+    "target": "친환경농산물 인증 수도작/과수 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000155": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경 시설채소 농가 농업자재 지원",
+    "target": "친환경농산물 인증 시설채소 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000156": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "이삭 도열병 공동방제약 지원",
+    "target": "아산시 거주 벼 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000158": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "배방 오이재배 액상비료 지원",
+    "target": "배방 오이재배 농가",
+    "amount": "구입비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000159": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "버섯재배 농가 버섯배지 지원",
+    "target": "아산버섯연구회 소속 버섯재배 농업인",
+    "amount": "구입비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000163": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "배방 친환경 유기질비료 지원",
+    "target": "배방읍 330㎡이상 채소재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000165": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 생일축하금 5만원 지원",
+    "target": "생일 도래 참전유공자",
+    "amount": "5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-452000000169": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 철분제 지원",
+    "target": "아산시 거주 임산부",
+    "amount": "최대 5개월분",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000170": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "지역화폐(아산페이) 10% 할인",
+    "target": "만19세 이상 아산페이 구매자",
+    "amount": "10%",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000173": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 엽산제 지원",
+    "target": "아산시 거주 임산부",
+    "amount": "최대 2개월분",
+    "show": true,
+    "special": false
   }
 }
