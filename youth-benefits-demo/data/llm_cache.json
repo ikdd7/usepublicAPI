@@ -87731,5 +87731,468 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-451000000103": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 태아 기형아 및 초음파 검진비 지원",
+    "target": "관내 등록 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000104": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 모유수유 유축기 수유컵 지원",
+    "target": "관내 등록 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000109": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "한센병환자 이동진료서비스 제공",
+    "target": "한센병 대상자 및 지역주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-451000000110": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "HIV감염인 에이즈 치료비 지원",
+    "target": "HIV감염인 및 에이즈 환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-451000000112": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "4대 이상 가정 직계존속 부양 효도수당 지원",
+    "target": "70세 이상 직계존속 부양 4대 이상 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000116": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "북한이탈주민 생활용품 지원",
+    "target": "하나원 퇴소 직후 신규 전입 북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-451000000117": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 국민건강보험료 지원",
+    "target": "최저보험료 이하 세대 노인·장애인·한부모 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000118": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "보령 넝쿨강낭콩 포장판매 지원",
+    "target": "보령시 관내 넝쿨강낭콩 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000119": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농가 못자리용 제품상토 지원",
+    "target": "보령시 거주 벼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000120": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "북한이탈주민 정착 지원",
+    "target": "관내 북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-451000000121": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "20~49세 남녀 임신 전 산전검사 및 물품 지원",
+    "target": "관내 거주 20~49세 남녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000122": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리사 교통비 지원",
+    "target": "대천1~4동 거주 산모 가정 방문 관리사",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000123": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "모돈 250두 미만 양돈농가 PRRS 백신 지원",
+    "target": "관내 모돈 250두 미만 양돈농가",
+    "amount": "보조 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000124": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양돈농가 파리감소화 지원",
+    "target": "관내 양돈농가",
+    "amount": "보조 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000128": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "B형간염 항체 없는 미접종자 예방접종 지원",
+    "target": "B형간염 항체 없는 미접종자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000129": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 출산용품 및 안전벨트 지원",
+    "target": "관내 등록 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000131": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "보령시민 인플루엔자(독감) 무료 예방접종 지원",
+    "target": "보령시 주소 둔 전 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000133": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "만12세 이하 아토피 환아 보습제 지원",
+    "target": "관내 거주 만 12세 이하 아토피 환아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000141": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 창업교육 및 초기자금 지원",
+    "target": "보령시 창업 희망 만 18~45세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000146": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 동반 자녀 돌봄 지원",
+    "target": "관내 다자녀 가정 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000249": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 및 배우자 등 백일해 예방접종 지원",
+    "target": "보령시 거주 임산부 및 배우자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000250": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "보령시민 대상 정보화 교육 지원",
+    "target": "보령시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000179": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "가축 사육농가 곤포사일리지 지원",
+    "target": "가축 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000182": {
+    "category": "일자리",
+    "tags": [
+      "운수종사자"
+    ],
+    "support_type": "서비스",
+    "summary": "브랜드택시 운송사업자 통신비 및 수수료 지원",
+    "target": "택시 운송사업자 및 운수종사자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000183": {
+    "category": "복지",
+    "tags": [
+      "1인가구",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "무연고 어르신 이송처치료 지원",
+    "target": "만 65세 이상 기초수급권자, 1인가구, 직계혈족 없는 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-453000000185": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "서산시 농가 벼 육묘상자 처리약제 구입비 지원",
+    "target": "서산시 주소 농업경영체 등록 농가",
+    "amount": "구입비의 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000186": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "관내 착유농가 헬퍼이용료 및 혈통등록비 지원",
+    "target": "관내 착유농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000187": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 및 배우자 수당 지원",
+    "target": "참전유공자 및 사망한 참전유공자의 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-453000000191": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "명절 소외계층 위문품 전달",
+    "target": "기초수급자 중증장애인, 사회복지시설, 노인요양시설 입소자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-453000000193": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "서산시 친환경 인증농가 농자재 구입비 지원",
+    "target": "서산시 주소 친환경 인증 또는 준비 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000197": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "안전취약계층 전기 안전점검 지원",
+    "target": "서산시 거주 기초수급자, 차상위, 장애인, 한부모, 노인, 다문화, 청소년가장 세대",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-453000000198": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 의료급여 수급권자 건강검진 지원",
+    "target": "만 65세 이상 의료급여 수급권자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-453000000199": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "서산시 거주 기준중위소득 150% 초과 산모(첫째아)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000200": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "서산시 농가 벼 못자리용 제조상토 지원",
+    "target": "서산시 주소 농업경영체 등록 농가",
+    "amount": "최대 100%",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000207": {
+    "category": "농업",
+    "tags": [
+      "임신·출산",
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "서산시 출산 여성농업인 농가 도우미 지원",
+    "target": "서산시 거주 출산(예정) 여성농업인, 유산·조산·사산 여성농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000212": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서산시민 정보화 교육 지원",
+    "target": "서산시민 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000213": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "서산시 정보취약계층 그린PC 무상 보급",
+    "target": "서산시 거주 정보취약계층(장애인, 수급권자 등)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-453000000214": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "정보취약계층 PC 점검 및 수리 지원",
+    "target": "장애인, 기초수급자, 그린PC 보급 개인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000443": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서산시 다자녀 가족카드 신청 지원",
+    "target": "서산시 거주 2자녀 이상 양육 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000103": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 인증 쌀 포장재 구입비 지원",
+    "target": "논산시 관내 친환경 쌀 생산·유통 법인",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
   }
 }
