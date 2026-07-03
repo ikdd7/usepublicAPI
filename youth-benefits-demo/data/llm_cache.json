@@ -86824,5 +86824,912 @@
     "amount": "최대 2개월분",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006549": {
+    "category": "교육",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현금",
+    "summary": "학교 밖 청소년 검정고시 합격 축하금 지원",
+    "target": "학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006543": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "target": "장애인가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006514": {
+    "category": "교육",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현금",
+    "summary": "사상구 학교 밖 청소년 검정고시 합격축하금 지원",
+    "target": "사상구 거주 학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006510": {
+    "category": "교육",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "강서구 청년 자격시험 응시료 지원",
+    "target": "강서구 거주 미취업 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006489": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어르신 대상포진 예방접종 지원",
+    "target": "면역력 약한 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006548": {
+    "category": "육아",
+    "tags": [
+      "다문화"
+    ],
+    "support_type": "현금",
+    "summary": "외국인 자녀 보육료 지원",
+    "target": "외국인 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006546": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "다함께돌봄센터 아동 간식비 지원",
+    "target": "다함께돌봄센터 이용 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006544": {
+    "category": "육아",
+    "tags": [
+      "다문화"
+    ],
+    "support_type": "현금",
+    "summary": "외국인 아동 보육료 지원",
+    "target": "순창군 관내 어린이집 이용 외국인 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006540": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득장애인가정 안심장비 지원",
+    "target": "저소득장애인가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006539": {
+    "category": "육아",
+    "tags": [
+      "한부모",
+      "다문화"
+    ],
+    "support_type": "현금",
+    "summary": "아이돌봄서비스 본인부담금 지원",
+    "target": "아이돌봄서비스 이용가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006538": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부·맞벌이·한부모·다자녀 가정 가사서비스 지원",
+    "target": "임산부, 맞벌이, 한부모, 다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006537": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "아동청소년 부모 빚 대물림 방지 법률지원",
+    "target": "군산시 아동·청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006535": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "현물",
+    "summary": "청년 면접정장 대여 지원",
+    "target": "구직 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006533": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "정읍시 신중년 자격증 응시료 지원",
+    "target": "정읍시 거주 신중년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006532": {
+    "category": "교육",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "서비스",
+    "summary": "초등 저학년 예체능 꿈탐험 지원",
+    "target": "초등 저학년 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006531": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "정읍시 전입대학생 주거비용 지원",
+    "target": "정읍시 소재 대학(원)생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006530": {
+    "category": "일자리",
+    "tags": [
+      "다문화"
+    ],
+    "support_type": "현금",
+    "summary": "정읍시 북한이탈주민 자격취득 지원",
+    "target": "정읍시 거주 북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006520": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "아동복지시설 생활아동 용돈 추가 지원",
+    "target": "아동복지시설 생활 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006519": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "1인가구"
+    ],
+    "support_type": "현금",
+    "summary": "익산시 전입 청년 중개보수비·이사비 지원",
+    "target": "익산시 전입 1인 청년 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006507": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "정읍시 전입 청년 이사비용 지원",
+    "target": "정읍시 전입 청년 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006502": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노인 무릎 인공관절 수술비 지원",
+    "target": "노년층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006503": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노인 안질환 수술비 지원",
+    "target": "노년층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006495": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "신혼",
+      "다자녀"
+    ],
+    "support_type": "대출",
+    "summary": "청년·신혼부부·다자녀가구 전세자금 대출이자 지원",
+    "target": "청년, 신혼부부, 다자녀 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006483": {
+    "category": "건강",
+    "tags": [
+      "신혼",
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "신혼(예비)부부 풍진항체검사 및 예방접종 지원",
+    "target": "신혼(예비)부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006476": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모",
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "저소득·다문화·다자녀가구 자녀 학습활동비 지원",
+    "target": "저소득, 다문화, 다자녀 가구 자녀",
+    "amount": "최대 60%",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005784": {
+    "category": "환경·생활",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "감면",
+    "summary": "다자녀 가구 상하수도요금 감면",
+    "target": "다자녀 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000123": {
+    "category": "건강",
+    "tags": [
+      "신혼",
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "예비신혼부부 및 임부 검진비 지원",
+    "target": "예비신혼부부, 임부",
+    "amount": "건강검진 쿠폰",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000125": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관외전입자 온누리상품권 3만원 지원",
+    "target": "관외 1년 이상 거주 후 공주 전입자",
+    "amount": "3만원",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000126": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "성적우수 장학생 선발",
+    "target": "성적 우수자",
+    "amount": "장학금",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000127": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "감면",
+    "summary": "저소득층 국민건강보험료 지원",
+    "target": "65세 이상 노인, 장애인, 국가유공자 세대",
+    "amount": "최저보험료",
+    "show": true,
+    "special": true
+  },
+  "g24-450000000130": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "이통장자녀 장학생 선발",
+    "target": "이통장 자녀",
+    "amount": "장학금",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000133": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만3-5세아 누리과정 보육료 지원",
+    "target": "만3-5세 아동",
+    "amount": "보육료",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000138": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "대안학교 무상급식 식품비 지원",
+    "target": "비인가 대안학교 학생",
+    "amount": "급식비",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000141": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "맞춤형 찾아가는 성인권 교육",
+    "target": "유아, 초·중·고, 성인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000143": {
+    "category": "건강",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "군복무 청년 상해보험 지원",
+    "target": "공주 거주 현역 군 복무 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000144": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사회복지 종사자 상해보험료 본인부담금 지원",
+    "target": "공주 관내 사회복지시설 종사자",
+    "amount": "2만원",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000148": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "응급환자 이송처치료 지원",
+    "target": "공주 거주 응급환자",
+    "amount": "이송 경비",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000149": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "공주사랑 장학생 선발",
+    "target": "공주 전입 6개월 경과 학생",
+    "amount": "장학금",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000152": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "지원",
+    "summary": "시설하우스 지원",
+    "target": "공주 거주 시설원예 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-450000000163": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시민안전공제",
+    "target": "공주시민",
+    "amount": "공제등록금액",
+    "show": true,
+    "special": true
+  },
+  "g24-451000000149": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 초과 출산가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000240": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시민 안전보험 지원",
+    "target": "보령시민",
+    "amount": "최대 1500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000245": {
+    "category": "기타",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "착한가격업소 활성화 지원",
+    "target": "관내 개인사업자, 법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-451000000247": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "AI 안부살핌서비스 지원",
+    "target": "고립위험가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-452000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "칡소 도축장려금 지원",
+    "target": "관내 칡소 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 재배 농업인 월급제 지원",
+    "target": "벼 4,000㎡이상 재배 농업인",
+    "amount": "수매대금의 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "육계농가 왕겨 구입비 지원",
+    "target": "육계 사육농가",
+    "amount": "구입비의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000117": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의로운 시민 위로금 지원",
+    "target": "의로운 행위 사망·부상자",
+    "amount": "최대 1천만원",
+    "show": true,
+    "special": true
+  },
+  "g24-452000000123": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "3세대 이상 가정 효도수당 지원",
+    "target": "3세대 이상 거주 가정의 2대",
+    "amount": "월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000124": {
+    "category": "금융",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "대출",
+    "summary": "청년창업농 융자금 이자 지원",
+    "target": "만40세 미만 후계농",
+    "amount": "이자 납부의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000126": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "난임부부 엽산 영양제 지원",
+    "target": "아산시 거주 난임부부",
+    "amount": "3개월분 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000130": {
+    "category": "주거",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "주거약자 주택개량 지원",
+    "target": "등록장애인, 65세이상 노인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-452000000175": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "65세이상 노인 약제비 지원",
+    "target": "아산시 거주 65세 이상 보건소 이용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000183": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "배방 오이재배 농가 고품질생산 지원",
+    "target": "배방 오이재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000312": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "보호자 없는 병실 간병비 지원",
+    "target": "의료급여수급권자, 차상위, 저소득층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-452000000315": {
+    "category": "건강",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 눈 수술비 지원",
+    "target": "기초생활수급권자, 차상위, 한부모 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-452000000318": {
+    "category": "기타",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "물가안정 모범업소 지정",
+    "target": "서민생활 관련 개인사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000322": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 약제비 지원",
+    "target": "난임부부 시술비 지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000324": {
+    "category": "문화",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현물",
+    "summary": "아산시 청년 대상 생활물품 대여 서비스",
+    "target": "아산시 거주 18~39세 청년, 관내 대학 재학생·졸업생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000325": {
+    "category": "문화",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현물",
+    "summary": "아산시 거주 청년 캠핑용품 대여 지원",
+    "target": "아산시 거주 18~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000329": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아산시 착한가격업소 대상 지원",
+    "target": "아산시 소재 6개월 이상 영업 업소",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000330": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "착한가격업소 시설개선 최대 200만원 지원",
+    "target": "아산시 착한가격업소",
+    "amount": "최대 200만원",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000333": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양봉농가 벌 대용먹이 구입비 지원",
+    "target": "양봉 30군 이상 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000336": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "기획생산 참여농가 로컬푸드 등 공급 지원",
+    "target": "로컬푸드 등 공급 내역 농가, 신규 출하 희망 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000342": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "아산시 거주 영주귀국 사할린한인 월 10만원 지원",
+    "target": "아산시 거주 영주귀국 사할린한인",
+    "amount": "월 10만원",
+    "show": true,
+    "special": true
+  },
+  "g24-452000000343": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "아산시 65세 이상 어르신 효도우대권 지원",
+    "target": "아산시 거주 65세 이상 어르신",
+    "amount": "연 20매",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000344": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 행정체험 지원",
+    "target": "국민기초생활수급자, 장애인 본인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-452000000345": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아산시 반려동물 입양자·시민 문화교육",
+    "target": "반려동물 입양자 및 아산시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000346": {
+    "category": "교육",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "북한이탈주민자녀 학습지 지원",
+    "target": "만3세~16세 북한이탈주민자녀",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-452000000347": {
+    "category": "환경·생활",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "도시지역 빈집 철거비 최대 4백만원 지원",
+    "target": "아산시 동 지역 1년 이상 방치 빈집 소유자",
+    "amount": "최대 4백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-452000000348": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아산시 찾아가는 마을세무사 상담 지원",
+    "target": "사전 예약한 아산시 거주 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000160": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "서산시 농가 동력살분무기 구입비 50% 지원",
+    "target": "서산시 농업경영체 등록 농가",
+    "amount": "구입비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000161": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "소·사슴 사육농가 폐사축 처리비용 지원",
+    "target": "소, 사슴 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000162": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양돈농가 액상정액 구입비 지원",
+    "target": "양돈 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000163": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산농가 사료급이기 등 시설 구입비 지원",
+    "target": "축산업 등록·허가 한우 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000165": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 밑반찬 등 재가복지서비스 지원",
+    "target": "추천받은 기초수급자, 차상위, 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000173": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "서산시 임산부·영유아 산전검사 등 지원",
+    "target": "서산시 거주 임신부 및 예비부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-453000000177": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "서산시 인플루엔자 등 국가예방접종 지원",
+    "target": "14세 이하 어린이, 임신부, 65세 이상 어르신 등",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
