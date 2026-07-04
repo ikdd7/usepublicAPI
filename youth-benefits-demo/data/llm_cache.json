@@ -88634,5 +88634,205 @@
     "amount": "10% 할인",
     "show": true,
     "special": false
+  },
+  "g24-454000000104": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "소규모 도정공장 쌀 포장재 구입비 일부 지원",
+    "target": "양곡가공협회논산시지부 소속 소규모 도정공장",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000106": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "젖소 사육농가 환경개선 지원",
+    "target": "관내 젖소사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000110": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "젖소농가 급이기 지원",
+    "target": "관내 젖소사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000111": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한우 개량 지원",
+    "target": "관내 한우사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000112": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "젖소 우량정액 지원",
+    "target": "관내 젖소사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000113": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양돈농가 임신진단기 지원",
+    "target": "관내 양돈사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000114": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "딸기 화분교배용 수정벌 지원",
+    "target": "관내 거주 딸기재배농가",
+    "amount": "일정액",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000115": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "GAP 인증 검사비 지원",
+    "target": "GAP인증 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000116": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "출산 산모에게 산모사랑꾸러미 제공",
+    "target": "논산시 거주 부모 및 신생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000118": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "육우사육농가 육성 지원",
+    "target": "관내 육우사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000119": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "축산농가 도우미 지원",
+    "target": "관내 한우, 젖소 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000120": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "배 재배 농가 인공수분용 꽃가루 지원",
+    "target": "관내 배 재배 농가, 법인, 작목반, 연구회",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000121": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "과채류 화분교배용 수정벌 지원",
+    "target": "관내 거주 수박, 토마토, 멜론 재배농가",
+    "amount": "일정액",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000122": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "개 사육농가 환경개선제 지원",
+    "target": "가축분뇨 배출시설 신고등록 된 개 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000123": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "호국보훈가족 등 위문금 지원",
+    "target": "참전명예수당 등 지급 대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-454000000126": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "소규모 도정공장 기계장비 구입비 일부 지원",
+    "target": "관내 사업장을 둔 소규모 도정공장",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000129": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "한우 농가 사료배합기 지원",
+    "target": "관내 한우사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-454000000130": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자(유족) 의료비 지원",
+    "target": "충남 거주 독립유공자(유족) 의료보험 가입자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-454000000134": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "암환자 의료비 지원",
+    "target": "의료급여수급권자, 차상위, 소아암환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-454000000135": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "벼 재배농가 제조상토 구입비 일부 지원",
+    "target": "논산시 농업경영체등록 벼 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
