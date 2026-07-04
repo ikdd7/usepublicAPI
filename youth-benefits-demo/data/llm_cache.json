@@ -88396,5 +88396,243 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-457000000131": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농업인에게 육묘용 상토 공급 지원",
+    "target": "관내 주소를 두고 벼 재배하는 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000132": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "관내 농업인 소형 농기계 구입비 최대 70% 지원",
+    "target": "관내 주소를 둔 농업인",
+    "amount": "농기계 가격의 70% 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000133": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 육묘 상자처리제 비용 70% 지원",
+    "target": "관내 주소를 두고 벼 재배하는 농업인",
+    "amount": "업체별 공급가격의 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000136": {
+    "category": "육아",
+    "tags": [
+      "농어업인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산(예정) 여성 농업인에게 농가 도우미 지원",
+    "target": "부여군 주소 둔 출산(예정) 여성 농업인",
+    "amount": "1일 64,200원 (80% 보조)",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000138": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 건강보험료 및 장기요양보험료 지원",
+    "target": "65세 이상 노인, 장애인, 한부모 세대",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": true
+  },
+  "g24-457000000143": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "위기사유 발생 대상자에게 긴급복지 지원",
+    "target": "기준 중위소득 75% 이하, 재산 요건 충족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-457000000148": {
+    "category": "주거",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "7년 이상 공동주택 단지 환경개선 지원",
+    "target": "7년 이상 공동주택 단지",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000153": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "부여은산 충남형 농촌리브투게더 주택 공급",
+    "target": "충청남도개발공사",
+    "amount": "",
+    "show": false,
+    "special": false
+  },
+  "g24-457000000154": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "방치된 농촌 빈집 정비 사업 지원",
+    "target": "1년 이상 방치된 농촌 빈집 소유자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000157": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "1인가구",
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "청년·신혼부부 대상 저렴한 월세 셰어하우스 지원",
+    "target": "무주택 청년·신혼부부 (중위소득 150% 이하)",
+    "amount": "저렴한 월세",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "서천군 수도작 농업인 모판용 가공상토 공급 지원",
+    "target": "서천군 관내 수도작 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 답작 농업인 농업기계(곡물건조기) 지원",
+    "target": "농업경영체 등록 관내 답작 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000108": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "빈집 소유자 자진철거 비용 최대 3백만원 지원",
+    "target": "서천군 관내 1년 이상 방치된 농어촌 주택 소유자",
+    "amount": "최대 3백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000109": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 건강보험료 및 장기요양보험료 지원",
+    "target": "만65세 이상 노인, 장애인, 한부모 세대",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": true
+  },
+  "g24-458000000111": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "서천군 두류 재배농가 지주대 지원",
+    "target": "농업경영체 등록 서천군 관내 두류 재배농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000112": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "인플루엔자 예방접종 지원",
+    "target": "65세 이상, 13세 미만, 기초생활수급자, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-458000000113": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "서천군 고추 재배농가 건조기·세척기 지원",
+    "target": "농업경영체 등록 서천군 관내 고추 재배농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000115": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "65세 이상 환자 및 장애인 약제비 본인부담금 지원",
+    "target": "서천군 거주 65세 이상 환자 및 장애인",
+    "amount": "본인부담금 1천원",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000116": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "서천군 임산부 건강관리 서비스 지원",
+    "target": "서천군 6개월 이상 거주 임산부",
+    "amount": "분만비, 산후조리비",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000118": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "서천사랑상품권 구매 시 10% 할인 지원",
+    "target": "만 14세 이상 서천군민",
+    "amount": "10% 할인",
+    "show": true,
+    "special": false
   }
 }
