@@ -89055,5 +89055,236 @@
     "amount": "기부식품",
     "show": true,
     "special": true
+  },
+  "g24-458000000119": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산농가 친환경·HACCP 인증심사비 지원",
+    "target": "관내 거주 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000123": {
+    "category": "일자리",
+    "tags": [
+      "구직중",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 공공근로 일자리 지원",
+    "target": "18세 이상 서천군민, 중위소득 70% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000124": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 대상 성장·도약·정착 프로그램 지원",
+    "target": "서천군 거주 18세~45세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000128": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업",
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 창업 컨설팅 및 사업화 자금 지원",
+    "target": "지역 청년 창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000130": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업",
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년업체 세무·노무 기장 대리 수수료 지원",
+    "target": "서천군 거주 18세~45세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-458000000132": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "전입 세대주에게 서천사랑상품권 지급",
+    "target": "5년 내 미전입 세대주",
+    "amount": "5만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000106": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "관외 대학생 생활안정지원비 100만원 지원",
+    "target": "타지역 대학 재학, 1년 이상 청양 거주",
+    "amount": "100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000110": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "가스타이머콕 설치비 전액 보조",
+    "target": "청양군 관내 가스금속배관 사용 가구",
+    "amount": "설치비 전액",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000114": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "60세 이상 지역주민 치매 조기검진비 지원",
+    "target": "청양군 거주 60세 이상 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000117": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "재활용 자원 수거 시 인센티브 지급",
+    "target": "청양군 주민",
+    "amount": "화장지, 종량제봉투",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000118": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "임산물 생산농가 유기질비료 지원",
+    "target": "청양군 임산물 생산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000119": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "신생아 청각선별 검사비 일부 지원",
+    "target": "신생아",
+    "amount": "(일부)본인부담금",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000121": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업경영체 등록 농가 농기계 구입비 지원",
+    "target": "청양 주소, 농업경영체 등록 농가",
+    "amount": "구입비",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000124": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 환급",
+    "target": "산모·신생아 건강관리 서비스 이용 출산가정",
+    "amount": "90% 환급",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000130": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화가족 국제특송료(EMS) 지원",
+    "target": "다문화가족",
+    "amount": "1회 30kg",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000132": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청양사랑상품권 12% 할인 구매",
+    "target": "만 14세 이상 청양군민",
+    "amount": "12% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000135": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "밤 재배지 친환경 풀베기 인건비 지원",
+    "target": "청양군 임산물 생산농가",
+    "amount": "인부임",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000136": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "밤나무 해충 드론 방제비 지원",
+    "target": "청양군 밤 생산농가",
+    "amount": "방제비",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000137": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 묫자리 수도용 상토 지급",
+    "target": "청양 주소, 농업경영체 등록 농가",
+    "amount": "상토",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000138": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "아이돌봄 본인부담금 차등 지원",
+    "target": "청양군 거주 아이돌봄 이용자",
+    "amount": "40%~100%",
+    "show": true,
+    "special": false
   }
 }
