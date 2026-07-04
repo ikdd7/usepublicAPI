@@ -89286,5 +89286,683 @@
     "amount": "40%~100%",
     "show": true,
     "special": false
+  },
+  "g24-459000000141": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 육묘장 설치비 지원",
+    "target": "청양군 주소 및 농업경영체 등록 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000142": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축분 청정화(악취제거) 지원",
+    "target": "청양군 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000143": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양계농가 열풍기 지원",
+    "target": "청양군 양계농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000148": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만14세~64세 청양군민 독감 예방접종 지원",
+    "target": "만14세~64세 청양군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-459000000162": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청양군민 안전보험 지원",
+    "target": "청양군민",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-459000000163": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양돈농가 사업 지원",
+    "target": "청양군 양돈농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000128": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "가금농가 주요질병 백신 구입비 50% 지원",
+    "target": "종계·산란계 사육농가",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000129": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "홍성군 어르신 목욕·이·미용권 12매 지원",
+    "target": "75세 이상 기초연금 수급자",
+    "amount": "연 12매",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000130": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "예비부부·신혼부부 임신 전 건강검진 지원",
+    "target": "홍성군 거주 예비부부·신혼부부",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000133": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아이돌봄서비스 본인부담금 50% 지원",
+    "target": "영유아 양육 가정",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000137": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "1인가구",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "재난취약가구 화재보험 가입비 지원",
+    "target": "저소득층, 독거노인, 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000143": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "산모·신생아 건강관리 정부지원금 및 본인부담금 지원",
+    "target": "기준중위소득 150% 초과 가정",
+    "amount": "최대 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000145": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 묘판처리 약제 공급",
+    "target": "홍성군 거주 벼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000146": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농기계 구입비 50% 지원",
+    "target": "홍성군 거주 벼·원예작물 재배 농가",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000148": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "1인가구",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득세대 국민건강보험료 지원",
+    "target": "홍성군 거주 저소득 세대",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000164": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전입 세대 상품권 및 태극기 지원",
+    "target": "홍성군 최초 전입 세대주",
+    "amount": "3만원 상품권",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000168": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "홍성사랑장학회 장학금 지원",
+    "target": "홍성군 거주 학생 또는 군민 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-460000000597": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "홍성군민 안전보험 지원",
+    "target": "홍성군민",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-461000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "시설채소 안정생산 지원",
+    "target": "시설원예 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000104": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "target": "예산군 거주 신생아 출생 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000105": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 사망 시 위로금 지급",
+    "target": "국가보훈대상자로서 예산군 거주자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-461000000106": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "지역화폐(예산사랑상품권) 할인 판매",
+    "target": "전국민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000107": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지급",
+    "target": "국가보훈부 등록 참전유공자로서 예산군 거주자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-461000000109": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 건강관리 지원(엽산제, 철분제 등)",
+    "target": "예산군 거주 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000110": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 의치보철 본인부담금 지원",
+    "target": "65세 이상 의료급여수급자, 차상위, 심한 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000113": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 생일축하금 지급",
+    "target": "국가보훈대상자로서 예산군 거주자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-461000000114": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "상수도 사용요금 감면",
+    "target": "기초생활수급자, 심한 장애인, 다자녀 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000115": {
+    "category": "일자리",
+    "tags": [
+      "구직중",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만18세 이상 근로능력자 공공근로사업 참여 지원",
+    "target": "만18세 이상, 중위소득 70% 이하, 재산 4억 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000116": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "과수농가 꽃가루 보관 및 활력검정 지원",
+    "target": "예산 관내 과수농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000119": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 서비스 지원",
+    "target": "기준 중위소득 150% 이상 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000121": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전 군민 대상 인플루엔자 예방접종 지원",
+    "target": "예산군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000122": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "젖소 우수 정액 지원",
+    "target": "관내 젖소 착유농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000123": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득세대 국민건강보험료 등 지원",
+    "target": "예산군 지역가입자 중 최저보험료 부과세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양돈농가 분뇨분해 촉진 지원",
+    "target": "관내 축산업 허가·등록된 양돈농가",
+    "amount": "구입비 50% 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000129": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 배우자 복지수당 지급",
+    "target": "참전유공자 배우자로서 예산군 거주자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-461000000130": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "고추 부직포 지원",
+    "target": "고추재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000132": {
+    "category": "육아",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현물",
+    "summary": "신혼부부 임신준비 지원(엽산제, 테스트기 등)",
+    "target": "예산군 거주 첫째아 임신 준비 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000133": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "육우 사육농가 품질고급화 장려금 지원",
+    "target": "육우 등급판정 2등급 이상 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000135": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 저장시설 신선도 유지제 지원",
+    "target": "과수재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000136": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "엽연초 재배농가 영농자재 지원",
+    "target": "엽연초 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000138": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "시설하우스 농가 자동개폐기 등 지원",
+    "target": "시설하우스 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000139": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "시설하우스 농가 노후하우스 교체 지원",
+    "target": "시설하우스 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000140": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "배추재배농가 방제약 지원",
+    "target": "배추재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000141": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양곡가공업체 시설장비 개선 지원",
+    "target": "예산군 소재 양곡가공업체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000142": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "인증농가 직거래 택배비 지원",
+    "target": "친환경·GAP 인증농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000143": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "벼 재배농가 묘판처리 약제 지원",
+    "target": "벼 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000144": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "벼 재배농가 병해충 예방 항공방제 지원",
+    "target": "벼 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000145": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "농업인 벼곡물건조기 지원",
+    "target": "농업인 및 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000146": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "벼 재배농가 육묘용 상토 지원",
+    "target": "벼 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000148": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "관내 농업인 소형 농기계 지원",
+    "target": "관내 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000298": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "출생아 카시트 지원",
+    "target": "2026년 군내 출생아",
+    "amount": "카시트 중 택1",
+    "show": true,
+    "special": false
+  },
+  "g24-461000000304": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "구직자 면접비 지원",
+    "target": "18~45세 예산군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000294": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "염소 사육농가 미네랄블록 지원",
+    "target": "염소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000296": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 위생돌봄 서비스 제공",
+    "target": "거동불편 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-462000000297": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "성인 발달장애인 주간보호 서비스 제공",
+    "target": "성인 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-462000000299": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 영양제(비타민D) 지원",
+    "target": "보건의료원 등록 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000301": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "화훼농가 포장박스 지원",
+    "target": "농업경영체 등록 화훼농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000302": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "고추농가 고추건조기 지원",
+    "target": "농업경영체 등록 고추농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000306": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 생일축하금 5만원 지원",
+    "target": "관내 주소 참전유공자",
+    "amount": "5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-462000000308": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "밭작물 농가 소형 농기계 구입비 지원",
+    "target": "밭작물 재배 희망농가",
+    "amount": "군비 50%",
+    "show": true,
+    "special": false
   }
 }
