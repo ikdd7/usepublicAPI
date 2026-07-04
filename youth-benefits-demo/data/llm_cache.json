@@ -89964,5 +89964,460 @@
     "amount": "군비 50%",
     "show": true,
     "special": false
+  },
+  "g24-462000000315": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 보훈대상자 월 8만원 주거급여 지원",
+    "target": "관내 주소지를 둔 저소득 보훈대상자",
+    "amount": "월 8만원",
+    "show": true,
+    "special": true
+  },
+  "g24-462000000317": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "논 타작물 기반조성 및 농기계 지원",
+    "target": "논 타작물 재배 농업인, 농업법인, 생산자 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000319": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "소규모 우제류 농가 구제역 예방접종 시술비 지원",
+    "target": "관내 소규모 우제류 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000321": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산후도우미 본인부담금 최대 90% 지원",
+    "target": "출생일 기준 6개월 전부터 태안군 거주 산모",
+    "amount": "본인부담금 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000324": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "군내 고추농가 고추세척기 지원",
+    "target": "농업경영체 등록 군내 고추농가",
+    "amount": "고추세척기",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000326": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "군내 화훼 토경재배농가 유기질비료 지원",
+    "target": "농업경영체 등록 군내 화훼 토경재배농가",
+    "amount": "유기질비료",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000327": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "유기유실동물 관리수준 개선 지원",
+    "target": "동물보호센터, 유기견 입양 희망자, 유기견 신고인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000328": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "관내 중소가축 사육농가 육성 지원",
+    "target": "관내 돼지, 닭, 염소, 곤충 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000330": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "군내 과수원예농가 유기질비료 지원",
+    "target": "농업경영체 등록 군내 과수원예농가",
+    "amount": "유기질비료",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000331": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 양계농가 육성사업 지원",
+    "target": "관내 축산업 허가·등록된 닭 사육농가",
+    "amount": "시설 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000333": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "군내 달래농가 생산자재 지원",
+    "target": "농업경영체 등록 군내 달래농가",
+    "amount": "토양개량제, 포장박스, 달래망",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000334": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양식어업인 재해보험료 자담부분 지원",
+    "target": "양식어업인",
+    "amount": "자담부분 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000337": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "길고양이 중성화수술(TNR) 지원",
+    "target": "길고양이 중성화수술에 관심있는 태안군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000338": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만12세 이하 아동 본인부담금 추가 지원",
+    "target": "태안군 거주 만12세 이하 아동",
+    "amount": "차등 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000339": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "치매환자 조호물품(기저귀 등) 지원",
+    "target": "치매 진단받은 재가치매환자",
+    "amount": "기저귀, 위생소모품",
+    "show": true,
+    "special": true
+  },
+  "g24-462000000342": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 가축사육농가 가축전염병 예방약품 지원",
+    "target": "관내 가축사육농가",
+    "amount": "예방약품",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000343": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "태안사랑상품권 10% 할인 구매 지원",
+    "target": "관내 상품권 할인구매 희망자",
+    "amount": "10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-462000000346": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "할인",
+    "summary": "생계/주거/의료급여 수급자 상하수도 요금 감면",
+    "target": "생계/주거/의료급여 수급자, 보훈대상자, 장애인",
+    "amount": "요금 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-462000000358": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "군민안전보험 사망 시 최대 2천만원 지원",
+    "target": "태안군민",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "GAP인증 과수 병해충 방제 약제 지원",
+    "target": "GAP인증 과수 재배 농업인",
+    "amount": "방제 약제",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000103": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "차상위계층 노인세대 건강보험료 지원",
+    "target": "차상위계층 노인세대",
+    "amount": "최저보험료 이하 부과",
+    "show": true,
+    "special": true
+  },
+  "g24-464000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "전주시 콩 재배 농가 농자재 및 생력화 기계 지원",
+    "target": "전주시 관내 콩 경작 농가",
+    "amount": "50% 내외 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000109": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 14세 이상 전주시민 지역화폐(전주사랑상품권) 지원",
+    "target": "만 14세 이상 전주시민",
+    "amount": "10% 캐시백, 30% 소득공제",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000112": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "전주 친환경농가 유기질비료 지원",
+    "target": "전주 주소·경작지, 친환경인증·농업인대학 졸업 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000116": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "전주 관내 벼,보리,밀,콩 재배농가 종자대 지원",
+    "target": "전주시 관내 벼, 보리, 밀, 콩 재배 농가",
+    "amount": "50% 내외 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000118": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "전주 수급자 초·중학생 자녀 교습비 지원",
+    "target": "전주시 관내 국민기초생활수급자 초·중학생 자녀",
+    "amount": "교습비 및 교재비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000120": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "전주 수급자 중학생 자녀 기초학력 학습지원",
+    "target": "전주시 관내 거주 수급자 가정 중학생 자녀",
+    "amount": "학습지원",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000126": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "전주 벼 재배 농업인 모판상토 지원",
+    "target": "전주시 주소지·농경지 벼 재배 농업인",
+    "amount": "구입비의 50% 내외",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000128": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "관내 임신부 영양제(엽산제, 철분제) 지원",
+    "target": "관내 임신부",
+    "amount": "엽산제, 철분제 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000130": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 60세 이상 전주시민 치매 무료검진 지원",
+    "target": "만 60세 이상 전주시민(1년 내 검진 이력 제외)",
+    "amount": "치매 조기검진",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000131": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "기준중위소득 160% 이하 출산 가정 산모·신생아 건강관리 지원",
+    "target": "기준중위소득 160% 이하 출산 가정(첫째아)",
+    "amount": "건강관리 서비스 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000136": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노인복지관 이용 노인 맞춤형 운동처방 서비스 지원",
+    "target": "노인복지관 이용 노인",
+    "amount": "운동처방 서비스",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000138": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노인복지관 연계 경로당 프로그램 운영 지원",
+    "target": "노인복지관 및 연계 경로당",
+    "amount": "강사 파견 프로그램",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000139": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "노인복지관 종사자 특별수당 지원",
+    "target": "노인복지관 종사자",
+    "amount": "특별수당",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000140": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전주시 노인복지관 운영비 지원",
+    "target": "전주시 노인복지관",
+    "amount": "인건비 및 운영비",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000141": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전주시 노인복지관 기능보강 사업 지원",
+    "target": "전주시 노인복지관",
+    "amount": "기능보강사업비",
+    "show": true,
+    "special": false
+  },
+  "g24-467000000101": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 보훈수당 지급",
+    "target": "국가보훈대상자",
+    "amount": "보훈수당",
+    "show": true,
+    "special": true
+  },
+  "g24-467000000102": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "군산 저소득 노인·장애인세대 건강보험료 지원",
+    "target": "군산시 지역가입자, 최저보험료 이하 노인·장애인세대",
+    "amount": "최저보험료 이하 부과",
+    "show": true,
+    "special": true
+  },
+  "g24-467000000104": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "군산 임산부 영양제(엽산제, 철분제) 지원",
+    "target": "군산시 보건소 등록 임부·출산부",
+    "amount": "엽산제, 철분제 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-467000000105": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "군산 예비·신혼부부 가임기 여성 산전검사 지원",
+    "target": "군산시 거주 예비·신혼부부 가임기 여성",
+    "amount": "32종 산전검사 무료",
+    "show": true,
+    "special": false
   }
 }
