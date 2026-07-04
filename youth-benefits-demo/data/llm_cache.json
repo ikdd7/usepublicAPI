@@ -88834,5 +88834,226 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-454000000182": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁 보호대상아동 양육수당 월 6만원 추가 지원",
+    "target": "가정위탁 보호대상아동",
+    "amount": "월 6만원",
+    "show": true,
+    "special": true
+  },
+  "g24-454000000183": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "12세 이하 아동 대상 아이돌봄서비스 지원",
+    "target": "논산시 거주 12세 이하 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-455000000103": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "금산사랑상품권 구매자에게 5~12% 후캐시백 지원",
+    "target": "금산사랑상품권 구매자",
+    "amount": "5~12%",
+    "show": true,
+    "special": false
+  },
+  "g24-455000000110": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "농어촌 여성 대상 건강검진 지원",
+    "target": "농어촌 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-455000000112": {
+    "category": "건강",
+    "tags": [
+      "1인가구",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "건강취약계층 대상 방문건강관리 서비스 지원",
+    "target": "독거노인, 다문화가족, 한부모가족 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-455000000113": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 대상 출산축하꾸러미 4종세트 지원",
+    "target": "당해년도 출산가정",
+    "amount": "5만원 상품권 등",
+    "show": true,
+    "special": false
+  },
+  "g24-455000000121": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "20~65세 미만 고위험군 대상 대장암 자가검진 키트 지급",
+    "target": "20~65세 미만 고위험군",
+    "amount": "자가검진 키트",
+    "show": true,
+    "special": false
+  },
+  "g24-455000000125": {
+    "category": "주거",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "청년 쉐어하우스 월세 60% 지원",
+    "target": "18~45세 무주택 청년",
+    "amount": "월세의 60%",
+    "show": true,
+    "special": false
+  },
+  "g24-455000000131": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "청년몰 입점상인 모집 및 운영 지원",
+    "target": "창업 희망 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000102": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부여 굿뜨래페이 이용자 대상 인센티브 지원",
+    "target": "부여군 지역화폐 이용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000103": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부여군 전입 세대주에게 지역화폐 5만원 지급",
+    "target": "부여군 최초 전입 세대주",
+    "amount": "5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "3세 이상 아동 대상 안전물품 지원",
+    "target": "3세 이상 아동",
+    "amount": "안전물품",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000112": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원사업",
+    "target": "저소득층, 차상위계층 출산가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-457000000116": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 취약계층 대상 주거환경 클린케어 지원",
+    "target": "기초생활수급자, 차상위계층 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-457000000117": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 재가 암환자 대상 영양제 지원",
+    "target": "저소득층 재가 암환자",
+    "amount": "영양제",
+    "show": true,
+    "special": true
+  },
+  "g24-457000000118": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 재가 암환자 장루·기저귀 물품 지원",
+    "target": "저소득층 재가 암환자",
+    "amount": "장루·기저귀 물품",
+    "show": true,
+    "special": true
+  },
+  "g24-457000000121": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 생활민원 해결 지원",
+    "target": "기초생활수급자, 차상위계층 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-457000000122": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "농업인 대상 농약 안전보관함 보급 지원",
+    "target": "관내 주소를 둔 농업인",
+    "amount": "농약 안전보관함",
+    "show": true,
+    "special": false
+  },
+  "g24-457000000125": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정폭력 피해자 의료비 지원",
+    "target": "가정폭력 피해자",
+    "amount": "의료비",
+    "show": true,
+    "special": true
+  },
+  "g24-457000000130": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "결식 위기 저소득 가구 대상 기부식품 지원",
+    "target": "결식 위기 저소득 가구",
+    "amount": "기부식품",
+    "show": true,
+    "special": true
   }
 }
