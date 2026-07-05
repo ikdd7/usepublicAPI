@@ -92488,5 +92488,232 @@
     "amount": "포장재",
     "show": true,
     "special": false
+  },
+  "g24-468100000020": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 의료급여 수급권자 종량제봉투 지원",
+    "target": "국민기초생활보장법 1종 의료급여 수급권자",
+    "amount": "분기당 20L 9매",
+    "show": true,
+    "special": true
+  },
+  "g24-468100000021": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 의료급여 수급권자 음식물수거 칩 지원",
+    "target": "국민기초생활보장법 1종 의료급여 수급권자",
+    "amount": "분기당 5L 18개",
+    "show": true,
+    "special": true
+  },
+  "g24-468100000023": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "전입 세대 종량제봉투 지급",
+    "target": "전입신고일 기준 1년 이전부터 타 시군구 거주 전입 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-468100000024": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "전입 세대 태극기 지급",
+    "target": "전입신고일 기준 1년 이전부터 타 시군구 거주 전입 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-468100000025": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "익산시 주정차단속 문자·음성알림 서비스",
+    "target": "익산시 관내 운행 차량 운전자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-468100000026": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "익산시민 자전거보험 혜택 안내",
+    "target": "익산시 주민등록 모든 시민",
+    "amount": "초진 4주 이상 진단 시",
+    "show": true,
+    "special": false
+  },
+  "g24-469000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "4대 이상 가정 효행장려금 지급",
+    "target": "효도대상자 및 직계비속 1년 이상 동거",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-469000000106": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자 주거환경 개선 지원",
+    "target": "정읍시 거주 국가유공자 본인, 가족",
+    "amount": "1세대당 4백만원 이내",
+    "show": true,
+    "special": true
+  },
+  "g24-469000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "가축분뇨 처리용 수분조절제 구입비 지원",
+    "target": "젖소, 돼지, 한우, 닭, 오리 사육농가",
+    "amount": "구입비의 30%",
+    "show": true,
+    "special": false
+  },
+  "g24-469000000110": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "의료급여 수급권자, 장애인 등 무료 예방접종",
+    "target": "50세~59세 의료급여 수급권자, 등록장애인 등",
+    "amount": "무료",
+    "show": true,
+    "special": true
+  },
+  "g24-469000000113": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "아이돌보미 건강검진비 지원",
+    "target": "정읍시 가족센터 소속 아이돌보미",
+    "amount": "1인당 5만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-469000000114": {
+    "category": "육아",
+    "tags": [
+      "저소득",
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 임산부·영유아 영양 지원",
+    "target": "저소득층 임산부 및 5세 미만 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-469000000122": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "가금농가 출하검사 시료채취 비용 지원",
+    "target": "관내 가금 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-469100000005": {
+    "category": "일자리",
+    "tags": [
+      "학생",
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "정읍시 거주 학부모 둔 고교 졸업생 구직지원금",
+    "target": "정읍시 거주 학부모 둔 고교 졸업생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-469100000015": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초수급자 근로능력평가 진단의료비 지원",
+    "target": "18~64세 기초수급 신규·기존 신청자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-469100000023": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현물",
+    "summary": "정읍시 청년 면접 정장 무료 대여",
+    "target": "정읍 거주 18~45세 취업 면접 청년",
+    "amount": "정장, 셔츠, 넥타이 등",
+    "show": true,
+    "special": false
+  },
+  "g24-469100000026": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "기초연금 수급자 목욕비 지원",
+    "target": "기초연금 수급자 중 70세 이상",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-469100000031": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "보건소 등록 임산부 산전 기형아 선별검사",
+    "target": "보건소 등록 임산부 (16-17주 이상)",
+    "amount": "신경관결손증, 에드워드증후군 등",
+    "show": true,
+    "special": false
+  },
+  "g24-470000000104": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "target": "관내 주소 둔 산모, 신생아",
+    "amount": "본인부담금의 최대 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-470000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한센정착촌 환자 관리 지원",
+    "target": "재가 및 정착마을 한센인",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
