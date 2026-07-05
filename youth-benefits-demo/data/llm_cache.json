@@ -92025,5 +92025,239 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-473100000002": {
+    "category": "교육",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 평생교육 강좌 수강료 및 교재비 지원",
+    "target": "19세 이상 등록장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-473100000005": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "군민 안전사고 사망 시 보험금 지급",
+    "target": "진안군 지역 주민",
+    "amount": "최대 1,500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000103": {
+    "category": "건강",
+    "tags": [
+      "임신·출산",
+      "무주군"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "target": "무주군 거주 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "천마 재배 농가 자재 구입비 지원",
+    "target": "천마 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "한우 수정란 구입 및 이식비 지원",
+    "target": "한우 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농가 객토원 구입비 지원",
+    "target": "무주군 농업경영체 등록 농가",
+    "amount": "1,000㎡당 1,800천원",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000116": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "사과 재배 농가 신선도 유지제 지원",
+    "target": "사과 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000117": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화장 장려지원금 실비 지원",
+    "target": "무주군 거주 사망자 연고자",
+    "amount": "한도내 실비",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000118": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "기준 중위소득 이하 가구 대상 서비스 지원",
+    "target": "기준 중위소득 140~160% 이하 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000121": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농업인 육묘 지원",
+    "target": "무주군 벼 재배 농업인",
+    "amount": "ha당 360판",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000126": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "무사마귀병 약제 50% 보조 지원",
+    "target": "무주군 농업경영체 등록 농업인",
+    "amount": "50% 보조",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000127": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "딸기 재배 농업인 상토 지원",
+    "target": "무주군 거주 딸기 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000129": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "한우 사육 농가 배냇소 입식 지원",
+    "target": "한우 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000130": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "70세 이상 어르신 이·미용비 지원",
+    "target": "무주군 거주 70세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000131": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 개화기 자재 지원",
+    "target": "영농조합, 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000133": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 엽산제 및 철분제 지원",
+    "target": "무주군 거주 임산부",
+    "amount": "각 3개월분",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000136": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산농가 교육 참가비 지원",
+    "target": "무주군 축산 관련 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000139": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "사과 재배용 반사필름 50% 보조 지원",
+    "target": "무주군 농업경영체 등록 농업인",
+    "amount": "50% 보조",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000141": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농·특산물 포장재 지원",
+    "target": "무주군 농특산물 생산·판매 농업인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-474000000142": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축사 환경개선제 구입 지원",
+    "target": "축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
