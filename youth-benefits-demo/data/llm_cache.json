@@ -92259,5 +92259,234 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-478000000103": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "차상위계층 65세 이상 노인 건강보험료 지원",
+    "target": "65세 이상 노인 중 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-478000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "만75세 이상 어르신 목욕·이용비 지원",
+    "target": "고창군 거주 만75세 이상 어르신",
+    "amount": "고창사랑상품권",
+    "show": true,
+    "special": false
+  },
+  "g24-478000000107": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농인 영농정착금 지원",
+    "target": "전입3년 이내 만65세 이하 귀농인",
+    "amount": "정착금",
+    "show": true,
+    "special": false
+  },
+  "g24-478000000108": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "음식점 등 위생업소 시설개선 지원",
+    "target": "고창군 위생등급 지정 업소 등",
+    "amount": "시설개선비",
+    "show": true,
+    "special": false
+  },
+  "g24-478000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "복분자 수매 농가 장려금 지원",
+    "target": "고창군 복분자 재배 수매 농가",
+    "amount": "장려금",
+    "show": true,
+    "special": false
+  },
+  "g24-478000000112": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "쌀소득보전 직불금 지원",
+    "target": "고창군 1,000㎡ 이상 논농업 종사자",
+    "amount": "직불금",
+    "show": true,
+    "special": false
+  },
+  "g24-478000000113": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만19세 이상 고창사랑상품권 할인 구매",
+    "target": "만19세 이상 고창군민",
+    "amount": "5~10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-478000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양식장 기자재 지원",
+    "target": "고창군 해면·내수면 양식어가",
+    "amount": "기자재",
+    "show": true,
+    "special": false
+  },
+  "g24-478000000117": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "소규모 비닐하우스 등 원예작물 지원",
+    "target": "고창군 거주 농업인",
+    "amount": "비닐하우스 등",
+    "show": true,
+    "special": false
+  },
+  "g24-478000000118": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기준 중위소득 120~150% 대상 서비스 지원",
+    "target": "기준 중위소득 120~150% 이하",
+    "amount": "서비스",
+    "show": true,
+    "special": false
+  },
+  "g24-478000000119": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "만65세 이상 저소득 어르신 무료 식사 지원",
+    "target": "만65세 이상 저소득 어르신",
+    "amount": "식사 또는 도시락",
+    "show": true,
+    "special": false
+  },
+  "g24-478000000120": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "야생동물 농작물 피해 보상금 지원",
+    "target": "고창군 거주 농작물 피해 농업인",
+    "amount": "보상금",
+    "show": true,
+    "special": false
+  },
+  "g24-478100000011": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "군민 대상 자연재해·사고 사망 시 보험금 지급",
+    "target": "고창군민",
+    "amount": "최대 1000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-478100000012": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "수도 요금 감면 지원",
+    "target": "환경기초시설, 모범업소, 저소득층 등",
+    "amount": "최대 100% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-478100000015": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만65세 이상 노인 불소도포 및 스케일링 지원",
+    "target": "만65세 이상 노인",
+    "amount": "서비스",
+    "show": true,
+    "special": false
+  },
+  "g24-478100000024": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "논두렁 조성 물막이 시트 등 지원",
+    "target": "벼 재배 0.1ha 이상 농업인",
+    "amount": "물막이 시트 등",
+    "show": true,
+    "special": false
+  },
+  "g24-478100000032": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "65세 이상 의료급여·차상위·하위50% 임플란트 지원",
+    "target": "고창군 거주 65세 이상 수급자 등",
+    "amount": "임플란트·틀니",
+    "show": true,
+    "special": false
+  },
+  "g24-478100000035": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "생물권보전지역 농산물 포장재 지원",
+    "target": "고창군 통합마케팅 출하 농업인",
+    "amount": "포장재",
+    "show": true,
+    "special": false
+  },
+  "g24-478100000036": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농산물 전자상거래 택배비 지원",
+    "target": "전자상거래 농산물 판매 농업인 등",
+    "amount": "택배비",
+    "show": true,
+    "special": false
+  },
+  "g24-478100000037": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "고추 출하 농가 포장재 지원",
+    "target": "고창군 고추 생산 출하 단체·법인",
+    "amount": "포장재",
+    "show": true,
+    "special": false
   }
 }
