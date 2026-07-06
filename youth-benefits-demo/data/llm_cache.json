@@ -93824,5 +93824,686 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-479000000105": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "치매 조기검진 및 치료비 본인부담금 지원",
+    "target": "기준 중위소득 초과자 중 국비지원 제외자",
+    "amount": "본인부담금 전부 또는 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-479000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "소규모 농산물 저온저장고 지원",
+    "target": "부안군 거주 밭농업 660㎡이상 경작 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-479000000109": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 산전·기형아 검사 지원",
+    "target": "부안군 거주 임신 20주 이내 보건소 등록 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-479000000110": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "target": "부안군 거주 출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-479000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지역사회서비스 및 가사간병서비스 지원",
+    "target": "기준 중위소득 120~160% 이하 아동·청소년·노인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-479000000117": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "부안사랑상품권 10% 할인 구입 지원",
+    "target": "전 국민",
+    "amount": "10%",
+    "show": true,
+    "special": false
+  },
+  "g24-479000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "소 발정탐지기 지원",
+    "target": "부안군 거주 한우·젖소 착유 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-479000000127": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "착유시설 세척제 지원",
+    "target": "부안군 관내 젖소 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-479000000129": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "실외 사육견 중성화 지원사업",
+    "target": "부안군 내 5개월령 이상 실외 사육견",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-480000000102": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "차상위계층 건강보험료 등 지원",
+    "target": "만 65세 이상 차상위계층",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": true
+  },
+  "g24-480000000103": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "영구임대주택 공동 전기료 지원",
+    "target": "상동영구임대주택 기초·한부모 수급가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-480000000105": {
+    "category": "교육",
+    "tags": [
+      "학생",
+      "저소득"
+    ],
+    "support_type": "대출",
+    "summary": "대학생 학자금 대출이자 지원",
+    "target": "전남광주 거주 대학생 및 미취업 졸업생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-480000000106": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "기초생계급여 수급자 종량제 봉투 지급",
+    "target": "기초생계급여 수급자 중 의료급여 1종",
+    "amount": "분기별 10매",
+    "show": true,
+    "special": true
+  },
+  "g24-480000000107": {
+    "category": "건강",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현물",
+    "summary": "영유아 영양제 지원",
+    "target": "목포시 거주 만 1~6세 영유아",
+    "amount": "1인 1회",
+    "show": true,
+    "special": false
+  },
+  "g24-480000000108": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "목포시 거주 중위소득 150% 이하 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-480000000111": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "선택 예방접종 지원",
+    "target": "목포시민 중 기초수급권자, 중증장애인 등",
+    "amount": "무료 접종",
+    "show": true,
+    "special": true
+  },
+  "g24-480000000120": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 아동 치과 의료비 지원",
+    "target": "기초생활수급 및 차상위계층 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-480000000121": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "여성청소년 보건위생물품 지원",
+    "target": "생계·의료·주거·교육급여 수급자, 차상위, 한부모",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-480000000122": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "전입축하 지원금 지급",
+    "target": "타 시군에서 전입한 2인 이상 세대주",
+    "amount": "상품권, 봉투, 기념품",
+    "show": true,
+    "special": false
+  },
+  "g24-480000000123": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "기초연금 수급자 이미용권 지급",
+    "target": "목포시 거주 만 70세 이상 기초연금 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-481000000374": {
+    "category": "기타",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "여수시 임산부 공영주차장 무료 이용",
+    "target": "신청일 현재 여수시 거주 임산부",
+    "amount": "무료 이용",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000375": {
+    "category": "기타",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "여수시 임산부 공영주차장 차량 변경",
+    "target": "기존 임산부 주차 무료 대상자 중 차량 변경 희망자",
+    "amount": "무료 이용",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000378": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "여수시 신혼부부 보금자리 지원 중단 신청",
+    "target": "신혼부부 대출이자 지원 대상자 중 전출 등 사유 발생자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000379": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "여수시 다자녀가정 보금자리 지원 중단 신청",
+    "target": "다자녀가정 대출이자 지원 대상자 중 전출 등 사유 발생자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 유효 미생물제 구입비 지원",
+    "target": "순천시 내 축산업 허가 농가",
+    "amount": "구입비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "친환경 인증 농가 가축분뇨처리 장비 지원",
+    "target": "친환경 인증 축산 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000104": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "순천시 등록 재가한센인 의료비 지원",
+    "target": "순천시 등록 재가한센인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-482000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산농가 헬퍼(도우미) 지원",
+    "target": "한우 및 젖소 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000106": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "영구임대주택 공동전기요금 지원",
+    "target": "생계·의료수급자, 국가유공자, 한부모가족 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-482000000109": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부·영유아 영양제 지원",
+    "target": "관내 거주 임신부, 출산모, 영유아",
+    "amount": "엽산제, 철분제 등",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 인증 농가 인센티브(장려금) 지원",
+    "target": "친환경 농산물 재배 및 신규인증 농가",
+    "amount": "인센티브(장려금)",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000116": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득세대 건강보험료 및 장기요양보험료 지원",
+    "target": "최저보험료 이하 저소득세대",
+    "amount": "전액 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-482000000117": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "사회복지시설 수급자 생계급여 지급",
+    "target": "사회복지시설 거주 수급자",
+    "amount": "생계급여",
+    "show": true,
+    "special": true
+  },
+  "g24-482000000120": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "순천형 생활안정비 지원",
+    "target": "기초수급 중지자 중 기준중위소득 50% 이하 가구",
+    "amount": "가구원수별 생계급여액의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000122": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "석면 건강피해자 구제급여 지급",
+    "target": "석면피해 인정자 또는 유족",
+    "amount": "구제급여",
+    "show": true,
+    "special": true
+  },
+  "g24-482000000124": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농업인 가공센터 장비사용 지원",
+    "target": "순천시 농업인(가공센터 회원)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000125": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "순천사랑상품권 발행 및 판매",
+    "target": "만19세 이상 누구나, 가맹점",
+    "amount": "상품권",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000131": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 생력화 장비 지원",
+    "target": "과수 0.6ha 이상 재배 농가, 보험 가입 농가",
+    "amount": "동력운반차, 굴삭기 등",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000133": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "시설원예 생산시설(하우스) 지원",
+    "target": "순천시 거주, 농경체 등록, 0.8ha 이하 농가",
+    "amount": "시설하우스",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000135": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "원예작물 친환경 약제 지원",
+    "target": "순천시 거주, 농경체 등록 농업인, 친환경 인증 농가",
+    "amount": "친환경 약제",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000298": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "나주시민 대상 폭발, 화재 등 사고 사망·후유장해 보상",
+    "target": "나주시민 및 등록외국인",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-483000000300": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째아 이후 자녀 보육시설 교육비 지원",
+    "target": "셋째아 이후 자녀와 함께 나주 거주 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000103": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "한우 거세 희망 농가 거세 비용 지원",
+    "target": "한우 거세 지원 희망 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000104": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산농가 왕겨, 톱밥 등 가축분뇨 자원화 지원",
+    "target": "축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000106": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "우수 농식품 해외 전자상거래 입점 지원",
+    "target": "관내 수출 농가, 생산자 단체, 영농법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000107": {
+    "category": "금융",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "대출",
+    "summary": "광양시 대학생 학자금 대출 이자 지원",
+    "target": "국내 대학 재학·휴학생, 졸업 후 5년 이내 미취업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000108": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "결혼이민자 한국어능력시험 응시료 지원",
+    "target": "광양시 거주 결혼이민자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "홀로 사는 노인 건강음료 통한 안부 확인 지원",
+    "target": "65세 이상 노인맞춤돌봄 대상자",
+    "amount": "건강음료",
+    "show": true,
+    "special": true
+  },
+  "g24-484000000112": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "수출 농산물 육묘대 지원",
+    "target": "농업경영체 등록된 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000115": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "광양시 출산가정 산모·신생아 건강관리 지원",
+    "target": "광양시 주민등록 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000121": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "과수 재배시설 확충 지원",
+    "target": "농업경영체 등록된 농업인 또는 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000122": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화 가정 문화체험비 지원",
+    "target": "광양시 6개월 이상 거주 다문화 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000124": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "광양사랑상품권 10% 할인 구매 지원",
+    "target": "광양사랑상품권 구매자 누구나",
+    "amount": "10%",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000126": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시설하우스 생석회 공급 지원",
+    "target": "농업경영체 등록된 시설원예 작목반",
+    "amount": "64.5만원/ha",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000128": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농어촌민박 소방안전시설 지원",
+    "target": "농어촌민박 사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000129": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산모 유축기 무료 대여 및 소모품 지원",
+    "target": "광양시 거주 출산모",
+    "amount": "유축기 무료 대여",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000130": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전업농 노후하우스 개보수 지원",
+    "target": "농업경영체 등록된 농업인",
+    "amount": "농가당 10,000㎡ 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000133": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "소 사육농가 가축질병 백신 접종 지원",
+    "target": "소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000134": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 산전 무료 검진 지원",
+    "target": "광양시 등록 임신부",
+    "amount": "기형아, 초음파 검사 2회",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000135": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인세대 국민건강보험료 지원",
+    "target": "65세 이상 최저보험료 이하 지역가입자",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": false
   }
 }
