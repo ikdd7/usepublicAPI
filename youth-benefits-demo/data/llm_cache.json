@@ -94505,5 +94505,448 @@
     "amount": "최저보험료 이하",
     "show": true,
     "special": false
+  },
+  "g24-482000000137": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수농가 인공수분기 지원",
+    "target": "과수 0.1ha 이상 재배 농가, 전업 농업종사자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000138": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 3세~12세 취약계층 자녀 학습서비스 지원",
+    "target": "만 3세~12세 이하 취약계층 자녀, 중위소득 150% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000139": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "생분해 멀칭비닐 공급 지원",
+    "target": "농업인 및 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000141": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "정원수 재배 농가 자재 지원",
+    "target": "순천시 정원수 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000148": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "야생동물 피해 예방시설 지원",
+    "target": "야생동물 피해 예방시설 설치 희망 농업인 등 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000149": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "순천시민 임업기술전문교육 지원",
+    "target": "순천시민",
+    "amount": "800천원",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000151": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "임업인 산림특화작물 육성사업 지원",
+    "target": "임업인, 최근 5년간 소득사업 미지원자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-482000000586": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "타 시군구에서 전입한 2인 이상 세대 축하금 지원",
+    "target": "타 시군구 6개월 이상 거주 후 전입한 2인 이상 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000108": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "만 19세 이상 나주사랑상품권 구매 지원",
+    "target": "만 19세 이상 나주시민",
+    "amount": "할인, 소득공제 30%",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000110": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 70세 이상 4대 동거 효도수당 지급",
+    "target": "만 70세 이상, 나주 3년 이상 거주, 4대 동거",
+    "amount": "월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000113": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "나주시 귀농 정착 지원",
+    "target": "도시 거주 후 농업 종사하며 나주 이주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000114": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가축전염병 방역 피해 보상금 지원",
+    "target": "가축전염병 방역/소독 피해 입은 자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000115": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "만 65세 이상 수급자 보청기 지원",
+    "target": "나주 거주 만 65세 이상 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-483000000116": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 취약계층 건강보험료 지원",
+    "target": "독거노인, 한부모, 장애인 세대",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-483000000117": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "나주시민 예방접종 지원",
+    "target": "나주시에 주소를 둔 나주시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000119": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한센병 환자 진료 지원",
+    "target": "등록된 한센사업대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-483000000120": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 조류피해 방지 포획트랩 지원",
+    "target": "조류피해 과수농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000121": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "긴급 재해 축산농가 복구 지원",
+    "target": "긴급 재해 피해 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000124": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "민간/가정어린이집 아동 차액보육료 지원",
+    "target": "민간, 가정어린이집 재원 아동(3~5세)",
+    "amount": "월 81천원~111천원",
+    "show": true,
+    "special": false
+  },
+  "g24-483000000130": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 70세 이상 기초연금 수급자 목욕/이용권 제공",
+    "target": "만 70세 이상 기초연금 수급자",
+    "amount": "분기별 5천원권 4매",
+    "show": true,
+    "special": true
+  },
+  "g24-488000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "귀농·귀촌인 삶터기반 조성 지원",
+    "target": "고흥군 전입 5년 이내 69세 이하",
+    "amount": "최대 5백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000120": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "귀향청년 부부 관내 창업비용 지원",
+    "target": "고흥군 출생/거주 5년 이상, 18~49세",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000112": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고흥군체육회 직원 사회 첫걸음 지원",
+    "target": "고흥군체육회 채용 직원 만 34세 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000117": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 저소득 노인가구 건강보험료 지원",
+    "target": "만 65세 이상 저소득 노인가구",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000119": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "청년농부 농지임차료 등 지원",
+    "target": "고흥군 거주 18~49세 청년농부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000121": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "전입세대 종량제봉투 지원",
+    "target": "2023년 1월 이후 고흥군 전입 세대",
+    "amount": "40매(20리터)",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000124": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "귀향청년 주택 수리비 지원",
+    "target": "고흥군 출생/거주 5년 이상, 전입 3년 이내",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000127": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 사육농가 품질 고급화 장려금 지원",
+    "target": "고흥군 한우 사육농가 및 법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000128": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "노인복지시설 명절 위문",
+    "target": "관내 노인요양·주야간보호시설",
+    "amount": "",
+    "show": false,
+    "special": false
+  },
+  "g24-488000000134": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정폭력 피해자 의료비 지원",
+    "target": "가정폭력 피해자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-488000000137": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "한우 종사자 축산도우미 지원",
+    "target": "고흥군 한우 종사자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000138": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가업승계 청년 기반시설 설치 지원",
+    "target": "고흥군 거주 18~49세 가업승계 희망자",
+    "amount": "최대 2천만원",
+    "show": true,
+    "special": false
+  },
+  "g24-489000000104": {
+    "category": "복지",
+    "tags": [
+      "1인가구",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "안전취약가구 방범용 CCTV 설치 지원",
+    "target": "1인, 한부모, 중증장애인 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-489000000115": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "보성군 지역화폐 구입/충전 할인",
+    "target": "만 19세 이상 보성군민",
+    "amount": "10%",
+    "show": true,
+    "special": false
+  },
+  "g24-489000000118": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "보성군 임산부 출산축하용품 지원",
+    "target": "보성군 거주 임산부 및 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-489000000119": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "보성군 50세 이상 남성 전립선 검진 지원",
+    "target": "보성군 거주 50세 이상 남성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-489000000122": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 자녀 문화교육비 지원",
+    "target": "법정 한부모가족 만 18세 미만 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-489000000126": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "보성군 50세 이상 어르신 대상포진 예방접종 지원",
+    "target": "보성군 거주 50세 이상, 미접종자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-489000000129": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "보성군 다자녀가정 가족사진 제작 지원",
+    "target": "보성군 거주 다자녀(둘째 이상)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-489000000130": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "노인장기요양등급자 생활시설 지원",
+    "target": "장기요양등급 판정받은 65세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
