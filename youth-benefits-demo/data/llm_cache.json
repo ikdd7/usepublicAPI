@@ -95788,5 +95788,230 @@
     "amount": "3만원 상당 선물",
     "show": true,
     "special": false
+  },
+  "g24-487000000115": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "만 90세 이상 장수노인 생신떡 지원",
+    "target": "만 90세 이상 장수노인",
+    "amount": "25,000원 상당 떡",
+    "show": true,
+    "special": true
+  },
+  "g24-487000000116": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 월 8만원 수당 지원",
+    "target": "구례군 거주 만 65세 이상 참전유공자",
+    "amount": "월 8만원",
+    "show": true,
+    "special": true
+  },
+  "g24-487000000117": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득가구 공공서비스 지원",
+    "target": "기준 중위소득 60% 이내 저소득가구",
+    "amount": "1백만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000118": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득가구 월동난방비 지원",
+    "target": "기준 중위소득 60% 이내 저소득가구",
+    "amount": "난방비, 난방유, 이불 등",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000119": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모",
+      "육아",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "취약계층 명절 위문품 지원",
+    "target": "수급자, 차상위, 복지사각지대 취약계층",
+    "amount": "선물세트, 상품권 등",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000122": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농인 농업시설 최대 6백만원 지원",
+    "target": "구례 이주 만 70세 이하 귀농인",
+    "amount": "최대 6백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "배·복숭아 봉지 구입 지원",
+    "target": "구례군 배·복숭아 재배면적 1,000㎡ 이상 농업인",
+    "amount": "사업비 중 보조",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000127": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득가구 주거환경개선 최대 5백만원 지원",
+    "target": "기준 중위소득 60% 이내 저소득가구",
+    "amount": "최대 5백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000128": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "만 4세 영유아 영양제 지원",
+    "target": "관내 거주 만 4세 영유아",
+    "amount": "영양제",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000129": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "홀로 사는 수급자 생일떡 지원",
+    "target": "홀로 생활하는 수급자 가구",
+    "amount": "생일떡",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000133": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인가구 건강보험료 지원",
+    "target": "구례군 거주 최저보험료 이하 노인가구",
+    "amount": "건강보험료",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000134": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "귀농·귀촌인 주택수리 지원",
+    "target": "구례 이주 만 70세 이하 귀농·귀촌인",
+    "amount": "주택수리비",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000135": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "빈집 소유자 보금자리 조성 지원",
+    "target": "구례군 빈집 소유자",
+    "amount": "운영관리 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000139": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 재배농가 경영안정대책비 지원",
+    "target": "구례군 거주 벼 재배 농가",
+    "amount": "경작 규모별 차등 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000140": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 배우자 월 5만원 수당 지원",
+    "target": "구례군 거주 참전유공자 배우자",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-487000000141": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 월 5만원 수당 지원",
+    "target": "구례군 거주 국가보훈대상자",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-487000000485": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "군민안전보험 최대 2천만원 지원",
+    "target": "구례군 거주 모든 군민",
+    "amount": "최대 2천만원",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000101": {
+    "category": "금융",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "청년부부 대출이자 50% 지원",
+    "target": "만 18~49세 이하 청년부부",
+    "amount": "대출이자의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "혈통 등록우 친자검증 지원",
+    "target": "관내 혈통 등록우 사육 농가",
+    "amount": "분석비, 시료채취비",
+    "show": true,
+    "special": false
+  },
+  "g24-488000000105": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "청년부부 결혼축하금 4백만원 지원",
+    "target": "고흥군 거주 49세 이하 신혼부부",
+    "amount": "4백만원 (3년 분할)",
+    "show": true,
+    "special": false
   }
 }
