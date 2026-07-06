@@ -92931,5 +92931,660 @@
     "amount": "월 5톤 요금 경감",
     "show": true,
     "special": true
+  },
+  "g24-476000000127": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "열매채소 시설재배 농가 농자재 일부 지원",
+    "target": "임실군 관내 토마토, 딸기, 오이 시설하우스 재배농가",
+    "amount": "보조금 일부 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000130": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영지버섯 재배 농가 원목, 종균 구입 일부 지원",
+    "target": "임실군 관내 영지버섯 재배 농가",
+    "amount": "보조금 일부 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000133": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "토마토 재배농가 육묘비 일부 지원",
+    "target": "임실군 관내 토마토 재배농가",
+    "amount": "육묘비 일부 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000134": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 철분제·엽산제 구입 지원",
+    "target": "임실군 주민등록 산모",
+    "amount": "엽산제, 철분제 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000137": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "여성농업인 편의장비 구입비 지원",
+    "target": "임실군 거주 전업 여성 농업인",
+    "amount": "편의의자 구입비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000138": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고추 재배농가 육묘(공동육묘, 종자대) 지원",
+    "target": "임실군 거주 10a 이상 고추재배 농가",
+    "amount": "고추육묘 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000142": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "영아 기저귀 구매 비용 지원",
+    "target": "임실군 영아(0~24개월)",
+    "amount": "기저귀 구매 비용 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000143": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "임실사랑상품권 10% 할인 구매 지원",
+    "target": "만 19세 이상 임실군민",
+    "amount": "10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000146": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "치매환자 위치추적 단말기 지원",
+    "target": "임실군 주소 둔 치매 진단 대상자",
+    "amount": "위치추적 단말기 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-476000000147": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "양돈농가 모돈갱신 및 정액 지원",
+    "target": "임실군 관내 양돈농가",
+    "amount": "보조 30%, 기타 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000148": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "양액재배 시설 농가 상토 지원",
+    "target": "임실군 양액재배 시설 농가",
+    "amount": "보조율 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000149": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "염소 사육농가 거세 시술료 지원",
+    "target": "임실군 관내 염소사육 농가",
+    "amount": "보조 30%, 기타 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000150": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "딸기 재배농가 육묘 지원",
+    "target": "딸기 재배농가",
+    "amount": "보조율 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000152": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "젖소농가 우량 정액 지원",
+    "target": "임실군 관내 젖소농가",
+    "amount": "보조 40%, 기타 60%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000158": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화가족 친정 방문 지원",
+    "target": "임실군 3년 이상 거주 다문화가족",
+    "amount": "친정 방문 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000159": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "결혼이주여성 친정가족 초청 지원",
+    "target": "임실군 3년 이상 거주 결혼이주여성",
+    "amount": "친정가족 초청 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000161": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "결혼이주여성 한국 예절·요리 교육 지원",
+    "target": "결혼이주여성",
+    "amount": "교육 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000162": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가정 한국사회 적응활동 지원",
+    "target": "결혼이주여성",
+    "amount": "적응활동 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000166": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "노후 단독주택 지붕개량 보조금 지원",
+    "target": "신축 후 10년 이상 노후 단독주택",
+    "amount": "동당 3백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000168": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한우농가 1군 정액 지원",
+    "target": "임실군 관내 한우사육농가",
+    "amount": "보조 100%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000169": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "임실군 농업인 작약 재배 지원",
+    "target": "임실군 거주 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000170": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "관내 축산 농가 축사 관정 지원",
+    "target": "관내 축산 농가",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000171": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "관내 양돈농가 분뇨처리비 지원",
+    "target": "관내 양돈농가(슬러리돈사)",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000174": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "관내 양돈농가 악취저감제 지원",
+    "target": "관내 축산업 등록·허가 양돈 농가",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000175": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "관내 양돈농가 우레탄 살포비 지원",
+    "target": "관내 축산업 등록·허가 양돈 농가",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000180": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "관내 염소 농가 기자재 지원",
+    "target": "관내 염소 농가",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000181": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "관내 조사료 생산 경영체 첨가제 지원",
+    "target": "관내 조사료 생산 경영체",
+    "amount": "보조 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000182": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "관내 조사료 생산 경영체 랩비닐 지원",
+    "target": "관내 조사료 생산 경영체",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000183": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "임실 곶감 생산자 포장세트 및 택배비 지원",
+    "target": "임실군 곶감 생산·판매 농업인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000184": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "관내 감자재배농가 종자 및 멀칭비닐 지원",
+    "target": "관내 감자재배농가",
+    "amount": "40% 보조",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000190": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "임실군 농업인 독활 재배 지원",
+    "target": "임실군 거주 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000005": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "가금 축산업 허가 농가 급수기 지원",
+    "target": "가금 축산업 허가 완료 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000008": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "임실군민 안전보험 지원",
+    "target": "임실군민",
+    "amount": "최대 3000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-476100000009": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "임실군 농업인 복분자 재배 지원",
+    "target": "임실군 거주 농업인",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000010": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "임실군 농업인 수실류·조경수 비료 지원",
+    "target": "임실군 거주 농업인",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000014": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업경영체 유기질비료 구입비 지원",
+    "target": "농업경영체",
+    "amount": "일부 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000018": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "임실군 오이 재배농가 육묘비 지원",
+    "target": "임실군 오이 재배농가",
+    "amount": "일부 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000019": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "임실 과수농가 농기계 지원",
+    "target": "임실 거주 과수 재배농가",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000020": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 기본형 공익직불금 지급",
+    "target": "직불금 수령자, 정책대상자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000023": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "임실군 70세 이상 어르신 이미용권 지원",
+    "target": "관내 70세 이상 군민",
+    "amount": "남 6천원*12매, 여 1.5만원*6매",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000029": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 착유 낙농가 생산성 향상제 구입 지원",
+    "target": "관내 착유 낙농가",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000030": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 착유 낙농가 축사환경 개선 톱밥 지원",
+    "target": "관내 착유 낙농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000031": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 착유 낙농가 폭염 스트레스 완화제 지원",
+    "target": "관내 착유 낙농가",
+    "amount": "보조 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000032": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "관내 착유 낙농가 젖소 검정사업 지원",
+    "target": "임실군 관내 낙농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000033": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 착유 낙농가 원유 항생제 검사키트 지원",
+    "target": "임실군 관내 낙농가",
+    "amount": "보조 30%",
+    "show": true,
+    "special": false
+  },
+  "g24-476100000034": {
+    "category": "금융",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "관내 낙농가 원유 쿼터구입 융자 이자 차액 지원",
+    "target": "임실군 관내 낙농가",
+    "amount": "보조 30%",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업인 유용미생물(EM) 활성액 구입 지원",
+    "target": "농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000103": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "순창군 고교 졸업 후 3년내 대학 진학자 진학축하금 지원",
+    "target": "관내 고교 졸업 후 3년내 대학 진학자",
+    "amount": "대학 등록금 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000106": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "아토피 질환자 보습용품 만들기 교실 및 의료비 지원",
+    "target": "아토피 피부염 환자 및 가족, 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000107": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "순창군민 암환자 영양제 월 1회 제공",
+    "target": "순창군민 암환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-477000000111": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "당뇨환자 합병증 예방 검사비 지원",
+    "target": "보건소 등록 당뇨환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-477000000112": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "관내 2년이상 소상공인 시설개보수 등 사업비 지원",
+    "target": "관내 2년이상 거주 소상공인",
+    "amount": "최대 3천만원",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000113": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만14세 이상 지역화폐 구입 시 12% 캐시백",
+    "target": "만14세 이상 순창군민",
+    "amount": "12% 캐시백",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000114": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "순창군 거주 노인·장애인 의치보철 지원",
+    "target": "순창군 거주 65세 이상 노인, 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-477000000117": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "영유아",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "기준중위소득 120% 이하 대상 지역사회서비스 지원",
+    "target": "기준중위소득 120% 이하 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000119": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "다문화",
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 다문화 다자녀가족 자녀 학습활동비 지원",
+    "target": "순창군 거주 초중고 저소득, 다문화, 다자녀 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000120": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "순창군 거주 임신·출산부 산모·신생아 건강관리 지원",
+    "target": "순창군 거주 임신·출산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000121": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 축산업 허가 낙농농가 우수정액 지원",
+    "target": "관내 축산업 허가 낙농농가",
+    "amount": "2만원/두",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000122": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "결핵환자 치료 위한 영양제 지급",
+    "target": "결핵환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-477000000128": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "순창 거주 100세 이상자 생일상 차림 지원",
+    "target": "순창 거주 100세 이상자",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
