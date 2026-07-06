@@ -93586,5 +93586,243 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-475000000230": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "원예특화작목 재배 농가 자재 지원",
+    "target": "장수군 주소 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-475000000231": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "원예시설(중형관정, 농산물건조기) 지원",
+    "target": "장수군 주소 등록 원예 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-475000000237": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수시설 및 경쟁력 제고 지원",
+    "target": "장수군 과수재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-475000000238": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "사과 기상 재해예방 지원",
+    "target": "장수군 과수재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "배봉지 지원",
+    "target": "장수군 배 생산자단체 소속 농가",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000104": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "아토피 피부염 보습제 지원",
+    "target": "임실군민 중 아토피 피부염 진단 등록자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "무제초제 토양증진(우렁이) 지원",
+    "target": "관내 제초제 미사용 벼재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산 악취저감시설 지원",
+    "target": "관내 축산업 등록·허가 농가",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "생강 종강 구입 비용 지원",
+    "target": "임실군 생강 경작 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000115": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "꿀벌(양봉) 기자재 지원",
+    "target": "관내 꿀벌 사육농가",
+    "amount": "보조 40%",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000116": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "고추 농기계(건조기, 세척기) 지원",
+    "target": "임실군 고추재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000117": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "잎담배 재배 농자재 지원",
+    "target": "관내 잎담배 생산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000118": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "하우스 시설개선 지원",
+    "target": "임실군 단동하우스 원예·특용작물 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000120": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "화훼류 재배 묘목비 지원",
+    "target": "임실군 화훼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000121": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농산물 저온저장고 지원",
+    "target": "원예·특용작물 생산 농가 및 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000124": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "고품질 고추 생산 농자재 지원",
+    "target": "임실군 고추재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "화훼 재배시설 배지교체비 지원",
+    "target": "임실군 화훼 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-476000000126": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 육묘용 매트·일반상토 보조금 지원",
+    "target": "관내 벼 재배 농가",
+    "amount": "40%",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000132": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 안전보험 가입비 지원",
+    "target": "농협 비조합원 15~87세 영농 종사자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000134": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "어린이·영유아 국가예방접종 지원",
+    "target": "12세 이하 어린이, B형간염 산모 출생아",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
