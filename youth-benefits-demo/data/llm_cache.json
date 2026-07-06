@@ -92715,5 +92715,221 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-480000000124": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "화재취약계층 소방시설 설치 지원",
+    "target": "기초수급자, 차상위장애인, 독거노인, 한부모",
+    "amount": "단독형경보감지기, 분말형 소화기 각1개",
+    "show": true,
+    "special": true
+  },
+  "g24-480000000356": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역아동센터 냉난방비 지원",
+    "target": "목포시 지역아동센터",
+    "amount": "연 2회 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-480000000361": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "목포시 시민안전보험 지원",
+    "target": "목포시 주민등록 시민 모두",
+    "amount": "사망 시 최대 2000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000104": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "명절 위문금 지원",
+    "target": "기초수급자, 차상위계층, 사회복지시설 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양돈농가 모돈교체 및 축사 환풍기 설치 지원",
+    "target": "관내 축산업 허가·등록 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "귀농인 농가주택 수리비 지원",
+    "target": "농어촌지역 전입 5년 미만 귀농인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000113": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임 기초 검진비 지원",
+    "target": "관내 거주 난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000114": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "성매매 피해자 자활 지원",
+    "target": "탈성매매 여성",
+    "amount": "생계비, 주거지원비, 직업훈련비",
+    "show": true,
+    "special": true
+  },
+  "g24-481000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "최저보험료 미만 저소득 65세 이상 노인, 장애인, 한부모, 가정위탁 아동세대",
+    "amount": "최저보험료 미만 건강보험료",
+    "show": true,
+    "special": true
+  },
+  "g24-481000000116": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 자녀 장학금 지원",
+    "target": "기초수급자, 차상위계층 등 저소득 주민 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000120": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농어촌 지역 아동수당 지원",
+    "target": "만 8세 미만 농어촌 지역 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000123": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 초과 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000124": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "재가 암환자 관리 지원",
+    "target": "재가 암환자",
+    "amount": "의료물품 제공",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000363": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "여수시 전입 인센티브 지급",
+    "target": "타 시군구 1년 이상 거주 후 전입 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000365": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "여수시민안전보험 지원",
+    "target": "여수시민 모두",
+    "amount": "사망 시 최대 2000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000368": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청년부부 결혼축하금 지원",
+    "target": "만 49세 이하 청년부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000369": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 상하수도 요금 감면",
+    "target": "장애의 정도가 심한 장애인",
+    "amount": "월 5톤 요금 경감",
+    "show": true,
+    "special": true
+  },
+  "g24-481000000370": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀 상하수도 요금 감면",
+    "target": "다자녀가구",
+    "amount": "월 5톤 요금 경감",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000371": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 상하수도 요금 감면",
+    "target": "기초생활수급자",
+    "amount": "월 5톤 요금 경감",
+    "show": true,
+    "special": true
+  },
+  "g24-481000000372": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "여순사건 희생자·유족 상하수도 요금 감면",
+    "target": "여순사건 희생자 및 유족",
+    "amount": "월 5톤 요금 경감",
+    "show": true,
+    "special": true
   }
 }
