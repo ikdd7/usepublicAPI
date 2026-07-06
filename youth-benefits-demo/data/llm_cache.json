@@ -94948,5 +94948,845 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-306000000239": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "출산아에게 출산축하용품 지원",
+    "target": "2026년 1월 1일 이후 출생한 중랑구 거주 12개월 이상 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000140": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배농가에 상자모 지원",
+    "target": "광양시 주소 벼 재배농가",
+    "amount": "0.1ha당 25상자",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000146": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배농가에 상자모 지원",
+    "target": "광양시 주소 벼 재배농가",
+    "amount": "0.1ha당 25상자",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000148": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배농가에 육묘용 상토 지원",
+    "target": "광양시 주소 벼 재배농가",
+    "amount": "구입비 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000374": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "남성근로자에게 육아휴직 장려금 지원",
+    "target": "광양시 1년 이상 거주 남성 육아휴직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000376": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "보험",
+    "summary": "광양시민에게 시민안전보험 운영",
+    "target": "광양시 거주 시민(등록외국인 포함)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-484000000377": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "유족에게 보훈명예수당 월 3만원 지급",
+    "target": "전남광주통합특시 거주 전몰군경·순직군경 유족",
+    "amount": "월 3만원",
+    "show": true,
+    "special": true
+  },
+  "g24-484000000378": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 유족에게 보훈명예수당 지원",
+    "target": "광양시 거주 독립유공자 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-484000000379": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자에게 참전명예수당 월 7만원 지급",
+    "target": "전남광주통합특시 거주 참전유공자",
+    "amount": "월 7만원",
+    "show": true,
+    "special": true
+  },
+  "g24-484000000380": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득가구에 에너지효율 개선 지원",
+    "target": "생계·의료·주거·교육급여, 차상위, 복지사각지대 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000382": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "서민층에 가스안전장치(타이머콕) 보급",
+    "target": "만 55세 이상 서민층, 노인성질환자, 사회복지시설",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000383": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "LPG용기 사용가구에 시설개선 지원",
+    "target": "LPG용기 고무호스 사용 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000387": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "출산가정에 산모·신생아 건강관리 본인부담금 환급",
+    "target": "광양시 거주 출산가정",
+    "amount": "최대 19만원",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000388": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "관광취약계층에 행복여행활동 지원",
+    "target": "저소득층 및 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000395": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "광양시민에게 치유의숲 체험료 할인",
+    "target": "광양시민",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000397": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "고위험 임산부에게 의료비 지원",
+    "target": "19대 고위험 임신질환 진단받고 입원치료한 자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000400": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "취학 전 아동에게 장난감 도서관 서비스 제공",
+    "target": "광양시 거주 취학 전 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000401": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청년에게 행정인턴 체험 프로그램 제공",
+    "target": "광양시 거주 18~45세 미취업 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000402": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "예비창업자에게 창업 희망스타트 지원",
+    "target": "광양시 거주 18~45세 예비창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000405": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "감면",
+    "summary": "다자녀·기초수급자·장애인가구에 상수도 요금 감면",
+    "target": "다자녀, 기초수급자, 장애인 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000407": {
+    "category": "복지",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 대상 도서대출 서비스",
+    "target": "광양시 소재 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000408": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "어린이 대상 발달단계별 책꾸러미 지원",
+    "target": "광양시 거주 어린이(13개월~초등1학년)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000412": {
+    "category": "교육",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "서비스",
+    "summary": "스마트농업반 교육과정 운영",
+    "target": "광양시 거주 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000413": {
+    "category": "교육",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농업인 대상 촬영 기초 교육",
+    "target": "청년농업인, 농업인, 예비청년농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-484000000414": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도시민 대상 주말농장 참여 지원",
+    "target": "광양시민(은퇴자, 다자녀, 다문화)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000104": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "한우 농가 사료 지원",
+    "target": "관내 축산업 허가·등록 한우 농가",
+    "amount": "보조 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000105": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "치매 검사비 본인부담금 지원",
+    "target": "60세 이상 인지기능 저하 의심자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000106": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 세대 및 복지시설 위문품 지원",
+    "target": "저소득세대 및 사회복지시설",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000107": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 아동 학습지 및 케이크 지원",
+    "target": "가정위탁아동, 보호아동, 저소득아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000111": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "담양사랑상품권 구매 지원",
+    "target": "상품권 구입 희망자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000112": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 생활안정 지원",
+    "target": "기초수급자, 차상위계층 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000115": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 노인 백내장 수술비 지원",
+    "target": "담양군 60세 이상 저소득 노인",
+    "amount": "수리비의 100%",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000116": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "유기농업자재 및 녹비작물 종자 지원",
+    "target": "토양검정 결과 제출 농업인·농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000117": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "시설원예 과수·채소 수정벌 지원",
+    "target": "시설하우스 과수·채소 재배농가",
+    "amount": "보조금 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000120": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "가정폭력 피해자 의료비 지원",
+    "target": "가정폭력 피해자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-485000000121": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "자연재해 피해 농가 응급복구 지원",
+    "target": "돌발재해로 피해 입은 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000123": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 휠체어 수리비 지원",
+    "target": "담양군 거주 등록장애인",
+    "amount": "수리비의 100%",
+    "show": true,
+    "special": true
+  },
+  "g24-485000000124": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영세고령농가 재해보험료 자부담 지원",
+    "target": "만 65세 이상 1ha 미만 경작 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000125": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다자녀 가정 기저귀 지원",
+    "target": "만 2세 미만 영아 둔 다자녀 출생 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000126": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "주민 대상 구강보건서비스 제공",
+    "target": "담양군 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000127": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "65세 이상 취약계층 건강검진비 지원",
+    "target": "담양군 65세 이상 기초수급자/차상위/독거노인",
+    "amount": "예산범위내",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000128": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산업 허가·등록 농가에 가축사육 관련 물품 지원",
+    "target": "담양군 축산업 허가·등록 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000129": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "담양군 거주 대학생에게 장학금 지원",
+    "target": "담양군 3년 이상 거주 대학생 (만 40세 미만)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-485000000135": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "담양군 거주 1세 아동에게 출생기본소득 지원",
+    "target": "전남 출생신고 후 담양군 1세 된 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000112": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "상수도 미급수지역 음용지하수 수질검사 지원",
+    "target": "상수도 미급수지역 거주 가구",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000115": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "상수도 옥내급수관 누수탐사 무료 서비스",
+    "target": "상수도 옥내급수관 누수 발생 수용가",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000117": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "3세대 이상 가정에 효행장려금 지원",
+    "target": "곡성군 3세대 이상, 2년 이상 거주 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000118": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고혈압·당뇨 합병증 검사비 지원",
+    "target": "만 30세 이상 고혈압, 당뇨병 등록 환자",
+    "amount": "5만원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000123": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자에게 수당, 위로금, 위문금 지급",
+    "target": "참전유공자, 보훈유공자, 참전유공자 미망인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-486000000124": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "수급자, 차상위 대상 생활불편개선 및 위기 가구 지원",
+    "target": "수급자, 차상위 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000126": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "청년농업인 스마트 농업 육성 지원",
+    "target": "담양군 주소 둔 청년농업인 (만 19~49세)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000128": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고령 영세농업인 영농경영비 지원",
+    "target": "담양군 거주 만 65세 이상 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000131": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "기준중위소득 150% 이하 산모 건강관리 지원",
+    "target": "기준중위소득 150% 이하 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000136": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 가사·간병 서비스 지원",
+    "target": "만 65세 미만 저소득층, 중증질환자, 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-486000000366": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "곡성군민 대상 군민안전보험 지원",
+    "target": "곡성군민",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000101": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 배우자, 유족에게 수당 지원",
+    "target": "국가보훈대상자 미망인 또는 유족",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-487000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 귀가 여비 지원",
+    "target": "주거지 아닌 지역 떠도는 숙식 능력 없는 자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000109": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "50~64세 구례군민 독감 예방접종 지원",
+    "target": "50세 ~ 64세 구례군민",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000111": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시설하우스 온풍기 가스 구입비 지원",
+    "target": "시설하우스 가스 온풍기 사용 시설작물 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-487000000112": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "애호박 인큐베이터 구입 지원",
+    "target": "구례군 애호박 재배 농업인 (작목반 소속)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-490000000274": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현물",
+    "summary": "신혼부부 월세 1만원 임대주택 지원",
+    "target": "18세 이상 49세 이하 신혼부부",
+    "amount": "월세 1만원",
+    "show": true,
+    "special": false
+  },
+  "g24-490000000287": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "장애인 평생교육이용권 지원",
+    "target": "전남광주통합특별시에 거주하는 19세 이상 성인",
+    "amount": "평생교육이용권",
+    "show": true,
+    "special": false
+  },
+  "g24-490000000290": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "난임부부 영양제 지원",
+    "target": "부부 모두 화순군 주민등록 난임부부",
+    "amount": "영양제(엽산)",
+    "show": true,
+    "special": false
+  },
+  "g24-491000000102": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "가임여성 풍진 검사비 지원",
+    "target": "관내 거주 가임여성 및 초기 임신부",
+    "amount": "풍진 검사쿠폰(5만원)",
+    "show": true,
+    "special": false
+  },
+  "g24-491000000103": {
+    "category": "건강",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "서비스",
+    "summary": "고위험군 열성질환 예방 교육 및 기피제 지원",
+    "target": "노인일자리사업 어르신, 농업 종사자 등",
+    "amount": "교육 및 기피제",
+    "show": true,
+    "special": false
+  },
+  "g24-491000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "연안어업인 어구 구입비 지원",
+    "target": "장흥군 연안자망, 복합, 통발 허가 소유자",
+    "amount": "구입비 보조",
+    "show": true,
+    "special": false
+  },
+  "g24-491000000110": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "독립유공자 유족 위문품 지원",
+    "target": "장흥군 거주 독립유공자 유족",
+    "amount": "위문품",
+    "show": true,
+    "special": true
+  },
+  "g24-491000000111": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 주택구입/전세자금 대출 지원",
+    "target": "혼인기간 5년 이내, 중위소득 200% 이하",
+    "amount": "대출 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-491000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 비료 및 벼육묘용 포대상토 구입 지원",
+    "target": "장흥군 주소 농업경영체 등록 농업인",
+    "amount": "구입비 보조",
+    "show": true,
+    "special": false
+  },
+  "g24-491000000115": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 출산장려금 지원",
+    "target": "출생아 및 부모 관내 주민등록 출산가정",
+    "amount": "출산장려금",
+    "show": true,
+    "special": false
+  },
+  "g24-491000000117": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "국가유공자 및 유족 위문품 지원",
+    "target": "장흥군 거주 국가유공자 및 유족",
+    "amount": "위문품",
+    "show": true,
+    "special": true
+  },
+  "g24-491000000119": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 등 보훈명예수당 지원",
+    "target": "장흥군 거주 65세 이상 국가유공자 등",
+    "amount": "월 7만원",
+    "show": true,
+    "special": true
+  },
+  "g24-491000000122": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장흥사랑상품권 10% 할인 판매",
+    "target": "만19세 이상 장흥군민",
+    "amount": "10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-491000000123": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "연안어업인 어선 양승기 구입비 지원",
+    "target": "장흥군 연안어업허가 소유자",
+    "amount": "구입비 보조",
+    "show": true,
+    "special": false
+  },
+  "g24-491000000124": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "흑염소 사육농가 생산비 절감 기술 지원",
+    "target": "관내 흑염소 사육농가",
+    "amount": "자동사료급이기 등",
+    "show": true,
+    "special": false
+  },
+  "g24-492000000101": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "홀로사는 어르신 생신 선물 지원",
+    "target": "노인맞춤돌봄서비스 대상자",
+    "amount": "3만원 상당 선물",
+    "show": true,
+    "special": false
   }
 }
