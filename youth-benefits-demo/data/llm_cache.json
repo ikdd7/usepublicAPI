@@ -97803,5 +97803,232 @@
     "amount": "",
     "show": false,
     "special": true
+  },
+  "g24-505000000141": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산 농가 환기시설 구입비 지원",
+    "target": "가축사육업 등록·허가된 한육우, 젖소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-505000000151": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "산모신생아 건강관리 지원",
+    "target": "경주시 전체 출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-505000000155": {
+    "category": "육아",
+    "tags": [
+      "저소득",
+      "육아"
+    ],
+    "support_type": "현물",
+    "summary": "영유아 영양제 지원",
+    "target": "의료급여수급권자 가정 영유아, 다자녀·결혼이주여성 영유아",
+    "amount": "영양제 1통/인",
+    "show": true,
+    "special": false
+  },
+  "g24-505000000162": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임신축하용품 지원",
+    "target": "경주시에 주소 두고 임산부 등록하는 경우",
+    "amount": "1회 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-505000000174": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "신생아~초1·2 대상 책꾸러미 제공",
+    "target": "경주시 관내 신생아 ~ 초등학교 1~2학년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-505000000175": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임신부·출산부 대상 육아책 선물",
+    "target": "경주시에 주소 둔 해당 연도 출산 부모 또는 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000102": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "독거노인 전기안전 점검",
+    "target": "기초생활수급자, 차상위 계층 독거노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-506000000107": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "귀농인 농가주택 수리비 지원",
+    "target": "만65세 이하 귀농인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000109": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "독거노인 기초생활용품 지원",
+    "target": "노인맞춤돌봄서비스 대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-506000000111": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째 이상 출산가정 보험료 지원",
+    "target": "김천시 셋째아 이상 출산 가정",
+    "amount": "월 3만원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000115": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "출생아 가정용품(기저귀) 지원",
+    "target": "김천시 출생신고한 가정",
+    "amount": "중형 2팩",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000116": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "유아 대상 찾아가는 유아숲 프로그램",
+    "target": "김천시 소재 유아산림교육 비영리단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000120": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "원예소득작목 하우스 시설 지원",
+    "target": "채소, 특작 재배(예정) 농업인",
+    "amount": "시비 35%",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000122": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "거동불편 어르신 활동보조기 지원",
+    "target": "65세 이상 거동불편 어르신",
+    "amount": "1가구당 1회",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000123": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "신혼부부·임산부 풍진 검사료 지원",
+    "target": "김천시 주소 둔 2년 이내 신혼부부·결혼 예정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "김천포도 택배전용 포장재 지원",
+    "target": "김천포도영농조합법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000126": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가족 인식개선 교육 및 지원",
+    "target": "다문화가족 및 일반시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000127": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "수출딸기 생육환경 개선 지원",
+    "target": "수출딸기 재배 농업인",
+    "amount": "시비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000129": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모아기 돌봄 지원 확대",
+    "target": "김천시 주소지 있는 출산(예정) 산모",
+    "amount": "본인부담금 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-506000000138": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시민 대상 안전사고 보험 지원",
+    "target": "김천시민",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": false
   }
 }
