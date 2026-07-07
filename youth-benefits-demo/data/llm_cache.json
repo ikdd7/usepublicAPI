@@ -99587,5 +99587,675 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-533000000139": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시민참여포인트 인센티브 지급 신청",
+    "target": "시민참여포인트 적립자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-351050000119": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "65세 이상 어르신 대상포진 예방접종 지원",
+    "target": "미추홀구 거주 65세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 육묘장 설치 및 개보수 지원",
+    "target": "쌀전업농, 쌀작목반, 벼 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 수출농가 수출용 기자재 구입 지원",
+    "target": "경상북도 지정 수출단지 과수농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000109": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급자 공동전기요금 지원",
+    "target": "공동주택 거주 기초생계·의료급여 수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000110": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현물",
+    "summary": "관내 중·고등학생 홍삼간식 제공",
+    "target": "관내 중·고등학교 재학생",
+    "amount": "1인당 연 30회",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000112": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁 중고교생 교통비 지원",
+    "target": "가정위탁아동 중 중고등학생",
+    "amount": "1일 2,400원",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000114": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사망 참전유공자 배우자 복지수당 지급",
+    "target": "사망한 참전유공자의 배우자",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-509000000116": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영주사랑상품권 구매 할인 및 적립",
+    "target": "만 19세 이상 영주시민",
+    "amount": "12% 할인/적립",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000119": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농가 농자재 지원",
+    "target": "가공용 쌀 공급계약 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000120": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "한우 개량 위한 친자확인 등 지원",
+    "target": "한우 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000121": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "영주 임산부·출생아 영양제 등 지원",
+    "target": "영주시 거주 임산부, 출생아",
+    "amount": "종합영양제, 정장제",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000130": {
+    "category": "교육",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "영주 임산부 대상 숲 태교 프로그램 운영",
+    "target": "영주시 거주 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000131": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "영주 36개월 미만 아기 육아용품 대여",
+    "target": "영주시 거주 36개월 미만 아기 가정",
+    "amount": "무료 대여",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000132": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "영주 출생아 대상 아기주민등록증 발급",
+    "target": "영주시 출생신고 아기",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000133": {
+    "category": "교육",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "영주 임신부부 대상 숲 태교 프로그램 운영",
+    "target": "영주시 거주 임신부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000101": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영천사랑상품권 구매 할인",
+    "target": "만 19세 이상 영천시민",
+    "amount": "10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000104": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가족 자녀 학교적응 교육 지원",
+    "target": "다문화가족 초·중등 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "셋째 이상 자녀 가정 진료비 일부 지원",
+    "target": "세자녀 이상 가정(막내 13세 미만)",
+    "amount": "본인부담금 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000107": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한센병 환자 치료 및 예방사업 지원",
+    "target": "한센사업 대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-510000000112": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 중증대상자 자동차종합검사비 지원",
+    "target": "자동차세 감면대상인 장애인(중증대상자)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-510000000113": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영천주소 군장병 상해보험료 지원",
+    "target": "영천에 주소를 둔 현역 군복무 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000119": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영천시 사망자 화장 장려금 지원",
+    "target": "사망일 현재 영천시 주민등록자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000120": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층, 독거노인 등 주거환경개선 지원",
+    "target": "경제적 여건 어려운 저소득층, 독거노인, 장애인가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000121": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 기초생활수급자 대상포진 예방접종 지원",
+    "target": "만 65세 이상 기초생활수급자, 경북 1년 이상 거주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000124": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "한우농가 깔짚 및 미네랄블럭 지원",
+    "target": "축산업 허가, 등록한 관내 한우농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "젖소농가 깔짚 및 세척제 기자재 지원",
+    "target": "축산업 허가, 등록한 관내 젖소농가",
+    "amount": "두당 5천원, 개당 2만원",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000126": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 농산물 생산장려금 지원",
+    "target": "영천시 주소, 농업경영체 등록 친환경인증 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000127": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "만 6세~65세 미만 등록장애인 활동보조서비스 추가 지원",
+    "target": "만 6세~65세 미만 등록장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000132": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "영천시 소상공인 정책자금 이차보전 지원",
+    "target": "영천시 사업장 및 주민등록 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000362": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영천시민 대상 시민안전보험 지원",
+    "target": "영천시 주민등록 모든 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-510000000380": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀가정 하수도요금 감면 지원",
+    "target": "영천시 다자녀가정",
+    "amount": "월 5~10톤 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 양봉농가 벌꿀 포장박스 지원",
+    "target": "관내 양봉농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000102": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가정 상담·취업보조 서비스 지원",
+    "target": "상주시가족센터 이용자(결혼이민여성 등)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000103": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가정 자녀 학습지도 및 상담 지원",
+    "target": "상주시 가족센터 이용 다문화가족 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 한우농가 개체잠금장치 지원",
+    "target": "관내 한우농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000107": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 양봉농가 사양기자재 지원",
+    "target": "관내 양봉농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000108": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "당뇨병 투약자 당뇨합병증 예방 안저검진 지원",
+    "target": "보건소 등록 당뇨병 투약자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000111": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "소상공인 특례보증 이차보전금 지원",
+    "target": "관내 사업장 및 거주지 소상공인",
+    "amount": "이자 연 4% 범위 내 2년간",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000112": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "상주시 출산가정 출산축하박스 지원",
+    "target": "상주시에 주민등록을 둔 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000117": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가족자녀 심리치료 운영지원",
+    "target": "상주시가족센터 이용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000122": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "상주시에 출생한 셋째아 이상 건강보험금 지원",
+    "target": "상주시에 주민등록 둔 부부의 셋째아 이상 출생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000127": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "관내 농업경영체 대상 농업기술보급시범 지원",
+    "target": "관내 농업경영체 등록 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000128": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 대상 인플루엔자 무료 예방접종 지원",
+    "target": "기초수급자, 장애인, 국가유공자, 가금류농장종사자",
+    "amount": "무료",
+    "show": true,
+    "special": true
+  },
+  "g24-511000000130": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 한우농가 사료 자동급이기 지원",
+    "target": "관내 한우농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000131": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "결혼이민여성 취·창업 교육비 지원",
+    "target": "상주시건강가정다문화가족지원센터 이용 결혼이민여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000134": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 한우농가(100두미만) 깔짚 지원",
+    "target": "관내 한우농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000137": {
+    "category": "주거",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "상주출신 대학생 공공기숙사 운영 지원",
+    "target": "상주 관내 고교 졸업 후 상주 거주 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000138": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "관내 한우농가 친자확인 지원",
+    "target": "관내 한우농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000140": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "상주교육지원청 및 고등학교 교육환경 개선 지원",
+    "target": "상주교육지원청 및 관내 고등학교",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000142": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "베트남 통·번역 서비스 지원",
+    "target": "베트남 통번역 서비스 필요 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000145": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사망 참전유공자 배우자 복지수당 지원",
+    "target": "사망 참전유공자 배우자(상주 거주)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-511000000148": {
+    "category": "주거",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농귀촌인 주택수리비 지원",
+    "target": "귀농귀촌 5년 이내 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000152": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "상주 65세이상 취약계층 대상포진 무료 예방접종",
+    "target": "65세이상 기초생활수급자",
+    "amount": "무료",
+    "show": true,
+    "special": true
+  },
+  "g24-511000000154": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "임업인 ONE-CLICK 서비스 지원",
+    "target": "임업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-511000000156": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "상주시민 대상 자연재해·사고 사망 보험금 지원",
+    "target": "상주시민",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "여성농업인 농작업 편의장비 구입비 지원",
+    "target": "농업경영체 등록 여성농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000105": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "시설아동 하계수련비 지원",
+    "target": "아동양육시설아동",
+    "amount": "1인 7만원",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000106": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "시설아동 교육자재비 지원",
+    "target": "아동양육시설아동",
+    "amount": "1인 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000107": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "문경 인삼생약작물 재배 농가 농자재 구입비 지원",
+    "target": "문경시 주소 인삼생약작물 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
