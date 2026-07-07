@@ -98909,5 +98909,683 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-499000000457": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "군민 안전사고 사망 시 최대 2천만원 지원",
+    "target": "완도군 지역 주민 모두",
+    "amount": "최대 2천만원",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농가당 최대 1,050개 벼 포트 육묘상자 지원",
+    "target": "농업인",
+    "amount": "농가당 최대 1,050개",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000109": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "재래식 화장실/부엌 수세식으로 변경 지원",
+    "target": "기준중위소득 44~60% 이하, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000111": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 축산물 인증 농가 장려금 지원",
+    "target": "유기·무항생제 축산물 인증 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000114": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "95세 이상 장수노인 생신 선물 지원",
+    "target": "95세 이상 장수노인",
+    "amount": "3.8만원 상당",
+    "show": true,
+    "special": true
+  },
+  "g24-500000000115": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농어인 정착 지원금 지급",
+    "target": "만 65세 이하 귀농어인 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000116": {
+    "category": "주거",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농어귀촌인 농가 주택 수리비 지원",
+    "target": "만 65세 이하 귀농어귀촌인 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000117": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "청년 귀농어인 창농 지원",
+    "target": "만 20~49세 귀농어인 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000137": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "진도군 지역 인재 장학금 지급",
+    "target": "진도군 거주 고등/대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000119": {
+    "category": "주거",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농어귀촌인 이사비용 지원",
+    "target": "만 20세 이상 귀농어귀촌인 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000121": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "국가유공자"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 국가유공자 및 유족 위문금 지급",
+    "target": "저소득 국가유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-500000000125": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "저소득 취약계층",
+    "amount": "월 보험료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000126": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "진도군 대학 입학생 장학금 지급",
+    "target": "진도군 거주 대학 입학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000127": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "귀농어인 영농어자재 지원",
+    "target": "만 65세 이하 귀농어인 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000129": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "긴급복지 지원사업 대상자 생계비 지원",
+    "target": "긴급지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000134": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "청소년 꿈키움 바우처 월 5만원 지원",
+    "target": "진도군 거주 13~18세 청소년",
+    "amount": "월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000141": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "군민 안전사고 사망 시 최대 2천만원 지원",
+    "target": "진도군 지역 주민 모두",
+    "amount": "최대 2천만원",
+    "show": true,
+    "special": false
+  },
+  "g24-500000000146": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "복합민원 사전 상담 예약 서비스",
+    "target": "모든 군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-501000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "새우양식장 유해생물 차단시설 지원",
+    "target": "새우양식 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-501000000103": {
+    "category": "농업",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "쌀 정주여건 개선 지원",
+    "target": "해당 면 주민, 기초수급자, 차상위",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-501000000105": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "65세 이상"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 노인 안과 수술 지원",
+    "target": "신안군 거주 65세 이상 저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-501000000107": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "신안군민 화장 장려금 지원",
+    "target": "신안군 거주 1년 이상 사망자 연고자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-501000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "새우양식장 수질측정기 구입 지원",
+    "target": "신안군 거주 새우양식 경영 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-501000000111": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "소형어선 노후기관 교체 융자 지원",
+    "target": "소형어선 노후기관 사용 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-501000000112": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "새우양식장 환경개선제 지원",
+    "target": "신안군 거주 새우양식 경영 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-501000000113": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "국가유공자 위문품 지급",
+    "target": "국가유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-501000000114": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "귀어 정착 지원",
+    "target": "신안군 전입 3년 미만 만 65세 이하 귀어인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-501000000116": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "전기차 구매 이자 지원",
+    "target": "친환경 전기차 보조사업 선정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-501000000117": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 및 위로금 지원",
+    "target": "신안군 거주 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-501000000121": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "신안군민 안전보험 지원",
+    "target": "신안군민 (만15세 이상)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-502000000204": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 월 2만원 활동 지원",
+    "target": "포항시 기초생활수급자 중증장애인",
+    "amount": "월 2만원",
+    "show": true,
+    "special": true
+  },
+  "g24-502000000206": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "다문화가족 출산용품 지원",
+    "target": "포항시 거주 결혼이민여성 출산자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-502000000211": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "24시간 장애인 활동지원",
+    "target": "독거·취약가구 사지마비 와상 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-502000000212": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "포항사랑상품권 5~10% 할인",
+    "target": "만19세 이상 포항시민",
+    "amount": "5~10%",
+    "show": true,
+    "special": false
+  },
+  "g24-502000000213": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 보훈명예수당 지원",
+    "target": "만 65세 이상 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-502000000214": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한센병 환자 관리 및 치료 지원",
+    "target": "한센병 환자 및 서비스 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-502000000215": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "채소 재배 농자재 보조 지원",
+    "target": "포항시 거주 채소 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-502000000217": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한센인 예방 및 치료 지원",
+    "target": "한센인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-502000000219": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경 농산물 농자재 보조 지원",
+    "target": "유기·무농약 인증 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-502000000221": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "깨끗한 축산농장 인센티브 지원",
+    "target": "포항시 지정 깨끗한 축산농장",
+    "amount": "시 50%, 자부담 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-507000000772": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "한우 사료자동급이시설 설치 지원",
+    "target": "가축사육업 허가/등록된 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-507000000773": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지역주민 금연지원서비스 제공",
+    "target": "안동시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-507000000781": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "안동시 거주 학생 입학준비금 지원",
+    "target": "안동시 관내 거주 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-507000000786": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인활동지원 신청자 중 판정 전 장애인 틈새돌봄 지원",
+    "target": "장애인활동지원 신청자 중 판정 전 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-507000000787": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 돌봄 및 가족휴식 지원",
+    "target": "안동시 거주 6세~65세 미만 심한 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-507000000788": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "영유아가정 상수도사용료 감면",
+    "target": "출생일로부터 2년 미만 영아 포함 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-507000000789": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "다자녀가정 상수도사용료 감면",
+    "target": "둘 이상 자녀 양육, 막내 19세 미만 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-507000000790": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "할인",
+    "summary": "기초생활수급자 상수도사용료 감면",
+    "target": "생계·의료급여 수급자 가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-508000000666": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "관내 주소 둔 임신부 기형아 검사 쿠폰 발급",
+    "target": "관내 주소를 둔 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-508000000669": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "관내 주소 둔 가임기 여성 풍진검사 지원",
+    "target": "관내 주소를 둔 가임기 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-508000000671": {
+    "category": "건강",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 한부모가족 건강검진비 지원",
+    "target": "중위소득 63% 이하 한부모가족 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-508000000677": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 이하 출산가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-508000000681": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "할인",
+    "summary": "기초생활수급자 상수도 요금 및 교복구입비 지원",
+    "target": "기초생계(의료)수급자 및 자녀",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-508000000685": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 노인 대상 노인교실 운영",
+    "target": "만 65세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-508000000688": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 중증장애인 월동난방비 지원",
+    "target": "수급자 중 중증 장애인 재가 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-508000000695": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "관내 임산부 또는 만2세미만 영유아가정 건강관리 서비스",
+    "target": "관내 임산부 또는 만2세미만 영유아가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-508000000696": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "만 18세 이하 아토피 환아 보습제 지원",
+    "target": "만 18세 이하 아토피 환아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-508000000701": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "구미시 임산부 대상 교실 운영",
+    "target": "구미시 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-508000000710": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "세자녀 이상 가정 진료비 지원",
+    "target": "세자녀 이상 가정, 막내 만 12세 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-509000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "임업인 임산물포장재 지원",
+    "target": "임업인 등, 생산자단체",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
