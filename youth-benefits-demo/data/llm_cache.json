@@ -97361,5 +97361,447 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-494000000163": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "대봉감 재배농가 병해충 방제 약제 지원",
+    "target": "경영체 등록 대봉감 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000168": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "내수면어선 노후기관 대체 비용 지원",
+    "target": "내수면어업법 허가 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000169": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "내수면 양식기자재 구입비 지원",
+    "target": "내수면어업법·양식산업법 신고·허가 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000170": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "연안어선 노후기관 대체 비용 지원",
+    "target": "수산업법 연근해어업 허가 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000175": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산",
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인가정 홈헬퍼서비스 지원",
+    "target": "전남 거주 등록장애인 여성",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-494000000178": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자동차종합검사비 지원",
+    "target": "영암군 등록 자동차 소유자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000180": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "취약계층 이용 복지시설 건강꾸러미 지원",
+    "target": "노인, 장애인, 아동 이용 복지시설",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000181": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "GAP인증 농가 신청수수료 지원",
+    "target": "GAP인증 농업인, 생산자단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000182": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "수출 농산물 소모품 자재 구입비 지원",
+    "target": "영암군 생산 농산물 수출 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000187": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "유기가공식품 인증비 지원",
+    "target": "친환경농산물 원료 가공식품 사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000189": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국산김치 사용업소 식자재 구입비 지원",
+    "target": "국산김치 사용 지정 음식점",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000192": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농산물 저온저장고 설치비 지원",
+    "target": "농산물 재배 농가 및 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000197": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농특산물 공동브랜드 포장재 박스 제작비 지원",
+    "target": "영암군 농특산물 공동브랜드 사용승인 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000198": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농산물 꾸러미 포장재 제작비 지원",
+    "target": "농산물 꾸러미사업 참여단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000200": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "중소조선기업 신규 채용 근로자 4대보험료 지원",
+    "target": "관내 거주 근로자 신규 채용 중소조선기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000203": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "도지사 품질인증 제품 자가품질검사비 지원",
+    "target": "도지사 품질인증 업체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000211": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "예비맘 풍진 예방접종 지원",
+    "target": "풍진항체 음성 가임기 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000224": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부·예비맘 임신출산 교육 지원",
+    "target": "관내 등록 임산부, 임신 준비 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000225": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영유아 오감발달 교실 지원",
+    "target": "영유아 및 보호자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-494000000227": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임산부 산전검진비(초음파) 지원",
+    "target": "관내 등록 임산부",
+    "amount": "8만원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-498000000129": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-498000000472": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "보증",
+    "summary": "청년 전세보증금반환보증 보증료 지원",
+    "target": "임차보증금 3억 이하, 연소득 5천만원 이하 무주택 임차인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-498000000474": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장성군 군민안전보험",
+    "target": "장성군 지역 주민",
+    "amount": "최대 1500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000110": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "완도군 고교 졸업생 대학 장학금 지원",
+    "target": "완도군 관내 고등학교 졸업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000111": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "결혼이주여성 산모도우미 지원",
+    "target": "출산한 결혼이주여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000115": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "완도군민 인플루엔자 예방접종 무료 지원",
+    "target": "만 60~64세, 장애인, 기초수급자 등",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000120": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "빈집 철거 최대 250만원 지원",
+    "target": "1년 이상 방치된 빈집 소유자",
+    "amount": "최대 250만원",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000123": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "다자녀가정 학생 장학금 지원",
+    "target": "완도군 관내 다자녀 가정 재학생·대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000124": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "소규모 농축산물 제조·가공 시설 지원",
+    "target": "완도군 농식품 제조·가공업체, 6차산업 농가",
+    "amount": "최대 10",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000125": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "가임기 여성 풍진항체 무료검사 지원",
+    "target": "완도군 거주 가임기 여성",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000126": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 위기가구 생활안정지원금 지급",
+    "target": "기초수급자, 차상위, 장애인 등 저소득 위기가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000128": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "소상공인 융자금 보증수수료 지원",
+    "target": "완도군 사업장 소상공인",
+    "amount": "최대 3백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000129": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "70세 이상 노인 목욕·이용권 지원",
+    "target": "완도군 거주 70세 이상 노인",
+    "amount": "월 14천원",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000134": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임신부 영양제(오메가3) 지원",
+    "target": "완도군 거주 임신부",
+    "amount": "1통",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000135": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "완도군 전입자 상품권 5만원 지원",
+    "target": "타 시군 거주하다 완도군 전입자",
+    "amount": "5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000137": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농어귀촌인 정착·주택수리비 지원",
+    "target": "전입 6개월~5년 이내 세대주, 농어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000140": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "완도군 지역인재 장학금 지원",
+    "target": "완도군 관내 지역 재학생·대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000144": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임신부 무료 건강검진 지원",
+    "target": "완도군 거주 임신 초기/말기 임산부",
+    "amount": "기초검사",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000151": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현물",
+    "summary": "수유부 유축기 대여 지원",
+    "target": "완도군 거주 수유부",
+    "amount": "최대 3개월",
+    "show": true,
+    "special": false
+  },
+  "g24-499000000152": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "소상공인연합회 운영비 보조금 지원",
+    "target": "완도군 소상공인연합회",
+    "amount": "",
+    "show": false,
+    "special": true
   }
 }
