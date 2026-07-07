@@ -100257,5 +100257,447 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-513000000109": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 추가 시간 지원",
+    "target": "국비지원 또는 미지원 장애인 중 추가시간 필요한 자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-513000000111": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "재가 암환자 건강관리 서비스 지원",
+    "target": "암환자의료비 지원사업 지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-513000000112": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "경산시민 예방접종 지원",
+    "target": "어린이, 임신부, 65세 이상, 중증 장애인, 60~64세 경산시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-513000000360": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증 보행 장애인 특별교통수단 운영 지원",
+    "target": "중증 보행 장애인, 거동 불편 65세 이상",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-514000000101": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "군위군민 예방접종 서비스 지원",
+    "target": "만 60~64세 군위군민, 기초수급자, 장애인, 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-514000000102": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군위군 인공수정소 개설 수의사 지원",
+    "target": "군위군 인공수정소 개설 수의사, 가축인공수정사",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-514000000104": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "군위군 과수농가 농자재 지원",
+    "target": "군위군 주소 등록 과수농가, 농업인, 영농조합법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-514000000113": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "군위군 임산부 건강관리 서비스 지원",
+    "target": "군위군 거주 임산부 또는 신생아 부모",
+    "amount": "본인부담금 최대 40만원",
+    "show": true,
+    "special": false
+  },
+  "g24-514000000114": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군위군 양돈농가 인공수정 및 톱밥 지원",
+    "target": "군위군 주소 둔 돼지 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-514000000115": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "군위군 한부모 가정 가계지원비 지급",
+    "target": "군위군 관내 한부모 가정",
+    "amount": "가구당 7만원",
+    "show": true,
+    "special": false
+  },
+  "g24-514000000116": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "관내학교 학생 후식용 제철과일 지원",
+    "target": "군위군 관내 초,중,고등학교 학생 전원",
+    "amount": "주 2회",
+    "show": true,
+    "special": false
+  },
+  "g24-514000000117": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군위군 친환경 농업자재 구입비 일부 보조",
+    "target": "군위군 친환경 인증 농가, 농업 경영체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-514000000118": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군위군 양봉농가 전반적인 지원",
+    "target": "군위군 관내 양봉농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-514000000121": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군위군 과수농가 생산 자재 지원",
+    "target": "군위군 주소 등록 과수농가, 농업인, 영농조합법인",
+    "amount": "보조 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-514000000122": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "군위군 출생양육비 및 입학생 지원금 지급",
+    "target": "군위군 거주 자녀 양육 부모, 중3/고/초 입학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-514100000002": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "군위군 농작물 재해보험료 지원",
+    "target": "군위군 거주, 농지 소유 농가 (1,000㎡ 이상)",
+    "amount": "총 보험료의 10% 본인 부담",
+    "show": true,
+    "special": false
+  },
+  "g24-514100000010": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "농업경영체 유기질비료 지원",
+    "target": "농업경영체 등록 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000116": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의성군 농업인 맞춤형 농자재 지원",
+    "target": "의성군 주소 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000120": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "만 14세 이상 의성군민 지역화폐 할인 및 소득공제",
+    "target": "만 14세 이상 의성군민",
+    "amount": "최대 20% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000132": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "농작물재해보험료 지원사업",
+    "target": "농식품부 지정 품목 가입 요건 충족자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-517000000109": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역화폐(영양사랑상품권) 구매 시 10% 할인",
+    "target": "만14세 이상 영양사랑상품권 구매자",
+    "amount": "10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-517000000110": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현물",
+    "summary": "만3세~5세 유아 영양제 연 3통 제공",
+    "target": "관내 주민등록 만3세~5세 유아",
+    "amount": "연 3통",
+    "show": true,
+    "special": false
+  },
+  "g24-517000000111": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 토양개량제 구입비 50% 지원",
+    "target": "관내 농업인",
+    "amount": "구입비의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-517000000112": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자산형성지원사업 가입자 본인적립금 지원",
+    "target": "자산형성지원사업 가입자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-517000000113": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "소형 양수장비 구입비 50% 지원",
+    "target": "관내 농업인",
+    "amount": "최대 1백만원 한도 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-517000000114": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "부모 영양군 주소지 대학생 장학금 지급",
+    "target": "부모 영양군 주소지 대학생",
+    "amount": "반값",
+    "show": true,
+    "special": false
+  },
+  "g24-517000000119": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영양군 주민 대상 안전사고 사망 시 보험금 지급",
+    "target": "영양군 주민등록자",
+    "amount": "5000",
+    "show": true,
+    "special": true
+  },
+  "g24-518000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양돈농가 생균제 구매 자금 지원",
+    "target": "축산업 허가된 양돈농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양봉농가 자동탈봉기 구매 자금 지원",
+    "target": "영덕군 양봉농가등록 꿀벌 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000106": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "HIV 감염 확진자 진료비 지원",
+    "target": "HIV 감염 확진 실명 등록자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-518000000107": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "영덕군 출생/입양아동 건강보험료 지원",
+    "target": "영덕군 출생/입양아동 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양봉농가 소초 구매 자금 지원",
+    "target": "영덕군 양봉농가등록 꿀벌 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000109": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "신애리 경로당 공동목욕탕 전기요금 지원",
+    "target": "신애리 경로당",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산농가 톱밥 구매 자금 지원",
+    "target": "소·돼지·젖소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000111": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "어린이, 임신부, 어르신 등 인플루엔자 예방접종 지원",
+    "target": "생후 6개월~만13세 어린이, 임신부, 만65세 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000112": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사망 참전유공자 배우자 월 5만원 수당 지급",
+    "target": "사망 참전유공자 배우자",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-518000000113": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임신 초기 임신부 산전검사 지원",
+    "target": "관내 주소지 임신 초기 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000114": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영덕사랑상품권 구매 시 5~10% 할인",
+    "target": "만19세 이상 영덕사랑상품권 구매자",
+    "amount": "5~10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000115": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "국가유공자 등 명절 위문품 지급",
+    "target": "국가유공자, 사례관리대상자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000116": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 한부모가정 명절 위문품(양곡) 지급",
+    "target": "저소득 한부모가족",
+    "amount": "양곡 10kg 1포 (연 2회)",
+    "show": true,
+    "special": false
   }
 }
