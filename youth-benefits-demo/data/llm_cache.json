@@ -100699,5 +100699,890 @@
     "amount": "양곡 10kg 1포 (연 2회)",
     "show": true,
     "special": false
+  },
+  "g24-512000000108": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역아동센터 급식비 보조금 지급",
+    "target": "지역아동센터",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "과수 재배 농업인 농기계, 포장재 구입비 지원",
+    "target": "문경시 주소 둔 과수 재배 농업인",
+    "amount": "구입비용 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농산물 유통기반 조성 지원",
+    "target": "문경시 거주 농업 경영체",
+    "amount": "처리비용 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000111": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "문경 약돌한우 고급육 출하 장려금 지원",
+    "target": "문경 약돌한우 브랜드 사육농가",
+    "amount": "장려금",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산분뇨 처리용 톱밥, 축산환경개선제 지원",
+    "target": "축산업 허가·등록된 소, 돼지, 닭, 말 사육농가",
+    "amount": "구입비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000116": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어르신 목욕 및 이·미용비 연 6만원 지원",
+    "target": "문경시 거주 70세 이상 노인",
+    "amount": "연 6만원",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000121": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "셋째아 이상 출생아 건강보험료 지원",
+    "target": "문경시 주소 둔 셋째아 이상 출생아",
+    "amount": "건강보험료",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000122": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시설아동 부식비 및 김장비 1인 5만원 지원",
+    "target": "시설아동",
+    "amount": "1인 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000124": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양식장 첨단 기자재, 액화산소 구입비 지원",
+    "target": "양식어업 허가받고 운영 중인 어가",
+    "amount": "구입비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000129": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "오미자 재배 농가 자재 구입비 지원",
+    "target": "농업경영체 등록된 관내 오미자 재배농가",
+    "amount": "구입비용 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000130": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "채소특작 재배농가 농업용 자재 구입비 지원",
+    "target": "농업경영체 등록된 관내 채소특작 재배농가",
+    "amount": "구입비용 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000131": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "과수 재배 농업인 농기계 등 자재 구입비 지원",
+    "target": "문경시 주소 둔 과수 재배 농업인",
+    "amount": "구입비용 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000132": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만19세 이상 개인 문경사랑상품권 구매 지원",
+    "target": "만19세 이상 개인",
+    "amount": "6%~10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000133": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "당뇨환자 안저검사 쿠폰 지급",
+    "target": "당뇨환자",
+    "amount": "안저검사(연 1회)",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000134": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양돈농가 신규 후보돈 구입비 지원",
+    "target": "축산업 허가·등록된 양돈농가",
+    "amount": "구입비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000135": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "원예 소득 작물 재배농가 농자재 구입비 지원",
+    "target": "농업경영체 등록된 관내 원예소득작물 재배농가",
+    "amount": "구입비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000138": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농업 신기술 보급 시범사업 지원",
+    "target": "관내 농업경영체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-512000000144": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시민 민안전보험 사망 시 보험금 지급",
+    "target": "문경시 지역 주민",
+    "amount": "최대 3000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-513000000103": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "차상위계층 주거환경개선 지원",
+    "target": "경산시 거주 차상위계층 자가 소유자",
+    "amount": "수선유지급여",
+    "show": true,
+    "special": false
+  },
+  "g24-513000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 재배농가 신선도유지기 등 지원",
+    "target": "과수 재배농가 및 영농법인",
+    "amount": "기자재 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000138": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 및 영유아 가구 육아용품 무료 대여",
+    "target": "관내 임산부 및 영유아 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000139": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만12세 이하 영유아 국가필수예방접종 지원",
+    "target": "만12세 이하 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000140": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산업 허가·등록 농가 구조개선 지원",
+    "target": "축산업 허가·등록된 관내 축산 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000141": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산업 허가·등록 농가 가축재해보험료 지원",
+    "target": "축산업 허가·등록된 관내 축산 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000142": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산업 허가·등록 농가 광역한우브랜드 지원",
+    "target": "축산업 허가·등록된 관내 축산 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000145": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산업 허가·등록 한우, 낙농 농가 순환농업 지원",
+    "target": "축산업 허가·등록된 관내 한우, 낙농 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000146": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산업 허가·등록 양돈 농가 양돈 지원",
+    "target": "축산업 허가·등록된 관내 양돈 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000147": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "양봉업 등록 농가 양봉산업 육성 지원",
+    "target": "양봉업 등록된 관내 양봉농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000148": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "관내 양봉 등록 농가 양봉 지원",
+    "target": "관내 양봉사육등록된 양봉농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000149": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "사료작물 재배자 사일리지, 건초 제조 지원",
+    "target": "사료작물 재배자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000150": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "사료작물 재배 희망자 종자 구입 지원",
+    "target": "사료작물 재배를 위해 종자를 파종하고자 하는자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000151": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "조사료 전문 생산자 퇴액비 지원",
+    "target": "조사료 전문 생산이 가능한자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000152": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산농가 소독시설 방역시설 설치 지원",
+    "target": "소독시설이 필요한 축산농가, 축산관련 집단시설 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000153": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "관내 축산업 허가등록 농가 자원 관리 지원",
+    "target": "관내 축산업 허가등록된 축산 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000154": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산업 허가·등록 농가 축산 지원",
+    "target": "축산업 허가·등록된 관내 축산 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-515000000164": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "6.25참전유공자 월 5만원 교통비 지원",
+    "target": "6.25참전유공자",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-515000000170": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "군민 자연재해, 사고, 대중교통 이용 사망 시 보험금 지급",
+    "target": "지역 주민 모두",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "자두 GAP 인증 농가 생산기반 조성 지원",
+    "target": "고품질 자두 생산기반조성 사업 대상/희망 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "GAP 사과 재배단지 조성 지원",
+    "target": "GAP 사업 참여/희망 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "과수 재배 농업인 고효율 방제 부착기 설치 지원",
+    "target": "과수 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000114": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임산부에게 임신진단비 및 기형아검사비 지원",
+    "target": "임산부",
+    "amount": "각 5만원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000116": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 주소 둔 농가 객토사업 보조금 지원",
+    "target": "관내 주소 둔 객토사업 희망 농가",
+    "amount": "보조금",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000119": {
+    "category": "육아",
+    "tags": [
+      "임신·출산",
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부·영유아 회원 장난감·도서 14일 무료 대여",
+    "target": "관내 거주 임산부 및 영유아 회원",
+    "amount": "무료 대여",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000120": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "과수 재배 농업인 이상기상 대응 기술 보급",
+    "target": "과수 재배 농업인, 작목반, 법인, 연구회",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000121": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고추육묘지원사업 참여 육묘장 농자재 지원",
+    "target": "육묘업 등록 후 고추육묘지원사업 참여 육묘장",
+    "amount": "농약 및 농자재",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000122": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부등록자 철분제, 엽산제, 영양제 지원",
+    "target": "임산부등록자",
+    "amount": "철분제, 엽산제, 영양제",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000124": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "식육판매업소 기자재 구입비용 지원",
+    "target": "식육판매업소 및 식육즉석판매가공업소",
+    "amount": "기자재 구입비용",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000125": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "벼 재배 농가 병충해 방제 사업비 지원",
+    "target": "벼 재배규모 일정 이상 농가",
+    "amount": "방제사업비",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000129": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "벼육묘장 시설 및 상토 비용 지원",
+    "target": "쌀전업농, 쌀작목반, 생산자단체, 벼 재배농가",
+    "amount": "시설 설치 비용, 상토 비용",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000132": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "복숭아 재배단지 조성 기술 지도 지원",
+    "target": "최고품질 복숭아 사업 기존·신규 희망 농가",
+    "amount": "기술 지도",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000136": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고추 GAP재배 희망농가 안전 생산체계 유지 지원",
+    "target": "고추 GAP재배 희망농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000137": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 농산물 택배비 50% 지원",
+    "target": "청송군 주소 둔 농업경영체 또는 주민등록 세대주",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000138": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "노지채소 가뭄대비 자동관수관비장치 보급 지원",
+    "target": "가뭄 취약 노지고추, 시설과채 재배농가",
+    "amount": "자동관수관비장치",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000144": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "출산가정 산모·신생아 건강관리사 지원",
+    "target": "기준중위소득 150% 이하 출산가정",
+    "amount": "바우처",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000145": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고령자 등 소규모 농가 고추모종 구입 보조금 지원",
+    "target": "만 60세 이상 고령자, 장애인, 부녀자 독농가",
+    "amount": "보조금 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000153": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "꽃가루은행 운영 단체 기술지도 및 재료 지원",
+    "target": "꽃가루은행 운영 중인 작목반 또는 단체",
+    "amount": "운영 인건비, 재료",
+    "show": true,
+    "special": false
+  },
+  "g24-516000000161": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "과수 돌발해충 피해 저감 친환경 방제 지원",
+    "target": "돌발해충 피해 심한 과수 재배농가",
+    "amount": "친환경 농자재",
+    "show": true,
+    "special": false
+  },
+  "g24-517000000103": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 화훼 재배농가 종묘대 구입비 지원",
+    "target": "관내 화훼 재배 농가",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-517000000106": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "만 70세 이상 노인 등 무료 목욕·이미용 바우처 지급",
+    "target": "만 70세 이상 노인 및 만 65세 이상 기초수급자",
+    "amount": "바우처",
+    "show": true,
+    "special": false
+  },
+  "g24-517000000108": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득가구 명절 위문금 지급",
+    "target": "기초수급자, 차상위계층, 보훈대상자",
+    "amount": "위문금",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000117": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영덕군 농업인 친환경 농산물 생산장려금 지원",
+    "target": "영덕군 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000119": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "신혼(예비)부부 풍진 검사 및 접종비 지원",
+    "target": "관내 주소지 신혼(예비)부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000128": {
+    "category": "건강",
+    "tags": [
+      "임신"
+    ],
+    "support_type": "현금",
+    "summary": "임신부 산전검사비 지원",
+    "target": "관내 주소지 임신부",
+    "amount": "최대 4만원",
+    "show": true,
+    "special": false
+  },
+  "g24-518000000131": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영덕군 군민안전보험 지원",
+    "target": "영덕군 지역 주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-519000000102": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "65세 이상 기초연금수급자 노인일자리 지원",
+    "target": "65세 이상 기초연금수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000107": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가예방접종 실시 지원",
+    "target": "12세 이하, 65세 이상, 여성청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000109": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "청도군 벼 육묘용 농자재 지원",
+    "target": "청도군 벼 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000110": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "청도군 고품질 친환경 쌀 생산 지원",
+    "target": "청도군 벼 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000111": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "원예소득작목 육성 지원",
+    "target": "채소·특용작물 재배 농가 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000114": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득아동 수학여행 경비 지원",
+    "target": "초중고 기초교육급여 보장 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000115": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청도사랑상품권 5~10% 할인 및 소득공제",
+    "target": "만 14세 이상 청도군민",
+    "amount": "5~10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000117": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청도군 인재육성 장학금 지급",
+    "target": "보호자 청도군 거주 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000119": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "축산농가 불량 모돈 갱신 비용 지원",
+    "target": "축산농가(양돈농가)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000124": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "민속채소 및 양채류 육성 지원",
+    "target": "민속채소·양채류 재배농가 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000129": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내농업인 농업용 중장비 면허취득 80% 지원",
+    "target": "관내 농업인",
+    "amount": "80%",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000131": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초의료급여 수급자 간병비 지원",
+    "target": "기초의료급여 수급자 중 보호자 없는 자",
+    "amount": "최대 1,500천원",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000134": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "65세 이상 독거노인 가스안전차단기 설치",
+    "target": "65세 이상 독거노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000136": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지급",
+    "target": "청도군 거주 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-519000000137": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사망 참전유공자 배우자 복지수당 지급",
+    "target": "사망 참전유공자 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-519000000138": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청도군 보훈대상자 명예수당 지급",
+    "target": "청도군 거주 65세 이상 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
