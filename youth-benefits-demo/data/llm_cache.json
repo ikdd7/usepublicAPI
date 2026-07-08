@@ -102957,5 +102957,721 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-523000000149": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업인 포장재 지원",
+    "target": "온라인 판매 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000151": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "명품쌀 재배단지 종자대, 영농자재비 지원",
+    "target": "농업인, 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000152": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 유인자재 및 조류 방제자재 공급",
+    "target": "사과, 복숭아 재배농가(3,300㎡ 이상)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000153": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 사망위로금 지급",
+    "target": "사망한 국가보훈대상자 유가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-523000000154": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "청년농업인 경영개선 시설, 설비 지원",
+    "target": "청년농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000156": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "원예농가 관수시설, 저온저장고 등 지원",
+    "target": "예천군 관내 원예작물 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000161": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지급",
+    "target": "예천군 거주 만65세 이상 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-523000000166": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "임신부 초음파검사 쿠폰 지원",
+    "target": "예천군 거주 임신부 등록자",
+    "amount": "1인 5매",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000170": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "시설원예농가 내재해형하우스 지원",
+    "target": "예천군 관내 원예작물 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000172": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 농자재 구입비 지원",
+    "target": "친환경인증 및 친환경진입 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000173": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임신부 영양제(엽산제, 철분제) 지원",
+    "target": "예천군 거주 임신부 등록자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000176": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "쪽파 농가 하우스, 농기자재 지원",
+    "target": "예천군 관내 원예작물 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000178": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "비가림시설 및 노후하우스 자재 지원",
+    "target": "예천군 관내 원예작물 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000179": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "임신부 기형아검사 쿠폰 지원",
+    "target": "예천군 거주 임신부 등록자",
+    "amount": "1인 1매",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000180": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농작물 재해보험료 지원",
+    "target": "보험대상 농작물 경작 개인·법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000186": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과채류 수정벌 공급",
+    "target": "예천군 관내 과채류 재배농가 및 작목반",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000187": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "가축전염병 예방접종 시술비 지원",
+    "target": "예천군 관내 소규모 소, 개 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000189": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "할인",
+    "summary": "지역화폐(예천사랑상품권) 10% 할인",
+    "target": "만 19세 이상 상품권 구매자",
+    "amount": "10%",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000191": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "예비부모 건강검진 지원",
+    "target": "예천군 거주 임신 준비 중인 예비부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-523000000556": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과채류 엽채류 품질향상 기술 지원",
+    "target": "예천군 관내 과채류 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000141": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "임산물 생산단지 조성 인건비 50% 지원",
+    "target": "송이산주 또는 송이산 임차인",
+    "amount": "인건비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000142": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농작물 드론 방제비 지원",
+    "target": "농업경영체 등록 농작물 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000143": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "사과원 고품질 과실생산기술 컨설팅 및 자재 지원",
+    "target": "봉화군 거주 과수재배 작목반, 영농조합법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000145": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양봉 농가 채밀기 구입비 지원",
+    "target": "봉화군 양봉 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000146": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농업용 드론 교육 훈련비 지원",
+    "target": "농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000148": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "결혼 예식 장려금 지원",
+    "target": "봉화군 거주 및 관내 예식 혼주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000149": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양돈농가 구충제 구입 지원",
+    "target": "양돈 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000151": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "수박 재배 농가 영농자재 지원",
+    "target": "봉화군 주소 및 농지 둔 원예작물 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000152": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농산물 직거래 택배비 지원",
+    "target": "봉화군 거주 농업인, 전년 택배 50건 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000153": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "표고원목(배지) 구입비 50% 지원",
+    "target": "표고버섯 재배 임가",
+    "amount": "구입비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000156": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "비닐하우스 고온 피해 경감시설 지원",
+    "target": "봉화군 주소 및 농지 둔 원예작물 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000157": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "원예작물 중형 관정 지원",
+    "target": "봉화군 주소 및 농지 둔 원예작물 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000158": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "채소(배추,무) 영농자재 지원",
+    "target": "봉화군 주소 및 농지 둔 원예작물 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000159": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "산양삼 종자 구입비 50% 지원",
+    "target": "산양삼 생산신고 임가",
+    "amount": "구입비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000160": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "개암(헤이즐넛) 묘목 등 구입비 70% 지원",
+    "target": "개암재배 희망 임가, 임업인 등",
+    "amount": "구입비 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000161": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "자돈설사 예방백신 구입 지원",
+    "target": "양돈 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000162": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 폭염대비 자재 지원",
+    "target": "봉화군 거주 과수재배 농업인, 작목반 등",
+    "amount": "지정단가 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000163": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경 인증 농가 자재 구입 지원",
+    "target": "봉화군 주소 둔 친환경농산물 인증 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000164": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 차량 소독시설 지원",
+    "target": "축사 출입구 차량 소독시설 설치 희망 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000167": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "봉화한우 고급육 생산 지원",
+    "target": "봉화한약우 사육, 참품한우 출하 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000173": {
+    "category": "복지",
+    "tags": [
+      "기타"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 및 유족 보훈수당 지원",
+    "target": "김해시 거주 참전유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-535000000174": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "중증장애인 전동휠체어 소모품비 최대 4만원 지원",
+    "target": "기초수급 전동보장구 사용 장애인",
+    "amount": "최대 4만원",
+    "show": true,
+    "special": true
+  },
+  "g24-535000000179": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 중증장애인 신문 구독 지원",
+    "target": "저소득 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000180": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 국민건강보험료 지원",
+    "target": "김해시 거주 최저보험료 이하 지역가입자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000181": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "주촌면 돼지농가 미생물제제 구입비 60% 지원",
+    "target": "주촌면 돼지 사육농가",
+    "amount": "60%",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000185": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "화훼 농가 포장 박스비 지원",
+    "target": "김해시 거주 화훼 재배 농업경영주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000187": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "양돈농가 미생물제제 구입비 지원",
+    "target": "관내 돼지 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000188": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "김해시 산모·신생아 건강관리 본인부담금 지원",
+    "target": "김해시 거주 중위소득 180% 이하 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000605": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "김해시 시민안전보험 사망 보상금 지급",
+    "target": "김해시 지역 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000608": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "다자녀"
+    ],
+    "support_type": "대출",
+    "summary": "신혼·다자녀가구 노후주택 리모델링 지원",
+    "target": "신혼부부 및 다자녀가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000101": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "소 사육농가 볏짚 사일리지 제조 비닐랩 지원",
+    "target": "볏짚 사료화 소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000102": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "의료급여수급권자 암검진 비급여비용 지원",
+    "target": "경남 거주 의료급여수급권자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000103": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 명절 위문금 2만원 지원",
+    "target": "기초수급자, 한부모가족, 100세 이상 노인",
+    "amount": "2만원",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000104": {
+    "category": "교육",
+    "tags": [
+      "기타"
+    ],
+    "support_type": "현금",
+    "summary": "결혼이민자 및 다문화청소년 기술취득비 지원",
+    "target": "관내 거주 결혼이민자 및 다문화청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000105": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "관내 가축 사육농가 분뇨 악취저감 지원",
+    "target": "관내 축산업 허가 완료 가축 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000110": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 양봉농가 기자재 지원",
+    "target": "관내 양봉등록 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000112": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "밀양시 아이돌봄서비스 본인부담금 차등 지원",
+    "target": "밀양시 거주 12세 이하 자녀 가정",
+    "amount": "최대 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000115": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "밀양사랑상품권 할인 판매",
+    "target": "밀양사랑상품권 구매자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000117": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "밀양시 출산가정 산모·신생아 건강관리 지원",
+    "target": "밀양시 전 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000606": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "밀양시 출생아 출산 축하용품 지급",
+    "target": "밀양시 출생아",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
