@@ -104813,5 +104813,662 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-535000000171": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "중증장애인 급여 추가 지원",
+    "target": "장애인연금 수급 기초·의료급여 수급자 중 2·3급 중복 등록장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-537000000137": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "민간보육교사 명절휴가비 지급",
+    "target": "정부미지원 어린이집 보육교사(담임)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000138": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보육교직원 여름휴가비 5만원 지원",
+    "target": "7월 10일 현재 근무 보육교직원",
+    "amount": "1인 50천원",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000142": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "어린이·사회복지시설 급식소 위생·영양 관리 지원",
+    "target": "영양사 없는 100인 미만 어린이집, 취약계층 급식 시설",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000175": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "응급분만 이송비용 지원",
+    "target": "응급분만 산모·신생아, 응급상황 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000201": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 및 유족 의료비 지원",
+    "target": "거제시 거주 독립유공자 유족 및 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-537000000202": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "정신질환자·고위험군 정신건강 상담 및 사례관리",
+    "target": "정신질환자, 정신건강 고위험군, 자살 고위험군, 거제 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000207": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "재난 대응인력·시민 대상 심리 지원",
+    "target": "재난 대응인력, 일반시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000212": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아동·청소년 부모빚 대물림 방지 법률지원",
+    "target": "거제시 24세 이하 아동·청소년 (상속채무 관련)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000216": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "감면",
+    "summary": "보철·생업용 자동차 환경개선부담금 감면",
+    "target": "수급권자, 국가유공자, 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-537000000220": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "열린어린이집 보육교직원 월 3만원 수당 지원",
+    "target": "열린어린이집 원장 및 담임교사",
+    "amount": "1인 월 30천원",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000221": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국가산단 외 소규모 기업 환경개선사업 지원",
+    "target": "거제시 국가산단 외 공단·협동화단지 소규모 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000224": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "반려동물등록 대행수수료 지급",
+    "target": "관내 동물병원",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000001437": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "시민 정보화 교육 지원",
+    "target": "거제시민 누구나 (장애인 포함)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000001444": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "감면",
+    "summary": "상수도 요금 감면 지원",
+    "target": "생계급여 수급자, 중증장애인, 국가유공자, 다자녀 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-538000000102": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 가정 밑반찬 및 도시락 배달",
+    "target": "독거노인, 한부모, 장애인 등 저소득 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-538000000106": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의로운 시민 위로금 지원",
+    "target": "양산시 거주 의로운 시민",
+    "amount": "최대 1천만원",
+    "show": true,
+    "special": false
+  },
+  "g24-538000000107": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "감면",
+    "summary": "저소득 노인·장애인 건강보험료 전액 지원",
+    "target": "국민건강보험 지역가입자 노인·장애인 세대",
+    "amount": "전액",
+    "show": true,
+    "special": true
+  },
+  "g24-538000000113": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 서비스 지원",
+    "target": "양산시 주민등록 전 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-538000000114": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 추가 급여 지원",
+    "target": "장애인활동지원 또는 장애인도우미 이용자",
+    "amount": "월 20~40시간",
+    "show": true,
+    "special": false
+  },
+  "g24-538000000116": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육보조금 지원",
+    "target": "만 18세 미만 가정위탁보호 아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-541000000104": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "농촌 특수질병 검진비 지원",
+    "target": "만 30세 이상 의료급여수급권자, 건강보험료 하위 50%",
+    "amount": "검진비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000107": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 보훈명예수당 지급",
+    "target": "국가보훈대상자, 참전유공자 배우자",
+    "amount": "매월 지급",
+    "show": true,
+    "special": true
+  },
+  "g24-541000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "독거어르신 월동용품 지원",
+    "target": "만 65세 이상 독거노인",
+    "amount": "월동용품",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000112": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 65세 이상 노인·장애인 보험료 지원",
+    "target": "65세 이상 노인 및 장애인 세대주",
+    "amount": "보험료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000113": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "출산장려 지원금 지급",
+    "target": "출생신고 기준 3개월 이상 거주자",
+    "amount": "지원금",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000117": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "외국인 체류지 변경신고 절차 간소화",
+    "target": "외국인, 외국국적 동포",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000118": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "상하수도 요금 감면",
+    "target": "수급자, 국가유공자, 장애인, 한부모, 다자녀",
+    "amount": "요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000120": {
+    "category": "일자리",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "공공산림가꾸기 일자리 제공",
+    "target": "만 18세 이상 취업취약계층",
+    "amount": "일자리",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000122": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "중소기업 경영안정자금 지원",
+    "target": "창녕군내 중소기업체",
+    "amount": "융자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000123": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "창업 기업 신규 고용인력 보조금 지원",
+    "target": "창업 7년 미만 관내 중소기업",
+    "amount": "고용보조금",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000128": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "쿨루프(시원지붕) 시공비 지원",
+    "target": "사회취약가구 및 일반가구 주택",
+    "amount": "시공비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000129": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "신규 급수공사비 지원",
+    "target": "창녕군 관내 전입 신고 군민",
+    "amount": "공사비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000130": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "탄소중립포인트제 인센티브 지급",
+    "target": "탄소중립포인트제 회원가입 후 에너지 절감 세대",
+    "amount": "포인트 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000131": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어르신 폐렴구균 예방접종 지원",
+    "target": "만 65세 이상 폐렴구균 미접종자",
+    "amount": "백신 무료 접종",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000132": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어린이 국가필수예방접종 지원",
+    "target": "만 12세 이하 어린이",
+    "amount": "전액 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000134": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "석면 피해 구제급여 지급",
+    "target": "석면 질병 피해 인정자",
+    "amount": "구제급여",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000136": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "야생동물 농작물 피해보상 지원",
+    "target": "농작물 피해 농업인",
+    "amount": "피해보상",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000137": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "공동 농작업 대행료 지원",
+    "target": "벼 재배 농지",
+    "amount": "대행료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000138": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "친환경농산물 인증수수료 지원",
+    "target": "관내 친환경 인증 농가",
+    "amount": "인증수수료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000141": {
+    "category": "일자리",
+    "tags": [
+      "18세 이상 75세 이하",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "창녕군 거주자 대상 공공일자리 지원",
+    "target": "18세 이상 75세 이하, 창녕군 거주, 재산 4억 미만, 기준중위소득 70% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-542000000644": {
+    "category": "건강",
+    "tags": [
+      "55세 이상"
+    ],
+    "support_type": "서비스",
+    "summary": "고성군 거주 55세 이상 대상포진 예방접종 지원",
+    "target": "고성군 1년 이상 거주, 55세 이상, 대상포진 미접종자",
+    "amount": "생백신 1회 예방접종",
+    "show": true,
+    "special": false
+  },
+  "g24-542000000651": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고성군 전입 세대 전입축하금 및 세금 지원",
+    "target": "전입일 기준 1년 이전부터 타 시군구 거주, 1명 이상 전입 세대",
+    "amount": "전입축하금, 주민세, 재산세 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "학대 피해 아동 병원비 및 심리검사비 지원",
+    "target": "18세 미만 학대 피해 아동",
+    "amount": "병원비, 심리검사비 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-543000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "남해군 의로운 군민 위로금 지원",
+    "target": "남해군 거주 의로운 군민 본인 또는 유족",
+    "amount": "최대 1천만원 이하",
+    "show": true,
+    "special": true
+  },
+  "g24-543000000112": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "남해군 청년·신혼부부 주거자금 대출이자 지원",
+    "target": "남해군 거주 19~39세 청년, 혼인 5년 이내 신혼부부",
+    "amount": "대출이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000113": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "친환경 인증 농가·작목반 보상금 지원",
+    "target": "친환경 인증 농가, 작목반",
+    "amount": "친환경 인증 면적 따른 보상금",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000114": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "영세농 유기질 비료 지원",
+    "target": "농업경영체 등록 농가",
+    "amount": "유기질 비료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000116": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "어려운 계층 위문품 지원",
+    "target": "저소득 세대, 보훈가족, 사회복지시설",
+    "amount": "쌀, 과일, 생필품 등",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000120": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육보조금 지원",
+    "target": "18세 미만 가정위탁아동",
+    "amount": "양육보조금",
+    "show": true,
+    "special": true
+  },
+  "g24-543000000123": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경남도 산모·신생아 건강관리 지원",
+    "target": "경상남도 거주 산모",
+    "amount": "최대 15일 건강관리 서비스",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000220": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "홀로 사는 노인 공동거주시설 난방비 지원",
+    "target": "65세 이상 독거노인, 노인가장세대",
+    "amount": "난방비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-543000000222": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "남해군 군민안전보험 지원",
+    "target": "남해군 거주 모든 군민(외국인 포함)",
+    "amount": "사고 유형별 최대 2000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-544000000101": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "불우세대 명절 위문품 지원",
+    "target": "기초생활수급자, 차상위계층, 어려운 군민",
+    "amount": "위문품 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-544000000102": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "친환경 농업 인증 신규·연장 농가 지원",
+    "target": "관내 주소지 친환경 농업 신규·연장 농가/단체",
+    "amount": "인증 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-544000000103": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 주거환경 정비 지원",
+    "target": "기초생활수급자, 차상위계층",
+    "amount": "주택 보수",
+    "show": true,
+    "special": false
+  },
+  "g24-544000000104": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "차상위계층 국민건강보험료 지원",
+    "target": "차상위계층",
+    "amount": "국민건강보험료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-544000000107": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "소득화 특화작목 육성 지원",
+    "target": "특화작목 재배 농업인",
+    "amount": "영양제 50% 지원 등",
+    "show": true,
+    "special": false
+  },
+  "g24-544000000108": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "하동군 무료 예방접종 지원",
+    "target": "60~64세, 수급자, 장애인, 국가유공자, 65세 이상",
+    "amount": "무료 예방접종",
+    "show": true,
+    "special": false
+  },
+  "g24-544000000110": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "소규모 농장 가축 예방접종 지원",
+    "target": "소규모 소 사육 농장, 50두 미만 농가",
+    "amount": "가축 예방접종 지원",
+    "show": true,
+    "special": false
   }
 }
