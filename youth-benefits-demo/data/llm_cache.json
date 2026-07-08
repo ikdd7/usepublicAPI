@@ -106177,5 +106177,233 @@
     "amount": "설치비용 일부",
     "show": true,
     "special": false
+  },
+  "g24-547000000115": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "35주 이상 임부에게 육아용품 쿠폰 제공",
+    "target": "35주 이상 임부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000116": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산농가 악취방지제 구입비 50% 지원",
+    "target": "관내 축산업등록 농가",
+    "amount": "최대 3백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000119": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "취약계층 방문건강관리 서비스 제공",
+    "target": "만성질환 위험군, 노인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000120": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "논타작물 재배 참여농가 추가 보상금 지급",
+    "target": "논타작물 재배 지원사업 참여농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000123": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농작물 재해보험 가입 보험료 지원",
+    "target": "보험대상 농작물 경작 개인·법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000124": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "기초생활수급자·장애인 쓰레기봉투 지급",
+    "target": "생계·의료 수급자, 장애인 가구",
+    "amount": "월 3매",
+    "show": true,
+    "special": true
+  },
+  "g24-547000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "시설원예 연작장해 대책 비용 지원",
+    "target": "시설원예 10a이상 재배농가",
+    "amount": "하우스당 296천원",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000128": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "영아 대상 사과 퓨레 이유식 지원",
+    "target": "거창군 관내 영아(0~12개월) 양육 세대",
+    "amount": "연간 2박스",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000129": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "거창사랑상품권 구매 지원",
+    "target": "19세 이상 거창군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000139": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "34세 이하 노동자 애향장려금 지원",
+    "target": "군 소재 기업 6개월 이상 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000140": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 보급종 구매 농가 차액 지원",
+    "target": "벼 보급종 구매 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000142": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리사 지원",
+    "target": "기준중위소득 150% 이하 출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000147": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "노인성질환자 위생용품 지원",
+    "target": "거창군 거주 재가 노인성질환자",
+    "amount": "월 2팩 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000148": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "치매환자 조호물품 지원",
+    "target": "치매안심시스템 등록 치매환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-547000000149": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장학금 지원",
+    "target": "고등학생, 대학생, 만학도 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000150": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "사회적 취약계층 상수도 요금 감면",
+    "target": "수급권자, 차상위, 중증장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-547000000151": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "사회적 취약계층 하수도 요금 감면",
+    "target": "수급권자, 차상위, 중증장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-547000000154": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지하 누수 발생 수용가 상수도 요금 환급",
+    "target": "지하 누수 발생 수용가",
+    "amount": "50% 환급",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000155": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지하 누수 발생 수용가 하수도 요금 환급",
+    "target": "지하 누수 발생 수용가",
+    "amount": "전부 환급",
+    "show": true,
+    "special": false
+  },
+  "g24-548000000102": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 노후 전기시설 교체 지원",
+    "target": "기초생활수급자, 차상위, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
