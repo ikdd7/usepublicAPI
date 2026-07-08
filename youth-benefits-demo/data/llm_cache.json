@@ -103673,5 +103673,687 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-536000000607": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "밀양시 난임부부 난임시술 약제비 지원",
+    "target": "밀양시 거주 난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-536000000609": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "공공산후조리원 이용 감면료 지원",
+    "target": "밀양공공산후조리원 이용자 중 감면대상",
+    "amount": "70% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-537000000103": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 장애인 정보소식지 구독료 지원",
+    "target": "저소득 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000105": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "사회복지시설 및 어려운 세대 위문품 지원",
+    "target": "사회복지시설, 독거노인, 저소득 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000106": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 틈새 대상 통합사례관리 대상자 지원",
+    "target": "통합사례관리 대상자, 중위소득 75% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000107": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 가축사육농가 가축분뇨 수분조절재 지원",
+    "target": "관내 가축사육업 등록 및 허가농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양봉농가 양봉기자재 및 꿀벌 화분 지원",
+    "target": "양봉사육농가, 양봉관련단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "나잠어업인 잠수장비 구입비 지원",
+    "target": "나잠어업 신고 및 경영체 등록 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000118": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "거제시민 대상 인플루엔자 무료 예방접종 지원",
+    "target": "거제시민 중 61~64세, 장애인, 의료급여 수급자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000119": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "장애인 활동지원 추가 서비스 시간 바우처 제공",
+    "target": "장애인 활동지원 대상자 중 서비스 시간 부족자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000120": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 악취방지 개선 생균제 등 지원",
+    "target": "관내 가축사육업 등록 및 허가농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000124": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "단독주택 도시가스 공급배관 설치 지원",
+    "target": "도시가스 공급가능지역 내 희망자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000126": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "거제시 등록 임산부 태아 기형아검사비 지원",
+    "target": "거제시 보건소 등록 임산부",
+    "amount": "2만원 할인쿠폰",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000127": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "거제시 등록 임산부 영양제 지원",
+    "target": "거제시 관내 등록 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000131": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 65세 이상 노인·장애인 세대 건강보험료 지원",
+    "target": "65세 이상 노인·장애인 세대, 거제시 거주 지역가입자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000132": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "거제사랑상품권 할인 구매 및 소득공제 지원",
+    "target": "거제시민",
+    "amount": "5~10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000133": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 환풍기 등 설치 환경개선 지원",
+    "target": "관내 가축사육업 등록 및 허가농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000134": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "긴급지원대상자 등 푸드뱅크 지원",
+    "target": "긴급지원대상자, 차상위계층, 기초생활수급자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000135": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "자원봉사자 보험 가입 지원",
+    "target": "1365 자원봉사포털 등록 자원봉사자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-537000000136": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 보육교사 처우개선비 지원",
+    "target": "어린이집 보육교사, 대체교사",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-538000000118": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 엽산제 및 철분제 제공",
+    "target": "관내 거주 등록 임산부",
+    "amount": "엽산제 최대 2개",
+    "show": true,
+    "special": false
+  },
+  "g24-538000000120": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한센병 진단자 치료 지원",
+    "target": "한센병 진단자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-538000000121": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "양산사랑카드 결제시 포인트 지급",
+    "target": "양산사랑카드 사용자",
+    "amount": "포인트 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-538000000123": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "산후 산모영양제 제공",
+    "target": "출산 2개월 이내 등록 임산부",
+    "amount": "종합영양제",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "가축전염병 근절대책 지원",
+    "target": "의령군 관내 우제류 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000102": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 보조기구 구입비 지원",
+    "target": "등록 장애인 중 건강보험대상자",
+    "amount": "본인부담금 10% 내",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000103": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의령사랑상품권 10% 할인 구매",
+    "target": "19세 이상 내외국인",
+    "amount": "10% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "70세 이상 노인 이·미용 및 목욕비 지원",
+    "target": "만 70세 이상 의령군 거주자",
+    "amount": "연 6만원 상당 쿠폰",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 육묘용 상토·매트 지원",
+    "target": "의령군 관내 농업경영체 등록농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000107": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "심뇌혈관질환 합병증 조기검사 지원",
+    "target": "의령군 고혈압·당뇨병·이상지질혈증 질환자",
+    "amount": "검진비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000108": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "노인·장애인·한부모가족 중 비수급권자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "한우 사육 환경개선 지원",
+    "target": "의령군 관내 한우 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000112": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 헬퍼 및 우수정액 구입비 지원",
+    "target": "의령군 관내 한우 사육농가",
+    "amount": "인건비·구입비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000114": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "휴일·야간 응급의료관리료 지원",
+    "target": "휴일·야간 의령병원 응급실 이용 군민",
+    "amount": "응급의료관리료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000115": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양봉농가 화분떡 구입비 지원",
+    "target": "의령군 관내 양봉 사육농가",
+    "amount": "구입비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000116": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "가축재해 예방장비 지원",
+    "target": "의령군 관내 가축 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000117": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "젖소 우수정액 구입비 지원",
+    "target": "의령군 관내 젖소 사육농가",
+    "amount": "구입비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-539000000119": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보훈대상자 주거환경 개선비 지원",
+    "target": "생활이 어려운 보훈대상자",
+    "amount": "사업비 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-539000000127": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의령군민 안전보험 지원",
+    "target": "의령군민",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "낙농가 착유 시설 현대화 등 지원",
+    "target": "의령군 관내 낙농 농가",
+    "amount": "시설·기자재 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000102": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 독거노인 식사 배달 지원",
+    "target": "결식 우려 저소득 독거노인",
+    "amount": "도시락 주 5회 또는 밑반찬 주 2회",
+    "show": true,
+    "special": true
+  },
+  "g24-540000000103": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "모유수유 유축기 대여 지원",
+    "target": "관내 보건소 등록 임산부",
+    "amount": "출산 후 3개월간 대여(연장 가능)",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000104": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어린이 국가 예방접종 지원",
+    "target": "만 12세 이하 아동",
+    "amount": "국가예방접종 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000105": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경제적 어려움 학생 학업 장학금 지원",
+    "target": "경제적 이유로 학업 곤란한 초중고생",
+    "amount": "예산 범위 내 선발",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000107": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "조사료 생산용 기계장비 구입 지원",
+    "target": "한우, 젖소 사육 및 조사료 생산 농가",
+    "amount": "구입 비용 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000109": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인 부담금 지원",
+    "target": "중위소득 180% 이하 출산가정",
+    "amount": "본인 부담금 최대 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000110": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "함안군 소재 고교 진학 신입생 장학금 지원",
+    "target": "함안군 거주 신입생",
+    "amount": "장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000112": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "요보호아동 긴급 구호비 지원",
+    "target": "보호자 없거나 양육 어려운 아동",
+    "amount": "긴급 구호비 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-540000000113": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "함안군 거주 중증장애인 의치보철 지원",
+    "target": "함안군 거주 중증장애인",
+    "amount": "치과 진료비 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-540000000114": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "함안군 거주 학생 우수 장학금 지원",
+    "target": "함안군 거주 중·고·대학생",
+    "amount": "장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000116": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "함안군 거주 학교밖청소년 장학금 지원",
+    "target": "함안군 거주 고졸 검정고시 합격생",
+    "amount": "장학금 지급",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000119": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "함안군 출신 대학생 기숙사비 장학금 지원",
+    "target": "함안군 고교 졸업 대학생",
+    "amount": "기숙사비 장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000120": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "문화·예술·체육 등 특기 장학금 지원",
+    "target": "전국대회 3위 이내 입상자",
+    "amount": "장학금 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000121": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 보조기기 수리비 지원",
+    "target": "등록 장애인 (전동/수동 휠체어 등)",
+    "amount": "부품교체, 수리비, 출장비",
+    "show": true,
+    "special": true
+  },
+  "g24-540000000122": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 농산물 인증 비용 지원",
+    "target": "친환경 농업 실천 농가",
+    "amount": "인증 비용 100%",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000123": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "소년소녀가정 및 위탁아동 양육비 지원",
+    "target": "소년소녀가정, 가정위탁아동",
+    "amount": "월 34만원~56만원 차등",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000124": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "3대 이상 가정 어르신 건강장려금 지원",
+    "target": "3대 이상 가정 거주 어르신",
+    "amount": "효도수당 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000129": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "함안군 거주 학생 출연자 지정 장학금 지원",
+    "target": "함안군 거주 중·고등학생",
+    "amount": "출연자 뜻에 따른 장학금",
+    "show": true,
+    "special": false
+  },
+  "g24-540000000133": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "노인, 장애인, 한부모 가정",
+    "amount": "건강보험료 및 장기요양보험료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-541000000102": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 의료급여 수급자 건강진단 지원",
+    "target": "만 65세 이상 의료급여 수급자",
+    "amount": "건강검진 제공",
+    "show": true,
+    "special": true
   }
 }
