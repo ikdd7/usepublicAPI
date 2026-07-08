@@ -102264,5 +102264,698 @@
     "amount": "10%",
     "show": true,
     "special": false
+  },
+  "g24-519000000156": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "청도군 임산부 등 백일해 예방접종 지원",
+    "target": "청도군 거주 임신부, 배우자, 조부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-519000000157": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "관내 임산부 또는 배우자 출산 축하박스 지원",
+    "target": "관내 주민등록 임산부 또는 배우자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-520000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "어업인 내수면 어업장비 지원",
+    "target": "어업인",
+    "amount": "2,000천원 * 8대 * 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-520000000104": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "소년·소녀가정 지원",
+    "target": "수급자 중 만 18세 미만 아동이 가정을 이끄는 세대",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-520000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농협 계약 재배 농가 채소가격 안정 지원",
+    "target": "농협과 양파, 마늘 계약 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-520000000112": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "관내 임산부·영유아 영양제 지원",
+    "target": "관내 등록 임산부 및 등록 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-520000000115": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "소 브루셀라 근절 기반 조성 지원",
+    "target": "등록·허가 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-520000000116": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "고령군 축산농가 톱밥 지원",
+    "target": "고령군 거주 축산업 농가 및 법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-520000000118": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고령군 다문화가족 모국방문 지원",
+    "target": "고령군 거주 다문화가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-520000000120": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "고령사랑상품권 구매 시 10% 할인",
+    "target": "만 14세 이상 고령군민",
+    "amount": "10%",
+    "show": true,
+    "special": false
+  },
+  "g24-520000000306": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고령군 군민안전보험 지원",
+    "target": "고령군 지역 주민",
+    "amount": "최대 2,000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-521000000101": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "세자녀 이상 임부 태아초음파검사비 지원",
+    "target": "관내 등록 임부 중 셋째아이 이상",
+    "amount": "4만원",
+    "show": true,
+    "special": false
+  },
+  "g24-521000000102": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "성주군 국가보훈대상자 유족 사망 위로금 지원",
+    "target": "성주군 거주 만 65세 이상 국가보훈대상자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-521000000103": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "벼 재배 농가 상토 지원",
+    "target": "관내 거주 벼 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-521000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "관내 양돈농가 모돈 구입비 지원",
+    "target": "관내 축산업 등록 양돈농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-521000000105": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "결혼이민여성 교육비 지원",
+    "target": "결혼이민여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-521000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 축산농가 톱밥 및 왕겨 지원",
+    "target": "관내 축산업 등록 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-521000000107": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "관내 임산부, 영유아 영양제 지원",
+    "target": "관내 주민등록 보건소 등록 임산부 및 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-521000000110": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "세자녀 이상 가정 가족사진 지원",
+    "target": "관내 셋째아 이상 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-521000000116": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "성주사랑상품권 구매 시 3% 할인",
+    "target": "성주사랑상품권 구매 고객",
+    "amount": "3%",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000103": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "희귀난치성질환자 병원 수진 교통비 지원",
+    "target": "기초수급자·차상위 희귀난치성질환자",
+    "amount": "최대 50만원(연 3회)",
+    "show": true,
+    "special": true
+  },
+  "g24-526000000105": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "외국인 선원 숙소 임차 비용 지원",
+    "target": "울릉군 선적 어선 외국인 선원 숙소 임차인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000106": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 엽산·철분제 지원",
+    "target": "울릉군 거주 임산부",
+    "amount": "최대 5개월분",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "건채생산농가 유류비 지원",
+    "target": "울릉군 건채 생산 농가",
+    "amount": "유류비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000109": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 양곡 배부 지원",
+    "target": "기초수급자, 차상위 등 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000110": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "사회복지시설 입소자 명절 위문품 지급",
+    "target": "울릉군 사회복지시설 입소자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000112": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "어업 동력어선 유류비 지원",
+    "target": "울릉군 어선 유류비 지원 대상자",
+    "amount": "유류비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000117": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "중·고 신입생 교복 구입비 지원",
+    "target": "울릉군 거주 중·고 신입생",
+    "amount": "335천원",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000119": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역화폐(울릉사랑상품권) 할인 구매",
+    "target": "만 19세 이상 울릉군민",
+    "amount": "12% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000131": {
+    "category": "육아",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "0~9세 아동 대상 프로그램 운영",
+    "target": "울릉군 거주 0~9세 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-526000000132": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어린이집 운영 지원",
+    "target": "울릉군 관내 어린이집",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000101": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "어려운 이웃 명절 위문금·위문품 지원",
+    "target": "기초수급자, 복지시설 입소자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000104": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "한센병 환자 관리 및 생계비 지원",
+    "target": "한센병 진단 환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-531000000108": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자 명예수당 등 지원",
+    "target": "국가유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-531000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "4세대 이상 가정 효도수당 지원",
+    "target": "진주시 4세대 이상 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000114": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 운전면허 취득비 지원",
+    "target": "진주시 거주 운전면허 취득 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-531000000116": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "대학생 학자금 대출 이자 지원",
+    "target": "진주시 거주 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000117": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의사상자 특별 위로금 등 지원",
+    "target": "진주시 의사상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-531000000121": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "의료급여수급권자 노인 건강진단 지원",
+    "target": "65세 이상 의료급여수급권자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000123": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "홀로 사는 어르신 공동생활가정 지원",
+    "target": "공동생활가정 홀로 사는 어르신",
+    "amount": "주·부식비 등",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000124": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 65세 이상 노인, 장애인, 한부모 세대 건강보험료 지원",
+    "target": "진주시 거주, 건강보험료 월 15,000원 이하 65세 이상 노인, 장애인, 한부모 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000125": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원, 도우미 지원사업 서비스 추가 제공",
+    "target": "장애인활동지원, 장애인도우미지원사업 서비스 이용자 중 추가 제공 필요한 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-531000000126": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 본인부담금 전액 지원",
+    "target": "진주시에 주민등록 둔 난임부부 중 정부 지원 대상자",
+    "amount": "본인부담금 전액",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000127": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "target": "진주시에 3개월 이상 거주, 기준 중위소득 150% 이하 출산가정",
+    "amount": "본인부담금",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000102": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "등록 장애인 대상 재활서비스 제공",
+    "target": "등록 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-533000000104": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "무연고 사망자 장제비 및 공영장례 지원",
+    "target": "연고자가 없거나 인수를 거부·기피하는 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-533000000113": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의과진료실 운영 서비스 제공",
+    "target": "진료실 이용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000114": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "만 60세 이상 저소득층 노인 식사 배달",
+    "target": "만 60세 이상 거동 불편 저소득층 노인",
+    "amount": "주 5회",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000115": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농산물 수출 농가 시설개선 지원",
+    "target": "최근 2년 이상 농산물 수출 실적 있는 농가",
+    "amount": "설치비의 60%",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000120": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "관내 주소 둔 임신부 축하용품 지원",
+    "target": "진주시에 주소 둔 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000121": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 65세 이상 노인, 장애인, 한부모 세대 건강보험료 지원",
+    "target": "진주시 거주, 건강보험료 하한액 이하 납부 65세 이상 노인, 장애인, 한부모 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000124": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "만 70세 이상 기초연금 수급자 목욕비·이용비 지원",
+    "target": "통영시 거주 만 70세 이상 기초연금 수급자",
+    "amount": "월 3만원",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "GAP 인증 농가 포장재 지원",
+    "target": "관내 농업인 중 GAP 인증 농가",
+    "amount": "포장재 비용의 80%",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000126": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "만 70세 이상 고령농업인 벼 육묘 지원",
+    "target": "관내 만 70세 이상 벼 재배 고령농업인",
+    "amount": "육묘 비용의 75%",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000128": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "통영시 거주 청소년 인재육성 장학금 지원",
+    "target": "통영시 6년 이상 거주 및 통영시 소재 학교 6년 이상 재학 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000129": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 재배 농업인 육묘 상토 지원",
+    "target": "관내 벼 재배 농업인",
+    "amount": "상토 비용의 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000130": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "통영시 출산가정 마더박스(출산축하용품) 지원",
+    "target": "통영시에 주민등록 두고 출생 등록하는 출산가정",
+    "amount": "1인 1박스",
+    "show": true,
+    "special": false
+  },
+  "g24-533000000132": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "국민기초생활수급자, 국가유공자 등 제증명 수수료 면제",
+    "target": "국민기초생활보장 수급자, 국가유공자 등",
+    "amount": "수수료 면제",
+    "show": true,
+    "special": true
+  },
+  "g24-534000000107": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "명절 어려운 시민 위문금품 지원",
+    "target": "사회복지시설, 단체, 독립유공자, 100세 이상 어르신 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-534000000108": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사천시 4대 이상 가정 효도수당 지원",
+    "target": "사천시 3년 이상 거주, 4대 이상 가정",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
