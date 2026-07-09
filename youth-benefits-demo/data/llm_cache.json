@@ -109403,5 +109403,286 @@
     "amount": "20% ~ 100% 감면",
     "show": true,
     "special": true
+  },
+  "g24-O00023500002": {
+    "category": "문화",
+    "tags": [
+      "국가유공자",
+      "장애인",
+      "다자녀가족",
+      "저소득",
+      "다문화가족",
+      "한부모가족"
+    ],
+    "support_type": "서비스",
+    "summary": "체육시설 이용요금 감면",
+    "target": "국가유공자, 장애인, 다자녀, 기초수급자 등",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023500003": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "국가유공자",
+      "경차",
+      "저공해차",
+      "다자녀가족",
+      "임산부"
+    ],
+    "support_type": "서비스",
+    "summary": "공영주차장 및 거주자우선주차 요금 감면",
+    "target": "장애인, 국가유공자, 경차, 저공해차, 다자녀 등",
+    "amount": "최대 80% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023700001": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "국가유공자",
+      "경차",
+      "저공해차",
+      "다자녀가족"
+    ],
+    "support_type": "서비스",
+    "summary": "공영주차장 이용요금 감면",
+    "target": "장애인, 국가유공자, 경차, 저공해차, 다자녀 등",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023700002": {
+    "category": "문화",
+    "tags": [
+      "다문화가족",
+      "다자녀가족"
+    ],
+    "support_type": "서비스",
+    "summary": "체육시설 이용요금 감면",
+    "target": "에코마일리지카드 소지자, 다문화가족, 다둥이",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00023700003": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산후조리원 이용료 감면",
+    "target": "전국 산모 및 신생아",
+    "amount": "이용료의 30% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023700005": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "국가유공자",
+      "경차",
+      "저공해차",
+      "다자녀가족"
+    ],
+    "support_type": "서비스",
+    "summary": "거주자주차구획 이용요금 감면",
+    "target": "장애인, 국가유공자, 경차, 저공해차, 다자녀 등",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023800002": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "국가유공자",
+      "경차",
+      "다자녀가족",
+      "모범납세자"
+    ],
+    "support_type": "서비스",
+    "summary": "부설주차장 이용요금 감면",
+    "target": "장애인, 국가유공자, 경차, 다둥이, 모범납세자 등",
+    "amount": "최대 100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023800003": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "전 직원 자원봉사단 제공",
+    "target": "관내 어르신, 장애인, 외국인, 아동 등 취약계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023800004": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "국가유공자",
+      "경차",
+      "다자녀가족",
+      "임산부"
+    ],
+    "support_type": "서비스",
+    "summary": "공영주차장 이용요금 감면",
+    "target": "장애인, 국가유공자, 경차, 다둥이, 임산부 등",
+    "amount": "최대 100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023800005": {
+    "category": "문화",
+    "tags": [
+      "국가유공자",
+      "다자녀가족",
+      "장애인",
+      "경차",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "거주자우선주차 요금감면",
+    "target": "국가유공자, 다둥이, 장애인, 경차 등",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023800006": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "국가유공자",
+      "저소득",
+      "다자녀가족"
+    ],
+    "support_type": "서비스",
+    "summary": "체육시설 이용요금 감면",
+    "target": "장애인, 국가유공자, 기초수급자, 다둥이 등",
+    "amount": "최대 50% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023900001": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "국가유공자"
+    ],
+    "support_type": "서비스",
+    "summary": "체육시설 이용요금 감면",
+    "target": "장애인, 국가유공자, 5.18민주유공자, 경로우대자 등",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023900004": {
+    "category": "문화",
+    "tags": [
+      "저소득",
+      "국가유공자",
+      "한부모가족"
+    ],
+    "support_type": "서비스",
+    "summary": "문화시설 이용요금 감면",
+    "target": "기초수급자, 국가유공자, 5.18민주유공자, 한부모가족 청소년",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023900005": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "국가유공자"
+    ],
+    "support_type": "서비스",
+    "summary": "공영주차장 이용요금 감면",
+    "target": "장애인, 국가유공자, 고엽제 후유증 환자 등",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023900006": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "국가유공자"
+    ],
+    "support_type": "서비스",
+    "summary": "거주자우선주차 요금감면",
+    "target": "장애인, 국가유공자, 고엽제 후유증 환자 등",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00024000001": {
+    "category": "문화",
+    "tags": [
+      "다자녀가족"
+    ],
+    "support_type": "서비스",
+    "summary": "체육시설 이용요금 감면",
+    "target": "다둥이",
+    "amount": "50% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00024000039": {
+    "category": "문화",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "청소년센터 프로그램 할인",
+    "target": "기초생활수급자 및 그 가족",
+    "amount": "최대 100% 할인",
+    "show": true,
+    "special": true
+  },
+  "g24-O00024000003": {
+    "category": "문화",
+    "tags": [
+      "다자녀가족"
+    ],
+    "support_type": "서비스",
+    "summary": "종합타운 프로그램 할인",
+    "target": "용산구 거주 다둥이 행복카드 소지자",
+    "amount": "50% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00024000052": {
+    "category": "문화",
+    "tags": [
+      "다자녀가족"
+    ],
+    "support_type": "서비스",
+    "summary": "유스호스텔 할인",
+    "target": "둘 이상 자녀 양육 가족",
+    "amount": "객실 요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00024000042": {
+    "category": "문화",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "문화체육센터 프로그램 할인",
+    "target": "기초생활수급자 및 그 가족",
+    "amount": "최대 100% 할인",
+    "show": true,
+    "special": true
   }
 }
