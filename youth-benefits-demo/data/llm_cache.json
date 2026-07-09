@@ -108437,5 +108437,244 @@
     "amount": "보육료",
     "show": true,
     "special": false
+  },
+  "g24-568000000340": {
+    "category": "문화",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 모임 스터디룸 대관 지원",
+    "target": "청년(18세 이상 39세 이하)이 과반수인 모임",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-568000000343": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "당진 지역 청년 창업가 취·창업 지원",
+    "target": "당진 지역 청년 창업가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-568000000345": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "당진시 거주 청년 인재육성 프로그램 지원",
+    "target": "당진시 거주 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-568000000346": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "서비스",
+    "summary": "무주택 청년 셰어하우스 운영 지원",
+    "target": "무주택 당진청년타운 관외 입주자 및 스마트팜 청년창업농",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-568000000349": {
+    "category": "생활",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현물",
+    "summary": "다자녀가정 종량제봉투 지원",
+    "target": "당진시에 주소를 둔 다자녀가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000107": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 축산농가 분뇨처리장비 지원",
+    "target": "관내 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000109": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 인플루엔자 예방접종 지원",
+    "target": "여주시 14~64세 기초생활수급자, 차상위계층, 국가유공자, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-570000000110": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 추가 시간 지원",
+    "target": "기존 활동지원이용자 중 추가지원 시간 필요 대상",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-570000000113": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "여주사랑카드 사용자 및 가맹점 지원",
+    "target": "여주사랑카드 사용자 및 가맹점",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000116": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "다자녀 가정 입학축하금 지원",
+    "target": "2자녀 이상 가정의 초·중·고 입학 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000118": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "임산부 산모·신생아 건강관리 지원",
+    "target": "여주시에 주민등록 주소를 두고있는 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000123": {
+    "category": "복지",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "서비스",
+    "summary": "만 75세 이상 고령노인 목욕비 및 이미용비 지원",
+    "target": "만 75세 이상 목욕비 및 이미용비 지원 희망 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000125": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산장려금 지원",
+    "target": "출생·입양아와 함께 실제 거주하는 부 또는 모(보호자)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000126": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "다자녀 가정 장려금 지원",
+    "target": "1세 이상~5세 이하 둘째 이상 자녀와 함께 거주하는 다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-570000000130": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "60세 이상 취약계층 대상포진 예방접종 지원",
+    "target": "여주시 거주 60세 이상 취약계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-570000000139": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "여주시민 안전보험 지원",
+    "target": "관내 주민등록된 여주시민(등록외국인 포함)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000101": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "노인"
+    ],
+    "support_type": "현물",
+    "summary": "중증장애인 무료급식 지원",
+    "target": "중증 및 65세이상 장애인 중 무료급식이 필요한 자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-571000000104": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경 벼 예방자재 지원",
+    "target": "친환경농산물 인증을 득한 벼 재배 농업인 및 생산자 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000105": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임 한방치료비 지원",
+    "target": "청주시 3개월 이상 거주 부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000106": {
+    "category": "복지",
+    "tags": [
+      "노인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 재가노인 식사배달 지원",
+    "target": "60세이상 기초수급자, 차상위 등 결식우려 독거노인 등",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
