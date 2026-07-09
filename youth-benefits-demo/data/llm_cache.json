@@ -109684,5 +109684,262 @@
     "amount": "최대 100% 할인",
     "show": true,
     "special": true
+  },
+  "g24-O00000700004": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 및 국가유공자 체육시설 이용요금 감면",
+    "target": "장애인, 국가유공자 및 동행 보호자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00000700005": {
+    "category": "교통",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자, 장애인 등 주차요금 감면",
+    "target": "국가유공자, 장애인, 고엽제후유증환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00000800001": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자, 다자녀 가구 상하수도요금 감면",
+    "target": "국민기초생활수급자, 2자녀 이상 가구",
+    "amount": "최대 12세제곱미터",
+    "show": true,
+    "special": true
+  },
+  "g24-O00001400001": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 국가유공자, 기초생활수급자 골프연습장 이용료 감면",
+    "target": "장애인, 국가유공자, 기초생활수급자",
+    "amount": "50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00001400002": {
+    "category": "주거",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "서비스",
+    "summary": "영월군민 무주택세대 임대주택 제공",
+    "target": "영월군 거주 성년 무주택세대구성원",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00001400003": {
+    "category": "문화",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "영월군민 등 박물관 이용료 감면",
+    "target": "영월군민, 자매결연 지자체 주민, 폐광지역 주민, 다자녀가정",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-O00001400005": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "자매결연 지자체 등 고씨굴 이용료 감면",
+    "target": "자매결연 지자체 주민, 폐광지역 주민, 디지털 관광주민증 발급자",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-O00002600001": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "장애인",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 등 공공상수도 사용료 감면",
+    "target": "기초생활수급자, 중증장애인, 국가유공자, 다자녀가구",
+    "amount": "최대 월10톤",
+    "show": true,
+    "special": true
+  },
+  "g24-O00002700001": {
+    "category": "문화",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 문화시설 이용요금 감면",
+    "target": "국가유공자, 장애인, 수급자, 한부모가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00002700004": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 등 장사시설 이용요금 감면",
+    "target": "기초생활수급자, 국가유공자, 무연고 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00002700006": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 등 장례식장 사용료 감면",
+    "target": "기초생활수급자, 행려자, 국가유공자",
+    "amount": "전액 또는 50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00004100001": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "한부모",
+      "다문화"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 등 하수도요금 감면",
+    "target": "기초생활수급자, 한부모, 다문화, 국가보훈대상자, 3자녀 이상",
+    "amount": "최대 월10톤",
+    "show": true,
+    "special": true
+  },
+  "g24-O00004100002": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "한부모",
+      "다문화"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 등 상수도요금 감면",
+    "target": "기초생활수급자, 한부모, 다문화, 국가보훈대상자, 3자녀 이상",
+    "amount": "최대 월10톤",
+    "show": true,
+    "special": true
+  },
+  "g24-O00005900001": {
+    "category": "환경·생활",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "다자녀 가구 수도요금 감면",
+    "target": "18세 미만 자녀 3명 이상 가정, 조손가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00007300001": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "장애인",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "생계급여 수급자 등 상수도요금 감면",
+    "target": "생계급여 수급자, 심한 장애인, 다자녀가정",
+    "amount": "최대 월10톤",
+    "show": true,
+    "special": true
+  },
+  "g24-O00007300002": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "장애인",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "생계급여 수급자 등 하수도요금 감면",
+    "target": "생계급여 수급자, 심한 장애인, 다자녀가정",
+    "amount": "월 10톤",
+    "show": true,
+    "special": true
+  },
+  "g24-O00007600001": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 등 추모공원 운영 지원",
+    "target": "기초생활수급자, 국가유공자, 장기기증자, 무연고 사망자",
+    "amount": "전액 또는 50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00007600002": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 주거환경 개선 지원",
+    "target": "기초생활수급자, 차상위계층, 조손가정, 독거노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00007600003": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 체육시설 이용요금 감면",
+    "target": "국가유공자, 장애인, 기초생활수급자, 만65세 이상",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00007600009": {
+    "category": "교통",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 국가유공자 등 주차시설 이용요금 감면",
+    "target": "장애인, 국가유공자, 고엽제후유증환자, 5.18민주유공자",
+    "amount": "50% 또는 60%",
+    "show": true,
+    "special": true
   }
 }
