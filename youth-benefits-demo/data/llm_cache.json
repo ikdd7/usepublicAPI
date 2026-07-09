@@ -108676,5 +108676,732 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-571000000144": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "재가한센인 생계비 지원",
+    "target": "한센사업대상자 중 중위소득 60% 이하",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-571000000146": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양돈농가 모돈교체 비용 지원",
+    "target": "가축사육업 허가, 등록된 돼지 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000147": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양봉농가 필수자재 구입비 지원",
+    "target": "농어업경영체 등록된 양봉농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000184": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "청년 면접비 최대 5만원 지원",
+    "target": "청주시 거주 19~39세 청년",
+    "amount": "최대 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000185": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시민 대상 안전사고 사망·상해 보험 지원",
+    "target": "청주시민 (만15세 미만자 제외)",
+    "amount": "2000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-571000000186": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청주사랑페이 카드 발급 및 혜택 제공",
+    "target": "청주시 전입자 (만19세 이상)",
+    "amount": "최대 50% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000194": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "청주시 거주 청년 대상 희망날개 지원",
+    "target": "청주시 거주 19~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000196": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "구직단념 청년 대상 도전지원사업",
+    "target": "청주시 거주 18~39세 구직단념 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000197": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청년 대상 건강밥상 교육 및 요리 실습",
+    "target": "청주시 거주 20~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000199": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청년 대상 성장프로젝트 지원",
+    "target": "청주시 거주 15~34세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000202": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "청년농업인 및 선도경영체 육성 지원",
+    "target": "청주시 만 39세 이하 청년농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000204": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청주시 외국인주민 지원센터 운영",
+    "target": "청주시 거주 외국인 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000209": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청년 정신건강 의료비 지원",
+    "target": "청주시 거주 19~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000210": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "청주 액터스 인력양성 지원",
+    "target": "청주시 거주 17세 이상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000215": {
+    "category": "일자리",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "일자리",
+    "summary": "청주시 동·하계 학생근로활동 지원",
+    "target": "청주시 거주 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000216": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "청주 공예창작센터 운영 지원",
+    "target": "청주시 거주 청년공예인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-571000000217": {
+    "category": "문화",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "청주시립예술단 공연 대학생 할인",
+    "target": "청주시 거주 또는 소재 대학생",
+    "amount": "최대 50% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00000700001": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "종합버스터미널 운임요금 감면",
+    "target": "애국지사, 국가유공자, 5·18부상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00000700002": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "국민체육센터 배드민턴 강습요금 감면",
+    "target": "동해시 불우청소년, 수급자, 보훈대상자, 장애인",
+    "amount": "50% 할인",
+    "show": true,
+    "special": true
+  },
+  "g24-O00000700003": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "망상오토캠핑리조트 이용요금 감면",
+    "target": "동해시 거주자 및 교류도시 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00007900001": {
+    "category": "환경·생활",
+    "tags": [
+      "다자녀",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "다자녀가정·기초수급자 상수도요금 감면",
+    "target": "18세 미만 자녀 2명 이상 가구, 생계/의료급여 수급자",
+    "amount": "가정용 5t/10t 요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00008600002": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "다자녀",
+      "장애인",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "상수도요금 감면",
+    "target": "기초생활수급자, 18세 미만 자녀 3명 이상 가구, 심한 장애인, 국가유공자",
+    "amount": "가정용 1단 요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00008900001": {
+    "category": "환경·생활",
+    "tags": [
+      "한부모",
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "상수도요금 감면",
+    "target": "한부모·조손·청소년한부모가족, 수급자, 심한 장애인",
+    "amount": "요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00009200001": {
+    "category": "문화",
+    "tags": [
+      "제대군인",
+      "저소득",
+      "장애인",
+      "한부모",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "체육시설 이용요금 감면",
+    "target": "국가유공자, 수급자, 장애인, 한부모, 노인, 다자녀 등",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00009200004": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "장사시설 이용요금 면제",
+    "target": "기초생활수급자, 국가유공자, 무연고 행려사망자",
+    "amount": "이용료 및 관리비 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00009200006": {
+    "category": "환경·생활",
+    "tags": [
+      "제대군인",
+      "장애인",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "공영주차장 이용요금 감면",
+    "target": "국가유공자, 장애인, 모범납세자, 경형차, 다자녀, 친환경차 등",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00009300001": {
+    "category": "환경·생활",
+    "tags": [
+      "다자녀",
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "하수도요금 감면",
+    "target": "미성년자 3자녀 이상 가구, 수급자, 경로당, 심한 장애인, 국가유공자, 한부모",
+    "amount": "월 10톤 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00009300002": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "다자녀",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "상수도요금 감면",
+    "target": "미성년자 3자녀 이상 가구, 수급자·차상위, 경로당, 심한 장애인, 국가유공자, 한부모",
+    "amount": "월 10톤 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00010400001": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "교통약자 이동지원",
+    "target": "대중교통 이용 어려운 심한 장애인, 65세 이상 고령자",
+    "amount": "이동지원 서비스",
+    "show": true,
+    "special": false
+  },
+  "g24-O00010400002": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "공영주차장 이용요금 100% 감면",
+    "target": "이천시 명예시민, 모범·유공·성실납세자",
+    "amount": "100% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00010400003": {
+    "category": "문화",
+    "tags": [
+      "제대군인",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "농업테마공원 숙박시설 이용감면",
+    "target": "국가유공자, 5·18민주유공자, 등록장애인",
+    "amount": "이용감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00010400004": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "장사시설 이용요금 감면",
+    "target": "국가보훈대상자, 기초생활수급자, 무연고 행려사망자",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00011400001": {
+    "category": "환경·생활",
+    "tags": [
+      "다자녀",
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "하수도요금 감면",
+    "target": "수급자, 심한 장애인, 18세 이하 자녀 3명 이상 가구",
+    "amount": "가정용 5톤 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00011400002": {
+    "category": "환경·생활",
+    "tags": [
+      "한부모",
+      "저소득",
+      "장애인",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "상수도요금 감면",
+    "target": "수급자, 심한 장애인, 18세 이하 자녀 3명 이상 가구, 한부모가족",
+    "amount": "요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00011900002": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "장애인",
+      "제대군인",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "하수도요금 감면",
+    "target": "수급자, 심한 장애인, 국가유공자(상이등급 1~5급), 다자녀 가구",
+    "amount": "요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00012600001": {
+    "category": "문화",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "체육시설 이용요금 감면",
+    "target": "수급자, 등록장애인, 한부모가족, 국가유공자",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00012900002": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "사천바다 케이블카 이용료 감면",
+    "target": "사천시민, 자매도시민, 장애인",
+    "amount": "이용료 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00013000001": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "장애인",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "상수도요금 감면",
+    "target": "기초생활수급자, 심한 장애인 가구, 19세 미만 자녀 3명 이상 가구",
+    "amount": "가정용 1~20㎥ 30%/20% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00013000002": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "하수도요금 감면",
+    "target": "기초생활수급자",
+    "amount": "가정용 1~20㎥ 30% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00013500001": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "장애인",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "상수도요금 감면",
+    "target": "기초생활수급자, 심한 장애인 가구, 국가유공자",
+    "amount": "요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00022300005": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "강북구 공영주차장 국가유공자·장애인 80% 감면",
+    "target": "국가유공자, 장애인, 경형차량, 전통시장 이용객, 자원봉사자, 전기·친환경차",
+    "amount": "80% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00022300006": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "오동골프클럽 국가유공자 이용요금 50% 감면",
+    "target": "국가유공자",
+    "amount": "50% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00022500004": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "상권활성화구역 1만원 이상 구매 시 90분 90% 감면",
+    "target": "전통시장 1만원 이상 구매 고객",
+    "amount": "90% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00022500005": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "거주자우선주차 모범납세자·장애인 요금 면제",
+    "target": "모범납세자, 등록장애인",
+    "amount": "요금 면제",
+    "show": true,
+    "special": true
+  },
+  "g24-O00022600010": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "공영주차장 성실납세자 이용요금 100% 감면",
+    "target": "성실납세자",
+    "amount": "100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00022600041": {
+    "category": "문화",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "문화체육시설 제대군인 이용요금 30% 감면",
+    "target": "중장기 복무 제대군인",
+    "amount": "30% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00022600004": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "부설주차장 다둥이(2자녀 이상) 요금 50% 감면",
+    "target": "다둥이 행복카드 소지자",
+    "amount": "50% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00022600011": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "거주자우선주차 국가유공자 요금 80% 감면",
+    "target": "국가유공자",
+    "amount": "80% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00022600014": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "거주자우선주차 IoT 공유자 배점 가산",
+    "target": "광진구 거주자우선주차 IoT 공유자",
+    "amount": "최대 10점 가산",
+    "show": true,
+    "special": false
+  },
+  "g24-O00022600039": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "거주자우선주차 다둥이(2자녀 이상) 요금 50% 감면",
+    "target": "다둥이 행복카드 소지자",
+    "amount": "50% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00022800001": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "주차장 장애인·국가유공자 등 이용요금 감면",
+    "target": "장애인, 국가유공자, 고엽제후유증환자, 다둥이, 모범납세자",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00022800002": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "독산어르신체육센터 장애인·수급자 이용료 50% 감면",
+    "target": "장애인, 기초생활수급자, 만65세 이상 금천구민",
+    "amount": "50% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00022900001": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "거주자우선주차 장애인·국가유공자 등 요금 감면",
+    "target": "장애인, 국가유공자, 고엽제후유증환자, 의사상자",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00022900002": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "월계구민체육센터 국가유공자·장애인 등 이용료 50% 감면",
+    "target": "국가유공자, 장애인, 의사상자 등",
+    "amount": "50% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00022900004": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "공영주차장 장애인·국가유공자 등 이용요금 감면",
+    "target": "장애인, 국가유공자, 고엽제후유증환자, 의사상자",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023000001": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "거주자우선주차 국가유공자·장애인 등 요금 감면",
+    "target": "국가유공자, 장애인, 다둥이, 모범납세자, 병역명문가",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023000002": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "문화체육시설 장애인·국가유공자 등 이용료 감면",
+    "target": "장애인, 국가유공자, 기초생활수급자, 경로, 다둥이",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023000003": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "공영주차장 국가유공자·장애인 등 이용요금 감면",
+    "target": "국가유공자, 장애인, 다둥이, 모자보건수첩 소지자",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023100001": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "동대문구체육관 장애인·수급자 등 프로그램 수강료 감면",
+    "target": "장애인, 기초생활수급자, 국가유공자, 만65세 이상, 병역명문가",
+    "amount": "5% ~ 50% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00023100003": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "청풍유스호스텔 동대문구 소년소녀가장 등 이용료 감면",
+    "target": "동대문구 소년소녀 가장, 장애인, 기초생활수급자, 국가유공자, 다둥이가족",
+    "amount": "20% ~ 100% 감면",
+    "show": true,
+    "special": true
   }
 }
