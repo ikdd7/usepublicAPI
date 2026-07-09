@@ -110684,5 +110684,504 @@
     "amount": "5톤 감면",
     "show": true,
     "special": false
+  },
+  "g24-O00023400011": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 임산부, 영아 양육자 대상 책배달 서비스",
+    "target": "서대문구 장애인, 임산부, 생후 1년 영아 보호자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00024000047": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 어르신 용산꿈나무종합타운 프로그램 20% 할인",
+    "target": "만 65세 이상 회원",
+    "amount": "20%",
+    "show": true,
+    "special": false
+  },
+  "g24-O00024000053": {
+    "category": "문화",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 이태원초 수영장 프로그램 50% 할인",
+    "target": "국가유공자 및 그 가족, 유족",
+    "amount": "50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00024000058": {
+    "category": "문화",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "용산구 다자녀 가족 이태원초 수영장 프로그램 50% 할인",
+    "target": "용산구 거주 다둥이 행복카드 소지자(2자녀 이상)",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-O00024100001": {
+    "category": "문화",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "가임기 여성, 장기등록, 기초수급자 체육시설 프로그램 요금 감면",
+    "target": "가임기 여성, 6개월 이상 장기 등록자, 은평구 기초수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00024200001": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "저소득",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 기초수급자, 국가유공자 등 올림픽기념국민생활관 프로그램 할인",
+    "target": "장애인, 기초수급자, 국가유공자, 셋째아 이상 가정, 65세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00024200002": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "저소득",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 기초수급자, 국가유공자 등 종로구민회관 프로그램 할인",
+    "target": "장애인, 기초수급자, 국가유공자, 셋째아 이상 가정, 65세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00024200005": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "저소득",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 기초수급자, 국가유공자 등 종로문화체육센터 프로그램 할인",
+    "target": "장애인, 기초수급자, 국가유공자, 셋째아 이상 가정, 65세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00024300001": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인",
+      "제대군인",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자, 장애인, 5.18유공자, 다둥이 가족 주차장 이용료 감면",
+    "target": "국가유공자, 장애인, 5.18 민주유공자, 다둥이 가족",
+    "amount": "80%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00024300002": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "경로, 국가유공자, 장애인 체육시설 이용요금 감면",
+    "target": "65세 이상 노인, 국가유공자, 장애인 및 보호자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025400002": {
+    "category": "문화",
+    "tags": [
+      "저소득",
+      "장애인",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 체육시설 이용요금 감면",
+    "target": "국가유공자, 장애인, 기초생활수급자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025400003": {
+    "category": "문화",
+    "tags": [
+      "저소득",
+      "장애인",
+      "제대군인",
+      "가임여성",
+      "한부모",
+      "다문화"
+    ],
+    "support_type": "서비스",
+    "summary": "기초수급자, 장애인 등 남구국민체육센터 강습 50% 할인",
+    "target": "기초수급자, 장애인, 국가유공자 등",
+    "amount": "50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025400004": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 국가유공자 등 거주자우선주차 요금 감면",
+    "target": "장애인, 국가유공자, 경차, 저공해자동차 등",
+    "amount": "60%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025500001": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "노인, 장애인 등 체육시설 이용요금 감면",
+    "target": "노인, 장애인",
+    "amount": "80%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025500002": {
+    "category": "문화",
+    "tags": [
+      "저소득",
+      "장애인",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "기초수급자, 장애인, 국가유공자 캠핑장 이용요금 30% 감면",
+    "target": "기초수급자, 장애인, 국가유공자",
+    "amount": "30%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025600001": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 국가유공자 등 공영주차장 이용요금 감면",
+    "target": "장애인, 국가유공자, 고엽제 휴유증 지원 대상자, 5.18민주유공자",
+    "amount": "50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025600002": {
+    "category": "문화",
+    "tags": [
+      "저소득",
+      "장애인",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자, 기초수급자 등 청소년수련관 이용료 및 수강료 50% 감면",
+    "target": "국가유공자, 기초생활수급자, 장애인",
+    "amount": "50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025600003": {
+    "category": "문화",
+    "tags": [
+      "저소득",
+      "장애인",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "기초수급자, 장애인 등 체육시설 사용료 80% 감면",
+    "target": "기초수급자, 장애인, 국가보훈대상자, 어린이·청소년, 65세 이상, 군인",
+    "amount": "80%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025600004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "초중고, 특수학교, 소외계층 청소년 진로직업체험 지원",
+    "target": "초,중,고등학교 및 특수학교, 소외계층 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00025600005": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 장애인주간이용시설 이용료 감면",
+    "target": "국민기초생활보장 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025600006": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "9~24세 청소년 및 보호자 상담 서비스 제공",
+    "target": "9~24세 청소년 및 보호자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00025700001": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 공영주차장 이용요금 감면",
+    "target": "국가유공자, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025700002": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 체육시설 이용요금 감면",
+    "target": "국가유공자, 장애인, 기초생활수급자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025700003": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "1시간 이내 출차차량 등 부설주차장 이용요금 감면",
+    "target": "1시간 이내 출차차량, 국가유공자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025700004": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 거주자우선주차 요금감면",
+    "target": "국가유공자, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00026700001": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 등 문화시설 이용요금 50% 감면",
+    "target": "장애인, 기초생활수급자, 노인 등",
+    "amount": "50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00026700002": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 공영주차장 최초 1시간 무료 후 80% 감면",
+    "target": "국가유공자, 장애인 등",
+    "amount": "80%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00026700003": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "취약계층 유소년·청소년 스포츠강좌 이용권 제공",
+    "target": "만 7~18세 유소년·청소년, 수급가구 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00026700004": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경차 거주자우선주차 요금 60% 감면",
+    "target": "경차",
+    "amount": "60%",
+    "show": true,
+    "special": false
+  },
+  "g24-O00026700005": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "수급자 등 체육시설 이용요금 감면",
+    "target": "기초생활수급자, 장애인, 국가유공자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00026700006": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 부설주차장 최초 1시간 무료 후 80% 감면",
+    "target": "국가유공자, 장애인 등",
+    "amount": "80%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00026700009": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "취약계층 유소년·청소년 스포츠강좌 이용권 제공",
+    "target": "만 7~18세 유소년·청소년, 수급가구 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00026700010": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 주차장 이용요금 50% 감면",
+    "target": "국가유공자, 장애인 등",
+    "amount": "50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00026700012": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "장애인 스포츠강좌 이용권 제공",
+    "target": "만 5~69세 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00027000001": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 체육시설 이용요금 감면",
+    "target": "국가유공자, 장애인, 기초생활수급자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00027200001": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 체육시설 이용요금 감면",
+    "target": "국가유공자, 장애인, 기초생활수급자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00027200003": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "연수구 거주 예술단체·예술인 전시행사 지원",
+    "target": "연수구 거주 예술단체 및 예술인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00027200004": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "연수구 주차장 이용요금 감면",
+    "target": "조례 제5조 해당자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00029000001": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "수급자 등 상수도요금 감면",
+    "target": "수급자, 장애인, 다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00030000001": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "다자녀가정 등 주차요금 50% 감면",
+    "target": "다자녀가정, 장애인, 장기기증자 등",
+    "amount": "50%",
+    "show": true,
+    "special": true
   }
 }
