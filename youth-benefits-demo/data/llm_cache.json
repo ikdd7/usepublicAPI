@@ -92,13 +92,14 @@
   "g24-628000000108": {
     "category": "건강",
     "tags": [
-      "장애인",
-      "저소득"
+      "장애인"
     ],
     "support_type": "현금",
-    "summary": "저소득 청각장애인 대상 인공달팽이관 수술 및 재활치료비 지원",
+    "summary": "청각장애인 인공달팽이관 수술비 최대 700만원 지원",
+    "target": "39세 이하 청각장애인 중 수술/재활 대상자",
+    "amount": "수술비 700만원, 재활비 300만원",
     "show": true,
-    "special": false
+    "special": true
   },
   "g24-315000000277": {
     "category": "복지",
@@ -112838,6 +112839,685 @@
     "summary": "가축분뇨 퇴비 부숙촉진 지원",
     "target": "퇴비부숙도 검사대상 농가",
     "amount": "5,000만원/호",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006027": {
+    "category": "교육",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "초등학생 졸업앨범비 지원",
+    "target": "모든 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005251": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 가정 학생 생일·명절 축하 지원금",
+    "target": "저소득 가정 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006493": {
+    "category": "교육",
+    "tags": [
+      "청소년",
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "청소년·아동 학습지원비 지원",
+    "target": "청소년, 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006478": {
+    "category": "건강",
+    "tags": [
+      "아동",
+      "청소년"
+    ],
+    "support_type": "현금",
+    "summary": "난치병 학생 치료비 지원",
+    "target": "영유아, 아동, 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006131": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 학생 학교안전사고 치료비 지원",
+    "target": "저소득, 한부모·조손",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005358": {
+    "category": "건강",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "서비스",
+    "summary": "초등학생 구강건강 진료 지원",
+    "target": "초등 4학년 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00080500002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부산 남구 거주 학생 장학금 지원",
+    "target": "부산 남구 3년 이상 거주 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00099500001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장흥군 졸업생 대상 장학금 지원",
+    "target": "장흥군 거주 졸업생 및 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00102100001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역인재 예술체육 등 장학금 지원",
+    "target": "중고등학생, 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00102100002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "관내 고등학생 방과후 맞춤형 교육 지원",
+    "target": "관내 고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00102100003": {
+    "category": "교육",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "서비스",
+    "summary": "지역아동센터 예체능 교육 지원",
+    "target": "지역아동센터 및 아동복지시설 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00102100004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 중고등학생 으뜸성장 장학금 지원",
+    "target": "관내 중3, 고2 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00102200001": {
+    "category": "기타",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "군산 상권공동체 사업비 지원",
+    "target": "군산시 관내 상인회",
+    "amount": "단체당 50,000천원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00102200002": {
+    "category": "기타",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "군산 소상공인 온라인 판로 경영지원",
+    "target": "군산시 관내 소상공인",
+    "amount": "50,000천원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00102400009": {
+    "category": "교육",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "서비스",
+    "summary": "김제지역 초등학생 찾아가는 생활과학교실",
+    "target": "김제지역 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00102400012": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "김제시 거주 중고등학생 방과 후 교육지원",
+    "target": "김제시 거주 중고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00104700001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "임실군 출신 대학·고등학생 애향장학금",
+    "target": "임실군 출신 대학·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00105600001": {
+    "category": "금융",
+    "tags": [
+      "청소년",
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "전주시 청소년 빚대물림 방지 법률지원",
+    "target": "만 24세 이하 청소년·청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00105600003": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모",
+      "1인가구"
+    ],
+    "support_type": "현금",
+    "summary": "기초수급자 등 간병비 지원",
+    "target": "기초수급자, 차상위, 한부모, 1인가구",
+    "amount": "1일 최대 7만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109300001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "계룡시 특기자·우수생 장학금 지원",
+    "target": "특기자, 중3 성적 우수생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000142": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "옹진군 군민안전보험 사망 최대 1000만원",
+    "target": "옹진군 거주 모든 군민",
+    "amount": "최대 1000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-611000019607": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "서울시민안전보험 사망 최대 2000만원",
+    "target": "서울시 거주 모든 시민",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000613": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "부산시 화재피해주민 지원",
+    "target": "부산시 거주 저소득층 화재피해 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000747": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "인천시민안전보험 사망 최대 2000만원",
+    "target": "인천시민(등록외국인 포함)",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000169": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의로운 시민 지원",
+    "target": "의사상자 및 의로운 시민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000792": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "광주시민안전보험 사망 최대 2000만원",
+    "target": "광주시 거주 모든 시민",
+    "amount": "최대 2000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-642000000707": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산농가 HACCP 인증·유지 지원",
+    "target": "도내 축산농가 및 작업장",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000120": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산 악취저감제 공급(닭·오리)",
+    "target": "닭, 오리 사육 농가",
+    "amount": "최대 2000만원/호",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001010": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "양식수산물 재해보험 자부담 지원",
+    "target": "양식업 경영자",
+    "amount": "최대 700만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005270": {
+    "category": "주거",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "노후주택 집수리 지원",
+    "target": "경기도 한부모·조손, 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000160": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자립준비청년 자립정착금 1500만원 지급",
+    "target": "보호종료아동",
+    "amount": "1500만원",
+    "show": true,
+    "special": true
+  },
+  "g24-641000000673": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "경기도 재도전론 소액금융지원",
+    "target": "경기도 거주 채무조정 성실상환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000123": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "가축 기후변화 대응 시설 지원",
+    "target": "축산업 허가 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000216": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난치병학생 교육비 지원",
+    "target": "도내 난치병 유아 및 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000269": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "주거비 지원(신혼부부, 둘째자녀)",
+    "target": "무주택 신혼부부, 둘째자녀 출산 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000148": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "탈 시설 장애인 자립지원금 1200만원 지원",
+    "target": "만18세 이상 중증 장애인",
+    "amount": "1200만원",
+    "show": true,
+    "special": true
+  },
+  "g24-647000000117": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "경북청년 예비창업가 육성사업 지원",
+    "target": "경북 39세 이하 예비·초기 창업가",
+    "amount": "최대 1200만원",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001042": {
+    "category": "일자리",
+    "tags": [
+      "농업인",
+      "청년"
+    ],
+    "support_type": "바우처",
+    "summary": "청년농업인 취농직불제 월 100만원 지원",
+    "target": "40~50세 미만 독립경영 5년 이하 청년농",
+    "amount": "월 100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019619": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "희망두배 청년통장 지원",
+    "target": "서울 거주 만 18~34세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019620": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "꿈나래통장 지원",
+    "target": "서울 거주 만 14세 이하 자녀 둔 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000141": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 인공달팽이관 수술비 최대 700만원 지원",
+    "target": "기준중위소득 100% 이하 장애인",
+    "amount": "수술비 700만원, 재활비 450만원",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000183": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족복지시설 퇴소자 자립정착금 700만원 지원",
+    "target": "한부모가족복지시설 1년 6개월 이상 거주 후 퇴소자",
+    "amount": "세대당 700만원",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000204": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "고령자 주택개조 지원",
+    "target": "기준중위소득 50% 이하 만 65세 이상 고령자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000281": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "입양축하금 지원",
+    "target": "제주도 1년 이상 거주하며 아동 입양 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000297": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "입양아동 축하금 최대 700만원 지원",
+    "target": "제주도 1년 이상 거주하며 아동 입양 가정",
+    "amount": "최대 700만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000300": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "청각장애인 인공달팽이관 수술비 지원",
+    "target": "국민기초생활수급자, 차상위계층 청각장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00073800001": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "경제적 취약계층 건강주치의 서비스 지원",
+    "target": "중위소득 80% 이하 취약계층, 독거노인, 한부모, 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00077300006": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "대전 동구 중앙동 예비창업자 지원",
+    "target": "대전 동구 거주 만 19~60세 예비창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000149": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "청각장애인 인공달팽이관 수술비 지원",
+    "target": "만 60세 이하 등록 청각장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-647000000165": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "소상공인 노란우산공제 희망장려금 지원",
+    "target": "경북 소재 연매출 3억원 이하 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000192": {
+    "category": "금융",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "청년 노동자 통장 2년 만기 시 580만원 지원",
+    "target": "경기도 거주 19~39세 기준중위소득 120% 이하 가구",
+    "amount": "2년 만기 580만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000271": {
+    "category": "복지",
+    "tags": [
+      "임신·출산",
+      "농업인"
+    ],
+    "support_type": "서비스",
+    "summary": "출산 농가도우미 지원",
+    "target": "제주도 출산(예정) 여성 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00030500003": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "제주도내 대학생 장학금 지원",
+    "target": "제주도 1년 이상 거주 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "소형어선 유류비 지원",
+    "target": "부산시 주소지, 10톤 미만 어선 소유 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000615": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "형제복지원 사건 등 피해자 생활안정지원",
+    "target": "형제복지원 사건 등 피해 결정자 및 유족 중 부산시 거주자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000670": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "기업환경개선 사업 지원",
+    "target": "여성 근로자 비율 50% 이상 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000152": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족복지시설 퇴소자 자립정착금 500만원 지원",
+    "target": "한부모가족복지시설 2년 이상 거주 후 퇴소자",
+    "amount": "세대당 500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000129": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "청각장애인 인공달팽이관 수술비 500만원 지원",
+    "target": "광주 거주 중위소득 120% 이하 가구 청각장애인",
+    "amount": "500만원",
+    "show": true,
+    "special": true
+  },
+  "g24-641000000155": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족 학습재료비 등 지원",
+    "target": "기준중위소득 65% 이하 한부모 및 조손가족",
+    "amount": "",
     "show": true,
     "special": false
   }
