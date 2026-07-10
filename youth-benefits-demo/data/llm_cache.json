@@ -116401,5 +116401,673 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-875000000011": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "특수교육대상학생 가정 연간 150만원 지원",
+    "target": "1가정 2자녀 이상 특수교육대상학생 가정",
+    "amount": "연간 150만원",
+    "show": true,
+    "special": true
+  },
+  "g24-929000000209": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "난독·난산 학생 치료비 최대 150만원 지원",
+    "target": "제주도내 초1~중3 난독·난산 학생",
+    "amount": "1인당 최대 150만원",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000723": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청년후계농 영농정착지원금 월 110만원 지원",
+    "target": "만 18~40세 이하 독립경영예정자 및 3년 이하",
+    "amount": "월 110만원",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000736": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "충청북도 거주 난임부부 시술비 지원",
+    "target": "충청북도 거주 난임 진단 부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000139": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청년농업인 영농정착지원금 월 90~110만원 지원",
+    "target": "18~40세 미만 독립경영 3년 미만 청년농업인",
+    "amount": "월 90~110만원",
+    "show": true,
+    "special": false
+  },
+  "g24-743000000018": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "대전 거주 중증장애인 학교 내 일자리 지원",
+    "target": "대전 거주 만 18세 이상 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000674": {
+    "category": "복지",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "대전 1인 자영업자 유급병가 지원",
+    "target": "2025년 1월~12월 입원한 1인 자영업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000111": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "대전 100세 노인 장수축하금 100만원 지급",
+    "target": "대전 거주 100세 노인",
+    "amount": "100만원",
+    "show": true,
+    "special": true
+  },
+  "g24-631000000119": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "울산 거주 장애인가정 출산지원금 지원",
+    "target": "울산 거주 장애인 부모",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000327": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 의료비 본인부담금 100만원 한도 지원",
+    "target": "독립유공자",
+    "amount": "100만원 한도",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000194": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "도내 거주 민주화운동 관련자 생계지원비 지원",
+    "target": "도내 거주 민주화운동 관련자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000114": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "옹진군 저소득 주민자녀 장학금 지원",
+    "target": "옹진군 거주 중·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000362": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "세종 거주 여성장애인 출산지원금 지원",
+    "target": "세종 거주 여성장애인",
+    "amount": "100만원",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000394": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자활근로 참여자 취창업·탈수급 성공지원금 지급",
+    "target": "자활근로 참여자 중 취창업·탈수급 성공자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019618": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "서울 임산부 교통비 7만원 지원",
+    "target": "서울 거주 임신 3개월~출산 후 6개월 임산부",
+    "amount": "7만원",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000114": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 월 30~100만원 양육수당 지원",
+    "target": "가정위탁보호아동 보호 위탁부모",
+    "amount": "월 30~100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000154": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "부산 둘째아 이후 출산지원금 100만원 지원",
+    "target": "부산 거주 둘째 이후 출생아",
+    "amount": "100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000614": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부산 민주항쟁 관련자 위로금 월 5만원 지급",
+    "target": "부산 거주 민주항쟁 관련자 및 유족",
+    "amount": "월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000618": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "부산 청년 재직자 연 100만원 복지포인트 지원",
+    "target": "부산 거주 18~39세 중소기업 재직 청년",
+    "amount": "연 100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000153": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사슴 농가 인공수정료 최대 56만원 지원",
+    "target": "가축사육업 등록 엘크 농가",
+    "amount": "최대 56만원",
+    "show": true,
+    "special": false
+  },
+  "g24-743000000016": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "초중고 학생 현장체험학습비 20만원 지원",
+    "target": "수급자, 한부모, 차상위, 중위소득 80%이내, 다자녀",
+    "amount": "20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000655": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부산 다자녀 가정 교육지원포인트 30만원 지급",
+    "target": "2008~2019년생 자녀 1명 이상 다자녀가정",
+    "amount": "30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000137": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경기도 산후조리비 지원",
+    "target": "출생일 기준 12개월 이내 영아 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000347": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육보조금 최대 50만원 지원",
+    "target": "가정위탁아동",
+    "amount": "최대 50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000399": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "세종시 입양아동 입학축하금 지원",
+    "target": "세종시 거주 입양아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000126": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "서울 청년 월 50만원 수당 지원",
+    "target": "서울 거주 19~34세 미취업 졸업생",
+    "amount": "월 50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000735": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "인천 임산부 교통비 지원",
+    "target": "인천 6개월 이상 거주 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000818": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "광주 출생가정 상생카드 50만원 지원",
+    "target": "광주 출생신고 가정",
+    "amount": "50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000662": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "대전 소상공인 대체인력 인건비 지원",
+    "target": "대전 소재 사업장 3개월 이상 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-631000000139": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "울산 산후조리비 지원",
+    "target": "울산 출생신고 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000715": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "강원 육아기본수당 최대 50만원 지원",
+    "target": "'19년 이후 출생아 보호자 중 도내 1년 이상 거주자",
+    "amount": "최대 50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000129": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "청소년 장학금 지원",
+    "target": "근로청소년, 수급자, 학교밖청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000731": {
+    "category": "금융",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "대출",
+    "summary": "결혼·출산가정 대출이자 지원",
+    "target": "중위소득 180%이하 결혼·출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000198": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "충남 청소년 월경곤란증 한의약 치료 지원",
+    "target": "충남 중·고 여학생, 학교밖 여성청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000835": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 자녀교육비 지원",
+    "target": "중위소득 50~70% 이하 가구 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000118": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "다둥이가정 육아용품 구입비 20~50만원 지원",
+    "target": "두자녀 이상 가정",
+    "amount": "20~50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000207": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "경력단절여성 경력이음바우처 지원",
+    "target": "만30~65세 경력단절여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000186": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "경북 35세 이상 산모 의료비 지원",
+    "target": "경상북도 거주 35세 이상 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001057": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "서민층 진료비·건강검진비 지원",
+    "target": "의료급여수급자, 차상위, 장애인, 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001143": {
+    "category": "일자리",
+    "tags": [
+      "구직중",
+      "여성"
+    ],
+    "support_type": "현금",
+    "summary": "여성인턴 채용기업 및 미취업 여성에게 취업장려금 각 50만원 지급",
+    "target": "도내 여성인턴 채용기업, 미취업 여성",
+    "amount": "각 50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001091": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "제주도민 만 18세 이상 전기자전거 구입 보조금 지원",
+    "target": "제주도민 만 18세 이상",
+    "amount": "최대 500",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001120": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "제주도 전업 어업인에게 어업인수당 지원",
+    "target": "제주도 전업 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-654000000037": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "여성농업인 농작업 편의장비 10종 중 1개 지원",
+    "target": "농업경영체 등록 여성농어업인",
+    "amount": "50만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-654000000041": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아동학대 신고 및 위기 가정 아동에게 예방적 서비스 지원",
+    "target": "아동학대 신고 및 위기 가정 아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-701000000203": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 초·중·고 학생 수익자부담경비 지원",
+    "target": "저소득층 초·중·고 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-724000000003": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "대구 거주 만0~5세 영유아 진단검사비 지원",
+    "target": "대구 거주 만0~5세 영유아",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-753000000230": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경기도 고교 1~2학년 숙박형 체험학습비 지원",
+    "target": "경기도 공사립 고교 1~2학년",
+    "amount": "1인당 50만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-832000000007": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "전북 직업계고 재학생 취업플러스+ 지원",
+    "target": "전북 직업계고 재학생",
+    "amount": "연 최대 50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-875000000008": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "관심군 학생 정서행동특성검사 및 검사비 지원",
+    "target": "관심군 학생 및 보호자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00037600002": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화가정, 새터민 진료비 및 건강검진 지원",
+    "target": "다문화가정, 새터민",
+    "amount": "입원 50만원 한도",
+    "show": true,
+    "special": true
+  },
+  "g24-O00037600010": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "영월군 저소득층 의료비 감면 및 물품 지원",
+    "target": "영월군 저소득층",
+    "amount": "입원비 50만원, 외래 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101000004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전북 소재 고교생 대상 희망 장학금 지원",
+    "target": "전북 소재 고교생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000199": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "충남 재가 진폐환자 및 배우자 의료비 등 지원",
+    "target": "충남 재가 진폐환자 및 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-654000000030": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 및 출산모에게 친환경농산물 꾸러미 지원",
+    "target": "임산부 및 출산모",
+    "amount": "48만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-814000000005": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 학생 수학여행비 지원",
+    "target": "저소득층 초·중·고 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-814000000006": {
+    "category": "교육",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "다자녀가정 셋째 이후 학생 수학여행비 지원",
+    "target": "다자녀가정 셋째 이후 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-753000000221": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 초·중·고 학생 숙박형 체험학습비 지원",
+    "target": "저소득층 초·중·고 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000245": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "검정고시 준비생 학습비 지원",
+    "target": "저소득층, 북한이탈주민 등 검정고시 준비생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-724000000017": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "저소득·다자녀가정 현장체험학습비 지원",
+    "target": "저소득층, 다자녀가정",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
