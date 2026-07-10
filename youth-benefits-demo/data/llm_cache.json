@@ -113520,5 +113520,458 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-505000000109": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "가임기 여성 및 임부 풍진항원항체 검사비 지원",
+    "target": "경주시에 주민등록을 둔 가임기여성 및 임부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00110100001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "학교 밖 청소년 종합서비스 지원",
+    "target": "학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00110200001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "논산시 관내 중·고·대 재학생 장학금 지원",
+    "target": "논산시 거주 주민 자녀 중 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00110800001": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "보령시 거주 학생 장학금 지원",
+    "target": "보령시 거주 학생 (학업우수, 저소득, 다자녀)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00110900001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부여군 거주 학생 장학금 지원",
+    "target": "부여군 거주 군민 자녀 중 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00111200001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "서산시 거주 학생 장학금 지원",
+    "target": "서산시 거주 시민 자녀 중 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-631000000709": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "서비스",
+    "summary": "전세보증금반환보증 가입 보증료 지원",
+    "target": "청년, 신혼부부, 무주택자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000184": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "영세 소상공인 노란우산 신규가입 장려금 지원",
+    "target": "도내 연매출 3억원 이하 소상공인",
+    "amount": "월 1만원, 최대 12개월",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000239": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "충남 소상공인 노란우산 신규가입 장려금 지원",
+    "target": "충남 소재 연매출 3억원 이하 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000124": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "전북 소상공인 카드수수료 지원",
+    "target": "전북 연매출 3억원 이하 소상공인",
+    "amount": "0.4%, 최대 30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000204": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "전남광주 소상공인 노란우산 신규가입 장려금 지원",
+    "target": "전남광주 연매출 3억원 이하 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001072": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "서비스",
+    "summary": "청년주택 임차보증금 이자 지원",
+    "target": "도내 거주 무주택 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001091": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "도내 소상공인 노란우산 신규가입 장려금 지원",
+    "target": "도내 연매출 3억원 이하 소상공인",
+    "amount": "월 2만원, 최대 12회",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000329": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "제주 소상공인 노란우산 신규가입 장려금 지원",
+    "target": "제주 연매출 3억원 이하 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001138": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "서비스",
+    "summary": "제주 청년·주거취약계층 주택 중개수수료 지원",
+    "target": "제주 거주 19~39세 무주택 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-654000000035": {
+    "category": "복지",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "전북 자영업자 사회보험료 지원",
+    "target": "전북 거주 자영업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100002": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "스포츠산업 선도기업 육성 지원",
+    "target": "스포츠산업 업력 3년 이상 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000009": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "사회적경제기업 특별보증 지원",
+    "target": "사회적기업, 협동조합, 마을기업, 자활기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001237": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 주민 부동산 중개보수 지원",
+    "target": "경기도 거주 저소득 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000205": {
+    "category": "건강",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "학생 정신건강 치료비 지원",
+    "target": "도내 유·초·중·고등학생 및 학교밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089100006": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "울주군 소상공인 경영환경개선 및 디지털기기 지원",
+    "target": "울주군 내 창업 6개월 이상 소상공인",
+    "amount": "최대 300만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00114400010": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "의료급여수급자 등 의료비 지원",
+    "target": "의료급여수급자, 차상위계층, 기준중위소득 75% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045700013": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기 전통시장 매니저 육성 지원",
+    "target": "전통시장, 상점가, 골목형상점가 사업주체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000720": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산농가 전문도우미 지원",
+    "target": "축산업 등록농가",
+    "amount": "월 262만원",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019603": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기준중위소득 60% 이하 가구 집수리 지원",
+    "target": "기준중위소득 60% 이하 가구",
+    "amount": "가구당 250만원",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000749": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "미취업 청년 대상 도전지원사업",
+    "target": "18~34세 미취업 청년, 자립준비청년 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000665": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "대전 청년부부 결혼장려금 지원",
+    "target": "혼인신고일 기준 18~39세 초혼 부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001158": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "신중년 고용 기업 채용장려금 지원",
+    "target": "신중년 구직자 고용 기업",
+    "amount": "월 50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-724000000018": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "교육복지 우선지원 및 안전망 지원",
+    "target": "기초수급자, 한부모가정, 차상위계층 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00077300004": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "구직단념청년 등 대상 청년도전지원사업",
+    "target": "만 18~34세 구직단념청년, 자립준비청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089100003": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "울산 소상공인 경영환경개선 지원",
+    "target": "울산광역시 내 창업 6개월 이상 소상공인",
+    "amount": "최대 250만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101000011": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "전북 미래인재 육성지원",
+    "target": "전북 거주 중·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019622": {
+    "category": "일자리",
+    "tags": [
+      "구직중",
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "서울 청년 일자리 매칭 지원",
+    "target": "만19~39세 서울 거주 미취업 청년",
+    "amount": "월 246만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005253": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "대전 청년 월세 최대 20만원 지원",
+    "target": "청년",
+    "amount": "월 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000750": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "인천 청년 취업 아카데미 지원",
+    "target": "인천 거주 미취업 청년(18~39세)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00328400002": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "충남 청년인턴 사업 지원",
+    "target": "충남 소재 공공기관, 5인 이상 민간기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-875000000001": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "특수교육학생 장애 치료지원",
+    "target": "영·유아·초·중·고 특수교육대상학생",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000396": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화재 피해 주민 임시 거처비 지원",
+    "target": "세종시 주택 화재 피해 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019627": {
+    "category": "문화",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "대학생 동아리 사회기여활동 지원",
+    "target": "서울 소재 대학 학부생 동아리",
+    "amount": "최대 200만원",
+    "show": true,
+    "special": false
   }
 }
