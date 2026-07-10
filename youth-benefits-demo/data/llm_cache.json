@@ -139,7 +139,9 @@
       "학생"
     ],
     "support_type": "현금",
-    "summary": "관내 재학 난치병 학생 대상 치료비 지원",
+    "summary": "난치병, 소아암, 심뇌혈관 질환 학생 치료비 지원",
+    "target": "관내 재학 중인 난치병 학생",
+    "amount": "매년 지원",
     "show": true,
     "special": false
   },
@@ -183,17 +185,21 @@
       "저소득"
     ],
     "support_type": "현금",
-    "summary": "위기사유 발생 저소득층 대상 SOS 긴급복지 지원",
+    "summary": "위기사유 발생 저소득층 긴급복지 지원",
+    "target": "기준 중위소득 100% 이하 위기가정",
+    "amount": "",
     "show": true,
     "special": false
   },
   "g24-628000000129": {
-    "category": "일자리",
+    "category": "복지",
     "tags": [
       "구직중"
     ],
     "support_type": "현금",
-    "summary": "인천 거주 구직청년 대상 취업활동비 지원",
+    "summary": "인천 거주 구직청년 드림체크카드 지원",
+    "target": "만18~39세 인천 거주 미취업 청년",
+    "amount": "월 50만원/최대6개월",
     "show": true,
     "special": false
   },
@@ -113971,6 +113977,681 @@
     "summary": "대학생 동아리 사회기여활동 지원",
     "target": "서울 소재 대학 학부생 동아리",
     "amount": "최대 200만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113100001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "초중등 청소년에게 방과후 종합서비스 제공",
+    "target": "초등학교 4~6학년, 중학교 1~3학년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000244": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "충남 거주 입원자 대상 생활비 지원",
+    "target": "충남 거주 입원자, 건강보험 지역가입자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000806": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "전남광주 청년 무주택자 임차보증금 이자 지원",
+    "target": "19~39세 전남광주 거주 무주택자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-631000000124": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "울산 위기 가구 대상 긴급복지 지원",
+    "target": "중위소득 80% 이하 위기 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000124": {
+    "category": "금융",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "경기도 수급자·자립준비청년 중개보수 최대 30만원 지원",
+    "target": "생계·의료·주거·교육급여 수급자, 자립준비청년",
+    "amount": "최대 30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000126": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "경북 신혼부부 임차보증금 이자 지원",
+    "target": "경북 거주 혼인 7년 이내 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000015": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "전남 소상공인 경영안정자금 이차보전 지원",
+    "target": "경영애로 겪는 전남 소재 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000140": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "시설원예 농가 냉난방기 등 생산성 향상 지원",
+    "target": "시설원예 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000121": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "대규모 벼 재배농가 대형 농기계 지원",
+    "target": "벼 재배면적 3ha 이상 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000122": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의사자 유족·의상자 특별위로금 및 수당 지급",
+    "target": "의사자 유족, 의상자",
+    "amount": "최대 5,000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-654000000040": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "청년"
+    ],
+    "support_type": "현물",
+    "summary": "전북 신혼부부·청년 공공임대주택 입주 지원",
+    "target": "전북 공공임대주택 입주 신혼부부·청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000151": {
+    "category": "금융",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "경기도 노동자 휴가비 지원",
+    "target": "경기도 거주 연소득 4,200만원 이하 노동자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000661": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "신혼",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "대전형 임대주택 공급",
+    "target": "대학생, 청년, 신혼부부, 한부모 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000234": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "충남 농어민수당 지원",
+    "target": "충남 거주 농어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000786": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "도내 소공인 제품개발·홍보마케팅 지원",
+    "target": "도내 소공인",
+    "amount": "최대 1,200만원",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000184": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "충남 거주 난치병 환자 치료비 지원",
+    "target": "충남 거주 중위소득 80% 이하 난치병 환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000279": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "제주 청년 중소기업 근로자 재형저축 지원",
+    "target": "제주 중소기업 근로자(15~39세)",
+    "amount": "3,000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100009": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "원로 체육인 의료비 지원",
+    "target": "60세 이상 원로 체육인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001131": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "재직중"
+    ],
+    "support_type": "대출",
+    "summary": "제주 청년희망 대출 이차보전 지원",
+    "target": "제주 거주 연소득 4,500만원 이하 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000231": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "제주 중장년 중소기업 근로자 재형저축 지원",
+    "target": "제주 중소기업 근로자(40~64세)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019624": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "자녀출산 무주택가구 주거비 지원",
+    "target": "서울시 거주 무주택 출산 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-653000000015": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "청년 18~45세 근로자 적립금 매칭 지원",
+    "target": "청년 18~45세 근로자",
+    "amount": "매월 20만원, 3년",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000164": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "위기상황 가정 소득, 재산 기준 충족 시 지원",
+    "target": "기준 중위소득 100% 이하 위기 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000170": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업용 관리기 등 소형 농기계 구입비 지원",
+    "target": "도내 거주, 농지 소유/임대 경작 농업인",
+    "amount": "구입비",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000196": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "선감학원 사건 피해자 생활안정지원금 지급",
+    "target": "경기도 거주 선감학원 사건 피해자",
+    "amount": "생활안정지원금",
+    "show": true,
+    "special": true
+  },
+  "g24-643000000732": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "4자녀 이상 다자녀 가정 지원",
+    "target": "4자녀 이상, 18세 이하 자녀와 거주 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000758": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "충청북도 산모 산부인과 질환 의료비 후불 지원",
+    "target": "충청북도 거주 모든 산모",
+    "amount": "의료비",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000105": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 월동연료비, 자립정착금, 교복비 지원",
+    "target": "기준 중위소득 65% 이하 저소득 한부모가족",
+    "amount": "월 10만원, 500만원, 교복비",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000140": {
+    "category": "농업",
+    "tags": [
+      "학생",
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "농업계고 졸업생 영농/창업 지원금 지급",
+    "target": "졸업 후 5년 이내 농업계고 졸업생",
+    "amount": "500만원/3년",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001019": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "도내 고교 졸업 도내 대학 재학생 장학금 지원",
+    "target": "도내 고교 졸업 도내 대학 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001157": {
+    "category": "자영업·창업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "40~69세 경남도민 예비 창업자 창업 지원",
+    "target": "40~69세 경남도민 예비 창업자",
+    "amount": "최대 500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-724000000014": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 자녀 문신제거 의료비 지원",
+    "target": "저소득층 가정 자녀",
+    "amount": "연 500만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045400017": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "의료취약계층 및 결혼이민자 의료비 지원",
+    "target": "의료급여수급자, 차상위, 중위소득 65% 이하",
+    "amount": "의료비",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109200004": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "의료급여, 차상위, 건강보험 하위 20% 대상 지원",
+    "target": "의료급여, 차상위, 건강보험 하위 20% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000656": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "대전 전세사기 피해 임차인 지원사업",
+    "target": "대전시 거주 전세사기 피해 임차인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000687": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "경기도 중소기업 청년 노동자 지원사업",
+    "target": "19~39세 경기도 거주 중소기업 재직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000164": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가구 생활자립 지원",
+    "target": "기준 중위소득 65% 이하 도내 거주 한부모가구",
+    "amount": "7개 복지급여",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000756": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "혁신제품 보유/인증 희망 기업 판로 컨설팅 지원",
+    "target": "도내 혁신제품 보유/인증 희망 기업",
+    "amount": "400만원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000157": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "독립유공자 의료비, 참전유공자 명예수당 지원",
+    "target": "도내 독립유공자, 참전유공자 및 유족",
+    "amount": "의료비, 명예수당",
+    "show": true,
+    "special": true
+  },
+  "g24-641000000686": {
+    "category": "복지",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "청년 근로자 경기도 복지포인트 지원",
+    "target": "19~39세 경기도 거주 청년 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000179": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "원예작물 연작장해 경감제 지원",
+    "target": "농업경영체 등록 시설원예 및 노지채소 1,000㎡이상 재배농가",
+    "amount": "360만원/ha",
+    "show": true,
+    "special": false
+  },
+  "g24-B55252500002": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "지역 청소년 멘토링 장학금 및 프로그램 지원",
+    "target": "정선 등 7개 지역 중고등학생, 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000213": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업용 유류저장탱크(급유기) 구입 지원",
+    "target": "전남도 1년 이상 거주 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-654000000008": {
+    "category": "복지",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "전북 청년 미취업자 활력수당 지원",
+    "target": "18~39세 전북 거주 미취업자",
+    "amount": "월 50만원씩 6개월",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000322": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보호아동 대학입학준비금 지원",
+    "target": "가정위탁 보호아동 및 국내입양아동 중 대학진학 신입생",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000390": {
+    "category": "복지",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "세종시 청년 구직활동비 지원",
+    "target": "19~39세 세종 거주 미취업 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000402": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "청년"
+    ],
+    "support_type": "현물",
+    "summary": "세종형 쉐어하우스 청년임대주택 보급",
+    "target": "무주택 미혼 청년 (대학생, 취준생 등)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000609": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부산 거주 독립유공자 유족 의료비 지원",
+    "target": "부산 거주 독립유공자 선순위 유족 및 배우자",
+    "amount": "연 300만원 한도",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000622": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "부산시 출생아 산후조리비 지원",
+    "target": "부산시 출생아 및 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000149": {
+    "category": "복지",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "광주 청년 구직활동수당 지원",
+    "target": "19~39세 광주 거주 미취업 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000712": {
+    "category": "복지",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "강원 청년 취업준비 쿠폰 지원",
+    "target": "강원 거주 만18~45세 미취업 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000731": {
+    "category": "복지",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "40~59세 여성 구직활동 지원",
+    "target": "40~59세 가구소득 중위 60~150% 미취업 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000156": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "충북 출산육아수당 지원",
+    "target": "2023.1.1. 이후 출생아 및 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000861": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "청년농업인 농지 임차료 지원",
+    "target": "1980~2007년생 청년농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000262": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 위기가정 지원",
+    "target": "기준 중위소득 100% 이하 위기가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000296": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "1인가구"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급 무주택 독거노인 주거비 지원",
+    "target": "65세 이상 기초생활수급 무주택 독거노인",
+    "amount": "가구당 400,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-650000000305": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 자립 지원",
+    "target": "저소득 한부모가족",
+    "amount": "",
     "show": true,
     "special": false
   }
