@@ -111183,5 +111183,705 @@
     "amount": "50%",
     "show": true,
     "special": true
+  },
+  "g24-O00049400004": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "여성인재아카데미 수강료 감면",
+    "target": "국민기초생활수급자, 차상위계층, 국가유공자, 한부모가족, 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00049400005": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "여성마을학교 잇다 수강료 감면",
+    "target": "국민기초생활수급자, 차상위계층, 유공자, 사회복지시설 수용자, 한부모가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00049900001": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약환자 의료비 지원",
+    "target": "의료급여대상자, 차상위계층 등 경제적 취약 환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00050100001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성남시장학회 대학 장학금 지원",
+    "target": "초, 중, 고, 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00051300004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시흥시 지역상생 장학생 선발",
+    "target": "시흥시 1년 이상 거주 학생, 소상공인, 산업단지 입주기업 재직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00051300006": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시흥시 예체능 장학생 선발",
+    "target": "시흥시 1년 이상 거주 학생, 전국 단위 대회 3위 이내 수상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00051300015": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시흥시 일반 장학생 선발",
+    "target": "시흥시 1년 이상 거주 학생, 관내 학교 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00051300016": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시흥시 추천 장학생 선발",
+    "target": "시흥시 1년 이상 거주 학생, 이주배경 가정 자녀, 학교밖청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00051300017": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시흥시 기능인재 장학생 선발",
+    "target": "시흥시 1년 이상 거주 학생, 기능경기대회 수상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00051500001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청소년 무료 개인상담 및 심리검사",
+    "target": "만9세~만24세 대한민국 거주 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00051500002": {
+    "category": "교육",
+    "tags": [
+      "장애인",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "사회적취약계층 강좌 수강료 감면",
+    "target": "등록장애인, 국가유공자, 국민기초생활수급자, 소년소녀가정, 한부모가족",
+    "amount": "50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00051500003": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "사회적취약계층 청소년 방과후 아카데미 지원",
+    "target": "2자녀 이상 가정, 맞벌이 가정, 한부모가정, 다문화가정, 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00052300001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "안성시민장학회 장학금 지원",
+    "target": "안성시 주소지 초, 중, 고, 대학 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00052700001": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "사회적 취약계층 이용료 면제",
+    "target": "국민기초생활수급자, 한부모가족, 아동양육시설 아동, 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00052900002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "안양시 진로진학코칭센터 무료 상담",
+    "target": "초6, 중, 고 학생 및 학부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00052900003": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "안양시 인재육성재단 장학금 지원",
+    "target": "저소득 가정 자녀, 성적 우수 학생, 기탁자 지정 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00052900004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "안양시 원어민 화상영어 수강료 지원",
+    "target": "안양시 거주 초1~고등학생, 학교밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00053900001": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "청소년수련관 이용료 감면",
+    "target": "국민기초생활수급자, 국가유공자, 장애인, 한부모가족, 군인",
+    "amount": "80%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00055000001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "학교밖청소년 교육, 상담, 복지 서비스",
+    "target": "만9세~만24세 학교밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00055000002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청소년 개인상담 서비스 제공",
+    "target": "만9세~만24세 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00060800009": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "고성군 중학생 해외문화체험 및 진로교육 지원",
+    "target": "고성군 관내 중학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00062400001": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "사천시 장사시설 이용요금 감면",
+    "target": "기초수급자, 국가유공자, 100세 이상, 무연고자",
+    "amount": "전액 면제",
+    "show": true,
+    "special": true
+  },
+  "g24-O00062500001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "사천시 관내 학생 장학금 지원",
+    "target": "사천시 거주 중고등학생, 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00063100001": {
+    "category": "금융",
+    "tags": [
+      "저소득",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "저소득 무주택자 전세자금 저리 융자",
+    "target": "기초수급자 중 무주택자",
+    "amount": "저리 융자",
+    "show": true,
+    "special": false
+  },
+  "g24-O00063100003": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 운전면허 학원비 지원",
+    "target": "기초수급자, 취업준비생, 구직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00063100004": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 무료 빨래방 서비스 지원",
+    "target": "중증장애인, 독거노인, 기초수급자",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-O00063100006": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 거동 불편 노인 실버카 지원",
+    "target": "만 65세 이상 거동 불편 저소득 노인",
+    "amount": "실버카",
+    "show": true,
+    "special": false
+  },
+  "g24-O00069200001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "성주군 우수 학생 교육 프로그램 지원",
+    "target": "성주군 거주 초중고생 중 성적 우수자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00069600001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "영덕군 관내 학생 장학금 지원",
+    "target": "영덕군 거주 학생 및 대학 진학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00069600002": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "관내 고교 기숙사비 월 5만원 지원",
+    "target": "관내 고교 기숙사생",
+    "amount": "월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00069600003": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "바우처",
+    "summary": "저소득층 초중고생 학원비 바우처 지원",
+    "target": "기초수급자, 차상위, 한부모 가정 초중고생",
+    "amount": "월 10~15만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00075700001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "대구 동구 관내 고등학생, 대학생 장학금 지원",
+    "target": "대구 동구 거주 고등학생, 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00075800001": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "대구 도서관 회원 스마트 도서관 대출·반납",
+    "target": "책이음, 대구 도서관 회원",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00078000001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "대전 동구 거주 고등학생 장학금 지원",
+    "target": "대전 동구 거주 학생 및 자녀, 성적 우수자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00084500001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "구로구 거주 학생 장학금 지원",
+    "target": "구로구 거주 중학교 졸업생, 고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00087800001": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "종로 청년 창업센터 입주 지원",
+    "target": "예비 또는 창업 7년 이내 청년기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00087900001": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 초중고생 꿈드림 장학금 지원",
+    "target": "관내 초중고생 중 심의 선정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00091800001": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "부평구민 유료 기획공연 할인 지원",
+    "target": "부평구 거주 주민",
+    "amount": "30~50% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-O00095200001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "곡성군 거주 대학생 장학금 지원",
+    "target": "곡성군 거주 1년 이상 주민의 자녀, 군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113200001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "태안군 학생에게 장학금 지급",
+    "target": "태안군 3년 이상 주소 둔 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00115700001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "옥천군 학생에게 장학금 지급",
+    "target": "옥천군 1년 이상 주소 둔 군민 또는 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00116800001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "진천군 학생에게 장학금 지급",
+    "target": "진천군 1년 이상 주소 둔 군민 또는 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00368400002": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "영등포구 고등학생에게 성적 향상 장학금 지급",
+    "target": "영등포구 관내 고등학교 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00368400003": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "영등포구 초등학생에게 독서 장학금 지급",
+    "target": "영등포구 관내 초등학교 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00368400004": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "영등포구 고등학생에게 자격증 취득 장학금 지급",
+    "target": "영등포구 관내 고등학교 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00074000004": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업",
+      "중소기업"
+    ],
+    "support_type": "대출",
+    "summary": "대구 중소기업·소상공인 경영안정자금 융자 지원",
+    "target": "대구 소재 중소기업, 소상공인, 중견기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000195": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업",
+      "중소기업"
+    ],
+    "support_type": "대출",
+    "summary": "중소기업 경영안정자금 융자 지원",
+    "target": "제조업체, 제조업 관련 서비스업체, 지식서비스업체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000110": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "광주 소상공인 특례보증 지원",
+    "target": "광주 소재 소기업, 소상공인, 자영업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000140": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "충북 소상공인 금융대출 이차보전 지원",
+    "target": "충북 도내 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000166": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "경북 소상공인 육성자금 이차보전 지원",
+    "target": "경북 도내 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00074000008": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업",
+      "중소기업"
+    ],
+    "support_type": "대출",
+    "summary": "달성군 중소기업 경영안정자금 융자 지원",
+    "target": "달성군 5년 이상 운영 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000679": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업",
+      "중소기업"
+    ],
+    "support_type": "대출",
+    "summary": "대전 중소기업 창업 및 경쟁력강화자금 지원",
+    "target": "대전 소재 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00072800005": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "광주 청년창업 특례보증 지원",
+    "target": "광주 만 39세 이하 청년 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000014": {
+    "category": "환경·생활",
+    "tags": [
+      "중소기업"
+    ],
+    "support_type": "현물",
+    "summary": "건설현장 산재예방 안전시설 개선 지원",
+    "target": "건설현장, 상시근로자 50인 미만 사업장",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-653000000023": {
+    "category": "금융",
+    "tags": [
+      "중소기업"
+    ],
+    "support_type": "대출",
+    "summary": "도내 중소기업 육성자금 지원",
+    "target": "도내 소재 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000139": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "바우처",
+    "summary": "인천사랑상품권 구매 지원",
+    "target": "인천시민, 관내 소상공인",
+    "amount": "월 30만원 한도 10%",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000690": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업",
+      "중소기업"
+    ],
+    "support_type": "대출",
+    "summary": "경기도 중소기업육성자금 지원",
+    "target": "경기도 중소기업, 소상공인",
+    "amount": "최대 5억원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093300003": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업",
+      "중소기업"
+    ],
+    "support_type": "대출",
+    "summary": "전남 중소기업 육성자금 지원",
+    "target": "전남 소재 중소기업",
+    "amount": "최대 20억",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000006": {
+    "category": "환경·생활",
+    "tags": [
+      "중소기업"
+    ],
+    "support_type": "대출",
+    "summary": "산재예방시설 설치 융자 지원",
+    "target": "근로자 고용 사업장, 산재예방 법인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
