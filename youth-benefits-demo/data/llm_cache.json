@@ -111883,5 +111883,962 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-O00034900001": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인·수급자 상수도요금 감면",
+    "target": "장애정도가 심한 장애인, 생계·의료·주거·교육 급여 수급자",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00034900002": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "생계·의료급여 수급자 하수도요금 감면",
+    "target": "생계, 의료급여 수급자",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00035300001": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인·국가유공자 등 각종시설 이용요금 감면",
+    "target": "장애인, 국가유공자, 다자녀 등",
+    "amount": "최대 30% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00035500001": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "다자녀",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "수급자·다자녀 등 하수도요금 감면",
+    "target": "생계·의료급여 수급자, 다자녀, 한부모, 심한 장애인 등",
+    "amount": "5톤 상당 금액 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00035500002": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "다자녀",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "수급자·다자녀 등 상수도요금 감면",
+    "target": "생계·의료급여 수급자, 다자녀, 한부모, 심한 장애인 등",
+    "amount": "5톤 상당 금액 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00039300001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "원덕읍 출신 재학생 장학금 지급",
+    "target": "원덕읍 출신 재학생 (본인/부모 3년이상 거주)",
+    "amount": "장학금",
+    "show": true,
+    "special": false
+  },
+  "g24-O00039900001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "영월군 고등학생·대학생 장학금 지급",
+    "target": "영월군 주소 고등학생, 졸업생 대학생",
+    "amount": "장학금",
+    "show": true,
+    "special": false
+  },
+  "g24-O00042600001": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "지역 문화예술단체·개인 지원",
+    "target": "태백시 관내 전문·생활예술단체 및 개인",
+    "amount": "지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00042800001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "태백시 중고등·대학생 장학금 지급",
+    "target": "학교장 추천 중고등학생, 태백시민 자녀 대학생",
+    "amount": "최대 100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00046500001": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "저소득",
+      "다자녀",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "청소년시설 강좌 이용요금 감면",
+    "target": "장애인, 국가유공자, 수급자, 다자녀, 다문화, 한부모",
+    "amount": "최대 50% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00046500010": {
+    "category": "문화",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "고양시 청소년 동아리 활동 지원",
+    "target": "고양시 관내 청소년 동아리",
+    "amount": "활동비 지원, 대관, 자원 연계",
+    "show": true,
+    "special": false
+  },
+  "g24-O00046500016": {
+    "category": "문화",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "청소년시설 이용요금 전액 면제",
+    "target": "등록 청소년단체 행사, 국가/지자체 행사, 시장 후원 행사",
+    "amount": "전액 면제",
+    "show": true,
+    "special": false
+  },
+  "g24-O00046500024": {
+    "category": "복지",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "디지털미디어 피해 청소년 회복 지원",
+    "target": "인터넷·스마트폰 과의존 청소년",
+    "amount": "상담, 치료비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00047700001": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "광주시 문화재단 시설 대관료 감면",
+    "target": "국가, 경기도, 광주시, 장애인, 국가유공자 단체 등",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00049300001": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "남양주시 사회복지시설 공모사업 지원",
+    "target": "남양주시 소재 사회복지시설",
+    "amount": "지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00049300002": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "남양주시 사회복지종사자 역량강화 교육",
+    "target": "남양주시 사회복지 종사자",
+    "amount": "교육 제공",
+    "show": true,
+    "special": false
+  },
+  "g24-O00049300003": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애 아동·청소년 악기 교육 지원",
+    "target": "남양주시 발달장애 및 저소득 아동·청소년",
+    "amount": "악기 교육 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00049300005": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "남양주시 사회복지시설 컨설팅 제공",
+    "target": "남양주시 내 사회복지시설 종사자",
+    "amount": "컨설팅 제공",
+    "show": true,
+    "special": false
+  },
+  "g24-O00049400001": {
+    "category": "복지",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "청소년 전문 상담 서비스 제공",
+    "target": "9~24세 청소년",
+    "amount": "심리상담, 검사 등",
+    "show": true,
+    "special": false
+  },
+  "g24-O00049400002": {
+    "category": "복지",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "부천시 학교 밖 청소년 지원센터 운영",
+    "target": "학교 밖 청소년",
+    "amount": "지원 서비스",
+    "show": true,
+    "special": false
+  },
+  "g24-O00055000003": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "청소년수련관 교육 강좌 감면 서비스",
+    "target": "국민기초생활수급자, 국가보훈대상자, 보호아동, 한부모가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00055000004": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "청소년수련관 방과후아카데미 운영 지원",
+    "target": "국민기초수급자, 차상위계층, 한부모, 장애인, 다문화, 조손, 맞벌이, 다자녀",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00055000005": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "문화의집 모아아카데미 수강료 감면",
+    "target": "국민기초수급자, 국가보훈대상자, 한부모, 장애인, 다문화, 노인, 다자녀",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00055100001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의왕시 대학생 장학금 지급",
+    "target": "의왕시 거주 2년 이상 대학생",
+    "amount": "최대 80점 이상",
+    "show": true,
+    "special": false
+  },
+  "g24-O00056800001": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "노인 및 장애인 공연 티켓 50% 할인",
+    "target": "65세 이상 노인, 장애인",
+    "amount": "50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00056900001": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모",
+      "장애인",
+      "다문화"
+    ],
+    "support_type": "서비스",
+    "summary": "꿈의 오케스트라 평택 참여 지원",
+    "target": "국민기초수급자, 한부모, 조손, 장애청소년, 다문화, 차상위, 보훈자 자녀, 학교 밖, 아동복지시설",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00056900002": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모",
+      "다문화"
+    ],
+    "support_type": "서비스",
+    "summary": "사회적배려 청소년 진로 프로그램 무료 제공",
+    "target": "국민기초수급자, 차상위, 국가보훈대상자, 한부모, 학교 밖, 다자녀, 아동복지시설",
+    "amount": "100%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00056900003": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "청소년문화센터 수강료 감면",
+    "target": "국민기초수급자, 장애인, 국가유공자 자녀",
+    "amount": "15~100%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00057000001": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "평택시 학생 장학금 지급",
+    "target": "성적우수, 다자녀, 저소득, 읍면동장 추천, 예체능 특기생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00058000005": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "여성비전센터 교육 운영 지원",
+    "target": "국민기초수급자, 국가유공자, 한부모, 장애인, 사회복지시설 수용자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00058100002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "사회서비스 제공기관 종사자 교육 지원",
+    "target": "화성시 사회서비스 제공기관 종사자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00058400001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "화성시 고등학생 및 대학생 국제교류 지원",
+    "target": "화성시 거주 1년 이상 고등학생 및 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00058400003": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "화성시 대학생 장학관 지원",
+    "target": "화성시 거주 1년 이상 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00058400005": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화성시 학생 장학금 지원",
+    "target": "화성시 거주 1년 이상 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00060800001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고성군 고3학생 수능이후 프로그램 지원",
+    "target": "고성군 관내 고3학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00060800003": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고성군 초중고 교육경비 보조사업",
+    "target": "고성군 관내 초중고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00060800004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고성군 초중학교 원어민 영어보조교사 운영비 지원",
+    "target": "고성군 관내 초, 중학교",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00060800005": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고성군 초등학생 통학 지원",
+    "target": "고성군 관내 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00060800007": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고성군 중학생 글로벌 인재육성 프로그램 지원",
+    "target": "고성군 관내 중학교 3학년 이상 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00060800008": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "고성군 학교급식 우수 식재료 지원",
+    "target": "고성군 관내 유치원, 초·중·고등학교",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113100002": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "위기청소년 심리·정서 지지 및 자원 연계 서비스",
+    "target": "만 9세 이상 만 24세 이하 청소년",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00079500002": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "부산 중소기업 공장 건축·매입 자금 최대 15억원 지원",
+    "target": "부산 소재 중소기업",
+    "amount": "최대 15억원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000303": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "탐나는전 카드·모바일 결제 시 최대 10% 포인트 적립",
+    "target": "만 14세 이상 제주도민",
+    "amount": "최대 10%",
+    "show": true,
+    "special": false
+  },
+  "g24-O00003200001": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "평택항 화물유치 선사·포워더 인센티브 지원",
+    "target": "평택항 이용 선사·포워더",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000004": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "보증",
+    "summary": "수출 피해 중소기업 보증 지원",
+    "target": "수출 피해 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00100200001": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "보증",
+    "summary": "전북 소재 소상공인 신용보증 지원",
+    "target": "전북 소재 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001122": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "임신·출산"
+    ],
+    "support_type": "대출",
+    "summary": "신혼·출산 가구 주택 구입자금 대출 지원",
+    "target": "신혼·출산 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001097": {
+    "category": "금융",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 주택구입 대출이자 지원",
+    "target": "신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000679": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "축산물 작업장 위생설비 개선 지원",
+    "target": "도내 축산물 작업장",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000860": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "농어촌 진흥기금 이차보전(융자) 지원",
+    "target": "충남 거주 농어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045200004": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "보증",
+    "summary": "소재·부품·장비 국산화기업 특별보증 지원",
+    "target": "소재·부품·장비 제조 기업",
+    "amount": "5억원",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000647": {
+    "category": "금융",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "부산 거주 무주택 신혼부부 주택융자 및 이자 지원",
+    "target": "부산 거주 무주택 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000129": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "서울시민 입원 생활비 지원",
+    "target": "서울시민 지역가입자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000114": {
+    "category": "일자리",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "대구시 거주 저소득 미취업자 공공근로 사업 참여 지원",
+    "target": "대구 거주 저소득 미취업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000153": {
+    "category": "일자리",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 가구 근로능력자 지역공동체일자리사업 참여 지원",
+    "target": "저소득 가구 근로능력자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000371": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "연매출 3억 이하 소상공인 노란우산공제 희망장려금 지원",
+    "target": "연매출 3억 이하 소상공인",
+    "amount": "월 2만원",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000164": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "서울 소재 연매출 3억 이하 소상공인 노란우산 공제 가입 지원",
+    "target": "서울 소재 연매출 3억 이하 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000160": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "대구 소재 연매출 3억 이하 소상공인 노란우산공제 희망장려금 지원",
+    "target": "대구 소재 연매출 3억 이하 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000170": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "인천 소재 연매출 3억 이하 소상공인 노란우산공제 가입장려금 지원",
+    "target": "인천 소재 연매출 3억 이하 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-631000000137": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "연매출 3억 이하 소상공인 노란우산공제 희망장려금 지원",
+    "target": "연매출 3억 이하 소상공인",
+    "amount": "월 1만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00026200007": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "대출",
+    "summary": "기존주택 임대주택 지원(전세)",
+    "target": "수급자, 한부모, 월평균소득 70% 이하 장애인, 고령자, 주거지원 시급가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006061": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "주거취약계층 주택임대차 중개보수 지원",
+    "target": "국민기초생활수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001119": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "제주 청년 월세 최대 20만원 지원",
+    "target": "부모와 별도 거주하는 35~39세 무주택 청년 세대주",
+    "amount": "최대 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000379": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "세종시 청년 주택임차보증금 이자 지원",
+    "target": "19~39세 미혼청년 또는 청년 신혼부부",
+    "amount": "",
+    "show": false,
+    "special": false
+  },
+  "g24-626000000113": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "부산 청년 임차보증금 대출 및 이자 지원",
+    "target": "만19~39세 무주택 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000719": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "대구 청년 주택 임차보증금 이자 지원",
+    "target": "만19~39세 무주택 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000760": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "인천 청년 주택임차보증금 이자 지원",
+    "target": "19~39세 무주택 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000668": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "대전 청년 주택임차보증금 이자 지원",
+    "target": "만19~39세 무주택자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000672": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "대전 소상공인 경영회복 지원",
+    "target": "대전시 사업장 운영 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000852": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "경기도 취약계층 주택화재 안심보험 지원",
+    "target": "기초생활보장수급자, 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000719": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "청년농업인 육성지원",
+    "target": "만18~40세 미만 청년농업인",
+    "amount": "200만원/명",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001055": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "경남 청년 월세 지원",
+    "target": "경남 거주 만19~39세 이하 청년 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001147": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "경남 주거취약계층 주택임대차 중개보수 지원",
+    "target": "국민기초생활수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100019": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "스포츠산업 예비 선도기업 육성 지원",
+    "target": "중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045200002": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "경기도 소상공인지원자금보증 지원",
+    "target": "경기도 사업장 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045200003": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "재도전 희망 특례보증 지원",
+    "target": "사업실패 등으로 신용 악화 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000008": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "소상공인 창업자금 이차보전 지원",
+    "target": "창업 2년 미만 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00019400010": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "대출",
+    "summary": "기존 주택 전세 임대 지원",
+    "target": "생계, 의료급여 수급자, 한부모가족, 저소득 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000154": {
+    "category": "환경·생활",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농장 악취저감시설 지원",
+    "target": "축산업 허가(등록)된 축산농가",
+    "amount": "5,000만원/호",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000192": {
+    "category": "환경·생활",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "가축분뇨 퇴비 부숙촉진 지원",
+    "target": "퇴비부숙도 검사대상 농가",
+    "amount": "5,000만원/호",
+    "show": true,
+    "special": false
   }
 }
