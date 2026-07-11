@@ -125405,5 +125405,701 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00003699": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "독립유공자 의료비 지원",
+    "target": "독립유공자 및 유족",
+    "amount": "의료비 본인부담금",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003781": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보훈대상자 위문금 지원",
+    "target": "국가보훈대상자",
+    "amount": "위문금",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006126": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "경기북부 청년 일자리 매칭 지원",
+    "target": "경기북부 중소기업 및 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002595": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "청각장애인 인공달팽이관 재활치료비 지원",
+    "target": "청각장애인",
+    "amount": "재활치료비",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005366": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "무연고 사망자 장례비 지원",
+    "target": "무연고 사망자",
+    "amount": "장례비",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003476": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "한방난임 부부 지원",
+    "target": "난임 부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003474": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "노인 1인가구 공동체 형성 지원",
+    "target": "노인 1인가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000720": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 청각장애인 재활지원",
+    "target": "저소득 청각장애인",
+    "amount": "의료비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000686": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁 아동 양육보조금 지원",
+    "target": "가정위탁 아동",
+    "amount": "양육보조금",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005845": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "시설보호아동 마음건강돌봄 지원",
+    "target": "시설보호아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003392": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가구 냉난방비 지원",
+    "target": "기초생활수급 중증장애인가구",
+    "amount": "냉난방비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004145": {
+    "category": "교육",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현금",
+    "summary": "중·고 신입생 교복구입비 지원",
+    "target": "군포시 중·고등학교 신입생",
+    "amount": "교복구입비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005170": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "경기청년 갭이어 프로그램 운영",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003574": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "대학생 학자금 대출이자 지원",
+    "target": "경기도 대학(원) 재학생, 미취업 졸업(수료)생",
+    "amount": "대출이자",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001022": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모신생아 건강관리사 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004077": {
+    "category": "복지",
+    "tags": [
+      "중장년"
+    ],
+    "support_type": "서비스",
+    "summary": "일하는 가정 주거공간개선 지원",
+    "target": "일하는 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000721": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "차상위이하 아동 방과후 보육료 지원",
+    "target": "만12세 이하 초등 취학아동",
+    "amount": "보육료",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004078": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 장애인 의료비 지원",
+    "target": "저소득 장애인",
+    "amount": "의료비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005364": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "뇌병변장애인 신변처리용품 지원",
+    "target": "저소득 심한 뇌병변장애인",
+    "amount": "기저귀",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004076": {
+    "category": "일자리",
+    "tags": [
+      "중장년"
+    ],
+    "support_type": "현금",
+    "summary": "경기여성 취업지원금 지원",
+    "target": "경력보유여성",
+    "amount": "구직지원금",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000942": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "가평군 중·고등학생 무상교복 지원",
+    "target": "가평군 중·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003676": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 초등학생 치과 주치의 사업 지원",
+    "target": "경기도 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003471": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 주택 개조 사업 지원",
+    "target": "중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005016": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가족 서포터즈 운영 및 취업교육 지원",
+    "target": "다문화가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005015": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가족 특성화 사업 지원",
+    "target": "다문화가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006541": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "청년",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 및 청년 전세자금 대출이자 지원",
+    "target": "신혼부부 및 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006526": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "난임 진단검사비 지원 사업",
+    "target": "난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006524": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "자영업·창업",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "청년 소상공인·농어업인 출산급여 지원",
+    "target": "청년 소상공인·농어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005243": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한의 치매 예방 사업 지원",
+    "target": "경도인지장애환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005199": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 필요경비 지원 사업",
+    "target": "어린이집 이용 유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-654000000016": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "전북청년 함께 두배적금 지원",
+    "target": "중위소득 140% 이하 근로 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004925": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "저소득계층 임대보증금 지원",
+    "target": "무주택 저소득계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004744": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "발달장애인 주간활동서비스 추가 지원",
+    "target": "발달장애인",
+    "amount": "추가 10시간",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002366": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부모부담 차액보육료 지원",
+    "target": "민간가정 어린이집 3-5세 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000954": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 노인 틀니 지원",
+    "target": "저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001210": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 신문 보급 지원",
+    "target": "장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001965": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인활동지원제도 추가 지원",
+    "target": "중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001384": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "결식우려아동 학기 중 급식 지원",
+    "target": "만18세미만 결식우려아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006379": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "남성 난임 시술비 지원 사업",
+    "target": "남성 난임자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006378": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한방 난임부부 지원 사업",
+    "target": "난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003141": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 산후 건강관리 지원",
+    "target": "임신·출산, 청소년, 청년, 중장년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004279": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 노인 용품 및 건강보험료 지원",
+    "target": "저소득 거동불편 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005795": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "세 자녀 이상 가정 우유바우처 지원",
+    "target": "세 자녀 이상 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005793": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀 가정 하수도요금 감면",
+    "target": "다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005787": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀 가족 캠핑장 이용료 감면",
+    "target": "다자녀 가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005780": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀 가구 주민자치센터 수강료 감면",
+    "target": "다자녀 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005479": {
+    "category": "복지",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "바우처",
+    "summary": "학교 밖 청소년 교통카드 지원",
+    "target": "학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005396": {
+    "category": "교육",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "다문화 청소년 진로 지원",
+    "target": "다문화가족자녀, 중도입국자녀, 학교이탈자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005824": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북 다자녀가구 혜택 지원",
+    "target": "전북 도민 다자녀 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005788": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "다자녀 가정 우유바우처 지원",
+    "target": "다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005799": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영유아 장난감도서관 운영 지원",
+    "target": "영유아, 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005794": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "셋째아 이상 출산가정 육아용품 지원",
+    "target": "셋째아 이상 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004988": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "남성장애인 배우자 출산비용 지원",
+    "target": "남성장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001005": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "3째아 이상 출산아동 가정 육아용품 지원",
+    "target": "3째아 이상 출산아동 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005832": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀 캠핑장 요금 감면 확대",
+    "target": "다자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005782": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산·양육 가정 육아용품 지원",
+    "target": "출산·양육 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004579": {
+    "category": "문화",
+    "tags": [
+      "농업"
+    ],
+    "support_type": "바우처",
+    "summary": "여성농업인 생생카드 지원",
+    "target": "여성농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006361": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "신혼"
+    ],
+    "support_type": "임대",
+    "summary": "청년·신혼부부 월 1만원 임대주택 공급",
+    "target": "청년, 신혼부부",
+    "amount": "월 1만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005765": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년부부 결혼축하금 지원",
+    "target": "도내 거주 청년부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002425": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "일하는 청년 자산형성 지원",
+    "target": "도내 일하는 청년",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
