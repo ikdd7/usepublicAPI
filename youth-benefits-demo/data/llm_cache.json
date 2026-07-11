@@ -117291,5 +117291,463 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-418000000233": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "만 18세 미만 장애아동 발달재활서비스 지원",
+    "target": "만 18세 미만 시각·청각·언어·지적·자폐성·뇌병변 장애아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-427000000245": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영월군민 사망 시 화장장 사용료 지원",
+    "target": "영월군 1년 이상 거주자 사망 유족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-428000000110": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "등록장애인 보장구 수리비 지원",
+    "target": "관내 거주 등록장애인 중 수급자 및 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-488000000135": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "명절 어려운 이웃 위문품 지원",
+    "target": "기초생활수급자, 차상위계층, 독거노인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-491000000106": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "장흥군 저소득주민 명절 위문품 지원",
+    "target": "장흥군 거주 저소득주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-496000000126": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "함평군민 사망 시 화장장려금 지원",
+    "target": "함평군 1년 이상 거주자 사망자 유족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000128": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "서울형 기초보장 생계급여 등 지원",
+    "target": "서울시민 중 소득·재산 기준 충족자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000676": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경농산물 인증 농가 인증비 지원",
+    "target": "친환경인증 받고 의무자조금 가입 농업인",
+    "amount": "건당 70만원",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000681": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "강원도 농업인 수당 지원",
+    "target": "강원도 2년 이상 거주 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000186": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "위기가구 생활안전지원금 지급",
+    "target": "긴급복지지원 제외자 중 소득재산 기준 이내 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000142": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경농업 지속직접지불제 지원",
+    "target": "친환경농업 이행점검 결과 적격 농지 소유자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000317": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "미취업청년 채용한 중소기업 지원",
+    "target": "15~39세 미취업청년 채용한 도내 중소기업",
+    "amount": "월 50~70만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00088400010": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "세종시 고교생 우수인재 장학금 지원",
+    "target": "세종시 고교 재학생 중 석차 5% 이내",
+    "amount": "1인당 70만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000252": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 자동차운전면허 교육비 지원",
+    "target": "도내 등록 장애인 중 운전면허 취득자",
+    "amount": "50만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001094": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "제주 거주 서민금융 성실상환 이자 지원",
+    "target": "제주 3년 이상 거주 서민금융 1년 이상 이용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-738000000005": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "특수교육학생 방과후학교 특기·적성교육 지원",
+    "target": "초·중·고·전공과 특수교육대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000149": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "산재근로자 원직장 복귀 대체인력 지원",
+    "target": "상시근로자 50인 미만 사업주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000378": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "세종시 농업인 수당 지원",
+    "target": "세종 3년 이상 거주, 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000142": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "서울 친환경농산물 인증비 지원",
+    "target": "서울 거주 친환경농산물 인증 생산자",
+    "amount": "60만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019644": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "서울형 아이돌봄비 지원",
+    "target": "서울 거주 만 24~36개월 영아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-875000000012": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "방과후학교 자유수강권 지원",
+    "target": "기초수급자, 한부모, 차상위, 중위소득 80% 이하, 다자녀, 난민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-875000000016": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "초·중·고 학생 교육비 지원",
+    "target": "저소득층 수급자, 중위소득 80% 이하, 중위소득 60% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000204": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "특수목적고 기회균등전형 교육비 지원",
+    "target": "기초수급자, 한부모, 차상위, 중위소득 60% 이하, 국가보훈대상자",
+    "amount": "기숙사, 급식비 실비",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000212": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀가정 교육비 지원",
+    "target": "다자녀 가정의 둘째 이후 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-930000000014": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "방과후학교 자유수강권 지원",
+    "target": "기초수급자, 차상위, 한부모, 중위소득 80% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107600004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "학교밖청소년 세상소통카드 지원",
+    "target": "만9세-19세 학교 밖 청소년",
+    "amount": "월 5만원 (연 최대 60만원)",
+    "show": true,
+    "special": false
+  },
+  "g24-O00081700001": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서울 중장년 가치동행일자리 지원",
+    "target": "서울 거주 40~67세 시민, 서울 소재 사업자 대표",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000168": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육비 지원",
+    "target": "18세 미만 가정위탁아동",
+    "amount": "월 34만원~45만원",
+    "show": true,
+    "special": false
+  },
+  "g24-724000000016": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "학생정서행동검사 학생 치료비 지원",
+    "target": "정서행동검사 2차 병원연계군, 위기학생",
+    "amount": "연간 42만원",
+    "show": true,
+    "special": false
+  },
+  "g24-724000000012": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "특수교육 유아 무상교육비 지원",
+    "target": "3~5세 특수교육 대상 장애유아",
+    "amount": "월 15만원",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000633": {
+    "category": "금융",
+    "tags": [
+      "무주택",
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "부산청년 중개보수 및 이사비 지원",
+    "target": "부산 전입·이동 청년, 중위 120% 이하, 1.5억 이하 주택",
+    "amount": "최대 40만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001086": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "제주 청년 이사비 지원",
+    "target": "19~39세 제주 전입·이동 청년, 중위 180% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000170": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 부동산 중개보수 및 이사비 지원",
+    "target": "19~39세 서울 전입·이동 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000120": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인보조기기 수리 지원",
+    "target": "부산 등록장애인",
+    "amount": "연간/인당 40만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000126": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁 양육보조금 지원",
+    "target": "위탁가정",
+    "amount": "월 31만원~40만원",
+    "show": true,
+    "special": false
+  },
+  "g24-631000000712": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모신생아 재가돌봄 서비스 지원",
+    "target": "울산 출생아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000129": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경기도민 중고등 신입생 교복비 지원",
+    "target": "경기도민 중,고 1학년 신입생(대안, 타시도)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000140": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경기여성 취업지원금 지원",
+    "target": "경기도 거주 35~59세 여성, 중위 150% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000156": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자살고위험군 치료비 지원",
+    "target": "경기도민, 센터 등록 회원, 자살시도력, 자타해 위험",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000208": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산후조리도우미 본인부담금 지원",
+    "target": "출산가정, 중위 150% 이하, 둘째 이상 출산",
+    "amount": "최대 40만원",
+    "show": true,
+    "special": false
   }
 }
