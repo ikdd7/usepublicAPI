@@ -126101,5 +126101,687 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00005850": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "출생아동에게 1~18세까지 18년간 출생기본소득 지원",
+    "target": "전남 거주 출생아동",
+    "amount": "18년간 지원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002059": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "전남 신규 정착 북한이탈주민 생계물품 지원",
+    "target": "전남 신규 정착 북한이탈주민",
+    "amount": "생계물품",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001286": {
+    "category": "금융",
+    "tags": [
+      "재직중",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "지역 중소기업 취업청년 학자금대출 상환금 지원",
+    "target": "지역 중소기업 취업청년",
+    "amount": "상환금 지원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001560": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "고혈압·당뇨병 환자 합병증 사전 검사 지원",
+    "target": "고혈압·당뇨병 환자",
+    "amount": "합병증 검사",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000398": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "민간·가정어린이집 만3~5세 학부모 차액보육료 지원",
+    "target": "만3~5세 유아 학부모",
+    "amount": "차액보육료",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000460": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 유족 진료비 지원",
+    "target": "독립유공자 유족",
+    "amount": "진료비",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004048": {
+    "category": "문화",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "바우처",
+    "summary": "여성농어업인 행복바우처 지원",
+    "target": "전남 여성농어업인",
+    "amount": "행복바우처",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004258": {
+    "category": "복지",
+    "tags": [
+      "임신·출산",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "공공산후조리원 감면료 보전 지원",
+    "target": "취약계층 출산가정",
+    "amount": "감면료 보전",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001803": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁종결아동 자립정착금 지원",
+    "target": "가정위탁 보호 종결 아동",
+    "amount": "자립정착금",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004185": {
+    "category": "복지",
+    "tags": [
+      "경력단절여성"
+    ],
+    "support_type": "바우처",
+    "summary": "경력단절여성 취업준비 인센티브 지원",
+    "target": "경력단절여성",
+    "amount": "인센티브",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005767": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 친환경농산물 지원",
+    "target": "전남 임산부",
+    "amount": "친환경농산물",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005766": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "난임부부 친환경농산물 꾸러미 지원",
+    "target": "전남 난임부부",
+    "amount": "친환경농산물 꾸러미",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005851": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농촌유학 가구 주거비 등 유학경비 지원",
+    "target": "농촌유학 가구",
+    "amount": "주거비 등 유학경비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005539": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "난치병 학생 치료비 지원",
+    "target": "난치병 학생",
+    "amount": "치료비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005406": {
+    "category": "일자리",
+    "tags": [
+      "다문화·탈북민"
+    ],
+    "support_type": "서비스",
+    "summary": "결혼이민자 자격증 취득 과정 지원",
+    "target": "결혼이민자",
+    "amount": "자격증 취득 과정",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004998": {
+    "category": "복지",
+    "tags": [
+      "신혼",
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "신혼부부·다자녀가정 보금자리 지원",
+    "target": "신혼부부, 다자녀가정",
+    "amount": "보금자리 지원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005430": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "영아종일제 등 전담아이돌보미 수당 지급",
+    "target": "영아종일제 전담아이돌보미",
+    "amount": "식비 등 수당",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000500": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족 복지시설 퇴소자 자립정착금 지원",
+    "target": "한부모가족 복지시설 퇴소자",
+    "amount": "자립정착금",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004373": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애인 직업훈련 연계 주거 공간 지원",
+    "target": "발달장애인 직업훈련생",
+    "amount": "주거 공간",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004451": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 하이패스 감면단말기 보급",
+    "target": "장애인",
+    "amount": "하이패스 감면단말기",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001765": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도서지역 주민 대상 찾아가는 복지서비스 제공",
+    "target": "도서지역 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005762": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산·양육 부담 경감 위한 육아지원금 지원",
+    "target": "출산·양육 부담 경감 희망자",
+    "amount": "최대 1천만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001674": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산 여성 대상 산후조리 한약 지원",
+    "target": "출산 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005573": {
+    "category": "문화",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "바우처",
+    "summary": "여성어업인 대상 여가 활동비 지원",
+    "target": "여성어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005716": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "바우처",
+    "summary": "취약계층 대상 에너지 지원",
+    "target": "에너지 취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000333": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "수급자 대상 수도사용료 감면",
+    "target": "국민기초생활보장법상 수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004980": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "쉼터 이용 청소년 주거정착금 지원",
+    "target": "가정 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005152": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어르신 대상 행복택시 운영",
+    "target": "대중교통 취약 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004918": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농민 대상 농민수당 지원",
+    "target": "농민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005523": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 대상 산후조리비 지원",
+    "target": "도내 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005451": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "미혼 여성 대상 난자동결 시술비 지원",
+    "target": "미혼 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005450": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 대상 시술비 지원",
+    "target": "난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005402": {
+    "category": "문화",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "바우처",
+    "summary": "여성농업인 대상 문화활동비 지원",
+    "target": "여성농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004932": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 건강보험료 및 장기요양보험료 지원",
+    "target": "저소득 노인·장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005871": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인 대상 안경구입비 지원",
+    "target": "저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005736": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "홀로 사는 노인 대상 스마트 돌봄 서비스 제공",
+    "target": "홀로 사는 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005350": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "100세 이상 어르신 장수축하금 지원",
+    "target": "100세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002174": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 보훈예우수당 및 사망위로금 지원",
+    "target": "국가유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001649": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 및 유족 진료비 지원",
+    "target": "독립유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004978": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 취약계층 대상포진 예방접종 지원",
+    "target": "만 65세 이상 취약계층 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003830": {
+    "category": "복지",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "현물",
+    "summary": "노인 생활안전사고 예방을 위한 복지용구 설치 지원",
+    "target": "노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001752": {
+    "category": "건강",
+    "tags": [
+      "노인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "어르신 틀니, 보청기 지원으로 안정적인 노후생활 도모",
+    "target": "노년·저소득",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005316": {
+    "category": "복지",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "현금",
+    "summary": "100세 노인에게 장수축하금 지급",
+    "target": "100세 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-149200000016": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "산재근로자 직업훈련 및 훈련수당 지원",
+    "target": "산재 장해등급 제1~12급 근로자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-149200000017": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "진폐 장해등급 근로자에게 진폐재해위로금 지급",
+    "target": "진폐 장해등급 근로자 및 유족",
+    "amount": "평균임금의 215일~1,040일분",
+    "show": true,
+    "special": true
+  },
+  "g24-149200000019": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "산재근로자 합병증 등 예방관리 지원",
+    "target": "장해급여 수급자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-149200000028": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "진폐 장해 근로자 자녀 학자금 지급",
+    "target": "진폐 장해 근로자 자녀",
+    "amount": "입학금, 수업료 등",
+    "show": true,
+    "special": true
+  },
+  "g24-149200000035": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "노인"
+    ],
+    "support_type": "서비스",
+    "summary": "고령 중증·진폐 장애인 주거시설 제공",
+    "target": "만 60세 이상 장해등급 1~3급 자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-149200000049": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "소규모 사업장 산재보험료 인하 지원",
+    "target": "상시 근로자 50인 미만 사업장",
+    "amount": "최대 20%",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000069": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "산재보험 가입사업장 재해예방 사업 지원",
+    "target": "산재보험 가입사업장",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000085": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "안전인증 방호장치 보호구 제조업체 자금 지원",
+    "target": "안전인증 대상 기계·기구 제조업체",
+    "amount": "설계·연구개발 비용 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-149200005025": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "산재근로자 뇌혈관·척추 등 질환 특별진찰 지원",
+    "target": "뇌혈관·척추 등 질환 산재근로자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-358000000101": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "옹진군 거주 예체능 특기 장학생 장학금 지급",
+    "target": "옹진군 5년 이상 거주 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000103": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "옹진군 거주 지역핵심인재 장학생 장학금 지급",
+    "target": "옹진군 5년 이상 거주 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000104": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "노인"
+    ],
+    "support_type": "현물",
+    "summary": "거동 불편 저소득 노인 실버보행기 지원",
+    "target": "거동 불편 저소득 노인",
+    "amount": "실버보행기",
+    "show": true,
+    "special": true
+  },
+  "g24-358000000109": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 1년 이상 거주 보호자 출생장려금 지급",
+    "target": "관내 1년 이상 거주 보호자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000111": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "백령·대청면 농가 농약 구입비 일부 보조",
+    "target": "백령·대청면 거주 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000112": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "옹진군 과수재배 농업인 봉지 구입공급 지원",
+    "target": "옹진군 거주 과수재배 농업인",
+    "amount": "봉지",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000115": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "덕적면 주민 및 자녀 장학금 지급",
+    "target": "덕적면 거주 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000117": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "옹진군 거주 학생 응원 장학금 지급",
+    "target": "옹진군 5년 이상 거주 학생",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
