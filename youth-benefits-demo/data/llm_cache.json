@@ -124932,5 +124932,236 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00004467": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동지원급여 추가 지원",
+    "target": "중장년, 노년, 청년, 청소년, 한부모, 조손, 장애인, 저소득",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000182": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "어린이집 운영 도모 위한 보육사업 안내책자 구입 배부",
+    "target": "영유아",
+    "amount": "",
+    "show": false,
+    "special": false
+  },
+  "bj-WLF00006034": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다자녀가정 대학등록금 지원",
+    "target": "청년, 다자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002254": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "강원도 육아기본수당 지원",
+    "target": "임신, 출산, 아동, 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001845": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자·유족 의료비 지원",
+    "target": "노년, 보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001885": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "바우처",
+    "summary": "여성어업인 복지바우처 지원",
+    "target": "노년, 중장년, 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001874": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "다자녀",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "위기가구 긴급복지 지원",
+    "target": "한부모, 조손, 다자녀, 다문화, 탈북민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004082": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 추가 지원",
+    "target": "아동, 중장년, 청소년, 청년, 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005472": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 맞춤형 일자리 제공",
+    "target": "노년, 청년, 중장년, 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003347": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 고용 사업주 장려금 지원",
+    "target": "장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002516": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "여성 구직활동비 지원",
+    "target": "중장년, 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002695": {
+    "category": "육아",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "방학 중 결식아동 중식 지원",
+    "target": "아동, 청소년, 한부모, 조손, 저소득",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001818": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어르신 일자리 제공",
+    "target": "노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001888": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "도내 대학생 등록금 장학금 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001848": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "사회복지신문 구독 지원",
+    "target": "청년, 청소년, 아동, 영유아, 중장년, 노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003921": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 지원",
+    "target": "임신, 출산",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001873": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "도내 거주 어르신 장수수당 지원",
+    "target": "노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005035": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 디딤돌 2배 적금 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001846": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "정부미지원 어린이집 이용 아동 보육료 지원",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001975": {
+    "category": "육아",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 비장애아 방과후 보육료 지원",
+    "target": "아동, 한부모, 조손, 저소득",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
