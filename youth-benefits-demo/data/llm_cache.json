@@ -125163,5 +125163,247 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00001872": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 아동 어린이집 입학준비금 지원",
+    "target": "국민기초수급자, 다문화, 장애인, 둘째아 이상 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005553": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "무연고자 및 저소득층 공영장례 지원",
+    "target": "무연고자 및 저소득층 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003801": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 비급여 보장구 구입 및 수리비 지원",
+    "target": "장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005505": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어르신 병원 동행 서비스 지원",
+    "target": "돌봄이 필요한 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005462": {
+    "category": "교육",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현금",
+    "summary": "학교 밖 청소년 자기개발 지원 '꿈드림 수당'",
+    "target": "학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003288": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족복지시설 퇴소자 자립지원금 지원",
+    "target": "한부모가족복지시설 퇴소자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003470": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "조손가정 손자녀 대학 신입생 입학금 지원",
+    "target": "저소득 조손가정 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004001": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 재가노인 식사 배달 지원",
+    "target": "거동 불편 저소득 재가노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004069": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인가구 건강보험료 지원",
+    "target": "저소득 노인가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003678": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초생활수급 노인 월동 난방비 지원",
+    "target": "기초생활보장 수급 노인가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000171": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "결식아동 급식 지원",
+    "target": "결식 우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005400": {
+    "category": "교육",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현물",
+    "summary": "대안교육기관 등 학생 교복 지원",
+    "target": "경기도 대안교육기관 등 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006073": {
+    "category": "복지",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현금",
+    "summary": "청소년복지시설 퇴소청소년 자립정착금 지급",
+    "target": "청소년복지시설 퇴소 가정 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000717": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "일본군'위안부' 피해자 생활안정지원",
+    "target": "경기도 내 일본군'위안부' 피해자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-641000000163": {
+    "category": "교육",
+    "tags": [
+      "청소년"
+    ],
+    "support_type": "현금",
+    "summary": "미등록 대안교육기관 이용 청소년 급식비 지원",
+    "target": "교육청 미등록 대안교육기관 이용 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006204": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "고난이도 보호대상아동 맞춤형 사례관리",
+    "target": "보호대상 경계선지능아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005607": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "전세보증금 반환보증 보증료 지원",
+    "target": "저소득층 임차인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001451": {
+    "category": "교육",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "청년 어학·자격시험 응시료 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003986": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모신생아 건강관리 지원사업(추가형)",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003847": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자 생활보조수당 지원",
+    "target": "차상위계층 이하 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
