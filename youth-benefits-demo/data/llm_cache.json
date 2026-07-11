@@ -120058,5 +120058,1150 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-641000000144": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "3~5세 유아 차액보육료 지원",
+    "target": "3~5세 유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000221": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 생활안정 지원",
+    "target": "장애인연금 수급자, 차상위 장애인, 부부 장애인, 중증 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-654000000038": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "바우처",
+    "summary": "여성농업인 생생카드 지원",
+    "target": "농어촌 거주 여성농업인(20~75세)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-930000000003": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "중·고·특수 신입생 체육복비 지원",
+    "target": "세종시 관내 중·고·특수학교 신입생 및 1학년 전·편입학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00026100006": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "도시철도 요금 감면(정기권)",
+    "target": "정기권 사용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001015": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "월남전 참전 유공자 명예수당 지급",
+    "target": "월남전 참전 유공자",
+    "amount": "월 12만원",
+    "show": true,
+    "special": true
+  },
+  "g24-650000000310": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "만 65세 이상 어르신 백내장 수술비 지원",
+    "target": "만 65세 이상 어르신 중 기초수급자, 기초연금수급자, 등록장애인, 국가유공자",
+    "amount": "1인당 연 1회",
+    "show": true,
+    "special": true
+  },
+  "g24-738000000004": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "특수교육대상자 치료지원",
+    "target": "영·유·초·중·고 특수교육대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-743000000009": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "특수교육대상자 방과후 지원",
+    "target": "유·초·중학교 특수교육대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-743000000023": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "특수교육대상자 방과후교육활동비 지원",
+    "target": "특수학교 및 유·초·중·고 특수교육대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-748000000211": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "특수교육대상자 방과후교육 지원",
+    "target": "초·중·고·특수학교 특수교육대상자",
+    "amount": "월 최대 12만원",
+    "show": true,
+    "special": false
+  },
+  "g24-901000000007": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "특수교육대상자 특기적성교육비 지원",
+    "target": "유·초·중·고·특수학교 특수교육대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107100002": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "사회복지시설 이용 장애인 건강검진비 지원",
+    "target": "사회복지시설 이용 또는 거주 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107100003": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역아동센터·드림스타트 아동 건강검진비 지원",
+    "target": "지역아동센터, 드림스타트 이용 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000302": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "HIV 감염인 도외 진료 항공비 지원",
+    "target": "관내 HIV 감염인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000123": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부산시 3~5세 유아 부모부담 보육료 지원",
+    "target": "부산시 거주 3~5세 유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000153": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "대전시 누리과정 아동 차액보육료 지원",
+    "target": "대전시 거주 누리과정 자격 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001265": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "청소년 꿈끼카드 지원",
+    "target": "청소년",
+    "amount": "연 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000332": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "3세대 이상 가족 효행장려금 지원",
+    "target": "85세 이상 부모 부양 3세대 이상 가족",
+    "amount": "월 10만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005606": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족 아동양육비 지원",
+    "target": "기준 중위소득 65~100% 이하 한부모가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000695": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 월 10만원 매칭 지원",
+    "target": "19~23세 심한 장애인",
+    "amount": "월 10만원 이내 매칭",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005809": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "출생아동 월 10만원 양육수당 지원",
+    "target": "전남 출생신고 후 주소 둔 아동",
+    "amount": "월 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000222": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "2세 유아 월 10만원 양육수당 지원",
+    "target": "2세 유아 양육 가구",
+    "amount": "월 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001140": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 자녀 안경구입비 지원",
+    "target": "18세 미만 저소득층 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000020": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "산재근로자 심리재활 지원",
+    "target": "산재노동자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000363": {
+    "category": "육아",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "여성장애인 양육지원금 지급",
+    "target": "세종 거주 여성장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000395": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농기계 운반 대행 서비스 지원",
+    "target": "세종시 농업인",
+    "amount": "편도 5만원 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019611": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서울 엄마아빠 택시 지원",
+    "target": "서울 거주 영아 양육 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000140": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 자녀교통비·월동대책비 지원",
+    "target": "저소득층 중·고등 자녀",
+    "amount": "연 30.4만원, 연 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000637": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부산시 여성 HPV 예방접종 비용 지원",
+    "target": "부산 거주 25~26세 여성",
+    "amount": "비용 일부 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000163": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만75세 이상 기초수급자 복지카드 지원",
+    "target": "만75세 이상 기초수급자",
+    "amount": "연 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000754": {
+    "category": "교육",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "인천 청년 자격증 응시료 지원",
+    "target": "인천 거주 미취업 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000790": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 출산산모 산후조리비 지원",
+    "target": "광주 저소득층 출산산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-631000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "노인가장세대 냉난방비 지원",
+    "target": "만65세 이상 저소득 노인가장세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-631000000132": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "울산 청년가구 월세 지원",
+    "target": "19~39세 무주택 미혼 청년",
+    "amount": "월 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-631000000721": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "울산 초등학생 문화패스 지원",
+    "target": "울산 거주 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000820": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "경기 소상공인 카드 무이자 할부 지원",
+    "target": "경기도 소상공인",
+    "amount": "무이자 6개월",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000690": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "재가진폐환자 의료비 지원",
+    "target": "재가진폐·만성폐쇄성폐질환자",
+    "amount": "연 20/10만원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000743": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다태아 출산가정 조제분유 지원",
+    "target": "도내 다태아 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000750": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "학교 밖 청소년 자격증 취득 장학금 지원",
+    "target": "도내 학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000212": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산농가 차단방역시설 지원",
+    "target": "관내 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000112": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산취약지역 임산부 이송 교통비 지원",
+    "target": "분만취약지역 임산부",
+    "amount": "최대 15회",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000200": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "청년 희망디딤돌 통장 월 10만원 매칭 지원",
+    "target": "기준중위소득 120% 이하 도내 청년",
+    "amount": "월 10만원 매칭",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000234": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "출생아 18년간 기본소득 지원",
+    "target": "전남 출생신고 아동",
+    "amount": "18년",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000195": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "바우처",
+    "summary": "다자녀 가정 농수산물 구입 쿠폰 지원",
+    "target": "경북 거주 다자녀 가구",
+    "amount": "최대 7만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000239": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "폐결핵 의심자 CT 검사비 지원",
+    "target": "관내 X-Ray상 균음성 폐결핵 의심자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000280": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "현금",
+    "summary": "홀로 사는 노인 에너지 비용 지원",
+    "target": "독거노인 중 차상위/기초연금 수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-748000000210": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "특수교육대상 유아 교육비 지원",
+    "target": "만3~5세 특수교육대상 유아",
+    "amount": "월 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-748000000217": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "초등학교 1학년 입학준비금 10만원 지원",
+    "target": "울산 관내 초등학교 1학년 입학생",
+    "amount": "10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-780000000007": {
+    "category": "교육",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "바우처",
+    "summary": "다자녀 신입생 입학준비물품비 지원",
+    "target": "둘 이상 가정의 첫째 이후 1학년 신입생",
+    "amount": "10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-849000000016": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "특수교육대상학생 치료지원",
+    "target": "전남광주통합특별시 특수교육대상학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-875000000019": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "초3, 중1, 고1 학생 진학지원금 지원",
+    "target": "경북 도내 초3, 중1, 고1 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00037600013": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "영월군 등록장애인 치과치료비 지원",
+    "target": "영월군 등록장애인 중 수급자/80%이하",
+    "amount": "최대 10만원",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000139": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 아동 입소료 및 현장학습비 지원",
+    "target": "법정 저소득층, 장애아동",
+    "amount": "입소료 9.5만원, 현장학습비 7만원",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000154": {
+    "category": "농업",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "출산농가 영농도우미 지원",
+    "target": "도내 농어촌 출산(예정) 여성농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-654000000033": {
+    "category": "농업",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "출산여성 농가도우미 지원",
+    "target": "출산(예정) 여성농어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000642": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "아동 공동생활가정 입소아동 지원",
+    "target": "공동생활가정 입소아동",
+    "amount": "월 2.4~5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-724000000015": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "돌봄이 필요한 학생 정서적·경제적 지원",
+    "target": "독거, 부모 기능 상실 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001070": {
+    "category": "농업",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "출산 전업 여성농업인 농가 도우미 지원",
+    "target": "도내 출산 전업 여성농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000630": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "부산 거주 미취업 청년 취업연수 지원",
+    "target": "부산 거주 만29세 이하 미취업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000730": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "돌봄이 필요한 도민에게 돌봄 서비스 지원",
+    "target": "돌봄이 필요한 31개 시·군 도민 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000217": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "생계·의료급여 수급자 어르신 이·미용료 및 목욕료 지원",
+    "target": "65세 이상 생계·의료급여 수급자",
+    "amount": "월 11,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019632": {
+    "category": "교통",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "전국민 대중교통, 따릉이, 한강버스를 이용하는 기후동행카드 지원",
+    "target": "서울시 대중교통 이용 전국민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-731000000010": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층, 한부모가족 등 졸업앨범비 지원",
+    "target": "수급자, 한부모, 차상위, 중위소득 60% 이하 등",
+    "amount": "70,000원 범위 내",
+    "show": true,
+    "special": false
+  },
+  "g24-731000000015": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "인천 중·고 신입생 체육복 지원",
+    "target": "인천 관내 중·고 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-800000000004": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 등 졸업앨범비 지원",
+    "target": "수급자, 한부모, 차상위, 중위소득 66% 이하 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000240": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "제주도민 정신건강 검진 및 상담 지원",
+    "target": "제주도민, 정신건강의학과 초진 환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-654000000017": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "도내 청년 취업 지원패키지 지원",
+    "target": "도내 청년(18~39세)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-780000000009": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "공립 초등학생 학습준비물 지원",
+    "target": "강원도교육청 소속 공립 초등학교 학생",
+    "amount": "1인당 50,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109000017": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "구직자 면접수당 지원",
+    "target": "선정된 기업 면접 참여 구직자",
+    "amount": "1인당 50,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00114400011": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "충북 거주 저소득층 간병비 지원",
+    "target": "충북 거주 의료급여수급자, 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-724000000001": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "공립유치원 특수교육대상자 방과후 지원",
+    "target": "특수학교 유치원 특수교육대상유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00079600001": {
+    "category": "기타",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "비콘그라운드 지정주차 요금 감면",
+    "target": "장애인, 독립유공자, 국가유공자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000143": {
+    "category": "교통",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 하이패스 감면 단말기 무상 지원",
+    "target": "인천 등록 장애인 차량 소지자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-650000000308": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "청각·언어장애인 영상전화 사용료 지원",
+    "target": "청각·언어장애인 등록자 중 영상전화기 보유자",
+    "amount": "월 33,300원",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000814": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "5세 이하 자녀 둔 시민 희망 장난감도서관 이용 지원",
+    "target": "전남광주통합특별시에 주민등록, 5세 이하 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000221": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 TV수신료 지원",
+    "target": "6.25 및 월남참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-650000000250": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "중증장애인 추가수당 지원",
+    "target": "수급자 및 차상위장애인 중 구 1급 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001035": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "가임기 여성 및 임신부 풍진 검진 지원",
+    "target": "가임여성 및 3개월 미만 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000190": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인활동지원 시 추가지원(자체)",
+    "target": "장애인활동지원 국비 수급자 중 심한 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019637": {
+    "category": "주거",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "서비스",
+    "summary": "서울 소재 노후 주택 리모델링 지원",
+    "target": "사용 승인 후 15년 이상 경과한 서울 소재 주택 소유자 또는 임차인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000227": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "중증장애인 월 25만원 교통비 지원",
+    "target": "차량 미소유 중증장애인",
+    "amount": "월 25만원",
+    "show": true,
+    "special": true
+  },
+  "g24-650000000256": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "서귀포시 80세 이상 노인 월 2.5만원 장수수당 지급",
+    "target": "서귀포시 거주 80세 이상 노인",
+    "amount": "월 25,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000771": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영유아 동반 보호자 대상 아이사랑꿈터 프로그램 운영",
+    "target": "부모(보호자)를 동반한 영유아(7세 이하 취학 전 아동)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-753000000225": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 자녀 PC 지원",
+    "target": "초1~고1 재학생 중 국민기초생활수급자, 난민인정자",
+    "amount": "PC",
+    "show": true,
+    "special": false
+  },
+  "g24-780000000002": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 자녀 인터넷 통신비 및 PC 지원",
+    "target": "국민기초생활수급자, 한부모가족보호대상자, 법정차상위대상자",
+    "amount": "월 19,250원",
+    "show": true,
+    "special": false
+  },
+  "g24-901000000005": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "경상남도 저소득층 자녀 인터넷 통신비 지원",
+    "target": "경상남도 초1~고3 재학생 중 저소득층 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-930000000005": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 학생 인터넷 통신비 지원",
+    "target": "초1~고3 학생 중 국민기초생활수급자, 한부모가족보호대상자, 법정차상위대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-701000000204": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "서울특별시 저소득층 학생 교육정보화 지원",
+    "target": "서울특별시교육청 관내 학생 중 법정저소득 자격 소지자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-715000000211": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "초·중·고 학생 인터넷 통신비 지원",
+    "target": "국민기초생활보장 수급자, 한부모가족보호대상자, 법정차상위계층, 학교장추천자",
+    "amount": "월 17,600원",
+    "show": true,
+    "special": false
+  },
+  "g24-743000000012": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "초4~중3 학생 인터넷 통신비 및 PC 지원",
+    "target": "생계·의료·주거·교육급여 수급자, 한부모가족보호대상자, 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-832000000009": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "초1~고1 학생 PC 및 인터넷 통신비 지원",
+    "target": "국민기초생활수급자, 한부모가족보호대상자, 법정차상위대상자",
+    "amount": "PC, 인터넷 통신비",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000649": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "부산지역 입원 아동 돌봄 서비스 지원",
+    "target": "부산 거주 만 3개월~12세 이하 입원(예정) 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000185": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전남광주 입원 아동 간병 및 돌봄 서비스 제공",
+    "target": "전남광주 거주 12세 이하 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000180": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "경기도 여성청소년 생리용품 보편지원",
+    "target": "경기도 내 11세~18세 여성청소년",
+    "amount": "생리용품",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000174": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "토·공휴일 결식 아동 급식 지원",
+    "target": "18세 미만 취학 아동 중 결식 우려 저소득층",
+    "amount": "1식당 단가 10,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000191": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "결식우려 아동 급식 지원",
+    "target": "18세 미만 취학 아동 중 결식 우려 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000203": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "충남 인삼 농가 컬러박스 및 포장재 지원",
+    "target": "충남 인삼 생산 농가, 생산자단체, 인삼농협",
+    "amount": "보조 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000275": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고혈압·당뇨병 환자 진료비 및 약제비 지원",
+    "target": "관내 거주 만 30세 이상 고혈압·당뇨병 환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-724000000021": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "결식아동 학기 중 토·공휴일 중식 지원",
+    "target": "구·군 선정 결식우려 저소득가정 아동",
+    "amount": "1식당 단가 10,000원",
+    "show": true,
+    "special": false
   }
 }
