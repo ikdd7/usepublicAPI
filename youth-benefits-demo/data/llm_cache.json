@@ -117069,5 +117069,227 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-611000000158": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "민주화운동 관련자 생활지원금 지원",
+    "target": "서울시 거주 민주화운동 관련자 및 유족",
+    "amount": "기준 중위소득 100% 이하",
+    "show": true,
+    "special": true
+  },
+  "g24-654000000028": {
+    "category": "복지",
+    "tags": [
+      "자영업·창업",
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "청년 1인 소상공인·농어업인 출산급여 지원",
+    "target": "전북 거주 18~39세 청년 소상공인·농어업인",
+    "amount": "본인 90만원, 배우자 80만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000247": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득주민 특별생계비 지원",
+    "target": "기초생계급여 제외·중지된 자, 주 소득원 상실자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-780000000010": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 자녀 학비 지원",
+    "target": "자사고 1~3학년, 수급자·한부모·차상위·중위소득 80% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000021": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "산재근로자 직장 복귀 지원",
+    "target": "산재장해등급 1~12급 근로자 복귀 사업주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000107": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 취약계층 의치보철임플란트 지원",
+    "target": "40세 이상 의료급여·차상위 보철 필요자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000111": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업",
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "충북행복결혼공제 지원",
+    "target": "충북 거주 19~39세 미혼 청년 근로자·농업인·소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000226": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "생활시설 및 가정위탁 아동 생활안정 지원",
+    "target": "생활시설 및 가정위탁 아동",
+    "amount": "월 1~10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000137": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 친환경보일러 보급 지원",
+    "target": "도내 저소득층 등 가정",
+    "amount": "구입·설치비",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000258": {
+    "category": "일자리",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "자활사업 참여자 자격증 취득 지원",
+    "target": "자활근로·자활기업 참여자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089100002": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "울산 소상공인 온라인 판로·마케팅 지원",
+    "target": "울산 소상공인",
+    "amount": "최대 80만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00100800004": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경력단절여성·취업취약계층 인턴 지원",
+    "target": "경력단절여성 및 취업취약계층 여성",
+    "amount": "월 80만원",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000148": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부산형 긴급복지지원 사업",
+    "target": "갑작스러운 위기상황으로 생계유지 곤란 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-738000000010": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "초·중·고 학생 교육비 지원",
+    "target": "수급자·한부모·차상위·중위소득 80% 이하 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-743000000005": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 학생 방과후학교 자유수강권 지원",
+    "target": "수급자·한부모·차상위·중위소득 80% 이하 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-875000000015": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "특성화고 재학생 장학금 지원",
+    "target": "특성화고 재학생",
+    "amount": "연간 72만원",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000135": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "노인 백내장 시술비 지원",
+    "target": "65세 이상 기초수급자·차상위·기초연금수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019636": {
+    "category": "복지",
+    "tags": [
+      "임신·출산",
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "서울형 가사서비스 지원",
+    "target": "중위소득 180% 이하 임산부·맞벌이·다자녀 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000116": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "대전 학생 성취 장학금 선발",
+    "target": "대전 소재 고등학생·대학생",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
