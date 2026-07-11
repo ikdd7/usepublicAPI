@@ -121203,5 +121203,1386 @@
     "amount": "1식당 단가 10,000원",
     "show": true,
     "special": false
+  },
+  "g24-930000000007": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "특수교육대상자 급식비 지원",
+    "target": "운동기능 심한 장애 특수교육대상자 및 영아",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00065800001": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "경주엑스포대공원 단체 입장료 할인",
+    "target": "10인 이상 단체 관람객",
+    "amount": "대인 10,000원, 소인 8,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000398": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만 18세 미만 아동 급식 지원",
+    "target": "만 18세 미만 취학·미취학 아동, 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-849000000019": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "결식아동 학기 중 토·공휴일 중식 지원",
+    "target": "결식 우려 아동(수급자, 차상위, 한부모)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-743000000011": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "유·초·중·고 학생 무상급식비 지원",
+    "target": "대전시 관내 유·초·중·고 재학생",
+    "amount": "1인 1식",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000251": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "할인",
+    "summary": "저소득 중증장애인 유료방송 이용요금 지원",
+    "target": "제주 거주 저소득 중증장애인 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-358000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "관내 농지 경작 농가 원예용 상토 지원",
+    "target": "관내 농지 경작 농업경영체 등록 농가",
+    "amount": "1,000㎡별 7포",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000113": {
+    "category": "운수종사자",
+    "tags": [
+      "운수종사자"
+    ],
+    "support_type": "할인",
+    "summary": "법인·개인택시 카드단말기 통신료 지원",
+    "target": "법인 및 개인택시 운전자",
+    "amount": "월 5,500원의 80%",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000128": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "친환경 농산물 판로 확대 지원",
+    "target": "친환경 농산물 생산 농업인·법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00020400013": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "할인",
+    "summary": "교통약자 콜택시 이용료 감면",
+    "target": "보행상 장애 심한 장애인, 노인, 일시적 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00089600002": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "할인",
+    "summary": "시티투어 탑승권 감면",
+    "target": "울산시민, 다자녀, 장애인, 국가유공자 등",
+    "amount": "30% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-724000000025": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "유·초·중·고·특 재학생 중식비 지원",
+    "target": "유·초·중·고·특 재학생",
+    "amount": "1식당 단가 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000257": {
+    "category": "복지",
+    "tags": [
+      "국가유공자"
+    ],
+    "support_type": "할인",
+    "summary": "국가유공자 상수도사용료 감면",
+    "target": "국가유공자, 유족, 참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-631000000719": {
+    "category": "복지",
+    "tags": [
+      "임신·출산",
+      "육아"
+    ],
+    "support_type": "바우처",
+    "summary": "임산부·영아·고령자 바우처 택시 지원",
+    "target": "울산 거주 임산부, 영아, 고령자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000661": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 복지관 이용자 무료급식 지원",
+    "target": "결식 우려 저소득 장애인",
+    "amount": "1식 3,500원",
+    "show": true,
+    "special": false
+  },
+  "g24-748000000215": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "특수교육대상자 통학비 지원",
+    "target": "통학 거리 1km 이상 특수교육대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-631000000122": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업경영체 등록 농가 친환경 농자재 지원",
+    "target": "농업경영체 등록 농가",
+    "amount": "유기질비료 3종, 부숙유기질비료 2종",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000264": {
+    "category": "복지",
+    "tags": [
+      "1인가구",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 1인 가구 건강음료 지원",
+    "target": "지원 필요한 1인 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00025000001": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "국가유공자"
+    ],
+    "support_type": "할인",
+    "summary": "종합운동장 부설주차장 이용요금 감면",
+    "target": "장애인, 국가유공자, 경차, 요일제 참여차량",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00025000008": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "국가유공자"
+    ],
+    "support_type": "할인",
+    "summary": "공영주차장 이용요금 감면",
+    "target": "장애인, 국가유공자, 경차, 요일제 참여자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000654": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 콜택시 마마콜 지원",
+    "target": "부산시 주민등록 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000144": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 자녀 교통비 지원",
+    "target": "저소득 한부모가족 중고등학생 자녀",
+    "amount": "1일 1,600원",
+    "show": true,
+    "special": false
+  },
+  "g24-724000000004": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "특수교육대상자 통학비 지원",
+    "target": "초·중·고 특수교육대상자 학생 및 보호자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000680": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 교통약자 이동지원 서비스",
+    "target": "대전시 거주 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000153": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업경영체 유기질비료 지원",
+    "target": "농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000178": {
+    "category": "기타",
+    "tags": [
+      "운수종사자"
+    ],
+    "support_type": "현금",
+    "summary": "일산대교 택시 통행료 지원",
+    "target": "고양·파주·김포시 소속 개인·일반택시",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001104": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 초·중·고등학생 우유급식비 지원",
+    "target": "저소득층 가구 초·중·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000172": {
+    "category": "환경·생활",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농촌폐비닐 수거장려금 지원",
+    "target": "19개 시·군 농촌폐비닐 수거·처리 위탁 도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005348": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "청각장애인 인공달팽이관 수술 및 교육지원",
+    "target": "기준 중위소득 150% 이하 청각장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000881": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "중증장애아동 수당 추가지원",
+    "target": "중증장애아동 저소득 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002543": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모신생아 건강관리 지원 확대",
+    "target": "기준 중위소득 150% 초과 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004332": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "청년 주택임차보증금 이자지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004054": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "현물",
+    "summary": "구직청년 면접용 정장 무료 대여",
+    "target": "미취업 구직청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005186": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사립유치원 유아교육비 지원",
+    "target": "유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004977": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "학교 밖 청소년 꿈 키움 수당",
+    "target": "학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004946": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "대전형 양육기본수당 지원",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005771": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "치매치료관리비 지원",
+    "target": "치매환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005770": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지역사회 통합돌봄 서비스 지원",
+    "target": "돌봄 필요한 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005387": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "대전광역시 노인복지관 운영",
+    "target": "노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000877": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "1인 영세 자영업자 고용보험료 지원",
+    "target": "1인 영세 자영업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004241": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "최중증 독거 장애인 24시간 활동지원",
+    "target": "최중증 독거 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000882": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 보조기기 수리용품 지원",
+    "target": "장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004333": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "자영업·창업"
+    ],
+    "support_type": "금융",
+    "summary": "초기 청년 창업가 재정 지원",
+    "target": "창업 후 3년 이내 청년 창업가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002636": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 구직활동비 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002542": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "의료급여 수급권자가 아닌 저소득 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001228": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "국가유공자 위문",
+    "target": "국가유공자, 유족 또는 가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006545": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경계선지능인 진단검사 및 진로탐색 지원",
+    "target": "경계선지능 아동·청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006515": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 필요경비 지원",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006477": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "공공예식장 작은결혼식 지원",
+    "target": "결혼 예정인 청년·중장년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006133": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시니어 적합직무 채용 기업 지원",
+    "target": "은퇴 시니어",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006064": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중년층 채용 촉진 지원",
+    "target": "부산지역 중년층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005595": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이 대중교통 요금 무료",
+    "target": "만 6세~12세 어린이",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005145": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 신용회복 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004938": {
+    "category": "건강",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 정신건강 회복 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001983": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "중소기업 청년 근로자 복지 지원",
+    "target": "중소기업 청년 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001032": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "청년 임차보증금 대출이자 지원",
+    "target": "청년(대학생, 취준생, 직장인)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004412": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 추가 활동 지원",
+    "target": "독거, 사지마비 등 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005143": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 자산형성 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001590": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "입원아동 돌봄 서비스 지원",
+    "target": "입원 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002458": {
+    "category": "주거",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "주거",
+    "summary": "부자가족 자립 주거지원",
+    "target": "부자가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002604": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족복지시설 퇴소자 자립정착금 지원",
+    "target": "한부모·조손",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002459": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득주민 자녀교통비, 월동대책비 지원",
+    "target": "기초생활보장수급자, 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002325": {
+    "category": "일자리",
+    "tags": [
+      "중장년",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만50~64세 부산 거주 취업취약계층 일자리 지원",
+    "target": "만50~64세 부산 거주 취업취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006111": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "부산형 산후조리비 지원",
+    "target": "출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004411": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 학생 야간자율학습 석식비 지원",
+    "target": "일반고, 자율고 학생 중 야간자율학습 참여 생계, 의료급여 수급 대상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004410": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁 아동 양육수당 지원",
+    "target": "가정위탁 보호아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000731": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보호종료아동 자립정착금 지원",
+    "target": "보호종료아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002790": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "보호아동 위한 공동생활가정(그룹홈)사업 지원",
+    "target": "보호를 필요로 하는 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004179": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노숙인 진료비 지원",
+    "target": "노숙인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002457": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득장애인 재활수당 지원",
+    "target": "저소득장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002460": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만3~5세 영유아 기관보육료 지원",
+    "target": "만3~5세 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002456": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "의료급여수급자 암검진 바우처 지원",
+    "target": "의료급여수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000733": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 노인 의치보철비 지원",
+    "target": "저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005583": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 장애인 무료급식 지원",
+    "target": "저소득 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002789": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "거주시설 퇴소장애인 자립정착금 지원",
+    "target": "장애인거주시설 퇴소장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001029": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인복지카드 등기배송 서비스",
+    "target": "장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002554": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 청각장애인 인공달팽이관 수술비 지원",
+    "target": "저소득 장애인가구 청각장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004489": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "60세 이상 저소득 노인 무료급식 지원",
+    "target": "60세 이상 저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001638": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모신생아 건강관리 지원 확대",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002785": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 지원",
+    "target": "난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002557": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "둘째 이후 자녀 출산지원금 지급",
+    "target": "둘째 이후 자녀 출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004015": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "노년"
+    ],
+    "support_type": "현물",
+    "summary": "저소득·결식 우려 어르신 급식 지원",
+    "target": "저소득, 결식 우려 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005677": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 현장학습비 및 특별활동비 지원",
+    "target": "어린이집 아동 보호자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002481": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지급",
+    "target": "참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005601": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "대중교통 통합할인제 사업",
+    "target": "청년, 노년, 중장년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006451": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "야간·주말 소아 경증환자 진료 지원",
+    "target": "영유아, 아동, 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006425": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어린이집 식판 세척·소독 지원",
+    "target": "어린이집 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006169": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "교통약자 이동지원 확대",
+    "target": "노년, 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005883": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "아동 문화예술 활동 지원",
+    "target": "초등학생 연령 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000746": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "성인 중증발달장애인 주간보호 지원",
+    "target": "성인 중증발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004312": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "대학생 학자금대출 이자 지원",
+    "target": "울산지역 출신 대학(원)생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-631000000121": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산",
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "여성장애인 가사도우미 지원",
+    "target": "가사 도움이 필요한 여성장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004343": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동보조 서비스 추가 지원",
+    "target": "중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004365": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 중증장애인 장애수당 추가 지원",
+    "target": "저소득 재가 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006202": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업·농촌 공익적 기능 증진 농민수당 지급",
+    "target": "농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002567": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "보행상 심한 장애인 콜택시 지원",
+    "target": "보행상 심한 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001012": {
+    "category": "주거",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "대출",
+    "summary": "한부모가족 전세자금 지원",
+    "target": "한부모가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006055": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "휴일 소아 경증환자 외래 진료 지원",
+    "target": "영유아, 아동, 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002570": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지급",
+    "target": "참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002571": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 의료비 지원",
+    "target": "독립유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004810": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년가구 주거비 지원사업",
+    "target": "울산광역시 청년가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001715": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "신혼부부 주거비 무상 지원",
+    "target": "울산 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001578": {
+    "category": "생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "65세 이상 노인가구 가스안전기기 보급",
+    "target": "65세 이상 노인가구 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005861": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "조부모 손주 돌봄 수당 지급",
+    "target": "0~5세 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002634": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "다자녀가정 렌터카 지원",
+    "target": "2자녀 이상 다자녀가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004283": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "3~5세 아동 보육료 차액 지원",
+    "target": "어린이집 입소 3~5세 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001579": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육보조금 지원",
+    "target": "가정위탁아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001283": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 아동 급식 지원",
+    "target": "저소득 가정 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002568": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 대학생 장학금 지원",
+    "target": "저소득층 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001303": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어린이날 행사 개최",
+    "target": "아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000960": {
+    "category": "생활",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "취약계층 가스안전장치 설치 지원",
+    "target": "65세 이상 독거노인, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005906": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "예비부부 결혼식 비용 일부 지원",
+    "target": "예비부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005463": {
+    "category": "교통",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "인천형 대중교통비 지원",
+    "target": "인천시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005347": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "타 시도 중고 신입생 교복비 지원",
+    "target": "타 시도 중고 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005344": {
+    "category": "육아",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 예체능활동비 지원",
+    "target": "가정위탁아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005342": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아동·청소년 부모 빚 대물림 법률지원",
+    "target": "아동·청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005341": {
+    "category": "교통",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영종지역 주민 대중교통비 지원",
+    "target": "영종지역 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005082": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "AI 안부확인 돌봄서비스 제공",
+    "target": "고독사 위험군",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003979": {
+    "category": "복지",
+    "tags": [
+      "청년",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "청년 발달장애인 자산형성 지원",
+    "target": "청년 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001324": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동지원서비스 제공",
+    "target": "인천시 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
