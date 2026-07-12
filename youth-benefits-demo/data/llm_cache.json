@@ -131381,5 +131381,213 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-641000000739": {
+    "category": "교육",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "미취업자 대상 기술 기능 양성 훈련 지원",
+    "target": "경기도 거주 15세 이상 미취업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000742": {
+    "category": "교육",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "미래 성장산업 전문인력 양성 지원",
+    "target": "경기도 내 19세 이상 미취업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000743": {
+    "category": "교육",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "건설분야 취업 희망자 교육훈련 지원",
+    "target": "건설분야 취업 희망 만 19세 이상 경기도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000750": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "중소기업·장애인기업 온라인 마케팅 지원",
+    "target": "경기도 내 중소기업 및 장애인 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000760": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중소기업 상품 개선·판로·홍보 지원",
+    "target": "경기도 본사 또는 공장 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000762": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중소기업협동조합 활성화 지원",
+    "target": "도내 중소기업협동조합",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000765": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중소기업 나라장터 엑스포 참가비 지원",
+    "target": "국내·외 조달시장 진출 희망 경기도 중소기업",
+    "amount": "참가비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000795": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "소공인 박람회 참가 부스 설치 지원",
+    "target": "도내 소공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000798": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "규제샌드박스 승인기업 사업화 지원",
+    "target": "도내 중소기업, 창업·스타트업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000804": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "기업 애로 해소 현장 컨설팅 지원",
+    "target": "도 내 소재 중소기업, 예비창업자",
+    "amount": "전액 무료",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000805": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 착한기업 인증 및 활성화 지원",
+    "target": "경기도내 3년 이상 소재 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000806": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "착한가격업소 활성화 지원",
+    "target": "개인서비스업종 개인사업자, 법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000807": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "납품대금 연동제 도입 및 확산 지원",
+    "target": "도내 중소기업 또는 거래 기업",
+    "amount": "인센티브 부여",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000808": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "소상공인 법무, 노무, 세무 상담 지원",
+    "target": "경기도 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000809": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중소 섬유패션기업 경영·디지털 역량강화 지원",
+    "target": "도내 중소 섬유패션기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000810": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "섬유기업 신소재 개발 시제품 제작 지원",
+    "target": "경기도내 섬유관련 제조기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000811": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "섬유패션기업 디자인 컨설팅 및 시제품 제작 지원",
+    "target": "도내 중소 섬유패션기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000812": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "섬유제품 유해물질 시험분석 및 인증 지원",
+    "target": "경기도 소재 섬유관련 중소기업, 소기업",
+    "amount": "시험분석 비용 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000813": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "공공기관·중견·중소기업 CP 제도 지원",
+    "target": "경기도 내 공공기관, 중견·중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000814": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "섬유 패션기업 친환경 글로벌 인증 지원",
+    "target": "경기도 섬유 패션 기업",
+    "amount": "컨설팅 비용 지원",
+    "show": true,
+    "special": false
   }
 }
