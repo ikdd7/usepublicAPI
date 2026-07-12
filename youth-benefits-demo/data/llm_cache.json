@@ -133399,5 +133399,677 @@
     "amount": "가스자동화 차단기",
     "show": true,
     "special": false
+  },
+  "g24-643000000142": {
+    "category": "일자리",
+    "tags": [
+      "구직중",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "근로능력자 대상 생계지원 및 일자리 마련",
+    "target": "18세 이상 근로능력자, 중위소득 60% 이하, 재산 4억 미만 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000144": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "소상공인 노란우산공제 신규가입 월 1만원 지원",
+    "target": "연매출 3억 이하 소상공인 (업종별 상시근로자 수 기준)",
+    "amount": "월 1만원",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000236": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "곤충 사육농가 먹이, 검사비, 기자재 지원",
+    "target": "곤충 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000240": {
+    "category": "주거",
+    "tags": [
+      "임신·출산",
+      "육아"
+    ],
+    "support_type": "대출",
+    "summary": "청년 주택임차보증금 이자 지원 연장",
+    "target": "자녀가 있거나 출산한 청년 선정자",
+    "amount": "2년",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000247": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "대출",
+    "summary": "학자금대출 이자 지원",
+    "target": "충남 거주 학생, 한국장학재단 학자금 대출자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000836": {
+    "category": "교육",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "유·초·중·고·특수학교 무상급식 식품비 지원",
+    "target": "도내 재학 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000849": {
+    "category": "농업",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "청년 스마트팜 신축 지원",
+    "target": "만 18~45세 미만 신규 창업 청년농",
+    "amount": "최대 4.5억원",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000850": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "초등학생 방과후 돌봄서비스 지원",
+    "target": "도내 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000851": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "초등학생 방과후 돌봄서비스 이용 지원",
+    "target": "도내 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000852": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "취학전 자녀 대상 장난감·도서 대여",
+    "target": "취학전 자녀를 둔 충남 도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000853": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "청년 주택임차보증금 이자 지원",
+    "target": "2025년 선정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000856": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "현금",
+    "summary": "청년예술인 창작·발표 활동 지원",
+    "target": "만 39세 이하 예술가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000857": {
+    "category": "건강",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 정신건강 검진 및 심리 지원",
+    "target": "만 19~39세 도내 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000858": {
+    "category": "농업",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "교육",
+    "summary": "청년농업인 전문자격증 취득 교육 지원",
+    "target": "만 18~45세 미만 청년농",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000859": {
+    "category": "농업",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "교육",
+    "summary": "청년농업인 스마트팜 기술 연수",
+    "target": "만 18~45세 미만 충남 청년농",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000101": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "산란계농장 난좌 구입 지원",
+    "target": "산란계 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000102": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양식수산물 재해보험 보험료 지원",
+    "target": "양식업 인허가 어업인, 법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000103": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산농가 악취저감 안개분무시설 지원",
+    "target": "축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000104": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "학교밖청소년 교통카드 지원",
+    "target": "전북 학교밖청소년지원센터 등록 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 호국보훈수당 지원",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-645000000141": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "가금농장 해충구제 친환경 제품 공급",
+    "target": "산란계 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000142": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만65세이상 노인 틀니 시술 본인부담금 지원",
+    "target": "만65세이상 기초생활 의료급여 수급자 및 차상위",
+    "amount": "본인부담금 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-645000000143": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "김 양식어장 관리 우수 어업인 김 활성처리제 지원",
+    "target": "양식어장 관리 우수 단체 및 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000144": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "도내 1천㎡이상 밭농업 농업인 밭농업직불금 지원",
+    "target": "도내 거주 1천㎡이상 밭농업 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000145": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "오리농가 동절기 난방비 지원",
+    "target": "오리 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000149": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "관내 농업인 농업인 안전보험료 80% 지원",
+    "target": "관내거주 농업경영체등록 농업인",
+    "amount": "보험료 80%",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000150": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "어업인 안전보험 가입 어업인 보험료 지원",
+    "target": "어업인 안전보험 가입 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000151": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "경관작물 재배 농업인 경관보전직불제 지원",
+    "target": "경관작물 재배 농업인 또는 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000152": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "계약재배 참여 농업인 채소·과수 수급 조절 지원",
+    "target": "계약재배 사업대상자 및 주산지협의체 참여 농업인",
+    "amount": "가격 보장",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000153": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "사료작물 생산 농가 조사료 생산 장려금 지원",
+    "target": "사료작물 생산 농업 및 축산농가",
+    "amount": "kg당 4원",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000155": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "채소 등 재배 희망 농업인 비닐하우스 지원",
+    "target": "채소, 화훼, 열대과수 재배 희망 농업인 및 법인",
+    "amount": "연동 비닐하우스 신축",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000156": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "젖소 착유농가 착유 도우미 지원",
+    "target": "젖소 착유농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000157": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애인 주간활동서비스 추가시간 지원",
+    "target": "발달장애인 주간활동서비스 대상자 중 추가시간 필요자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-645000000158": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만70세이상 고령운전자 면허 반납시 교통비 지원",
+    "target": "만 70세 이상 운전면허 소지자",
+    "amount": "교통비 등 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000159": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "아동복지시설 입소아동 용돈 등 지원",
+    "target": "아동복지시설 입소 아동",
+    "amount": "용돈, 서적비, 간식비",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000160": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "초식가축 전업규모 농가 사료 장비 지원",
+    "target": "초식가축 사육 전업규모 이상 축산농가",
+    "amount": "자가 배합사료 구입",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000163": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "만19세이상 농업인 농기계 종합보험 자부담 지원",
+    "target": "만 19세 이상 농업인 또는 농업법인",
+    "amount": "자부담 일부 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000165": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "친환경농산물 등 인증 농가 인증비용 지원",
+    "target": "친환경농산물 등 인증 농업경영체 및 사업자",
+    "amount": "인증 심사비",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000166": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화가족 국적취득비용 및 고향나들이 지원",
+    "target": "국적취득자, 다문화가족",
+    "amount": "국적취득비용, 고향나들이",
+    "show": true,
+    "special": false
+  },
+  "g24-645000000170": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "전북 거주 군복무 청년 상해보험 가입 지원",
+    "target": "전북 거주 입영자 및 군복무 청년",
+    "amount": "상해보험 가입",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "공공산후조리원 이용료 감면 지원",
+    "target": "취약계층 중 공공산후조리원 이용자",
+    "amount": "이용료의 70%",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000116": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농산물 저온저장고 설치 지원",
+    "target": "2ha미만 원예농산물 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000117": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "서비스",
+    "summary": "신혼(예비)부부 건강검진비 지원",
+    "target": "도내 거주 예비부부, 혼인 3년 이내 부부",
+    "amount": "최대 3회",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000121": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "5.18민주유공자 민주명예수당 지급",
+    "target": "5.18민주유공자 및 유가족",
+    "amount": "월 6만원",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000127": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "북한이탈주민 취업활동 지원",
+    "target": "전남 거주 취업 희망 북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000128": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "65세 이상 저소득층 대상포진 예방접종 지원",
+    "target": "65세 이상 기초수급자·차상위계층",
+    "amount": "무료",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000129": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "북한이탈주민 정착지원금 지급",
+    "target": "전남 전입·생계위기 북한이탈주민",
+    "amount": "필수 전자제품 등",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000130": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "북한이탈주민 취업생활 안정자금 지원",
+    "target": "전남 거주 취업 북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000141": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "결식아동 급식 지원",
+    "target": "결식우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000144": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "신재생에너지 주택 설치비 보조",
+    "target": "신축·기존 주택 소유자",
+    "amount": "설치비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000146": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "유기·무항생제 축산물 인증비 지원",
+    "target": "유기·무항생제 축산물 인증 농가",
+    "amount": "인증비용",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000157": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "가금류 곤충 사료첨가제 지원",
+    "target": "가금류 사육농가",
+    "amount": "보조 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000159": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "북한이탈주민 사회정착 지원",
+    "target": "전남 거주 북한이탈주민",
+    "amount": "생활용품 등",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000160": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한봉 사육 기자재 및 토종벌 구입 지원",
+    "target": "전남 거주 양봉등록 농가·법인",
+    "amount": "보조 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000162": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양돈 생산성 향상 지원",
+    "target": "돼지 사육농가",
+    "amount": "보조 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000163": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "결혼이주여성 산모도우미 지원",
+    "target": "출산 다문화가정 산모 및 신생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000165": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "가금류 칼슘첨가제 지원",
+    "target": "가금류 사육농가",
+    "amount": "보조 80%",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000166": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "논벼 재배농가 왕우렁이 공급 지원",
+    "target": "벼 재배 농업인",
+    "amount": "보조 50%~90%",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000167": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "진폐장해인 의료비 지원",
+    "target": "진폐장해인 및 배우자",
+    "amount": "외래 진료비",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000170": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "65세 이상 독거노인 지킴이단 활동 지원",
+    "target": "65세 이상 독거노인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
