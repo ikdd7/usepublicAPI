@@ -127711,5 +127711,443 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-569000000345": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "친환경농가 경영체에 직불금 지원",
+    "target": "세종시 거주 친환경농산물 인증 농가",
+    "amount": "600천원/ha",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000346": {
+    "category": "일자리",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "세종시 청년 행정인턴 선발 및 운영",
+    "target": "세종시 거주 또는 재학 중인 19~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000348": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 추가 지원",
+    "target": "국비지원 대상자 중 시간 부족한 장애인",
+    "amount": "월 10~330시간",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000349": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "신선농산물 수출 농가 포장재 지원",
+    "target": "세종시 주소 및 수출 실적 있는 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000350": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "국민임대주택 수급자 가구 공동전기료 지원",
+    "target": "국민임대주택 거주 수급자 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000351": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초수급자 등 명절 위문금 지원",
+    "target": "기초수급자, 차상위계층 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000352": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 휠체어 등 수리 지원",
+    "target": "세종시 거주 등록 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000354": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "벼 재배농가 직불금 지원",
+    "target": "세종시 거주 벼 재배 농가",
+    "amount": "400천원/ha",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000355": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "사슴농가 기자재 지원",
+    "target": "세종시 관내 사슴농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000356": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "국내 등록 출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000358": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "만 3~5세 정부 미지원 어린이집 차액보육료 지원",
+    "target": "만 3~5세 정부 미지원 어린이집 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000359": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양계농가 환경개선제 지원",
+    "target": "가금사육농가, 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000360": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "세종시 농업경영체 농기계 지원",
+    "target": "세종시 거주 1,000㎡ 이상 작목 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000366": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 의료비 본인부담금 지원",
+    "target": "독립유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000383": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다자녀 가정 초1 입학지원금 지원",
+    "target": "세종시 거주 다자녀 가정 셋째 이상 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000387": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "3자녀 이상 세대 상수도 요금 감면",
+    "target": "3자녀 이상 가구 중 19세 미만 자녀 보유",
+    "amount": "월 2천원",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000389": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "세종시 청년 면접비 지원",
+    "target": "세종시 거주 19~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000391": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "세종시 청년 구직자 면접스타일링 지원",
+    "target": "세종시 거주 19~39세 미취업 구직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000392": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "세종시민 대상 시민안심보험 지원",
+    "target": "세종시민(등록외국인 포함)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000393": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청년월세 한시 특별지원 변경 신청",
+    "target": "기존 청년월세지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000651": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 6세~12세 어린이 대중교통 요금 무료",
+    "target": "만 6세~12세 어린이",
+    "amount": "0원",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000656": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인·비장애인 만남·결혼 상담 서비스",
+    "target": "만남과 결혼 희망 장애인, 비장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000657": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "부산시민 금융 복지 상담 지원",
+    "target": "부산시 저소득 취약계층, 금융복지 상담 필요 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000658": {
+    "category": "금융",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "대출",
+    "summary": "차상위계층 특별우대 통장 지원",
+    "target": "차상위계층",
+    "amount": "우대금리",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000659": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "기초수급자·복지시설 중고 PC 보급",
+    "target": "기초생활수급자, 사회복지시설",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000664": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "부산시민 무료 법률 상담 서비스",
+    "target": "법률 상담이 필요한 부산 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000667": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "암 환자 및 가족 호스피스·완화케어 지원",
+    "target": "암 환자 및 가족, 비암성질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000678": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지역주민 방문 건강관리 서비스",
+    "target": "건강행태 개선 필요자, 만성질환 위험군·자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000679": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 시술 약제비 지원",
+    "target": "난임부부 시술비 지원사업 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000102": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "기초수급자·복지단체 중고 PC 보급",
+    "target": "기초생활수급자, 비영리복지단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000104": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "환경공무직 자녀 대학생 장학금 지원",
+    "target": "환경공무직 대학생 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000109": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "대구시 난임부부 한방 치료 지원",
+    "target": "대구시 주소 둔 난임부부",
+    "amount": "전액지원",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000112": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "성인·아동 재가 중증장애인 장애수당 지원",
+    "target": "재가 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "단독주택 도시가스 시설분담금 지원",
+    "target": "사회적배려대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000122": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "노인 장기요양급여비 지원",
+    "target": "요양등급 인정자 중 수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000124": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "만14~64세 장애인 독감 예방접종 지원",
+    "target": "만14~64세 심한 장애인, 사회복지시설 생활자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000125": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 자립생활주택 지원",
+    "target": "시설 및 재가 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000127": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만65세이상 저소득층 무료 틀니 지원",
+    "target": "만65세이상 의료급여수급권자, 차상위",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000130": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다문화가족 자녀 대학 학비 지원",
+    "target": "다문화복지한국어학과 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000131": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "축산농가 영세농가 톱밥·보험료 지원",
+    "target": "축산사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
