@@ -128149,5 +128149,1376 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-648000001100": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "노인가장세대 저소득 노인 지원",
+    "target": "65세 이상 차상위 계층 독거노인, 노인부부가구, 조손가정 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-358000000118": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "옹진군인재육성재단 인재장학금 지급",
+    "target": "옹진군 5년 이상 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000119": {
+    "category": "기타",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "농어촌민박 시설 현대화 지원",
+    "target": "옹진군 3년 이상 거주, 2년 이상 민박 운영자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000120": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "옹진군인재육성재단 복지 장학금 지급",
+    "target": "옹진군 5년 이상 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000125": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "중소기업·소상공인 특례보증 대상 이차보전",
+    "target": "옹진군 관내 특례보증 대출 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000134": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "65세 이상 노인 보청기 지원",
+    "target": "65세 이상 기초수급자, 차상위, 기초연금 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-358000000138": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술 관련 약제비 지원",
+    "target": "난임부부 시술비 지원사업 신청자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-359000000108": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만 6세 미만 영유아 건강수당 지급",
+    "target": "동구 6개월 이상 거주, 수급 아동",
+    "amount": "월 3만원",
+    "show": true,
+    "special": true
+  },
+  "g24-360000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "80세 이상 효도대상자 모시는 3대 가구 효드림수당 지급",
+    "target": "광주 서구 3대 가구, 2년 이상 거주",
+    "amount": "격월 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-362000000101": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁아동 자립적립금 지원",
+    "target": "북구 거주 가정위탁아동",
+    "amount": "월 2만원",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000329": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "GAP 안전성 검사비 지원",
+    "target": "GAP 인증 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000333": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "부부장애인 월 5만원 수당 지급",
+    "target": "기초수급자 또는 차상위계층 부부장애인",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000334": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양돈농가 환경개선 시설, 장비 지원",
+    "target": "관내 양돈농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000336": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "세종시 농업인 중형 관정 개발 지원",
+    "target": "세종시 농업인",
+    "amount": "3,500천원/공",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000337": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "세종시 과수·채소농가 영농자재 지원",
+    "target": "세종시 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000338": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 재가노인 식사(반찬) 배달",
+    "target": "60세 이상 기초수급자, 차상위, 기초연금 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000339": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "양돈, 양계농가 구서방제 지원",
+    "target": "양돈, 양계농가",
+    "amount": "사업비의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000340": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양계 전염병 예방약 지원",
+    "target": "닭 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000341": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양돈 생식기호흡기증후군 예방약 지원",
+    "target": "양돈농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000344": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "세종시 임산부 영양제 지원",
+    "target": "세종시 주민등록 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000162": {
+    "category": "복지",
+    "tags": [
+      "정신질환자"
+    ],
+    "support_type": "서비스",
+    "summary": "정신질환자 자립생활주택 운영 및 사례관리 서비스",
+    "target": "만19세이상 서울시 거주 정신질환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-611000000171": {
+    "category": "건강",
+    "tags": [
+      "아동",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만18세미만 취약계층 아동 치과치료 지원",
+    "target": "만18세미만 아동복지시설, 저소득층, 취약아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-611000000173": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "재정 열악 사립 박물관·미술관 전시 사업비 지원",
+    "target": "재정 열악 사립 박물관, 미술관",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000174": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서울시 수돗물 수질 검사 및 상담 서비스",
+    "target": "서울시 수돗물 사용 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000182": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기준중위소득 140% 이하 가구 대상 서비스 제공",
+    "target": "기준중위소득 140% 이하 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019598": {
+    "category": "환경·생활",
+    "tags": [
+      "노인",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "주택용 소방시설(경보기, 소화기) 보급 및 설치 지원",
+    "target": "노인, 장애인, 소년소녀가장, 한부모 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-611000019600": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "서울시 거주 임산부 대상 책꾸러미 지원",
+    "target": "임신 3개월~출산 후 3개월 서울 거주 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019608": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "수급권자, 중증장애인 수도요금 감면",
+    "target": "국민기초생활수급권자, 중증장애인",
+    "amount": "월 사용량 10톤 이내",
+    "show": true,
+    "special": true
+  },
+  "g24-611000019613": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부·영유아 가정 방문 건강관리 서비스",
+    "target": "임산부 및 만2세 미만 영유아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019615": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀 가구 하수도사용료 30% 감면",
+    "target": "18세 이하 미성년 자녀 2명 이상 가구",
+    "amount": "30%",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019616": {
+    "category": "건강",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "서비스",
+    "summary": "서울시 초등학생 이하 어린이 안경 할인쿠폰 지원",
+    "target": "서울시 거주 초등학생 이하 어린이",
+    "amount": "20% 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019617": {
+    "category": "건강",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "만19~39세 청년 1:1 심층 심리상담 지원",
+    "target": "만19~39세 서울 거주 청년",
+    "amount": "최대 6회",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019621": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서울시 다태아(쌍둥이) 안심보험 자동 가입 지원",
+    "target": "'24.1.1. 이후 출생 서울 거주 다태아",
+    "amount": "보험료 전액",
+    "show": true,
+    "special": true
+  },
+  "g24-611000019623": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현물",
+    "summary": "서울시 초등 저학년 대상 휴대용 안심벨 지원",
+    "target": "서울시 초등학생 저학년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019625": {
+    "category": "문화",
+    "tags": [
+      "청년",
+      "제대군인"
+    ],
+    "support_type": "서비스",
+    "summary": "21~23세 청년 문화패스 지원",
+    "target": "21~23세 서울 거주 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019628": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "일자리",
+    "summary": "기준중위소득 85% 이하 가구 대상 동행일자리 제공",
+    "target": "만18세 이상 근로능력자, 소득·재산 기준 충족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019648": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "1인 가구, 스토킹 피해자 대상 안심 홈세트 지원",
+    "target": "서울 거주 1인 가구, 스토킹 피해자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000103": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "부산 영구임대아파트 난방비 등 지원",
+    "target": "부산 영구임대아파트 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000104": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "부산 청년 취업 면접 정장 무료 대여",
+    "target": "부산 거주 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000105": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산농가 분뇨처리 톱밥 구입비 일부 지원",
+    "target": "가축사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000106": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "시설 장애인 입원 간호비 지원",
+    "target": "시설 장애인 중 입소 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000107": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "시설 원예작물 생산 농가 자재 지원",
+    "target": "시설 원예작물 생산 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000108": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 노인 구강 건강관리 서비스 제공",
+    "target": "만 65세 이상 노인 중 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000109": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "노인·장애인 의치보철 본인부담금 지원",
+    "target": "만 65세 이상 노인 및 만 40세 이상 장애인 중 기초수급 및 차상위",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000111": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "의료급여수급권자 암검진 비급여 비용 지원",
+    "target": "부산 거주 의료급여수급권자 중 국가암검진 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000112": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "청각장애인 인공달팽이관 수술 및 재활치료 지원",
+    "target": "기준 중위소득 150% 이하 청각장애인",
+    "amount": "수술 5백만원 이내",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000115": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "공동주택 미니태양광 발전설비 보급 지원",
+    "target": "공동주택(아파트, 빌라, 연립) 소유자",
+    "amount": "설치비의 85%",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000116": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보호종료아동 자립정착금 및 대학등록금 지원",
+    "target": "만 18세 이상 아동복지시설 보호종료아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000117": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 60세 이상 경도인지장애 노인 한방 치매 예방 지원",
+    "target": "만 60세 이상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000118": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "사회적보호대상 등 인플루엔자 예방접종 지원",
+    "target": "생계·의료급여 수급자, 장애인, 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000124": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "어선 재해보상 보험료 일부 지원",
+    "target": "어업인",
+    "amount": "29%~85%",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000125": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부산 동백전 지역화폐 캐시백 지원",
+    "target": "동백전 결제 시민 및 소상공인 가맹점",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000128": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "결식 우려 노인 무료 급식 및 밑반찬 배달 지원",
+    "target": "60세 이상 저소득 노인, 65세 이상 거동불편 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000129": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시설 입소 등급외 노인 부담금 지원",
+    "target": "시설 입소 노인 중 등급외자, 구청장·군수 판단 입소자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000130": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "중증장애인 재활수당 월 3만원 지급",
+    "target": "생계·의료급여 수급자인 장애인연금법상 중증장애인",
+    "amount": "월 3만원",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000132": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "원폭 피해자 1세대 생활보조비 월 5만원 지원",
+    "target": "부산 거주 원폭 피해자 1세대",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000133": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "만 65세 이상 참전유공자 등 명예수당 지급",
+    "target": "부산 거주 만 65세 이상 참전유공자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000134": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "모든 출산가정 산모·신생아 건강관리 지원",
+    "target": "소득무관 모든 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000135": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "난임 여성 한방 시술비 지원",
+    "target": "부산 거주 난임 판정 여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000136": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아동 치과 주치의 구강건강증진 서비스 지원",
+    "target": "초등학교 5학년, 지역아동센터 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000137": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "부산 농업인 맞춤형 비료 구입비 등 지원",
+    "target": "부산시 거주 벼 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000138": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 재해보험료 일부 지원",
+    "target": "만15~87세 영농 종사 농업인",
+    "amount": "보험료의 30%",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000141": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경 농가 수정벌 공급 지원",
+    "target": "부산 친환경 농산물 시설재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000142": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "여성폭력 피해자 상담 및 긴급피난처 지원",
+    "target": "여성폭력 피해자 및 동반가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000143": {
+    "category": "복지",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "학교 밖 청소년 급식비 지원",
+    "target": "학교 밖 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000150": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노인학대예방의 날 행사 지원",
+    "target": "노인 및 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000151": {
+    "category": "복지",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 법률상담 지원",
+    "target": "부산시 소재 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000153": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "한부모가족 면접교섭 및 양육비이행 지원",
+    "target": "한부모가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000157": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전기자동차 구매 보조금 지원",
+    "target": "부산시 거주 만18세 이상 개인/사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000159": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부산시민 대상 10개 사고 유형 보험 지원",
+    "target": "부산시민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-626000000611": {
+    "category": "금융",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "부산지역 대학생 학자금 대출이자 지원",
+    "target": "부산 소재 대학생, 대학원생, 미취업 졸업생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000626": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "청년·신혼부부 공공임대주택 거주자 주거비 지원",
+    "target": "부산 공공임대주택 거주 미혼청년, 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000629": {
+    "category": "금융",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 신용회복 상담 및 채무조정 지원",
+    "target": "부산 거주 18~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000631": {
+    "category": "금융",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "현금",
+    "summary": "근로 청년 부산형 '기쁨두배통장' 지원",
+    "target": "부산 거주 18~39세 근로청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000634": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "노인, 장애인 등 통합돌봄 서비스 지원",
+    "target": "돌봄 필요한 부산시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000635": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 심리상담 및 마음치유 프로그램 지원",
+    "target": "부산 거주 18~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000636": {
+    "category": "문화",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "현금",
+    "summary": "청년 문화공연 1만원 관람 지원",
+    "target": "부산 거주 18~39세 청년",
+    "amount": "1만원",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000638": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영유아 가정 키즈카페 사업 지원",
+    "target": "영유아 가정, 어린이집",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000641": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "신혼부부 공공임대주택 입주자 주거 지원",
+    "target": "부산 거주 무주택 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000643": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "기혼여성 가임력 보존 비용 지원",
+    "target": "기준중위소득180%이하 19~44세 기혼여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000134": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "대출",
+    "summary": "대학생 학자금 대출 이자 지원",
+    "target": "대구·경북 소재 대학(원)생 및 졸업생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000137": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임산부 태아기형아 검사비 지원",
+    "target": "기준중위소득 150% 이하 보건소 등록 임산부",
+    "amount": "5만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000140": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농기계 구입비 일부 지원",
+    "target": "농업인",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000141": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "독거노인 폭염·혹한기 극복용품 지원",
+    "target": "65세 이상 취약환경 독거노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-627000000144": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "경로당 식재료 구입비 지원",
+    "target": "경로당",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000145": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "초등학생 구강검진 및 예방진료 지원",
+    "target": "교육비 지원 대상 초등학생 4~6학년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000147": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가족 통역 및 소통 도움 지원",
+    "target": "소통 어려움 겪는 다문화가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000150": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "채소류 토양비료 구입비 일부 지원",
+    "target": "관내 농업인",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000155": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역사랑상품권(대구로페이) 구매 할인",
+    "target": "만 14세 이상 대구시민",
+    "amount": "할인혜택",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000716": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아동돌봄 정보 통합 검색 서비스 제공",
+    "target": "대구시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000721": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "청년 희망주택 전세자금 대출이자 지원",
+    "target": "청년희망주택 입주자 중 전세자금 대출자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000722": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경로당 냉난방비 및 양곡비 지원",
+    "target": "구군 경로당",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000727": {
+    "category": "일자리",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현물",
+    "summary": "면접정장 무료 대여 지원",
+    "target": "대구 거주 취업 면접 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000735": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "스마트 모빌리티 창업캠프 참가 지원",
+    "target": "전국 대학(원)생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000737": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "보험",
+    "summary": "시민 대상 재난·사고 피해 보상 보험",
+    "target": "대구시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000739": {
+    "category": "주거",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 맞춤 주택 리모델링 지원",
+    "target": "기초/차상위 등록장애인 자가 또는 임대주택 거주자",
+    "amount": "최대 8백만원",
+    "show": true,
+    "special": true
+  },
+  "g24-627000000741": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 동료상담 서비스 지원",
+    "target": "중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-627000000744": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 전세자금 대출이자 지원",
+    "target": "대구 거주 신혼부부 및 예비부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000746": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영유아보육료 차액 지원",
+    "target": "인건비 미지원 어린이집 이용 아동 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000749": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "중·장·노년 1인 가구 AI돌봄 지원",
+    "target": "단절된 채 집 생활하는 중·장·노년 1인 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-627000000751": {
+    "category": "복지",
+    "tags": [
+      "기타"
+    ],
+    "support_type": "서비스",
+    "summary": "대구 거주 어르신 교통비 지원",
+    "target": "대구 거주 72세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-627000000754": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "대구 다자녀가정 아이돌봄 지원",
+    "target": "대구 거주 2자녀 이상 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000755": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "대구 0~5세 유아 통장 지원",
+    "target": "대구 거주 0~5세 유아",
+    "amount": "1만원",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000757": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "대구 난임부부 약제비 지원",
+    "target": "난임부부 시술비 지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000759": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "대구 다자녀가정 상수도요금 감면",
+    "target": "대구 거주 3자녀 이상 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000102": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "인천 난임부부 한의약 치료 지원",
+    "target": "인천 거주 난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000103": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현물",
+    "summary": "강화군 브랜드쌀 포장재 지원",
+    "target": "강화섬쌀 생산·판매 농협 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000104": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "어업인 안전보험료 지원",
+    "target": "만15~90세 어업인·어업근로자",
+    "amount": "보험료 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000105": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업재해보험 가입 지원",
+    "target": "사업대상 지역 농업인·농업법인",
+    "amount": "보험료 70~80%",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000106": {
+    "category": "복지",
+    "tags": [
+      "임신·출산",
+      "육아",
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 이하 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000110": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임신·출산 건강관리 지원",
+    "target": "임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000112": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "송아지생산안정제 사업 부담금 지원",
+    "target": "한우암소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000113": {
+    "category": "농업",
+    "tags": [
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "강화한육우 브랜드 육성 지원",
+    "target": "강화섬약쑥한우 브랜드 참여농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000122": {
+    "category": "교육",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "정부미지원 어린이집 3~5세 보육료 지원",
+    "target": "정부미지원 어린이집 이용 3~5세아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000125": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 수중재활치료 지원",
+    "target": "만17세 이하 뇌병변, 지체 등 장애아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000126": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "아동양육시설 아동 심리검사·치료비 지원",
+    "target": "아동양육시설 추천 신규입소·보호아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000131": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "경로식당 무료급식 지원",
+    "target": "60세 이상 기초생활수급자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000132": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "과거사 피해주민 생활안정 지원",
+    "target": "월미도 원주민 희생자 유족",
+    "amount": "생활안정지원금",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000133": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 위문금 지원",
+    "target": "인천 거주 국가보훈대상자",
+    "amount": "10만원",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000134": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "인천 단독주택 신재생에너지 설비 지원",
+    "target": "인천 단독주택 거주자",
+    "amount": "설치비",
+    "show": true,
+    "special": false
   }
 }
