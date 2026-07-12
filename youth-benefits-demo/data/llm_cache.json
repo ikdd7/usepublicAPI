@@ -129520,5 +129520,1167 @@
     "amount": "설치비",
     "show": true,
     "special": false
+  },
+  "g24-628000000763": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "65세 이상 기초연금 대상자 병원동행 지원",
+    "target": "65세 이상 기초연금 대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000766": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 및 만2세 미만 영아기 가정 건강관리 지원",
+    "target": "남동구 관내 임산부 및 만2세 미만 영아기 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000768": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "2자녀 이상 가정 공공시설 이용료 할인",
+    "target": "인천시 2자녀 이상 가정",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000769": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "생계 어려운 근로자 무료 합동 결혼식 지원",
+    "target": "생계가 어려운 근로자",
+    "amount": "일체 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000770": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "취학 전 영유아 장난감 대여 지원",
+    "target": "인천시민, 직장근무자, 취학 전 영유아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000773": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인·노인 전동보장구 보험 가입 지원",
+    "target": "인천시 전동보장구 이용 장애인 및 65세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000774": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "최중증 발달장애인 통합돌봄 서비스 지원",
+    "target": "18세 이상 65세 미만 지적·자폐성 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000775": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "여성 1인 가구·점포 범죄예방 물품 지원",
+    "target": "여성 1인 가구 또는 1인 점포",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000101": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "시설 아동 참고서 구입비 지원",
+    "target": "아동복지시설 입소 초·중·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000102": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임 부부 한방 치료비 지원",
+    "target": "전남광주통합특별시 6개월 이상 거주 난임 부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000105": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 자립생활 정보·상담·훈련 지원",
+    "target": "자립생활 희망 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000111": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 광주 시민 기초생활보장 지원",
+    "target": "기준중위소득 50% 이하 저소득 광주 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000114": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득·장애인·노인 건강보험료 지원",
+    "target": "전남광주통합특별시 지역가입자 중 특정 조건 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000117": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "반려동물 내장형 등록비 지원",
+    "target": "전남광주통합특별시 거주 반려동물 소유자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000118": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애인 주간활동 서비스 지원",
+    "target": "전남광주통합특별시 거주 만 18세 이상 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000120": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "주택 신재생에너지 설치 보조금 지원",
+    "target": "단독주택, 공동주택",
+    "amount": "최대 900만원",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000123": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영구임대주택 공동 전기요금 지원",
+    "target": "영구임대주택 거주 세대원",
+    "amount": "100%",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000131": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "시설 이용 장애인 자립 체험홈 지원",
+    "target": "거주시설 이용 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000133": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "생계곤란 학생 빛고을장학금 지원",
+    "target": "광주 지역 내 소재 학업 중인 생계곤란 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000136": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 명예수당 지급",
+    "target": "국가보훈대상자 65세 이상",
+    "amount": "월 8만원",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000138": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 난방연료 지원",
+    "target": "기초생활수급자, 차상위계층, 소외계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000140": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자립준비청년 자립정착금 지원",
+    "target": "18세 이상 가정위탁보호 종결아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000143": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 건강 지원 및 교육",
+    "target": "예비부모, 다문화가정 임산부, 취약계층 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000144": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "생활시설 아동 용돈 지급",
+    "target": "아동복지시설 입소 초중고등학생",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000146": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "정부미지원시설 보육료 차액 지원",
+    "target": "만3~5세 정부미지원시설 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000147": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "무주택"
+    ],
+    "support_type": "서비스",
+    "summary": "위기가구 발굴 및 복지 지원",
+    "target": "생계곤란, 주거취약, 돌봄취약 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000150": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "미니태양광 보급 지원",
+    "target": "단독·공동주택 소유자 및 관리주체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000154": {
+    "category": "주거",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "대출",
+    "summary": "한부모가족 주거지원",
+    "target": "자립의지 있는 저소득 한부모가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000156": {
+    "category": "주거",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 주택 리모델링 지원",
+    "target": "장애인, 독거노인, 조손가정 등 기관추천자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000161": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "최중증 발달장애인 통합돌봄 지원",
+    "target": "18~65세 지적·자폐성 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000165": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "생활시설 아동 심리치료 지원",
+    "target": "상담치료 필요한 요보호아동",
+    "amount": "월 20만원 이내",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000166": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만성질환 및 합병증 예방관리 지원",
+    "target": "30세 이상 당뇨병 환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000167": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "우리밀 생산비 지원",
+    "target": "밀 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000168": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 월급제 지원",
+    "target": "벼 재배면적 3천~7만㎡ 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000170": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "대학생 학자금 대출이자 지원",
+    "target": "본인/직계존속 1년이상 거주 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000171": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "취약계층 암 정밀검사비 지원",
+    "target": "암 의심 판정 유소견자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000175": {
+    "category": "주거",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "주거",
+    "summary": "탈시설 장애인 임대주택 지원",
+    "target": "중증장애인 중 탈시설 희망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000176": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산업 육성 및 지원",
+    "target": "한우 사육농가, 축산업 허가/등록 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000178": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 고품질 쌀 생산 지원",
+    "target": "농업인, 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000180": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "복지사각지대 위기가정 지원",
+    "target": "기준중위소득 85% 이하 위기가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000181": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산",
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "여성장애인 가사도우미 지원",
+    "target": "등록 여성장애인(임신·출산, 9세미만 자녀 양육, 중증)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000184": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "대일항쟁기 강제동원 피해여성노동자 지원",
+    "target": "대일항쟁기 강제동원 피해여성노동자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000186": {
+    "category": "일자리",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "취업취약계층 지역공동체일자리사업 지원",
+    "target": "18세 이상 취업취약계층(중위소득 70% 이하)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000187": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "소외계층 생활안정 지원",
+    "target": "전남광주통합특별시 거주 소외계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000188": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "결식우려노인 무료급식 지원",
+    "target": "만60세 이상 기초수급자, 차상위, 저소득 독거노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000189": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "만14세 이상 광주상생카드 발급 지원",
+    "target": "만14세 이상 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000192": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "중증장애인 월 2만원 생활지원금 지원",
+    "target": "중증장애인(기초/차상위)",
+    "amount": "월 2만원",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000193": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "1인 자영업자 사회보험료 20% 지원",
+    "target": "광주 소재 1인 자영업자",
+    "amount": "납부액의 20%",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000194": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 초등학생 치과 주치의 지원",
+    "target": "저소득층 초등학생 1~6학년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000200": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "돌봄이 필요한 대상 통합돌봄 지원",
+    "target": "거동 불편 등 돌봄 필요 대상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000789": {
+    "category": "금융",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 전세자금대출 이자 지원",
+    "target": "광주 거주 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000793": {
+    "category": "주거",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 주택 개조 지원",
+    "target": "등록장애인(소득기준 부합)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-629000000803": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 직장맘 친화환경 조성 지원",
+    "target": "광주시 소재 300인 미만 중소사업장 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000805": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중소사업장 가족친화경영 지원",
+    "target": "300인 미만 중소사업장",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000807": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "광주형 대중교통비 지원(광주G-패스)",
+    "target": "어린이, 청소년, 청년, 일반, 어르신, 저소득, 다자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-629000000813": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "출산 맘&대디 나눔가게 운영",
+    "target": "자녀를 둔 부모 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000102": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "곤충사육농가 소득증대 지원",
+    "target": "대전시 곤충사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000104": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "중증장애인 자립생활 지원",
+    "target": "거주시설 퇴소 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000105": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 인플루엔자 무료 예방접종 지원",
+    "target": "50~64세 기초수급자, 장애인, 사회복지시설 생활자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000106": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 청각장애인 인공달팽이관 수술 지원",
+    "target": "저소득 청각장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000108": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "여성장애인 사회참여 확대 지원",
+    "target": "장애인복지법 등록 여성장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000112": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "기부자 의견 반영 특지장학생 선발",
+    "target": "기부자 의견 반영 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000113": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "보호대상아동 심성관리비 월 10만원 지원",
+    "target": "가정위탁·시설 입소 초중고 재학생",
+    "amount": "월 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000114": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "수급자·시설생활자 명절 위문",
+    "target": "기초생활수급자, 시설생활자",
+    "amount": "상품권 2만원 등",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000115": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양봉농가 경영안정 및 장비 구입비 지원",
+    "target": "대전시민 양봉등록농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000119": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "보훈예우수당 월 8만원 지급",
+    "target": "대전 거주 독립유공자 등 보훈대상자",
+    "amount": "월 8만원",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000122": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "우수 외국인 유학생 장학생 선발",
+    "target": "학업성적 우수 외국인 유학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000128": {
+    "category": "복지",
+    "tags": [
+      "기타"
+    ],
+    "support_type": "현물",
+    "summary": "독립유공자 명절 위문 지원",
+    "target": "대전 거주 독립유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000132": {
+    "category": "금융",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "대학생 학자금대출 이자 지원",
+    "target": "대전 소재 대학생, 거주 요건 충족 시",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000133": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농업 재해보험료 지원",
+    "target": "대전 거주 농업인, 농지 실경작 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000134": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 영농자재 구입비 지원",
+    "target": "대전 거주 벼 경작 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000137": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "수리계 유지관리 비용 지원",
+    "target": "농어촌정비법상 조직된 수리계",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000138": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 축산업 육성 지원",
+    "target": "가축 사육 농가",
+    "amount": "비용 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000143": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "근교농업 육성 지원",
+    "target": "대전 거주 농업인, 1000㎡ 이상 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000144": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "노인장기요양 의료급여 부담금 지원",
+    "target": "장기요양 등급 인정자 중 기초·의료급여 수급권자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000145": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "공동이용 농기계 구입비 지원",
+    "target": "작목반, 지역농협 등 농기계 공동이용조직",
+    "amount": "구입비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000146": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 브랜드 육성 사료비 지원",
+    "target": "토바우 가입 한우 사육 농가",
+    "amount": "사료비 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000149": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "중증장애인 생계·의료 수급자 추가 지원",
+    "target": "생계·의료 수급자 중 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000150": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 55세 이상 노인 무료급식 지원",
+    "target": "기초생활수급자, 차상위계층 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000151": {
+    "category": "복지",
+    "tags": [
+      "기타"
+    ],
+    "support_type": "현물",
+    "summary": "국가보훈대상자 위문 지원",
+    "target": "대전 거주 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000152": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 초과 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000155": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 추가 지원",
+    "target": "6세~65세 미만 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000156": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "장학금",
+    "summary": "전국대회 3위 이내 입상 학생 장학금 지원",
+    "target": "전국대회 이상 3위 이내 입상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000157": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만 65세 이상 의료급여 수급권자 건강진단비 지원",
+    "target": "만 65세 이상 의료급여 수급권자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-630000000652": {
+    "category": "일자리",
+    "tags": [
+      "구직중",
+      "청년"
+    ],
+    "support_type": "현물",
+    "summary": "구직청년 면접용 정장 무료 대여",
+    "target": "대전 거주 18~39세 미취업 청년",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000657": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전세사기피해주택 안전관리(소방점검) 지원",
+    "target": "전세사기피해주택",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000658": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "보험",
+    "summary": "시민 대상 재난·사고 피해 보상 보험",
+    "target": "대전시 지역 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000660": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "할인",
+    "summary": "다자녀가정 수도 요금 감면",
+    "target": "대전 거주 막내 18세 이하 다자녀가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000663": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "카드",
+    "summary": "다자녀가정 꿈나무사랑카드 발급",
+    "target": "대전 거주 자녀 2명 이상, 막내 18세 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000666": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 누구나 참여 가능한 청년카페",
+    "target": "15세~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000669": {
+    "category": "복지",
+    "tags": [
+      "노인",
+      "장애인",
+      "다자녀"
+    ],
+    "support_type": "카드",
+    "summary": "교통복지카드 발급",
+    "target": "65세 이상 노인, 장애인, 다자녀 부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000670": {
+    "category": "일자리",
+    "tags": [
+      "학생",
+      "청년"
+    ],
+    "support_type": "체험",
+    "summary": "대학생 직무체험 제공",
+    "target": "만 39세 이하 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000673": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 무료 법률서비스 지원",
+    "target": "연 매출 3억 이하 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000675": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "지원금",
+    "summary": "지역 내 영화·드라마 촬영 제작 지원",
+    "target": "지역 내 촬영 완료 제작사",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000676": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "가명정보 데이터 활용 기업 지원",
+    "target": "대전 소재 중소, 벤처, 1인창조 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000677": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "사회적 관계망 형성 프로그램 참여 안내",
+    "target": "대전 거주 25~39세 미혼남녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000678": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "중소기업 구매조건 생산지원자금 지원",
+    "target": "중소기업",
+    "amount": "최대 5억원",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000681": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "주거",
+    "summary": "청년근로자 기숙사(대전청년하우스) 입주 안내",
+    "target": "대전 소재 사업장 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000684": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "첨단소재·반도체산업 기술지원",
+    "target": "대전 지역 첨단소재·반도체 중소벤처기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000685": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "에너지융합산업 경쟁력강화 지원",
+    "target": "대전 소재 에너지 산업 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
