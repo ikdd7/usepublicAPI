@@ -132966,5 +132966,438 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-321000000142": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 사망 시 위로금 30만원 지급",
+    "target": "서초구 거주 국가보훈대상자",
+    "amount": "30만원",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000176": {
+    "category": "금융",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "서비스",
+    "summary": "인천 거주 무주택자 전세보증금반환보증 보증료 지원",
+    "target": "인천 거주 무주택자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000817": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도내 패션 디자이너, 가구 스타트업 창작공간 및 교육 지원",
+    "target": "도내 패션 디자이너, 가구 스타트업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000818": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 소재 중소 가구 제조기업 스마트제조공정 시스템 구축 지원",
+    "target": "경기도 소재 중소 가구 제조기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000819": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 내 섬유 기업 기술개발 지원",
+    "target": "경기도 내 섬유 기업 및 연구기관",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000821": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 가구 중소기업 인증사업 시험수수료 지원",
+    "target": "경기도 가구 관련 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000822": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도내 패션·가구 유통 밀집지역 상인회 마케팅 지원",
+    "target": "도내 패션·가구 유통 밀집지역 상인회",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000824": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도내 전통시장 상인회 마케팅 사업 지원",
+    "target": "도내 전통시장 및 상점가 소속 상인회",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000825": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 상인동아리 운영 지원",
+    "target": "도내 전통시장 및 상점가 소속 상인회",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000826": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전통시장 화재안전요원 배치 지원",
+    "target": "전통시장 및 상점가 사업주체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000827": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도내 중소 섬유패션기업 해외 마케팅 지원",
+    "target": "도내 중소 섬유패션기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000828": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "섬유·패션 기업 현장 기술 컨설팅 지원",
+    "target": "해당 소재지 섬유 및 패션 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000833": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도내 스타기업, 글로벌강소기업 육성 지원",
+    "target": "도내 스타기업, 글로벌강소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000834": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "유망 중소기업 선정 및 역량강화 지원",
+    "target": "스타트업, 최초인증, 재인증 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000835": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "소부장 기업 육성 지원",
+    "target": "3년 이상 도내 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000836": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도내 중소기업 품질경영활동 지원",
+    "target": "도내 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000837": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 중소기업 제품 디자인 개발 지원",
+    "target": "경기도 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000838": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도내 뿌리기업 경쟁력 강화 지원",
+    "target": "경기도내 뿌리기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000840": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도내 중소기업 매출채권보험료 50% 지원",
+    "target": "도내 소재 중소기업",
+    "amount": "최대 2백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000841": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도내 중소기업 비즈니스 융합성장 지원",
+    "target": "도내 중소기업",
+    "amount": "최대 60백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000843": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "중소 제조기업 대상 디지털 전환 컨설팅 지원",
+    "target": "도내 중소 제조기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000844": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "중소기업 개발·생산·판로 맞춤형 지원",
+    "target": "연매출 120억 이하 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "도민안전보험으로 사고·재난·범죄 피해 보상",
+    "target": "충북 거주 도민, 등록외국인",
+    "amount": "보험금 지급",
+    "show": true,
+    "special": true
+  },
+  "g24-643000000106": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "우울증환자 월 2만원 한도 치료관리비 지원",
+    "target": "우울증환자",
+    "amount": "월 2만원",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000108": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경·동물복지 인증 농가 비용 지원",
+    "target": "축산농가",
+    "amount": "인증 비용",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가에 가축생균제 공급 지원",
+    "target": "축산농가",
+    "amount": "가축생균제",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000114": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인거주시설 퇴소자 자립정착금 지원",
+    "target": "기초/차상위계층 퇴소 장애인",
+    "amount": "자립정착금",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000115": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지급",
+    "target": "국가보훈처 등록 참전유공자",
+    "amount": "명예수당",
+    "show": true,
+    "special": true
+  },
+  "g24-643000000116": {
+    "category": "금융",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "학자금대출 이자액 지원",
+    "target": "소득 8분위 이하 재학생·졸업생",
+    "amount": "대출 이자액",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000119": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "독립유공자 위문품 구입 지원",
+    "target": "국가보훈처 등록 독립유공자",
+    "amount": "위문품",
+    "show": true,
+    "special": true
+  },
+  "g24-643000000120": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "치매환자 주간보호·방문요양 등 지원",
+    "target": "중위소득 140% 이하 치매환자",
+    "amount": "돌봄재활",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000125": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농기계 종합보험 가입 비용 80% 지원",
+    "target": "농기계 보유 농업인·법인",
+    "amount": "보험료의 80%",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000127": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "저탄소 고품질 쌀 생산 위한 자재 지원",
+    "target": "도내 거주 쌀 전업농",
+    "amount": "유기농업자재 등",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000130": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 재배 농가 경영안정자금 ha당 9만원 지원",
+    "target": "도내 벼 재배 농업인",
+    "amount": "ha당 9만원",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000131": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "사회복지시설 입소자 명절 위문물품 지원",
+    "target": "사회복지생활시설 입소자",
+    "amount": "위문물품",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000132": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인거주시설 청소년 문화체험비 등 지원",
+    "target": "거주시설 입소 청소년",
+    "amount": "도서·교재비, 문화체험비",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000133": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자살위험자 응급개입 치료비 지원",
+    "target": "자살위험자",
+    "amount": "입원·외래·이송비",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000135": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "논농사 경작 농가 영농자재 지원",
+    "target": "0.1ha 이상 논농사 경작 농가",
+    "amount": "영농자재",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000138": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 자녀 성적우수 장학금 지원",
+    "target": "수급자, 차상위, 한부모 자녀",
+    "amount": "1인당 60만원",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000141": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "시각장애인 가정 가스자동화 차단기 지원",
+    "target": "기초/차상위계층 시각장애인 세대",
+    "amount": "가스자동화 차단기",
+    "show": true,
+    "special": false
   }
 }
