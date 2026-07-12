@@ -132737,5 +132737,234 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-644000000190": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "쌀 생산 농업인 영농비 절감 지원",
+    "target": "도내 쌀 생산 농업인, 영농법인, 생산자단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000192": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "어선어업 정책보험료 지원",
+    "target": "충남 선적 연근해어선, 충남 주소 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000197": {
+    "category": "교육",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 자녀 대학입학금 지원",
+    "target": "기준 중위소득 65% 이하 한부모가족 자녀 대학 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000200": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "조사료 생산 기반 조성 및 장비 지원",
+    "target": "조사료 생산 농가, 농업법인, 경영체, 생산자 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000201": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "청정우유 생산 및 축산농가 헬퍼 지원",
+    "target": "소 사육농가, 한우·젖소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000202": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "정부미지원 어린이집 차액보육료 지원",
+    "target": "정부미지원 어린이집 이용 만 3~5세 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000205": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "심뇌혈관질환 합병증 검진 지원",
+    "target": "고혈압, 당뇨, 고지혈증 질환자 중 보건소 등록관리자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000206": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "한우 광역브랜드 육성 지원",
+    "target": "한우 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000207": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자(유족) 의료비 지원",
+    "target": "독립유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-644000000211": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "논 타작물 기반조성 및 농기계 지원",
+    "target": "도내 논 타작물 재배 농업인, 농업법인, 생산자 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000213": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "사슴, 염소 육성 지원",
+    "target": "사슴, 염소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000214": {
+    "category": "일자리",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취업취약계층 지역공동체 일자리 제공",
+    "target": "기준 중위소득 70% 이하, 재산 4억 이하 취업취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000219": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "재가 치매환자 관리용품 지원",
+    "target": "치매안심센터 등록 재가 치매환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000220": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 독거노인 식사 지원",
+    "target": "저소득층 독거노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000224": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "가금 사육농가 시설 및 자재 지원",
+    "target": "가금 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000227": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "친환경 농업자재 및 인증비 지원",
+    "target": "친환경농산물 인증 농업인, 법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000228": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의로운 도민(가족) 위로금 지원",
+    "target": "의로운 행위로 사망, 부상, 피해 입은 도민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-644000000229": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "소상공인 사회보험료 지원",
+    "target": "근로자 10인 미만 고용 도내 소상공인 사업주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000231": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "한센병 재가환자 진료 교통비, 중식비 지원",
+    "target": "한센병 재가환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000235": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양돈농가 모돈 갱신 비용 지원",
+    "target": "돼지 사육농가 (모돈 350두 이하 우선)",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
