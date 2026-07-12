@@ -131589,5 +131589,240 @@
     "amount": "컨설팅 비용 지원",
     "show": true,
     "special": false
+  },
+  "g24-642000000696": {
+    "category": "일자리",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취업취약계층 공공일자리 제공",
+    "target": "도내 취업취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000699": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "소 농가 면역증강제 및 예방백신 지원",
+    "target": "도내 소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000702": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "1922년 이전 출생자 장수수당 지급",
+    "target": "1922년 이전 출생 도내 주민등록자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000705": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산농가 가축진료 지원",
+    "target": "도내 가축사육업 허가·등록된 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000708": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "해난어업인 유가족 생활안정비 지급",
+    "target": "해난어업인 유가족",
+    "amount": "500천원",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000711": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 월 6만원 참전명예수당 지급",
+    "target": "도내 6.25 및 월남전 참전유공자",
+    "amount": "월 6만원",
+    "show": true,
+    "special": true
+  },
+  "g24-642000000713": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "분만취약지역 산전관리 및 검사 제공",
+    "target": "분만취약지역 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000716": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "만65세 이상 고령농업인 농작업비 지원",
+    "target": "만65세 이상 고령농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000717": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 하이패스 감면단말기 구입비 지원",
+    "target": "등록장애인",
+    "amount": "전액",
+    "show": true,
+    "special": true
+  },
+  "g24-642000000718": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양봉농가 꿀벌 면역증강제 지원",
+    "target": "도내 양봉농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000722": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "기준중위소득별 지역사회서비스 지원",
+    "target": "기준 중위소득별 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000724": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "소상공인 경영안정자금 이차보전 지원",
+    "target": "도내 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000725": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업경영체 유기질비료 구입비 지원",
+    "target": "농업경영체",
+    "amount": "일부",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000729": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "등록장애인 건강검진, 무료급식, 보장구 지원",
+    "target": "등록장애인 중 수급자 및 차상위",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-642000000730": {
+    "category": "복지",
+    "tags": [
+      "자영업·창업",
+      "1인가구"
+    ],
+    "support_type": "현금",
+    "summary": "1인 자영업자 사회보험료 지원",
+    "target": "고용원 없는 1인 자영업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000735": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "소기업·소상공인 노란우산공제 신규가입 장려금",
+    "target": "도내 소기업·소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000736": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 보훈명예수당 지원",
+    "target": "도내 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-643000000101": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 농장출입구 자동소독기 지원",
+    "target": "축산농가",
+    "amount": "1식",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000103": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "범죄피해자 생계비, 심리상담, 의료비 지원",
+    "target": "범죄피해자 및 가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000104": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "위기가정 아동보호 지원",
+    "target": "18세 미만 저소득층 가정 아동",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
