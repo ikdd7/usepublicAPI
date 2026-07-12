@@ -127475,5 +127475,241 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-569000000401": {
+    "category": "건강",
+    "tags": [
+      "신혼",
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "신혼부부·초기임신부 건강검진 지원",
+    "target": "세종시 거주 임신 준비 신혼부부, 임신 12주 이내 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000111": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 스포츠 영재 장학금 지원",
+    "target": "초중고 저소득층 선수",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000114": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "독립유공자 후손 생활지원수당 지급",
+    "target": "독립유공자 자녀 중 기초수급자, 중위소득 70% 이하, 기초연금수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-611000000115": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "65세 이상·취약계층 방문 건강관리 서비스",
+    "target": "65세 이상 어르신, 건강 취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000116": {
+    "category": "교육",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족 자녀 교통비·교육비 지원",
+    "target": "기준 중위소득 60% 이하 한부모가족 중·고등학생",
+    "amount": "교통비 분기 86,400원, 교육비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000121": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영구임대주택 공동관리비 지원",
+    "target": "서울시 소재 영구임대주택 단지",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000123": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "난임부부 한의약 난임치료 지원",
+    "target": "법적 혼인 상태 난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000124": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "서울시 거주 출산 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000131": {
+    "category": "주거",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 장애인가구 주거편의 지원",
+    "target": "기초수급자·차상위계층 중증장애인 가구, 중위소득 50~65% 이하 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000136": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "생존 애국지사 본인 생활지원수당 지급",
+    "target": "생존 애국지사 본인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-611000000137": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초수급자 가구 부가급여 지원",
+    "target": "기초생계·의료급여 수급자 가구",
+    "amount": "명절위문비, 교통비, 월동대책비",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000139": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "저소득·비혼모 산모 본인부담금 환급",
+    "target": "서울시 출산 산모 중 저소득층 및 비혼모",
+    "amount": "본인부담금의 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000143": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "강제동원 피해여성 근로자 생활보조비 지원",
+    "target": "서울 거주 대일항쟁기 강제동원 피해여성",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-611000000144": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "청년 취업날개 서비스 대여 지원",
+    "target": "서울 거주 청년 (고교졸업예정자~39세)",
+    "amount": "연 10회 대여 가능",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000145": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 어르신 급식 지원",
+    "target": "만 60세 이상 결식우려 기초수급자·저소득 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000150": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 결식 아동 급식 지원",
+    "target": "저소득층 결식우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000153": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인가정 홈헬퍼 지원",
+    "target": "서울 거주 등록장애인, 임신·출산 예정 또는 만 9세 미만 자녀 양육 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000154": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "일본군 위안부 피해자 생활보조금 지원",
+    "target": "서울 거주 일본군 '위안부' 피해자 등록자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-611000000155": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "결혼이주여성 건강관리 지원",
+    "target": "임신출산한 결혼이주여성, 배우자, 시부모 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000000161": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "국가유공자·유족 생활보조수당 지원",
+    "target": "국가유공자 본인·유족 중 기초수급자·차상위계층",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
