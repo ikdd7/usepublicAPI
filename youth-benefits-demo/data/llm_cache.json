@@ -131824,5 +131824,918 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-628000000135": {
+    "category": "복지",
+    "tags": [
+      "노인"
+    ],
+    "support_type": "현물",
+    "summary": "독거노인에게 안심폰 및 통신료 지원",
+    "target": "노인맞춤돌봄서비스 내 거동불편 독거노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000140": {
+    "category": "건강",
+    "tags": [
+      "임신·출산",
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 및 영유아 가정 방문 건강관리 지원",
+    "target": "임산부 및 만 2세 미만 영유아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000141": {
+    "category": "복지",
+    "tags": [
+      "노인",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "취약계층에 가스안전장치 보급 지원",
+    "target": "인천 거주 65세 이상 독거노인, 치매환자, 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000142": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의사자 유족 및 의상자 수당 지원",
+    "target": "인천 거주 의사자 유족 및 의상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000146": {
+    "category": "금융",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "대출",
+    "summary": "대학생 학자금대출 이자 지원",
+    "target": "인천 거주 대학 재·휴학생 및 미취업 졸업생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000148": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애인 주간활동서비스 추가시간 지원",
+    "target": "18세 이상 성인 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000149": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "중증장애인 이동기기·자세유지기구 보급",
+    "target": "인천시 신체변형 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000150": {
+    "category": "복지",
+    "tags": [
+      "노인",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "취약가구에 찾아가는 세탁서비스 제공",
+    "target": "기초생활수급 노인, 심한 장애인, 한부모가족 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000153": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 및 참전유공자 배우자 수당 지원",
+    "target": "인천 거주 65세 이상 국가보훈대상자, 참전유공자 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000154": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "최중증장애인 24시간 활동지원 서비스 제공",
+    "target": "와상 최중증장애인, 독거·취약가구",
+    "amount": "월 465시간",
+    "show": true,
+    "special": true
+  },
+  "g24-628000000156": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "반려견 광견병 예방접종비 50% 지원",
+    "target": "인천 거주 반려견 소유자",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000161": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 가족돌봄 휴식지원 여행비용 지원",
+    "target": "인천시 등록장애인 및 가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000162": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 자녀교육비 지원",
+    "target": "기준 중위소득 65% 이하 한부모·조손가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000164": {
+    "category": "복지",
+    "tags": [
+      "노인",
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "재활용품 수집 노인·장애인 안전장비 지원",
+    "target": "재활용품 수집 노인 및 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000169": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 경영환경 개선 지원",
+    "target": "인천광역시 소재 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000177": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영종·용유·북도면 주민 대교 통행료 지원",
+    "target": "영종·용유·북도면 거주 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000739": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "2016년 출생아동 아이 꿈 수당 지급",
+    "target": "2016년 출생아동, 인천 거주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000741": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동지원 추가시간 지원",
+    "target": "6세 이상 65세 미만 등록장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000755": {
+    "category": "일자리",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 대상 취업 지원 프로그램 운영",
+    "target": "재학생, 졸업생, 고졸청년, 지역청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-628000000761": {
+    "category": "건강",
+    "tags": [
+      "농업"
+    ],
+    "support_type": "서비스",
+    "summary": "여성농업인 특수건강검진 지원",
+    "target": "인천 거주 51~80세 여성농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000174": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "기초생활수급자 장기요양 시설급여 지원",
+    "target": "기초생활수급자 및 기타의료급여자 중 장기요양 등급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-641000000175": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 거주 난임 부부 한방난임사업 지원",
+    "target": "경기도 거주 난임 진단서 제출 부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000177": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의사상자 특별위로금 및 수당 지급",
+    "target": "보건복지부 인정 의사상자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-641000000182": {
+    "category": "환경·생활",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 가축전염병 차단방역시설 설치 지원",
+    "target": "축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000189": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 취약계층 생활안심케어(깔끄미사업) 지원",
+    "target": "기준중위소득 100% 이하 독거노인 및 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000193": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "바우처",
+    "summary": "경기도 청년 면접수당 5만원 지원",
+    "target": "경기도 거주 만18세~39세 이하 청년",
+    "amount": "최대 15만원",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000663": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만65세 이상 노인 월동난방비 등 지원",
+    "target": "기초생활수급자, 중위소득 40% 이하 만65세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000664": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "대학(원) 학자금 대출이자 지원",
+    "target": "경기도 1년 이상 거주, 소득8분위 이하 다자녀가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000668": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "경기청년 해외연수 프로그램 운영비 지원",
+    "target": "경기도 거주 19~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000669": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 일자리 매칭 및 일경험 지원",
+    "target": "경기도 거주 19~39세 청년 및 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000671": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "분만취약지 임산부 교통비 지원",
+    "target": "경기도 분만취약지 6개월 이상 거주 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000672": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "금융취약계층 채무조정 및 재무상담 지원",
+    "target": "경기도 내 금융취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000679": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "AI 노인말벗서비스 제공",
+    "target": "경기도 65세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000692": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 취약계층 청소년 해외연수 지원",
+    "target": "경기도 거주 중3~고2 저소득 취약계층 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000693": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 친환경농산물 공급 지원",
+    "target": "2025년 이후 출산 산모 또는 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000700": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "소상공인 경영역량 강화 교육 지원",
+    "target": "경기도 내 소상공인 및 예비창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000709": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "일자리 우수기업 인증 및 고용환경개선 지원",
+    "target": "경기도 3년 이상 소재 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000737": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "경기청년 기회사다리 금융지원",
+    "target": "경기도 1년 이상 거주 25~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000815": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "섬유·가구기업 전시회 참가비 지원",
+    "target": "경기도 내 중소 섬유 및 가구기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000816": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가구기업 제품개발 및 마케팅 지원",
+    "target": "경기도 소재 가구 제조기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000845": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중소기업 밀집지역 기반시설 개선 지원",
+    "target": "중소기업 밀집지역, 매출액 200억 이하 중소제조기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000846": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전통시장 시설현대화 지원사업",
+    "target": "전통시장, 상점가, 골목형상점가, 상권활성화 구역",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000847": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전통시장 안전시설 지원 사업",
+    "target": "전통시장, 상점가, 골목형상점가, 상권활성화 구역",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000848": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 비영리 경제단체 우수프로그램 지원",
+    "target": "경기도 소재 비영리 경제단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000851": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "소공인 집적지구 공동장비 활용 활성화 지원",
+    "target": "경기도 내 집적지구 소공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000853": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "골목상권 공동체 활성화 지원",
+    "target": "경기도내 소상공인 30명 이상 골목상권 공동체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000858": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도민 35~39세 청년 K-패스 연령 확대",
+    "target": "경기도민 35~39세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000859": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "아동안전지킴이 활동비 지원",
+    "target": "은퇴 전문인력, 아동안전 보호활동 희망 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000663": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "농업인 상토 등 영농자재 지원",
+    "target": "농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000664": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "주택 소유자 신재생에너지설비 설치비 지원",
+    "target": "기존 또는 신축 주택 소유자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000665": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "전업농가 구제역 백신 접종 시술비 지원",
+    "target": "50두 이상 소 사육 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000671": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "도내 어업인 어업용 면세유 일부 지원",
+    "target": "도내 어업인",
+    "amount": "2,585천원 ~ 13,335천원",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000672": {
+    "category": "환경·생활",
+    "tags": [
+      "운수종사자"
+    ],
+    "support_type": "현금",
+    "summary": "택시 운송사업자 카드수수료 지원",
+    "target": "도내 택시 운송사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000674": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "닭 사육농가 가금질병 예방 백신 지원",
+    "target": "도내 닭 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000680": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산농가 가축재해보험 가입비 지원",
+    "target": "축산농업인, 축산법인",
+    "amount": "최대 6,000천원",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000683": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "북한이탈주민 학업 및 자격증 취득비 지원",
+    "target": "도내 거주 북한이탈주민 본인 및 자녀",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-642000000684": {
+    "category": "복지",
+    "tags": [
+      "임신·출산",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 이하 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000688": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동지원 시간 추가 지원",
+    "target": "장애인활동지원 대상자 중 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-642000000691": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기준중위소득 85% 이하 위기가구 긴급복지지원",
+    "target": "기준중위소득 85% 이하 위기가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000695": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "연근해 어선 소유자 재해보상 보험료 지원",
+    "target": "연근해 어선 소유자",
+    "amount": "50% ~ 20%",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000146": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "폐업 소상공인 취업 지원",
+    "target": "69세 이하 폐업 예정 또는 기 폐업 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000151": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아토피·천식 안심학교 및 도민 알레르기질환자 지원",
+    "target": "아토피·천식 안심학교 및 도민 중 알레르기질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000152": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경농산물 인증 농가 인증비용 지원",
+    "target": "친환경농산물 인증 농업인 및 법인",
+    "amount": "실비",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000155": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "영농기계화 장비 구입비 지원",
+    "target": "도내 거주 농업인, 농업법인",
+    "amount": "실구입가의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000735": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "재가 암환자 영양제 등 물품 지원",
+    "target": "충청북도 거주 재가암환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-643000000737": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모신생아 건강관리 지원",
+    "target": "충청북도 거주 모든 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000747": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 친환경농산물 공급 지원",
+    "target": "2025년 1월 1일 이후 출산 산모 또는 임신부",
+    "amount": "연 240만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000748": {
+    "category": "일자리",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농업 인력 부족 농가 도시농부 인력 지원",
+    "target": "충청북도 거주 농업인, 농업법인, 농산물 생산자 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000749": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "소 사육농가 럼피스킨 예방접종 시술비 지원",
+    "target": "소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000753": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "다자녀 행복카드 발급 지원",
+    "target": "두자녀 이상 양육, 막내 만 18세 이하 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000754": {
+    "category": "복지",
+    "tags": [
+      "아동"
+    ],
+    "support_type": "현금",
+    "summary": "아동복지시설 아동 문화활동비 지원",
+    "target": "양육시설 및 공동생활가정 입소 초중고등학생",
+    "amount": "월 3~8만원",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000755": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "자립준비청년 주거 및 자립체험 지원",
+    "target": "아동양육시설 등 보호아동 및 자립준비청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000756": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "인구감소지역 거주 임신부 태교 패키지 지원",
+    "target": "인구감소지역 거주 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000764": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "모바일 임신증명서 발급 지원",
+    "target": "충청북도 거주 임신부 또는 2026년 분만 예정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000179": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "노인 신규 채용 중소기업 고용장려금 지원",
+    "target": "만 60세 이상 노인 신규 채용 중소기업",
+    "amount": "최저임금의 30%",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000180": {
+    "category": "환경·생활",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산농가 분뇨처리 및 악취저감시설 지원",
+    "target": "축산농가 및 축산관련 시설",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000182": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "한우 핵군우 및 고품질 한우 농가 육성 지원",
+    "target": "한우 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000185": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 활동보조 등 추가 지원",
+    "target": "만 6세 이상 중증장애인",
+    "amount": "월 10~210시간",
+    "show": true,
+    "special": true
+  },
+  "g24-644000000188": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성인병질환 및 전립선암 검진 지원",
+    "target": "만 40세 이상, 50세 이상 남성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000189": {
+    "category": "건강",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "잠수어업인 잠함병 진료비 지원",
+    "target": "충청남도 거주 잠수어업인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
