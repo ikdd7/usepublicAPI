@@ -135029,5 +135029,922 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-646000000173": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 이용 시간 확대 지원",
+    "target": "6~65세 미만 장애인활동지원급여 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000174": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "5.18민주유공자 가사도우미 및 이동지원",
+    "target": "5.18유공자 및 유가족 중 거동 불편자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000175": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "가정위탁 종결아동 자립정착금 1천만원 지급",
+    "target": "가정위탁 종결 아동",
+    "amount": "1천만원",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000176": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 자동목걸림장치 구입·설치비 지원",
+    "target": "150마리 미만 한우·젖소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000180": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "섬 지역 생필품 물류비 및 운영경비 지원",
+    "target": "섬 지역 생필품 물류센터 지정 하나로마트",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000182": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "북한이탈주민 김장김치, 반찬, 선물 나눔 지원",
+    "target": "전남광주통합특별시 거주 북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000183": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "방학 중 결식우려 아동 급식 지원",
+    "target": "결식우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000184": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "40세 이상 도민 간염 검사 비용 지원",
+    "target": "40세 이상 도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000187": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "탈북 청소년 학원비 지원",
+    "target": "전남광주통합특별시에 거주하는 북한이탈주민 청소년",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000195": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양봉 사육 기자재 구입비 지원",
+    "target": "전남광주통합특별시 내 양봉등록 농가·법인",
+    "amount": "최대 1천만원",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000198": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "5.18민주유공자 사망 시 장제비 1백만원 지급",
+    "target": "5.18민주유공자 유가족",
+    "amount": "1백만원",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000203": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농기계 종합보험 가입 보험료 일부 지원",
+    "target": "농기계 종합보험 가입 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000211": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "원폭피해자 1세대 월 5만원 생활지원수당 지급",
+    "target": "도내 원폭피해자 1세대",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000218": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 유족 보훈명예수당 지원",
+    "target": "전남광주통합특별시에 주소 둔 독립유공자 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-646000000219": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농어귀촌인 우수 창업 활성화 지원",
+    "target": "만 65세 이하 귀농어·귀촌인 세대주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000222": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "정원 관심 도민 대상 정원관리사 양성교육",
+    "target": "정원에 관심있는 도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000223": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "다자녀",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "완도자연휴양림 숙박시설 이용료 감면",
+    "target": "장애인, 다자녀, 국가보훈대상자, 기초수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000233": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "원예농산물 재배농가 살균수 공급장치 지원",
+    "target": "노지·시설 원예농산물 재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000236": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산 농가 폭염 피해 예방시설 지원",
+    "target": "축산업 허가·등록된 축산 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000102": {
+    "category": "금융",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "대학생 학자금 대출 이자 지원",
+    "target": "경상북도 거주 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001013": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "축산업 허가 농가 시설 환경개선 지원",
+    "target": "축산업 허가된 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001014": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "도내 곤충사육농가 사육시설 지원",
+    "target": "도내 곤충사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001016": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "도내 한육우, 젖소, 돼지, 닭 사육농가 사료첨가제 지원",
+    "target": "도내 한육우, 젖소, 돼지, 닭 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001017": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "낙농 관련 단체 및 조합 인건비 지원",
+    "target": "낙농 관련 단체 및 조합",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001018": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "우수 축산물 인증비 및 운송비 지원",
+    "target": "유기·무항생제·동물복지 인증 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001020": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 신입생 입학준비금 지원",
+    "target": "생계·의료·주거·교육급여 수급자 가구 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001021": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "GAP 인증 신규·갱신·연장 수수료 지원",
+    "target": "GAP 인증 취득·유지 농가 및 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001022": {
+    "category": "금융",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "경상남도 대학생 학자금 대출 이자 지원",
+    "target": "도내 거주 대학생 및 졸업생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001024": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "연근해어선 어선원 재해보상 보험료 지원",
+    "target": "경남 선적 연근해어선 가입자",
+    "amount": "10~60%",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001030": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경농산물 전략품목 생산장려금 지급",
+    "target": "경남도 전략품목 친환경농업 실천 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001031": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고령운전자 운전면허 자진반납 지원",
+    "target": "65세 이상 운전면허증 자진반납자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001032": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "꿀벌농가 전염병 예방약품 지원",
+    "target": "꿀벌 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001033": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업경영체 등록 농업인 농기계 구입비 지원",
+    "target": "농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001036": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 자녀 안경 구입비 지원",
+    "target": "경남도 거주 저소득층 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001038": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "중규모 축산농가 소독약품 구입비 지원",
+    "target": "중규모 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001043": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "밀 판매처 확보 농가 우리밀 육성 지원",
+    "target": "밀 판매처 확보 농업경영체 등록 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001045": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우지예 참여 고급육 출하 농가 장려금 지원",
+    "target": "한우지예 참여 고급육 출하 농가",
+    "amount": "최대 300천원",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001046": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "전몰군경 유족 보훈예우수당 지급",
+    "target": "전몰군경 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001048": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "도내 소 사육농가 송아지 생산성 향상 지원",
+    "target": "도내 소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001049": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "어르신 및 장애인 치과진료비 지원",
+    "target": "60세 이상 의료급여수급자, 건강보험 하위 50%, 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000274": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 건강관리 서비스 제공",
+    "target": "제주도내 주민등록 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000278": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "감자 종서 구입비 일부 지원",
+    "target": "농업경영체 등록 농업인",
+    "amount": "구입비의 60%",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000282": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보훈예우수당 지급",
+    "target": "독립유공자, 전몰군경 유족 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-650000000284": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "여성장애인 가사도우미 지원",
+    "target": "관내 여성장애인(저소득층 우선)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000286": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 산업 육성 시설 장비 지원",
+    "target": "한(흑)우 농가, 법인",
+    "amount": "지방비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000287": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 건강보험료 지원",
+    "target": "저소득 노인, 장애인 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000290": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의사상자 본인 및 유족 지원",
+    "target": "의사상자 본인 또는 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-650000000291": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 안전재해보험 가입비 지원",
+    "target": "제주 거주 만15~87세 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000292": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 추가지원",
+    "target": "장애인활동지원서비스 이용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000293": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "해녀 장비 및 육성 지원",
+    "target": "제주시 관내 해녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000294": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "65세 이상 의료급여 수급권자 건강진단 지원",
+    "target": "65세 이상 의료급여 수급권자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000295": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "보리생산 농가 수매가 보전 지원",
+    "target": "보리 생산 및 계약재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000298": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "임산물 생산 및 유통 지원",
+    "target": "서귀포시 임업인, 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000299": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "홀로사는 노인 지원센터 운영 지원",
+    "target": "만65세 이상 홀로사는 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000301": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고엽제후유증환자 도외병원 교통비 지원",
+    "target": "2025년 도외검진 고엽제환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-650000000309": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "서귀포시 지역주민 구강보건서비스 제공",
+    "target": "서귀포시 지역주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000311": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "조손가정 학습지원 등 지원",
+    "target": "제주 조손가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000312": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 고용촉진장려금 지원",
+    "target": "도내 장애인 고용 사업체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000313": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득노인 장기요양보험 부담금 지원",
+    "target": "의료급여수급권자 장기요양등급 판정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000315": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "깨끗한 축산농장 인센티브 지원",
+    "target": "깨끗한 축산농장 지정농가",
+    "amount": "보조 60%",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000318": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "감귤 유통시설장비 지원",
+    "target": "서귀포시 소재 선과장 등록 유통인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000324": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "노인 생활안전사고 예방 지원",
+    "target": "서귀포시 거주 65세 이상 등급 외 A, B 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-650000000325": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "아토피 환아 보습제 제공",
+    "target": "관내 거주 알레르기 질환 소아·청소년",
+    "amount": "1회/2개월",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000326": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "제주도 농민수당 지원",
+    "target": "제주 3년 이상 거주, 2년 이상 농업 종사자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000327": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전명예수당 및 배우자 수당 지급",
+    "target": "참전유공자 본인, 배우자, 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-650000000330": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "소상공인 사회보험료 지원",
+    "target": "제주 소재 10인 미만 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000331": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "감면",
+    "summary": "중수도·빗물이용시설 등 수도사용료 감면",
+    "target": "중수도·빗물이용시설 설치자, 사회복지시설 등",
+    "amount": "30%",
+    "show": true,
+    "special": false
+  },
+  "g24-650000000332": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "감면",
+    "summary": "초·중·고, 유치원 등 하수도사용료 감면",
+    "target": "초·중·고, 유치원, 사회복지시설 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001095": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "학자금 대출 신용회복 지원",
+    "target": "제주 거주 19~39세 신용유의자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001121": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "월 3만원 주택 임대료 지원",
+    "target": "무주택 저소득층",
+    "amount": "월 3만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001126": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 어르신 무료 스케일링 지원",
+    "target": "제주시 거주 만 65세 이상 어르신",
+    "amount": "연 1회",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001129": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산여성 한약 지원",
+    "target": "제주 거주 출산(예정) 여성, 다문화 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001130": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "출산·육아용품 대여 및 안전벨트 무상대여",
+    "target": "도내 거주 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001133": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "50세 이상 의료급여수급권자 대상포진 예방접종 지원",
+    "target": "제주 거주 50세 이상 의료급여수급권자",
+    "amount": "1회",
+    "show": true,
+    "special": true
+  },
+  "g24-650000001134": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "감면",
+    "summary": "6~18세 어린이·청소년 대중교통 요금 면제",
+    "target": "제주 거주 6~18세 어린이·청소년",
+    "amount": "요금 면제",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001136": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영유아 어린이집 입학준비금 지원",
+    "target": "생애 최초 어린이집 입학 영유아",
+    "amount": "연 7만 5천원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001143": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "감면",
+    "summary": "동백동산 에코촌 유스호스텔 사용료 50% 감면",
+    "target": "제주 주최 행사, 4·3 희생자·유족, 기초생활수급자",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-653000000006": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "양돈농가 ASF 방역관리 지원",
+    "target": "도내 축산업 허가·등록자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-653000000007": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "중가축 예방약 지원",
+    "target": "도내 축산업 허가·등록자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-653000000008": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "방학 중 결식우려 아동 급식 지원",
+    "target": "수급자, 차상위, 한부모가족 아동",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
