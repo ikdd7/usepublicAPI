@@ -134310,5 +134310,724 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-647000000103": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "광역 한우 브랜드 참여 농가에 활성화 및 장려금 지원",
+    "target": "도내 광역한우브랜드 참여 한우농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000104": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 활동지원 서비스 추가 지원",
+    "target": "6세 이상 만65세 미만 등록장애인",
+    "amount": "수급자별 20~90%",
+    "show": true,
+    "special": true
+  },
+  "g24-647000000106": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "어선보험료 일부 지원",
+    "target": "어선재해보상 보험 가입 어선",
+    "amount": "순수부담금 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000107": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "65세 이상 기초수급자 대상포진 예방접종 지원",
+    "target": "65세 이상 기초생활수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000108": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "세자녀 이상 가족 진료비 본인부담금 지원",
+    "target": "막내 13세 미만 세자녀 이상 가족",
+    "amount": "연간 5만원",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000109": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양계농가 기자재 지원",
+    "target": "도내 양계농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000110": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "양식수산물 재해보험료 일부 지원",
+    "target": "도내 양식어가",
+    "amount": "자부담금 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000111": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "재가 진폐환자 및 배우자 의료비 지원",
+    "target": "도내 거주 재가진폐환자 및 배우자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000114": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "돼지 액상정액 지원",
+    "target": "도내 양돈농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000116": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "조사료 생산 단지 조성 및 벼 재배 농가 사료작물 지원",
+    "target": "조사료전문단지 농업경영체, 벼재배농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000118": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "면역강화용 사료첨가제 지원",
+    "target": "축산업 등록제 가입 농가",
+    "amount": "3만원/포 (보조 50%)",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000119": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "가업승계 농업인 시설 개보수 및 첨단화 지원",
+    "target": "가업을 승계한 농업인",
+    "amount": "70%",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000120": {
+    "category": "일자리",
+    "tags": [
+      "구직중",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "만 18세 이상 구직자 대상 공공근로 지원",
+    "target": "만 18세 이상 실업자, 일용근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000124": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "노인"
+    ],
+    "support_type": "서비스",
+    "summary": "거동불편 저소득 독거노인 식사 배달 지원",
+    "target": "거동불편 저소득 독거어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000125": {
+    "category": "건강",
+    "tags": [
+      "노인",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "건강 취약계층 방문 건강관리 서비스 지원",
+    "target": "65세 이상 노인, 장애인, 만성질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000130": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인용 하이패스 감면 단말기 보급",
+    "target": "경북도 등록장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000132": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "대체과수 재배 농업인 시설 지원",
+    "target": "관내 대체과수 재배 농업인, 농업법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000135": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "자살 고위험군 및 시도자 치료비 지원",
+    "target": "자살 고위험군 또는 자살시도자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000136": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경 축산물 인증비 및 악취저감제 지원",
+    "target": "유기축산물/무항생제 인증 도내 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000137": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "한우 개량 관련 사업 지원",
+    "target": "도내 한우농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000138": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 아동에게 양육수당 및 교복비 등 지급",
+    "target": "가정위탁아동, 시설보호아동, 자립준비청년",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-647000000139": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농인에게 정착 지원금 지급",
+    "target": "농촌 외 지역 거주 1년 이상, 5년 이내 전입 귀농인",
+    "amount": "10백만원 범위 내",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000143": {
+    "category": "복지",
+    "tags": [
+      "1인가구",
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "독거노인에게 건강음료 제공 및 안부 확인",
+    "target": "노인맞춤돌봄서비스 대상자 중 독거노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-647000000146": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "거동 불가 장애인에게 차량용 보조기기 구입비 지원",
+    "target": "지체·뇌병변 장애의 정도가 심한 거동 불가 장애인",
+    "amount": "최대 10,000천원",
+    "show": true,
+    "special": true
+  },
+  "g24-647000000147": {
+    "category": "건강",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "잠수어업인 진료비 본인부담금 전액 지원",
+    "target": "도내 나잠어업인 및 잠수기어업인",
+    "amount": "본인부담금 전액",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000149": {
+    "category": "일자리",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층에게 직접 일자리 제공",
+    "target": "만 18세 이상, 저소득, 재산 4억원 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000152": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애인 자립생활 체험주택 운영 지원",
+    "target": "자립생활 의지 있는 재가 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000153": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "낙농가 대상 헬퍼 지원 및 사업 지원",
+    "target": "도내 낙농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000156": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모신생아 건강관리 서비스 본인부담금 지원",
+    "target": "경상북도 주소 둔 출산 가정",
+    "amount": "본인부담금",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000158": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "결혼이민자 농가 소득 증진 자금 지원",
+    "target": "도내 농어촌 거주, 결혼 2년 이상, 영농 종사자",
+    "amount": "10백만원 범위 내",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000159": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "아이돌봄 서비스 본인부담금 지원",
+    "target": "경상북도 주소 둔 양육공백 가정",
+    "amount": "본인부담금 차등 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000160": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "결식 우려 어르신 무료 급식 지원",
+    "target": "65세 이상 저소득 어르신, 60세 이상 결식 우려 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000162": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "식량 자급률 제고 위한 생산비 지원",
+    "target": "품목별 3ha 이상 재배 농가",
+    "amount": "생산비의 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000163": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 영업환경 개선 및 매출 증대 컨설팅 지원",
+    "target": "도내 창업 6개월 이상 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000167": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼 육묘장 신설·개보수 및 녹화장 설치 지원",
+    "target": "쌀 전업농, 농업법인, 쌀 생산자 단체",
+    "amount": "설치비의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000169": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "아픈 아이 병원 진료 동행 서비스 지원",
+    "target": "맞벌이·한부모·다자녀 가정의 4세~초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000172": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술 약제비 지원",
+    "target": "경상북도 거주 모든 난임부부",
+    "amount": "약제비",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000189": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어르신 대중교통 무료 승차 지원",
+    "target": "1955년 7월 1일 이전 출생자 (70세 이상)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-647000000193": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모신생아 건강관리 서비스 본인부담금 사전 신청 지원",
+    "target": "경상북도 주소 둔 출산 가정",
+    "amount": "본인부담금",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001011": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 한의 치료비 지원",
+    "target": "경남 도내 거주 난임부부",
+    "amount": "치료비",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001050": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "토종농산물 재배 농업인 직불금 지원",
+    "target": "토종농산물 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001052": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 재배 농가 자연재해 경감제 지원",
+    "target": "과수 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001054": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "사회취약계층 환경성질환 예방 지원",
+    "target": "사회취약계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001056": {
+    "category": "건강",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "잠수어업인 진료비 지원",
+    "target": "경남 거주 잠수어업인",
+    "amount": "월 4회까지 무상",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001059": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "중규모 소 사육농가 구제역 백신 접종 지원",
+    "target": "중규모 소 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001060": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "의료급여수급권자 암 검진 비급여 비용 지원",
+    "target": "의료급여수급권자 중 암 검진 대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001064": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "만 60세 이상 노인 안과 검진 및 수술비 지원",
+    "target": "만 60세 이상 의료급여수급권자 및 하위 50%",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001066": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "경남 어업인 재해공제 보험료 일부 지원",
+    "target": "경남 거주 만 15~90세 어업인",
+    "amount": "자부담의 24%",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001067": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의상자 및 의사자 유족 지원",
+    "target": "의상자 또는 의사자 본인 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001069": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "도내 축산농가 가축재해보험료 일부 지원",
+    "target": "도내 축산업 허가 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001073": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "경남 30톤 미만 어선 재해보상 보험료 지원",
+    "target": "경남 선적 30톤 미만 어선",
+    "amount": "10~35% 차등",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001074": {
+    "category": "일자리",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기준중위 60% 이하 재산 3억 이하 지역공동체일자리 지원",
+    "target": "기준중위 60% 이하, 재산 3억 이하",
+    "amount": "인건비, 4대보험료 등",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001075": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "과수 재배 농가 장기저장제 지원",
+    "target": "과수 재배 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001076": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "북한이탈주민 정착 및 지역 적응 지원",
+    "target": "경남 거주 북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001080": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "축산농가 감염성 폐기물 처리 지원",
+    "target": "축산업 등록 농장 및 랜더링 업체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001081": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "경남 10톤 미만 동력어선 유류비 지원",
+    "target": "경남 연안, 내수면 10톤 미만 동력어선",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001082": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "6세 미만 중증장애인 도우미 지원",
+    "target": "6세 미만 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001087": {
+    "category": "복지",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "경남 소상공인 고용·산재보험료 지원",
+    "target": "경남 소상공인",
+    "amount": "고용보험료 20%",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001093": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "축산농가 가축질병 예방약품 구입 지원",
+    "target": "축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001094": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 유족 보훈예우수당 지급",
+    "target": "독립유공자 유족 1인",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
