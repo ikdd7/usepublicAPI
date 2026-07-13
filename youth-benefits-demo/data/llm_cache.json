@@ -138250,5 +138250,229 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-B55101400003": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "스포츠 분야 창업 기업 투자 유치 역량 강화 지원",
+    "target": "스포츠산업 창업 7년 미만 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55120200002": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "대전보훈요양원 입소 이용 서비스 제공",
+    "target": "65세 이상 노인장기요양 등급 신청자",
+    "amount": "본인부담금 80% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-B55120200004": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "대구보훈병원 의료 서비스 제공",
+    "target": "국민 누구나",
+    "amount": "진료비 100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-B55120200006": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "대구보훈요양원 입소 이용 서비스 제공",
+    "target": "65세 이상 노인장기요양 등급 신청자",
+    "amount": "본인부담금 80% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-B55120200007": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "광주보훈병원 의료 서비스 제공",
+    "target": "국민 누구나",
+    "amount": "진료비 100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-B55120200008": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "광주보훈요양원 입소 이용 서비스 제공",
+    "target": "65세 이상 노인장기요양 등급 신청자",
+    "amount": "본인부담금 80% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-B55120200012": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "대전보훈병원 의료 서비스 제공",
+    "target": "국민 누구나",
+    "amount": "진료비 100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-B55120200017": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "부산보훈병원 의료 서비스 제공",
+    "target": "국민 누구나",
+    "amount": "진료비 100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-B55120200022": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "인천보훈병원 의료 서비스 제공",
+    "target": "국민 누구나",
+    "amount": "진료비 100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-B55206100004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어린이 교통안전체험관 무료 체험 제공",
+    "target": "5세 ~ 7세 어린이",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-B55252500001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지역 청소년 스포츠 인재 육성 지원",
+    "target": "고한/사북/남면 거주 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55252500006": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "사회복지종사자 등 객실나눔 및 힐링캠프 지원",
+    "target": "사회복지종사자, 소방관, 해경 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55470700001": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "광주형일자리 기업 발굴 육성 및 컨설팅 지원",
+    "target": "광주 소재 2년 이상 정상 가동 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00003000001": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "경기도 저소득 가구 주택 개조 지원",
+    "target": "경기도 중위소득 70% 이하 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00003200003": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "안전체험관 프로그램 체험 지원",
+    "target": "수급자, 국가유공자, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00004900001": {
+    "category": "기타",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "공영주차장 요금 감면 혜택 제공",
+    "target": "국가유공자, 경차, 저공해차, 장애인",
+    "amount": "최대 100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00004900003": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "공공체육시설 이용료 감액 지원",
+    "target": "수급자, 경로자, 국가유공자, 장애인 등",
+    "amount": "50% 감액",
+    "show": true,
+    "special": true
+  },
+  "g24-O00004900004": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "광주시 교통약자 이동지원센터 운영",
+    "target": "중증장애인, 65세 이상 고령자, 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00004900006": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "광주시민 공공 놀이·여가 시설 이용료 감액",
+    "target": "광주시민",
+    "amount": "50% 감액",
+    "show": true,
+    "special": false
+  },
+  "g24-O00012100001": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "긴급돌봄 서비스 제공",
+    "target": "긴급성, 돌봄 필요성 충족자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
