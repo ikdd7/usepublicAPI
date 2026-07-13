@@ -136671,5 +136671,443 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-648000001101": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "원폭 피해자 1세대 월 5만원 생활보조수당 지원",
+    "target": "도내 거주 원자폭탄 피해자 1세대",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001110": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현물",
+    "summary": "청년 면접 정장 무료 대여 지원",
+    "target": "경남 거주 18~39세 구직 청년",
+    "amount": "면접용 정장 무료 대여",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001112": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애학생 방학기간 돌봄 서비스 지원",
+    "target": "상시 돌봄이 필요한 장애아동",
+    "amount": "돌봄 서비스",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001113": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성인 모바일 헬스케어 서비스 제공",
+    "target": "만 19세 이상 건강위험요인 성인",
+    "amount": "모바일 헬스케어",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001114": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "할인",
+    "summary": "등록 장애인 및 가족 리조트 이용료 할인",
+    "target": "도내 등록 장애인 및 동반 가족",
+    "amount": "이용료 할인",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001117": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "청년농업인 영농정착 지원",
+    "target": "만 18~40세 미만 청년농업인",
+    "amount": "영농정착 지원금",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001118": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "청년후계농 농지 임대료 지원",
+    "target": "만 18~50세 미만 청년농업인",
+    "amount": "농지 임대료 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001119": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "귀농인 안정정착 지원",
+    "target": "65세 이하 귀농 5년 이내 농업인",
+    "amount": "안정정착 지원금",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001122": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "정보취약계층 정보통신보조기기 보급 지원",
+    "target": "경남 거주 등록 장애인, 국가유공자",
+    "amount": "정보통신보조기기 보급",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001131": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "경남도민 대중교통비 지원(경남패스)",
+    "target": "만 19세 이상 경남도민",
+    "amount": "이용금액의 일정비율 환급",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001132": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "중위소득 75~90% 위기가구 희망지원금 지원",
+    "target": "도내 중위소득 75~90% 위기가구",
+    "amount": "생계/의료/교육/연료비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001136": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "순직군경유족 보훈예우수당 월 5만원 지급",
+    "target": "순직군경유족",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001141": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현물",
+    "summary": "경력보유여성 면접 정장 대여 지원",
+    "target": "경남도내 여성 구직자",
+    "amount": "면접 정장 대여",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001142": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "아이돌봄서비스 본인부담금 추가 지원",
+    "target": "아이돌봄서비스 이용 가정",
+    "amount": "본인부담금 일부 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001144": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "유기동물 입양장려금 지원",
+    "target": "유기동물 입양자",
+    "amount": "입양장려금",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001145": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "입양동물 펫보험 가입 지원",
+    "target": "유기동물 입양자",
+    "amount": "펫보험 가입 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001148": {
+    "category": "복지",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "미혼모 산전산후 요양비 지원",
+    "target": "도내 거주 미혼모",
+    "amount": "요양비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001149": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "할인",
+    "summary": "2자녀 이상 가정 아이다누리카드 발급",
+    "target": "도내 2자녀 이상 가정",
+    "amount": "협력가맹점 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001156": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "자립준비청년 자립정착금 지원",
+    "target": "아동복지시설 퇴소, 가정위탁 보호종료아동",
+    "amount": "자립정착금",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001159": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도정소식지 「경남공감」 뉴스레터 제공",
+    "target": "뉴스레터 구독 희망자",
+    "amount": "뉴스레터 서비스",
+    "show": true,
+    "special": false
+  },
+  "g24-800000000014": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "건강장애학생 병원학교 지원",
+    "target": "만성질환으로 장기입원·통원치료가 필요한 학생",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-800000000015": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "건강장애학생 원격수업 지원",
+    "target": "만성질환으로 장기입원·통원치료가 필요한 학생",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-800000000017": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "중·고·특수·각종학교 신입생 교복비 지원",
+    "target": "교복 입는 학교 신입생 및 전·편입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-814000000001": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 학생 통신비 지원",
+    "target": "교육급여 수급자, 한부모가족보호대상자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-814000000002": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 학생 PC 지원",
+    "target": "의료, 생계급여 수급 초·중·고1 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-814000000003": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "고등학교 저소득층 학생 급식비 지원",
+    "target": "국민기초생활수급자 중 기숙사생, 자율학습 참여학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-814000000004": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 학생 수련활동비 지원",
+    "target": "국민기초생활수급자, 한부모가족보호대상자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-814000000010": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀학생 수련활동비 지원",
+    "target": "셋째 이후 자녀를 양육하는 가정의 셋째 이후 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-814000000012": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "초·중학생 학습, 문화, 심리정서 지원",
+    "target": "초, 중학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-814000000013": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀학생 급식비 지원",
+    "target": "셋째 이후 자율형 사립고 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-832000000001": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "특수교육대상학생 관련 서비스 지원",
+    "target": "특수학교 및 일반학교 배치 특수교육대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-832000000002": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "자해잔여흔 치료비 지원",
+    "target": "전북 초·중·고·특수학교 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-832000000004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화 학생 한국어교육 지원",
+    "target": "전북 유·초·중·고 취학 중인 다문화 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-832000000005": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "북한이탈학생 맞춤형 교육 지원",
+    "target": "전북 초·중·고 재학 중인 탈북학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-849000000001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "중고등 신입생 교복 지원",
+    "target": "전남도내 중·고등학교 신입생",
+    "amount": "1인당 344천원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-849000000002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "현장체험학습비·수학여행비 등 지원",
+    "target": "유치원, 초·중·고, 특수학교 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-849000000004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "사립유치원 유아학비 추가지원",
+    "target": "유아학비 지원 대상 사립유치원 3~5세 유아",
+    "amount": "월 8만원",
+    "show": true,
+    "special": false
+  },
+  "g24-849000000008": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "결핵검사비 지원",
+    "target": "중1, 고1, 특수학교 학생 및 고2,3학년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-849000000009": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "학생 건강 검사비 지원",
+    "target": "초1, 4, 중1, 고1, 특수학교 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-849000000010": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 학생 교육정보화 지원",
+    "target": "기초급여수급자, 한부모가족보호대상자 등",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
