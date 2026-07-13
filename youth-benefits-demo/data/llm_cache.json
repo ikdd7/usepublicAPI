@@ -138046,5 +138046,209 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-930000000010": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 고등학생 석식 무상 지원",
+    "target": "국민기초생활수급자",
+    "amount": "학교별 석식단가 상이",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100003": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "스포츠산업 구직자 취업지원 프로그램 운영",
+    "target": "스포츠산업분야 구직 희망자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100004": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "스포츠산업 예비초기·창업도약 프로그램 지원",
+    "target": "스포츠산업 예비창업자 및 창업기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100005": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "스포츠과학 분야 진로 탐색 학생 견학 지원",
+    "target": "진로 탐색 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100006": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "스포츠산업 중소기업 경쟁력 강화 지원",
+    "target": "스포츠산업 비중 30% 이상 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100007": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "스포츠용품 시험 및 국내인증(KISS) 지원",
+    "target": "국내 스포츠용품 생산 업체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100008": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "스포츠산업 여성 종사자 리더십 교육 제공",
+    "target": "스포츠 관련 여성 종사자 및 관심자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100010": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "스포츠용품 해외인증획득 지원",
+    "target": "국내 중소 스포츠용품 생산 업체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100012": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "개발도상국 스포츠행정가 교육 제공",
+    "target": "개발도상국 스포츠행정 재직자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100013": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "스포츠산업 융자 지원",
+    "target": "체육용구·서비스·시설 업체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100014": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국제 스포츠 인재양성 교육 제공",
+    "target": "선수경력자, 학생, 체육단체 종사자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100015": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국제심판 양성 및 자격취득 지원",
+    "target": "국내 및 국제심판",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100016": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "스포츠행정·선수경력자 해외학위 지원",
+    "target": "한국 국적 스포츠행정 경력자·선수",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B37003100017": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국민 체력 측정 및 관리 지원",
+    "target": "만 4세 이상 전국민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B49000100043": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "산재근로자 재활보조기구 지급",
+    "target": "재활보조기구 지급 대상 산재근로자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-B55029700002": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 외국인 의료비 지원",
+    "target": "중위소득 90% 이하 외국인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55117700002": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "인천공항 유모차 대여 서비스 제공",
+    "target": "유아 동반 여객",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55117700003": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "항공산업 분야 취업지원 프로그램 운영",
+    "target": "항공산업 구직자, 취업준비생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55117700004": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "인천공항 견학 프로그램 제공",
+    "target": "5세 이상 어린이, 학생, 일반인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
