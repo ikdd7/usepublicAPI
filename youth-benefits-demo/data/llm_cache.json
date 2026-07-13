@@ -138474,5 +138474,463 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-370000000130": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현물",
+    "summary": "청년 면접정장 무료 대여",
+    "target": "울산 남구 거주 19~39세 구직자",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000131": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "행려자 귀향여비 및 임시숙박 지원",
+    "target": "행려자",
+    "amount": "귀향여비, 임시숙박",
+    "show": true,
+    "special": true
+  },
+  "g24-356500000005": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모신생아 건강관리 본인부담금 지원",
+    "target": "산모신생아 건강관리 서비스 완료 산모",
+    "amount": "본인부담금 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-901000000009": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "특수교육대상자 숙식비 지원",
+    "target": "특수학교 기숙사 입소 특수교육대상자",
+    "amount": "조·석식비",
+    "show": true,
+    "special": false
+  },
+  "g24-901000000014": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "건강장애학생 원격수업 지원",
+    "target": "건강장애 특수교육대상자",
+    "amount": "원격수업 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-901000000015": {
+    "category": "건강",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "난치병·당뇨병 학생 치료비 및 의료비 지원",
+    "target": "도내 재학 난치병·당뇨병 학생",
+    "amount": "치료비, 의료비",
+    "show": true,
+    "special": false
+  },
+  "g24-901000000022": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "중고 신입생 교복 구입비 지원",
+    "target": "도내 중고 신입생 및 전입생",
+    "amount": "교복 구입비",
+    "show": true,
+    "special": false
+  },
+  "g24-901000000023": {
+    "category": "건강",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "학생 실명 예방 진료비 지원",
+    "target": "경남교육청 소속 5개 질환 진단 학생",
+    "amount": "진료비",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000014": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "제주 초중고 학생 맞춤 통합지원",
+    "target": "제주 초중고 위기 학생",
+    "amount": "심리치료, 학습지원",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000206": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "특수교육대상자 통학비 지원",
+    "target": "통학비 지원 대상 특수교육대상자",
+    "amount": "대중교통비",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000207": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화학생 한국어 교육 및 기초학력 지원",
+    "target": "한국어 어렵거나 기초학력 낮은 다문화학생",
+    "amount": "한국어 교육, 학습지원",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000208": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가정 가정통신문 모국어 번역 지원",
+    "target": "한국어 어려운 다문화가정 학부모",
+    "amount": "번역 서비스",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000211": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "제주 초등학생 현장체험학습비 지원",
+    "target": "제주 초등학생",
+    "amount": "1인당 4만원",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000213": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "제주 중고 특수학교 신입생 무상교복 지원",
+    "target": "제주 중고 특수학교 1학년 신입생",
+    "amount": "교복비",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000214": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "초중고 학생 수련활동비 지원",
+    "target": "수련활동 학교 학생",
+    "amount": "1인당 4만원",
+    "show": true,
+    "special": false
+  },
+  "g24-929000000215": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "초중고 학생 교육비 지원",
+    "target": "기초수급, 한부모, 차상위, 중위60%이하 학생",
+    "amount": "자유수강권, 정보화, 급식비",
+    "show": true,
+    "special": false
+  },
+  "g24-930000000001": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 학생 교육복지안전망 지원",
+    "target": "저소득, 교육취약, 위기 가정 학생",
+    "amount": "교육복지 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-930000000004": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 초1~고1 학생 컴퓨터 지원",
+    "target": "국민기초생활수급자 초1~고1 학생",
+    "amount": "컴퓨터, 노트북",
+    "show": true,
+    "special": false
+  },
+  "g24-930000000008": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "학생 및 학부모 방문 진로상담 제공",
+    "target": "초5~중3 학생, 학교밖 청소년, 학부모",
+    "amount": "진로상담",
+    "show": true,
+    "special": false
+  },
+  "g24-930000000009": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "초중고 특수 저소득층 현장체험학습비 지원",
+    "target": "저소득, 특수교육, 중위80%이하 학생",
+    "amount": "현장체험학습비",
+    "show": true,
+    "special": false
+  },
+  "g24-O00015000012": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀 가정 유교랜드 입장료 할인",
+    "target": "초등생 이하 자녀 2명 이상 가정",
+    "amount": "할인",
+    "show": true,
+    "special": false
+  },
+  "g24-O00015000002": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경상북도 거주자 안동호반자연휴양림 이용요금 감면",
+    "target": "경상북도 거주자, 국가유공자 등",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00015000005": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 안동레이크골프장 입장요금 할인",
+    "target": "만 65세 이상 고객",
+    "amount": "그린피 1만원 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00015000004": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 65세 이상 보문골프장 입장요금 할인",
+    "target": "만 65세 이상 고객",
+    "amount": "그린피 1만원 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00015100001": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "분양계약자 대상 안심부동산거래 원스톱서비스",
+    "target": "분양계약자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00015100002": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "분양계약자 대상 분양대금 금융기관 협약대출",
+    "target": "분양계약자",
+    "amount": "협약대출",
+    "show": true,
+    "special": false
+  },
+  "g24-O00015100003": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "보상사업 편입토지 소유자 대상 찾아가는 보상서비스",
+    "target": "보상사업 편입토지 소유자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00018400001": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "광주 거주자, 장애인, 유공자 승촌보 캠핑장 이용요금 감면",
+    "target": "광주 거주자, 장애인, 유공자 등",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00018400002": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "광주 거주자 승촌보 축구장 이용요금 30% 감면",
+    "target": "광주 거주자",
+    "amount": "30% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00018500001": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 임대주택 임대 지원",
+    "target": "국가유공자, 수급자, 장애인, 한부모 등",
+    "amount": "우선입주, 소득기준 완화",
+    "show": true,
+    "special": true
+  },
+  "g24-O00018500002": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자, 수급자 장사시설 이용요금 감면",
+    "target": "국가유공자, 기초생활수급자",
+    "amount": "화장비용 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00018700001": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "경로우대자, 국가유공자 도시철도 운임 면제 및 할인",
+    "target": "만 65세 이상, 국가유공자 등",
+    "amount": "면제 및 할인",
+    "show": true,
+    "special": true
+  },
+  "g24-O00019000001": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 유공자 등 광산구 공공체육센터 이용요금 감면",
+    "target": "장애인, 국가유공자, 독립유공자 등",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00019000002": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 유공자 등 광산구 공영주차장 이용요금 감면",
+    "target": "장애인, 국가유공자, 경형자동차 등",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00019100005": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "유공자 등 서재문화체육센터 이용요금 50% 감면",
+    "target": "국가유공자, 독립유공자 등",
+    "amount": "50% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00019100002": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 국가유공자 등 교통약자 이동지원(나드리콜)",
+    "target": "보행상 장애인, 국가유공자 등",
+    "amount": "이동지원",
+    "show": true,
+    "special": true
+  },
+  "g24-O00019100003": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "우수자원봉사자, 성실납세자 공영주차장 이용요금 감면",
+    "target": "우수자원봉사자, 성실납세자",
+    "amount": "감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00019100007": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "수급자, 유공자 등 명복공원 화장시설 이용요금 감면",
+    "target": "생계·의료급여 수급자, 국가유공자 등",
+    "amount": "감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00019400001": {
+    "category": "주거",
+    "tags": [
+      "다자녀",
+      "무주택"
+    ],
+    "support_type": "서비스",
+    "summary": "다자녀 무주택세대 특별공급",
+    "target": "3명 이상 자녀 둔 무주택세대",
+    "amount": "건설량의 10% 범위",
+    "show": true,
+    "special": false
+  },
+  "g24-O00019400009": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "한부모",
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층, 청년 대상 매입임대 지원",
+    "target": "수급자, 한부모, 차상위, 청년",
+    "amount": "임대 지원",
+    "show": true,
+    "special": false
   }
 }
