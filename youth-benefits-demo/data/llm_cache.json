@@ -141844,5 +141844,216 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-O00100500002": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "의료취약계층 의료비 지원",
+    "target": "저소득층, 건강보험 무자격자, 유관기관 추천자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00100600001": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "남원권 맞춤형 재활운동 서비스 지원",
+    "target": "퇴원환자, 지역주민, 치매검사 이상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00100600003": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 무료 건강검진 및 나들이 지원",
+    "target": "협약 기관 추천 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00100600004": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "취약계층 아동 건강관리 서비스 지원",
+    "target": "학교밖청소년, 지역아동센터 비만 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00100600005": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만성질환관리 서비스",
+    "target": "본원 이용 지역주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00100600006": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "취약계층 진료비 및 간병비 지원",
+    "target": "본원 이용 취약계층, 외국인근로자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00100600007": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "심혈관질환 예방 심방세동 관리 지원",
+    "target": "본원 이용 지역주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00100800001": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "경력단절여성 직업교육훈련 지원",
+    "target": "구직 희망 경력단절여성, 취업취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00100800002": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "경력단절여성 집단상담 프로그램 지원",
+    "target": "구직 희망 경력단절여성, 취업취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00100800003": {
+    "category": "문화",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "다둥이·수급자·장애인 문화센터 무료 수강",
+    "target": "다둥이카드, 기초수급자, 장애인복지카드 소지자",
+    "amount": "연1회 1과목 무료",
+    "show": true,
+    "special": true
+  },
+  "g24-O00101000001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "과학 재능 초등학생 영재교육 지원",
+    "target": "전북 초 4~6학년 과학 재능 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101000009": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "예술 재능 학생 육성 지원",
+    "target": "전북 초3~중3 예술 관심 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101000012": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북 출신 대학생 선도산업 탐구 지원",
+    "target": "전북 출신 대학생(휴학생 포함)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101000013": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "대학(원)생 지역발전 정책제안 대회",
+    "target": "전북 출신 대학(원)생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101000014": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북 평생교육 정보망 제공",
+    "target": "전북 도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101000015": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북시민대학 운영",
+    "target": "전북 도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101000016": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전주장학숙 신규입사생 모집",
+    "target": "전북 소재 대학 신입·재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101000017": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전주장학숙 입사생 수시 모집",
+    "target": "전북 소재 대학 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101000018": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서울장학숙 신규입사생 모집",
+    "target": "수도권 소재 대학 신입·재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101000019": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서울장학숙 입사생 수시 모집",
+    "target": "수도권 소재 대학 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
