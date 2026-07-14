@@ -140299,5 +140299,1129 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-O00020900001": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "도시철도 요금 면제",
+    "target": "만 65세 이상 노인, 장애인, 국가유공자",
+    "amount": "무료",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020900002": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도시철도 요금 감면",
+    "target": "만 6세~12세 어린이, 세 자녀 이상 가정, 만 13세~18세 청소년",
+    "amount": "무료 또는 50%, 20%",
+    "show": true,
+    "special": false
+  },
+  "g24-O00021000001": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "하수도 요금 감면",
+    "target": "재난지역 거주자, 수급자, 무허가건물 철거지역 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00021100001": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "상수도 요금 감면",
+    "target": "수급자, 국가유공자, 장애인, 3자녀 이상 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00021300001": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "물재생체험관 및 현대화시설 견학",
+    "target": "초등 5학년 이상 20인 이내 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00021400001": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "교통약자 이동지원",
+    "target": "장애 정도가 심한 보행상 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00021400002": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인콜택시 시티투어 프로그램 운영",
+    "target": "장애인콜택시 등록 이용고객",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00021400003": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시립승화원 및 추모공원 운영",
+    "target": "순국선열, 국가유공자, 4.19 관련자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00021400004": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "장사시설 이용요금 면제",
+    "target": "무연고 행려사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00021500001": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "기관사 체험 행사",
+    "target": "초등학생 이상 청소년 및 일반인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00021500002": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "조례시설물 우선 임대지원",
+    "target": "장애인, 노인, 한부모, 국가유공자, 북한이탈주민 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00021500004": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "차량사업소 견학",
+    "target": "어린이, 중·고생, 성인, 유관기관",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00021800002": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "태양광 신기술 실증단지 온라인 견학",
+    "target": "온라인 견학 희망자 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00025000002": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장사시설 이용요금 감면",
+    "target": "수급자, 국가유공자, 무연고 사망자",
+    "amount": "전액 면제",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025000003": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "문화시설 이용요금 감면",
+    "target": "수급자, 한부모가족, 등록 장애인",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-O00025000004": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "주차장 이용요금 감면",
+    "target": "장애인, 국가유공자, 경차, 요일제 참여자",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-O00025000005": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "학생",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "체육시설 이용요금 감면",
+    "target": "수급자, 학생, 노인, 장애인, 국가유공자, 어린이 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00025000006": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "노동자종합복지회관 사용료 감면",
+    "target": "가임여성, 노인, 청소년, 군인, 어린이, 국가유공자, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00025100001": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "할인",
+    "summary": "기초수급자 임대보증금 및 임대료 할인",
+    "target": "국민기초생활보장 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00025800002": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "어린이과학관 이용요금 감면",
+    "target": "인천시민, 6세 이하 어린이, 65세 이상 노인, 장애인",
+    "amount": "50% 감면 또는 면제",
+    "show": true,
+    "special": false
+  },
+  "g24-O00025800010": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "인천대공원 인조잔디 구장 이용료 50% 감면",
+    "target": "65세 이상, 만 19세 미만, 어린이, 군인, 국가유공자",
+    "amount": "이용료 50% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00037600001": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "요양시설 중증응급환자 이송·전원 및 진료협력",
+    "target": "영월, 정선, 평창군 관내 요양시설 응급환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00037600007": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영월·정선·평창군 보건의료인력 역량강화 교육",
+    "target": "영월·정선·평창군 의료인, 보건교사, 119구급대원, 요양시설 관계자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00037600009": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "협약 사회복지시설 입소자 진료비 100% 지원",
+    "target": "영월권 협약 사회복지시설 입소자 중 수급자",
+    "amount": "진료비 본인부담금 100% 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-O00037600011": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의료취약계층 보호자없는 병실 지원",
+    "target": "의료급여 수급권자, 차상위계층 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00037600012": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영월의료원 만성질환관리 서비스",
+    "target": "고혈압, 당뇨병 등 만성질환 대상자",
+    "amount": "검사비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00037600014": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영월군 아동복지시설 아동 건강검진 지원",
+    "target": "영월군 관내 아동복지시설 이용 아동",
+    "amount": "건강검진",
+    "show": true,
+    "special": false
+  },
+  "g24-O00044100001": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도민텃밭(용인흥덕) 경작지 분양",
+    "target": "용인시민, 경기도민, 경기도 등록 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00044700005": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 금융취약계층 공적 채무조정 및 재무상담",
+    "target": "경기도 내 금융취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045000001": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "경기아트센터 시설물 대관료 20~50% 감면",
+    "target": "장애인 관련 단체, 전문예술법인·단체",
+    "amount": "대관료 20~50% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045000002": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "기획공연 및 전시 관람료 할인",
+    "target": "경기도 거주 장애인, 70세 이상, 국가유공자",
+    "amount": "관람료 할인",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045000003": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "문화소외계층 대상 찾아가는 문화복지공연",
+    "target": "문화소외계층 단체/기관",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045000004": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "경기아트센터 주차장 이용요금 감면",
+    "target": "장애인, 경차, 국가유공자, 저공해자동차 등",
+    "amount": "주차요금 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045200001": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "경기도 중소기업·소상공인 보증지원",
+    "target": "경기도 내 소재 중소기업·소상공인",
+    "amount": "보증지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045300001": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "경기도 예술인 창작기반지원",
+    "target": "경기도 주소 예술인·예술단체",
+    "amount": "창작준비, 임차료, 기획프로그램 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045400019": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 우수자원봉사자 건강검진비 10% 감면",
+    "target": "경기도 우수자원봉사자증 소지자",
+    "amount": "건강검진비 10% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045400020": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 다자녀가정 의료비 30% 감면",
+    "target": "아이플러스 카드 소지자(두자녀 이상)",
+    "amount": "의료비 30% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045400021": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 위기청소년 의료비 감면",
+    "target": "유관기관 의뢰 위기청소년",
+    "amount": "급여 100%, 비급여 50% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045400022": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 청소년문화의집 대상자 의료비 감면",
+    "target": "유관기관 의뢰 청소년문화의집 대상자",
+    "amount": "100% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045400023": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "경기도 장애인 건강검진비 30% 감면",
+    "target": "경기도장애인복지시설연합회 장애인 및 직원",
+    "amount": "건강검진비 30% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045400024": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "경기도 장애인 입원비 100% 감면",
+    "target": "경기도장애인복지연합회 의뢰 장애인",
+    "amount": "입원 본인부담금 100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00083200001": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "예술인 창작활동 기반 지원",
+    "target": "예술인(단체)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00083200002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "문화예술교육 프로그램 발굴 및 지원",
+    "target": "문화예술(교육)단체, 개인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00083200003": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "예술인 창작활동 및 작품 제작/발표 지원",
+    "target": "창작자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00088400003": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "세종시 거주 학자금 대출 이자 대리상환 지원",
+    "target": "세종시 1년 이상 거주 대학생·졸업 후 2년 내 미취업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00088400005": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "세종시 거주 저소득층 학자금 원금 대리상환 지원",
+    "target": "세종시 1년 이상 거주 한국장학재단 6구간 이하 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089000001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "울산 거주 만학도 장학금(생활비성) 지원",
+    "target": "울산 소재 대학 신입생 중 만학도",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089100001": {
+    "category": "교육",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "울산 소상공인·예비창업자 창업·경영 아카데미 지원",
+    "target": "울산 소재 소상공인, 예비창업자 (만19세 이상)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089100004": {
+    "category": "교육",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "울산 소상공인·예비창업자 맞춤형 동행 컨설팅 지원",
+    "target": "울산 소재 소상공인, 예비창업자 (만19세 이상)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089500002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "울산 거주 모범 고등학생·대학생 생활장학금 지원",
+    "target": "울산 소재 고등학교·대학 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089500004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "울산 거주 다자녀 가구 고등학생 다자녀 장학금 지원",
+    "target": "울산 거주 다자녀 가구 고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089500005": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "울산 거주 대회 입상자 재능장학금 지원",
+    "target": "울산 거주 대회 3위 이상 입상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089500006": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "울산 거주 우수 성적 고등학생 울산인재장학금 지원",
+    "target": "울산 소재 고교 졸업자 중 수능 성적 우수자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089500007": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "울산 거주 성적 우수 고등학생 우수장학금 지원",
+    "target": "울산 소재 고교 졸업자 중 성적 우수자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00089600001": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "울산문화관광재단 주차요금 감면",
+    "target": "장애인, 국가유공자, 다자녀 등",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00090400001": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "인천시민 수술비, 암 검사 및 의료비 지원",
+    "target": "인천시민 중 수급자, 차상위, 건강보험하위50%",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00090500001": {
+    "category": "교육",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "인천 소상공인·예비창업자 경영 교육 지원",
+    "target": "인천 소재 소상공인, 예비창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00090700002": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "인천 지역 장애인 자립 체험 서비스 지원",
+    "target": "인천 지역 자립 희망 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00090700003": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "인천 학대 피해 장애인 쉼터 지원",
+    "target": "인천 지역 학대 피해 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00090800001": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "인천 지역 주민 IGC 셔틀버스 운행",
+    "target": "인천 지역 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00090800002": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현물",
+    "summary": "대학언론방송국 방송콘텐츠 제작지원",
+    "target": "인천글로벌캠퍼스 입주대학 소속 학생 및 방송국 정회원",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00090900001": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모",
+      "다자녀",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "수영장 강습료 50% 할인",
+    "target": "기초생활수급자, 한부모, 다자녀, 국가유공자, 장애인, 경로우대자",
+    "amount": "월 수강료 50% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00090900002": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모",
+      "다자녀"
+    ],
+    "support_type": "서비스",
+    "summary": "평생교육 프로그램 지원",
+    "target": "기초생활수급자, 한부모, 국가유공자, 장애인, 다자녀가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00091000007": {
+    "category": "교육",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "다자녀 가정 지원 장학금",
+    "target": "두 자녀 이상 다자녀 가정의 고등학생 및 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00091000010": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "인천 자립준비청년 지원 장학금",
+    "target": "인천시 아동복지시설 등록 및 보호종료 자립준비청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00091000011": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "학교 밖 청소년 장학금",
+    "target": "인천시 꿈드림센터 등록 9~24세 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00091000012": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "북한이탈주민 가정 자녀 장학금",
+    "target": "북한이탈주민 가정의 고등학생 및 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00091000013": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "재외동포 자녀 지원 장학금",
+    "target": "인천 거주 재외동포 자녀 또는 인천 소재 학교 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00091100002": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "인천예술인 불공정행위 및 법률 상담",
+    "target": "불공정 피해 예술인 및 법률 상담 필요 예술인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00091100003": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "인천예술인 역량강화 교육",
+    "target": "인천 예술인 및 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00091100004": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "문화누리카드 소지자 공연 티켓 할인",
+    "target": "문화누리카드 소지자",
+    "amount": "공연 티켓 50% 할인",
+    "show": true,
+    "special": true
+  },
+  "g24-O00092800001": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "공공보건의료사업 진료비 지원",
+    "target": "기초생활수급자, 중위소득 80% 미만 취약계층",
+    "amount": "입원/외래 진료비 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-O00092900001": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "공공의료서비스 지원",
+    "target": "응급환자, 임산부, 산후조리 필요자, 수급자, 노인, 아동, 장애인 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00092900002": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "장례식장 이용요금 감면",
+    "target": "국가유공자, 행려사망자, 임직원 및 조합원 가족",
+    "amount": "시설사용료 30% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00093000001": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무료 금융복지 상담 지원",
+    "target": "채무 상환 곤란 채무자, 법률구조공단 무료지원 대상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000003": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "채무조정 서류 발급비용 지원",
+    "target": "법률구조공단 무료지원 대상",
+    "amount": "최대 6만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000005": {
+    "category": "교육",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 디지털 전환 특화교육",
+    "target": "전남광주통합특별시 소상공인 및 예비창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000006": {
+    "category": "교육",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 리마인드 컨설팅, 멘토링",
+    "target": "전남광주통합특별시 소상공인 및 예비창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000007": {
+    "category": "복지",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 불공정거래 피해상담 지원",
+    "target": "전남광주통합특별시 내 불공정거래 피해 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000011": {
+    "category": "교육",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 사이버교육(LMS)",
+    "target": "전남광주통합특별시 소상공인 및 예비창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000012": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인·예비창업자 대상 경영 컨설팅",
+    "target": "전남광주통합특별시 소상공인 및 예비창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000013": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인·예비창업자 경영 노하우 멘토링",
+    "target": "전남광주통합특별시 소상공인 및 예비창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000014": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인·예비창업자 역량강화 단체멘토링",
+    "target": "전남광주통합특별시 소상공인 및 예비창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000019": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 대상 사진 촬영 및 보정 서비스",
+    "target": "전남광주통합특별시 내 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000021": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "성장유망 소상공인 집중 육성 지원",
+    "target": "전남광주통합특별시 내 성장유망 소상공인",
+    "amount": "실비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093000022": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "위기 소상공인 맞춤형 경영진단 및 지원",
+    "target": "전남광주통합특별시 내 폐업위기 소상공인",
+    "amount": "실비지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093100001": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업",
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "해양수산 중소기업 육성 및 직접비용 지원",
+    "target": "전라남도 소재 해양수산 중소기업, 예비창업자",
+    "amount": "직접비용 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093300002": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전남 중소기업 면접자 면접비 지원",
+    "target": "전남 소재 5~300인 중소기업 면접자",
+    "amount": "1인당 5만원, 최대 2회",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093700001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "전남인재육성 장학금 지원",
+    "target": "전남도 1년 이상 거주 학생 또는 보호자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093700002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "비문해자 및 고령자 문해교육 프로그램 지원",
+    "target": "비문해자 및 고령자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093700004": {
+    "category": "금융",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "대학생 학자금대출 이자 지원",
+    "target": "전남도 1년 이상 거주 대학생, 졸업 5년 미만 미취업자",
+    "amount": "이자 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093800001": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "위기청소년 24시간 일시보호 서비스",
+    "target": "만 9세~24세 요보호 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093800002": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "학교폭력 예방 또래상담자 양성 및 지원",
+    "target": "초·중·고 또래상담자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093800004": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "디지털 미디어 피해 청소년 회복 지원",
+    "target": "인터넷·스마트폰 주의 위험군 청소년, 학부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093800005": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청소년상담사 전문교육 및 사례발표회 운영",
+    "target": "청소년상담사",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093800006": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중·고위험군 청소년 찾아가는 1:1 상담",
+    "target": "만 9세~24세 중·고위험군 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093800007": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고위기 청소년 집중 심리 클리닉 지원",
+    "target": "9세~24세 자살·자해 고위기 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00093800008": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고위기 청소년 종합 심리 평가 지원",
+    "target": "9세~24세 고위험 청소년 중 심리평가 필요자",
+    "amount": "심리평가 및 해석",
+    "show": true,
+    "special": false
+  },
+  "g24-O00094400001": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "긴급 돌봄 필요 국민 대상 돌봄 서비스",
+    "target": "긴급 돌봄 필요한 국민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00094400002": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "교통약자 이동 지원 서비스",
+    "target": "심한 장애인, 65세 이상, 임산부 등",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
