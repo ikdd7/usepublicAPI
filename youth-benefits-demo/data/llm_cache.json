@@ -142055,5 +142055,691 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-O00107400003": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 시니어 건강검진 지원",
+    "target": "충남도내 65세 이상 의료급여수급권자 및 차상위 계층",
+    "amount": "2년에 1회 제공",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107400004": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "가정폭력 피해여성 등 긴급 진료 지원",
+    "target": "가정폭력 피해여성, 위기청소년, 충남 거주 새터민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107400005": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "퇴원환자 지역사회 연계 서비스 지원",
+    "target": "천안·아산권 거주 심뇌혈관질환자, 노인 골절·관절질환자, 만성질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600027": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "충북도민 대상 문화다양성 가치 홍보",
+    "target": "충청북도 도민 (장애인, 은둔청년 등)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600028": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "현금",
+    "summary": "예술인 창작활동 준비금 지원",
+    "target": "예술활동증명 완료 예술인, 원로 예술인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600030": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "문화예술교육 단체·기관 배달지원",
+    "target": "충북 도내 문화예술교육 단체 및 기관",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600033": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "현금",
+    "summary": "예술인 창작공간 임차료 지원",
+    "target": "충북 거주 예술활동증명 보유 예술인(개인·단체)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600034": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "문화가 있는 날 공연 제공",
+    "target": "예술인, 지역주민, 문학인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600035": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "문화예술후원 매칭 지원",
+    "target": "기부약정 기업이 확정된 충북 소재 문화예술단체",
+    "amount": "최대 1:1 매칭",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113700001": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 국가유산 향유 서비스 지원",
+    "target": "청각장애인, 결함가정 아동, 소년소녀가정 아동 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113900001": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "소상공인 육성자금 이자 지원",
+    "target": "도내 사업장을 둔 소상공인",
+    "amount": "대출 이자의 2~3% 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00114300001": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 의료비 지원",
+    "target": "의료급여수급자, 차상위계층 저소득층 환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00114400002": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "장애인 대상 방문간호 서비스 지원",
+    "target": "바우처 대상자 중 방문간호서비스 필요한 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00114400003": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "의료취약층 무료 진료 서비스",
+    "target": "의료취약층 (노숙자, 장애인 등)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00114400005": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "의료취약층 무료 검진 서비스",
+    "target": "의료취약층 (노인, 아동, 장애인 등)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00114400006": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "축제·행사 참여자 대상 의료지원",
+    "target": "축제 또는 행사 참여자 전체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00114400007": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "분만취약지역 산모·부인과 대상 진료 지원",
+    "target": "단양군 거주 산모 및 부인과 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00114400008": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "의료급여수급자 등 환자 의료비 지원",
+    "target": "의료급여수급자, 차상위계층, 기준중위소득 100%이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00114500001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "충북 출신 대학생 면학 지원",
+    "target": "충북 출신 서울, 충북지역 대학교 신입생 및 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00138400001": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "도시철도 요금 면제 및 감면",
+    "target": "만67세 이상 노인, 장애인, 국가유공자, 다자녀 가정",
+    "amount": "요금 면제 및 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00138400002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "유치원·초등학생 대상 역 체험 서비스 제공",
+    "target": "유치원 및 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00138400003": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "유치원·학생·일반인 대상 차량기지 안전체험 제공",
+    "target": "유치원, 학생 및 일반인 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00138400004": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "10세 이상 어린이·청소년·일반인 대상 운전체험 제공",
+    "target": "10세 이상 어린이 및 청소년, 일반인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00138400005": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인, 노인, 한부모가족 등 대상 임대시설 우선 임대",
+    "target": "20세 이상 장애인, 65세 이상 노인, 한부모가족 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00168400001": {
+    "category": "교육",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "전남 거주 미취업자 대상 자격증 취득 지원",
+    "target": "전남 거주 만 18세 이상 미취업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00248600002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북 도민 대상 온라인 평생교육 강좌 제공",
+    "target": "전북 도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00248600003": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북 초등 5~6학년 대상 글로벌 어학 교육 지원",
+    "target": "전북 초등학교 5~6학년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00328400001": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "도내 대학생·고교생·미취업청년 대상 프로젝트 지원",
+    "target": "도내 대학생, 직업계고교생, 구직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00388400004": {
+    "category": "금융",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "강원 거주 청년·대학생 학자금대출 이자 지원",
+    "target": "강원 거주 1년 이상 청년·대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00388400006": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "강원 등록 장애인 대상 평생교육이용권 지원",
+    "target": "강원 거주 19세 이상 등록 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00408400004": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "경북 등록 장애인 대상 평생교육이용권 지원",
+    "target": "경북 거주 19세 이상 등록 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-SD0000002351": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중소·중견기업 대상 사업화 연계 기술 개발 지원",
+    "target": "중소·중견기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000014891": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "교육복지 우선 지원학교 학생 대상 교육복지 지원",
+    "target": "교육복지우선지원학교 학생 중 저소득층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-SD0000015525": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "교육취약계층 학생 대상 교육복지 지원",
+    "target": "기초생활수급자, 차상위, 한부모 등 교육취약계층 학생",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-142100000062": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 19세 이상, 카드 사용 실적 있는 자 대상 페이백 지원",
+    "target": "만 19세 이상, 카드 사용 실적 있는 자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-161300000099": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "부모와 별도 거주 무주택 청년 대상 월세 지원",
+    "target": "만 19~34세 무주택 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B01000300008": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "재무구조 개선 희망 기업 대상 담보부사채 발행 지원",
+    "target": "재무구조 개선 희망 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-137100000004": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "관광사업체 대상 관광진흥개발기금 융자 지원",
+    "target": "관광진흥법상 관광사업체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000008": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "창업·기술혁신 중소기업 대상 보증연계투자 지원",
+    "target": "기술보증관계 성립 창업·기술혁신 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-154300000301": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전략작물산업화 인정 농업법인 등 대상 사업화 지원",
+    "target": "전략작물산업화 인정 농업법인, 농협조직 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55369400030": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "예비유니콘 특별보증 지원",
+    "target": "시장검증, 성장성, 혁신성 요건 충족 비상장 중소기업",
+    "amount": "50억원 이상 투자 유치",
+    "show": true,
+    "special": false
+  },
+  "g24-155000000018": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "매장유산 발굴조사 비용 국비지원",
+    "target": "단독주택, 개인사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000030": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "중소기업 회사채 발행 지원",
+    "target": "신용평가 B+ 이상 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55400900012": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "신성장기반자금 융자 지원",
+    "target": "중소벤처기업, 업력 7년 이상 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142000000039": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "협동화사업 자금 융자 지원",
+    "target": "3개 이상 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55400900047": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "사업전환자금 융자 지원",
+    "target": "상시근로자 5인 이상 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000004048": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "시설투자 중소기업 융자 지원",
+    "target": "중소기업, 업력 7년 이상 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55400900009": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "재창업자금 융자 지원",
+    "target": "재창업 7년 미만 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55400900020": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "신시장진출지원자금 융자 지원",
+    "target": "수출실적 10만불 미만 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55400900031": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "혁신창업사업화자금 융자 지원",
+    "target": "창업자, 신산업 창업 분야 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55400900043": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "선제적 자율구조개선 프로그램 지원",
+    "target": "위기징후 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000010902": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "창업기반지원자금 융자 지원",
+    "target": "사업개시일 7년 미만 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-154300000008": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "쌀 가공산업 육성 지원 사업",
+    "target": "쌀 가공업체, 양곡 도정·보관업체",
+    "amount": "개소당 최대 50억 원",
+    "show": true,
+    "special": false
+  },
+  "g24-B01000300011": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "동산담보물 직접매입(S&LB) 프로그램 지원",
+    "target": "동산담보대출 이용 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55369400017": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "VC투자매칭 특별보증 지원",
+    "target": "벤처투자 유치 비상장 중소기업",
+    "amount": "20억원 이상 투자 유치",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000012704": {
+    "category": "기타",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현물",
+    "summary": "중소기업자간 경쟁제품 직접구매 지원",
+    "target": "중소기업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000012616": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "중소기업기술혁신개발사업 지원",
+    "target": "매출액 20억원 이상 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142000000098": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "수출 중소기업 융자 지원",
+    "target": "수출실적 10만불 미만 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000007": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "기술보증 지원",
+    "target": "신기술사업 영위 중소기업",
+    "amount": "최고 30억원",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000031": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "중소기업 매출채권팩토링 지원",
+    "target": "중소기업",
+    "amount": "판매기업 10억원",
+    "show": true,
+    "special": false
   }
 }
