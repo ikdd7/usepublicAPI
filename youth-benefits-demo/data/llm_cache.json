@@ -139166,5 +139166,229 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-O00045400025": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "경기도 의사상자 의료비 본인부담금 20% 감면",
+    "target": "경기도 의사상자 등록자",
+    "amount": "본인부담금 20% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00045400026": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 원폭피해자·후손 건강검진비 50% 감면",
+    "target": "경기도 거주 원자폭탄 피해자 및 직계비속",
+    "amount": "종합건강검진비 50% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00045400027": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 원폭피해자·후손 의료비 50% 감면",
+    "target": "경기도 거주 원자폭탄 피해자 및 직계비속",
+    "amount": "50% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00045400028": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자·수급자 장례식장비 감면",
+    "target": "국가유공자 본인, 기초생활수급자 본인",
+    "amount": "장례식장 시설사용료 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00045400029": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국가유공자 치과보철료 30% 감면",
+    "target": "국가유공자 본인",
+    "amount": "치과보철료 30% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00045400031": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 병역명문가 의료비 10~20% 감면",
+    "target": "병역명문가 본인 및 직계존비속",
+    "amount": "입원 10%, 외래 20% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00045400032": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 사회복무요원 의료비 10~20% 감면",
+    "target": "경기도 관내 근무 사회복무요원",
+    "amount": "입원 10%, 외래 20% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00045400033": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 가정폭력 피해자 초기진단 의료비 100% 감면",
+    "target": "유관기관 의뢰 가정폭력 피해자",
+    "amount": "초기진단 100% 감면",
+    "show": true,
+    "special": true
+  },
+  "g24-O00045400034": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 성실납세자 건강검진비 20% 감면",
+    "target": "경기도 성실납세자",
+    "amount": "종합건강검진비 20% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045400035": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 성실납세자 입원비 10% 감면",
+    "target": "경기도 성실납세자",
+    "amount": "입원 본인부담금 10% 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045700002": {
+    "category": "문화",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "경기 살리기 통큰 세일 소비촉진 행사",
+    "target": "도내 전통시장, 상점가, 골목상권, 배달앱 가맹점",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045700003": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "골목상권 매니저 지원사업",
+    "target": "골목상권상인회, 소상공인연합회 및 시·군 지회",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045700007": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "경기도 소상공인 경영환경개선 지원",
+    "target": "창업 3년 이상 경기도 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045700008": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "경기도 소상공인 사업정리 컨설팅 및 지원금",
+    "target": "경기도 내 폐업 및 폐업 예정 소상공인",
+    "amount": "사업정리 지원금",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045700010": {
+    "category": "교육",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 통합 경영역량강화 교육",
+    "target": "경기도 소상공인, 자영업자, 예비 창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045700011": {
+    "category": "복지",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 종합상담 콜센터 운영",
+    "target": "경기도 예비창업자, 소상공인, 폐업자, 재창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045700012": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "전통시장 청년상인 육성 교육 및 사업화 지원",
+    "target": "경기도 내 전통시장 등 창업 희망 청년",
+    "amount": "사업화 지원금",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045700014": {
+    "category": "문화",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "경기도 연대상권 육성 지원",
+    "target": "전통시장, 상점가, 골목형상점가 사업 주체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045700015": {
+    "category": "문화",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "경기도 전통시장 특화상품 개발 지원",
+    "target": "특화상품 개발 희망 전통시장 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00045700016": {
+    "category": "문화",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "전통시장 시설 컨설팅 및 현장실태조사",
+    "target": "시설현대화 계획 중인 전통시장 등",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
