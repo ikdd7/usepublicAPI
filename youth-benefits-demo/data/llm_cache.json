@@ -138932,5 +138932,239 @@
     "amount": "임대 지원",
     "show": true,
     "special": false
+  },
+  "g24-O00019800001": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 작업 활동 프로그램 운영",
+    "target": "대전시 근로능력 낮은 중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00019800002": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 근로 사업장 운영",
+    "target": "대전시 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00019800003": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "대전추모공원 안치비용 감면",
+    "target": "수급자, 장기기증자, 희생·공헌자, 무의탁시설 입소자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020400001": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "공영주차장 이용요금 면제",
+    "target": "공무수행 차량, 긴급자동차, 구호활동 차량",
+    "amount": "100%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020400002": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "자갈치시장 부설주차장 이용요금 감면",
+    "target": "장애인, 독립유공자, 국가유공자 상이자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020400003": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "국가유공자"
+    ],
+    "support_type": "서비스",
+    "summary": "광안대로 통행료 감면",
+    "target": "장애인, 국가유공자, 5·18민주화운동자, 고엽제후유증환자",
+    "amount": "100%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020400005": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "국가유공자"
+    ],
+    "support_type": "서비스",
+    "summary": "부산추모공원 봉안당 사용료 감면",
+    "target": "생계·의료급여 수급자, 국가유공자, 무연고자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020400007": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "국가유공자"
+    ],
+    "support_type": "서비스",
+    "summary": "부산영락공원 장사시설 이용요금 감면",
+    "target": "생계·의료급여 수급자, 국가유공자, 무연고자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020400008": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "국가유공자"
+    ],
+    "support_type": "서비스",
+    "summary": "부산영락공원 화장시설 이용요금 감면",
+    "target": "생계·의료급여 수급자, 국가유공자, 무연고자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020400009": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "국가유공자"
+    ],
+    "support_type": "서비스",
+    "summary": "한마음스포츠센터 이용요금 감면",
+    "target": "국민기초생활수급자, 장애인, 국가유공자, 다자녀",
+    "amount": "50%",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020500001": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "환경기초시설 견학 및 교육",
+    "target": "전 국민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00020600001": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시민 자전거 무료 점검 및 부품 교체",
+    "target": "부산시민 개인 소유 자전거",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00020600002": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "스포원 재난안전체험관 무료 이용",
+    "target": "대한민국 국민 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00020600003": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "국가유공자"
+    ],
+    "support_type": "서비스",
+    "summary": "스포원 체육시설 이용요금 감면",
+    "target": "수급자, 장애인, 독립유공자, 국가유공자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020700001": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "낙동강 생태탐방선 이용요금 지원",
+    "target": "유아, 경로, 어린이, 청소년, 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020700002": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "부산 문화 관광해설사 서비스 무료 제공",
+    "target": "부산 방문 관광객",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00020700003": {
+    "category": "복지",
+    "tags": [
+      "국가유공자",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "시티투어버스 이용요금 감면",
+    "target": "국가유공자, 부산시민, 장애인, 15인 단체",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00020700004": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국제회의 유치 개최 지원금 지원",
+    "target": "국제기구 또는 단체가 주관·후원하는 회의",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00020700005": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "외국인 관광객 유치 인센티브 지원",
+    "target": "종합여행업, 국내여행업, 국내외여행업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00020800002": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "구서시티타워상가 임대료 및 보증금 면제",
+    "target": "사회적기업, 예비사회적기업, 사회적협동조합",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
