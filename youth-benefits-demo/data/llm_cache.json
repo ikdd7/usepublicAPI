@@ -142741,5 +142741,900 @@
     "amount": "판매기업 10억원",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006569": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인통합복지카드 발급수수료 지원",
+    "target": "장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006567": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "1인 자영업자 등 출산급여 지원",
+    "target": "1인 자영업자, 프리랜서, 특수형태근로자, 농업인 등 출산여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003314": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "행려부랑인 구호 및 무연고사망자 장제처리 지원",
+    "target": "행려부랑인, 무연고자, 저소득층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00101000020": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북특별자치도서울장학숙 청운관 신규입사생 모집",
+    "target": "전북 거주자 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101100001": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북 도내 게임기업 제작지원",
+    "target": "전북 도내 게임기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101100002": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북도민 웹툰 작가 제작지원",
+    "target": "전북도민 웹툰 작가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101100003": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도내 어린이·청소년 콘텐츠 역량 강화 교육",
+    "target": "도내 초·중·고등 및 특수학교, 어린이·청소년 시설",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101100004": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "콘텐츠 창업 아이디어 보유자 시제품 제작 지원",
+    "target": "콘텐츠 창업 아이디어 보유 예비 창작자, 초기 창업기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101100005": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북 콘텐츠 기업 지역특화콘텐츠 개발 지원",
+    "target": "전북 본사 사업장 콘텐츠 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101100006": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북 도내 콘텐츠 기업 제작지원",
+    "target": "전북 도내 콘텐츠 기업, 산업 종사자, 관심 도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101100007": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전북 지역 뮤지션 음원·음반 제작 지원",
+    "target": "전북 지역 음악 활동 도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00101200013": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "도내 예비창업자·창업 6년 미만 사업자 보육지원",
+    "target": "도내 거주 예비창업자, 창업 6년 미만 사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00106100001": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "창업 1년 이내 소기업 소상공인 특별보증",
+    "target": "창업 1년 이내 소기업 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00106100002": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "골목상권 소기업 소상공인 특별보증",
+    "target": "골목상권 도소매업, 제조업, 음식점, 서비스업 영위 소기업 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107000001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "제주인재육성 장학금 지원",
+    "target": "제주인재육성장학금 신청자격 부합자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107100001": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "서귀포시 등록 임산부 산부인과 진료비 지원",
+    "target": "서귀포시 동부/서부 지역 등록 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107200001": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국비진료 대상자 진료비 지원",
+    "target": "애국지사, 전·공상군경, 4·19혁명부상자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00107200002": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "4.3 생존희생자·유족·며느리 진료비 지원",
+    "target": "4·3 생존희생자, 유족, 며느리",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-O00107200003": {
+    "category": "건강",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "해녀 외래진료 본인부담금 지원",
+    "target": "해녀증 소지 해녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107400001": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의료취약계층 외국인 환자 의료비 지원",
+    "target": "의료취약계층 외국인 환자",
+    "amount": "50% 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-B55369400007": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "신용회복위 채무조정 신청자 재창업 보증",
+    "target": "신용회복위 채무조정 신청자, 사업 계속 어려운 폐업 개인/법인 대표",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-B55400900040": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "중소기업 밸류체인 안정화 자금 지원",
+    "target": "중소기업",
+    "amount": "연간 10억~30억 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000044": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "직장어린이집 설치 운영 사업주 보육시설 설치비 지원",
+    "target": "직장어린이집 설치 운영 사업주, 사업주 단체",
+    "amount": "설치비의 60%~90%",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000065": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가인적자원개발컨소시엄 훈련시설·장비 구매비 지원",
+    "target": "중소기업 등과 협약 체결 기업, 사업주단체 등 공동훈련센터",
+    "amount": "연간 20억 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000079": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 표준사업장 설립 사업주 투자비 지원",
+    "target": "장애인 표준사업장 설립, 운영 사업주",
+    "amount": "최대 75%",
+    "show": true,
+    "special": true
+  },
+  "g24-154300000161": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "경영회생 농업인·농업법인 농지매입 지원",
+    "target": "농업인, 농업법인",
+    "amount": "15억~20억 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000009104": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "중소기업 개발기술 사업화 자금 지원",
+    "target": "정부 R&D 성공 기술, 특허 등 사업화 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-155000000021": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "건설공사 매장유산 지표조사 비용 국비 지원",
+    "target": "민간시행 건설공사 사업주",
+    "amount": "평균 5백만원 내외",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000054": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "대출",
+    "summary": "장애인 고용 사업주 작업시설 설치 융자 지원",
+    "target": "장애인 고용 사업주",
+    "amount": "1인당 1억, 사업주당 15억 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-154300000318": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농어촌 취약지역 생활여건 개조 지원",
+    "target": "노후주택 비율 높은 농어촌 마을",
+    "amount": "지구별 15억원",
+    "show": true,
+    "special": false
+  },
+  "g24-B01000300013": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "코로나 피해 소상공인·자영업자 새출발기금 채무조정",
+    "target": "코로나 기간 사업 영위 소상공인·자영업자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-B55258300011": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "자회사형 장애인 표준사업장 설립 사업주 지원",
+    "target": "상시 50명 이상 근로자 고용 사업주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55400900024": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "재해 피해 중소기업 긴급 경영안정자금 지원",
+    "target": "자연재난, 사회재난 피해 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000010647": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "경영애로·재해 피해 중소기업 융자 지원",
+    "target": "중소기업, 재해·경영애로 피해 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-WII000001410": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "소득인정액 기준 이하 가구 생계급여 지원",
+    "target": "생계급여 선정 기준 이하 가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-SD0000016200": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "분만취약지 의료기관 시설·장비·인건비 지원",
+    "target": "분만취약지 의료기관",
+    "amount": "연간 14.5억~5억",
+    "show": true,
+    "special": false
+  },
+  "g24-B55307700001": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "소상공인 혁신성장 촉진 자금 지원",
+    "target": "백년가게, 사회연대경제조직, 수출 소상공인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55307700018": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "소공인 특화자금 지원",
+    "target": "제조업 영위 소공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55307700041": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "소상공인 상생성장 지원자금 지원",
+    "target": "온라인 브랜드 육성사업 선정 소상공인, 추천 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55369400004": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "벤처투자 유치 중소기업 벤처투자연계보증 지원",
+    "target": "벤처투자 유치 창업 7년 이내 중소기업",
+    "amount": "5억원 이상 투자 유치",
+    "show": true,
+    "special": false
+  },
+  "g24-B55400900010": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "부실징후기업 등 구조개선자금 지원",
+    "target": "부실징후기업, 워크아웃 추진기업",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-140000000175": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "사립휴양시설 조성·보완·운영 사업비 융자",
+    "target": "수목원 조성계획 승인자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000072": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "보증",
+    "summary": "수출유망 중소기업 특례보증 지원",
+    "target": "수출 지원 사업 선정 기업, 일반 수출기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000018904": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "보증",
+    "summary": "소기업·소상공인 신용보증 지원",
+    "target": "개인사업자 및 법인 소기업·소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000010824": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "임산물생산단지 규모화 등 지원",
+    "target": "임업인, 임업후계자, 독림가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-148000000003": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중소환경기업 사업화 지원",
+    "target": "중소환경기업, 예비창업자, 청년창업기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-161300000001": {
+    "category": "금융",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "생애최초·무주택자 주택구입 공유형모기지 융자",
+    "target": "생애최초 또는 5년이상 무주택세대주",
+    "amount": "6억원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000192": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "수산업경영인 육성사업 융자 지원",
+    "target": "시도에서 선정한 수산업경영인",
+    "amount": "최대 5억원",
+    "show": true,
+    "special": false
+  },
+  "g24-B55307700025": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "기업가형 소상공인 육성 지원",
+    "target": "예비창업자, 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55307700037": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "민간투자 연계형 매칭융자 지원",
+    "target": "민간투자 주관기관 추천 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55369400032": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "보증",
+    "summary": "엔젤투자 유치 창업기업 엔젤투자연계보증",
+    "target": "엔젤투자 유치 창업기업",
+    "amount": "3천만원 이상",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000003173": {
+    "category": "금융",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "보증",
+    "summary": "주택담보 노후연금 보증 지원",
+    "target": "1주택 또는 다주택 소유자",
+    "amount": "공시가격 12억원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000070": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "보증",
+    "summary": "기업가형 소상공인 지원 협약보증",
+    "target": "로컬 크리에이터, 강한 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55140800003": {
+    "category": "금융",
+    "tags": [
+      "무주택",
+      "신혼"
+    ],
+    "support_type": "대출",
+    "summary": "무주택자 주택구입 내집마련 디딤돌 대출",
+    "target": "무주택자, 생애최초, 신혼가구",
+    "amount": "5억원 이하",
+    "show": true,
+    "special": false
+  },
+  "g24-161300000076": {
+    "category": "금융",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "무주택자 전세자금 버팀목대출",
+    "target": "무주택 세대주, 신혼, 2자녀 이상 가구",
+    "amount": "임차보증금의 70%",
+    "show": true,
+    "special": false
+  },
+  "g24-140000000185": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "귀산촌인 창업 및 주택 구입 지원",
+    "target": "귀산촌 후 5년 이내 임업 종사자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000050": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "국가기술자격 검정시설·장비 구입자금 지원",
+    "target": "국가기술자격 검정시설 사용기관",
+    "amount": "총 비용의 50% 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000055": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 고용 시설·장비 무상 지원",
+    "target": "장애인 고용 사업주",
+    "amount": "3억원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-154300000011": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "귀농 농업창업 및 주택구입 지원",
+    "target": "농촌 외 산업 종사자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-161300000103": {
+    "category": "금융",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "무주택 임차인 전세보증금반환보증 보증료 지원",
+    "target": "무주택 임차인",
+    "amount": "40만원 상한",
+    "show": true,
+    "special": false
+  },
+  "g24-B55307700005": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 법률구조 비용 지원",
+    "target": "중위소득 125% 이하 또는 연 매출 2억 원 이하 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55370100028": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "채무조정 이용 중인 개인사업자 햇살론119 지원",
+    "target": "은행권 채무조정 3개월 이상 이용 중인 개인사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55370100034": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "영세 가맹점주 미소금융 금리 우대",
+    "target": "미소금융 이용자 중 연 매출 3억 원 이하 영세 가맹점주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55370100044": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "청년 대상 소득·가구 기준 충족 시 미래적금 지원",
+    "target": "19~34세, 개인소득·가구소득 기준 충족 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000016522": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "백두대간지역 주민 임산물 소득 지원",
+    "target": "백두대간보호지역 통과 32개 시·군 108개 읍·면·동 거주 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142000000099": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "만 39세 이하 청년 창업기업 사업 개시 3년 미만 자금 지원",
+    "target": "대표자 만 39세 이하, 사업 개시 3년 미만 창업기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000050": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "투자 유치 소상공인 사업화 자금 지원",
+    "target": "민간으로부터 1천만원 이상 투자 유치 소상공인",
+    "amount": "최대 1억원",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000066": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "영세 관광사업자 금융지원 협약보증",
+    "target": "문체부 관광사업자, 대표자 신용평점 355점 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000068": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "스마트 소공인 육성 협약보증",
+    "target": "스마트공방, 판로개척, 백년, 집적지구 소공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000071": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "녹색기업·ESG경영 실천 중소기업 특례보증",
+    "target": "녹색확인기업, ESG경영 실천 중소기업·소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-999000000039": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "분만취약지 고위험 산모·신생아 치료 지원",
+    "target": "분만취약지 고위험 산모 및 신생아",
+    "amount": "개소당 2억원",
+    "show": true,
+    "special": true
+  },
+  "g24-B55307700035": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "재창업 준비·초기·채무조정 소상공인 재도전 특별자금 지원",
+    "target": "재창업 준비·초기·채무조정 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142000000073": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "재창업자 멘토링 및 사업화 자금 지원",
+    "target": "예비재창업자, 재창업자",
+    "amount": "최대 1억원",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000015": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 예비창업자·업종전환 희망기업 점포 임차보증금 지원",
+    "target": "장애인 예비창업자, 업종전환 희망 장애인기업",
+    "amount": "최대 5년간",
+    "show": true,
+    "special": true
+  },
+  "g24-142100000075": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "KB소호컨설팅 추천 소기업·소상공인 금융지원",
+    "target": "KB소호컨설팅 추천 소기업·소상공인",
+    "amount": "1억원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000030": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "체불 사업주 및 근로자 체불청산 지원 융자",
+    "target": "체불 발생 사업주, 퇴직 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-154300000338": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "외식업체 식재료 공동구매 조직 구축·운영 지원",
+    "target": "외식 사업자 및 사업자 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-154300005022": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "민간 투자 농식품 벤처·창업기업 스케일업 지원",
+    "target": "농식품 분야 벤처기업 및 창업 7년 이내 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-183000000020": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "독립유공자 유족 영주귀국 정착금 지원",
+    "target": "독립유공자 유족 중 세대주",
+    "amount": "1억 5,300만원",
+    "show": true,
+    "special": true
+  },
+  "g24-B55307700024": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 사업모델 고도화 및 스케일업 자금 지원",
+    "target": "소상공인기본법 제2조에 따른 소상공인",
+    "amount": "최대 1억원",
+    "show": true,
+    "special": false
   }
 }
