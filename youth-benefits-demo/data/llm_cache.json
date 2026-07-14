@@ -141423,5 +141423,205 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-O00109100003": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "퇴원환자 맞춤형 퇴원계획 수립 및 보건의료복지 서비스 연계",
+    "target": "홍성권 거주 심뇌혈관질환자, 만성질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109100005": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "취약계층 시니어 대상 건강검진 지원",
+    "target": "충남도내 65세 이상 의료급여수급권자, 차상위계층",
+    "amount": "기본검진",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109100007": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의료취약지 거동불편·교통불편 만성질환자, 치매환자 의료지원",
+    "target": "거동·교통 불편 만성질환자, 치매환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109100008": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "석면피해 인정자 건강관리 및 자원연계 지원",
+    "target": "석면피해 인정자",
+    "amount": "건강체크 및 관리",
+    "show": true,
+    "special": true
+  },
+  "g24-O00109100010": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중증질환자, 외상·암환자 가정 방문 간호 서비스 제공",
+    "target": "중증질환자, 외상환자, 암환자",
+    "amount": "간호 서비스",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109100011": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "취약계층 만 65세 이상 전립선·심혈관 질환 무료검진 및 시술 지원",
+    "target": "충남 거주 만 65세 이상 취약계층",
+    "amount": "무료검진 및 시술",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109200002": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고혈압, 당뇨병 환자 대상 맞춤형 교육상담 제공",
+    "target": "고혈압, 당뇨병 환자",
+    "amount": "교육상담",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109200003": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "심뇌혈관질환 의료비 및 검진비 지원",
+    "target": "의료급여 수급자, 차상위, 기준중위 80% 이하",
+    "amount": "의료비 및 검진비",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109200005": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "치매 입원환자 대상 인지재활 프로그램 제공",
+    "target": "치매 입원환자 및 가족",
+    "amount": "인지재활 프로그램",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109200007": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의료취약지 재진환자 원격협진 진료 및 건강관리 지원",
+    "target": "원격협진 가능한 질환 보유 재진환자",
+    "amount": "원격협진 진료",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600001": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "문화예술단체 대상 문화예술교육 프로그램 지원금 지급",
+    "target": "충북 문화예술교육단체",
+    "amount": "15,000~40,000천원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600003": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "충북 문화예술단체·예술인 창작활동 지원",
+    "target": "충북 주소 문화예술단체 및 예술인",
+    "amount": "활동 지원금",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600007": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청년예술가 대상 예술 활동 지원",
+    "target": "충북 거주·출생·경험·졸업 청년",
+    "amount": "예술 활동 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600011": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "문화소외지역 대상 찾아가는 공연 지원",
+    "target": "충북 도내 문화예술단체",
+    "amount": "공연 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600012": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도내 생활문화예술동호회 강사파견, 공간대관 등 지원",
+    "target": "충북 생활문화예술동호회 및 강사",
+    "amount": "활동 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600015": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "문화예술교육단체 대상 문화예술교육 프로그램 지원금 지급",
+    "target": "충북 문화예술교육단체",
+    "amount": "15,000~55,000천원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600016": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "문화예술교육단체 대상 프로그램 연구개발 지원금 지급",
+    "target": "충북 문화예술교육단체",
+    "amount": "연구개발 지원금",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600017": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "문화예술교육사 배치 기관 대상 역량강화 지원",
+    "target": "충북 문화예술교육 운영 역량 문화시설",
+    "amount": "역량강화 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600018": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "공연장 상주단체 대상 창작활동 및 프로그램 수행 지원",
+    "target": "충북 소재 공연장 상주단체",
+    "amount": "창작활동 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00113600023": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국제교류 계획 있는 예술인·단체 대상 교류활동 지원",
+    "target": "국제교류 계획 있는 예술인, 문화예술단체",
+    "amount": "교류활동 지원",
+    "show": true,
+    "special": false
   }
 }
