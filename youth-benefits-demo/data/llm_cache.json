@@ -143636,5 +143636,642 @@
     "amount": "최대 1억원",
     "show": true,
     "special": false
+  },
+  "g24-452000000113": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 재가 경증장애인 월 2만원 지원",
+    "target": "만18세 이상 수급자 및 차상위계층 경증장애인",
+    "amount": "월 2만원",
+    "show": true,
+    "special": true
+  },
+  "g24-B55307700033": {
+    "category": "금융",
+    "tags": [
+      "장애인",
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "장애인 소상공인 대상 저금리 융자 지원",
+    "target": "장애인복지카드 소지 장애 소상공인",
+    "amount": "연 2.0% 금리",
+    "show": true,
+    "special": false
+  },
+  "g24-B55400900023": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 창업기업 사업화 자금 최대 1억원 지원",
+    "target": "39세 이하, 창업 후 3년 이내 기업 대표자",
+    "amount": "최대 1억원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-GES000000100": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "대출",
+    "summary": "국내 고등교육기관 학생 학자금 대출 지원",
+    "target": "국내 고등교육기관 학부생, 대학원생 등",
+    "amount": "등록금 전액, 생활비 연 400만원",
+    "show": true,
+    "special": false
+  },
+  "g24-GES000000110": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "대출",
+    "summary": "취업 후 상환 학자금 대출 지원",
+    "target": "국내 고등교육기관 학부생, 대학원생 등",
+    "amount": "등록금 전액",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000009385": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "농축산 경영 자금 지원",
+    "target": "경종·과수·원예특작 농업인, 소규모 축산농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000125": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "우수 숙련 기술인 대상 장려금 지원",
+    "target": "대한민국명장, 우수 숙련기술자 등 선정자",
+    "amount": "최대 2천만원",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000004": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "이공계 신진 연구인력 채용 기업 지원",
+    "target": "이공계 학위 취득 후 5년 이내 연구인력",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-PTR000051390": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "국가보훈대상자 대상 대부 지원",
+    "target": "독립유공자 예우법 적용 대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-WII000001360": {
+    "category": "금융",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "대출",
+    "summary": "10년 이상 장기복무 제대군인 대부 지원",
+    "target": "국가보훈부 등록 10년 이상 장기복무 제대군인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-WII000001340": {
+    "category": "금융",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "대출",
+    "summary": "기준 중위소득 50~100% 장애인 자립자금 대여",
+    "target": "기준 중위소득 50~100% 가구의 19세 이상 등록장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142100000005": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고경력 연구인력 채용 기업 지원",
+    "target": "연구경력 학사 14년, 석사 10년, 박사 5년 이상 경력자",
+    "amount": "연 최대 5,000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-161300000088": {
+    "category": "주거",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "청년 무주택자 대상 주택청약통장 금리 우대",
+    "target": "19세~34세, 연 5천만원 이하 소득 무주택자",
+    "amount": "최대 10년간 우대금리 1.7%",
+    "show": true,
+    "special": false
+  },
+  "g24-174000000055": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "지역주민 5인 이상 출자 법인 마을기업 지원",
+    "target": "지역주민 5인 이상 출자 법인",
+    "amount": "최대 5,000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-999000000074": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "예비창업자 대상 사업화 자금 및 프로그램 지원",
+    "target": "예비창업자",
+    "amount": "평균 0.5억원",
+    "show": true,
+    "special": false
+  },
+  "g24-125000000014": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "북한이탈주민 정착금 지원",
+    "target": "통일부 장관 보호결정 받은 북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-142000000062": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "중소기업 기술 애로 해결 위한 전문가 지원",
+    "target": "중소기업",
+    "amount": "3,000만원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-174100000071": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "민간건축물 지진안전 시설물 인증 비용 지원",
+    "target": "지진안전 시설물 인증 희망 민간건축물",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-WII000001620": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "성인 암환자 의료비 지원",
+    "target": "의료급여수급자, 차상위 본인부담경감대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142000000090": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 기업 시제품 제작 최대 2,500만원 지원",
+    "target": "장애인 예비창업자, 장애인기업",
+    "amount": "최대 2,500만원",
+    "show": true,
+    "special": true
+  },
+  "g24-SD0000003310": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "북한이탈주민 주거지원금 최대 2,300만원 지급",
+    "target": "북한이탈주민",
+    "amount": "최대 2,300만원",
+    "show": true,
+    "special": true
+  },
+  "g24-PTR000051327": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "체불근로자 대지급금 지급",
+    "target": "도산대지급금 퇴직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200005027": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "근로자 생활안정자금 융자 지원",
+    "target": "3개월 이상 근로자, 특수형태근로종사자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000010": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "신용보증지원 대상 융자사업 선정자 지원",
+    "target": "신용보증지원 대상 융자사업 선정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000031": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 보조공학기기 구입 최대 2,000만원 지원",
+    "target": "장애인 고용 사업주, 장애인 근로자 등",
+    "amount": "최대 2,000만원",
+    "show": true,
+    "special": true
+  },
+  "g24-149200000037": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "직업훈련 생계비대부 소득 80% 이하 지원",
+    "target": "비정규직, 전직실업자, 무급휴직자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-171000000005": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기초/차상위계층 상해보험 가입비 지원",
+    "target": "만15~65세 기초생활수급자, 차상위계층",
+    "amount": "1만원~3만원",
+    "show": true,
+    "special": true
+  },
+  "g24-WII000001260": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영주귀국 사할린 한인 임대주택 비용 지원",
+    "target": "영주귀국 사할린 한인 1세 및 동반가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-B55370100037": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "햇살론 일반 최대 1,500만원 대출",
+    "target": "연소득 3,500만원 이하 또는 4,500만원 이하",
+    "amount": "최대 1,500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-B55370100045": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "신복위 소액금융 보증 최대 1,500만원",
+    "target": "채무조정 6개월 이상 성실상환자",
+    "amount": "최대 1,500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-154300000055": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "농촌지역 영유아 3~10명 시설 아이돌봄 지원",
+    "target": "읍면·도서지역 영유아 3~10명 시설",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55370100009": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "햇살론 유스 최대 1,200만원 대출",
+    "target": "만19~34세, 연소득 3,500만원 이하 청년",
+    "amount": "최대 1,200만원",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000011848": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년내일채움공제 지원",
+    "target": "만15~34세 중소기업 정규직 신규 취업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-116010000001": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "월세자금보증 최대 100만원 지원",
+    "target": "보증금 1억 이하, 월세 60만원 이하 월세 계약자",
+    "amount": "최대 100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-B55092800002": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "건강보험 본인부담상한액 초과금 지원",
+    "target": "건강보험 가입자 및 피부양자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B49000100206": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "간이 대지급금 지급",
+    "target": "도산사업장 외 사업장 재직, 퇴직근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55370100038": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "햇살론 특례 최대 1,000만원 대출",
+    "target": "연소득 3,500만원 이하, 신용점수 하위 20% 이하",
+    "amount": "최대 1,000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-WII000000300": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "노후긴급자금 연금수령액 2배 이내 대부",
+    "target": "만 60세 이상 국민연금 수급자",
+    "amount": "연금수령액의 2배",
+    "show": true,
+    "special": true
+  },
+  "g24-999000000025": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "무주택 세대주 월세 최대 960만원 대출 지원",
+    "target": "사회취약계층 수급자, 부부합산소득 5천만원 이하",
+    "amount": "최대 960만원",
+    "show": true,
+    "special": false
+  },
+  "g24-B49000100207": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "산재장해인 원직장 복귀 지원",
+    "target": "장해등급 제1급~제12급 장해급여자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-SD0000003276": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "일자리 창출 사업주 고용창출장려금 지원",
+    "target": "일자리 창출 사업주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-183000000015": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 등 보상금 지급",
+    "target": "국가유공자 본인, 배우자, 자녀 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-149200005016": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년일자리도약장려금 지원",
+    "target": "고용보험 피보험자수 5인 이상 우선지원대상기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000003857": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "취업지원프로그램 이수자 고용 사업주 장려금",
+    "target": "취업지원프로그램 이수자, 중증장애인 고용 사업주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-154300005037": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "농촌 취약계층 주거개선 지원",
+    "target": "농촌 거주 수급권자, 차상위계층 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000228": {
+    "category": "환경·생활",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "슬레이트 건축물 철거 및 처리비 지원",
+    "target": "슬레이트 건축물 소유자",
+    "amount": "최대 700만원",
+    "show": true,
+    "special": false
+  },
+  "g24-999000000090": {
+    "category": "교육",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "다자녀(3명 이상) 국가장학금 지원",
+    "target": "국내대학 학자금지원 9구간 이하 다자녀 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-154300005026": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고령 농업인 농지이양 은퇴직불금 지급",
+    "target": "10년 이상 농업 종사 65~84세 고령 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-154300005041": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전략작물직불금 지원",
+    "target": "농업경영정보 등록 농업인, 농업법인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000004508": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가장학금 I유형 지원",
+    "target": "국내대학 학자금지원 9구간 이하 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000026": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국민내일배움카드 지원",
+    "target": "국민 누구나 (일부 제외)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-999000000013": {
+    "category": "일자리",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "직업계고 등 취업연계 장려금 지원",
+    "target": "직업계고 및 일반고 직업교육위탁과정 3학년",
+    "amount": "500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-999000000072": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인기업 국내외 전시회 참가 지원",
+    "target": "장애인기업",
+    "amount": "200만원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-B49000700017": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "해외취업 청년 정착지원금 지원",
+    "target": "만 34세 이하 해외취업 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55252900232": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "푸른등대 삼성기부장학금 지원",
+    "target": "AI 분야 희망 국내 4년제/전문대 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55370100041": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "소상공인 특례 햇살론카드 지원",
+    "target": "연 가처분소득 600만원 이상, 신용평점 하위 50%",
+    "amount": "월 500만원 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-GMW000000220": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "결핵환자 부양가족 생활보호비 지원",
+    "target": "입원·격리치료명령 받은 결핵환자 부양가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-SD0000006941": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "외국인근로자 등 의료지원",
+    "target": "의료혜택 못 받는 외국인근로자, 난민 등",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
