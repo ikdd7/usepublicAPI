@@ -141623,5 +141623,226 @@
     "amount": "교류활동 지원",
     "show": true,
     "special": false
+  },
+  "g24-O00107400007": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만성질환자 대상 교육 및 관리 서비스 제공",
+    "target": "만성질환자 및 관심있는 지역주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107400009": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "의료급여수급권자 등 의료비 및 의료서비스 지원",
+    "target": "의료급여수급권자, 차상위, 중위소득 90% 미만",
+    "amount": "90% 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107400010": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장기요양등급자 등 복합 욕구자 의료돌봄 통합지원",
+    "target": "장기요양등급자, 만성질환자, 퇴원환자, 노인·장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107400011": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의료취약지 원격협진 서비스 제공",
+    "target": "거동·교통 불편 만성질환자, 치매환자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107400012": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "충남도내 65세 이상 취약계층 의료지원",
+    "target": "65세 이상 취약계층, 의료급여, 차상위, 저소득, 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107400013": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "병원 방문 어려운 환자 대상 가정간호 서비스 제공",
+    "target": "조기퇴원환자, 신생아, 만성질환자, 뇌혈관질환자 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107400014": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "장기요양 등급판정자 대상 재택의료 시범사업",
+    "target": "장기요양 등급판정자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107500001": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "충남 거주 대학생 및 만 50세 이상 방송통신 중·고등학생 장학금 지원",
+    "target": "충남 거주 대학생, 만 50세 이상 방송통신 중·고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107600002": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만 24세 이하 학교밖청소년 학습지원 서비스 제공",
+    "target": "만 24세 이하 학교밖청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107800001": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "창업예정자 및 중소기업, 소상공인 창업·역량강화 교육",
+    "target": "창업예정자, 중소기업, 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107800002": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "충남 소재 중소기업, 소상공인, 예비창업자 맞춤형 경영컨설팅",
+    "target": "중소기업, 소상공인, 예비창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107800009": {
+    "category": "금융",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "금융취약계층 대상 금융복지 종합상담 지원",
+    "target": "충남 거주 개인 및 개인사업자(금융취약계층)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107900001": {
+    "category": "문화",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "서비스",
+    "summary": "충남지역 뮤지션 음반 제작 및 공연 활동 지원",
+    "target": "충남지역 뮤지션 및 충남도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00107900002": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지역콘텐츠 창작인력 양성 교육 지원",
+    "target": "사업별 지원대상 상이",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00108000001": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "가업승계 소상공인 대상 경영지원금 최대 7백만원 지원",
+    "target": "가업승계 소상공인",
+    "amount": "최대 7백만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00108600004": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 시니어 대상 건강검진 지원",
+    "target": "65세 이상 의료급여 수급권자, 차상위",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00108700001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "충남도민 대상 문해교육 및 학력보완 서비스 제공",
+    "target": "충남도민, 저학력 성인, 학력보완 희망자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109000005": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도내 학생 및 구직 희망 청년 대상 일자리 상담 지원",
+    "target": "도내 직업계고·대학생, 구직 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109000010": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "충남 소재 기업 대상 노동법령 준수 및 가족친화 컨설팅",
+    "target": "충남 소재 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00109100001": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "만성질환자 대상 교육 및 정기조사 관리 서비스",
+    "target": "만성질환자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
