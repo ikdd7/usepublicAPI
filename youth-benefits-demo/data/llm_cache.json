@@ -144273,5 +144273,228 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-PTR000051706": {
+    "category": "금융",
+    "tags": [
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "무주택 세대주 오피스텔 구입 자금 최대 2.6% 금리 융자",
+    "target": "부부합산 총소득 6천만원 이하 무주택 세대주",
+    "amount": "연 2.6% (소득 2천만원 이하)",
+    "show": true,
+    "special": false
+  },
+  "g24-B49000700201": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "대한민국명장 선정 시 2천만원 장려금 지급",
+    "target": "15년 이상 종사한 숙련 기술자",
+    "amount": "2,000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-183000000018": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "생존 애국지사 월 최대 465만원 특별예우금 지급",
+    "target": "생존 애국지사",
+    "amount": "월 최대 4,650,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-137100000235": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애 국가대표 선수·지도자 대상 교육지원금 지원",
+    "target": "전·현직 장애 국가대표 선수, 지도자",
+    "amount": "학기당 450만원",
+    "show": true,
+    "special": true
+  },
+  "g24-999000000008": {
+    "category": "복지",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "육아휴직 근로자 육아휴직 급여 지급",
+    "target": "육아휴직 30일 이상 부여받은 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-161300000081": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "등록장애인 대상 주택 편의시설 설치비 최대 380만원 지원",
+    "target": "소득기준 이하 등록장애인",
+    "amount": "호당 380만원",
+    "show": true,
+    "special": true
+  },
+  "g24-B55252900218": {
+    "category": "일자리",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "직업계고 3학년 대상 산업체 채용형 현장실습 지원금 지급",
+    "target": "직업계고 3학년, 채용형 현장실습 이수자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55370100035": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "신용회복지원자 채용 사업주 고용보조금 지급",
+    "target": "신용회복지원자 채용 사업주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-183000000014": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 중상이자 대상 간호수당 지급",
+    "target": "1~2급 중상이자 중 간병 필요한 자",
+    "amount": "월 312만 3천원~",
+    "show": true,
+    "special": true
+  },
+  "g24-105100000001": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "근로·자녀장려금 소득에 따라 장려금 지급",
+    "target": "근로·사업·종교인 소득 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-183000000016": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 등 유족 사망 시 사망일시금 지급",
+    "target": "보상금 수급 유공자·유족 사망 시 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-B55371400002": {
+    "category": "교육",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "산림·임업인 본인·자녀 대상 녹색장학금 지원",
+    "target": "산림·임업인 본인 및 자녀, 전공자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-135200005005": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "중한 질병·부상 의료비 감당 어려운 사람 의료지원",
+    "target": "의료비 감당 곤란한 사람",
+    "amount": "300만원 범위",
+    "show": true,
+    "special": false
+  },
+  "g24-135200005015": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "출생아 대상 첫만남이용권 200만원 지원",
+    "target": "출생아",
+    "amount": "200만원",
+    "show": true,
+    "special": false
+  },
+  "g24-149200005013": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "저탄소·디지털 전환 관련 사업주 대상 산업‧일자리전환 지원금 지급",
+    "target": "저탄소·디지털 전환 관련 사업주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-154300005048": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양봉농가 대상 말벌퇴치장비 지원",
+    "target": "양봉농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-183000000004": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "취업지원 대상자 취업능력개발비용 지원",
+    "target": "취업지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-999000000038": {
+    "category": "복지",
+    "tags": [
+      "예술인"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 예술인 대상 예술활동준비금 300만원 지원",
+    "target": "기준중위소득 120% 이하 예술인",
+    "amount": "300만원",
+    "show": true,
+    "special": false
+  },
+  "g24-B55214900002": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "60세 이상 농업인 대상 노후생활 안정 지원",
+    "target": "60세 이상 농업인, 영농기간 5년 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55252900202": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "국내 4년제·전문대 재학생 대상 푸른등대 기부장학금 지원",
+    "target": "대한민국 국적 국내 4년제·전문대 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
