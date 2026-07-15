@@ -148479,5 +148479,215 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00001867": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 행려사망자 사체처리 지원",
+    "target": "무연고 행려사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00000126": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임신부 인플루엔자 예방접종 지원",
+    "target": "임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002298": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노숙인 쉼터 운영 지원",
+    "target": "노숙인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006154": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "정신건강 심리상담 바우처 지원",
+    "target": "정서적 어려움 국민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003669": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "부랑인 보호 및 변사체 처리비 지원",
+    "target": "부랑인, 무연고 사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00006373": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "철원군 전입세대 지원금 지원",
+    "target": "철원군 전입세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005579": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 주소전입 장려금 지원",
+    "target": "관내 주소 전입자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005429": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "모바일 걷기 앱 워크온 지원",
+    "target": "양구군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000382": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 구호(교통비, 숙박비) 지원",
+    "target": "행려자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00003721": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 여비 및 급식비 지원",
+    "target": "행려자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00003055": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "여성정책 및 협력지원",
+    "target": "여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000412": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "양구군 범죄피해자 지원",
+    "target": "범죄피해자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003027": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "이재민 구호물품 지급",
+    "target": "재난 피해 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000588": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "노숙위기자 귀향 여비 지원",
+    "target": "노숙위기자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00000582": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 사망자 장제 지원",
+    "target": "무연고 사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00005478": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "차상위계층 건강보험료 지원",
+    "target": "차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003703": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "농촌 빈집 정비 지원",
+    "target": "농촌 빈집",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002965": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "위기가구 생활안정 지원",
+    "target": "위기상황 저소득 춘천시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003720": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 긴급 집수리 지원",
+    "target": "긴급 집수리 필요 저소득 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000119": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 건강보험료 지원",
+    "target": "수급자 아닌 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
