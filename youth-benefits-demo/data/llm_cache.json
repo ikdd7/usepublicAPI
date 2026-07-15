@@ -144496,5 +144496,647 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-B55370100010": {
+    "category": "금융",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "대출",
+    "summary": "신용카드 없는 저소득층 신용카드 발급 지원",
+    "target": "신용관리교육 이수, 신용카드 미소지, 연 600만원 이상 소득, 신용평점 하위 20%",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55370100029": {
+    "category": "금융",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "대출",
+    "summary": "경남 거주 저소득층 최대 300만원 대출 지원",
+    "target": "경남 거주 3개월 이상, 연소득 3,500만원 이하, 신용점수 하위 20%",
+    "amount": "최대 300만원",
+    "show": true,
+    "special": false
+  },
+  "g24-B49000100215": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중소기업 퇴직연금 가입 사업주·근로자 수수료 면제",
+    "target": "상시근로자 30명 이하 중소기업 사업주 및 근로자",
+    "amount": "수수료 0원(3년간)",
+    "show": true,
+    "special": false
+  },
+  "g24-135200005059": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "소규모 사업장 근로자·사업주 사회보험료 지원",
+    "target": "근로자 10명 미만 사업장, 월 보수 270만원 미만 신규가입 근로자 및 사업주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000012": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "사회보험 사각지대 해소 지원",
+    "target": "10인 미만 사업장 근로자·예술인·노무제공자 및 사업주, 10인 이상 사업장 예술인·노무제공자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SCY000000040": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "국내 입양 가정 입양 비용 지원",
+    "target": "입양특례법상 허가받은 입양기관 통해 국내 입양 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-135200005003": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "위기 가구 생계 유지 위한 긴급복지 지원",
+    "target": "주소득자 사망·실직 등 위기사유로 생계유지 곤란 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-999000000049": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "산불 재난 특수 진화대 월 261만원 급여 지급",
+    "target": "만 18~70세, 공고일 기준 관내 거주자",
+    "amount": "월 2,617,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-134200000011": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "인문사회계열 우수 대학생 장학금 지원",
+    "target": "사업 참여 대학 인문사회계열 재학생",
+    "amount": "등록금 전액, 생활비",
+    "show": true,
+    "special": false
+  },
+  "g24-999000000007": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "육아기 근로시간 단축 급여 지원",
+    "target": "육아기 근로시간 단축 30일 이상 실시 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-999000000034": {
+    "category": "교육",
+    "tags": [
+      "농업"
+    ],
+    "support_type": "현금",
+    "summary": "졸업 후 농업 분야 취·창업 희망 대학생 장학금 지원",
+    "target": "농업 분야 취·창업 희망 대학 3학년 이상 학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55252900018": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "예술·체육계열 우수 대학생 장학금 지원",
+    "target": "사업 참여 대학 예술·체육계열 재학생",
+    "amount": "등록금 전액, 생활비",
+    "show": true,
+    "special": false
+  },
+  "g24-B55252900229": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전문대학 기술 인재 장학금 지원",
+    "target": "전문대학 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55400900052": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경영난 기업 진로 제시 컨설팅 지원",
+    "target": "경영 애로 기업, 경영 악화 예상 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-183000000013": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고엽제 환자 2세 자녀 수당 지원",
+    "target": "고엽제 환자 자녀 중 2세 질병·장애 판정자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-149200005017": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "예술인·노무제공자 출산 전후 급여 지원",
+    "target": "고용보험 가입 3개월 이상 예술인·노무제공자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-WII000001460": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "근로자 출산·유산·사산 휴가 급여 지원",
+    "target": "출산·유산·사산 휴가 받은 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SPE000000090": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "미취업 등록 장애인 일자리 지원",
+    "target": "18세 이상 미취업 등록 장애인",
+    "amount": "월 57만7천원 ~ 215만원",
+    "show": true,
+    "special": false
+  },
+  "g24-B55252900215": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "직업계고 현장실습 지도 기업 현장교사 지원",
+    "target": "채용형 현장실습 실습생 지도 기업 현장교사",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-WII000001510": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "원폭 피해자에게 의료비 등 지원",
+    "target": "등록된 원폭 피해자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004656": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "출생 아동에게 첫만남이용권 200만원 지급",
+    "target": "출생 아동",
+    "amount": "200만원",
+    "show": true,
+    "special": false
+  },
+  "g24-122000000003": {
+    "category": "일자리",
+    "tags": [
+      "학생",
+      "자영업·창업"
+    ],
+    "support_type": "교육",
+    "summary": "중소기업 취업 희망 학생에게 등록금 전액 지원",
+    "target": "일반대 3학년 이상, 전문대 2학년 이상",
+    "amount": "등록금 전액",
+    "show": true,
+    "special": false
+  },
+  "g24-135200005011": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국내 입양 가정에 입양축하금 지급",
+    "target": "국내 입양 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-135200005058": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "영구 불임 예상자 난자·정자 냉동 지원",
+    "target": "의학적 사유로 영구 불임 예상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-137100000035": {
+    "category": "교육",
+    "tags": [
+      "장애인",
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "장애 학생 선수에게 최대 200만원 장학금 지급",
+    "target": "전국대회 입상 장애 학생 선수",
+    "amount": "최대 200만원",
+    "show": true,
+    "special": false
+  },
+  "g24-999000000069": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "북한이탈주민에게 정착장려금 지급",
+    "target": "북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55271100007": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "건설노동자 및 자녀에게 장학금 지원",
+    "target": "건설노동자 및 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-154300000159": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "송아지 생산 농가에 생산안정 지원",
+    "target": "송아지 생산 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200005031": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "기업에 일생활 균형 인프라 구축비 지원",
+    "target": "우선지원 대상기업·중견기업 사업주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-183000000011": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전몰·순직 군경 자녀에게 수당 지급",
+    "target": "6·25전투 중 전사·순직 군경의 자녀",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-999000000004": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "우선지원 대상기업 근로자에게 배우자 출산휴가 급여 지급",
+    "target": "우선지원 대상기업 소속 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-GMW000000110": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "장기요양 수급자에게 노인복지용구 제공",
+    "target": "장기요양 등급 판정 재가급여 이용 수급자",
+    "amount": "연간 160만원",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000194": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "자원보호 의무 이행 어업인에게 직접지불금 지급",
+    "target": "자원보호 의무 이행 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200000153": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고용보험 미적용 출산여성에게 출산급여 150만원 지급",
+    "target": "고용보험 미적용 출산여성",
+    "amount": "150만원",
+    "show": true,
+    "special": false
+  },
+  "g24-172100000002": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "연구장비 나눔 실적자에게 마일리지 제공",
+    "target": "나눔 장비 등록·이전 실적자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000004601": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "목재펠릿연소기 보급 지원",
+    "target": "목재펠릿보일러 및 난로 설치 희망자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-131200000008": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "감면",
+    "summary": "다자녀 가구 자동차 취득세 감면",
+    "target": "만18세 미만 자녀 2명 이상 양육 가구",
+    "amount": "취득세 감면",
+    "show": true,
+    "special": false
+  },
+  "g24-502000000101": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "입양 숙려기간 미혼모자에게 지원",
+    "target": "출산(예정) 후 미혼모자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000007672": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "임신·출산 진료비 지원",
+    "target": "건강보험 가입자 또는 피부양자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-WII000001060": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "출산육아기 고용안정장려금 지원",
+    "target": "우선지원대상기업 사업주",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000007044": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "선천성 난청검사 및 보청기 지원",
+    "target": "영아 및 만 12세 미만 환아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-183000000006": {
+    "category": "교육",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 보훈장학금 지원",
+    "target": "보훈법령에 따른 교육지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-183000000012": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "고엽제 후유의증 수당 지급",
+    "target": "고엽제 후유의증 장애 판정자",
+    "amount": "월 최대 129.6만원",
+    "show": true,
+    "special": true
+  },
+  "g24-135200000113": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "노인 무릎인공관절 수술 지원",
+    "target": "만 60세 이상 수급자, 차상위, 한부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-999000000009": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "고령자 계속고용장려금 지원",
+    "target": "우선지원, 중견, 사회적기업",
+    "amount": "분기 90만원",
+    "show": true,
+    "special": false
+  },
+  "g24-GMW000000260": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "여성장애인 출산비용 지원",
+    "target": "등록 여성장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-SD0000006936": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "청소년산모 임신·출산 의료비 지원",
+    "target": "만 19세 이하 산모",
+    "amount": "120만원",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000174": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "청년어촌정착지원",
+    "target": "만 18~40세 미만 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-154300000396": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "청년농업인 영농정착지원",
+    "target": "만 18~40세 미만 청년농",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SME000000100": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 지원",
+    "target": "난임진단서 제출 난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000002522": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농업인 연금보험료 지원",
+    "target": "국민연금 지역가입자 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200005007": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "국민취업지원제도 I유형 지원",
+    "target": "저소득, 청년 구직자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000012326": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "의료급여 임신·출산 진료비 지원",
+    "target": "의료급여 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-149200000081": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 인턴제 지원",
+    "target": "중증·발달장애인, 만 50세 이상",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-183000000002": {
+    "category": "환경·생활",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "친환경차량 지원",
+    "target": "국가유공자, 고엽제후유의증환자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-B55258300004": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "근로장애인 전환지원",
+    "target": "직업재활시설 최저임금 적용제외 근로장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-B55258400207": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "조기폐차 지원",
+    "target": "배출가스 4·5등급 경유차",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55271100008": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "건설근로자 퇴직공제금 지급",
+    "target": "건설근로자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
