@@ -149107,5 +149107,227 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-313000000158": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "마포구 성인 평생교육이용권 지원",
+    "target": "만 19세 이상 성인, 장애인, 65세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006587": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 어르신 대상포진 예방접종 지원",
+    "target": "저소득층 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006577": {
+    "category": "일자리",
+    "tags": [
+      "중장년"
+    ],
+    "support_type": "서비스",
+    "summary": "중장년 자격증 시험 응시료 지원",
+    "target": "기장군 중장년층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006576": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 창업자 임차료 지원",
+    "target": "기장군 청년 창업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006575": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 면접수당 지원",
+    "target": "기장군 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006574": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 자격시험 응시료 지원",
+    "target": "기장군 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006573": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "초등학교 입학준비금 지원",
+    "target": "초등학교 입학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006586": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "장수 어르신 축하물품 지원",
+    "target": "장수 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006588": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "타시도 학교 신입생 입학준비금 지원",
+    "target": "서울시 외 학교 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006571": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산축하용품 지원",
+    "target": "출생 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002729": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년통장 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006581": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "초등학교 등 입학준비금 지원",
+    "target": "신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006580": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고령노인 목욕비 및 이미용비 지원",
+    "target": "고령노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006572": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의료취약지역 아동 교통비 지원",
+    "target": "의료취약지역 거주 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001520": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 월세 지원",
+    "target": "안양시 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006584": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "학자금대출 신용회복지원",
+    "target": "학자금대출 연체 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006578": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "입원 생활비 지원",
+    "target": "취약노동자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006585": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청소년부모 아동양육비 추가 지원",
+    "target": "청소년부모 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006589": {
+    "category": "금융",
+    "tags": [
+      "중장년"
+    ],
+    "support_type": "서비스",
+    "summary": "경남도민연금 IRP 활용 지원",
+    "target": "40~54세 경남도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003306": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 귀향여비 지급",
+    "target": "행려자(노숙인 포함)",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
