@@ -146232,5 +146232,1208 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-B55271100020": {
+    "category": "복지",
+    "tags": [
+      "운수종사자"
+    ],
+    "support_type": "서비스",
+    "summary": "건설노동자 휴양소 이용 지원",
+    "target": "건설노동자 (252일 이상 적립)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-134200000045": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "성인 기초생활수급자 등 평생교육강좌 수강료 지원",
+    "target": "19세 이상 기초생활수급자, 차상위계층 등",
+    "amount": "연간 35만원",
+    "show": true,
+    "special": true
+  },
+  "g24-SD0000003485": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "농업경영체 및 농산물가공사업자 종합자금 지원",
+    "target": "원예·축산 농업경영체, 농산물가공사업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-134200005047": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "취학유예 5세 유아 무상교육비·보육료 지원",
+    "target": "취학유예 5세 유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-135200005017": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시범지역 발달장애인 긴급돌봄 지원",
+    "target": "시범지역 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55214900001": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "농지규모화 지원 (매입·임차·매도·임대)",
+    "target": "비농업인, 은퇴농업인, 농업법인 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-172100000012": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 통신요금 감면",
+    "target": "기초생활수급자 (기준 중위소득 30~40% 이하)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-135200005037": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애인 긴급돌봄 시범사업 지원",
+    "target": "만 6세~65세 미만 등록 발달장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B41000200003": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기초생활수급자 등 전기요금 복지할인",
+    "target": "기초수급자, 차상위계층, 장애인, 다자녀가구 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-WII000000380": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "사회복지 종사자 상해보험 보험료 지원",
+    "target": "사회복지 기관 종사자",
+    "amount": "월 10,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-154300000043": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "소 브루셀라병 검진 채혈비 지원",
+    "target": "축산농가 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-GES000000120": {
+    "category": "교육",
+    "tags": [
+      "학생",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "대학 재학생 국가근로장학금 지원",
+    "target": "사업 참여대학 재학생 (성적·소득기준 충족)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-149200005001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "직업훈련 수급자 교통비·식대 지원",
+    "target": "직업안정기관 지시 훈련 수급자",
+    "amount": "일 10,320원",
+    "show": true,
+    "special": false
+  },
+  "g24-B55037300001": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기초수급자 등 에너지복지요금 지원",
+    "target": "기초수급자, 차상위계층, 장애인, 다자녀가구 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-SCH000000070": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "연장형 보육료 지원 (만 0~12세)",
+    "target": "만 0~12세 보육료 지원 대상 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55288100004": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "기초수급자 학점은행제 수수료 면제",
+    "target": "기초생활수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-149200000135": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "폴리텍대학 훈련생 훈련장려금·교통비 지원",
+    "target": "15세 이상 미취업 폴리텍대학 훈련생",
+    "amount": "월 5만원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-GMW000000210": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고혈압·당뇨병 환자 등록관리서비스",
+    "target": "만 65세 이상 고혈압·당뇨병 환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-WLU000000020": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "차상위 본인부담 경감대상자 지원",
+    "target": "희귀·중증난치·중증질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-140000000002": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 국립수목원 관람료 할인",
+    "target": "국가유공자, 장애인, 기초수급자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-154300005045": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "대학생에게 천원의 아침밥 제공",
+    "target": "전국 대학교 재학생",
+    "amount": "1,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-SPE000000070": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "등록장애인 의료비 지원",
+    "target": "의료급여 2종 수급권자 등록장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-149200000056": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 근로자 근로지원인 지원",
+    "target": "중증 장애인 근로자, 장애인 공무원",
+    "amount": "시간당 최대 300원 본인부담금",
+    "show": true,
+    "special": true
+  },
+  "g24-GPV000000390": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 등 LPG차량 세금인상분 지원",
+    "target": "독립유공자, 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-PTR000051925": {
+    "category": "환경·생활",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농촌 폐비닐 등 수거보상비 지급",
+    "target": "농촌 폐비닐, 폐농약용기류 수거 농민",
+    "amount": "60원~200원/kg",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000060": {
+    "category": "금융",
+    "tags": [
+      "청년",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "청년내일저축계좌 자산형성 지원",
+    "target": "근로빈곤층 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003257": {
+    "category": "금융",
+    "tags": [
+      "보훈대상자",
+      "장애인",
+      "저소득",
+      "한부모",
+      "조손"
+    ],
+    "support_type": "현금",
+    "summary": "사회적 취약계층 이동통신요금 감면",
+    "target": "보훈대상자, 장애인, 저소득, 한부모·조손",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004657": {
+    "category": "복지",
+    "tags": [
+      "임신",
+      "출산",
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "영유아 부모급여 지원",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001171": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "아동수당 지급",
+    "target": "만 8세 미만 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001103": {
+    "category": "교육",
+    "tags": [
+      "아동",
+      "청소년",
+      "저소득",
+      "한부모",
+      "조손"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 자녀 고교학비 지원",
+    "target": "저소득층 가정 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003253": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "가정양육수당 지원",
+    "target": "가정에서 양육하는 영유아·아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000024": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "육아",
+      "다문화",
+      "탈북민",
+      "다자녀",
+      "장애인",
+      "한부모",
+      "조손"
+    ],
+    "support_type": "서비스",
+    "summary": "아이돌봄서비스 지원",
+    "target": "만 12세 이하 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000078": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "청소년",
+      "청년",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "위기청소년 생활비·치료비 등 지원",
+    "target": "사회·경제적 어려움 겪는 위기청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001068": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "조손"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 아동양육비 지원",
+    "target": "저소득 한부모가족, 조손가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003227": {
+    "category": "교육",
+    "tags": [
+      "아동",
+      "청소년",
+      "저소득",
+      "한부모",
+      "조손"
+    ],
+    "support_type": "현금",
+    "summary": "초중고 학생 교육정보화 지원",
+    "target": "초중고 학생",
+    "amount": "PC, 인터넷 통신비",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000781": {
+    "category": "복지",
+    "tags": [
+      "아동",
+      "청소년",
+      "청년",
+      "저소득",
+      "한부모",
+      "조손"
+    ],
+    "support_type": "현물",
+    "summary": "취약계층 여성청소년 생리용품 지원",
+    "target": "취약계층 여성청소년",
+    "amount": "생리용품",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001155": {
+    "category": "일자리",
+    "tags": [
+      "노년",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "노인일자리 및 사회활동 지원",
+    "target": "노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-VOU000000020": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "만6세~65세 미만 등록장애인 활동지원",
+    "target": "만6세~65세 미만 등록장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000061": {
+    "category": "건강",
+    "tags": [
+      "임신",
+      "출산",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "의료급여 수급자 임신·출산 진료비 지원",
+    "target": "의료급여 수급자, 2세 미만 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004658": {
+    "category": "문화",
+    "tags": [
+      "아동",
+      "청소년",
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "과학문화 소외계층 바우처 지원",
+    "target": "과학문화 소외지역 및 계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SBA000000050": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "생계·의료·주거급여 수급자 사망 시 장제급여 지원",
+    "target": "생계·의료·주거급여 수급자, 의사자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-999000000092": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "수급자 및 차상위계층 양곡가액 90% 할인 지원",
+    "target": "생계·의료급여 수급자, 차상위계층",
+    "amount": "양곡가액의 약 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-SSE000000050": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "65세 이상 노인 맞춤 돌봄 서비스 지원",
+    "target": "65세 이상 기초생활수급자, 차상위계층, 기초연금수급자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000076": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "바우처",
+    "summary": "저소득층 유·청소년 스포츠강좌이용권 지원",
+    "target": "저소득층 유·청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001176": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국가 암검진 사업을 통한 암 조기 발견 지원",
+    "target": "청년, 중장년, 노년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001147": {
+    "category": "복지",
+    "tags": [
+      "다문화",
+      "장애인",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "연장형 보육료 등 지원",
+    "target": "연장형 어린이집 이용 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004649": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "임대",
+    "summary": "청년·신혼부부·한부모 대상 행복주택 공급",
+    "target": "청년, (예비)신혼부부, 한부모가족, 대학생",
+    "amount": "시세보다 저렴",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003240": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "바우처",
+    "summary": "취약계층 평생교육이용권 지원",
+    "target": "저소득층, 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-SD0000008743": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "소득 하위 50% 이하 재난적 의료비 지원",
+    "target": "소득 하위 50% 이하",
+    "amount": "본인부담 비급여 80~50%",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003195": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애아동 발달재활서비스 지원",
+    "target": "정신적, 감각적 장애아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-135200000114": {
+    "category": "건강",
+    "tags": [
+      "임신"
+    ],
+    "support_type": "현금",
+    "summary": "고위험 임산부 의료비 지원",
+    "target": "19대 고위험 임신질환 입원치료 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003279": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 부모 자녀 언어발달지원사업",
+    "target": "장애인 부모의 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001169": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "의료급여 틀니·치과임플란트 지원",
+    "target": "65세 이상 노인 수급권자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001093": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "독거노인·장애인 응급안전안심서비스 지원",
+    "target": "독거노인, 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003213": {
+    "category": "건강",
+    "tags": [
+      "임신"
+    ],
+    "support_type": "서비스",
+    "summary": "인플루엔자 국가예방접종 지원사업",
+    "target": "어르신, 임신부, 어린이",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001087": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 가사·간병 방문 지원사업",
+    "target": "일상생활 어려운 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001104": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "한부모가족 자녀 고교 학비 지원",
+    "target": "한부모가족보호대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001162": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "긴급복지 연료비 및 전기요금 지원",
+    "target": "긴급복지 주지원 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003192": {
+    "category": "교육",
+    "tags": [
+      "다문화"
+    ],
+    "support_type": "서비스",
+    "summary": "다문화가족 방문 한국어·부모·자녀 교육 지원",
+    "target": "집합교육 참여 어려운 다문화가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003262": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애아동 가족 돌봄 및 휴식 지원 서비스",
+    "target": "장애아동 가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000001": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "어선 에너지 절감 장비 설치 지원",
+    "target": "연근해 허가 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000007": {
+    "category": "기타",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "해양사고 국선 심판변론인 선정 지원",
+    "target": "사회적 약자 해양사고관련자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-119200000008": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "국제옵서버 승선경비 지원",
+    "target": "국제옵서버 승선 원양선사",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000010": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "합작수산물 관세 감면 추진",
+    "target": "수산물 수입자",
+    "amount": "관세감면",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000012": {
+    "category": "금융",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "귀어 창업 및 주택구입 융자 지원",
+    "target": "만 65세 이하 귀어업인, 재촌비어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000016": {
+    "category": "금융",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "원양어업 경영자금 융자 지원",
+    "target": "원양어업 허가자, 합작 해외법인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000022": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "원양어선 안전펀드 조성 지원",
+    "target": "원양어업 허가자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000027": {
+    "category": "금융",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "산지·소비지 유통자금 융자 지원",
+    "target": "산지위판장, 도매시장 법인, 중도매인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000044": {
+    "category": "금융",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "수산경영인 회생자금 지원",
+    "target": "어업경영체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000045": {
+    "category": "금융",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "어업경영자금 융자 지원",
+    "target": "어업경영체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000053": {
+    "category": "금융",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "TAC 참여어업인 경영개선자금 지원",
+    "target": "TAC 참여 어업인",
+    "amount": "융자 100%",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000055": {
+    "category": "금융",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "대출",
+    "summary": "연안선박 현대화 지원",
+    "target": "내항여객/화물운송사업자, 선박대여업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000056": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "안전복지형 연근해어선 기반구축 지원",
+    "target": "선령 15년 이상 연근해어선 소유 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000066": {
+    "category": "교육",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "어업인 역량 강화 교육 지원",
+    "target": "어업인, 어업인 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000067": {
+    "category": "교육",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "어업인 안전조업 교육 지원",
+    "target": "어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000073": {
+    "category": "교육",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "어업인 및 후계자 교육 지원",
+    "target": "어업인, 어업 종사 희망자, 수산업경영인",
+    "amount": "무상교육",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000074": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "천일염 장기저장시설 설치 지원",
+    "target": "천일염 생산 개인, 법인, 조합 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000077": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "천일염 포장재 지원",
+    "target": "천일염 생산 개인, 법인, 조합 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000078": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "염전 바닥재 개선 지원",
+    "target": "천일염 생산 개인, 법인, 조합 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000082": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "수산물 물류환경 개선 지원",
+    "target": "어업인, 생산자단체",
+    "amount": "25%",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006467": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "장례비 최대 100만원 지원",
+    "target": "유족(연고자)",
+    "amount": "최대 100만원",
+    "show": true,
+    "special": false
+  },
+  "bd-e38090ed8c8c": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "주택 태양광 설치비 91만원 지원",
+    "target": "파주시민",
+    "amount": "91만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001538": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "무연고 사망자 장례비 최대 80만원 지원",
+    "target": "무연고 사망자",
+    "amount": "최대 80만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003694": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화장 장례비 최대 50만원 지원",
+    "target": "철원군 거주 사망자",
+    "amount": "최대 50만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000966": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "광복절 애국지사 및 유족 위문금 10만원 지급",
+    "target": "애국지사 및 유족",
+    "amount": "10만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001550": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 귀향 및 사망 장례비 지원",
+    "target": "행려자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005249": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "출산 가정 출산장려금 지원",
+    "target": "출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001339": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노숙인 장례의식 지원",
+    "target": "노숙인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001433": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "행려자 관리 서비스 제공",
+    "target": "행려자",
+    "amount": "",
+    "show": false,
+    "special": false
+  },
+  "bj-WLF00006517": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "예비부모 백일해 예방접종 지원",
+    "target": "임신부, 신생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002038": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 행려사망자 시신 처리",
+    "target": "무연고 행려사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00003899": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "소외계층 및 무연고 장례 지원",
+    "target": "소외계층, 무연고자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001827": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 위로금 지급",
+    "target": "참전유공자 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002744": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 행려사망자 처리",
+    "target": "무연고 행려사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00000873": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 사망자 장례 처리",
+    "target": "무연고 사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00005624": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "BF 인증 수수료 지원",
+    "target": "이동약자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002745": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 사망자 처리",
+    "target": "무연고 사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00002638": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "고등학교 신입생 교복구입비 지원",
+    "target": "고등학교 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002639": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "무연고 사망자 장제비 지급",
+    "target": "무연고 사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00004611": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "고등학교 신입생 교복구입비 지원",
+    "target": "고등학교 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
