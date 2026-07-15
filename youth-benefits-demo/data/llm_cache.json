@@ -148689,5 +148689,209 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00005617": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "심뇌혈관질환자 진료 및 응급처치 의료기관 운영비 지원",
+    "target": "심뇌혈관질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003780": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화장 장려금 지원으로 화장 문화 정착",
+    "target": "화장하는 군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002307": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "노숙인 귀향 여비 지원",
+    "target": "노숙인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005367": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 배우자 복지수당 지급",
+    "target": "참전유공자 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002652": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가유공자 유족 사망 위로금 지급",
+    "target": "국가유공자 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004266": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "국가 유공자 예우 수당 및 사망 위로금 지원",
+    "target": "국가 유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002229": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 보훈대상자 월동 대책비 지원",
+    "target": "생활 어려운 저소득 보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002519": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국가유공자 현충일 참배 행사 지원",
+    "target": "국가유공자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000795": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "찾아가는 복지 방문 상담 및 서비스 제공",
+    "target": "복지 사각지대 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002328": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "위기상황 저소득 구민 긴급구호 지원",
+    "target": "법적 지원 못 받는 위기 구민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004254": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보호종료아동 생활 보조수당 지급",
+    "target": "보호종료아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001342": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "결혼이민자 학원비 지원으로 취업 역량 강화",
+    "target": "결혼이민자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001982": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 숙박·여비 지원 및 무연고 사망자 처리",
+    "target": "행려자, 무연고 사망자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001789": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화장 장려금 지원으로 화장 문화 정착",
+    "target": "화장하는 군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006060": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "인구 증가 위한 결혼지원금 지원",
+    "target": "결혼하는 군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006059": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "주택 화재 피해 주민 지원",
+    "target": "주택 화재 피해 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005662": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "근로자 목돈 마련 위한 일자리 안심공제",
+    "target": "춘천시 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000114": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경제적 어려움 정신건강 치료비 지원",
+    "target": "경제적 어려움 정신질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003116": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "재난·재해 지역 주민 진료비 및 예방접종 감면",
+    "target": "재난·재해 지역 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003386": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 유족(배우자) 복지수당 지급",
+    "target": "참전유공자 유족(배우자)",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
