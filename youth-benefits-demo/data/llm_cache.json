@@ -148893,5 +148893,219 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00004545": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "관내 봉안시설 저렴하게 제공",
+    "target": "지역주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003718": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "가정폭력 성폭력 예방교육 실시",
+    "target": "전체 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001817": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "양양군민 화장 문화 장려 지원",
+    "target": "양양군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003387": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 여비 보상",
+    "target": "행려자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003623": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 숙박비 및 귀향여비 지급",
+    "target": "행려자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000117": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "무연고·저소득 사망자 장례비 지원",
+    "target": "무연고·저소득 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005710": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 교통비 지원",
+    "target": "난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005498": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산축하용품 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003596": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "관내 사망자 화장비 차등 지원",
+    "target": "관내 사망자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000346": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "요보호·학대피해 아동 식비 등 지원",
+    "target": "요보호·학대피해 아동",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000415": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "행려자 구호 지원",
+    "target": "행려자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003491": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "복지사각지대 저소득층 생계비 지원",
+    "target": "복지사각지대 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001554": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 사망자 장례 지원 및 행려자 보호",
+    "target": "무연고 사망자, 행려자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000279": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노숙인 구호 및 권익 보장",
+    "target": "노숙인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000621": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "잠재적 위기가구 발굴 및 맞춤형 복지 제공",
+    "target": "잠재적 위기가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003412": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화장 장례 시 장려금 지급",
+    "target": "화장으로 장례 치른 자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003562": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "행려자 보호 지원",
+    "target": "행려자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006536": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "출산·입양 가정 쓰레기 봉투 지원",
+    "target": "출산·입양 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006534": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "제1형 당뇨병환자 관리기기 구입비 지원",
+    "target": "제1형 당뇨병환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006528": {
+    "category": "복지",
+    "tags": [
+      "운수종사자"
+    ],
+    "support_type": "서비스",
+    "summary": "이동노동자 휴게쉼터 조성",
+    "target": "이동노동자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
