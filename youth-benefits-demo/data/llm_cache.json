@@ -148266,5 +148266,218 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00005972": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화장 장려금 지원",
+    "target": "화장 장려금 지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005304": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "공공임대주택 공동전기료 지원",
+    "target": "관내 공공임대주택 거주 저소득 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005205": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "초중고 입학준비금 지원",
+    "target": "관내 초중고등학교 입학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004835": {
+    "category": "일자리",
+    "tags": [
+      "노무제공자",
+      "예술인",
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "노무제공자, 예술인, 영세사업주 산재보험료 지원",
+    "target": "노동취약계층(노무제공자, 예술인, 영세사업주)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004837": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "노동취약계층 유급병가비 지원",
+    "target": "노동취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004843": {
+    "category": "건강",
+    "tags": [
+      "운수종사자"
+    ],
+    "support_type": "현금",
+    "summary": "건설일용노동자 파상풍 예방접종비 지원",
+    "target": "건설일용노동자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001564": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "아빠 육아휴직 장려금 지원",
+    "target": "육아휴직 남성근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003021": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "부랑인 및 행려자 임시구호 및 장의비 지원",
+    "target": "부랑인, 행려자, 무연고 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001309": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 귀향여비 및 급식비 지원",
+    "target": "차비 없는 행려자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000780": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "무연고 행려 사망자 장제비 지원",
+    "target": "무연고 행려 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001431": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "노숙인 임시 보호 및 여비 지원",
+    "target": "노숙인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005956": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "돌봄 공백 해소 위한 신속 돌봄 서비스 제공",
+    "target": "돌봄 공백 겪는 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004233": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "1인가구"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부 및 청년 전월세 대출이자 지원",
+    "target": "광명시 거주 신혼부부 및 청년 무주택자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005424": {
+    "category": "주거",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현물",
+    "summary": "청년 창업 공간 및 주거위기 대상자 임시주거 제공",
+    "target": "수원시 청년 창업가, 주거위기 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000788": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노숙인 생활, 의료, 고용 등 종합 지원",
+    "target": "노숙인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003327": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 귀향여비 및 숙식비 지원",
+    "target": "숙식 능력 없는 행려자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005875": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 귀가여비 지급",
+    "target": "행려자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005025": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지역사회보호체계 구축 및 운영",
+    "target": "지역사회보장협의체",
+    "amount": "",
+    "show": false,
+    "special": false
+  },
+  "bj-WLF00001345": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "평택시 화장 장려금 지원",
+    "target": "평택시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003786": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "재해 이재민 구호물품 지원",
+    "target": "재해 이재민, 일시대피자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
