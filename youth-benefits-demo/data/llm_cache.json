@@ -152891,5 +152891,224 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00005426": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "무주택"
+    ],
+    "support_type": "서비스",
+    "summary": "전세보증금 반환보증 보증료 지원",
+    "target": "전 연령 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004768": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 사업정리 지원",
+    "target": "6개월 이상 영업한 폐업 및 폐업 예정 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004801": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "학자금 장기연체자 신용회복 지원",
+    "target": "학자금대출 연체로 신용유의자가 된 도민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000835": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "중·고등학교 신입생 교복구입비 지원",
+    "target": "중·고등학교 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006211": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "폭력피해 이주여성 상담 및 지원",
+    "target": "폭력피해 이주여성 및 가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006210": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노숙인 재활시설 기능보강",
+    "target": "노숙인 시설",
+    "amount": "",
+    "show": false,
+    "special": false
+  },
+  "bj-WLF00003903": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "위기가정 긴급복지 지원",
+    "target": "법·제도 기준 미달 위기가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004511": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 명예수당 지원",
+    "target": "참전유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005718": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시민 누구나 이용 가능한 통합돌봄 지원",
+    "target": "돌봄이 필요한 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004161": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "정신질환자 치료비 및 사례관리 지원",
+    "target": "정신질환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000009": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농어업인 수당 지원",
+    "target": "강원특별자치도 농어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002689": {
+    "category": "복지",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "바우처",
+    "summary": "여성임업인 복지바우처 지원",
+    "target": "여성임업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005643": {
+    "category": "건강",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 지원",
+    "target": "난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005127": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득주민 자녀 장학금 지원",
+    "target": "저소득주민 자녀 및 본인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006374": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현물",
+    "summary": "결식우려아동 급식카드 지원",
+    "target": "결식우려아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002672": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "여성폭력 예방 교육 및 홍보",
+    "target": "여성",
+    "amount": "",
+    "show": false,
+    "special": false
+  },
+  "bj-WLF00006037": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전세사기 피해자 생활안정지원금 지원",
+    "target": "전세사기 피해자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006036": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전세사기 피해자 이주비 지원",
+    "target": "전세사기 피해자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000378": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득주민 건강보험료 지원",
+    "target": "건강보험료 납부 어려운 저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004401": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의사상자 및 유가족 지원",
+    "target": "의사상자 및 유가족",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
