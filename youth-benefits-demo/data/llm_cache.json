@@ -153690,5 +153690,18 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-370000000129": {
+    "category": "교육",
+    "tags": [
+      "구직중",
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "미취업 청년 자격시험 응시료 최대 10만원 지원",
+    "target": "남구 거주 19~39세 미취업·미창업 청년",
+    "amount": "최대 10만원",
+    "show": true,
+    "special": false
   }
 }
