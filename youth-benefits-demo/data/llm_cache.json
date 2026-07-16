@@ -150832,5 +150832,205 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00004748": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경주시 출생아 가정 경제 부담 경감 지원",
+    "target": "경주시 관내 출생아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003932": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "경산시 화장 이용 주민 비용 부담 경감 지원",
+    "target": "경산시 화장 이용 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002986": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청도군 화장 문화 장려금 지원",
+    "target": "청도군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000440": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청도군 행려자 구호 및 무연고 사망자 장례 지원",
+    "target": "청도군 행려자, 무연고 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002245": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의로운 시민 위로금 지원",
+    "target": "타인 구하다 사망·부상·피해 입은 시민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003092": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 배우자 수당 지원",
+    "target": "참전유공자 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001810": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영천시 화장 장려금 지원",
+    "target": "영천시 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003095": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "칠곡군 화장 장려금 지원",
+    "target": "칠곡군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000472": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "무연고 사망자 장제비 지원",
+    "target": "무연고 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002148": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고립 위기가구 건강음료 배달 지원",
+    "target": "고립 위기가구",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005508": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전입 시민 지원 혜택 확대",
+    "target": "전입 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004190": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "상주시 3세대 이상 거주 가구 효도수당 지원",
+    "target": "상주시 3세대 이상 거주 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000535": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "행려자 귀가 구호비 및 무연고 사망자 장례 지원",
+    "target": "행려자, 무연고 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002433": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "행려자 재활 및 자립 지원",
+    "target": "행려자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005563": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "근로취약계층 유급병가 생계비 지원",
+    "target": "근로소득자, 영세 자영업자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000337": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "곡성군 화장 시설 이용료 지원",
+    "target": "곡성군 1년 이상 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002426": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영광군 저소득 주민 보험료 지원",
+    "target": "영광군 저소득 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004216": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 숙박비 및 귀향 여비 지급",
+    "target": "행려자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002448": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 사망자 장례 처리 지원",
+    "target": "무연고 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002449": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "화장 장려금 지원",
+    "target": "지역 주민",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
