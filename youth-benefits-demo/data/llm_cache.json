@@ -153110,5 +153110,228 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006600": {
+    "category": "교육",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "미취업 청년 어학·자격증 취득 지원",
+    "target": "충주시 미취업 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006599": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 신혼부부 월세 지원",
+    "target": "청년 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006601": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "중증장애인 자산형성 지원",
+    "target": "중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006615": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "검정고시 합격 축하금 지원",
+    "target": "검정고시 합격자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006609": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임산부 백일해 예방접종 지원",
+    "target": "임산부 및 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006614": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "제1형 당뇨환자 의료비 지원",
+    "target": "제1형 당뇨환자",
+    "amount": "본인부담금 20%",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006612": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전입세대 전입실비 지원",
+    "target": "관내 전입세대 및 외국인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006602": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임산부 진료 교통비 지원",
+    "target": "임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006606": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의료 취약지역 민간의료기관 지원",
+    "target": "양주시 거주 주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006598": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 입학준비금 지원",
+    "target": "어린이집 입학 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004476": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "남성 근로자 육아휴직 장려금 지원",
+    "target": "육아휴직 중인 남성 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005046": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 산후조리비 지원",
+    "target": "울산시 출생신고 가정",
+    "amount": "50만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000962": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "강제동원 피해여성근로자 생활보조비 지원",
+    "target": "대일항쟁기 강제동원 피해여성근로자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006432": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "방문 장애인 등록 서비스 지원",
+    "target": "거동 불편 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005328": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "인천형 기초생활보장 지원",
+    "target": "비수급 빈곤층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001696": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인활동지원사 건강검진비 지원",
+    "target": "장애인활동지원사",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004557": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "인천형 긴급복지 지원",
+    "target": "위기상황 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002661": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "명절 위문품 지원",
+    "target": "취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002255": {
+    "category": "주거",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "저소득층 주택임대료 보조",
+    "target": "저소득층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004792": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "생활체육교실 운영 지원",
+    "target": "생활체육 동호인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
