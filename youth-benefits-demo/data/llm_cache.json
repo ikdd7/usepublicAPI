@@ -153333,5 +153333,362 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006593": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "강화군 어르신 여객선 운임 무료 지원",
+    "target": "관내 70세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000773": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "부평구 출생아 출산 축하용품 지원",
+    "target": "2018년 이후 부평구 출생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003955": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현물",
+    "summary": "울주군 청년 면접정장 대여 지원",
+    "target": "취업 준비 중인 울주군 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006608": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "청주시 취약계층 대상포진 예방접종 지원",
+    "target": "청주시 취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006617": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "취약계층 아동청소년 영구치 치료 지원",
+    "target": "취약계층 아동청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006616": {
+    "category": "금융",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "대출",
+    "summary": "공주시 다자녀가구 주택구입/전세자금 이자 지원",
+    "target": "공주시 거주 무주택 다자녀가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006613": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "청년 주택자금 대출이자 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006611": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "예산군 암환자 가발구입비 지원",
+    "target": "예산군 저소득층 암환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006610": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "공주시 결식 우려 아동 1식 추가 급식 지원",
+    "target": "결식 우려 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006604": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "보령시 아빠 육아휴직 장려금 지원",
+    "target": "보령시 남성 근로자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006603": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "산후조리 비용 지원",
+    "target": "양육 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006594": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "출생축하금 지원",
+    "target": "출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006619": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "성남시 청년 취업준비 컨설팅 지원",
+    "target": "성남시 취업 어려움 겪는 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006618": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "성남시 청년 면접준비 비용 지원",
+    "target": "면접 비용 부담 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006597": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "성주군 대상포진 예방접종 지원",
+    "target": "성주군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006590": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다함께돌봄센터 냉난방비 지원",
+    "target": "돌봄이 필요한 아동(6~12세)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006582": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모신생아 건강관리 서비스 본인부담금 지원",
+    "target": "산모·신생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006596": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "남해군 60세 이상 대상포진 예방접종 지원",
+    "target": "남해군 60세 이상 군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006595": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "거제시 65세 이상 대상포진 예방접종 지원",
+    "target": "거제시 65세 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005758": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 차량 안전벨트 지원",
+    "target": "임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002548": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 이동 불편 해소 및 사회참여 지원",
+    "target": "이동에 어려움을 겪는 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002633": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 배우자에게 월 8만원 지급",
+    "target": "6.25 또는 월남전 참전유공자 사망 시 배우자",
+    "amount": "월 8만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00002544": {
+    "category": "복지",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 노란우산공제 정액장려금 지원",
+    "target": "영세 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002541": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "국가유공자 위문",
+    "target": "독립유공자 및 보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00003631": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국가보훈대상자 호국순례(안보교육) 지원",
+    "target": "국가보훈대상자 및 유가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00005639": {
+    "category": "복지",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "1인 소상공인 고용보험료 지원",
+    "target": "1인 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003632": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아동복지시설 아동 예술제 지원",
+    "target": "아동복지시설 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004465": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "우울증환자 치료관리비 지원",
+    "target": "자살위험 고위험군 우울증환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005759": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "농어업인 공익수당 지원",
+    "target": "충청북도 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005637": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부 친환경농산물 지원",
+    "target": "임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000187": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "지역공동체 제안 공모사업 지원",
+    "target": "지역공동체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005036": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "개인채무조정 지원",
+    "target": "채무 상환 어려운 개인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
