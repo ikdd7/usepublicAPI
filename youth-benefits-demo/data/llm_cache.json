@@ -153798,5 +153798,17 @@
     "amount": "보육료 차액",
     "show": true,
     "special": false
+  },
+  "g24-644000000232": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "기준중위소득 150% 이하 출산가정 산모·신생아 건강관리 지원",
+    "target": "기준중위소득 150% 이하 출산가정",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
