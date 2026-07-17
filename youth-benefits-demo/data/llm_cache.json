@@ -153810,5 +153810,15 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bd-eab2bdeab8b0": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "AI 심화과정 참가자 모집",
+    "target": "미래교육 창의캠프 참가자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
