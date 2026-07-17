@@ -153703,5 +153703,100 @@
     "amount": "최대 10만원",
     "show": true,
     "special": false
+  },
+  "g24-418000000240": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "위기가구 생활안정 지원",
+    "target": "춘천시 거주, 중위소득 120% 이하 가구",
+    "amount": "의료비, 간병비, 생계비 등",
+    "show": true,
+    "special": true
+  },
+  "g24-424000000159": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어르신 봉양수당 지급",
+    "target": "동일 주거지 거주 어르신(80세 이상) 봉양자",
+    "amount": "월 2만원~",
+    "show": true,
+    "special": false
+  },
+  "g24-431000000106": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "신장장애인 투석비 지원",
+    "target": "화천군 거주, 최저생계비 200% 이하 신장장애인",
+    "amount": "투석비",
+    "show": true,
+    "special": true
+  },
+  "g24-435000000141": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 재가노인 식사 배달",
+    "target": "양양군 기초생활수급 및 차상위 어르신",
+    "amount": "주 2회 식사",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000667": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "무주택",
+      "1인가구"
+    ],
+    "support_type": "현금",
+    "summary": "대전청년 월세 최대 20만원 지원",
+    "target": "대전 거주 19~39세 무주택 청년",
+    "amount": "월 최대 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-630000000141": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "건강보험료 및 장기요양보험료 지원",
+    "target": "만65세 이상, 장애인, 한부모 등",
+    "amount": "월 1만원 미만 세대",
+    "show": true,
+    "special": true
+  },
+  "g24-642000000686": {
+    "category": "육아",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "어린이집 입학준비금 지원",
+    "target": "강원 거주, 저소득·다문화·장애아동 등",
+    "amount": "입학준비금",
+    "show": true,
+    "special": false
+  },
+  "g24-642000000710": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보육료 부모부담금 차액 지원",
+    "target": "만3~5세, 인건비 미지원 어린이집 이용 아동",
+    "amount": "보육료 차액",
+    "show": true,
+    "special": false
   }
 }
