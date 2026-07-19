@@ -153820,5 +153820,25 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-547000000111": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "과수 농가 드론임차료 등 비용 50% 지원",
+    "target": "인공수분 희망 개인 및 단체 농가",
+    "amount": "비용 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-547000000112": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "블루베리 재배 농가 시설 지원",
+    "target": "블루베리 재배 농가 또는 희망 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
