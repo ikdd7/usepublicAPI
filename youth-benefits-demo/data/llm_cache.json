@@ -153840,5 +153840,17 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-627000000142": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "일본군 위안부 피해자 생활 보조비 지원",
+    "target": "대구 거주 일본군 위안부 피해자",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
