@@ -153852,5 +153852,15 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006620": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "외국국적 유아 학비 추가 지원",
+    "target": "외국국적 3~5세 유아",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
