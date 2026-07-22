@@ -154555,5 +154555,17 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006651": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임산부 산후조리비 지원",
+    "target": "문경시 출산 산모",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
