@@ -153862,5 +153862,463 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006667": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "특수임무유공자 보훈명예수당 20만원 지원",
+    "target": "특수임무유공자 본인",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006666": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "전상군경 배우자 보훈명예수당 20만원 지원",
+    "target": "전상군경 사망 시 배우자(65세 이상)",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006665": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "순직공무원 유족 보훈명예수당 20만원 지원",
+    "target": "순직공무원 유족(선순위자)",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006664": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보국수훈자 배우자 보훈명예수당 20만원 지원",
+    "target": "보국수훈자 사망 시 배우자(65세 이상)",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006662": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "공상공무원 보훈명예수당 20만원 지원",
+    "target": "공상공무원 본인(65세 이상)",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006660": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "공상군경 배우자 보훈명예수당 20만원 지원",
+    "target": "공상군경 사망 시 배우자(65세 이상)",
+    "amount": "20만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006668": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "참전유공자 생일축하금 10만원 지원",
+    "target": "참전유공자 본인",
+    "amount": "10만원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006659": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 전동보조기기 보험 가입 및 지원",
+    "target": "장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006637": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 2세반 현장학습비 지원",
+    "target": "어린이집 2세반 영아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006673": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "스마트빌리지 보급 및 확산 사업",
+    "target": "고독사 위험군",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006672": {
+    "category": "일자리",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "서비스",
+    "summary": "주거지원형 일자리 인큐베이팅 하우스 사업",
+    "target": "60세 이상 액티브 시니어",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006671": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 입학지원금 지원",
+    "target": "어린이집 이용 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006654": {
+    "category": "주거",
+    "tags": [
+      "한부모",
+      "다자녀",
+      "다문화",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "영구임대주택 공동전기요금 지원",
+    "target": "영구임대주택 거주자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006626": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "임신출산가정 가사서비스 이용료 지원",
+    "target": "임신출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006681": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "성동청년 상생학사 운영",
+    "target": "경제적 어려움 겪는 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006680": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애인 배상책임보험 가입 및 보험료 지원",
+    "target": "발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006678": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "미취업청년 자격시험 응시료 지원",
+    "target": "관내 미취업 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006656": {
+    "category": "건강",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "한의약 난임치료 첩약 비용 지원",
+    "target": "원인불명 난임부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006643": {
+    "category": "건강",
+    "tags": [
+      "영유아"
+    ],
+    "support_type": "현금",
+    "summary": "미숙아 호흡기세포융합바이러스 예방접종비 지원",
+    "target": "미숙아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006641": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애인 배상책임보험 가입 지원",
+    "target": "발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006649": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산축하금 지원",
+    "target": "임신·출산, 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006646": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산 및 양육지원",
+    "target": "부산광역시 남구 거주 장애인가정",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006621": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 전월세 중개보수 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006682": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산후조리비 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006652": {
+    "category": "교육",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "사회초년생 운전면허 취득비용 지원",
+    "target": "진주시 사회초년생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006638": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "여성1인가구 안심홈세트 지원",
+    "target": "여성 1인가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001963": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모신생아 건강관리 본인부담금 지원",
+    "target": "산모, 신생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006650": {
+    "category": "복지",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "옥천군 청년지원 수당 지급",
+    "target": "옥천군 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006648": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "진천형 출생지원금 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006647": {
+    "category": "복지",
+    "tags": [
+      "영유아"
+    ],
+    "support_type": "보험",
+    "summary": "영유아 상해보험 지원",
+    "target": "영유아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006633": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "할인",
+    "summary": "어르신 농어촌버스 무료 이용 지원",
+    "target": "단양군 거주 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00003546": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산",
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "여성장애인 가사도우미 지원",
+    "target": "여성장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-468000000132": {
+    "category": "복지",
+    "tags": [
+      "노년",
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "노인 목욕비 지원",
+    "target": "익산시 면지역 70세 이상 노인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006653": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "서울형 안심 산후조리원 이용료 지원",
+    "target": "산후조리원 이용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006622": {
+    "category": "금융",
+    "tags": [
+      "신혼",
+      "임신·출산"
+    ],
+    "support_type": "대출",
+    "summary": "신생아 출생가구 내집마련 이자 지원",
+    "target": "신생아 출생가구",
+    "amount": "최대 1%",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006670": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "부산청년 취업성공 풀패키지 지원",
+    "target": "부산지역 기업 취업 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006642": {
+    "category": "건강",
+    "tags": [
+      "영유아",
+      "아동",
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "공공심야어린이병원 야간·휴일 진료 지원",
+    "target": "소아청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006625": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 사망자 유품정리 지원",
+    "target": "무연고 사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00006118": {
+    "category": "주거",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "신혼집 리모델링 비용 일부 지원",
+    "target": "신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
