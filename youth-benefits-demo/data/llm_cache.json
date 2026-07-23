@@ -154600,5 +154600,43 @@
     "amount": "생애 최초 1회",
     "show": true,
     "special": false
+  },
+  "g24-569000000397": {
+    "category": "문화",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "바우처",
+    "summary": "중학교 1학년 재학생에게 연 10만원 지원",
+    "target": "세종시 중학교 1학년 재학생",
+    "amount": "연 10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-569000000335": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득층 세대 건강보험료 지원",
+    "target": "노인, 장애인, 한부모, 국가유공자 세대",
+    "amount": "건강보험료 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-569000000364": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "기준 중위소득 44% 이하 가구 생계지원",
+    "target": "세종시 거주 저소득 가구",
+    "amount": "생계지원",
+    "show": true,
+    "special": false
   }
 }
