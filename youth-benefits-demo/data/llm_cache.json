@@ -154580,5 +154580,25 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-445000000255": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "진천군 어린이집 입학준비금 지원",
+    "target": "어린이집 이용 만3세~만5세 아동",
+    "amount": "생애 최초 1회",
+    "show": true,
+    "special": false
+  },
+  "g24-445000000256": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "진천군 어린이집 졸업앨범비 지원",
+    "target": "어린이집 재원아동(졸업예정)",
+    "amount": "생애 최초 1회",
+    "show": true,
+    "special": false
   }
 }
