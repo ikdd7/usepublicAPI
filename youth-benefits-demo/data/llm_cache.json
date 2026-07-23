@@ -154567,5 +154567,18 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006688": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 고등학생 학습이용료 지원",
+    "target": "강동구 취약계층 고등학생",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
