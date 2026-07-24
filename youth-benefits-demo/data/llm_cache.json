@@ -154704,5 +154704,25 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-386000000145": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "초등학생 입학준비금 10만원 지원",
+    "target": "부천시 거주 초등 1학년 신입생",
+    "amount": "10만원",
+    "show": true,
+    "special": false
+  },
+  "g24-627000000113": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다자녀가정 고교 입학축하금 지원",
+    "target": "대구시 거주 둘째 이상 고교 입학생 가정",
+    "amount": "미정",
+    "show": true,
+    "special": false
   }
 }
