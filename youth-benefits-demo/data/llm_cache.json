@@ -154724,5 +154724,15 @@
     "amount": "미정",
     "show": true,
     "special": false
+  },
+  "g24-650000000273": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 시술비 지원",
+    "target": "법적 혼인상태 또는 1년 이상 사실혼 관계 난임부부",
+    "amount": "일부 및 전액 본인부담금, 비급여 지원",
+    "show": true,
+    "special": true
   }
 }
