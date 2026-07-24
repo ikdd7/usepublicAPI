@@ -154638,5 +154638,19 @@
     "amount": "생계지원",
     "show": true,
     "special": false
+  },
+  "g24-332000000103": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 국민건강보험료 최대 지원",
+    "target": "최저보험료 이하 납부 노인·장애인·한부모·소년소녀가장·만성질환 세대",
+    "amount": "최저보험료 이하",
+    "show": true,
+    "special": true
   }
 }
