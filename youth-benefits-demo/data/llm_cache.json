@@ -154652,5 +154652,57 @@
     "amount": "최저보험료 이하",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006692": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어르신 이불 빨래 대행 서비스 제공",
+    "target": "노년층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006691": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "노인장기요양보험 본인부담금 지원",
+    "target": "노년층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006693": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "치매치료관리비 지원",
+    "target": "노년층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006690": {
+    "category": "일자리",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "콘텐츠 분야 청년 정규직 일자리 인건비 지원",
+    "target": "제주 콘텐츠 분야 기업 및 청년",
+    "amount": "인건비 지원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006689": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "전입세대 종량제봉투 지원",
+    "target": "전입세대",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
