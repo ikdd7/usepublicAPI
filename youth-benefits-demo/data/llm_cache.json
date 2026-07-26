@@ -154734,5 +154734,283 @@
     "amount": "일부 및 전액 본인부담금, 비급여 지원",
     "show": true,
     "special": true
+  },
+  "g24-390000000112": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "만 70세 이상 기초수급자·차상위 어르신 목욕·이용권 지원",
+    "target": "만 70세 이상 기초수급자 및 차상위 어르신",
+    "amount": "지역화폐 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-391000000130": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득 장애인 보조기기 수리비 지원",
+    "target": "생계 또는 의료급여 수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-397000000114": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "대출",
+    "summary": "무주택 신혼부부 전세자금 대출이자 지원",
+    "target": "관내 무주택 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-404000000101": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층·국가유공자 명절 위문품 지원",
+    "target": "기초생활보장수급자, 국가유공자, 의사상자",
+    "amount": "온누리상품권 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-407000000112": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "이천시 90세 이상 기초연금 미수급자 장수수당 지원",
+    "target": "이천시 1년 이상 거주, 90세 이상 기초연금 미수급자",
+    "amount": "월 4만원",
+    "show": true,
+    "special": false
+  },
+  "g24-439000000859": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "요보호 홀로노인 돌봄 활동 지원",
+    "target": "기초수급자 및 차상위계층 노인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-442000000123": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "보은군 저소득층 건강·장기요양보험료 지원",
+    "target": "보은군 거주 저소득층, 만65세 이상, 장애인, 한부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-442000000649": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "보은군 청년 면접수당 지원",
+    "target": "보은군 거주 18~45세 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-464000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "65세 이상 기초수급자·차상위 독거노인 목욕권 지원",
+    "target": "65세 이상 기초수급자·차상위 독거어르신",
+    "amount": "연 12매",
+    "show": true,
+    "special": true
+  },
+  "g24-470000000111": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 주민 건강보험료 지원",
+    "target": "노인, 장애인, 한부모, 저소득 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-472000000113": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "완주군 임산부·신생아 출산축하용품 지원",
+    "target": "신생아 출생일 완주군 거주 임산부·신생아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-473000000115": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "65세 이상 공공보건의료기관 진료비 감면",
+    "target": "65세 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-475000000193": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "최저보험료 이하 주민 건강보험료 지원",
+    "target": "국민건강보험료 최저보험료 이하인 자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-475000000220": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "장수군 산모·신생아 건강관리 본인부담금 지원",
+    "target": "출산일 기준 장수군 거주 산모",
+    "amount": "본인부담금의 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-477000000123": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "결혼이민자 운전면허 교습비 지원",
+    "target": "결혼이민자 중 운전면허 미취득자",
+    "amount": "교습비의 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-478100000046": {
+    "category": "복지",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "고창군 결혼장려금 지원",
+    "target": "혼인신고 6~12개월, 부부 중 1명 19~49세",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-507000000753": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영구임대아파트 공동전기요금 지원",
+    "target": "영구임대아파트 입주민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000115": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "차상위계층 쓰레기봉투 지원",
+    "target": "차상위계층",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-533000000112": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "만 6세~65세 미만 중증장애인 활동지원 추가 지원",
+    "target": "국비 활동지원 대상자 중 활동시간 추가 필요",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-533000000119": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "의사상자 특별위로금 지원",
+    "target": "의사자의 유족 및 의사상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-541000000103": {
+    "category": "육아",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "가정위탁아동 양육비 및 심리치료 지원",
+    "target": "가정위탁아동 및 위탁부모",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-560000000111": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인가정 출산지원금 지원",
+    "target": "출산 장애인가정 부 또는 모",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001154": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "산모신생아 건강관리 서비스 본인부담금 지원",
+    "target": "기준중위소득 180% 이하 출산가정",
+    "amount": "최대 15일 한도",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002505": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "노숙인 보호 및 복지지원",
+    "target": "노숙인",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
