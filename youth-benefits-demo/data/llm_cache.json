@@ -155012,5 +155012,15 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-358000000105": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "3대 이상 옹진군 거주 세대 월 5만원 효행수당 지원",
+    "target": "3대 이상 옹진군 3년 이상 거주 세대",
+    "amount": "월 50,000원",
+    "show": true,
+    "special": false
   }
 }
