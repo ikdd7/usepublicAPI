@@ -155034,5 +155034,37 @@
     "amount": "연 455만 원",
     "show": true,
     "special": false
+  },
+  "g24-370000000132": {
+    "category": "환경·생활",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현물",
+    "summary": "층간소음 저감매트 지원",
+    "target": "아래층에 세대가 있는 미성년자 1자녀 이상 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019639": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "외로움 느끼는 시민에게 상담 서비스 제공",
+    "target": "외로움을 느끼는 일반 시민, 고립 당사자 및 가족·이웃",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-611000019640": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "외로운 서울시민에게 소통·상담 공간 제공",
+    "target": "외로운 서울시민 누구나",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
