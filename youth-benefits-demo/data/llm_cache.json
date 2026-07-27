@@ -155022,5 +155022,17 @@
     "amount": "월 50,000원",
     "show": true,
     "special": false
+  },
+  "bd-ecb7a8ec9785": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "서비스",
+    "summary": "구직자에게 취업지원 서비스 무료 제공",
+    "target": "취업 준비 중인 구직자",
+    "amount": "연 455만 원",
+    "show": true,
+    "special": false
   }
 }
