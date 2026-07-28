@@ -155066,5 +155066,37 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006015": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 전동보조기기 보험료 지원",
+    "target": "이천시 등록장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006016": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "무연고사망자 장례비 지원",
+    "target": "무연고사망자",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00000649": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "무연고 행려 사망자 공고료 지원",
+    "target": "무연고 행려 사망자",
+    "amount": "",
+    "show": false,
+    "special": true
   }
 }
