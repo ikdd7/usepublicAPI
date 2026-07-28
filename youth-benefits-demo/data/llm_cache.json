@@ -155098,5 +155098,28 @@
     "amount": "",
     "show": false,
     "special": true
+  },
+  "g24-321000000143": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "서초구 주민 및 직장인 무료 법률 상담 지원",
+    "target": "서초구 주민 및 직장인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-406000000526": {
+    "category": "환경·생활",
+    "tags": [
+      "장애인",
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "파주시 수도요금 감면 지원",
+    "target": "경로당, 모범음식점, 장애인복지지설, 노인복지지설, 기초생활수급자, 장애인, 관광호텔업, 중수도 이용시설, ",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
