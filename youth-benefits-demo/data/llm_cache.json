@@ -155121,5 +155121,80 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006697": {
+    "category": "건강",
+    "tags": [
+      "1인가구",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "난자동결 시술비 최대 200만원 지원",
+    "target": "서울 6개월 이상 거주 20~49세 여성",
+    "amount": "최대 200만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006701": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 수동휠체어 동력보조장치 지원",
+    "target": "수동휠체어 사용자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006699": {
+    "category": "주거",
+    "tags": [
+      "저소득",
+      "무주택"
+    ],
+    "support_type": "현금",
+    "summary": "주거취약계층 임차료 지원",
+    "target": "기초생활수급자 탈락 주거취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006703": {
+    "category": "일자리",
+    "tags": [
+      "재직중",
+      "경력단절여성"
+    ],
+    "support_type": "현금",
+    "summary": "3050 여성 취·창업 준비 지원",
+    "target": "3050 여성",
+    "amount": "구직지원금, 인턴십, 고용장려금",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006702": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "중증장애인 스마트 음성스위치 설치 지원",
+    "target": "중증장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006700": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "뇌병변장애인 맞춤형 보조기기 대여 지원",
+    "target": "뇌병변 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
