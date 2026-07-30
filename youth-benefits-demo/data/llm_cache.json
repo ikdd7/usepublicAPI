@@ -155366,5 +155366,52 @@
     "amount": "장제 인건비",
     "show": false,
     "special": true
+  },
+  "g24-406000000532": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "파주시 초등 신입생 입학축하금 지원",
+    "target": "파주시 거주 초등 최초 입학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005383": {
+    "category": "육아",
+    "tags": [
+      "저소득",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "취약계층 및 셋째아 이상 산후조리비용 지원",
+    "target": "취약계층, 셋째아 이상 출산가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000175": {
+    "category": "기타",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "이미용업소 시설개선비 지원",
+    "target": "파주시 관내 3년 이상 운영 이미용업소",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000097": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "어선어업생산자 단체 자조금 지원",
+    "target": "수산자조금 조성·운영 단체",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
