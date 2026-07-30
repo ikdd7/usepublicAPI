@@ -155280,5 +155280,91 @@
     "amount": "",
     "show": false,
     "special": false
+  },
+  "bj-WLF00006709": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "읍면지역 청소년 통학택시 지원",
+    "target": "읍면지역 청소년",
+    "amount": "1,000원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006707": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "철원군 학령기 아동청소년 양육가정 지원",
+    "target": "철원군 학령기 아동청소년",
+    "amount": "자녀키움수당",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006706": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "횡성군 청소년 교육·문화 격차 해소 지원",
+    "target": "횡성군 청소년",
+    "amount": "희망채움 바우처",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006705": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아이돌봄서비스 본인부담금 지원",
+    "target": "아동, 영유아",
+    "amount": "본인부담금 지원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006704": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "인제군 취약노인 목욕비 지원",
+    "target": "인제군 취약노인",
+    "amount": "목욕비 지원",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00004994": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임산부 가정 임신축하금 지원",
+    "target": "임산부 가정",
+    "amount": "레인보우 영동페이",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006708": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "서비스",
+    "summary": "청년 맞춤형 재무상담 및 금융교육 제공",
+    "target": "청년",
+    "amount": "맞춤형 재무상담",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000913": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "안성시 무연고 사망자 장제 인건비 지급",
+    "target": "무연고 사망자",
+    "amount": "장제 인건비",
+    "show": false,
+    "special": true
   }
 }
