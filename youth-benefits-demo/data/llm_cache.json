@@ -155413,5 +155413,37 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006607": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임 진단 검사비 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006423": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "용인청년 중개보수 및 이사비 지원",
+    "target": "용인시 청년층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006338": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "주거취약계층 주거환경개선 지원",
+    "target": "주거취약계층",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
