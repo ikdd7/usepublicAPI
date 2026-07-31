@@ -155445,5 +155445,124 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006713": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "홍천군 청년 근로자 장기근속 및 지역정착 지원",
+    "target": "홍천군 관내 업체 근로자 또는 사업체 운영 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006711": {
+    "category": "복지",
+    "tags": [
+      "임신·출산",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "차상위계층 산모 산후조리경비 지원",
+    "target": "차상위계층 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000235": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "민원약자 통합민원실 방문 시 1:1 동행 지원",
+    "target": "통합민원실 방문 민원약자(고령자, 장애인, 임산부, 아동 등)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-538000000652": {
+    "category": "일자리",
+    "tags": [
+      "청년",
+      "구직중"
+    ],
+    "support_type": "현물",
+    "summary": "양산시 청년 면접정장 무료 대여",
+    "target": "양산시 거주 만 고교 졸업예정자~39세 취업면접예정자",
+    "amount": "연 3회 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-648000001034": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "벼재배 농가 경영안정자금 지원",
+    "target": "도내 주소지 및 농지에서 벼 재배 농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00059700006": {
+    "category": "교육",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "경상남도 장애인 평생교육이용권 지원",
+    "target": "경남도 거주 19세 이상 등록 장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006710": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "어르신 교통비 지원 확대 시범사업",
+    "target": "어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-475000000091": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "임산물 상품화 지원(포장디자인 개선 등)",
+    "target": "임업인, 생산자단체, 지리적표시등록단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000889": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 귀가 여비 지급",
+    "target": "행려자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bd-ed959ceab5ad": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "도자문화 예술교육 활성화 업무협약",
+    "target": "",
+    "amount": "",
+    "show": false,
+    "special": false
   }
 }
