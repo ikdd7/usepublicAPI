@@ -155741,5 +155741,422 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-119200000109": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "인증부표 교체 비용 지원",
+    "target": "양식어업, 어장시설 인증부표 교체 희망자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000110": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "패각 친환경 처리 비용 지원",
+    "target": "패류 양식 과정 중 패각 발생자",
+    "amount": "운반비의 일부",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000111": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "수산동물질병 예방백신 공급 지원",
+    "target": "양식장, 수산종자생산시설 운영자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000113": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "방역사업비 지원",
+    "target": "양식업자, 수산생물관련단체 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000115": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "수산생물 방역장비 지원",
+    "target": "양식어업인, 수산생물 관련 단체 등",
+    "amount": "국고 50%, 지방비 50%",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000116": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "유해생물(쏙) 구제 사업 지원",
+    "target": "쏙 발생 지역 어업인, 생산자단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000118": {
+    "category": "교육",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "낚시어선 전문교육 제공",
+    "target": "낚시터업자, 낚시어선업자(선원 포함)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000120": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "자율관리어업 우수 공동체 육성사업비 지원",
+    "target": "자율관리어업공동체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000126": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "양식장 친환경에너지 보급 지원",
+    "target": "어업인, 어업법인, 수산관련 생산자단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000128": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "수산물 수출 국내 물류센터 이용 지원",
+    "target": "수산물 수출 관련 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000129": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "수산물 수출 해외 공동물류센터 이용 지원",
+    "target": "수산물 수출 관련 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000130": {
+    "category": "금융",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "수산물 수출 리스크안전망 구축 지원",
+    "target": "수산물 수출 관련 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000133": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "수산식품 선도조직 육성 지원",
+    "target": "수산물수출 관련 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000135": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "수산식품 유망상품화 개발 지원",
+    "target": "수산물 수출 관련 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000136": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "바우처",
+    "summary": "수산식품 기업 수출 바우처 지원",
+    "target": "수산물 수출 관련 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000137": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "수산식품 국제인증 취득 지원",
+    "target": "수산물 수출 관련 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000138": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "수산식품 무역지원센터 운영 지원",
+    "target": "수산물 수출 관련 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000139": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "국제수산식품박람회 참가 지원",
+    "target": "수산물 수출 관련 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000143": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "수산식품 가공설비 개선 지원",
+    "target": "수산식품 가공생산 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000153": {
+    "category": "기타",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "원양어선원 해외묘지 관리 및 국내이장 지원",
+    "target": "해외선원묘지",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-119200000154": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "러시아 감독관 승선 선박 운항 경비 일부 지원",
+    "target": "러시아 수역 입어 오징어채낚기 어선",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000157": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고가 수산장비 임대 지원",
+    "target": "어업경영체 등록 어업인, 수협",
+    "amount": "50%",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000162": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "선원 및 직계가족 복지사업 지원",
+    "target": "복지사업 지원기준 충족 선원 및 직계가족",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000164": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "수산식품 수출 무역상담 참가 비용 지원",
+    "target": "수산물 수출 관련 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000165": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "한국 수산식품 해외 마케팅 지원",
+    "target": "수산물 수출 관련 개인 또는 단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000168": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국제 수산·통상 협상 전문인력 육성 지원",
+    "target": "해외수산협력센터 국제협상전문관",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000173": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "원양산업 통계조사 실시",
+    "target": "한국원양산업협회 소속 해외수산협력센터",
+    "amount": "",
+    "show": false,
+    "special": false
+  },
+  "g24-119200000176": {
+    "category": "문화",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "해양문화행사 및 해양영토 대장정 참가 지원",
+    "target": "초, 중, 고등학생, 대학생, 일반인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000193": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "e-Nav 선박 단말기 구매 비용 일부 지원",
+    "target": "어선, 비어선",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-119200000195": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "친환경 수산물 생산 직불금 지원",
+    "target": "어업경영체 등록 어업인, 어업법인, 생산자단체",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-127000000002": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 무료 법률 서비스 제공",
+    "target": "기초생활수급자, 장애인, 범죄피해자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-127000000022": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "특별공로자 특별귀화 신청 수수료 면제",
+    "target": "특별공로자 및 우수인재",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-127000000023": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "특별공로자 귀화·국적회복 신청 수수료 면제",
+    "target": "특별공로자 본인, 배우자, 직계존비속",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-127000000025": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "범죄 피해 아동·장애인 진술조력인 지원",
+    "target": "만 19세 미만 아동, 범죄 피해 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-127000000026": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "범죄 피해자 국선변호사 지원",
+    "target": "성폭력, 아동학대, 장애인학대 등 피해자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-127000000037": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "소외계층 청소년 자립생활관 운영 지원",
+    "target": "소년원 출원생, 보호관찰 대상자 등",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-129000000007": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "군인 재해보상 유족급여 지급",
+    "target": "부사관 이상 현역 군인 유족",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
