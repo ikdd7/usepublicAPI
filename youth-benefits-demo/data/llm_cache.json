@@ -156158,5 +156158,17 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-478100000008": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모 분만진료비 본인부담금 지원",
+    "target": "고창군 거주 산모",
+    "amount": "본인부담금 지원",
+    "show": true,
+    "special": false
   }
 }
