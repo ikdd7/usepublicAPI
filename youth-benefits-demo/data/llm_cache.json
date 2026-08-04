@@ -156170,5 +156170,98 @@
     "amount": "본인부담금 지원",
     "show": true,
     "special": false
+  },
+  "g24-524000000193": {
+    "category": "기타",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "신혼부부 결혼식 비용 지원",
+    "target": "결혼식일 기준 만 19세~39세 경북 거주 신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-524000000192": {
+    "category": "기타",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "20대 신혼부부 혼수비용 지원",
+    "target": "혼인신고일 기준 18~29세 경북 거주 신혼부부",
+    "amount": "생애 1회",
+    "show": true,
+    "special": false
+  },
+  "g24-316000000158": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "소규모 공동주택 관리 보조금 지원",
+    "target": "구로구 20세대 미만 노후 공동주택",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-316000000163": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 눈 검진 및 수술비 지원",
+    "target": "기초생활수급자, 차상위계층(60세 이상)",
+    "amount": "한도액 있음",
+    "show": true,
+    "special": true
+  },
+  "g24-537000000147": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "여성장애인 종합 정보 제공 및 홍보 지원",
+    "target": "거제시 등록 여성장애인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-587500000001": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "무주택"
+    ],
+    "support_type": "서비스",
+    "summary": "영암형 공공주택 계약 연장 지원",
+    "target": "영암 거주 19~49세 청년·신혼부부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00022500007": {
+    "category": "주거",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "거주자우선주차 배점 가산점 제공",
+    "target": "관악구 임산부, 영유아 보육 세대",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00023400012": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "영유아 북스타트 책꾸러미 배포",
+    "target": "서대문구 돌 이후 영유아 및 취학 전 유아",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
