@@ -156263,5 +156263,27 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-319000000181": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "동작구 70세 이상 주민 대상포진 예방접종 지원",
+    "target": "70세 이상 동작구민, 60세 이상 기초생활수급자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-382000000190": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "등록 양봉농가 양봉장비 구입비 지원",
+    "target": "관내 양봉산업법에 따른 등록 농가",
+    "amount": "기준단가의 최대 50%",
+    "show": true,
+    "special": false
   }
 }
