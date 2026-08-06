@@ -156333,5 +156333,18 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00001882": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "1인가구"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 독거노인에게 주2회 반찬 제공",
+    "target": "결식 우려 저소득 독거노인",
+    "amount": "주2회 일주일분 반찬",
+    "show": true,
+    "special": true
   }
 }
