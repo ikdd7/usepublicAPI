@@ -156412,5 +156412,17 @@
     "amount": "",
     "show": false,
     "special": true
+  },
+  "bj-WLF00006134": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임신·출산 산모신생아 본인부담금 지원",
+    "target": "임신·출산 산모",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
