@@ -1,6 +1,13 @@
 {
-  "fetched_at": "2026-08-04T20:31:33.337Z",
+  "fetched_at": "2026-08-07T00:08:45.007Z",
   "candidates": [
+    {
+      "region": "인천광역시 연수구",
+      "title": "연수청년자리 8월 청년특강(경제 분야) 및 힐링클래스(요가) 모집 안내",
+      "url": "https://www.yeonsu.go.kr/main/part/youth/notice.asp?page=v&amp;gotopage=1&amp;seq=49&amp;keyfield=&amp;keyword=&amp;s_date=&amp;e_date=&amp;eminwon=&amp;dept_idx=&amp;head_idx=&amp;se_dept_idx=&amp;category=&amp;head_idx_cateYN=&amp;listCnt=",
+      "onclick": "",
+      "board": "https://www.yeonsu.go.kr/main/part/youth/notice.asp"
+    },
     {
       "region": "인천광역시 연수구",
       "title": "연수청년자리 7월 청년특강 및 힐링클래스 모집 안내",
@@ -61,13 +68,6 @@
       "region": "인천광역시 연수구",
       "title": "2023년 연수구 4차산업혁명 청년창업지원센터 청년창업가 모집 안내",
       "url": "https://www.yeonsu.go.kr/main/part/youth/notice.asp?page=v&amp;gotopage=1&amp;seq=29&amp;keyfield=&amp;keyword=&amp;s_date=&amp;e_date=&amp;eminwon=&amp;dept_idx=&amp;head_idx=&amp;se_dept_idx=&amp;category=&amp;head_idx_cateYN=&amp;listCnt=",
-      "onclick": "",
-      "board": "https://www.yeonsu.go.kr/main/part/youth/notice.asp"
-    },
-    {
-      "region": "인천광역시 연수구",
-      "title": "2023년 청년마을 만들기 지원 사업 공모",
-      "url": "https://www.yeonsu.go.kr/main/part/youth/notice.asp?page=v&amp;gotopage=1&amp;seq=27&amp;keyfield=&amp;keyword=&amp;s_date=&amp;e_date=&amp;eminwon=&amp;dept_idx=&amp;head_idx=&amp;se_dept_idx=&amp;category=&amp;head_idx_cateYN=&amp;listCnt=",
       "onclick": "",
       "board": "https://www.yeonsu.go.kr/main/part/youth/notice.asp"
     },
@@ -234,6 +234,27 @@
     },
     {
       "region": "인천광역시 부평구",
+      "title": "전세보증금 반환보증 보증료 지원 신청서 및 서약서",
+      "url": "https://www.icbp.go.kr/bbs/bbsMsgFileDown.do?bcd=file&amp;msg_seq=263&amp;fileno=2",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/civil/property/youth.jsp"
+    },
+    {
+      "region": "인천광역시 부평구",
+      "title": "2026년 인천광역시 중소기업육성자금 8차 지원",
+      "url": "https://www.icbp.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=1655&amp;bcd=incheon",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/participation/news/incheon.jsp"
+    },
+    {
+      "region": "인천광역시 부평구",
+      "title": "2026년 제3기 인천광역시 여성복지관 수강생 모집",
+      "url": "https://www.icbp.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=1648&amp;bcd=incheon",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/participation/news/incheon.jsp"
+    },
+    {
+      "region": "인천광역시 부평구",
       "title": "[나눔, 부평]나눔과 돌봄으로 지역에 빛을 전하다 - 새빛교회 새빛교회(담임목사 안성용)는 이웃을 위한 나눔과 교육, 다문화 지원 등 다양한 사업을 펼치며 지역사",
       "url": "https://www.icbp.go.kr/newsWebzine/newsWebzineNo/newsWebzineNoDetail.do?no_seq=10272&menudetail=26",
       "onclick": "",
@@ -252,6 +273,41 @@
       "url": "https://www.icbp.go.kr/newsWebzine/newsWebzineNo/newsWebzineNoDetail.do?no_seq=10279&menudetail=05",
       "onclick": "",
       "board": "https://www.icbp.go.kr/news/"
+    },
+    {
+      "region": "인천광역시 부평구",
+      "title": "2026년 삼산건강생활지원센터 하반기 슬로우조깅 운동교실 참여자 모집 new",
+      "url": "https://www.icbp.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=37499&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/participation/news/notice.jsp"
+    },
+    {
+      "region": "인천광역시 부평구",
+      "title": "2026년 하반기 굴포천 건강걷기교실 참여자 모집 new",
+      "url": "https://www.icbp.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=37498&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/participation/news/notice.jsp"
+    },
+    {
+      "region": "인천광역시 부평구",
+      "title": "2026년 어르신 운동교실(2기) 참여자 모집 안내 new",
+      "url": "https://www.icbp.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=37497&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/participation/news/notice.jsp"
+    },
+    {
+      "region": "인천광역시 부평구",
+      "title": "2026년 「생활문해학습관」생활문해 프로그램 수강생 모집",
+      "url": "https://www.icbp.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=37495&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/participation/news/notice.jsp"
+    },
+    {
+      "region": "인천광역시 부평구",
+      "title": "2026년 하반기 인천광역시부평구 구립예술단(여성합창단·소년소녀합창단·풍물단) 신입단원 모집",
+      "url": "https://www.icbp.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=37491&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/participation/news/notice.jsp"
     },
     {
       "region": "인천광역시 서구",
@@ -283,8 +339,8 @@
     },
     {
       "region": "인천광역시 서구",
-      "title": "2026년 하반기 빈용기 무인회수기 구매지원 사업 안내",
-      "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30273&amp;bcd=notice",
+      "title": "2026년 골목형상점가 공동마케팅 지원사업 선정 결과 공고",
+      "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30277&amp;bcd=notice",
       "onclick": "",
       "board": "https://www.seo.incheon.kr/open_content/main/community/news/notice.jsp"
     },
@@ -423,15 +479,22 @@
     },
     {
       "region": "인천광역시 강화군",
-      "title": "2026년 인천 AI디지털배움터 파견교육 신청 안내",
-      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=7809FA609E6F6E7354CBF983A1377264?msg_seq=12376&amp;bcd=notice",
+      "title": "「2026 국가유산 미디어아트 강화 고려궁지 행사」특산품(플리마켓) 부스운영 참가업체 모집",
+      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=9D729239DF0488B96B9D2A79324C3EC0?msg_seq=12399&amp;bcd=notice",
       "onclick": "",
       "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp"
     },
     {
       "region": "인천광역시 강화군",
-      "title": "2026년 소규모 노후 종교시설 보수ㆍ보강 지원 사업(2차) 공고",
-      "url": "https://www.ganghwa.go.kr/open_content/main/eminwon/announce/eminwonDetail.do?seq=52617",
+      "title": "2026년도 삼산면 주민자치 프로그램 강사 공개모집",
+      "url": "https://www.ganghwa.go.kr/open_content/main/eminwon/announce/eminwonDetail.do?seq=52608",
+      "onclick": "",
+      "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/announce.jsp"
+    },
+    {
+      "region": "인천광역시 강화군",
+      "title": "2026년도 삼산면 주민자치센터 프로그램 수강생 모집 공고",
+      "url": "https://www.ganghwa.go.kr/open_content/main/eminwon/announce/eminwonDetail.do?seq=52607",
       "onclick": "",
       "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/announce.jsp"
     },
@@ -444,8 +507,43 @@
     },
     {
       "region": "인천광역시 옹진군",
-      "title": "2026년 백령면 재활용 자원관리사 추가모집",
-      "url": "https://www.ongjin.go.kr/open_content/main/eminwon/eminwonAnnounceDetail.do?mgt_no=37452",
+      "title": "[재]옹진군인재육성재단 비상임 임원(감사) 공개모집 선임예정자 공고",
+      "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=26717&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.ongjin.go.kr/open_content/main/community/board/notice.jsp"
+    },
+    {
+      "region": "인천광역시 옹진군",
+      "title": "2026년 추석 명절 귀성객 여객운임 지원사업 안내",
+      "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=26714&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.ongjin.go.kr/open_content/main/community/board/notice.jsp"
+    },
+    {
+      "region": "인천광역시 옹진군",
+      "title": "옹진군 택배 등 유통물류비 지원사업 안내사항 알림",
+      "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=26706&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.ongjin.go.kr/open_content/main/community/board/notice.jsp"
+    },
+    {
+      "region": "인천광역시 옹진군",
+      "title": "(재)옹진군인재육성재단 임원(비상임 감사) 공개모집",
+      "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=26705&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.ongjin.go.kr/open_content/main/community/board/notice.jsp"
+    },
+    {
+      "region": "인천광역시 옹진군",
+      "title": "2026년 영흥면 3분기 주민자치센터 프로그램 수강생 모집 공고",
+      "url": "https://www.ongjin.go.kr/open_content/main/eminwon/eminwonAnnounceDetail.do?mgt_no=37466",
+      "onclick": "",
+      "board": "https://www.ongjin.go.kr/open_content/main/community/board/announce.jsp"
+    },
+    {
+      "region": "인천광역시 옹진군",
+      "title": "2026년 영흥면 임업기능인 운영사업 추가모집 공고(2차)",
+      "url": "https://www.ongjin.go.kr/open_content/main/eminwon/eminwonAnnounceDetail.do?mgt_no=37458",
       "onclick": "",
       "board": "https://www.ongjin.go.kr/open_content/main/community/board/announce.jsp"
     },
@@ -504,20 +602,6 @@
       "url": "https://dream1388.or.kr/",
       "onclick": "",
       "board": "https://www.icdonggu.go.kr/main/community/enter/hwadojin.jsp"
-    },
-    {
-      "region": "인천광역시 동구",
-      "title": "[마감임박] 한국어교원 2급 자격증 취득 개강반 모집 NEW",
-      "url": "https://www.icdonggu.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=16323&amp;bcd=board",
-      "onclick": "",
-      "board": "https://www.icdonggu.go.kr/main/community/board.jsp"
-    },
-    {
-      "region": "인천광역시 동구",
-      "title": "[한국마사회 인천제물포지사]2026년 가을학기 회원모집안내",
-      "url": "https://www.icdonggu.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=16308&amp;bcd=board",
-      "onclick": "",
-      "board": "https://www.icdonggu.go.kr/main/community/board.jsp"
     },
     {
       "region": "인천광역시 동구",
@@ -808,10 +892,17 @@
     },
     {
       "region": "인천광역시 계양구",
-      "title": "[마감임박] 한국어교원 2급 자격증 취득 개강반 모집",
-      "url": "https://www.gyeyang.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=24197&amp;bcd=board_102",
+      "title": "2026년 산업안전기사 응시자격 온라인 과정 모집 안내",
+      "url": "https://www.gyeyang.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=24209&amp;bcd=board_102",
       "onclick": "",
       "board": "https://www.gyeyang.go.kr/open_content/main/community/free.jsp"
+    },
+    {
+      "region": "인천광역시 계양구",
+      "title": "계양구 중독관리통합지원센터 민간위탁 성과평가 결과 공개",
+      "url": "https://www.gyeyang.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=15552&amp;bcd=board_4",
+      "onclick": "",
+      "board": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/notice.jsp"
     },
     {
       "region": "인천광역시 계양구",
@@ -822,10 +913,10 @@
     },
     {
       "region": "인천광역시 계양구",
-      "title": "초등방학 틈새돌봄사업 안내",
-      "url": "https://www.gyeyang.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=15539&amp;bcd=board_4",
+      "title": "2026년 제물포구 구립합창단 지휘자 모집 홍보",
+      "url": "https://www.gyeyang.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=3358&amp;bcd=board_130",
       "onclick": "",
-      "board": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/notice.jsp"
+      "board": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/other.jsp"
     },
     {
       "region": "인천광역시 계양구",
@@ -840,216 +931,6 @@
       "url": "https://www.gyeyang.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=3349&amp;bcd=board_130",
       "onclick": "",
       "board": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/other.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "[공지] [남동구평생학습관] 하반기 프로그램 학습자 모집",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=15900&amp;bcd=notice",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "[공지] 취업특강 3차 'AI 와 함께하는 면접 스킬 UP' 참여자 모집",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=15897&amp;bcd=notice",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "[공지] 2026년 농식품바우처 지원 사업종료 안내",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=15895&amp;bcd=notice",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "[공지] 2026년도 소규모 사업장 방지시설 설치 지원사업 공고(3차) 안내",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=15882&amp;bcd=notice",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "[공지] 65세 미만 장애인 통합돌봄 사업안내",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=15838&amp;bcd=notice",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "2026년 하반기 빈용기 무인회수기 지원 사업 홍보",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=15904&amp;bcd=notice",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "농사용 보리종자(재안찰쌀보리) 신청안내",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=15901&amp;bcd=notice",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "평강요양원 시설요양보호사 모집(주주야야휴휴) 월 258만원 마감일 : 2026년08월18일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=K150012608040094&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "(주)대성특수금속 품질관리 사무원 및 관리자모집합... 월 300만원 마감일 : 2026년08월18일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=K150012608040091&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "인천노인주간보호센터 논현동 재가 요양보호사 모집 시 13,500원 마감일 : 2026년10월03일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=KJDA002608040004&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "2026년 통일공감 사업 참가자 1차 모집 안내 (무료)/시민아카데미 및 백령대청도 탐방",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=31346&amp;bcd=free",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/community/square/free.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "[인천 청라국제도서관] 지영준 라면 평론가의 라면의 역사 특강 모집 중입니다.",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=31333&amp;bcd=free",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/community/square/free.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "[모집연장] 제4회 인천전통예술경연대회 참가자 모집 (~5/14)",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=31270&amp;bcd=free",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/community/square/free.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "제4회 인천 전통예술 경연대회 참가자 모집",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=31265&amp;bcd=free",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/community/square/free.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "평강요양원 시설요양보호사 모집(주주야야휴휴) 월 258만원 마감일 : 2026년08월18일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=K150012608040094&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/community/square/free.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "(주)대성특수금속 품질관리 사무원 및 관리자모집합... 월 300만원 마감일 : 2026년08월18일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=K150012608040091&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/community/square/free.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "인천노인주간보호센터 논현동 재가 요양보호사 모집 시 13,500원 마감일 : 2026년10월03일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=KJDA002608040004&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/community/square/free.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "안전 Dream 아동&middot;여성&middot;장애인 경찰지원센터",
-      "url": "http://www.safe182.go.kr/",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/community/square/free.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "남동구, 영유아 건강검진 및 발달정밀검사비 지원 new",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=29504&amp;bcd=press_release",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/report.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "간석1동 통장자율회, 여름맞이 관내 경로당 수박 지원 new",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=29498&amp;bcd=press_release",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/report.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "남동문화재단, 신임 대표이사·비상임 임원 공개 모집 new",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=29492&amp;bcd=press_release",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/report.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "간석3동 새마을협의회, 취약계층 지원을 위한 선풍기 30대 후원 new",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=29488&amp;bcd=press_release",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/report.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "평강요양원 시설요양보호사 모집(주주야야휴휴) 월 258만원 마감일 : 2026년08월18일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=K150012608040094&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/report.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "(주)대성특수금속 품질관리 사무원 및 관리자모집합... 월 300만원 마감일 : 2026년08월18일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=K150012608040091&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/report.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "인천노인주간보호센터 논현동 재가 요양보호사 모집 시 13,500원 마감일 : 2026년10월03일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=KJDA002608040004&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/report.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "안전 Dream 아동&middot;여성&middot;장애인 경찰지원센터",
-      "url": "http://www.safe182.go.kr/",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/report.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "평강요양원 시설요양보호사 모집(주주야야휴휴) 월 258만원 마감일 : 2026년08월18일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=K150012608040094&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/bulletin.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "(주)대성특수금속 품질관리 사무원 및 관리자모집합... 월 300만원 마감일 : 2026년08월18일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=K150012608040091&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/bulletin.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "인천노인주간보호센터 논현동 재가 요양보호사 모집 시 13,500원 마감일 : 2026년10월03일",
-      "url": "https://www.namdong.go.kr/jbWanted/jbWantedDetail.do?wantedAuthNo=KJDA002608040004&amp;infoSvc=VALIDATION&amp;pgno=",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/bulletin.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "안전 Dream 아동&middot;여성&middot;장애인 경찰지원센터",
-      "url": "http://www.safe182.go.kr/",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/bulletin.jsp"
     },
     {
       "region": "서울특별시 용산구",
@@ -2652,6 +2533,216 @@
       "title": "강서구사회적경제통합지원센터",
       "url": "https://www.gangseo.seoul.kr/eco/eco060111",
       "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "사회배려 대상자 여권신청 우선창구",
+      "url": "https://www.gangseo.seoul.kr/gs010109",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "민원상담/신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "대형폐기물처리신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "배출신청",
+      "url": "https://www.gangseo.seoul.kr/gs010206",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "전자고지신청 안내",
+      "url": "https://www.gangseo.seoul.kr/gs010427",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "상세주소 부여 신청",
+      "url": "https://www.gangseo.seoul.kr/gs010434",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조청소신청",
+      "url": "https://www.gangseo.seoul.kr/gs010457",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조용량산정신청",
+      "url": "https://www.gangseo.seoul.kr/gs010463",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "행사접수(온라인신청)",
+      "url": "https://www.gangseo.seoul.kr/reserve/re040101",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "강서구사회적경제통합지원센터",
+      "url": "https://www.gangseo.seoul.kr/eco/eco060111",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "사회배려 대상자 여권신청 우선창구",
+      "url": "https://www.gangseo.seoul.kr/gs010109",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "민원상담/신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "대형폐기물처리신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "배출신청",
+      "url": "https://www.gangseo.seoul.kr/gs010206",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "전자고지신청 안내",
+      "url": "https://www.gangseo.seoul.kr/gs010427",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "상세주소 부여 신청",
+      "url": "https://www.gangseo.seoul.kr/gs010434",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조청소신청",
+      "url": "https://www.gangseo.seoul.kr/gs010457",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조용량산정신청",
+      "url": "https://www.gangseo.seoul.kr/gs010463",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "행사접수(온라인신청)",
+      "url": "https://www.gangseo.seoul.kr/reserve/re040101",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "강서구사회적경제통합지원센터",
+      "url": "https://www.gangseo.seoul.kr/eco/eco060111",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "사회배려 대상자 여권신청 우선창구",
+      "url": "https://www.gangseo.seoul.kr/gs010109",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "민원상담/신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "대형폐기물처리신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "배출신청",
+      "url": "https://www.gangseo.seoul.kr/gs010206",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "전자고지신청 안내",
+      "url": "https://www.gangseo.seoul.kr/gs010427",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "상세주소 부여 신청",
+      "url": "https://www.gangseo.seoul.kr/gs010434",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조청소신청",
+      "url": "https://www.gangseo.seoul.kr/gs010457",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조용량산정신청",
+      "url": "https://www.gangseo.seoul.kr/gs010463",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "행사접수(온라인신청)",
+      "url": "https://www.gangseo.seoul.kr/reserve/re040101",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "강서구사회적경제통합지원센터",
+      "url": "https://www.gangseo.seoul.kr/eco/eco060111",
+      "onclick": "",
       "board": "https://www.gangseo.seoul.kr/gs040302"
     },
     {
@@ -2719,7 +2810,7 @@
     },
     {
       "region": "서울특별시 금천구",
-      "title": "핫이슈 금천정원지원센터에서 뭐 하길래...사람들이 이렇게 감동하나요? 울컥주의 😭 2025-12-19 조회 : 1479",
+      "title": "핫이슈 금천정원지원센터에서 뭐 하길래...사람들이 이렇게 감동하나요? 울컥주의 😭 2025-12-19 조회 : 1543",
       "url": "https://www.geumcheon.go.kr/gcb/selectBbsNttView.do?key=1848&amp;bbsNo=150151&amp;nttNo=263447&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=",
       "onclick": "",
       "board": "https://www.geumcheon.go.kr/gcb/selectBbsNttList.do?bbsNo=150151&key=1848"
@@ -2946,6 +3037,76 @@
       "title": "운영지원과",
       "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040100&menuNo=200812",
       "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "주택지원과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070100&menuNo=200785",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "지방보조금 부정수급 신고",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201734",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "공유촉진 지원사업",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201358",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "적극행정 지원제도",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201331",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "영아·유아·초등돌봄 서비스",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201538",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "동작구 신청사",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200950",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "동작취업지원센터",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201292",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "중소기업지원",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200551",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "창업지원",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200560",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "운영지원과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040100&menuNo=200812",
+      "onclick": "",
       "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
     },
     {
@@ -3296,76 +3457,6 @@
       "title": "정보공개신청",
       "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0103040000",
       "onclick": "",
-      "board": "https://www.ui4u.go.kr/portal/contents.do?mId=0301110000"
-    },
-    {
-      "region": "경기도 의정부시",
-      "title": "공공데이터 제공 신청",
-      "url": "http://www.data.go.kr/tcs/dor/insertDataOfferReqstProcssView.do",
-      "onclick": "",
-      "board": "https://www.ui4u.go.kr/portal/contents.do?mId=0301110000"
-    },
-    {
-      "region": "경기도 의정부시",
-      "title": "보조금 현황",
-      "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0107040000",
-      "onclick": "",
-      "board": "https://www.ui4u.go.kr/portal/contents.do?mId=0301110000"
-    },
-    {
-      "region": "경기도 의정부시",
-      "title": "보조금 중요재산 공시",
-      "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0107070000",
-      "onclick": "",
-      "board": "https://www.ui4u.go.kr/portal/contents.do?mId=0301110000"
-    },
-    {
-      "region": "경기도 의정부시",
-      "title": "민원 신청(2025. 10. 14. 이전)",
-      "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0201120000",
-      "onclick": "",
-      "board": "https://www.ui4u.go.kr/portal/contents.do?mId=0301110000"
-    },
-    {
-      "region": "경기도 의정부시",
-      "title": "여권 신청 안내",
-      "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0210030000",
-      "onclick": "",
-      "board": "https://www.ui4u.go.kr/portal/contents.do?mId=0301110000"
-    },
-    {
-      "region": "경기도 의정부시",
-      "title": "온라인 여권재발급 신청",
-      "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0210040000",
-      "onclick": "",
-      "board": "https://www.ui4u.go.kr/portal/contents.do?mId=0301110000"
-    },
-    {
-      "region": "경기도 의정부시",
-      "title": "행복소식지 신청",
-      "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0303050000",
-      "onclick": "",
-      "board": "https://www.ui4u.go.kr/portal/contents.do?mId=0301110000"
-    },
-    {
-      "region": "경기도 의정부시",
-      "title": "서비스 신청",
-      "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0306010000",
-      "onclick": "",
-      "board": "https://www.ui4u.go.kr/portal/contents.do?mId=0301110000"
-    },
-    {
-      "region": "경기도 의정부시",
-      "title": "재동의 조회/신청",
-      "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0306040000",
-      "onclick": "",
-      "board": "https://www.ui4u.go.kr/portal/contents.do?mId=0301110000"
-    },
-    {
-      "region": "경기도 의정부시",
-      "title": "정보공개신청",
-      "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0103040000",
-      "onclick": "",
       "board": "https://www.ui4u.go.kr/portal/contents.do?mId=0204090000"
     },
     {
@@ -3640,6 +3731,356 @@
       "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0210050000",
       "onclick": "",
       "board": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0401010000"
+    },
+    {
+      "region": "경기도 평택시",
+      "title": "지방보조금",
+      "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0107020000",
+      "onclick": "",
+      "board": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0302110000"
+    },
+    {
+      "region": "경기도 평택시",
+      "title": "대금지급",
+      "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0108050000",
+      "onclick": "",
+      "board": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0302110000"
+    },
+    {
+      "region": "경기도 평택시",
+      "title": "구술&middot;전화 신청가능민원",
+      "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0204030000",
+      "onclick": "",
+      "board": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0302110000"
+    },
+    {
+      "region": "경기도 평택시",
+      "title": "민원신청서 외국어서비스",
+      "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0205030000",
+      "onclick": "",
+      "board": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0302110000"
+    },
+    {
+      "region": "경기도 평택시",
+      "title": "가족관계등록 신청 및 편제",
+      "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0206010000",
+      "onclick": "",
+      "board": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0302110000"
+    },
+    {
+      "region": "경기도 평택시",
+      "title": "사망자 등 재산조회 통합처리 신청(안심상속)",
+      "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0206030000",
+      "onclick": "",
+      "board": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0302110000"
+    },
+    {
+      "region": "경기도 평택시",
+      "title": "여권신청시 공통구비서류",
+      "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0210030000",
+      "onclick": "",
+      "board": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0302110000"
+    },
+    {
+      "region": "경기도 평택시",
+      "title": "일반여권신청(재발급)",
+      "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0210040000",
+      "onclick": "",
+      "board": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0302110000"
+    },
+    {
+      "region": "경기도 평택시",
+      "title": "온라인여권재발급신청(정부24)",
+      "url": "https://www.gov.kr/portal/service/serviceInfo/126200000030",
+      "onclick": "",
+      "board": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0302110000"
+    },
+    {
+      "region": "경기도 평택시",
+      "title": "관용여권 및 병역의무대상자 여권신청",
+      "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0210050000",
+      "onclick": "",
+      "board": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0302110000"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "가족지원과",
+      "url": "https://www.ddc.go.kr/ddc/selectEmployeeList.do?key=79&amp;searchCnd=emplNm&amp;deptCode=39201150000",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=7&key=718"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "시정홍보 문자서비스 신청",
+      "url": "https://www.ddc.go.kr/ddc/smsReg.do?key=1580",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=7&key=718"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "동두천사랑 우편발송 신청",
+      "url": "https://www.ddc.go.kr/ebook/selectBbsNttList.do?bbsNo=130&key=1469",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=7&key=718"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "초빙 강사료(강연료) 지급현황",
+      "url": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=179&key=1943",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=7&key=718"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "대금지급",
+      "url": "https://www.ddc.go.kr/ddc/PayList.do?key=375",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=7&key=718"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "대금지급예고",
+      "url": "https://www.ddc.go.kr/ddc/PayNoticeList.do?key=376",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=7&key=718"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "여권 및 국제운전면허증 신청",
+      "url": "https://www.ddc.go.kr/ddc/contents.do?key=154",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=7&key=718"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "온라인 여권 재발급 신청(정부24)",
+      "url": "https://www.gov.kr/portal/service/serviceInfo/126200000030",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=7&key=718"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "전자여행허가신청",
+      "url": "https://www.ddc.go.kr/ddc/contents.do?key=156",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=7&key=718"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "지방세환급금 신청(위택스)",
+      "url": "https://www.wetax.go.kr/etq/ett/rfi/f0201/F020101M01.do",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=7&key=718"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "가족지원과",
+      "url": "https://www.ddc.go.kr/ddc/selectEmployeeList.do?key=79&amp;searchCnd=emplNm&amp;deptCode=39201150000",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=8&key=723"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "시정홍보 문자서비스 신청",
+      "url": "https://www.ddc.go.kr/ddc/smsReg.do?key=1580",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=8&key=723"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "동두천사랑 우편발송 신청",
+      "url": "https://www.ddc.go.kr/ebook/selectBbsNttList.do?bbsNo=130&key=1469",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=8&key=723"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "초빙 강사료(강연료) 지급현황",
+      "url": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=179&key=1943",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=8&key=723"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "대금지급",
+      "url": "https://www.ddc.go.kr/ddc/PayList.do?key=375",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=8&key=723"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "대금지급예고",
+      "url": "https://www.ddc.go.kr/ddc/PayNoticeList.do?key=376",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=8&key=723"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "여권 및 국제운전면허증 신청",
+      "url": "https://www.ddc.go.kr/ddc/contents.do?key=154",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=8&key=723"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "온라인 여권 재발급 신청(정부24)",
+      "url": "https://www.gov.kr/portal/service/serviceInfo/126200000030",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=8&key=723"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "전자여행허가신청",
+      "url": "https://www.ddc.go.kr/ddc/contents.do?key=156",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=8&key=723"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "지방세환급금 신청(위택스)",
+      "url": "https://www.wetax.go.kr/etq/ett/rfi/f0201/F020101M01.do",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=8&key=723"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "가족지원과",
+      "url": "https://www.ddc.go.kr/ddc/selectEmployeeList.do?key=79&amp;searchCnd=emplNm&amp;deptCode=39201150000",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=10&key=733"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "시정홍보 문자서비스 신청",
+      "url": "https://www.ddc.go.kr/ddc/smsReg.do?key=1580",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=10&key=733"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "동두천사랑 우편발송 신청",
+      "url": "https://www.ddc.go.kr/ebook/selectBbsNttList.do?bbsNo=130&key=1469",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=10&key=733"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "초빙 강사료(강연료) 지급현황",
+      "url": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=179&key=1943",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=10&key=733"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "대금지급",
+      "url": "https://www.ddc.go.kr/ddc/PayList.do?key=375",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=10&key=733"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "대금지급예고",
+      "url": "https://www.ddc.go.kr/ddc/PayNoticeList.do?key=376",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=10&key=733"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "여권 및 국제운전면허증 신청",
+      "url": "https://www.ddc.go.kr/ddc/contents.do?key=154",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=10&key=733"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "온라인 여권 재발급 신청(정부24)",
+      "url": "https://www.gov.kr/portal/service/serviceInfo/126200000030",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=10&key=733"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "전자여행허가신청",
+      "url": "https://www.ddc.go.kr/ddc/contents.do?key=156",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=10&key=733"
+    },
+    {
+      "region": "경기도 동두천시",
+      "title": "지방세환급금 신청(위택스)",
+      "url": "https://www.wetax.go.kr/etq/ett/rfi/f0201/F020101M01.do",
+      "onclick": "",
+      "board": "https://www.ddc.go.kr/ddc/selectBbsNttList.do?bbsNo=10&key=733"
+    },
+    {
+      "region": "경기도 의왕시",
+      "title": "민원신청",
+      "url": "https://www.uiwang.go.kr/UWKORCOM0902",
+      "onclick": "",
+      "board": "https://www.uiwang.go.kr/UWKORINFO0101"
+    },
+    {
+      "region": "경기도 의왕시",
+      "title": "지방보조금 부정수급 신고",
+      "url": "https://www.clean.go.kr/menu.es?mid=a10602030000",
+      "onclick": "",
+      "board": "https://www.uiwang.go.kr/UWKORINFO0101"
+    },
+    {
+      "region": "경기도 의왕시",
+      "title": "고충민원 신청 안내",
+      "url": "https://www.uiwang.go.kr/UWKORCOM1302",
+      "onclick": "",
+      "board": "https://www.uiwang.go.kr/UWKORINFO0101"
+    },
+    {
+      "region": "경기도 의왕시",
+      "title": "여권신청",
+      "url": "https://www.uiwang.go.kr/UWKORMIN0630",
+      "onclick": "",
+      "board": "https://www.uiwang.go.kr/UWKORINFO0101"
+    },
+    {
+      "region": "경기도 의왕시",
+      "title": "대금지급",
+      "url": "https://www.uiwang.go.kr/UWKOROPEN0319",
+      "onclick": "",
+      "board": "https://www.uiwang.go.kr/UWKORINFO0101"
+    },
+    {
+      "region": "경기도 의왕시",
+      "title": "고유가 피해지원금",
+      "url": "https://www.uiwang.go.kr/UWKORWEL2007",
+      "onclick": "",
+      "board": "https://www.uiwang.go.kr/UWKORINFO0101"
+    },
+    {
+      "region": "경기도 의왕시",
+      "title": "기업지원",
+      "url": "https://www.uiwang.go.kr/UWKORECO0401",
+      "onclick": "",
+      "board": "https://www.uiwang.go.kr/UWKORINFO0101"
+    },
+    {
+      "region": "경기도 의왕시",
+      "title": "♣ 의왕시일자리센터 「정리수납전문가 2급 자격증 과정」 교육생 모집 안내 ♣첨부파일",
+      "url": "https://www.uiwang.go.kr/UWKORINFO0101/7003904/?curPage=1",
+      "onclick": "",
+      "board": "https://www.uiwang.go.kr/UWKORINFO0101"
+    },
+    {
+      "region": "경기도 의왕시",
+      "title": "★의왕시일자리센터 「소형지게차 면허 취득과정(2기)」 교육생 모집 안내★첨부파일",
+      "url": "https://www.uiwang.go.kr/UWKORINFO0101/7003837/?curPage=1",
+      "onclick": "",
+      "board": "https://www.uiwang.go.kr/UWKORINFO0101"
+    },
+    {
+      "region": "경기도 의왕시",
+      "title": "FOOD WEEK KOREA 2026 참가 지원기업 추가모집 안내첨부파일",
+      "url": "https://www.uiwang.go.kr/UWKORINFO0101/7003703/?curPage=1",
+      "onclick": "",
+      "board": "https://www.uiwang.go.kr/UWKORINFO0101"
     },
     {
       "region": "경기도 의왕시",
@@ -3846,6 +4287,13 @@
     },
     {
       "region": "경기도 하남시",
+      "title": "하남시 의료요양통합돌봄사업 안내새글",
+      "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=501732&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
+      "onclick": "",
+      "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
+    },
+    {
+      "region": "경기도 하남시",
       "title": "덕풍3동 통장 모집 공고(14통, 30통, 3통)새글",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=501710&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
@@ -3860,7 +4308,7 @@
     },
     {
       "region": "경기도 하남시",
-      "title": "[평생교육과] 2026 신중년대학 여름계절학기 모집안내",
+      "title": "[평생교육과] 2026 신중년대학 여름계절학기 모집안내핫이슈",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=501070&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
@@ -3876,27 +4324,6 @@
       "region": "경기도 하남시",
       "title": "&#034;든든한 일상, 살던 곳에서 이어가는 돌봄&#034; 의료요양 통합돌봄사업 신청핫이슈",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=500741&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
-      "onclick": "",
-      "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
-    },
-    {
-      "region": "경기도 하남시",
-      "title": "덕풍3동 통장 모집 공고(36통, 7통)핫이슈",
-      "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=500730&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
-      "onclick": "",
-      "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
-    },
-    {
-      "region": "경기도 하남시",
-      "title": "신장2동 통장 모집 공고(3통, 28통, 33통, 54통)핫이슈",
-      "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=500613&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
-      "onclick": "",
-      "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
-    },
-    {
-      "region": "경기도 하남시",
-      "title": "미사1동 통장 모집 공고(8통, 9통, 16통, 19통, 26통, 46통, 48통, 53통, 56통, 57통, 62통, 68통, 70통)핫이슈",
-      "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=500454&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
     },
@@ -4021,28 +4448,28 @@
     },
     {
       "region": "경기도 하남시",
-      "title": "2026년 하남시 스타트업 육성 지원사업(이루다+)새글",
+      "title": "2026년 하남시 스타트업 육성 지원사업(이루다+)핫이슈 새글",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10051&amp;bbsNo=30&amp;nttNo=501712&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=30&key=10051"
     },
     {
       "region": "경기도 하남시",
-      "title": "2026년 하남시 청년명예시장 및 청년정책특보단 모집 안내새글",
+      "title": "2026년 하남시 청년명예시장 및 청년정책특보단 모집 안내핫이슈 새글",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10051&amp;bbsNo=30&amp;nttNo=501711&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=30&key=10051"
     },
     {
       "region": "경기도 하남시",
-      "title": "2026년 스포츠강좌이용권 및 장애인스포츠강좌이용권 추가 모집 안내새글",
+      "title": "2026년 스포츠강좌이용권 및 장애인스포츠강좌이용권 추가 모집 안내핫이슈",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10051&amp;bbsNo=30&amp;nttNo=501687&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=30&key=10051"
     },
     {
       "region": "경기도 하남시",
-      "title": "2026년 G-FAIR 연계 라이브커머스 쇼호스트 교육생 모집 안내새글",
+      "title": "2026년 G-FAIR 연계 라이브커머스 쇼호스트 교육생 모집 안내",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10051&amp;bbsNo=30&amp;nttNo=501679&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=30&key=10051"
@@ -4091,36 +4518,29 @@
     },
     {
       "region": "경기도 용인시",
-      "title": "[농업기술] 2026년 생활 속 도시농업 프로그램[도시농업을 드로잉하다] 하반기 교육생 모집(추가모집)",
-      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1018&q_clCode=2&q_bbscttSn=20260803134821851",
+      "title": "[농업기술] AI스마트활용교욱[입문/심화]교육생 모집",
+      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1018&q_clCode=2&q_bbscttSn=20260806092013641",
       "onclick": "",
       "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1001&q_clCode=1"
     },
     {
       "region": "경기도 용인시",
-      "title": "[보건소] 저염·저당 건강요리교실 「맛있게 LOW(Low salt Low sugar)」 참여자 모집",
-      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1019&q_clCode=3&q_bbscttSn=20260803132023841&q_category=main",
+      "title": "2026년 경기도 가정보육 어린이 건강과일 신청안내",
+      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1001&q_clCode=1&q_bbscttSn=20260805134331199",
       "onclick": "",
       "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1001&q_clCode=1"
     },
     {
       "region": "경기도 용인시",
-      "title": "[보건소] 「코로나바이러스감염증-19 예방접종 피해보상 등에 관한 특별법」에 따른 피해보상 신청 절차 안내",
-      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1019&q_clCode=3&q_bbscttSn=20260803115653234&q_category=main",
+      "title": "2026년 식중독 예방진단 컨설팅 참여업소 모집 안내",
+      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1001&q_clCode=1&q_bbscttSn=20260805111835217",
       "onclick": "",
       "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1001&q_clCode=1"
     },
     {
       "region": "경기도 용인시",
-      "title": "2026년 용인시 한옥건축 지원사업 추가 모집 안내",
-      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1001&q_clCode=1&q_bbscttSn=20260803094614662",
-      "onclick": "",
-      "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1001&q_clCode=1"
-    },
-    {
-      "region": "경기도 용인시",
-      "title": "[농업기술] 2027년 현장접목기술 고도화지원 농업인 아이디어,경험노하우 과제 수요조사",
-      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1018&q_clCode=2&q_bbscttSn=20260803075606417",
+      "title": "[농업기술] 2026년 하반기(도시농업관리사 육성 교육)교육생 모집(추가)",
+      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1018&q_clCode=2&q_bbscttSn=20260805103325749",
       "onclick": "",
       "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1001&q_clCode=1"
     },
@@ -4136,13 +4556,6 @@
       "title": "위원회 위원 모집 공고",
       "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1170",
       "onclick": "",
-      "board": "https://www.yongin.go.kr/user/web/newsApi/BD_selectNewsApiList.do"
-    },
-    {
-      "region": "경기도 용인시",
-      "title": "경기도, 일본 대기업과 투자상담회…도내 스타트업 일본 시장 진출 지원",
-      "url": null,
-      "onclick": "goView(",
       "board": "https://www.yongin.go.kr/user/web/newsApi/BD_selectNewsApiList.do"
     },
     {
@@ -4157,6 +4570,27 @@
       "title": "위원회 위원 모집 공고",
       "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1170",
       "onclick": "",
+      "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1020"
+    },
+    {
+      "region": "경기도 용인시",
+      "title": "용인특례시, 기흥평생학습관 제3차 정기 교육 수강생 모집",
+      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1020&amp;q_bbscttSn=20260806080740323",
+      "onclick": "opView(",
+      "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1020"
+    },
+    {
+      "region": "경기도 용인시",
+      "title": "용인특례시 기흥구, ‘식중독 예방진단 컨설팅’ 참여업소 모집",
+      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1020&amp;q_bbscttSn=20260805073823412",
+      "onclick": "opView(",
+      "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1020"
+    },
+    {
+      "region": "경기도 용인시",
+      "title": "용인특례시, ‘온시민 용인런’ 하반기 학습 모둠 모집",
+      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1020&amp;q_bbscttSn=20260805073548492",
+      "onclick": "opView(",
       "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1020"
     },
     {
@@ -4630,6 +5064,20 @@
     },
     {
       "region": "경기도 이천시",
+      "title": "2026년 이천시 도&middot;공예인 맞춤형 온라인 마케팅 특강 참가자 모집",
+      "url": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000#",
+      "onclick": "yhLib.inline.post(this); return false;",
+      "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
+    },
+    {
+      "region": "경기도 이천시",
+      "title": "📢 이천시 청소년생활문화센터 2026년 하반기 프로그램 수강생 모집‼️",
+      "url": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000#",
+      "onclick": "yhLib.inline.post(this); return false;",
+      "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
+    },
+    {
+      "region": "경기도 이천시",
       "title": "&#39;26년 하반기 빈용기 무인회수기 구매지원 사업 신청 안내",
       "url": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000#",
       "onclick": "yhLib.inline.post(this); return false;",
@@ -4644,21 +5092,21 @@
     },
     {
       "region": "경기도 이천시",
+      "title": "경비원 전문인력 양성과정 교육생 모집",
+      "url": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000#",
+      "onclick": "yhLib.inline.post(this); return false;",
+      "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
+    },
+    {
+      "region": "경기도 이천시",
+      "title": "[이천일자리센터 회계실무자 양성 과정] 참여자 모집",
+      "url": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000#",
+      "onclick": "yhLib.inline.post(this); return false;",
+      "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
+    },
+    {
+      "region": "경기도 이천시",
       "title": "2026년 하반기 품목별 전문교육 교육 개설 안내 및 교육생 모집",
-      "url": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000#",
-      "onclick": "yhLib.inline.post(this); return false;",
-      "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
-    },
-    {
-      "region": "경기도 이천시",
-      "title": "2026년 경기도 위기산업 일자리 버팀이음 지원사업 추진계획 수정 공고",
-      "url": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000#",
-      "onclick": "yhLib.inline.post(this); return false;",
-      "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
-    },
-    {
-      "region": "경기도 이천시",
-      "title": "2026년 하반기 수산물 위생&middot;안전교육 신청 안내",
       "url": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000#",
       "onclick": "yhLib.inline.post(this); return false;",
       "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
@@ -4685,20 +5133,6 @@
       "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
     },
     {
-      "region": "경기도 이천시",
-      "title": "모집신청접수",
-      "url": "https://www.icheon.go.kr/portal/contents.do?mid=0204080100",
-      "onclick": "",
-      "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
-    },
-    {
-      "region": "경기도 이천시",
-      "title": "나의 신청 현황",
-      "url": "https://www.icheon.go.kr/portal/contents.do?mid=0204080200",
-      "onclick": "",
-      "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
-    },
-    {
       "region": "경기도 광주시",
       "title": "광주비전·문자알리미 신청",
       "url": "https://www.gjcity.go.kr/portal/contents.do?mId=0203050000",
@@ -5887,6 +6321,76 @@
       "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
       "onclick": "goTo.view(",
       "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
+    },
+    {
+      "region": "경기도 과천시 갈현동",
+      "title": "고유가 피해지원금",
+      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000#",
+      "onclick": "",
+      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
+    },
+    {
+      "region": "경기도 과천시 갈현동",
+      "title": "신청방법",
+      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000#",
+      "onclick": "",
+      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
+    },
+    {
+      "region": "경기도 과천시 갈현동",
+      "title": "과천주암 공공지원민간임대주택 공급촉진지구 조성",
+      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000#",
+      "onclick": "",
+      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
+    },
+    {
+      "region": "경기도 과천시 갈현동",
+      "title": "처리절차 및 신청방법",
+      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0105140200",
+      "onclick": "",
+      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
+    },
+    {
+      "region": "경기도 과천시 갈현동",
+      "title": "복지·보조금 부정수급 신고센터",
+      "url": "https://www.clean.go.kr/menu.es?mid=a10202000000",
+      "onclick": "",
+      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
+    },
+    {
+      "region": "경기도 과천시 갈현동",
+      "title": "이의신청 및 구제절차",
+      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0201020300",
+      "onclick": "",
+      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
+    },
+    {
+      "region": "경기도 과천시 갈현동",
+      "title": "행정정보공개 신청",
+      "url": "https://www.open.go.kr/com/main/mainView.do",
+      "onclick": "",
+      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
+    },
+    {
+      "region": "경기도 과천시 갈현동",
+      "title": "대금지급",
+      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0202060000",
+      "onclick": "",
+      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
+    },
+    {
+      "region": "경기도 과천시 갈현동",
+      "title": "대금지급현황",
+      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0202060100",
+      "onclick": "",
+      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
+    },
+    {
+      "region": "경기도 과천시 갈현동",
+      "title": "지방보조금 중요재산 공시",
+      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0203130000",
+      "onclick": "",
+      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
     },
     {
       "region": "경기도 오산시",
@@ -5960,14 +6464,14 @@
     },
     {
       "region": "경기도 오산시",
-      "title": "(재)오산문화재단 임원(대표이사, 비상임감사) 공개모집",
+      "title": "오산시육아종합지원센터 종사자 채용 안내",
       "url": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=185&mId=0302030000#",
       "onclick": "goTo.view(",
       "board": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=185&mId=0302030000"
     },
     {
       "region": "경기도 오산시",
-      "title": "오산시육아종합지원센터 종사자 채용 재공고 안내",
+      "title": "(재)오산문화재단 임원(대표이사, 비상임감사) 공개모집",
       "url": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=185&mId=0302030000#",
       "onclick": "goTo.view(",
       "board": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=185&mId=0302030000"
@@ -6023,21 +6527,14 @@
     },
     {
       "region": "경기도 오산시",
-      "title": "2026년 염소 FTA 피해보전직불금 신청기간 연장 공고",
+      "title": "건설공사 안전점검 수행기관 지정 모집 공고(토목분야)",
       "url": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000#",
       "onclick": "req.post(this); return false;",
       "board": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000"
     },
     {
       "region": "경기도 오산시",
-      "title": "2026년 요양보호사 자격증 취득과정 교육생 모집 공고",
-      "url": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000#",
-      "onclick": "req.post(this); return false;",
-      "board": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000"
-    },
-    {
-      "region": "경기도 오산시",
-      "title": "2026년도 3기 세마동 주민자치센터 문화강좌 수강생 모집 공고",
+      "title": "오산시 함께자람센터 세교파라곤 2026년도 신규 이용아동 모집 공고",
       "url": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000#",
       "onclick": "req.post(this); return false;",
       "board": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000"
@@ -6094,13 +6591,6 @@
     {
       "region": "경기도 오산시",
       "title": "2026년 교통유발부담금 부과를 위한 시설물 현장 조사 안내(미사용 신청서식 포함)",
-      "url": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=182&mId=0301040000#",
-      "onclick": "goTo.view(",
-      "board": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=182&mId=0301040000"
-    },
-    {
-      "region": "경기도 오산시",
-      "title": "2026년 아이돌봄지원사업 영아종일제 이용자 모집 안내",
       "url": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=182&mId=0301040000#",
       "onclick": "goTo.view(",
       "board": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=182&mId=0301040000"

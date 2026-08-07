@@ -156346,5 +156346,71 @@
     "amount": "주2회 일주일분 반찬",
     "show": true,
     "special": true
+  },
+  "g24-373000000146": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다자녀 가정 가사지원서비스 지원",
+    "target": "울산 거주 5자녀 이상 가정 (모두 18세 이하)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-302000000122": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 건강보험료 지원",
+    "target": "용산구 주민, 최저건강보험료 이하, 65세이상/장애인/국가유공자/한부모",
+    "amount": "최저건강보험료 20,160원 이하",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002350": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "행려자 구호 지원",
+    "target": "행려자",
+    "amount": "귀향여비, 시설입소",
+    "show": true,
+    "special": true
+  },
+  "g24-373000000143": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "울주군 임산부 가사돌봄서비스 지원",
+    "target": "울주군 거주 임산부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006719": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "셋째아 출산 가정 육아용품 지원",
+    "target": "셋째아 출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006720": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "무연고 사망자 관리",
+    "target": "",
+    "amount": "",
+    "show": false,
+    "special": true
   }
 }
