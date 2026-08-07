@@ -156424,5 +156424,146 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-478100000017": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "농촌유학 유학경비 지원",
+    "target": "전북 외 초중 재학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-369000000259": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "중구청 출산축하용품 지원",
+    "target": "울산 중구 출생신고 가정",
+    "amount": "10만원 상당",
+    "show": true,
+    "special": false
+  },
+  "g24-537000001450": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "거제시 중장년 재취업 자격증 응시료 지원",
+    "target": "거제시 거주 40~64세 중장년층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-328000000138": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "어린이집 냉난방비 지원",
+    "target": "관내 어린이집",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-370000000133": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 중증장애인 장애수당 지원",
+    "target": "만18세 이상 생계/의료급여 수급자 중증 재가장애인",
+    "amount": "월 5만원",
+    "show": true,
+    "special": true
+  },
+  "g24-356100000005": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청년스타트업 창업공간 및 사업비 지원",
+    "target": "인천 거주 예비/초기 창업가",
+    "amount": "최대 30만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00015000023": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "경주엑스포 인피니티 플라잉 연계요금 할인",
+    "target": "65세 이상, 장애인, 경북도민",
+    "amount": "20,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00015000016": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "경주엑스포 입장요금 할인",
+    "target": "경북도민, 경증장애인, 군인 등",
+    "amount": "10,000원/8,000원",
+    "show": true,
+    "special": false
+  },
+  "g24-356100000003": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청년인턴 사업",
+    "target": "19~34세 미취업 서구 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-356100000004": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "중소기업 재직청년 복지공유제 지원",
+    "target": "인천 서구/검단구 중소기업 재직 6개월 이상 청년",
+    "amount": "숙박비 지원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00015000021": {
+    "category": "문화",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "경주엑스포 입장요금 감면",
+    "target": "사회적 취약계층, 중증장애인, 수급자 등",
+    "amount": "입장무료",
+    "show": true,
+    "special": true
+  },
+  "g24-O00015000024": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경주엑스포 다자녀가정 입장요금 할인",
+    "target": "다자녀가정(13세 이하 2자녀 이상)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-129000000008": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "특수임무수행자 보상",
+    "target": "특수임무수행자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
