@@ -156565,5 +156565,131 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006730": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산가정 산후조리 비용 지원",
+    "target": "출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006726": {
+    "category": "주거",
+    "tags": [
+      "신혼",
+      "임신·출산"
+    ],
+    "support_type": "대출",
+    "summary": "신혼부부·출산가정 주택구입(전세) 이자 지원",
+    "target": "신혼부부, 출산가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006725": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 결혼자금 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006724": {
+    "category": "육아",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "청소년·한부모 자녀 양육비 지원",
+    "target": "청소년, 한부모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006723": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "학생 야간 통학 택시비 지원",
+    "target": "학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006722": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "진폐의증환자 수당 지원",
+    "target": "진폐의증환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001843": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "다문화가족 자녀 방문학습지 지원",
+    "target": "다문화가족 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00001819": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "다문화복지신문 구독 지원",
+    "target": "도내 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006727": {
+    "category": "교육",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "서민자녀 교육지원 바우처 지원",
+    "target": "서민자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006729": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모 산후조리비 지원",
+    "target": "농·어촌지역 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006728": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난임부부 교통비 지원",
+    "target": "난임시술 가정",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
