@@ -156691,5 +156691,51 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-478100000045": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득층 자녀 안경 신규착용 및 교체 지원",
+    "target": "관내 저소득세대 자녀 중 저시력 학생",
+    "amount": "안경 신규착용 및 교체",
+    "show": true,
+    "special": false
+  },
+  "g24-353000000196": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "담보력 부족 소상인 특례보증 지원",
+    "target": "담보력이 부족한 관내 소기업, 소공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-478100000006": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 본인부담금 지원",
+    "target": "고창군 거주 산모 및 출생신고 신생아",
+    "amount": "본인부담금의 최대 90%",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001116": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청년농업인 영농정착지원",
+    "target": "독립경영 3년 이하 또는 예정인 18~39세",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
