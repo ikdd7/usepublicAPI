@@ -156757,5 +156757,133 @@
     "amount": "",
     "show": false,
     "special": true
+  },
+  "g24-366000000110": {
+    "category": "교육",
+    "tags": [
+      "저소득",
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 고등학생에게 장학금 100만원 지급",
+    "target": "대전 서구 거주 저소득 고등학생",
+    "amount": "100만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00043100001": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "평창군 거주 학생에게 장학금 지급",
+    "target": "평창군 거주 중·고·대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-320000000314": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 이동기기 수리비 연간 최대 30만원 지원",
+    "target": "관악구 거주 등록 장애인",
+    "amount": "연간 최대 30만원",
+    "show": true,
+    "special": true
+  },
+  "g24-544000000142": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "하동군 외 거주 관광객에게 여행 경비 50% 지원",
+    "target": "하동군 외 거주 관광객",
+    "amount": "최대 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-322000000127": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "강남구 출산부에게 유축기 1개월 무료 대여",
+    "target": "강남구 거주 출산부",
+    "amount": "1개월 무료",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000232": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "광진구 학생에게 장학금 연 1,000~5,000천원 지급",
+    "target": "광진구 거주 학생",
+    "amount": "연 1,000~5,000천원",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000236": {
+    "category": "문화",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "1인가구 대상 인문학 강좌 운영",
+    "target": "관내 1인가구 및 직장인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00072800001": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "서비스",
+    "summary": "소상공인 경영자문 및 컨설팅 지원",
+    "target": "전남광주통합특별시 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55247300002": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "사회적 경제기업 특례보증 지원",
+    "target": "사회적 기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-B55247300001": {
+    "category": "금융",
+    "tags": [
+      "장애인",
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "장애인기업 특례보증 지원",
+    "target": "장애인기업",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-B55247300003": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "재도전지원 특례보증 지원",
+    "target": "재도전 기업인",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
