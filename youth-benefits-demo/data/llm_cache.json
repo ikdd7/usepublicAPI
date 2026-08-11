@@ -156737,5 +156737,25 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006733": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "영유아 특별활동비 지원",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006721": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 선도비 지급",
+    "target": "",
+    "amount": "",
+    "show": false,
+    "special": true
   }
 }
