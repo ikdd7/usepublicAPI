@@ -156885,5 +156885,29 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006735": {
+    "category": "육아",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "둘째아 이하 50%, 셋째아 이상 100% 환급",
+    "target": "영유아, 아동, 한부모, 조손, 다문화, 탈북민, 다자녀",
+    "amount": "본인부담금 50%~100% 환급",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006734": {
+    "category": "일자리",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "근로자 5년간 공동 적립 후 만기 시 목돈 지급",
+    "target": "관내 중소기업 근로자",
+    "amount": "최대 3,000만원",
+    "show": true,
+    "special": false
   }
 }
