@@ -156909,5 +156909,39 @@
     "amount": "최대 3,000만원",
     "show": true,
     "special": false
+  },
+  "g24-409000000155": {
+    "category": "일자리",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "대학생 공공기관 직장체험 지원",
+    "target": "김포시 소재 또는 거주 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-522000000295": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "칠곡군 다자녀 가구 인플루엔자 예방접종 지원",
+    "target": "칠곡군 거주 2자녀 이상 가구 부모 및 18세 이하 자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-646000000164": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "5.18민주유공자 생활지원금 지원",
+    "target": "5.18민주유공자 및 유가족 중 소득 130% 이하",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
