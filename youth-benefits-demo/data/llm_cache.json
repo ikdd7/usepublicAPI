@@ -158386,5 +158386,52 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-526000000126": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "울릉군 거주 산모 신생아 건강관리 서비스 본인부담금 지원",
+    "target": "울릉군 거주 산모",
+    "amount": "본인부담금 90% (최대 15일)",
+    "show": true,
+    "special": false
+  },
+  "g24-538000000651": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "고립·은둔 청년 활력 및 사회관계망 형성 지원",
+    "target": "19~39세 고립·은둔 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00059700007": {
+    "category": "교육",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "경남도 거주 등록 장애인 평생교육이용권 지원",
+    "target": "경남도 거주 19세 이상 등록 장애인",
+    "amount": "119명",
+    "show": true,
+    "special": true
+  },
+  "g24-641000000875": {
+    "category": "문화",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "경기도 청소년 국제교류 프로그램 참가 지원",
+    "target": "13~18세 경기도 내 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
