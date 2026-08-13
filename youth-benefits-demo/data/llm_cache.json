@@ -156943,5 +156943,17 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006645": {
+    "category": "복지",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "다문화가족 안정적 지역사회 정착 지원",
+    "target": "임신·출산·다문화·탈북민",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
