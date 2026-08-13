@@ -158374,5 +158374,17 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00005626": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 대여용 휠체어 수선비 지원",
+    "target": "청원구 거주 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
