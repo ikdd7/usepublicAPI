@@ -158445,5 +158445,40 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-398000000296": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "중고등학교 신입생 체육복 구입비 지원",
+    "target": "구리시 중고등학교 신입생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-417000000468": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "생계·의료급여 수급자 등 상수도요금 감면",
+    "target": "생계·의료급여 수급자, 심한 장애인, 국가유공자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-559000000447": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "장애인등록증 발급비용 지원",
+    "target": "관내 등록 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
