@@ -158433,5 +158433,17 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00000325": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현물",
+    "summary": "장애인 휠체어 무료 대여 서비스",
+    "target": "질병, 부상 등으로 휠체어 단기 사용이 필요한 시민",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
