@@ -158480,5 +158480,15 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bd-e28098eab2bd": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "스타트업 1:1 밋업 참가기업 모집",
+    "target": "",
+    "amount": "",
+    "show": false,
+    "special": false
   }
 }
