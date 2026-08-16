@@ -158490,5 +158490,17 @@
     "amount": "",
     "show": false,
     "special": false
+  },
+  "bj-WLF00001366": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "출산가정 산모 신생아 건강관리 지원",
+    "target": "영유아, 임신·출산 가정",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
