@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T04:45:10.055Z",
+  "fetched_at": "2026-08-17T04:56:07.506Z",
   "candidates": [
     {
       "region": "인천광역시 연수구",
@@ -473,7 +473,14 @@
     {
       "region": "인천광역시 강화군",
       "title": "농촌돌봄서비스 활성화 사업 설명회 안내",
-      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=69D46615AAAD8552ABB009033C2D77D0?msg_seq=12414&amp;bcd=notice",
+      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=261E47816A881912B42953C022187584?msg_seq=12414&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp"
+    },
+    {
+      "region": "인천광역시 강화군",
+      "title": "인천지역 소규모 건설현장 사고사망 감축을 위한 보조금 지원 사업 안내",
+      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=261E47816A881912B42953C022187584?msg_seq=12410&amp;bcd=notice",
       "onclick": "",
       "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp"
     },
@@ -619,7 +626,7 @@
     },
     {
       "region": "인천광역시 동구",
-      "title": "2026년 건설안전기사 응시자격 온라인 과정 모집 안내 NEW",
+      "title": "2026년 건설안전기사 응시자격 온라인 과정 모집 안내",
       "url": "https://www.icdonggu.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=16367&amp;bcd=board",
       "onclick": "",
       "board": "https://www.icdonggu.go.kr/main/community/board.jsp"
@@ -3125,7 +3132,7 @@
     },
     {
       "region": "서울특별시 금천구",
-      "title": "핫이슈 금천정원지원센터에서 뭐 하길래...사람들이 이렇게 감동하나요? 울컥주의 😭 2025-12-19 조회 : 1675",
+      "title": "핫이슈 금천정원지원센터에서 뭐 하길래...사람들이 이렇게 감동하나요? 울컥주의 😭 2025-12-19 조회 : 1705",
       "url": "https://www.geumcheon.go.kr/gcb/selectBbsNttView.do?key=1848&amp;bbsNo=150151&amp;nttNo=263447&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=",
       "onclick": "",
       "board": "https://www.geumcheon.go.kr/gcb/selectBbsNttList.do?bbsNo=150151&key=1848"
@@ -4952,7 +4959,7 @@
     },
     {
       "region": "경기도 하남시",
-      "title": "2026년 미래자동차 청년도약 인재양성 부트캠프 교육생 모집 안내새글",
+      "title": "2026년 미래자동차 청년도약 인재양성 부트캠프 교육생 모집 안내핫이슈",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10051&amp;bbsNo=30&amp;nttNo=501914&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=30&key=10051"
@@ -5064,14 +5071,14 @@
     },
     {
       "region": "경기도 용인시",
-      "title": "‘경기 스타트업 서밋’ 1:1 밋업 참가기업 모집…투자유치부터 사업협력까지",
+      "title": "경기도, 상반기 민간시설 보호동물 717마리에 ‘찾아가는 진료 지원’ 완료",
       "url": null,
       "onclick": "goView(",
       "board": "https://www.yongin.go.kr/user/web/newsApi/BD_selectNewsApiList.do"
     },
     {
       "region": "경기도 용인시",
-      "title": "경기도, ‘사회연대경제 청년 일경험’ 2차 참여 청년 140명 모집",
+      "title": "경기도, 포천시에 약정형 매입임대주택 28호 준공. 11월 입주자 모집",
       "url": null,
       "onclick": "goView(",
       "board": "https://www.yongin.go.kr/user/web/newsApi/BD_selectNewsApiList.do"
@@ -6839,76 +6846,6 @@
       "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
       "onclick": "goTo.view(",
       "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시 갈현동",
-      "title": "고유가 피해지원금",
-      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000#",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
-    },
-    {
-      "region": "경기도 과천시 갈현동",
-      "title": "신청방법",
-      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000#",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
-    },
-    {
-      "region": "경기도 과천시 갈현동",
-      "title": "과천주암 공공지원민간임대주택 공급촉진지구 조성",
-      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000#",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
-    },
-    {
-      "region": "경기도 과천시 갈현동",
-      "title": "처리절차 및 신청방법",
-      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0105140200",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
-    },
-    {
-      "region": "경기도 과천시 갈현동",
-      "title": "복지·보조금 부정수급 신고센터",
-      "url": "https://www.clean.go.kr/menu.es?mid=a10202000000",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
-    },
-    {
-      "region": "경기도 과천시 갈현동",
-      "title": "이의신청 및 구제절차",
-      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0201020300",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
-    },
-    {
-      "region": "경기도 과천시 갈현동",
-      "title": "행정정보공개 신청",
-      "url": "https://www.open.go.kr/com/main/mainView.do",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
-    },
-    {
-      "region": "경기도 과천시 갈현동",
-      "title": "대금지급",
-      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0202060000",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
-    },
-    {
-      "region": "경기도 과천시 갈현동",
-      "title": "대금지급현황",
-      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0202060100",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
-    },
-    {
-      "region": "경기도 과천시 갈현동",
-      "title": "지방보조금 중요재산 공시",
-      "url": "https://www.gccity.go.kr/portal/contents.do?mId=0203130000",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000"
     },
     {
       "region": "경기도 오산시",
