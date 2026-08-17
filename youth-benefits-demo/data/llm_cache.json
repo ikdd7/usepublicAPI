@@ -158502,5 +158502,17 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00004595": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "저소득 노인에게 무료 급식 제공",
+    "target": "결식 우려 거동 불편 저소득 노인",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
