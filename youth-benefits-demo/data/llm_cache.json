@@ -158514,5 +158514,27 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00004135": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "보훈대상자 생활안정지원",
+    "target": "국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00001816": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "무연고 사망자 장제비 지원",
+    "target": "무연고 사망자",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
