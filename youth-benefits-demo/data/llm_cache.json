@@ -158536,5 +158536,112 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006744": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현금",
+    "summary": "연수구 어르신 품위유지비 지원",
+    "target": "연수구 거주 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006746": {
+    "category": "건강",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현금",
+    "summary": "노인 무릎인공관절 수술비 지원",
+    "target": "무릎관절증 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006743": {
+    "category": "건강",
+    "tags": [
+      "노년",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "차상위계층 노인 대상포진 예방접종 지원",
+    "target": "울산 중구 거주 65세 이상 차상위계층",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006741": {
+    "category": "일자리",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "화천군 장애인 일자리 발굴 및 소득보장 지원",
+    "target": "화천군 거주 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006740": {
+    "category": "육아",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "화천군 장애인가정 출산 및 양육비 지원",
+    "target": "화천군 거주 장애인 가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006748": {
+    "category": "교육",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득층 맞춤형 온라인 콘텐츠 제공",
+    "target": "저소득층 아동·청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006742": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "미혼여성 난자 냉동 시술비 지원",
+    "target": "미혼여성",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006747": {
+    "category": "건강",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "현금",
+    "summary": "전 군민 치매치료관리비 지원",
+    "target": "치매환자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006739": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인복지센터 운영",
+    "target": "장애인 및 지역주민",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
