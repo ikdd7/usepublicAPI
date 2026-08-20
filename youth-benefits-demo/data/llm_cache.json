@@ -158643,5 +158643,15 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006148": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "청소년·다자녀 대상 우유바우처 지원",
+    "target": "청소년, 다자녀",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
