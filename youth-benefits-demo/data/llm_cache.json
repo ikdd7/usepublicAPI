@@ -158653,5 +158653,39 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-408000000560": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다함께돌봄센터 냉난방비 지원",
+    "target": "다함께돌봄센터",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-522000000296": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "칠곡군민 백일해 예방접종 지원",
+    "target": "임신부 및 배우자, 산모 및 배우자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-641000000874": {
+    "category": "일자리",
+    "tags": [
+      "운수종사자"
+    ],
+    "support_type": "현금",
+    "summary": "플랫폼노동자 산재보험료 지원",
+    "target": "플랫폼노동자(배달·대리·화물차주)",
+    "amount": "본인부담액 최대",
+    "show": true,
+    "special": false
   }
 }
