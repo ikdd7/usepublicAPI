@@ -158687,5 +158687,19 @@
     "amount": "본인부담액 최대",
     "show": true,
     "special": false
+  },
+  "bj-WLF00003597": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모",
+      "육아"
+    ],
+    "support_type": "현물",
+    "summary": "결식 우려 아동에게 급식 지원",
+    "target": "결식 우려 저소득층 아동",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
