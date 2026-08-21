@@ -158792,5 +158792,15 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00000783": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 귀향여비 및 급식비 지원",
+    "target": "고향 갈 여비 없는 행려자",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
