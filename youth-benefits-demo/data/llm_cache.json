@@ -158701,5 +158701,96 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006755": {
+    "category": "육아",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "긴급 상황 발생 시 신속하게 돌봄 서비스를 제공",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006751": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "영유아에게 책꾸러미를 지원하여 아이 키우기 좋은 환경 조성",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000587": {
+    "category": "복지",
+    "tags": [
+      "저소득",
+      "한부모"
+    ],
+    "support_type": "현물",
+    "summary": "학기 중 토·일·공휴일 아동 급식 지원",
+    "target": "청소년, 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006756": {
+    "category": "금융",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "예비부부 결혼 초기 경제적 부담 완화 지원",
+    "target": "청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006750": {
+    "category": "복지",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "현금",
+    "summary": "셋째 이상 출산 다자녀가정에 양육비 지원",
+    "target": "아동, 다자녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006754": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현물",
+    "summary": "독거어르신에게 제철과일 지원",
+    "target": "노년, 저소득",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00004018": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "행려사망자 장례 처리 및 노숙인 지원",
+    "target": "",
+    "amount": "",
+    "show": false,
+    "special": true
+  },
+  "bj-WLF00006757": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "희귀질환자 치료 접근성 향상 및 경제적 부담 완화 지원",
+    "target": "",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
