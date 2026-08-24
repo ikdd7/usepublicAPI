@@ -158802,5 +158802,29 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006762": {
+    "category": "일자리",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "원주시 재직 청년 임금 수준 개선 지원",
+    "target": "원주시 관내 기업 재직 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006758": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "산모·신생아 건강관리 서비스 본인부담금 지원",
+    "target": "임신·출산, 영유아 가정",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
