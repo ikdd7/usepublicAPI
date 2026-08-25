@@ -158826,5 +158826,27 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-304000000243": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "광진구민 가족관계등록 상담 지원",
+    "target": "가족관계등록 신고 상담이 필요한 광진구민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-391000000554": {
+    "category": "복지",
+    "tags": [
+      "국가보훈대상자"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 명절위로금 지급",
+    "target": "순국선열, 애국지사 등 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
