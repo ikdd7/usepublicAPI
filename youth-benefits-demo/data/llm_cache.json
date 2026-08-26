@@ -158882,5 +158882,27 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-481000000358": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "곡물 건조기 집진기 설치비 지원",
+    "target": "곡물건조기 소유 농가",
+    "amount": "2,450천원/대",
+    "show": true,
+    "special": false
+  },
+  "g24-582500000001": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "100세 장수노인 장수축하물품 지급",
+    "target": "해당연도 100세 장수노인",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
