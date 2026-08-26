@@ -158848,5 +158848,39 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006765": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "치매환자에게 배회감지기 구입비 지원",
+    "target": "배회 경험이 있거나 실종 우려가 있는 치매환자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006766": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "외국인 재원 아동 보육료 지원",
+    "target": "어린이집 외국인 재원 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006767": {
+    "category": "육아",
+    "tags": [
+      "한부모"
+    ],
+    "support_type": "현금",
+    "summary": "조부모가 손자녀 돌볼 경우 돌봄수당 지원",
+    "target": "양육 공백 가정 조부모(4촌 이내 친족 포함)",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
