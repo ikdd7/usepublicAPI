@@ -158904,5 +158904,79 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-304000000237": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "토지소유자에게 개별공시지가 문자 발송",
+    "target": "광진구 소재 토지소유자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000244": {
+    "category": "기타",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "사회적 약자 여권민원 원스톱 서비스",
+    "target": "영·유아, 어르신, 거동불편 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-304000000245": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "위험·미관 저해 공중선 정비 서비스",
+    "target": "늘어지거나 위험한 공중선 소유자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000246": {
+    "category": "기타",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "민원취약계층 정보공개신청서 구술대필 서비스",
+    "target": "75세 이상 고령자, 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-578500000001": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "모든 시민 민원 사전 상담 예약",
+    "target": "모든 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-578500000003": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "법정민원 사전심사청구 서비스",
+    "target": "비용 수반 민원 신청자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-582500000002": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "아동 병원 동행 긴급 지원",
+    "target": "광산구 3개월~12세 아동 가정",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
