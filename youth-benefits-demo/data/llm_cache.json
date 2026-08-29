@@ -158978,5 +158978,15 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bd-ecb694ebafb8": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도여성가족재단 신청사 이전 기념식 개최",
+    "target": "",
+    "amount": "",
+    "show": false,
+    "special": false
   }
 }
