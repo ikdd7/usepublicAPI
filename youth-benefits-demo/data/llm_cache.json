@@ -158988,5 +158988,29 @@
     "amount": "",
     "show": false,
     "special": false
+  },
+  "bj-WLF00006566": {
+    "category": "주거",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "강화군 대학생 주거비 지원",
+    "target": "강화군 출신 대학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006330": {
+    "category": "건강",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "현금",
+    "summary": "제1형 당뇨병 학생 의료물품 구입비 지원",
+    "target": "제1형 당뇨병 학생",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
