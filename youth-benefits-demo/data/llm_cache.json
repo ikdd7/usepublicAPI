@@ -159012,5 +159012,52 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-399000000398": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "무주택",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "무주택 청년 세대주 이사비 지원",
+    "target": "19~39세 무주택 청년 세대주, 중위소득 120% 이하",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-522000000297": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "칠곡군민 헌혈자 인플루엔자 예방접종 지원",
+    "target": "칠곡군 거주 1년 이내 헌혈자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00049300010": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "사회복지종사자 힐링 프로그램 지원",
+    "target": "남양주시 사회복지시설 종사자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-142000000078": {
+    "category": "일자리",
+    "tags": [
+      "여성",
+      "경력단절여성"
+    ],
+    "support_type": "서비스",
+    "summary": "여성 벤처 창업 지원",
+    "target": "여성 예비창업자, 창업 1년 미만 여성 대표자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
