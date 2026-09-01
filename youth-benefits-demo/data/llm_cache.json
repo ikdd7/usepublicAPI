@@ -159059,5 +159059,29 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-399000000396": {
+    "category": "복지",
+    "tags": [
+      "기타"
+    ],
+    "support_type": "현물",
+    "summary": "북한이탈주민 주거용 생활필수품 구입비 지원",
+    "target": "남양주 거주 북한이탈주민 및 가정",
+    "amount": "생활필수품 구입비 지원",
+    "show": true,
+    "special": true
+  },
+  "g24-O00019100004": {
+    "category": "문화",
+    "tags": [
+      "국가유공자"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 체육시설 이용요금 감면 정보 제공",
+    "target": "국가유공자 및 가족",
+    "amount": "이용요금 감면율",
+    "show": true,
+    "special": true
   }
 }
