@@ -159083,5 +159083,17 @@
     "amount": "이용요금 감면율",
     "show": true,
     "special": true
+  },
+  "g24-O00019100008": {
+    "category": "문화",
+    "tags": [
+      "국가유공자"
+    ],
+    "support_type": "서비스",
+    "summary": "국가유공자 수영장 이용요금 감면 정보 제공",
+    "target": "국가유공자 및 그 가족·유족",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
