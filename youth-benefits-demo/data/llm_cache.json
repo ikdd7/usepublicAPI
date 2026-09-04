@@ -159095,5 +159095,37 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006774": {
+    "category": "일자리",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "미취업 청년 면접 준비비용 최대 10만원 지원",
+    "target": "양산시 거주 19~39세 미취업 청년",
+    "amount": "최대 10만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006772": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "하동형 육아수당 지원",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006773": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "미등록 이주배경아동 보육지원금 지원",
+    "target": "미등록 이주배경아동",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
