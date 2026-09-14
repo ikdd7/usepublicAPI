@@ -159428,5 +159428,59 @@
     "amount": "최대 35만원",
     "show": true,
     "special": true
+  },
+  "g24-427000000248": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "양봉농가에 유채화분 지원",
+    "target": "양봉농가 등록 농가, 사육경력 1년 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-305000000282": {
+    "category": "건강",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 인플루엔자 백신 및 접종 지원",
+    "target": "15~64세 심한 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-307000000211": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국가유공자 수강료 감면",
+    "target": "국가유공자 및 가족, 성북구 주민/재학생",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-307000000214": {
+    "category": "육아",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "수급권자 육아종합센터 이용료 감면",
+    "target": "국민기초생활보장법상 수급권자",
+    "amount": "전액(100%)",
+    "show": true,
+    "special": true
+  },
+  "g24-WII000000120": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "북한이탈주민 자립자활 지원",
+    "target": "북한이탈주민",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
