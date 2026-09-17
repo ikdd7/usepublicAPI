@@ -159482,5 +159482,17 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-613000000001": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "장애인 평생교육이용권 우수이용자 신청 접수",
+    "target": "전남광주통합특별시 거주 19세 이상 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
