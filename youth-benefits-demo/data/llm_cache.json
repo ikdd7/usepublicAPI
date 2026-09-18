@@ -159494,5 +159494,18 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-O00022800003": {
+    "category": "문화",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "금빛휘트니스센터 이용요금 감면",
+    "target": "장애인, 국가유공자, 기초생활수급자, 다둥이카드소지자",
+    "amount": "이용요금 감면",
+    "show": true,
+    "special": true
   }
 }
