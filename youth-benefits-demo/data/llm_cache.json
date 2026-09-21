@@ -159507,5 +159507,17 @@
     "amount": "이용요금 감면",
     "show": true,
     "special": true
+  },
+  "g24-365000000390": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임신부 및 배우자 백일해 접종비 지원",
+    "target": "대전 중구 거주 임신부 및 배우자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
