@@ -159519,5 +159519,27 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-479000000101": {
+    "category": "농업",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "GAP 인증 농가수수료 지원",
+    "target": "부안군 관내 기능성 양잠 농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000140": {
+    "category": "교육",
+    "tags": [
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "옹진군 청년 자격증 응시료 지원",
+    "target": "만18~49세 옹진군 거주 미취업 청년",
+    "amount": "최대 10만원",
+    "show": true,
+    "special": false
   }
 }
