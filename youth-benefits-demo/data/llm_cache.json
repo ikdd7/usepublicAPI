@@ -159541,5 +159541,88 @@
     "amount": "최대 10만원",
     "show": true,
     "special": false
+  },
+  "g24-358000000151": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "참전유공자 사망 시 유가족에게 위로금 지급",
+    "target": "참전유공자 사망 시 유가족",
+    "amount": "400,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-O00378400006": {
+    "category": "교육",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "부산 거주 등록장애인 평생교육이용권 지원",
+    "target": "부산 거주 만 19세 이상 등록장애인",
+    "amount": "교육이용권",
+    "show": true,
+    "special": true
+  },
+  "g24-358000000149": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "옹진군 거주 만 65세 이상 참전유공자 명예수당 지급",
+    "target": "옹진군 거주 만 65세 이상 참전유공자",
+    "amount": "월 220,000원~270,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-358000000148": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "국가보훈대상자 사망 시 유가족에게 위로금 지급",
+    "target": "국가보훈대상자 사망 시 유가족",
+    "amount": "200,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-358000000152": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사회복지시설 종사자 월세 최대 20만원 지원",
+    "target": "관내 사회복지시설 종사자",
+    "amount": "월세액의 50%, 최대 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-358000000147": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "군 거주 만 65세 이상 보훈대상자 및 유가족 보훈예우수당 지급",
+    "target": "군 거주 만 65세 이상 보훈대상자 및 유가족",
+    "amount": "월 160,000원~170,000원",
+    "show": true,
+    "special": true
+  },
+  "g24-358000000150": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "옹진군 거주 참전유공자 사망 시 만 65세 이상 배우자 수당 지급",
+    "target": "옹진군 거주 참전유공자 사망 시 만 65세 이상 배우자",
+    "amount": "월 150,000원",
+    "show": true,
+    "special": true
   }
 }
