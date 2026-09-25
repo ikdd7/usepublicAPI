@@ -159624,5 +159624,17 @@
     "amount": "월 150,000원",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006738": {
+    "category": "건강",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "어르신 무릎 인공관절 수술비 지원",
+    "target": "무릎 퇴행성관절염 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
   }
 }
