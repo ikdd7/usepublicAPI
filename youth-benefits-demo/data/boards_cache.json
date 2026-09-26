@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-23T22:12:07.635Z",
+  "fetched_at": "2026-09-26T00:00:49.855Z",
   "candidates": [
     {
       "region": "인천광역시 연수구",
@@ -438,28 +438,28 @@
     {
       "region": "인천광역시 강화군",
       "title": "강화군 소상공인 경영안정 지원금 30만원 지급",
-      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=C8DE0C40CC88D657CE64B8A351DAA12B?msg_seq=12442&amp;bcd=notice",
+      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=40E17054E95ABFE5FB13F7FFEADBFE42?msg_seq=12442&amp;bcd=notice",
       "onclick": "",
       "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp"
     },
     {
       "region": "인천광역시 강화군",
       "title": "2026년 인천 청년 자격증 응시료 지원사업 안내",
-      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=C8DE0C40CC88D657CE64B8A351DAA12B?msg_seq=12473&amp;bcd=notice",
+      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=40E17054E95ABFE5FB13F7FFEADBFE42?msg_seq=12473&amp;bcd=notice",
       "onclick": "",
       "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp"
     },
     {
       "region": "인천광역시 강화군",
       "title": "「2026년 강화군 백패킹 페스티벌 &lt;갯섬&gt;」로컬 팝업부스 운영 참여업체 모집공고",
-      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=C8DE0C40CC88D657CE64B8A351DAA12B?msg_seq=12470&amp;bcd=notice",
+      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=40E17054E95ABFE5FB13F7FFEADBFE42?msg_seq=12470&amp;bcd=notice",
       "onclick": "",
       "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp"
     },
     {
       "region": "인천광역시 강화군",
       "title": "2026년 강화군 관외 대학생 주거비 지원사업 안내",
-      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=C8DE0C40CC88D657CE64B8A351DAA12B?msg_seq=12468&amp;bcd=notice",
+      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do;jsessionid=40E17054E95ABFE5FB13F7FFEADBFE42?msg_seq=12468&amp;bcd=notice",
       "onclick": "",
       "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp"
     },
@@ -560,6 +560,13 @@
       "url": "https://dream1388.or.kr/",
       "onclick": "",
       "board": "https://www.icdonggu.go.kr/main/community/enter/hwadojin.jsp"
+    },
+    {
+      "region": "인천광역시 동구",
+      "title": "먹거리 무료지원 그냥드림센터 위치 찾기 안내, 신분증 하나로 먹거리 지원 받기 NEW",
+      "url": "https://www.icdonggu.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=16486&amp;bcd=board",
+      "onclick": "",
+      "board": "https://www.icdonggu.go.kr/main/community/board.jsp"
     },
     {
       "region": "인천광역시 동구",
@@ -2901,7 +2908,7 @@
     },
     {
       "region": "서울특별시 금천구",
-      "title": "핫이슈 금천정원지원센터에서 뭐 하길래...사람들이 이렇게 감동하나요? 울컥주의 😭 2025-12-19 조회 : 2264",
+      "title": "핫이슈 금천정원지원센터에서 뭐 하길래...사람들이 이렇게 감동하나요? 울컥주의 😭 2025-12-19 조회 : 2296",
       "url": "https://www.geumcheon.go.kr/gcb/selectBbsNttView.do?key=1848&amp;bbsNo=150151&amp;nttNo=263447&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=",
       "onclick": "",
       "board": "https://www.geumcheon.go.kr/gcb/selectBbsNttList.do?bbsNo=150151&key=1848"
@@ -4602,7 +4609,7 @@
     },
     {
       "region": "경기도 하남시",
-      "title": "감일동 통장 모집 공고(3통,20통,37통,38통,49통,50통)",
+      "title": "감일동 통장 모집 공고(3통,20통,37통,38통,49통,50통)핫이슈",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=502589&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
@@ -4623,7 +4630,7 @@
     },
     {
       "region": "경기도 하남시",
-      "title": "미사1동 통장 모집 공고(1통, 44통, 17통, 21통, 50통, 16통, 46통, 53통, 56통, 57통, 68통, 69통, 70통, 72통)",
+      "title": "미사1동 통장 모집 공고(1통, 44통, 17통, 21통, 50통, 16통, 46통, 53통, 56통, 57통, 68통, 69통, 70통, 72통)핫이슈",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=502527&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
@@ -6596,76 +6603,6 @@
       "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111"
     },
     {
-      "region": "경기도 과천시",
-      "title": "과천주암 공공지원민간임대주택 공급촉진지구 조성",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "「과천 사는 이야기 마당」 사전 설문 참여 안내 (설문 참여자 선착순 송이·율이 키링 증정)",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "제3기 진화위 출범에 따른 진실규명 신청접수 안내(~'28. 2. 25.)",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "토지거래허가신청 구비서류 추가 안내(5.12. 발표 관련 세입자 있는 주택 매수)",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "[과천시 문자 알림 서비스]🔔 신청&해지 안내",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "토지거래허가신청 구비서류 안내",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "[교육] 2026년도 추사박물관 하반기 유아단체교육프로그램 모집 안내",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "과천시 여성비전센터 10월 프로그램 및 워크숍 참가자 모집 안내",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "더 나은 과천의 교육을 위한 '2026년 과천시 교육지원 만족도 조사' 참여 안내",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "청년공간 비행지구 10월 청년 낭만 프로그램 참여자 모집 안내",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186797&ptIdx=111"
-    },
-    {
       "region": "경기도 과천시 갈현동",
       "title": "과천주암 공공지원민간임대주택 공급촉진지구 조성",
       "url": "https://www.gccity.go.kr/portal/contents.do?mId=0305011000#",
@@ -6870,14 +6807,14 @@
     },
     {
       "region": "경기도 오산시",
-      "title": "주택건설사업계획 승인 고시(오산청학 공공지원 민간임대공급촉진지구 A1BL)",
+      "title": "「오산시 도시숲 등 조성 및 관리 심의위원회」위원 공개모집 공고",
       "url": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000#",
       "onclick": "req.post(this); return false;",
       "board": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000"
     },
     {
       "region": "경기도 오산시",
-      "title": "「오산시 도시숲 등 조성 및 관리 심의위원회」위원 공개모집 공고",
+      "title": "주택건설사업계획 승인 고시(오산청학 공공지원 민간임대공급촉진지구 A1BL)",
       "url": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000#",
       "onclick": "req.post(this); return false;",
       "board": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000"
