@@ -160818,5 +160818,39 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-490000000279": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "다자녀 가구 장학금 지원",
+    "target": "화순군 거주 다자녀 가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-513000000364": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "경북도 국가보훈대상자 보훈예우수당 지원",
+    "target": "경산시 거주 65세 이상 국가보훈대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-409000000160": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "김포시 임산부 및 가족 백일해 예방접종 지원",
+    "target": "김포시 거주 임신 27주 이상 또는 출산 후 60일 이내 임산부 및 가족",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
