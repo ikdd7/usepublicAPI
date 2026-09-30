@@ -160852,5 +160852,25 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bd-e2809ceab2bd": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 뷰티·헬스 소재 기술사업화 설명회 참여기업 모집",
+    "target": "",
+    "amount": "",
+    "show": false,
+    "special": false
+  },
+  "bd-ebacb8ec9984": {
+    "category": "문화",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기도 식혜 이야기 프로그램 참여자 모집",
+    "target": "",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
