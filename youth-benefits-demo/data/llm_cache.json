@@ -160872,5 +160872,38 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006783": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "저소득·장애인 대상 통합돌봄 서비스 지원",
+    "target": "노인, 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006781": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시민 대상 스마트 헬스케어 건강관리 서비스 제공",
+    "target": "청년, 청소년, 아동, 노년, 중장년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006782": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "달성군 거주지 중심 통합돌봄 서비스 지원",
+    "target": "",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
