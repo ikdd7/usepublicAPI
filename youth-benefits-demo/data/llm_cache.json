@@ -160905,5 +160905,17 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-643000000766": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "장애인 평생교육이용권 우수 이용자 신청 접수",
+    "target": "2026년 충북 평생교육이용권 선정자 중 9.30까지 30만원 이상 사용한 자",
+    "amount": "별도 명시 없음",
+    "show": false,
+    "special": true
   }
 }
