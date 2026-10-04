@@ -160917,5 +160917,15 @@
     "amount": "별도 명시 없음",
     "show": false,
     "special": true
+  },
+  "bd-e2809cebb0a5": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경기미 소믈리에 교육생 50명 모집",
+    "target": "경기미 소믈리에 교육 희망자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }

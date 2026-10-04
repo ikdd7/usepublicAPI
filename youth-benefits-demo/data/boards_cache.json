@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-02T13:43:51.508Z",
+  "fetched_at": "2026-10-04T15:55:06.835Z",
   "candidates": [
     {
       "region": "인천광역시 연수구",
@@ -514,48 +514,6 @@
     },
     {
       "region": "인천광역시 옹진군",
-      "title": "소상공인 경영안정 바우처 지원사업 안내",
-      "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=21&amp;bcd=store",
-      "onclick": "",
-      "board": "https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp"
-    },
-    {
-      "region": "인천광역시 옹진군",
-      "title": "2026년 소상공인 고용보험료 지원사업 안내",
-      "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=17&amp;bcd=store",
-      "onclick": "",
-      "board": "https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp"
-    },
-    {
-      "region": "인천광역시 옹진군",
-      "title": "「소상공인 부담경감 크레딧 지원사업」 안내",
-      "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=13&amp;bcd=store",
-      "onclick": "",
-      "board": "https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp"
-    },
-    {
-      "region": "인천광역시 옹진군",
-      "title": "2025년 인천형 특별 경영안정자금 지원사업",
-      "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=12&amp;bcd=store",
-      "onclick": "",
-      "board": "https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp"
-    },
-    {
-      "region": "인천광역시 옹진군",
-      "title": "소상공인 배달·택배비 지원사업(연매출 기준 변경)",
-      "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=11&amp;bcd=store",
-      "onclick": "",
-      "board": "https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp"
-    },
-    {
-      "region": "인천광역시 옹진군",
-      "title": "2025년 2단계 희망인천 소상공인 경영안정자금 지원 사업공고",
-      "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=10&amp;bcd=store",
-      "onclick": "",
-      "board": "https://www.ongjin.go.kr/open_content/main/environment/economic/store.jsp"
-    },
-    {
-      "region": "인천광역시 옹진군",
       "title": "[재]옹진군인재육성재단 비상임 임원(감사) 공개모집 선임예정자 공고",
       "url": "https://www.ongjin.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=26717&amp;bcd=notice",
       "onclick": "",
@@ -647,7 +605,14 @@
     },
     {
       "region": "인천광역시 동구",
-      "title": "2026년 사회복지2급 온라인 이수보장반 모집 NEW",
+      "title": "오송역 헬로우시티 분양가 6억대? 모델하우스·조합원 모집 총정리",
+      "url": "https://www.icdonggu.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=16520&amp;bcd=board",
+      "onclick": "",
+      "board": "https://www.icdonggu.go.kr/main/community/board.jsp"
+    },
+    {
+      "region": "인천광역시 동구",
+      "title": "2026년 사회복지2급 온라인 이수보장반 모집",
       "url": "https://www.icdonggu.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=16519&amp;bcd=board",
       "onclick": "",
       "board": "https://www.icdonggu.go.kr/main/community/board.jsp"
@@ -983,13 +948,6 @@
     },
     {
       "region": "인천광역시 남동구",
-      "title": "2026년 인천광역시 치매공공후견사업 및 치매안심재산관리서비스 후견인 후보자 모집",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=15977&amp;bcd=notice",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
       "title": "안전 Dream 아동&middot;여성&middot;장애인 경찰지원센터",
       "url": "http://www.safe182.go.kr/",
       "onclick": "",
@@ -1027,13 +985,6 @@
       "region": "인천광역시 남동구",
       "title": "2026년 통일공감 사업 참가자 1차 모집 안내 (무료)/시민아카데미 및 백령대청도 탐방",
       "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=31346&amp;bcd=free",
-      "onclick": "",
-      "board": "https://www.namdong.go.kr/main/community/square/free.jsp"
-    },
-    {
-      "region": "인천광역시 남동구",
-      "title": "[인천 청라국제도서관] 지영준 라면 평론가의 라면의 역사 특강 모집 중입니다.",
-      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=31333&amp;bcd=free",
       "onclick": "",
       "board": "https://www.namdong.go.kr/main/community/square/free.jsp"
     },
@@ -2732,8 +2683,288 @@
       "board": "https://www.yangcheon.go.kr/site/yangcheon/ex/bbs/List.do?cbIdx=280"
     },
     {
+      "region": "서울특별시 강서구",
+      "title": "강서구사회적경제통합지원센터",
+      "url": "https://www.gangseo.seoul.kr/eco/eco060111",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "사회배려 대상자 여권신청 우선창구",
+      "url": "https://www.gangseo.seoul.kr/gs010109",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "민원상담/신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "대형폐기물처리신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "배출신청",
+      "url": "https://www.gangseo.seoul.kr/gs010206",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "전자고지신청 안내",
+      "url": "https://www.gangseo.seoul.kr/gs010427",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "상세주소 부여 신청",
+      "url": "https://www.gangseo.seoul.kr/gs010434",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조용량산정신청",
+      "url": "https://www.gangseo.seoul.kr/gs010463",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조청소신청",
+      "url": "https://www.gangseo.seoul.kr/gs010457",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "행사접수(온라인신청)",
+      "url": "https://www.gangseo.seoul.kr/reserve/re040101",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040101"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "강서구사회적경제통합지원센터",
+      "url": "https://www.gangseo.seoul.kr/eco/eco060111",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "사회배려 대상자 여권신청 우선창구",
+      "url": "https://www.gangseo.seoul.kr/gs010109",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "민원상담/신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "대형폐기물처리신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "배출신청",
+      "url": "https://www.gangseo.seoul.kr/gs010206",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "전자고지신청 안내",
+      "url": "https://www.gangseo.seoul.kr/gs010427",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "상세주소 부여 신청",
+      "url": "https://www.gangseo.seoul.kr/gs010434",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조용량산정신청",
+      "url": "https://www.gangseo.seoul.kr/gs010463",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조청소신청",
+      "url": "https://www.gangseo.seoul.kr/gs010457",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "행사접수(온라인신청)",
+      "url": "https://www.gangseo.seoul.kr/reserve/re040101",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs010454"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "강서구사회적경제통합지원센터",
+      "url": "https://www.gangseo.seoul.kr/eco/eco060111",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "사회배려 대상자 여권신청 우선창구",
+      "url": "https://www.gangseo.seoul.kr/gs010109",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "민원상담/신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "대형폐기물처리신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "배출신청",
+      "url": "https://www.gangseo.seoul.kr/gs010206",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "전자고지신청 안내",
+      "url": "https://www.gangseo.seoul.kr/gs010427",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "상세주소 부여 신청",
+      "url": "https://www.gangseo.seoul.kr/gs010434",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조용량산정신청",
+      "url": "https://www.gangseo.seoul.kr/gs010463",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조청소신청",
+      "url": "https://www.gangseo.seoul.kr/gs010457",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "행사접수(온라인신청)",
+      "url": "https://www.gangseo.seoul.kr/reserve/re040101",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040301"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "강서구사회적경제통합지원센터",
+      "url": "https://www.gangseo.seoul.kr/eco/eco060111",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040302"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "사회배려 대상자 여권신청 우선창구",
+      "url": "https://www.gangseo.seoul.kr/gs010109",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040302"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "민원상담/신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040302"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "대형폐기물처리신청",
+      "url": "https://www.gangseo.seoul.kr/gs010203",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040302"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "배출신청",
+      "url": "https://www.gangseo.seoul.kr/gs010206",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040302"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "전자고지신청 안내",
+      "url": "https://www.gangseo.seoul.kr/gs010427",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040302"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "상세주소 부여 신청",
+      "url": "https://www.gangseo.seoul.kr/gs010434",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040302"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조용량산정신청",
+      "url": "https://www.gangseo.seoul.kr/gs010463",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040302"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "정화조청소신청",
+      "url": "https://www.gangseo.seoul.kr/gs010457",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040302"
+    },
+    {
+      "region": "서울특별시 강서구",
+      "title": "행사접수(온라인신청)",
+      "url": "https://www.gangseo.seoul.kr/reserve/re040101",
+      "onclick": "",
+      "board": "https://www.gangseo.seoul.kr/gs040302"
+    },
+    {
       "region": "서울특별시 금천구",
-      "title": "핫이슈 금천정원지원센터에서 뭐 하길래...사람들이 이렇게 감동하나요? 울컥주의 😭 2025-12-19 조회 : 2369",
+      "title": "핫이슈 금천정원지원센터에서 뭐 하길래...사람들이 이렇게 감동하나요? 울컥주의 😭 2025-12-19 조회 : 2388",
       "url": "https://www.geumcheon.go.kr/gcb/selectBbsNttView.do?key=1848&amp;bbsNo=150151&amp;nttNo=263447&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=",
       "onclick": "",
       "board": "https://www.geumcheon.go.kr/gcb/selectBbsNttList.do?bbsNo=150151&key=1848"
@@ -4392,6 +4623,13 @@
     },
     {
       "region": "경기도 의왕시",
+      "title": "■ 태양광 정부특별지원 등 안내 !",
+      "url": "https://www.uiwang.go.kr/UWKORCOM0101/7005808?curPage=1",
+      "onclick": "",
+      "board": "https://www.uiwang.go.kr/UWKORCOM0101"
+    },
+    {
+      "region": "경기도 의왕시",
       "title": "의왕시는 장애인 버스요금 지원이 없나요?",
       "url": "https://www.uiwang.go.kr/UWKORCOM0101/7005447?curPage=1",
       "onclick": "",
@@ -4420,21 +4658,21 @@
     },
     {
       "region": "경기도 하남시",
-      "title": "2027년 발전소주변지역 지원사업 수립지침·추진 계획 안내새글",
+      "title": "2027년 발전소주변지역 지원사업 수립지침·추진 계획 안내",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=503057&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
     },
     {
       "region": "경기도 하남시",
-      "title": "덕풍1동 통장 모집 공고(15통)새글",
+      "title": "덕풍1동 통장 모집 공고(15통)",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=503046&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
     },
     {
       "region": "경기도 하남시",
-      "title": "덕풍1동 통장 모집 재공고(6통)새글",
+      "title": "덕풍1동 통장 모집 재공고(6통)",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=503045&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
@@ -4511,15 +4749,15 @@
     },
     {
       "region": "경기도 하남시",
-      "title": "토지거래허가 관련 주요안내사항(신청서식 포함)",
-      "url": "https://www.hanam.go.kr/sotong/selectBbsNttView.do?key=9290&amp;bbsNo=22&amp;nttNo=493911&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=",
+      "title": "토지거래허가 관련 신청서식(10. 1. 실거주 유예 확대)",
+      "url": "https://www.hanam.go.kr/sotong/selectBbsNttView.do?key=9290&amp;bbsNo=22&amp;nttNo=499402&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sotong/selectBbsNttList.do?bbsNo=22&key=9290"
     },
     {
       "region": "경기도 하남시",
-      "title": "토지거래허가 관련 신청서식(5.12 세 낀 주택 실거주 유예)",
-      "url": "https://www.hanam.go.kr/sotong/selectBbsNttView.do?key=9290&amp;bbsNo=22&amp;nttNo=499402&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=",
+      "title": "토지거래허가 관련 주요안내사항(신청서식 포함)",
+      "url": "https://www.hanam.go.kr/sotong/selectBbsNttView.do?key=9290&amp;bbsNo=22&amp;nttNo=493911&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sotong/selectBbsNttList.do?bbsNo=22&key=9290"
     },
@@ -4588,7 +4826,7 @@
     },
     {
       "region": "경기도 하남시",
-      "title": "2027년 발전소주변지역 지원사업 수립지침 및 계획 안내새글",
+      "title": "2027년 발전소주변지역 지원사업 수립지침 및 계획 안내",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10051&amp;bbsNo=30&amp;nttNo=503034&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=30&key=10051"
@@ -4679,7 +4917,7 @@
     },
     {
       "region": "경기도 용인시",
-      "title": "경기도 먹거리광장, ‘제철을 색으로, AI로 상상하다’ 10월 테이스티광장 참여자 모집",
+      "title": "“밥맛도 배우면 보인다”…경기도, ‘경기미 소믈리에’ 50명 모집",
       "url": null,
       "onclick": "goView(",
       "board": "https://www.yongin.go.kr/user/web/newsApi/BD_selectNewsApiList.do"
@@ -4700,15 +4938,8 @@
     },
     {
       "region": "경기도 용인시",
-      "title": "용인특례시, ‘빈틈없는 지역 돌봄망’ 구축 위해 복지기관 관계자들과 소통의 장 마련",
-      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1020&amp;q_bbscttSn=20261002075130617",
-      "onclick": "opView(",
-      "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1020"
-    },
-    {
-      "region": "경기도 용인시",
-      "title": "용인특례시, 온라인 인문학 강연 ′특수한 언어, 특별한 문학′ 수강생 모집",
-      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1020&amp;q_bbscttSn=20261002075039237",
+      "title": "용인특례시, 가을 낭만 담은 ‘2026 야간마실’ 참여자 모집",
+      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1020&amp;q_bbscttSn=20261004173723433",
       "onclick": "opView(",
       "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1020"
     },
