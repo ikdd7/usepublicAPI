@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-09-28",
+  "snapshot_date": "2026-10-06",
   "note": "discover_incheon.mjs 자동 발견 결과. boards.mjs가 REGISTRY에 병합.",
   "registry": [
     {
@@ -268,7 +268,8 @@
         "https://www.ui4u.go.kr/portal/contents.do?mId=0301110000",
         "https://www.ui4u.go.kr/portal/contents.do?mId=0204090000",
         "https://www.ui4u.go.kr/portal/contents.do?mId=0301040000",
-        "https://www.ui4u.go.kr/portal/contents.do?mId=0303040000"
+        "https://www.ui4u.go.kr/portal/contents.do?mId=0303040000",
+        "https://www.ui4u.go.kr/portal/contents.do?mId=0300000000"
       ]
     },
     {
@@ -366,7 +367,8 @@
         "https://www.gwanak.go.kr/site/gwanak/ex/bbs/List.do?cbIdx=288",
         "https://www.gwanak.go.kr/site/gwanak/ex/bbs/List.do?cbIdx=239",
         "https://www.gwanak.go.kr/site/gwanak/ex/bbsNew/List.do?typeCode=1",
-        "https://www.gwanak.go.kr/site/gwanak/ex/bbs/List.do?cbIdx=296"
+        "https://www.gwanak.go.kr/site/gwanak/ex/bbs/List.do?cbIdx=296",
+        "https://www.gwanak.go.kr/site/gwanak/ex/bbs/List.do?cbIdx=295"
       ]
     },
     {
@@ -456,11 +458,11 @@
         {
           "url": "https://www.icdonggu.go.kr/main/information/news/notice.jsp",
           "posts": 21,
-          "supports": 7,
+          "supports": 5,
           "sample": [
             "'2026년 인천광역시 정비사업 시민 아카데미' 수강생 모집",
-            "2026년 하반기 품위유지비 지급 안내 NEW",
-            "(민간분양) '검단 센트레빌 그랑포레' 장애인 기관추천 특별공급 신청 접"
+            "최중증 발달장애인 주간그룹 1:1 지원 사업 안내",
+            "(민간분양) '아크메르 동탄 95 및 아크메르 동탄 99' 장애인 기관추"
           ]
         },
         {
@@ -491,6 +493,16 @@
           ]
         },
         {
+          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=board_121",
+          "posts": 108,
+          "supports": 8,
+          "sample": [
+            "도화2.3동 주민자치센터 프로그램 운영비 지원 현황(2026. 9.)",
+            "용현5동 주민자치센터 운영비 지원 현황(2026년 9월)",
+            "숭의4동 주민자치센터 운영비 지원현황(2026. 9.기준)"
+          ]
+        },
+        {
           "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=board_92",
           "posts": 104,
           "supports": 8,
@@ -498,16 +510,6 @@
             "(2026-33) 어르신 대상포진 예방접종 지원사업 [가.주요사업]",
             "(2026-28) 미추홀구 신청사 건립사업 [가.주요사업]",
             "(2026-27) 소규모 공동주택 보조금 지원 사업 [바.기타]"
-          ]
-        },
-        {
-          "url": "https://www.michuhol.go.kr/main/board/list.do?board_code=civil_faq",
-          "posts": 102,
-          "supports": 6,
-          "sample": [
-            "잠복결핵감염 치료비는 지원이 되나요?",
-            "미추홀구청소년상담복지(학교밖지원)센터",
-            "미추홀구 일자리지원센터"
           ]
         }
       ],
@@ -532,9 +534,9 @@
           "posts": 21,
           "supports": 10,
           "sample": [
+            "연수청년자리 10월 청년특강 및 힐링클래스 모집 안내",
             "연수청년자리 8월 청년특강(경제 분야) 및 힐링클래스(요가) 모집 안내",
-            "연수청년자리 7월 청년특강 및 힐링클래스 모집 안내",
-            "연수청년자리 6월 청년특강 및 힐링클래스 모집 안내"
+            "연수청년자리 7월 청년특강 및 힐링클래스 모집 안내"
           ]
         },
         {
@@ -559,15 +561,15 @@
           "posts": 95,
           "supports": 15,
           "sample": [
+            "남촌도림동 주민자치센터 단기 자원봉사자 모집 공고",
             "논현1동 주민자치센터 자원봉사자 모집 공고문",
-            "2026년 4분기 간석1동 주민자치센터 프로그램 수강생 모집 안내",
-            "만수2동 행복플러스센터 프로그램 강사 모집 결과 공고"
+            "2026년 4분기 간석1동 주민자치센터 프로그램 수강생 모집 안내"
           ]
         },
         {
           "url": "https://www.namdong.go.kr/main/community/square/free.jsp",
           "posts": 95,
-          "supports": 8,
+          "supports": 7,
           "sample": [
             "2026 인천광역시 통일공감사업 교동도 참가자 모집 안내 [무료]",
             "2026년 인천광역시 통일공감 사업 한강하구 - 강화도 접경지역 인문 답",
@@ -575,13 +577,13 @@
           ]
         },
         {
-          "url": "https://www.namdong.go.kr/main/news/notice.jsp",
-          "posts": 93,
-          "supports": 7,
+          "url": "https://www.namdong.go.kr/main/news/announce.jsp",
+          "posts": 83,
+          "supports": 5,
           "sample": [
-            "[공지] 친환경 현수막 전용 게시대 운영 관련 친환경 현수막 제작 지원 ",
-            "[공지] 2026년 남동구 헌혈자 지원",
-            "[공지] 2026년 농식품바우처 지원 사업종료 안내"
+            "2026 하반기 남동구 꿈나무스포츠단(유소년축구) 정기모집 공고",
+            "건설업 폐업신청에 따른 등록말소 공고",
+            "논현고잔동 15통장 공개모집 공고(2차)"
           ]
         }
       ],
@@ -625,32 +627,29 @@
       "homeOk": true,
       "boards": [
         {
-          "url": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/notice.jsp",
-          "posts": 18,
-          "supports": 3,
-          "sample": [
-            "계양구보건소 10월 20만보 걷기 챌린지 참여자 모집 안내",
-            "청라자원환경센터 주민감시원 모집 공고 알림",
-            "계양구청소년상담복지센터, 제3차 부모교육 신청 연장 안내"
-          ]
-        },
-        {
-          "url": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/gosi.jsp",
-          "posts": 28,
-          "supports": 3,
-          "sample": [
-            "계양구가족센터 위탁운영기관 모집 공고",
-            "「2027년 발전소주변지역 기본지원사업」 사업계획 수립을 위한 주민의견 ",
-            "「2027년 발전소주변지역 특별지원사업」 사업계획 수립을 위한 주민의견 "
-          ]
-        },
-        {
           "url": "https://www.gyeyang.go.kr/open_content/main/community/budget/notice.jsp",
           "posts": 17,
           "supports": 2,
           "sample": [
             "2026년 주민 안전 참여예산학교 참여자 모집",
             "2026년 찾아가는 권역별 예산학교 참여자 모집"
+          ]
+        },
+        {
+          "url": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/notice.jsp",
+          "posts": 18,
+          "supports": 2,
+          "sample": [
+            "2026. 6. 1. 기준 개별·공동주택가격 열람 및 이의신청 안내",
+            "계양구보건소 10월 20만보 걷기 챌린지 참여자 모집 안내"
+          ]
+        },
+        {
+          "url": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/gosi.jsp",
+          "posts": 28,
+          "supports": 1,
+          "sample": [
+            "계양구 중독관리통합지원센터 민간위탁 운영기관 모집공고"
           ]
         }
       ],
@@ -676,8 +675,8 @@
           "supports": 5,
           "sample": [
             "『2026년 원어민 화상영어 교육』일반구민 수강생 모집",
-            "심폐소생술 등 응급처치 교육 신청 안내(10.13.)",
-            "(민간분양) '향남역 그로브 스위첸' 장애인 기관추천 특별공급 신청 접수"
+            "서해구지속가능발전협의회 제3기 ESG경영 아카데미 수강생 모집(경제분과)",
+            "(민간분양) '아크메르 동탄 95 및 아크메르 동탄 99' 장애인 기관추"
           ]
         },
         {
@@ -698,32 +697,33 @@
       "homeOk": true,
       "boards": [
         {
+          "url": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/law.jsp",
+          "posts": 25,
+          "supports": 5,
+          "sample": [
+            "「강화군 가업승계 농어업인 지원 조례」제정안 입법예고",
+            "「강화군 재난피해 주민 지원 조례 일부개정조례안」입법예고",
+            "강화군 사회연대경제 발전 및 지원에 관한 조례안 입법예고"
+          ]
+        },
+        {
           "url": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp",
           "posts": 15,
           "supports": 3,
           "sample": [
             "강화군 소상공인 경영안정 지원금 30만원 지급",
-            "2026년 인천 청년 자격증 응시료 지원사업 안내",
-            "「2026년 강화군 백패킹 페스티벌 &lt;갯섬&gt;」로컬 팝업부스 운"
+            "'다시 일하는 즐거움 '커리어 브릿지 프로그램' 참여자 모집",
+            "「2026년 강화 지역예술인 축제」 아트마켓 참가자 추가 모집"
           ]
         },
         {
-          "url": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/law.jsp",
+          "url": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/announce.jsp",
           "posts": 25,
           "supports": 3,
           "sample": [
-            "강화군 사회연대경제 발전 및 지원에 관한 조례안 입법예고",
-            "「강화군 선택 예방접종 지원 및 위탁에 관한 조례」제정(안) 입법예고",
-            "「강화군 공무원 등의 보호 및 지원에 관한 조례」 일부개정조례안 입법예고"
-          ]
-        },
-        {
-          "url": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/adjust.jsp",
-          "posts": 15,
-          "supports": 2,
-          "sample": [
-            "[강화군입장] '강화군 지역신문발전지원조례' 제대로 공부하고 논하라",
-            "[반론] 한연희씨(전 평택부시장)의 ‘지역발전 지원 조례에 대한 기고문’"
+            "강화군립합창단 수석단원 모집공고",
+            "2026년 마을 간이상수도 밭 관정 전환운영 지원사업 보조사업자 선정 공",
+            "2026년 가뭄대비 농정용 관정개발 지원사업 보조사업자 선정 공고(4차)"
           ]
         }
       ],
@@ -754,13 +754,13 @@
           ]
         },
         {
-          "url": "https://www.ongjin.go.kr/open_content/main/community/board/notice.jsp",
-          "posts": 20,
+          "url": "https://www.ongjin.go.kr/open_content/main/community/board/announce.jsp",
+          "posts": 30,
           "supports": 3,
           "sample": [
-            "[재]옹진군인재육성재단 비상임 임원(감사) 공개모집 선임예정자 공고",
-            "2026년 추석 명절 귀성객 여객운임 지원사업 안내",
-            "옹진군 택배 등 유통물류비 지원사업 안내사항 알림"
+            "담배소매인 폐업 및 신규지정 신청 접수 공고",
+            "옹진군 공약이행평가단 모집 2차 연장공고",
+            "영흥면 공영주차장 관리 기간제 근로자 추가 모집 공고"
           ]
         }
       ],
@@ -832,7 +832,7 @@
       "boards": [
         {
           "url": "https://www.sd.go.kr/main/selectBbsNttList.do?bbsNo=665&key=5510&",
-          "posts": 362,
+          "posts": 363,
           "supports": 51,
           "sample": [
             "민원실 상담지원",
@@ -842,7 +842,7 @@
         },
         {
           "url": "https://www.sd.go.kr/main/selectBbsNttList.do?bbsNo=187&key=1476&",
-          "posts": 363,
+          "posts": 366,
           "supports": 50,
           "sample": [
             "민원실 상담지원",
@@ -878,8 +878,8 @@
           ]
         },
         {
-          "url": "https://www.gwangjin.go.kr/portal/bbs/B0000001/list.do?menuNo=200190",
-          "posts": 378,
+          "url": "https://www.gwangjin.go.kr/portal/bbs/B0000244/list.do?menuNo=201203",
+          "posts": 375,
           "supports": 45,
           "sample": [
             "구정소식 문자신청",
@@ -888,9 +888,9 @@
           ]
         },
         {
-          "url": "https://www.gwangjin.go.kr/portal/bbs/B0000244/list.do?menuNo=201203",
-          "posts": 375,
-          "supports": 45,
+          "url": "https://www.gwangjin.go.kr/portal/bbs/B0000075/list.do?menuNo=200022",
+          "posts": 382,
+          "supports": 43,
           "sample": [
             "구정소식 문자신청",
             "민원신청/상담",
@@ -902,7 +902,7 @@
     },
     {
       "region": "서울특별시 동대문구",
-      "homeOk": false,
+      "homeOk": true,
       "boards": [],
       "dong": []
     },
@@ -1053,7 +1053,7 @@
       "boards": [
         {
           "url": "https://www.yangcheon.go.kr/site/yangcheon/ex/bbs/List.do?cbIdx=280",
-          "posts": 396,
+          "posts": 400,
           "supports": 44,
           "sample": [
             "신청방법 및 처리절차",
@@ -1063,7 +1063,7 @@
         },
         {
           "url": "https://www.yangcheon.go.kr/site/yangcheon/ex/bbs/List.do?cbIdx=283",
-          "posts": 387,
+          "posts": 391,
           "supports": 44,
           "sample": [
             "신청방법 및 처리절차",
@@ -1073,7 +1073,7 @@
         },
         {
           "url": "https://www.yangcheon.go.kr/site/yangcheon/ex/bbs/List.do?cbIdx=285",
-          "posts": 383,
+          "posts": 387,
           "supports": 44,
           "sample": [
             "신청방법 및 처리절차",
@@ -1090,8 +1090,8 @@
       "boards": [
         {
           "url": "https://www.gangseo.seoul.kr/gs010454",
-          "posts": 270,
-          "supports": 24,
+          "posts": 272,
+          "supports": 26,
           "sample": [
             "강서구사회적경제통합지원센터",
             "사회배려 대상자 여권신청 우선창구",
@@ -1101,7 +1101,7 @@
         {
           "url": "https://www.gangseo.seoul.kr/gs040101",
           "posts": 264,
-          "supports": 24,
+          "supports": 25,
           "sample": [
             "강서구사회적경제통합지원센터",
             "사회배려 대상자 여권신청 우선창구",
@@ -1109,9 +1109,9 @@
           ]
         },
         {
-          "url": "https://www.gangseo.seoul.kr/gs100306?srchStdg=STDG_2",
-          "posts": 258,
-          "supports": 23,
+          "url": "https://www.gangseo.seoul.kr/gs030306",
+          "posts": 286,
+          "supports": 22,
           "sample": [
             "강서구사회적경제통합지원센터",
             "사회배려 대상자 여권신청 우선창구",
@@ -1186,7 +1186,7 @@
         {
           "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523",
           "posts": 520,
-          "supports": 61,
+          "supports": 62,
           "sample": [
             "지방보조금 부정수급 신고",
             "공유촉진 지원사업",
@@ -1222,8 +1222,18 @@
       "boards": [
         {
           "url": "https://www.gwanak.go.kr/site/gwanak/ex/bbs/List.do?cbIdx=491",
-          "posts": 448,
-          "supports": 68,
+          "posts": 450,
+          "supports": 69,
+          "sample": [
+            "적극행정 지원제도",
+            "인터넷민원신청",
+            "인터넷신청/발급민원"
+          ]
+        },
+        {
+          "url": "https://www.gwanak.go.kr/site/gwanak/ex/bbs/List.do?cbIdx=295",
+          "posts": 450,
+          "supports": 67,
           "sample": [
             "적극행정 지원제도",
             "인터넷민원신청",
@@ -1232,18 +1242,8 @@
         },
         {
           "url": "https://www.gwanak.go.kr/site/gwanak/ex/bbs/List.do?cbIdx=288",
-          "posts": 448,
-          "supports": 64,
-          "sample": [
-            "적극행정 지원제도",
-            "인터넷민원신청",
-            "인터넷신청/발급민원"
-          ]
-        },
-        {
-          "url": "https://www.gwanak.go.kr/site/gwanak/ex/bbs/List.do?cbIdx=239",
-          "posts": 448,
-          "supports": 63,
+          "posts": 450,
+          "supports": 66,
           "sample": [
             "적극행정 지원제도",
             "인터넷민원신청",
@@ -1288,33 +1288,33 @@
       "homeOk": true,
       "boards": [
         {
-          "url": "https://www.seongnam.go.kr/pm010305",
-          "posts": 91,
-          "supports": 5,
-          "sample": [
-            "2026년 백현동 주민자치센터 틈새강좌(AI활용교육) 수강생 모집 공고",
-            "2026년 단대동 주민자치센터 틈새강좌 수강생 모집",
-            "사회적경제지원센터"
-          ]
-        },
-        {
-          "url": "https://www.seongnam.go.kr/pm010302",
-          "posts": 91,
-          "supports": 4,
-          "sample": [
-            "2026년 노인일자리 및 사회활동지원사업 참여자 동절기 근무복 구입 소액",
-            "사회적경제지원센터",
-            "디지털성범죄피해자통합지원센터"
-          ]
-        },
-        {
           "url": "https://www.seongnam.go.kr/pm010401",
-          "posts": 91,
+          "posts": 90,
           "supports": 4,
           "sample": [
             "도촌동 주민자치센터 강사 모집 공고",
             "사회적경제지원센터",
             "디지털성범죄피해자통합지원센터"
+          ]
+        },
+        {
+          "url": "https://www.seongnam.go.kr/bbs010101",
+          "posts": 81,
+          "supports": 3,
+          "sample": [
+            "사회적경제지원센터",
+            "디지털성범죄피해자통합지원센터",
+            "수원지방법원(성남지원)"
+          ]
+        },
+        {
+          "url": "https://www.seongnam.go.kr/pm010301",
+          "posts": 91,
+          "supports": 3,
+          "sample": [
+            "사회적경제지원센터",
+            "디지털성범죄피해자통합지원센터",
+            "수원지방법원(성남지원)"
           ]
         }
       ],
@@ -1326,18 +1326,8 @@
       "boards": [
         {
           "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0303050000",
-          "posts": 323,
-          "supports": 25,
-          "sample": [
-            "공공데이터 제공 신청",
-            "보조금 중요재산 공시",
-            "민원 신청(2025. 10. 14. 이전)"
-          ]
-        },
-        {
-          "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0301060000",
           "posts": 333,
-          "supports": 22,
+          "supports": 28,
           "sample": [
             "공공데이터 제공 신청",
             "보조금 중요재산 공시",
@@ -1346,6 +1336,16 @@
         },
         {
           "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0301040000",
+          "posts": 344,
+          "supports": 24,
+          "sample": [
+            "공공데이터 제공 신청",
+            "보조금 중요재산 공시",
+            "민원 신청(2025. 10. 14. 이전)"
+          ]
+        },
+        {
+          "url": "https://www.ui4u.go.kr/portal/contents.do?mId=0300000000",
           "posts": 332,
           "supports": 21,
           "sample": [
@@ -1380,29 +1380,29 @@
       "homeOk": true,
       "boards": [
         {
-          "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0302110000",
-          "posts": 259,
-          "supports": 34,
-          "sample": [
-            "구술&middot;전화 신청가능민원",
-            "민원신청서 외국어서비스",
-            "가족관계등록 신청 및 편제"
-          ]
-        },
-        {
-          "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0304010000",
-          "posts": 254,
-          "supports": 34,
-          "sample": [
-            "구술&middot;전화 신청가능민원",
-            "민원신청서 외국어서비스",
-            "가족관계등록 신청 및 편제"
-          ]
-        },
-        {
           "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0400000000",
           "posts": 263,
-          "supports": 33,
+          "supports": 34,
+          "sample": [
+            "구술&middot;전화 신청가능민원",
+            "민원신청서 외국어서비스",
+            "가족관계등록 신청 및 편제"
+          ]
+        },
+        {
+          "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0401000000",
+          "posts": 263,
+          "supports": 34,
+          "sample": [
+            "구술&middot;전화 신청가능민원",
+            "민원신청서 외국어서비스",
+            "가족관계등록 신청 및 편제"
+          ]
+        },
+        {
+          "url": "https://www.pyeongtaek.go.kr/pyeongtaek/contents.do?mid=0401010000",
+          "posts": 263,
+          "supports": 34,
           "sample": [
             "구술&middot;전화 신청가능민원",
             "민원신청서 외국어서비스",
@@ -1508,7 +1508,7 @@
           "sample": [
             "지방보조금 부정수급 신고",
             "고충민원 신청 안내",
-            "2026년 하반기 의왕시 일자리박람회 개최 및 참여기업 모집 안내첨부파일"
+            "의왕시육아종합지원센터 직원 채용 공고문(발달지원 전문요원)첨부파일"
           ]
         },
         {
@@ -1559,13 +1559,13 @@
           ]
         },
         {
-          "url": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=30&key=10051",
-          "posts": 16,
+          "url": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053",
+          "posts": 17,
           "supports": 7,
           "sample": [
-            "결식아동 급식지원 G드림카드 등록 가맹점 현황(&#039;26.9.23.",
-            "경기도 AI 클러스터 하남 입주기업 모집핫이슈",
-            "&lt;2026년 하남시 찾아가는 마을학교&gt; 참여자 모집핫이슈"
+            "미사2동 통장 모집 공고(5통, 18통, 37통, 42통, 50통)",
+            "2027년 발전소주변지역 지원사업 수립지침·추진 계획 안내",
+            "덕풍1동 통장 모집 공고(15통)"
           ]
         }
       ],
@@ -1581,22 +1581,22 @@
           "supports": 4,
           "sample": [
             "위원회 위원 모집 공고",
-            "2026년 6월 1일 기준 개별(공동)주택가격 열람 및 이의신청 방법 안",
-            "용인예술과학대학교 용인학플러스 평생학습 프로그램 참여자 모집"
-          ]
-        },
-        {
-          "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1020",
-          "posts": 47,
-          "supports": 2,
-          "sample": [
-            "위원회 위원 모집 공고",
-            "용인특례시, 제1기 ‘공동주택 품질점검단’ 전문가 모집"
+            "[보건소] (선착순!)임산부의 날 기념, 직장인 임산부를 위한 탁상용 배",
+            "2026년 지역사회서비스투자사업 이용자 추가모집(3차) 일부 서비스 신청"
           ]
         },
         {
           "url": "https://www.yongin.go.kr/user/web/newsApi/BD_selectNewsApiList.do",
           "posts": 44,
+          "supports": 2,
+          "sample": [
+            "위원회 위원 모집 공고",
+            "경기도, 도서관 밖으로 독서를 잇는다…정보취약계층 독서활동 지원 확대"
+          ]
+        },
+        {
+          "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1020",
+          "posts": 47,
           "supports": 1,
           "sample": [
             "위원회 위원 모집 공고"
@@ -1611,7 +1611,7 @@
       "boards": [
         {
           "url": "https://www.paju.go.kr/user/board/BD_board.list.do?bbsCd=9015",
-          "posts": 104,
+          "posts": 93,
           "supports": 13,
           "sample": [
             "고충민원 신청",
@@ -1621,7 +1621,7 @@
         },
         {
           "url": "https://www.paju.go.kr/user/board/BD_board.list.do?bbsCd=1013",
-          "posts": 102,
+          "posts": 91,
           "supports": 8,
           "sample": [
             "고충민원 신청",
@@ -1631,7 +1631,7 @@
         },
         {
           "url": "https://www.paju.go.kr/user/board/BD_board.list.do?bbsCd=1036",
-          "posts": 93,
+          "posts": 82,
           "supports": 8,
           "sample": [
             "고충민원 신청",
@@ -1667,13 +1667,13 @@
           ]
         },
         {
-          "url": "https://www.icheon.go.kr/portal/contents.do?mid=0403010000",
-          "posts": 187,
-          "supports": 16,
+          "url": "https://www.icheon.go.kr/portal/board/post/list.do?bcIdx=685&mid=0304010000",
+          "posts": 218,
+          "supports": 15,
           "sample": [
-            "2026년 모가면 하천변 쓰레기 수거사업 단기근로자 모집 공고(2차)",
-            "2026년 이천시보건소 지역사회중심재활사업 재활프로그램「물만난 재활교실」",
-            "2026년 하반기 설성면 농어민 기회소득 지원사업 기간제 근로자 채용 공"
+            "시민신청실명제 접수",
+            "정보공개 신청",
+            "보조금 부정수급자 명단공표"
           ]
         }
       ],
@@ -1704,7 +1704,7 @@
         {
           "url": "https://www.gjcity.go.kr/portal/contents.do?mId=0200000000",
           "posts": 242,
-          "supports": 19,
+          "supports": 16,
           "sample": [
             "광주비전·문자알리미 신청",
             "민원신청(국민신문고)",
@@ -1714,7 +1714,7 @@
         {
           "url": "https://www.gjcity.go.kr/portal/contents.do?mId=0201000000",
           "posts": 242,
-          "supports": 19,
+          "supports": 16,
           "sample": [
             "광주비전·문자알리미 신청",
             "민원신청(국민신문고)",
@@ -1724,7 +1724,7 @@
         {
           "url": "https://www.gjcity.go.kr/portal/contents.do?mId=0201010000",
           "posts": 242,
-          "supports": 19,
+          "supports": 16,
           "sample": [
             "광주비전·문자알리미 신청",
             "민원신청(국민신문고)",
@@ -1740,7 +1740,7 @@
       "boards": [
         {
           "url": "https://www.yangju.go.kr/www/contents.do?key=183",
-          "posts": 410,
+          "posts": 411,
           "supports": 59,
           "sample": [
             "지방보조금 부정수급 신고",
@@ -1782,31 +1782,31 @@
         {
           "url": "https://www.yp21.go.kr/www/selectBbsNttList.do?bbsNo=1&key=1111",
           "posts": 334,
-          "supports": 79,
+          "supports": 78,
           "sample": [
             "양평알리미 신청",
             "양평알리미 신청내역",
-            "지방보조금 부정수급 신고센터"
+            "민원신청 및 발급(정부24)"
+          ]
+        },
+        {
+          "url": "https://www.yp21.go.kr/www/selectBbsNttList.do?bbsNo=5&key=1119",
+          "posts": 334,
+          "supports": 78,
+          "sample": [
+            "양평알리미 신청",
+            "양평알리미 신청내역",
+            "민원신청 및 발급(정부24)"
           ]
         },
         {
           "url": "https://www.yp21.go.kr/www/selectBbsNttList.do?bbsNo=6&key=1121",
           "posts": 334,
-          "supports": 79,
+          "supports": 78,
           "sample": [
             "양평알리미 신청",
             "양평알리미 신청내역",
-            "지방보조금 부정수급 신고센터"
-          ]
-        },
-        {
-          "url": "https://www.yp21.go.kr/www/selectBbsNttList.do?bbsNo=484&key=4583",
-          "posts": 325,
-          "supports": 77,
-          "sample": [
-            "양평알리미 신청",
-            "양평알리미 신청내역",
-            "지방보조금 부정수급 신고센터"
+            "민원신청 및 발급(정부24)"
           ]
         }
       ],
