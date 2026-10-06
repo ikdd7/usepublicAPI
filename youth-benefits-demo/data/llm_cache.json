@@ -160927,5 +160927,15 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-569000000412": {
+    "category": "주거",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "청년월세 지원사업 중지 신청",
+    "target": "청년월세 지원사업 중지 신청 대상자",
+    "amount": "",
+    "show": false,
+    "special": false
   }
 }
