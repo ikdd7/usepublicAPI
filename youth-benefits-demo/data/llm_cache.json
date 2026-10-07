@@ -160937,5 +160937,17 @@
     "amount": "",
     "show": false,
     "special": false
+  },
+  "g24-O00148800003": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "장애인 평생교육이용권 연간 35만원 지원",
+    "target": "대구 거주 19세 이상 등록장애인",
+    "amount": "연간 35만원",
+    "show": true,
+    "special": true
   }
 }
