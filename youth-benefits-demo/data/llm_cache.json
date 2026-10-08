@@ -160949,5 +160949,42 @@
     "amount": "연간 35만원",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006788": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 일상생활 돌봄 서비스 제공",
+    "target": "일상생활 수행 어려움 겪는 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006787": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "노년·장애인·저소득 가사서비스 지원",
+    "target": "가사서비스 지원 필요 노년·장애인·저소득",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006786": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임신부 기형아 검사비 지원",
+    "target": "임신부",
+    "amount": "검사비 지원",
+    "show": true,
+    "special": false
   }
 }
