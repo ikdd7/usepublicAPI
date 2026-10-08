@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-06T18:05:44.307Z",
+  "fetched_at": "2026-10-08T23:02:57.887Z",
   "candidates": [
     {
       "region": "인천광역시 연수구",
@@ -108,6 +108,13 @@
     },
     {
       "region": "인천광역시 연수구",
+      "title": "인천식품산업육성지원센터 「식품 뉴스(FOOD NEWS) 제26-10호」 발행 안내",
+      "url": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp?page=v&amp;gotopage=1&amp;seq=36&amp;keyfield=&amp;keyword=&amp;s_date=&amp;e_date=&amp;eminwon=&amp;dept_idx=&amp;head_idx=&amp;se_dept_idx=&amp;category=&amp;head_idx_cateYN=&amp;listCnt=",
+      "onclick": "",
+      "board": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp"
+    },
+    {
+      "region": "인천광역시 연수구",
       "title": "「2026 온라인 마케팅 역량강화 교육 및 맞춤형 유통건설팅」 참여업소 추가모집 안내",
       "url": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp?page=v&amp;gotopage=1&amp;seq=35&amp;keyfield=&amp;keyword=&amp;s_date=&amp;e_date=&amp;eminwon=&amp;dept_idx=&amp;head_idx=&amp;se_dept_idx=&amp;category=&amp;head_idx_cateYN=&amp;listCnt=",
       "onclick": "",
@@ -117,13 +124,6 @@
       "region": "인천광역시 연수구",
       "title": "「국내식품박람회(MEGA-SHOW) 참가지원」 사업 모집 및 참가 협조 안내",
       "url": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp?page=v&amp;gotopage=1&amp;seq=33&amp;keyfield=&amp;keyword=&amp;s_date=&amp;e_date=&amp;eminwon=&amp;dept_idx=&amp;head_idx=&amp;se_dept_idx=&amp;category=&amp;head_idx_cateYN=&amp;listCnt=",
-      "onclick": "",
-      "board": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp"
-    },
-    {
-      "region": "인천광역시 연수구",
-      "title": "인천식품산업육성지원센터 「식품 뉴스(FOOD NEWS) 제26-9호」 발행 안내",
-      "url": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp?page=v&amp;gotopage=1&amp;seq=32&amp;keyfield=&amp;keyword=&amp;s_date=&amp;e_date=&amp;eminwon=&amp;dept_idx=&amp;head_idx=&amp;se_dept_idx=&amp;category=&amp;head_idx_cateYN=&amp;listCnt=",
       "onclick": "",
       "board": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp"
     },
@@ -166,13 +166,6 @@
       "region": "인천광역시 연수구",
       "title": "2026년 식품제조가공업소 자가품질검사비 지원사업 참여업소 모집안내",
       "url": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp?page=v&amp;gotopage=1&amp;seq=21&amp;keyfield=&amp;keyword=&amp;s_date=&amp;e_date=&amp;eminwon=&amp;dept_idx=&amp;head_idx=&amp;se_dept_idx=&amp;category=&amp;head_idx_cateYN=&amp;listCnt=",
-      "onclick": "",
-      "board": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp"
-    },
-    {
-      "region": "인천광역시 연수구",
-      "title": "중소 식품제조업체 판로개척 역량강화 교육사업 모집공고 안내",
-      "url": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp?page=v&amp;gotopage=1&amp;seq=20&amp;keyfield=&amp;keyword=&amp;s_date=&amp;e_date=&amp;eminwon=&amp;dept_idx=&amp;head_idx=&amp;se_dept_idx=&amp;category=&amp;head_idx_cateYN=&amp;listCnt=",
       "onclick": "",
       "board": "https://www.yeonsu.go.kr/main/part/food/food_notice.asp"
     },
@@ -268,6 +261,34 @@
       "board": "https://www.icbp.go.kr/news/"
     },
     {
+      "region": "인천광역시 부평구",
+      "title": "주택건설공사 감리자(전기) 모집 공고(십정4구역 재개발사업) new",
+      "url": "https://www.icbp.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=37610&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/participation/news/notice.jsp"
+    },
+    {
+      "region": "인천광역시 부평구",
+      "title": "주택건설공사 감리자(건축) 모집 공고(십정4구역 재개발사업) new",
+      "url": "https://www.icbp.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=37609&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/participation/news/notice.jsp"
+    },
+    {
+      "region": "인천광역시 부평구",
+      "title": "2026년 부평구 소상공인 맞춤형 역량강화 교육 참여 수강생 모집",
+      "url": "https://www.icbp.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=37605&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/participation/news/notice.jsp"
+    },
+    {
+      "region": "인천광역시 부평구",
+      "title": "수도요금 감면(자동납부&amp;전자고지 서비스 동시신청)",
+      "url": "https://www.icbp.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=37603&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.icbp.go.kr/main/participation/news/notice.jsp"
+    },
+    {
       "region": "인천광역시 서구",
       "title": "2026년 하반기 지역사회서비스투자사업 이용자 추가 모집 안내",
       "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30410&amp;bcd=notice",
@@ -297,8 +318,8 @@
     },
     {
       "region": "인천광역시 서구",
-      "title": "서해구지속가능발전협의회 제3기 ESG경영 아카데미 수강생 모집(경제분과)",
-      "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30402&amp;bcd=notice",
+      "title": "&lt;큰솔장애인자립생활센터 주관&gt; 인천광역시 서해구청장배 두리하나 쇼다운대회 참가자 모집 안내",
+      "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=30404&amp;bcd=notice",
       "onclick": "",
       "board": "https://www.seo.incheon.kr/open_content/main/community/news/notice.jsp"
     },
@@ -409,6 +430,27 @@
     },
     {
       "region": "인천광역시 서구",
+      "title": "2027년 경찰공무원 봉급표 예상｜실수령액·수당 얼마나?",
+      "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=8103&amp;bcd=free",
+      "onclick": "",
+      "board": "https://www.seo.incheon.kr/open_content/main/community/free.jsp"
+    },
+    {
+      "region": "인천광역시 서구",
+      "title": "[한국어교원 2급] 온라인 실습 10월 최종 모집",
+      "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=8100&amp;bcd=free",
+      "onclick": "",
+      "board": "https://www.seo.incheon.kr/open_content/main/community/free.jsp"
+    },
+    {
+      "region": "인천광역시 서구",
+      "title": "한국교통안전공단 서인천자동차검사소 셀프코너 운영자 모집 공고",
+      "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=8099&amp;bcd=free",
+      "onclick": "",
+      "board": "https://www.seo.incheon.kr/open_content/main/community/free.jsp"
+    },
+    {
+      "region": "인천광역시 서구",
       "title": "세계문화체험 10월 18일(일) 중국의 다양한 민족이야기 참여가족을 모집합니다",
       "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=8088&amp;bcd=free",
       "onclick": "",
@@ -425,27 +467,6 @@
       "region": "인천광역시 서구",
       "title": "ESG경영아카데미 무료 수강생 모집",
       "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=8083&amp;bcd=free",
-      "onclick": "",
-      "board": "https://www.seo.incheon.kr/open_content/main/community/free.jsp"
-    },
-    {
-      "region": "인천광역시 서구",
-      "title": "[서해구가족센터] 1인가구 심신건강 지원 프로그램",
-      "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=8062&amp;bcd=free",
-      "onclick": "",
-      "board": "https://www.seo.incheon.kr/open_content/main/community/free.jsp"
-    },
-    {
-      "region": "인천광역시 서구",
-      "title": "인천국악회관 제95기 국악문화학교 수강생 모집",
-      "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=8053&amp;bcd=free",
-      "onclick": "",
-      "board": "https://www.seo.incheon.kr/open_content/main/community/free.jsp"
-    },
-    {
-      "region": "인천광역시 서구",
-      "title": "실업급여 신청방법, 퇴사 후 고용24에서 먼저 확인해야 할 것",
-      "url": "https://www.seo.incheon.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=8052&amp;bcd=free",
       "onclick": "",
       "board": "https://www.seo.incheon.kr/open_content/main/community/free.jsp"
     },
@@ -479,22 +500,8 @@
     },
     {
       "region": "인천광역시 강화군",
-      "title": "「2026년 강화 지역예술인 축제」 아트마켓 참가자 추가 모집",
-      "url": "https://www.ganghwa.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=12481&amp;bcd=notice",
-      "onclick": "",
-      "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/notice.jsp"
-    },
-    {
-      "region": "인천광역시 강화군",
-      "title": "2026년 선원면 하반기 영농부산물 처리지원사업 기간제근로자 채용 (재)...",
-      "url": "https://www.ganghwa.go.kr/open_content/main/eminwon/announce/eminwonDetail.do?seq=53028",
-      "onclick": "",
-      "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/announce.jsp"
-    },
-    {
-      "region": "인천광역시 강화군",
-      "title": "강화군립합창단 수석단원 모집공고",
-      "url": "https://www.ganghwa.go.kr/open_content/main/eminwon/announce/eminwonDetail.do?seq=53023",
+      "title": "2026년 내가면 하반기 영농부산물 처리지원사업 기간제근로자 채용 재공고",
+      "url": "https://www.ganghwa.go.kr/open_content/main/eminwon/announce/eminwonDetail.do?seq=53035",
       "onclick": "",
       "board": "https://www.ganghwa.go.kr/open_content/main/ganghwa/news/announce.jsp"
     },
@@ -591,6 +598,20 @@
     },
     {
       "region": "인천광역시 옹진군",
+      "title": "『2026년 저소득주민일자리사업(공중화장실)』 참여자 모집 재공고",
+      "url": "https://www.ongjin.go.kr/open_content/main/eminwon/eminwonAnnounceDetail.do?mgt_no=37720",
+      "onclick": "",
+      "board": "https://www.ongjin.go.kr/open_content/main/community/board/announce.jsp"
+    },
+    {
+      "region": "인천광역시 옹진군",
+      "title": "2026년 산림재난대응단(단기)모집 재공고",
+      "url": "https://www.ongjin.go.kr/open_content/main/eminwon/eminwonAnnounceDetail.do?mgt_no=37719",
+      "onclick": "",
+      "board": "https://www.ongjin.go.kr/open_content/main/community/board/announce.jsp"
+    },
+    {
+      "region": "인천광역시 옹진군",
       "title": "2026년도 저소득주민일자리사업 참여자 추가모집",
       "url": "https://www.ongjin.go.kr/open_content/main/eminwon/eminwonAnnounceDetail.do?mgt_no=37717",
       "onclick": "",
@@ -658,6 +679,13 @@
       "url": "https://dream1388.or.kr/",
       "onclick": "",
       "board": "https://www.icdonggu.go.kr/main/community/enter/hwadojin.jsp"
+    },
+    {
+      "region": "인천광역시 동구",
+      "title": "2027년 경찰공무원 봉급표 예상｜실수령액·수당 얼마나? NEW",
+      "url": "https://www.icdonggu.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=16532&amp;bcd=board",
+      "onclick": "",
+      "board": "https://www.icdonggu.go.kr/main/community/board.jsp"
     },
     {
       "region": "인천광역시 동구",
@@ -955,10 +983,17 @@
     },
     {
       "region": "인천광역시 계양구",
-      "title": "원금융서비스 신입.경력 컨설턴트 모집 (인천, 부천, 김포)",
-      "url": "https://www.gyeyang.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=24406&amp;bcd=board_102",
+      "title": "2027년 경찰공무원 봉급표 예상｜실수령액·수당 얼마나 될까?",
+      "url": "https://www.gyeyang.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=24423&amp;bcd=board_102",
       "onclick": "",
       "board": "https://www.gyeyang.go.kr/open_content/main/community/free.jsp"
+    },
+    {
+      "region": "인천광역시 계양구",
+      "title": "적극행정 국민신청 카드뉴스",
+      "url": "https://www.gyeyang.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=15639&amp;bcd=board_4",
+      "onclick": "",
+      "board": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/notice.jsp"
     },
     {
       "region": "인천광역시 계양구",
@@ -975,13 +1010,6 @@
       "board": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/notice.jsp"
     },
     {
-      "region": "인천광역시 계양구",
-      "title": "계양구보건소 10월 20만보 걷기 챌린지 참여자 모집 안내",
-      "url": "https://www.gyeyang.go.kr/open_content/main/bbs/bbsMsgDetail.do?msg_seq=15626&amp;bcd=board_4",
-      "onclick": "",
-      "board": "https://www.gyeyang.go.kr/open_content/main/open_info/admin/notice.jsp"
-    },
-    {
       "region": "인천광역시 남동구",
       "title": "[공지] 친환경 현수막 전용 게시대 운영 관련 친환경 현수막 제작 지원 신청",
       "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=15945&amp;bcd=notice",
@@ -992,6 +1020,13 @@
       "region": "인천광역시 남동구",
       "title": "[공지] 2026년 남동구 헌혈자 지원",
       "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=15921&amp;bcd=notice",
+      "onclick": "",
+      "board": "https://www.namdong.go.kr/main/news/notice.jsp"
+    },
+    {
+      "region": "인천광역시 남동구",
+      "title": "「2026년 ICT이노베이션스퀘어 확산사업 디지털신기술」 교육 수강생 모집 new",
+      "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=15991&amp;bcd=notice",
       "onclick": "",
       "board": "https://www.namdong.go.kr/main/news/notice.jsp"
     },
@@ -1053,14 +1088,14 @@
     },
     {
       "region": "인천광역시 남동구",
-      "title": "간석3동 통장자율회, 5년째 홀몸어르신 야쿠르트 지원 new",
+      "title": "간석3동 통장자율회, 5년째 홀몸어르신 야쿠르트 지원",
       "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=30004&amp;bcd=press_release",
       "onclick": "",
       "board": "https://www.namdong.go.kr/main/news/report.jsp"
     },
     {
       "region": "인천광역시 남동구",
-      "title": "구월2동, 이웃돌봄 대상자 240가구에 후원물품 전달 new",
+      "title": "구월2동, 이웃돌봄 대상자 240가구에 후원물품 전달",
       "url": "https://www.namdong.go.kr/main/bbs/bbsMsgDetail.do?msg_seq=29989&amp;bcd=press_release",
       "onclick": "",
       "board": "https://www.namdong.go.kr/main/news/report.jsp"
@@ -2250,8 +2285,8 @@
     },
     {
       "region": "서울특별시 마포구",
-      "title": "임신서비스 통합처리 신청서.",
-      "url": "https://www.mapo.go.kr/site/main/board/civil/276480?cp=1&amp;sortOrder=BA_REGDATE&amp;sortDirection=DESC&amp;listType=list&amp;bcId=civil&amp;baNotice=false&amp;baCommSelec=false&amp;baOpenDay=false&amp;baUse=true",
+      "title": "임신서비스 통합처리 신청서",
+      "url": "https://www.mapo.go.kr/site/main/board/civil/278483?cp=1&amp;sortOrder=BA_REGDATE&amp;sortDirection=DESC&amp;listType=list&amp;bcId=civil&amp;baNotice=false&amp;baCommSelec=false&amp;baOpenDay=false&amp;baUse=true",
       "onclick": "",
       "board": "https://www.mapo.go.kr/site/main/board/civil/list"
     },
@@ -3090,7 +3125,7 @@
     },
     {
       "region": "서울특별시 영등포구",
-      "title": "건축물 부설주차장 개방 지원사업",
+      "title": "건축물 부설주차장 개방지원사업",
       "url": "https://www.ydp.go.kr/www/contents.do?key=6058&",
       "onclick": "",
       "board": "https://www.ydp.go.kr/www/selectBbsNttList.do?bbsNo=22&key=2759&"
@@ -3160,7 +3195,7 @@
     },
     {
       "region": "서울특별시 영등포구",
-      "title": "건축물 부설주차장 개방 지원사업",
+      "title": "건축물 부설주차장 개방지원사업",
       "url": "https://www.ydp.go.kr/www/contents.do?key=6058&",
       "onclick": "",
       "board": "https://www.ydp.go.kr/www/selectBbsNttList.do?bbsNo=29&key=2800&"
@@ -3230,7 +3265,7 @@
     },
     {
       "region": "서울특별시 영등포구",
-      "title": "건축물 부설주차장 개방 지원사업",
+      "title": "건축물 부설주차장 개방지원사업",
       "url": "https://www.ydp.go.kr/www/contents.do?key=6058&",
       "onclick": "",
       "board": "https://www.ydp.go.kr/www/selectBbsNttList.do?bbsNo=27&key=5087&"
@@ -3300,7 +3335,7 @@
     },
     {
       "region": "서울특별시 영등포구",
-      "title": "건축물 부설주차장 개방 지원사업",
+      "title": "건축물 부설주차장 개방지원사업",
       "url": "https://www.ydp.go.kr/www/contents.do?key=6058&",
       "onclick": "",
       "board": "https://www.ydp.go.kr/www/selectBbsNttList.do?bbsNo=612&key=6261&"
@@ -3314,29 +3349,29 @@
     },
     {
       "region": "서울특별시 동작구",
+      "title": "가족지원과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040237",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
       "title": "교육지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040800&menuNo=200775",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040800",
       "onclick": "",
       "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
     },
     {
       "region": "서울특별시 동작구",
       "title": "운영지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040100&menuNo=200767",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040100",
       "onclick": "",
       "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
     },
     {
       "region": "서울특별시 동작구",
       "title": "통합돌봄과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040236&menuNo=201751",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "가족지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040237&menuNo=201754",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040236",
       "onclick": "",
       "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
     },
@@ -3367,152 +3402,152 @@
       "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201538",
       "onclick": "",
       "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "동작형 통합돌봄",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201764",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "동작구 신청사",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200950",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "가족지원과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040237",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "교육지원과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040800",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "운영지원과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040100",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "통합돌봄과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040236",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "지방보조금 부정수급 신고",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201734",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "공유촉진 지원사업",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201358",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "적극행정 지원제도",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201331",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "영아·유아·초등돌봄 서비스",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201538",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "동작형 통합돌봄",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201764",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "동작구 신청사",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200950",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "가족지원과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040237",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "교육지원과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040800",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "운영지원과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040100",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "통합돌봄과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040236",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "지방보조금 부정수급 신고",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201734",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "공유촉진 지원사업",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201358",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "적극행정 지원제도",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201331",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
+    },
+    {
+      "region": "서울특별시 동작구",
+      "title": "영아·유아·초등돌봄 서비스",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201538",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
     },
     {
       "region": "서울특별시 동작구",
       "title": "동작형 통합돌봄",
       "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201763",
       "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "동작구 신청사",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200950",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_090700&menuNo=201523"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "교육지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040800&menuNo=200775",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "운영지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040100&menuNo=200767",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "통합돌봄과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040236&menuNo=201751",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "가족지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040237&menuNo=201754",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "지방보조금 부정수급 신고",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201734",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "공유촉진 지원사업",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201358",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "적극행정 지원제도",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201331",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "영아·유아·초등돌봄 서비스",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201538",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "동작형 통합돌봄",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201764",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "동작구 신청사",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=200950",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_080500&menuNo=200795"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "교육지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040800&menuNo=200775",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "운영지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040100&menuNo=200767",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "통합돌봄과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040236&menuNo=201751",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "가족지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040237&menuNo=201754",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "지방보조금 부정수급 신고",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201734",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "공유촉진 지원사업",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201358",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "적극행정 지원제도",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201331",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "영아·유아·초등돌봄 서비스",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201538",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "동작형 통합돌봄",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201764",
-      "onclick": "",
       "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_070300&menuNo=200854"
     },
     {
@@ -3524,29 +3559,29 @@
     },
     {
       "region": "서울특별시 동작구",
+      "title": "가족지원과",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040237",
+      "onclick": "",
+      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_050500&menuNo=201512"
+    },
+    {
+      "region": "서울특별시 동작구",
       "title": "교육지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040800&menuNo=200775",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040800",
       "onclick": "",
       "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_050500&menuNo=201512"
     },
     {
       "region": "서울특별시 동작구",
       "title": "운영지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040100&menuNo=200767",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_040100",
       "onclick": "",
       "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_050500&menuNo=201512"
     },
     {
       "region": "서울특별시 동작구",
       "title": "통합돌봄과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040236&menuNo=201751",
-      "onclick": "",
-      "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_050500&menuNo=201512"
-    },
-    {
-      "region": "서울특별시 동작구",
-      "title": "가족지원과",
-      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040237&menuNo=201754",
+      "url": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_4040236",
       "onclick": "",
       "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_050500&menuNo=201512"
     },
@@ -3581,7 +3616,7 @@
     {
       "region": "서울특별시 동작구",
       "title": "동작형 통합돌봄",
-      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201764",
+      "url": "https://www.dongjak.go.kr/portal/main/contents.do?menuNo=201763",
       "onclick": "",
       "board": "https://www.dongjak.go.kr/portal/bbs/B0001244/deptGdc.do?deptId=DP_050500&menuNo=201512"
     },
@@ -4700,6 +4735,13 @@
     },
     {
       "region": "경기도 하남시",
+      "title": "미사1동 통장 모집 공고(16통, 44통,46통,50통, 53통, 56통, 57통, 67통, 68통, 70통)새글",
+      "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=503249&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
+      "onclick": "",
+      "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=764&key=10053"
+    },
+    {
+      "region": "경기도 하남시",
       "title": "미사2동 통장 모집 공고(5통, 18통, 37통, 42통, 50통)",
       "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10053&amp;bbsNo=764&amp;nttNo=503075&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
       "onclick": "",
@@ -4895,20 +4937,6 @@
       "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=30&key=10051"
     },
     {
-      "region": "경기도 하남시",
-      "title": "경기도 AI 클러스터 하남 입주기업 모집핫이슈",
-      "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10051&amp;bbsNo=30&amp;nttNo=502772&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
-      "onclick": "",
-      "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=30&key=10051"
-    },
-    {
-      "region": "경기도 하남시",
-      "title": "&lt;2026년 하남시 찾아가는 마을학교&gt; 참여자 모집핫이슈",
-      "url": "https://www.hanam.go.kr/sosik/selectBbsNttView.do?key=10051&amp;bbsNo=30&amp;nttNo=502734&amp;searchCtgry=&amp;searchCnd=all&amp;searchKrwd=&amp;pageIndex=1&amp;integrDeptCode=&amp;selectPageUnit=",
-      "onclick": "",
-      "board": "https://www.hanam.go.kr/sosik/selectBbsNttList.do?bbsNo=30&key=10051"
-    },
-    {
       "region": "경기도 용인시",
       "title": "지방보조금",
       "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1187",
@@ -4926,13 +4954,6 @@
       "region": "경기도 용인시",
       "title": "[보건소] (선착순!)임산부의 날 기념, 직장인 임산부를 위한 탁상용 배려 표지판 신청 안내",
       "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1019&q_clCode=1&q_bbscttSn=20261002170828558&q_category=main",
-      "onclick": "",
-      "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1001&q_clCode=1"
-    },
-    {
-      "region": "경기도 용인시",
-      "title": "2026년 지역사회서비스투자사업 이용자 추가모집(3차) 일부 서비스 신청 마감 안내(장애인맞춤형운동,시각장애인안마)",
-      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1001&q_clCode=1&q_bbscttSn=20261002142017933",
       "onclick": "",
       "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1001&q_clCode=1"
     },
@@ -4962,6 +4983,20 @@
       "title": "위원회 위원 모집 공고",
       "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1170",
       "onclick": "",
+      "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1020"
+    },
+    {
+      "region": "경기도 용인시",
+      "title": "용인특례시, 적극행정 공무원 법률 지원 강화",
+      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1020&amp;q_bbscttSn=20261008075741291",
+      "onclick": "opView(",
+      "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1020"
+    },
+    {
+      "region": "경기도 용인시",
+      "title": "용인특례시, 내년 평생학습관서 활동할 강사 120명 모집",
+      "url": "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1020&amp;q_bbscttSn=20261008075440789",
+      "onclick": "opView(",
       "board": "https://www.yongin.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1020"
     },
     {
@@ -5442,13 +5477,6 @@
     },
     {
       "region": "경기도 이천시",
-      "title": "2027년 꿈빚체험 신규체험처 모집 공고",
-      "url": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000#",
-      "onclick": "yhLib.inline.post(this); return false;",
-      "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
-    },
-    {
-      "region": "경기도 이천시",
       "title": "민원신청/발급",
       "url": "https://www.icheon.go.kr/portal/contents.do?mid=0103000000",
       "onclick": "",
@@ -5504,6 +5532,13 @@
       "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
     },
     {
+      "region": "경기도 이천시",
+      "title": "지방보조금 부정수급 신고센터",
+      "url": "https://www.icheon.go.kr/portal/contents.do?mid=0205100000",
+      "onclick": "",
+      "board": "https://www.icheon.go.kr/portal/contents.do?mid=0401010000"
+    },
+    {
       "region": "경기도 광주시",
       "title": "광주비전·문자알리미 신청",
       "url": "https://www.gjcity.go.kr/portal/contents.do?mId=0203050000",
@@ -6622,76 +6657,6 @@
       "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186792&ptIdx=111#",
       "onclick": "goTo.view(",
       "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186792&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "과천주암 공공지원민간임대주택 공급촉진지구 조성",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111#",
-      "onclick": "",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "찾아가는 디지털 포용 시민교육(10월) 수강생 모집 안내",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "「과천 사는 이야기 마당」 사전 설문 참여 안내 (설문 참여자 선착순 송이·율이 키링 증정)",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "제3기 진화위 출범에 따른 진실규명 신청접수 안내(~'28. 2. 25.)",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "토지거래허가신청 구비서류 추가 안내(5.12. 발표 관련 세입자 있는 주택 매수)",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "[과천시 문자 알림 서비스]🔔 신청&해지 안내",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "토지거래허가신청 구비서류 안내",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "2026년 육군 민간부사관 모집",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "[교육] 2026년 추사박물관 신규 성인교육프로그램 홍보 및 모집안내",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111"
-    },
-    {
-      "region": "경기도 과천시",
-      "title": "[현수막 게시대] 11월 현수막 지정 게시대 신청 안내",
-      "url": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111#",
-      "onclick": "goTo.view(",
-      "board": "https://www.gccity.go.kr/portal/bbs/view.do?mId=0301010000&bIdx=186818&ptIdx=111"
     },
     {
       "region": "경기도 과천시",
@@ -6961,35 +6926,28 @@
     },
     {
       "region": "경기도 오산시",
-      "title": "중앙동 통장 공개모집 공고(54통)",
+      "title": "오산시 다함께돌봄센터 수탁자(재위탁) 모집 재공고",
       "url": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000#",
       "onclick": "req.post(this); return false;",
       "board": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000"
     },
     {
       "region": "경기도 오산시",
-      "title": "남촌동 통장 모집 공고(3,23,26,32,34,43통)",
+      "title": "2026년 오산시 청년·신혼 주택임차보증금 대출이자 지원사업 신청자 모집 공고",
       "url": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000#",
       "onclick": "req.post(this); return false;",
       "board": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000"
     },
     {
       "region": "경기도 오산시",
-      "title": "오산시 공동주택관리 감사관련 전문감사관 모집 공고",
+      "title": "2026년 재난대응 안전한국훈련 국민체험단 모집 공고(안)",
       "url": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000#",
       "onclick": "req.post(this); return false;",
       "board": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000"
     },
     {
       "region": "경기도 오산시",
-      "title": "오산시 노인맞춤돌봄서비스 수행기관 모집 제4차 공고",
-      "url": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000#",
-      "onclick": "req.post(this); return false;",
-      "board": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000"
-    },
-    {
-      "region": "경기도 오산시",
-      "title": "대원1동 통장 모집 공고(16, 25통)",
+      "title": "오산시 다함께돌봄센터(신규) 수탁자 모집 재공고",
       "url": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000#",
       "onclick": "req.post(this); return false;",
       "board": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000"
@@ -7031,7 +6989,21 @@
     },
     {
       "region": "경기도 오산시",
+      "title": "서비스 신청",
+      "url": "https://www.osan.go.kr/portal/contents.do?mId=0413010000",
+      "onclick": "",
+      "board": "https://www.osan.go.kr/portal/saeol/gosi/list.do?mId=0302010000"
+    },
+    {
+      "region": "경기도 오산시",
       "title": "2026년 오산시민 평화음악회 무료관람 신청 안내",
+      "url": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=182&mId=0301040000#",
+      "onclick": "goTo.view(",
+      "board": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=182&mId=0301040000"
+    },
+    {
+      "region": "경기도 오산시",
+      "title": "목공체험지도사 3급 양성 과정 모집 및 운영 알림",
       "url": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=182&mId=0301040000#",
       "onclick": "goTo.view(",
       "board": "https://www.osan.go.kr/portal/bbs/list.do?ptIdx=182&mId=0301040000"

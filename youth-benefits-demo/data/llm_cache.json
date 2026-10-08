@@ -160986,5 +160986,18 @@
     "amount": "검사비 지원",
     "show": true,
     "special": false
+  },
+  "g24-644000000863": {
+    "category": "주거",
+    "tags": [
+      "무주택",
+      "청년"
+    ],
+    "support_type": "대출",
+    "summary": "무주택 청년 주택임차보증금 이자 지원",
+    "target": "도내 거주 19~39세 무주택 청년",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
