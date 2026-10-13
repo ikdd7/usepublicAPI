@@ -160999,5 +160999,37 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006789": {
+    "category": "육아",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "초등 4~6학년 아동에게 연 30만원 바우처 지원",
+    "target": "문경시 거주 초등 4~6학년",
+    "amount": "연 30만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006791": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "특수교육대상자 치료·방과후 프로그램 지원",
+    "target": "특수교육대상자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00000366": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "행려자 귀향 여비 지원",
+    "target": "행려자",
+    "amount": "",
+    "show": false,
+    "special": true
   }
 }
