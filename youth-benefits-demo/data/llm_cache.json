@@ -161031,5 +161031,18 @@
     "amount": "",
     "show": false,
     "special": true
+  },
+  "g24-O00408400007": {
+    "category": "교육",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "장애인 평생교육이용권 우수이용자 지원",
+    "target": "2026년 경상북도 장애인평생교육이용권 이용자 중 35만원 이상 사용한 자",
+    "amount": "154명",
+    "show": true,
+    "special": true
   }
 }
