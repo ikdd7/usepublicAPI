@@ -161044,5 +161044,17 @@
     "amount": "154명",
     "show": true,
     "special": true
+  },
+  "bj-WLF00006793": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "임신·출산 영유아에게 출산지원금 지급",
+    "target": "임신·출산, 영유아",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
