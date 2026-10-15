@@ -161068,5 +161068,41 @@
     "amount": "",
     "show": true,
     "special": true
+  },
+  "g24-386000000147": {
+    "category": "건강",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 아동 대상 치과 진료 지원",
+    "target": "6~17세 아동(수급자, 한부모, 차상위, 지역아동센터 등록)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-386000000149": {
+    "category": "복지",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "부모 채무 대물림 방지 법률 지원",
+    "target": "부천시 거주 아동·청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000969": {
+    "category": "교육",
+    "tags": [
+      "육아"
+    ],
+    "support_type": "현금",
+    "summary": "3~5세 누리과정 유아학비 지원",
+    "target": "국공사립유치원 재원 유아",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
