@@ -161104,5 +161104,15 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006797": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "난치병 학생 치료비 지원",
+    "target": "난치병 앓는 아동, 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
