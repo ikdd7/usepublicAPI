@@ -161114,5 +161114,17 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-647000000196": {
+    "category": "주거",
+    "tags": [
+      "다자녀"
+    ],
+    "support_type": "대출",
+    "summary": "다자녀 가정 주택 구입 자금 이자 지원",
+    "target": "3자녀 이상 다자녀 가정, 부부 합산 연 소득 1.3억원 이하, 1주택 가구",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
