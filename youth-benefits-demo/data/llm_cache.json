@@ -161126,5 +161126,43 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006801": {
+    "category": "복지",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 재활체육 서비스 제공",
+    "target": "장애인 및 장애인가족, 저소득 시민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006800": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "장애어르신 쉼마루 운영",
+    "target": "노년 · 장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006802": {
+    "category": "교육",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "장애인 및 저소득 시민 정보화 교육",
+    "target": "장애인 및 장애인가족, 저소득 시민",
+    "amount": "무료",
+    "show": true,
+    "special": true
   }
 }
