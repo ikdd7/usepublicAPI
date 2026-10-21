@@ -161164,5 +161164,25 @@
     "amount": "무료",
     "show": true,
     "special": true
+  },
+  "g24-328000000106": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "성적우수자 및 생계곤란자 등 장학금 지급",
+    "target": "성적우수자, 생계곤란자, 특기자, 다자녀, 다문화, 학교밖청소년 등",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-328000000132": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "어린이집 안전공제회 단체가입 지원",
+    "target": "관내 어린이집, 영유아, 보육교직원",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
