@@ -161184,5 +161184,39 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-321000000146": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "서초구 산모 유축기 대여",
+    "target": "출산 후 3개월 이내 서초구 산모",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-O00021400006": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "와상장애인 전용 장애인콜택시 지원",
+    "target": "중증보행장애인(누워 이동해야 하는 사람)",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-648000001160": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "경상남도 대기오염경보 알림 서비스",
+    "target": "경상남도 대기오염경보 알림 서비스 신청자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
