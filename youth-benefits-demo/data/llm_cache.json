@@ -161218,5 +161218,42 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-435100000004": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "임산부·출산모 유축기 무료 대여",
+    "target": "양양군 거주 임산부 또는 출산모(신생아~12개월)",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000649": {
+    "category": "기타",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "서비스",
+    "summary": "취약계층 PC 무상 수리 지원",
+    "target": "장애인, 기초생활수급자, 차상위계층 등",
+    "amount": "무상 수리",
+    "show": true,
+    "special": true
+  },
+  "g24-641000000878": {
+    "category": "복지",
+    "tags": [
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "위기청소년 생활·학업 등 지원",
+    "target": "도내 9~24세 위기청소년(중위소득 100% 이하)",
+    "amount": "현금급여 또는 서비스",
+    "show": true,
+    "special": true
   }
 }
