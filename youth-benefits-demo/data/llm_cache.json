@@ -161255,5 +161255,59 @@
     "amount": "현금급여 또는 서비스",
     "show": true,
     "special": true
+  },
+  "g24-419100000014": {
+    "category": "금융",
+    "tags": [],
+    "support_type": "대출",
+    "summary": "원주 소재 중소기업 육성자금 지원",
+    "target": "원주시에 사업장 소재한 중소기업",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-513000000366": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "경산시 둘째아 이상 출생아 건강보험 지원",
+    "target": "경산시 거주 부모의 둘째아 이상 출생아",
+    "amount": "월 27,000원 이내 36회",
+    "show": true,
+    "special": false
+  },
+  "g24-382000000173": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "바우처",
+    "summary": "의정부시 14~19세 청소년 온라인 학습 수강권 지원",
+    "target": "의정부시 거주 14~19세 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000188": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "의왕시 모든 시민 대상 시민안전보험 지원",
+    "target": "의왕시 주민등록 모든 시민",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-536000000616": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "시민 대상 에이즈 및 성병 무료 검사",
+    "target": "검사를 희망하는 시민",
+    "amount": "무료",
+    "show": true,
+    "special": false
   }
 }
