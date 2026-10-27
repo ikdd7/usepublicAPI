@@ -161309,5 +161309,42 @@
     "amount": "무료",
     "show": true,
     "special": false
+  },
+  "g24-453000000446": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "가축 사육농가에 예방약품 및 컨설팅 지원",
+    "target": "가축 사육농가",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-408000000567": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "여성장애인 출산비용 최대 120만원 지원",
+    "target": "등록 여성장애인",
+    "amount": "최대 120만원",
+    "show": true,
+    "special": true
+  },
+  "g24-526000000130": {
+    "category": "문화",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "청소년 대상 역량강화 및 체험 프로그램 운영",
+    "target": "9세 ~ 24세 청소년",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
