@@ -161346,5 +161346,66 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-559000000454": {
+    "category": "주거",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "중소기업 노동자 기숙사 임차비 최대 80% 지원",
+    "target": "양주시 소재 중소 제조기업",
+    "amount": "임차료(월세) 80% 이내",
+    "show": true,
+    "special": false
+  },
+  "g24-403000000177": {
+    "category": "건강",
+    "tags": [
+      "저소득",
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "파상풍·백일해 예방접종 지원",
+    "target": "20세 이상 수급자·차상위, 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-559000000449": {
+    "category": "일자리",
+    "tags": [
+      "재직중"
+    ],
+    "support_type": "현금",
+    "summary": "중소기업 국내 전시회 참가비 지원",
+    "target": "양주시 소재 중소기업",
+    "amount": "2,000천원 한도",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001127": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "어선 자동화 시설 지원",
+    "target": "제주시 선적 연근해어선",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001128": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "연안어선 노후 기관 대체 지원",
+    "target": "제주시 선적 연안어선",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
