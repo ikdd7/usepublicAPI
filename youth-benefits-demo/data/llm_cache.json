@@ -161407,5 +161407,40 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006583": {
+    "category": "복지",
+    "tags": [
+      "한부모",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 한부모가족 냉난방비 지원",
+    "target": "저소득 한부모가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006784": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "발달장애인 생활안심보험 가입 지원",
+    "target": "발달장애인",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006804": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현물",
+    "summary": "다자녀가정 포천 쌀 지원",
+    "target": "포천시 다자녀가정",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
