@@ -161688,5 +161688,240 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-650000001165": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "소규모어가 직불금 지급",
+    "target": "농어업경영체 등록 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001162": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "청년어업인 영어정착지원 최대 월 110만원",
+    "target": "만 40세 미만, 어업경력 3년 이하 창업(예정)자",
+    "amount": "최대 월 110만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001164": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "조건불리지역 직불금 지급",
+    "target": "조건불리지역 거주 어업인, 연 판매액 120만원 이상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001157": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "신규해녀 초기정착금 지원",
+    "target": "만 45세 미만 현직 해녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001158": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "고령해녀 은퇴수당 월 50만원",
+    "target": "만 75세 이상 은퇴 희망 고령 해녀",
+    "amount": "월 50만원",
+    "show": true,
+    "special": false
+  },
+  "g24-O00388400009": {
+    "category": "교육",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "바우처",
+    "summary": "장애인 평생교육이용권 30만원 이상 사용 지원",
+    "target": "장애인 평생교육이용권 이용자, 30만원 이상 사용",
+    "amount": "30만원 이상",
+    "show": true,
+    "special": true
+  },
+  "g24-650000001161": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "고령해녀 현업수당 월 10~20만원",
+    "target": "제주 만 70세 이상 현업 고령 해녀",
+    "amount": "월 10~20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001106": {
+    "category": "교육",
+    "tags": [
+      "학생",
+      "구직중"
+    ],
+    "support_type": "현금",
+    "summary": "청년 자격증 응시료 1인 10만원 지원",
+    "target": "서귀포시 19~39세 대학생 및 미취업 청년",
+    "amount": "1인 10만원",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00005772": {
+    "category": "건강",
+    "tags": [
+      "장애인",
+      "저소득"
+    ],
+    "support_type": "현금",
+    "summary": "저소득 장애인부모 건강검진비 지원",
+    "target": "장애인 자녀 돌보는 저소득 부모",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-631000000722": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "70세 이상 어르신 시내버스 요금 무료",
+    "target": "울산 거주 70세 이상 어르신",
+    "amount": "무료",
+    "show": true,
+    "special": false
+  },
+  "g24-643000000744": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "사할린한인 장례비 및 교통비 지원",
+    "target": "도내 거주 사할린 한인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-644000000864": {
+    "category": "금융",
+    "tags": [
+      "신혼"
+    ],
+    "support_type": "현금",
+    "summary": "청년 주택임차보증금 이자 지원",
+    "target": "2025년 선정된 충남 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001105": {
+    "category": "일자리",
+    "tags": [
+      "학생",
+      "구직중",
+      "저소득",
+      "한부모",
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "대학생·청년 아르바이트 지원",
+    "target": "서귀포시 대학생 및 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001144": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "미지원 어린이집 누리과정 차액보육료 지원",
+    "target": "정부 미지원 어린이집 이용 만 3~5세 아동",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001146": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "저소득 국가유공자 및 유족 지원",
+    "target": "독립유공자 및 그 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-650000001150": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "보훈가족 생업지원 및 일상용품 지원",
+    "target": "독립유공자, 국가유공자 및 유족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-650000001153": {
+    "category": "일자리",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "국가유공자 등 취업지원",
+    "target": "독립유공자, 국가유공자 본인 및 가족",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-650000001156": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현물",
+    "summary": "해녀복 및 잠수장비 지원",
+    "target": "제주 마을어업 현직 해녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001159": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "신규해녀 어촌계 가입비 지원",
+    "target": "만 60세 미만 신규 가입 희망 해녀",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001160": {
+    "category": "건강",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "해녀 진료비 지원",
+    "target": "해녀증 소지 전현직 해녀",
+    "amount": "국비 100%",
+    "show": true,
+    "special": false
   }
 }
