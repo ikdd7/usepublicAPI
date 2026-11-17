@@ -161442,5 +161442,251 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-310000000377": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "보험",
+    "summary": "노원구민 자전거 사고 보장",
+    "target": "노원구 거주 주민, 공공자전거 이용자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-325000000250": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "부산 중구 출생아 1천만원 출산축하금 지원",
+    "target": "2025.10.1. 이후 출생아 보호자",
+    "amount": "최대 1,000만원",
+    "show": true,
+    "special": false
+  },
+  "g24-303000000348": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "성동구 6.25 참전유공자 위문금 30만원 지급",
+    "target": "성동구 거주 6.25 참전유공자",
+    "amount": "30만원",
+    "show": true,
+    "special": true
+  },
+  "g24-316000000165": {
+    "category": "교육",
+    "tags": [
+      "학생"
+    ],
+    "support_type": "서비스",
+    "summary": "아동·청소년 정서발달지원 서비스 제공",
+    "target": "기준 중위소득 140% 이하, 만 6~18세 아동·청소년",
+    "amount": "월 20만원",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000184": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "서비스",
+    "summary": "동작구 거동불편 어르신 효도세탁 서비스 지원",
+    "target": "동작구 거동불편 만 65세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000240": {
+    "category": "건강",
+    "tags": [
+      "운수종사자"
+    ],
+    "support_type": "현금",
+    "summary": "서울형 입원생활비 지원",
+    "target": "이동노동자, 방문노동자 (기준 중위소득 100% 이하)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00000112": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현금",
+    "summary": "출산진료비 지원",
+    "target": "임신·출산 관련 대상",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-303000000349": {
+    "category": "복지",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "성동구 참전유공자 배우자 복지수당 지급",
+    "target": "성동구 거주 사망 참전유공자 배우자",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "g24-304000000238": {
+    "category": "건강",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "서비스",
+    "summary": "광진구 임신부 운동교실 지원",
+    "target": "광진구 거주 임신부 (16주~28주)",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-304000000239": {
+    "category": "복지",
+    "tags": [
+      "1인가구"
+    ],
+    "support_type": "서비스",
+    "summary": "서울 1인가구 자기돌봄 역량강화 상담 지원",
+    "target": "서울 생활권 1인가구",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-319000000176": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "바우처",
+    "summary": "동작구 임신부 태교 패키지 지원",
+    "target": "동작구 거주 임신부",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-392000000170": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "동두천시민 성인문해 교육 제공",
+    "target": "동두천시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-447000000157": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "음성군 난임부부 시술 후 약제비 지원",
+    "target": "음성군 난임부부 시술비 지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-481000000362": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "감면",
+    "summary": "여순사건 희생자·유족 공영주차장 요금 50% 감면",
+    "target": "여순사건 희생자 및 유족",
+    "amount": "50%",
+    "show": true,
+    "special": true
+  },
+  "g24-497000000644": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "대출",
+    "summary": "영광군 소상공인 경영안정자금 이차보전 지원",
+    "target": "연매출 10억 이하 관내 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-531000000651": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "재난 발생 시 피해 시민 응급의료 지원",
+    "target": "재난 등 발생 시 피해 시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-535000000612": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "김해시 난임부부 시술 후 약제비 지원",
+    "target": "김해시 난임부부 시술비 지원 대상자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-553000000596": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "화성시 위생 영업 사전심사 청구 지원",
+    "target": "화성시 위생 영업 신규·변경 희망자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-559000000457": {
+    "category": "환경·생활",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "양주시민 실내공기질·라돈 측정기 대여",
+    "target": "양주시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001149": {
+    "category": "기타",
+    "tags": [],
+    "support_type": "보험",
+    "summary": "제주도민 재난사고 피해보상 보험 운영",
+    "target": "제주도민, 등록외국인",
+    "amount": "1,500만원",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001163": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "서비스",
+    "summary": "수산업경영인 선발 및 지원",
+    "target": "만 18세 이상 50세 미만 어업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-650000001166": {
+    "category": "농업",
+    "tags": [
+      "농어업인"
+    ],
+    "support_type": "현금",
+    "summary": "경영이양 직불금 지급",
+    "target": "어업경영체 등록 어업인, 어촌계원",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
