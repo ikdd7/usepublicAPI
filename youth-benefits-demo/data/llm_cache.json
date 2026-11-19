@@ -161947,5 +161947,125 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006807": {
+    "category": "복지",
+    "tags": [
+      "다문화가족"
+    ],
+    "support_type": "서비스",
+    "summary": "다문화가족 모국 방문 기회 제공",
+    "target": "다문화·탈북민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006808": {
+    "category": "복지",
+    "tags": [
+      "노년"
+    ],
+    "support_type": "서비스",
+    "summary": "100세 이상 어르신 장수 축하 지원",
+    "target": "100세 이상 어르신",
+    "amount": "",
+    "show": true,
+    "special": true
+  },
+  "bj-WLF00006810": {
+    "category": "건강",
+    "tags": [
+      "아동",
+      "청소년"
+    ],
+    "support_type": "서비스",
+    "summary": "초등학생 치과 의료 접근성 향상 지원",
+    "target": "보은군 초등학생",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006806": {
+    "category": "교육",
+    "tags": [
+      "영유아"
+    ],
+    "support_type": "서비스",
+    "summary": "유아숲체험원 조성 및 운영",
+    "target": "영유아",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-626000000680": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "연매출 10억 이하 가맹점 카드수수료 지원",
+    "target": "연매출 10억 이하 동백전 가맹점",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00002851": {
+    "category": "주거",
+    "tags": [
+      "청년"
+    ],
+    "support_type": "현금",
+    "summary": "청년 주거비 부담 완화 지원",
+    "target": "부산 거주 청년",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006813": {
+    "category": "농업",
+    "tags": [
+      "청년",
+      "농업인"
+    ],
+    "support_type": "현금",
+    "summary": "청년농업인 농지 임대료 지원",
+    "target": "청년농업인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006809": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "전 군민 인플루엔자 예방접종 지원",
+    "target": "전 군민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006815": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "사회복지 종사자 장기근속비 지원",
+    "target": "장애인복지과 사회복지 종사자",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006814": {
+    "category": "복지",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "현금",
+    "summary": "사회복지 종사자 장기근속비 지원",
+    "target": "경기도 장애인자립지원과 종사자",
+    "amount": "5만원",
+    "show": true,
+    "special": false
   }
 }
