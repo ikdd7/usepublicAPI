@@ -162091,5 +162091,15 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "bj-WLF00006816": {
+    "category": "건강",
+    "tags": [],
+    "support_type": "현금",
+    "summary": "50세 이상 대상포진 예방접종 비용 지원",
+    "target": "50세 이상 군민",
+    "amount": "예방접종 비용 지원",
+    "show": true,
+    "special": true
   }
 }
