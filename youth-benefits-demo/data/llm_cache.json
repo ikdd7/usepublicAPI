@@ -162101,5 +162101,25 @@
     "amount": "예방접종 비용 지원",
     "show": true,
     "special": true
+  },
+  "g24-558000000311": {
+    "category": "교육",
+    "tags": [],
+    "support_type": "바우처",
+    "summary": "19세 이상 계룡시민 평생학습 수강료 지원",
+    "target": "19세 이상 계룡시민",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-558000000312": {
+    "category": "복지",
+    "tags": [],
+    "support_type": "서비스",
+    "summary": "청소년 및 보호자 상담 서비스 제공",
+    "target": "9세~24세 청소년 및 보호자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
