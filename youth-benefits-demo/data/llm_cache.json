@@ -162121,5 +162121,33 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-425100000009": {
+    "category": "주거",
+    "tags": [
+      "청년",
+      "무주택",
+      "신혼",
+      "한부모"
+    ],
+    "support_type": "서비스",
+    "summary": "홍천북방 공공임대주택 입주자 모집",
+    "target": "무주택 청년, 신혼부부, 한부모가정",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "bj-WLF00006818": {
+    "category": "일자리",
+    "tags": [
+      "자영업·창업",
+      "육아"
+    ],
+    "support_type": "서비스",
+    "summary": "자영업자 육아로 인한 인력 공백 최소화 지원",
+    "target": "울산 자영업자",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
