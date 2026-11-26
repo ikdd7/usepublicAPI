@@ -162149,5 +162149,29 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-450000000169": {
+    "category": "금융",
+    "tags": [
+      "자영업·창업"
+    ],
+    "support_type": "현금",
+    "summary": "소상공인 카드수수료 지원",
+    "target": "공주시 소재 연매출 5억 이하 소상공인",
+    "amount": "",
+    "show": true,
+    "special": false
+  },
+  "g24-448000000683": {
+    "category": "육아",
+    "tags": [
+      "임신·출산"
+    ],
+    "support_type": "현물",
+    "summary": "단양군 출생아 기념 주민등록증 제작 지원",
+    "target": "단양군 거주 출생아",
+    "amount": "",
+    "show": true,
+    "special": false
   }
 }
