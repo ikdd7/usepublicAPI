@@ -162173,5 +162173,29 @@
     "amount": "",
     "show": true,
     "special": false
+  },
+  "g24-O00081600008": {
+    "category": "교육",
+    "tags": [
+      "장애인"
+    ],
+    "support_type": "바우처",
+    "summary": "장애인 평생교육이용권 우수이용자 지원",
+    "target": "2026년 서울시 장애인 평생교육이용권 선정자 중 지원금 전액 사용자",
+    "amount": "35만원",
+    "show": true,
+    "special": true
+  },
+  "g24-183000000024": {
+    "category": "교육",
+    "tags": [
+      "제대군인"
+    ],
+    "support_type": "현금",
+    "summary": "제대군인 직업교육훈련비 지원",
+    "target": "5년 이상 복무 제대군인 및 전역예정자",
+    "amount": "최대 150만원",
+    "show": true,
+    "special": true
   }
 }
